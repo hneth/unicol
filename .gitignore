@@ -1,12 +1,22 @@
+## .gitignore | unicol | 2023 04 10
+
+## 1. generic stuff: -----
+
+# self:
+# .gitignore
+
+# Mac OS:
+.DS_Store
+
+
+## 2. R stuff: -----
+
 # History files
 .Rhistory
 .Rapp.history
 
-# Session Data files
+# Session data files
 .RData
-
-# User-specific files
-.Ruserdata
 
 # Example code in package build process
 *-Ex.R
@@ -14,26 +24,47 @@
 # Output files from R CMD build
 /*.tar.gz
 
-# Output files from R CMD check
+# Output files from R CMD check: 
 /*.Rcheck/
 
-# RStudio files
+# RStudio files: 
 .Rproj.user/
+*.Rproj
 
-# produced vignettes
+# produced vignettes: 
 vignettes/*.html
 vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# knitr and RMarkdown cache and files directories:
+*/*_cache/
+# */*_files/
+# **/figure-html
 
-# Temporary files created by R markdown
+# RMarkdown: 
 *.utf8.md
 *.knit.md
+.Rproj.user
 
-# R Environment Variables
-.Renviron
+# CRAN:
+cran-comments.md
+^CRAN-RELEASE$
+
+# pkgdown: 
+^_pkgdown\.yml$
+^pkgdown$
+^logo.png$
+
+
+## 3. Project files: -----
+
+# dirs:
+_gitless
+
+# files:
+.PowerFolder
+desktop.ini
+
+## eof.
