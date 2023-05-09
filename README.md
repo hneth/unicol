@@ -11,4 +11,11 @@ A collaborative project developed by the following university seminar:
 * Spring 2023: **Tuesdays**, **13:30-15:00**; in **C426** 
 * Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
 
+
+------
+
+<!-- Footer: -->
+
+[File `README.md` updated on 2023-05-09.]
+
 <!-- eof. --> 
