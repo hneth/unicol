@@ -1,4 +1,4 @@
-## .gitignore | unicol | 2023 04 10
+## .gitignore | unicol | 2023 05 13
 
 ## 1. generic stuff: -----
 
@@ -8,6 +8,9 @@
 # Mac OS:
 .DS_Store
 
+# Output files:
+*.html
+*.pdf
 
 ## 2. R stuff: -----
 
