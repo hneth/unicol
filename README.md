@@ -2,7 +2,6 @@
 
 The colors of your university.
 
-
 <!-- Course coordinates: --> 
 
 A collaborative project developed by the following university seminar:
@@ -16,6 +15,6 @@ A collaborative project developed by the following university seminar:
 
 <!-- Footer: -->
 
-[File `README.md` updated on 2023-05-12.]
+[File `README.md` updated on 2023-05-16.]
 
 <!-- eof. --> 
