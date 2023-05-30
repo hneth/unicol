@@ -27,9 +27,9 @@ unicol.guide <- function() {
   # welcome_message <- paste0("Welcome to unicol (v", pkg_version, ")!")
   # packageStartupMessage(in_grau(welcome_message))
   
-  packageStartupMessage(in_grau("Welcome to ", in_seeblau("unicol"), " (v", pkg_version, ")!", sep = ""))
+  packageStartupMessage(cli::col_grey("Welcome to ", cli::col_blue("unicol"), " (v", pkg_version, ")!", sep = ""))
   
 }
-  
+
 
 ## eof. ----------
