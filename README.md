@@ -15,6 +15,6 @@ A collaborative project developed by the following university seminar:
 
 <!-- Footer: -->
 
-[File `README.md` updated on 2023-05-16.]
+[File `README.md` updated on 2023-05-30.]
 
 <!-- eof. --> 
