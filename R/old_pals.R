@@ -1,115 +1,9 @@
 ## old_pals.R | 2022 05 30
-## Color palettes from unikn 
-## ---------------------------
-
-# Add color palettes of various institutions 
-# (and export contributed color palettes).
-
-# Note:
-# - Many users only want to use, rather than create or manipulate color palettes. 
-# - For convenience, uni_pals are provided as named vectors (not data frames).
+## Old color palettes (from unikn)
+## -------------------------------
 
 
-# uni_data: Overview -----
-
-# Institution names and URLs of add_pals:
-
-add_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
-              "eth_pal_1", "eth_pal_2", "eth_pal_3",
-              "fu_pal_0", "fu_pal_1", "fu_pal_2", "fu_pal_3",
-              "hu_pal_1", "hu_pal_2",
-              "lmu_pal_1", "lmu_pal_2", "lmu_pal_3",
-              "mpg_pal",
-              "uni_bonn_1", "uni_bonn_2",
-              "uni_freiburg_0", "uni_freiburg_1", "uni_freiburg_2",
-              "uni_freiburg_br", "uni_freiburg_blue", "uni_freiburg_grey", "uni_freiburg_info",
-              "uni_goettingen_1", "uni_goettingen_2", "uni_goettingen_3",
-              "uni_hamburg_1", "uni_hamburg_2",
-              "uni_jena_1", "uni_jena_2",
-              "uni_kiel_1", "uni_kiel_2",
-              "uni_koeln_1", "uni_koeln_2",
-              "uni_konstanz_1", "uni_konstanz_2",
-              "uni_mannheim_1", "uni_mannheim_2",
-              "uni_princeton_0", "uni_princeton_1", "uni_princeton_2",
-              "uni_regensburg_1", "uni_regensburg_2", "uni_regensburg_3",
-              "uni_ulm_1", "uni_ulm_2",
-              "rpi_pal_1", "rpi_pal_2", "rpi_pal_3",
-              "rptu_pal"
-)
-
-# Note: 
-# - add_pals is a character vector that contains all names of additional color palettes 
-# - add_pals is currently defined in file color_def_1.R
-
-inst <- c(rep("Caltech", 3), 
-          rep("ETH Zurich", 3),
-          rep("Free University Berlin", 4),
-          rep("Humboldt University Berlin", 2),
-          rep("LMU Munich", 3),
-          "Max Planck Society",
-          rep("University of Bonn", 2), 
-          rep("University of Freiburg", 7),
-          rep("University of Goettingen", 3),
-          rep("University of Hamburg", 2),
-          rep("University of Jena", 2),          
-          rep("Kiel University", 2),
-          rep("University of Koeln", 2),
-          rep("University of Konstanz", 2),
-          rep("University of Mannheim", 2),          
-          rep("Princeton University", 3),
-          rep("University of Regensburg", 3),
-          rep("University of Ulm", 2),          
-          rep("RPI", 3), 
-          "RPTU Kaiserslautern-Landau"
-)
-
-inst_alt <- c(rep("California Institute of Technology", 3),
-              rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
-              rep("Freie Universit\u00E4t Berlin", 4),
-              rep("Humboldt Universit\u00E4t zu Berlin", 2),
-              rep("Ludwig-Maximilians-Universit\u00E4t M\u00FCnchen", 3),
-              "Max-Planck-Gesellschaft",
-              rep("Universit\u00E4t Bonn", 2),
-              rep("Universit\u00E4t Freiburg", 7),
-              rep("Universit\u00E4t G\u00F6ttingen", 3),
-              rep("Universit\u00E4t Hamburg", 2),
-              rep("Friedrich-Schiller-Universit\u00E4t Jena", 2),
-              rep("Christian-Albrechts-Universit\u00E4t (CAU) zu Kiel", 2), 
-              rep("Universit\u00E4t zu K\u00F6ln", 2),
-              rep("Universit\u00E4t Konstanz", 2),
-              rep("Universit\u00E4t Mannheim", 2),
-              rep("Princeton University", 3),
-              rep("Universit\u00E4t Regensburg", 3),
-              rep("Universit\u00E4t Ulm", 2),
-              rep("Rensselaer Polytechnic Institute", 3), 
-              "Rheinland-Pf\u00E4lzische Technische Universit\u00E4t Kaiserslautern-Landau"
-)
-
-url <- c(rep("https://www.caltech.edu/", 3), 
-         rep("https://ethz.ch/", 3),
-         rep("https://www.fu-berlin.de/en/index.html", 4),
-         rep("https://www.hu-berlin.de/en", 2),
-         rep("https://www.lmu.de/en/index.html", 3),
-         "https://www.mpg.de/en",
-         rep("https://www.uni-bonn.de/en", 2),
-         rep("https://uni-freiburg.de/", 7),
-         rep("https://uni-goettingen.de/", 3),
-         rep("https://www.uni-hamburg.de/", 2),
-         rep("https://www.uni-jena.de/", 2),
-         rep("https://www.uni-koeln.de/", 2),
-         rep("https://www.uni-kiel.de/en/", 2),
-         rep("https://www.uni-konstanz.de/", 2),
-         rep("https://www.uni-mannheim.de/", 2),
-         rep("https://www.princeton.edu/", 3),
-         rep("https://www.uni-regensburg.de/", 3),
-         rep("https://www.uni-ulm.de/", 2),
-         rep("https://www.rpi.edu/", 3),
-         "https://rptu.de/"
-)
-
-uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = add_pals)
-# uni_data
-
+# Colors and color palettes of various institutions.
 
 
 # Caltech: ------ 
@@ -192,6 +86,7 @@ col_caltech_n6 <- "#C7B784"  # Note: RGB values differ WIDELY!
 col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 # col_caltech_n7 <- rgb(242, 211, 131, maxColorValue = 255)  # Note: HEX values differ!
 
+
 # - caltech_pal_1: Primary and neutral colors ----
 
 #' Primary and neutral colors of Caltech
@@ -218,17 +113,20 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' 
 #' @examples
 #' caltech_pal_1
-#' seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
-#' demopal(caltech_pal_1, type = 4, seed = 1,  
-#'         main = "Using the primary and neutral colors of Caltech")
+#' unikn::seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
+#' unikn::demopal(caltech_pal_1, type = 4, seed = 1,  
+#'                main = "Using the primary and neutral colors of Caltech")
 #'
 #' @family contributed color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors. 
-#' 
-#' @importFrom unikn newpal
+#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -300,17 +198,20 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' 
 #' @examples
 #' caltech_pal_2
-#' seecol(caltech_pal_2, main = "Primary and deep colors of Caltech")
-#' demopal(caltech_pal_2, type = 2, seed = 2,  
-#'         main = "Using the primary and deep colors of Caltech")
+#' unikn::seecol(caltech_pal_2, main = "Primary and deep colors of Caltech")
+#' unikn::demopal(caltech_pal_2, type = 2, seed = 2,  
+#'                main = "Using the primary and deep colors of Caltech")
 #'
 #' @family contributed color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors. 
-#' 
-#' @importFrom unikn newpal
+#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -409,17 +310,20 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' 
 #' @examples
 #' caltech_pal_3
-#' seecol(caltech_pal_3, main = "Primary and bright colors of Caltech")
-#' demopal(caltech_pal_3, type = 3, seed = 1,  
-#'         main = "Using the primary and bright colors of Caltech")
+#' unikn::seecol(caltech_pal_3, main = "Primary and bright colors of Caltech")
+#' unikn::demopal(caltech_pal_3, type = 3, seed = 1,  
+#'                main = "Using the primary and bright colors of Caltech")
 #'
 #' @family contributed color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors. 
-#' 
-#' @importFrom unikn newpal
+#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -477,8 +381,8 @@ nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
 #' 
 #' @examples
 #' uni_goettingen_1
-#' seecol(uni_goettingen_1, main = "The primary colors of Uni Göttingen")  # view color palette
-#' demopal(uni_goettingen_1, type = 1, main = "Primary colors of the University of Goettingen")
+#' unikn::seecol(uni_goettingen_1, main = "The primary colors of Uni Göttingen")  # view color palette
+#' unikn::demopal(uni_goettingen_1, type = 1, main = "Primary colors of the University of Goettingen")
 #'
 #' @family contributed color palettes
 #'
@@ -496,7 +400,7 @@ uni_goettingen_1 <- unikn::newpal(col = col_goe_primary,
                                   names = nam_goe_primary,
                                   as_df = FALSE)
 
-# seecol(uni_goettingen_1)
+# unikn::seecol(uni_goettingen_1)
 
 # - uni_goettingen_2: Secondary colors ----
 
@@ -505,7 +409,7 @@ uni_goettingen_1 <- unikn::newpal(col = col_goe_primary,
 # Error: RGB defines "Chamois", HEX defines "Altweiss"
 # 
 # goe_chamois <- rgb(red = 234, green = 226, blue = 216, maxColorValue = 255)
-# seecol(goe_chamois)     # HEX: "#EAE2D8"
+# unikn::seecol(goe_chamois)     # HEX: "#EAE2D8"
 # rgb2hex(234, 226, 216)  # HEX: "#EAE2D8"
 
 col_goe_secondary <- c("black",   "white",   "#eae2d8", "#f2f0e8", 
@@ -538,8 +442,8 @@ nam_goe_secondary <- c("schwarz", "weiss", "chamois", "altweiss",
 #' 
 #' @examples
 #' uni_goettingen_2
-#' seecol(uni_goettingen_2, main = "Secondary colors of the University of Göttingen")
-#' demopal(uni_goettingen_2, type = 3, main = "Secondary colors of Uni Goettingen")
+#' unikn::seecol(uni_goettingen_2, main = "Secondary colors of the University of Göttingen")
+#' unikn::demopal(uni_goettingen_2, type = 3, main = "Secondary colors of Uni Goettingen")
 #'
 #' @family contributed color palettes
 #'
@@ -557,7 +461,7 @@ uni_goettingen_2 <- unikn::newpal(col = col_goe_secondary,
                                   names = nam_goe_secondary,
                                   as_df = FALSE)
 
-# seecol(uni_goettingen_2)
+# unikn::seecol(uni_goettingen_2)
 
 
 # - uni_goettingen_3: Departments / faculties ----
@@ -577,7 +481,7 @@ uni_goettingen_2 <- unikn::newpal(col = col_goe_secondary,
 # Theologische Fakultaet: RGB values (68 37 61) do not correspond to HEX code ("#4a203b")
 # 
 # col_theo <- rgb(red = 68, green = 37, blue = 61, maxColorValue = 255)
-# seecol(col_theo)     # HEX: "#44253D"
+# unikn::seecol(col_theo)     # HEX: "#44253D"
 # rgb2hex(68, 37, 61)  # HEX: "#44253D"
 # Correction: Using HEX code corresponding to RGB values.
 
@@ -613,8 +517,8 @@ nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "F
 #' 
 #' @examples
 #' uni_goettingen_3
-#' seecol(uni_goettingen_3, main = "Department colors at the University of Göttingen")  
-#' demopal(uni_goettingen_3, type = 3, main = "Department colors of the University of Goettingen")
+#' unikn::seecol(uni_goettingen_3, main = "Department colors at the University of Göttingen")  
+#' unikn::demopal(uni_goettingen_3, type = 3, main = "Departmental colors of Goettingen University")
 #'
 #' @family contributed color palettes
 #'
@@ -632,7 +536,7 @@ uni_goettingen_3 <- unikn::newpal(col = col_goe_fac,
                                   names = nam_goe_fac,
                                   as_df = FALSE)
 
-# seecol(uni_goettingen_3)
+# unikn::seecol(uni_goettingen_3)
 
 
 # ETH Zurich / Eidgenössische Technische Hochschule, Zürich, CH: ------
@@ -699,8 +603,8 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' 
 #' @examples
 #' eth_pal_1
-#' seecol(eth_pal_1, main = "Default colors of the ETH Zürich")  # view color palette
-#' demopal(eth_pal_1, type = 3, main = "Using the default colors of ETH Zurich")
+#' unikn::seecol(eth_pal_1, main = "Default colors of the ETH Zürich")  # view color palette
+#' unikn::demopal(eth_pal_1, type = 3, main = "Using the default colors of ETH Zurich")
 #'
 #' @family contributed color palettes
 #'
@@ -778,8 +682,8 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' 
 #' @examples
 #' eth_pal_2
-#' seecol(eth_pal_2, main = "Light shades of the ETH Zurich")  # view color palette
-#' demopal(eth_pal_2, type = 4, main = "Light shades of ETH Zürich colors")
+#' unikn::seecol(eth_pal_2, main = "Light shades of the ETH Zurich")  # view color palette
+#' unikn::demopal(eth_pal_2, type = 4, main = "Light shades of ETH Zürich colors")
 #'
 #' @family contributed color palettes
 #'
@@ -809,7 +713,7 @@ eth_pal_2 <- unikn::newpal(col = col_ETH_light,
 #   RGB 0, 0, 0,
 #   "#00000"
 
-eth_black <- "black"  # = usecol("#000000")
+eth_black <- "black"  # = unikn::usecol("#000000")
 
 # - Black light: black backgrounds such as meta-navigation and buttons
 #   RGB 34, 34, 34
@@ -882,8 +786,8 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' 
 #' @examples
 #' eth_pal_3
-#' seecol(eth_pal_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
-#' demopal(eth_pal_3, type = 2, main = "Black and gray colors of ETH Zürich")
+#' unikn::seecol(eth_pal_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
+#' unikn::demopal(eth_pal_3, type = 2, main = "Black and gray colors of ETH Zürich")
 #'
 #' @family contributed color palettes
 #'
@@ -938,7 +842,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
                           names = c("FU blue", "FU green"),
                           as_df = FALSE)
 
-# seecol(fu_col_1, main = "Primary colors of FU Berlin")
+# unikn::seecol(fu_col_1, main = "Primary colors of FU Berlin")
 
 # - fu_pal_0: Primary colors ----
 
@@ -969,8 +873,8 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' 
 #' @examples
 #' fu_pal_0
-#' seecol(fu_pal_0, main = "Primary colors of the FU Berlin")  # view color palette
-#' demopal(fu_pal_0, type = 1, main = "Primary colors of the FU Berlin")
+#' unikn::seecol(fu_pal_0, main = "Primary colors of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_pal_0, type = 1, main = "Primary colors of the FU Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1007,7 +911,7 @@ fu_accent <- unikn::newpal(col = c("#FF9900", "#CC0000", "#0066CC"),
                            names = c("FU accent orange", "FU accent red", "FU accent blue"),
                            as_df = FALSE)
 
-# seecol(fu_accent, main = "Secondary/accent colors of the FU Berlin")
+# unikn::seecol(fu_accent, main = "Secondary/accent colors of the FU Berlin")
 
 
 # Grautöne
@@ -1023,7 +927,7 @@ fu_accent <- unikn::newpal(col = c("#FF9900", "#CC0000", "#0066CC"),
 # -* 	  - 	      #F1F1F1 	    241-241-241
 
 # Note positions in:
-# seecol(usecol(c("black", "white"), n = 20))
+# unikn::seecol(unikn::usecol(c("black", "white"), n = 20))
 
 fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
                                   "#DDDDDD", "#EEEEEE", "#F1F1F1"),
@@ -1031,7 +935,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
                                     "FU grey 5", "FU grey 6", "FU grey 7"),
                           as_df = FALSE)
 
-# seecol(fu_greys, main = "Shades of grey colors of FU Berlin")
+# unikn::seecol(fu_greys, main = "Shades of grey colors of FU Berlin")
 
 
 # - fu_pal_2: Secondary and grey colors ----
@@ -1056,8 +960,8 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' 
 #' @examples
 #' fu_pal_2
-#' seecol(fu_pal_2, main = "Secondary colors of the FU Berlin")  # view color palette
-#' demopal(fu_pal_2, type = 5, main = "Accent and grey colors of the FU Berlin")
+#' unikn::seecol(fu_pal_2, main = "Secondary colors of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_pal_2, type = 5, main = "Accent and grey colors of the FU Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1091,7 +995,7 @@ fu_pal_2 <- c(fu_accent, fu_greys)
 # 10% 	- 	      #C5D2E4 	    197-210-228
 
 # Note differences to:
-# seecol(usecol(c(fu_blue, "white"), n = 11))
+# unikn::seecol(unikn::usecol(c(fu_blue, "white"), n = 11))
 
 fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#587A9E",
                                   "#6D8BAC", "#839DBA", "#99AFC8", "#AFC0D6", "#C5D2E4"),
@@ -1099,7 +1003,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
                                     "FU blue 50%", "FU blue 40%", "FU blue 30%", "FU blue 20%", "FU blue 10%"),
                           as_df = FALSE)
 
-# seecol(fu_blues, main = "Shades of blue colors of FU Berlin")
+# unikn::seecol(fu_blues, main = "Shades of blue colors of FU Berlin")
 
 
 # - fu_pal_3: Blue color gradient ----
@@ -1125,8 +1029,8 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' 
 #' @examples
 #' fu_pal_3
-#' seecol(fu_pal_3, main = "Blue color gradient of the FU Berlin")  # view color palette
-#' demopal(fu_pal_3, type = 3, main = "Blue color gradient of the FU Berlin")
+#' unikn::seecol(fu_pal_3, main = "Blue color gradient of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_pal_3, type = 3, main = "Blue color gradient of the FU Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1160,10 +1064,10 @@ fu_pal_3 <- fu_blues
 # 40-0-90-0 	  - 	#89BC0A 	    137-188-10
 
 # Note correspondence to:
-# seecol(usecol(c(fu_blue, fu_green), n = 11)[c(2:10)])
+# unikn::seecol(unikn::usecol(c(fu_blue, fu_green), n = 11)[c(2:10)])
 
 # fu_blue_green <- unikn::usecol(c(fu_blue, fu_green), n = 11, use_col_ramp = TRUE)
-# seecol(fu_blue_green, main = "Gradient from blue to green colors of FU Berlin")
+# unikn::seecol(fu_blue_green, main = "Gradient from blue to green colors of FU Berlin")
 
 
 # - fu_pal_1: Primary color gradient ----
@@ -1189,8 +1093,8 @@ fu_pal_3 <- fu_blues
 #' 
 #' @examples
 #' fu_pal_1
-#' seecol(fu_pal_1, main = "Primary color gradient of the FU Berlin")  # view color palette
-#' demopal(fu_pal_1, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
+#' unikn::seecol(fu_pal_1, main = "Primary color gradient of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_pal_1, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1214,7 +1118,7 @@ fu_pal_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
                           names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
                           as_df = FALSE)
 
-# seecol(fu_pal_1, main = "Blue/green color gradient of the FU Berlin")
+# unikn::seecol(fu_pal_1, main = "Blue/green color gradient of the FU Berlin")
 
 
 # HU Berlin / Humboldt University Berlin: ------
@@ -1236,7 +1140,7 @@ HU_0 <- rgb(0, 55, 108, names = "HU blau", maxColorValue = 255)  # RGB of Panton
 # "in der eingeschränkten Farbauswahl für das Internet":
 HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)  
 
-# seecol(rev(shades_of(21, HU_0))[-1], main = "20 shades of HU blau")
+# unikn::seecol(rev(shades_of(21, HU_0))[-1], main = "20 shades of HU blau")
 
 
 # - hu_pal_1: Primary colors ---- 
@@ -1263,8 +1167,8 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' 
 #' @examples
 #' hu_pal_1
-#' seecol(hu_pal_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
-#' demopal(hu_pal_1, type = 1, main = "Colors of Humboldt University Berlin")
+#' # unikn::seecol(hu_pal_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
+#' unikn::demopal(hu_pal_1, type = 1, main = "Colors of Humboldt University Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1282,7 +1186,7 @@ hu_pal_1 <- unikn::newpal(col = c(HU_0, "white", "black"),
                           names = c("HU blau", "weiss", "schwarz"), 
                           as_df = FALSE)
 
-# seecol(hu_pal_1, n = 3)
+# unikn::seecol(hu_pal_1, n = 3)
 
 
 # Farbklima
@@ -1353,8 +1257,8 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' 
 #' @examples
 #' hu_pal_2
-#' seecol(hu_pal_2, main = "The colors of HU Berlin")  # view color palette
-#' demopal(hu_pal_2, type = 3, main = "Colors of Humboldt University Berlin")
+#' unikn::seecol(hu_pal_2, main = "The colors of HU Berlin")  # view color palette
+#' unikn::demopal(hu_pal_2, type = 3, main = "Colors of Humboldt University Berlin")
 #'
 #' @family contributed color palettes
 #'
@@ -1372,7 +1276,7 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
                           names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
                           as_df = FALSE)
 
-# seecol(hu_pal_2)
+# unikn::seecol(hu_pal_2)
 
 
 
@@ -1407,10 +1311,10 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' 
 #' # Combining primary and secondary LMU colors:
 #' lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
-#' demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
+#' unikn::demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 #' 
 #' lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
-#' demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
+#' unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -1424,8 +1328,8 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' 
 #' @examples
 #' lmu_pal_1
-#' seecol(lmu_pal_1, main = "The primary colors of LMU München")  # view color palette 
-#' demopal(lmu_pal_1, type = 3, main = "Primary colors of LMU Munich")
+#' unikn::seecol(lmu_pal_1, main = "The primary colors of LMU München")  # view color palette 
+#' unikn::demopal(lmu_pal_1, type = 3, main = "Primary colors of LMU Munich")
 #'
 #' @family contributed color palettes
 #'
@@ -1444,7 +1348,7 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
                            names = c("LMU gruen", "LMU schwarz", "weiss"),
                            as_df = FALSE)
 
-# seecol(lmu_pal_1, main = "Primary colors of LMU")
+# unikn::seecol(lmu_pal_1, main = "Primary colors of LMU")
 
 
 # - lmu_pal_2: Secondary colors ---- 
@@ -1478,15 +1382,15 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' 
 #' @examples
 #' lmu_pal_2
-#' seecol(lmu_pal_2, main = "The secondary/grey colors of the LMU München")
-#' demopal(lmu_pal_2, type = 5, main = "Secondary/gray colors of LMU Munich")
+#' unikn::seecol(lmu_pal_2, main = "The secondary/grey colors of the LMU München")
+#' unikn::demopal(lmu_pal_2, type = 5, main = "Secondary/gray colors of LMU Munich")
 #'
 #' # Combining primary and secondary LMU colors:
 #' lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
-#' demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
+#' unikn::demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 #' 
 #' lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
-#' demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
+#' unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 #' 
 #' @family contributed color palettes
 #'
@@ -1505,7 +1409,7 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
                            names = c("dunkelgrau", "mittelgrau", "hellgrau", "lichtgrau"),
                            as_df = FALSE)
 
-# seecol(lmu_pal_2, main = "Secondary colors of LMU")
+# unikn::seecol(lmu_pal_2, main = "Secondary colors of LMU")
 
 # Combinations:
 # 
@@ -1555,8 +1459,8 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' 
 #' @examples
 #' lmu_pal_3
-#' seecol(lmu_pal_3, main = "Accent colors of the LMU München")  # view color palette 
-#' demopal(lmu_pal_3, type = 3, main = "Accent colors of LMU Munich")
+#' unikn::seecol(lmu_pal_3, main = "Accent colors of the LMU München")  # view color palette 
+#' unikn::demopal(lmu_pal_3, type = 3, main = "Accent colors of LMU Munich")
 #'
 #' @family contributed color palettes
 #'
@@ -1575,7 +1479,7 @@ lmu_pal_3 <- unikn::newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "
                            names = c("blau", "cyan", "violett", "rot", "orange"),
                            as_df = FALSE)
 
-# seecol(lmu_pal_3, main = "Accent colors of LMU")
+# unikn::seecol(lmu_pal_3, main = "Accent colors of LMU")
 
 
 # Max Planck Society / Max-Planck-Gesellschaft (MPG): ------
@@ -1600,7 +1504,7 @@ mpg_grey  <- rgb(221, 222, 214, maxColorValue = 255)
 mpg_green_2 <- unikn::usecol(c(mpg_green, "white"), n = 3)[1:2] 
 mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 
-# seecol(c(mpg_green_2, "white", rev(mpg_grey_2)))
+# unikn::seecol(c(mpg_green_2, "white", rev(mpg_grey_2)))
 
 # - mpg_pal: ---- 
 
@@ -1631,12 +1535,12 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' 
 #' @examples
 #' mpg_pal
-#' seecol(mpg_pal, main = "Colors of the Max Planck Society")  # view color palette 
-#' demopal(mpg_pal, type = 1, main = "Using the MPG colors")
+#' unikn::seecol(mpg_pal, main = "Colors of the Max Planck Society")  # view color palette 
+#' unikn::demopal(mpg_pal, type = 1, main = "Using the MPG colors")
 #' 
 #' # Extended version:
 #' mpg_pal_11 <- unikn::usecol(c(mpg_pal, "black"), n = 11)
-#' demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
+#' unikn::demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
 #' 
 #' @family contributed color palettes
 #'
@@ -1742,12 +1646,12 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' 
 #' @examples
 #' uni_bonn_1
-#' seecol(uni_bonn_1, main = "Primary colors of the University of Bonn")  # view color palette 
+#' unikn::seecol(uni_bonn_1, main = "Primary colors of the University of Bonn")  # view color palette 
 #' 
 #' # Color gradient:
 #' uni_bonn_blau_gelb <- unikn::usecol(c(uni_bonn_1[1], "white", uni_bonn_1[2]), n = 9)
-#' # seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
-#' demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
+#' # unikn::seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
+#' unikn::demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
 #'
 #' @family contributed color palettes
 #'
@@ -1765,7 +1669,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
                             names = c("uni blau", "uni gelb", "uni grau"),
                             as_df = FALSE)
 
-# seecol(uni_bonn_1, main = "Primary colors of Uni Bonn")
+# unikn::seecol(uni_bonn_1, main = "Primary colors of Uni Bonn")
 
 
 # - uni_bonn_2: Gradients ----
@@ -1792,8 +1696,8 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #' 
 #' @examples
 #' uni_bonn_2
-#' seecol(uni_bonn_2, main = "Gradient colors of the University of Bonn")  # view color palette 
-#' demopal(uni_bonn_2, type = 3, main = "Color shades of the University of Bonn")
+#' unikn::seecol(uni_bonn_2, main = "Gradient colors of the University of Bonn")  # view color palette 
+#' unikn::demopal(uni_bonn_2, type = 3, main = "Color shades of the University of Bonn")
 #'
 #' @family contributed color palettes
 #'
@@ -1813,7 +1717,7 @@ uni_bonn_2 <- unikn::newpal(col = c(ub_blau_4, ub_gelb_4, ub_grau_4),
                                       "uni grau", "uni grau 75%", "uni grau 50%", "uni grau 25%"),
                             as_df = FALSE)
 
-# seecol(uni_bonn_2, main = "Color gradients of Uni Bonn")
+# unikn::seecol(uni_bonn_2, main = "Color gradients of Uni Bonn")
 
 
 # Uni Freiburg: ------
@@ -1836,7 +1740,7 @@ frbg_blau <- "#344A9A"  # RGB 52/74/154; HEX #344a9a; Pantone 7687C; CMYK 90/75/
 names(frbg_blau) <- "blau"
 
 frbg_blau_gradient <- unikn::usecol(c(frbg_blau, "white"), n = 6)[1:5]  # mix with "white"
-# frbg_blau_transparent <- ac(col = frbg_blau, alpha = c(1, .80, .60, .40, .20))
+# frbg_blau_transparent <- unikn::ac(col = frbg_blau, alpha = c(1, .80, .60, .40, .20))
 
 frbg_blues <- unikn::newpal(col =  frbg_blau_gradient,
                             names = c("Blau", "Blau_80", "Blau_60", "Blau_40", "Blau_20"),
@@ -1913,10 +1817,10 @@ names(frbg_rosa) <- "rosa"
 
 # # Note: To create gradients, mix with "white":
 # col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
-# # seecol(col_gradient, main = "Five shades")
+# # unikn::seecol(col_gradient, main = "Five shades")
 # # to get transparent colors:
-# col_transparent <- ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
-# # seecol(col_transparent, main = "Five transparent shades")
+# col_transparent <- unikn::ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
+# # unikn::seecol(col_transparent, main = "Five transparent shades")
 
 
 # - uni_freiburg_0: ----
@@ -1947,9 +1851,9 @@ names(frbg_rosa) <- "rosa"
 #' 
 #' @examples
 #' uni_freiburg_0
-#' seecol(uni_freiburg_0, col_brd = "grey", lwd_brd = 1.5, 
+#' unikn::seecol(uni_freiburg_0, col_brd = "grey", lwd_brd = 1.5, 
 #'        main = "Basic colors of the University of Freiburg")  # view color palette
-#' demopal(uni_freiburg_0, type = 5, main = "Basic colors of Freiburg University")
+#' unikn::demopal(uni_freiburg_0, type = 5, main = "Basic colors of Freiburg University")
 #'
 #' @family contributed color palettes
 #'
@@ -2022,8 +1926,8 @@ frbg_sand_name <- c("sand")
 #' 
 #' @examples
 #' uni_freiburg_1
-#' seecol(uni_freiburg_1, main = "Primary color gradient of the University of Freiburg")
-#' demopal(uni_freiburg_1, type = 1, main = "Primary color gradient of Freiburg University")
+#' unikn::seecol(uni_freiburg_1, main = "Primary color gradient of the University of Freiburg")
+#' unikn::demopal(uni_freiburg_1, type = 1, main = "Primary color gradient of Freiburg University")
 #' 
 #' # Get a "sand" color gradient:
 #' sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3] 
@@ -2079,12 +1983,12 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' 
 #' @examples
 #' uni_freiburg_2
-#' seecol(uni_freiburg_2, main = "Secondary colors of the University of Freiburg")
-#' demopal(uni_freiburg_2, type = 2, main = "Secondary colors of Freiburg University")
+#' unikn::seecol(uni_freiburg_2, main = "Secondary colors of the University of Freiburg")
+#' unikn::demopal(uni_freiburg_2, type = 2, main = "Secondary colors of Freiburg University")
 #'
 #' # Color gradients:
 #' col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
-#' col_transparent <- ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
+#' col_transparent <- unikn::ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
 #' 
 #' @family contributed color palettes
 #'
@@ -2136,8 +2040,8 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 #' 
 #' @examples
 #' uni_freiburg_br
-#' seecol(uni_freiburg_br, main = "Colors of the University of Freiburg (2022)")
-#' demopal(uni_freiburg_br, type = 2, main = "Colors of the Freiburg University (2022)")
+#' unikn::seecol(uni_freiburg_br, main = "Colors of the University of Freiburg (2022)")
+#' unikn::demopal(uni_freiburg_br, type = 2, main = "Colors of the Freiburg University (2022)")
 #'
 #' @family contributed color palettes
 #'
@@ -2180,8 +2084,8 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 #' 
 #' @examples
 #' uni_freiburg_blue
-#' seecol(uni_freiburg_blue, main = "Blue colors of the University of Freiburg (2022)")
-#' demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg University (2022)")
+#' unikn::seecol(uni_freiburg_blue, main = "Blue colors of the University of Freiburg (2022)")
+#' unikn::demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg University (2022)")
 #'
 #' @family contributed color palettes
 #'
@@ -2225,8 +2129,8 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' 
 #' @examples
 #' uni_freiburg_grey
-#' seecol(uni_freiburg_grey, main = "Grey colors of the University of Freiburg (2022)")
-#' demopal(uni_freiburg_grey, type = 1, main = "Grey colors of Freiburg University (2022)")
+#' unikn::seecol(uni_freiburg_grey, main = "Grey colors of the University of Freiburg (2022)")
+#' unikn::demopal(uni_freiburg_grey, type = 1, main = "Grey colors of Freiburg University (2022)")
 #'
 #' @family contributed color palettes
 #'
@@ -2272,8 +2176,8 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 #' 
 #' @examples
 #' uni_freiburg_info
-#' seecol(uni_freiburg_info, main = "Info colors of the University of Freiburg (2022)")
-#' demopal(uni_freiburg_info, type = 3, main = "Info colors of Freiburg University (2022)")
+#' unikn::seecol(uni_freiburg_info, main = "Info colors of the University of Freiburg (2022)")
+#' unikn::demopal(uni_freiburg_info, type = 3, main = "Info colors of Freiburg University (2022)")
 #'
 #' @family contributed color palettes
 #'
@@ -2359,12 +2263,14 @@ uni_freiburg_info <- unikn::newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de
 #' 
 #' @examples
 #' uni_hamburg_1
-#' seecol(uni_hamburg_1, main = "Primary colors of the University of Hamburg")
-#' demopal(uni_hamburg_1, type = 3, main = "Primary colors of the Uni Hamburg")
+#' unikn::seecol(uni_hamburg_1, main = "Primary colors of the University of Hamburg")
+#' unikn::demopal(uni_hamburg_1, type = 3, main = "Primary colors of the Uni Hamburg")
 #' 
 #' # Color gradients:
-#' seecol(usecol(c(uni_hamburg_1[1], uni_hamburg_1[2]), n = 6), main = "HHU rot to blau")
-#' seecol(usecol(c(uni_hamburg_1[1], "white", uni_hamburg_1[2]), n = 7), main = "Divergent HHU")
+#' unikn::seecol(unikn::usecol(c(uni_hamburg_1[1], uni_hamburg_1[2]), n = 6), 
+#'               main = "HHU rot to blau")
+#' unikn::seecol(unikn::usecol(c(uni_hamburg_1[1], "white", uni_hamburg_1[2]), n = 7), 
+#'               main = "Divergent HHU")
 #'
 #' @family contributed color palettes
 #'
@@ -2382,11 +2288,11 @@ uni_hamburg_1 <- unikn::newpal(col = c("#e2001a", "#0271bb",  "black", "#3b515b"
                                names = c("rot", "blau",  "schwarz", "steingrau"),
                                as_df = FALSE)
 
-# seecol(uni_hamburg_1, main = "Primary colors of Uni Hamburg")
+# unikn::seecol(uni_hamburg_1, main = "Primary colors of Uni Hamburg")
 
 # # See gradients:
-# seecol(usecol(c(uni_hamburg_1[1], uni_hamburg_1[2]), n = 7))
-# seecol(usecol(c(uni_hamburg_1[1], "white", uni_hamburg_1[2]), n = 7))
+# unikn::seecol(unikn::usecol(c(uni_hamburg_1[1], uni_hamburg_1[2]), n = 7))
+# unikn::seecol(unikn::usecol(c(uni_hamburg_1[1], "white", uni_hamburg_1[2]), n = 7))
 
 
 # Schaubilder (p. 25 of PDF manual)
@@ -2431,8 +2337,8 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_hamburg_2
-#' seecol(uni_hamburg_2, main = "Visualization colors of the University of Hamburg")
-#' demopal(uni_hamburg_2, type = 1, main = "Secondary colors of the Uni Hamburg")
+#' unikn::seecol(uni_hamburg_2, main = "Visualization colors of the University of Hamburg")
+#' unikn::demopal(uni_hamburg_2, type = 1, main = "Secondary colors of the Uni Hamburg")
 #'
 #' @family contributed color palettes
 #'
@@ -2450,7 +2356,7 @@ uni_hamburg_2 <- unikn::newpal(col = c("#E2001A", rot_50pc, "#0271BB", blau_50pc
                                names = c("rot", "rot 50%", "blau", "blau 50%", "steingrau", "steingrau 40%"),
                                as_df = FALSE)
 
-# seecol(uni_hamburg_2, main = "Pair-wise colors of Uni Hamburg")
+# unikn::seecol(uni_hamburg_2, main = "Pair-wise colors of Uni Hamburg")
 
 
 
@@ -2523,12 +2429,12 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_jena_1
-#' seecol(uni_jena_1, main = "Primary colors of the University of Jena")
-#' demopal(uni_jena_1, type = 2, seed = 5, main = "Primary colors of Jena University")
+#' unikn::seecol(uni_jena_1, main = "Primary colors of the University of Jena")
+#' unikn::demopal(uni_jena_1, type = 2, seed = 5, main = "Primary colors of Jena University")
 #' 
 #' # Gradient: Mixing the main colors with "white":
 #' jena_mix <- unikn::usecol(c(uni_jena_1[1], "white", uni_jena_1[2]), n = 7)
-#' seecol(jena_mix, main = "A gradient of the University of Jena")
+#' unikn::seecol(jena_mix, main = "A gradient of the University of Jena")
 #'
 #' @family contributed color palettes
 #'
@@ -2641,8 +2547,8 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 #' 
 #' @examples
 #' uni_jena_2
-#' seecol(uni_jena_2, main = "Departmental colors of the University of Jena")
-#' demopal(uni_jena_2, type = 5, main = "Faculty colors of Jena University")
+#' unikn::seecol(uni_jena_2, main = "Departmental colors of the University of Jena")
+#' unikn::demopal(uni_jena_2, type = 5, main = "Faculty colors of Jena University")
 #'
 #' @family contributed color palettes
 #'
@@ -2694,7 +2600,7 @@ uni_jena_2 <- unikn::newpal(col = jena_faculties,
 # HKS 33, cmyk 45-100-0-0, RGB 155-10-125, Hex #9b0a7d
 
 kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
-# seecol(kiel_main)
+# unikn::seecol(kiel_main)
 
 
 # - uni_kiel_1: ----
@@ -2730,13 +2636,13 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_kiel_1
-#' seecol(uni_kiel_1, main = "The main color of Kiel University (CAU)")
-#' demopal(uni_kiel_1, type = 3, main = "Primary colors of the University of Kiel")
+#' unikn::seecol(uni_kiel_1, main = "The main color of Kiel University (CAU)")
+#' unikn::demopal(uni_kiel_1, type = 3, main = "Primary colors of the University of Kiel")
 #' 
 #' # Gradient: Mixing the main color with shades of grey: 
 #' N = 9
 #' kiel_mix <- unikn::usecol(uni_kiel_1, n = N)[c(-1, -N)]  # remove extremes
-#' seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
+#' unikn::seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
 #'
 #' @family contributed color palettes
 #'
@@ -2837,12 +2743,12 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' 
 #' @examples
 #' uni_kiel_2
-#' seecol(uni_kiel_2, main = "Departmental colors of Kiel University (CAU)")
-#' demopal(uni_kiel_2, type = 3, main = "Department colors of the University of Kiel")
+#' unikn::seecol(uni_kiel_2, main = "Departmental colors of Kiel University (CAU)")
+#' unikn::demopal(uni_kiel_2, type = 3, main = "Department colors of the University of Kiel")
 #' 
 #' # Gradients: Mix with "black" for darker shades:
 #' uni_kiel_med <- unikn::usecol(c(uni_kiel_2["Medizin"], "black"), n = 5)
-#' seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
+#' unikn::seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
 #'
 #' @family contributed color palettes
 #'
@@ -2919,9 +2825,9 @@ koeln_si_1 <- rgb(175, 17, 29, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_koeln_1
-#' seecol(uni_koeln_1, main = "Primary colors of Uni Koeln")
-#' demopal(uni_koeln_1, type = 4, 
-#'         main = "Primary colors at the University of Cologne")
+#' unikn::seecol(uni_koeln_1, main = "Primary colors of Uni Koeln")
+#' unikn::demopal(uni_koeln_1, type = 4, 
+#'                main = "Primary colors at the University of Cologne")
 #'
 #' @family contributed color palettes
 #'
@@ -2939,7 +2845,7 @@ uni_koeln_1 <- unikn::newpal(col = c(koeln_bg_1, koeln_bg_2, koeln_bg_3, koeln_b
                              names = c("heller font", "blaugrau hell", "blaugrau mittel", "blaugrau", "blaugrau dunkel", "blauschwarz", "signal rot"),
                              as_df = FALSE)
 
-# seecol(uni_koeln_1, main = "Primary colors of Uni Cologne")
+# unikn::seecol(uni_koeln_1, main = "Primary colors of Uni Cologne")
 
 # Codierfarben
 # 
@@ -2995,9 +2901,9 @@ koeln_fa_7 <- rgb(145, 196, 234, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_koeln_2
-#' seecol(uni_koeln_2, main = "Departmental colors of Uni Koeln")
-#' demopal(uni_koeln_2, type = 3, 
-#'         main = "Department colors at the University of Cologne")
+#' unikn::seecol(uni_koeln_2, main = "Departmental colors of Uni Koeln")
+#' unikn::demopal(uni_koeln_2, type = 3, 
+#'                main = "Department colors at the University of Cologne")
 #'
 #' @family contributed color palettes
 #'
@@ -3015,7 +2921,7 @@ uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_f
                              names = c("gruen", "bordeaux", "rot", "violett", "blau", "orange", "hellblau"),
                              as_df = FALSE)
 
-# seecol(uni_koeln_2, main = "Departmental colors of Uni Cologne")
+# unikn::seecol(uni_koeln_2, main = "Departmental colors of Uni Cologne")
 
 
 # Uni Konstanz: ------
@@ -3053,8 +2959,8 @@ uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_f
 #'
 #' @examples
 #' uni_konstanz_1
-#' seecol(uni_konstanz_1, main = "Default colors of the University of Konstanz")
-#' demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", seed = 1)
+#' unikn::seecol(uni_konstanz_1, main = "Default colors of the University of Konstanz")
+#' unikn::demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", seed = 1)
 #'
 #' @family contributed color palettes
 #'
@@ -3102,8 +3008,8 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 #'
 #' @examples
 #' uni_konstanz_2
-#' seecol(uni_konstanz_2, main = "Preferred colors of the University of Konstanz")  
-#' demopal(uni_konstanz_2, type = 3, main = "Preferred colors of the Uni Konstanz")
+#' unikn::seecol(uni_konstanz_2, main = "Preferred colors of the University of Konstanz")  
+#' unikn::demopal(uni_konstanz_2, type = 3, main = "Preferred colors of the Uni Konstanz")
 #'
 #' @family contributed color palettes
 #'
@@ -3173,7 +3079,7 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #                          names = c("blau", "silber"),
 #                          as_df = FALSE)
 # 
-# # seecol(uni_mannheim_0, main = "Main colors of Uni Mannheim")
+# # unikn::seecol(uni_mannheim_0, main = "Main colors of Uni Mannheim")
 
 
 # - uni_mannheim_1: ----
@@ -3202,9 +3108,9 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_mannheim_1
-#' seecol(uni_mannheim_1, main = "Main color gradient of the University of Mannheim")
-#' demopal(uni_mannheim_1, type = 1, 
-#'         main = "Main color gradient of Mannheim University")
+#' unikn::seecol(uni_mannheim_1, main = "Main color gradient of the University of Mannheim")
+#' unikn::demopal(uni_mannheim_1, type = 1, 
+#'                main = "Main color gradient of Mannheim University")
 #'
 #' @family contributed color palettes
 #'
@@ -3222,7 +3128,7 @@ uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
                                 names = c("UM blau", "blau 85%", "blau 70%", "blau 55%", "blau 40%", "blau 25%", "blau 10%"), 
                                 as_df = FALSE)
 
-# seecol(uni_mannheim_1, main = "Main 'blau' color gradient of Uni Mannheim")
+# unikn::seecol(uni_mannheim_1, main = "Main 'blau' color gradient of Uni Mannheim")
 
 
 # - uni_mannheim_2: ----
@@ -3269,9 +3175,9 @@ uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
 #' 
 #' @examples
 #' uni_mannheim_2
-#' seecol(uni_mannheim_2, main = "Main and accent colors of the University of Mannheim")
-#' demopal(uni_mannheim_2, type = 4, seed = 7, 
-#'         main = "Main and department accent colors of Mannheim University")
+#' unikn::seecol(uni_mannheim_2, main = "Main and accent colors of the University of Mannheim")
+#' unikn::demopal(uni_mannheim_2, type = 4, seed = 7, 
+#'                main = "Main and department accent colors of Mannheim University")
 #'
 #' @family contributed color palettes
 #'
@@ -3289,7 +3195,7 @@ uni_mannheim_2 <- unikn::newpal(col = c(UM_blau, UM_silber, UM_graublau, UM_grue
                                 names = c("UM blau", "silber", "graublau", "gruen", "orange", "rot", "petrol"),
                                 as_df = FALSE)
 
-# seecol(uni_mannheim_2, main = "Main + accent colors of Uni Mannheim")
+# unikn::seecol(uni_mannheim_2, main = "Main + accent colors of Uni Mannheim")
 
 
 # Uni Princeton: ------
@@ -3325,8 +3231,8 @@ orange_black <- "#F58025"  # orange on black background
 #' 
 #' @examples
 #' uni_princeton_0
-#' seecol(uni_princeton_0, main = "Basic colors of Princeton University")
-#' demopal(uni_princeton_0, type = 1, main = "Colors of Princeton University")
+#' unikn::seecol(uni_princeton_0, main = "Basic colors of Princeton University")
+#' unikn::demopal(uni_princeton_0, type = 1, main = "Colors of Princeton University")
 #'
 #' @family contributed color palettes
 #'
@@ -3372,9 +3278,9 @@ uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #' 
 #' @examples
 #' uni_princeton_1
-#' seecol(uni_princeton_1, col_brd = "grey", lwd_brd = 1.5, 
-#'        main = "Colors of Princeton (on white backgrounds)")
-#' demopal(uni_princeton_1, type = 4, seed = 1, main = "Princeton University colors")
+#' unikn::seecol(uni_princeton_1, col_brd = "grey", lwd_brd = 1.5, 
+#'               main = "Colors of Princeton (on white backgrounds)")
+#' unikn::demopal(uni_princeton_1, type = 4, seed = 1, main = "Princeton University colors")
 #'
 #' @family contributed color palettes
 #'
@@ -3422,9 +3328,9 @@ uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' uni_princeton_2
 #' opar <- par(no.readonly = TRUE)
 #' par(bg = "black", col.main = "white", col = "grey")
-#' seecol(uni_princeton_2, col_brd = "grey", lwd = 1.5, 
-#'        main = "Colors of Princeton (on black backgrounds)")
-#' demopal(uni_princeton_2, type = 3, main = "Colors of Princeton University")
+#' unikn::seecol(uni_princeton_2, col_brd = "grey", lwd = 1.5, 
+#'               main = "Colors of Princeton (on black backgrounds)")
+#' unikn::demopal(uni_princeton_2, type = 3, main = "Colors of Princeton University")
 #' par(opar)
 #'
 #' @family contributed color palettes
@@ -3587,9 +3493,9 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' 
 #' @examples
 #' uni_regensburg_1
-#' seecol(uni_regensburg_1, main = "General colors of the University of Regensburg")
-#' demopal(uni_regensburg_1, alpha = .70, type = 2, 
-#'         main = "General colors of Regensburg University")
+#' unikn::seecol(uni_regensburg_1, main = "General colors of the University of Regensburg")
+#' unikn::demopal(uni_regensburg_1, alpha = .70, type = 2, 
+#'                main = "General colors of Regensburg University")
 #'
 #' @family contributed color palettes
 #'
@@ -3648,8 +3554,8 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 #' 
 #' @examples
 #' uni_regensburg_2
-#' seecol(uni_regensburg_2, main = "Departmental colors at the University of Regensburg")
-#' demopal(uni_regensburg_2, type = 3, main = "Department colors of Regensburg University")
+#' unikn::seecol(uni_regensburg_2, main = "Departmental colors at the University of Regensburg")
+#' unikn::demopal(uni_regensburg_2, type = 3, main = "Department colors of Regensburg University")
 #'
 #' @family contributed color palettes
 #'
@@ -3720,9 +3626,9 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' 
 #' @examples
 #' uni_regensburg_3
-#' seecol(uni_regensburg_3, main = "Department colors at the University of Regensburg")
-#' demopal(uni_regensburg_3, type = 4, seed = 13, 
-#'         main = "Using the departmental colors at Regensburg University")
+#' unikn::seecol(uni_regensburg_3, main = "Department colors at the University of Regensburg")
+#' unikn::demopal(uni_regensburg_3, type = 4, seed = 13, 
+#'                main = "Using the departmental colors at Regensburg University")
 #'
 #' @family contributed color palettes
 #'
@@ -3808,9 +3714,9 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' 
 #' @examples
 #' uni_ulm_1
-#' seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
-#' demopal(uni_ulm_1, type = 1, 
-#'         main = "Main colors of Ulm University")
+#' unikn::seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
+#' unikn::demopal(uni_ulm_1, type = 1, 
+#'                main = "Main colors of Ulm University")
 #'         
 #' # 5-color gradient:
 #' uni_ulm_5 <- unikn::usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
@@ -3831,7 +3737,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
                            names = c("schwarz", "dunkelgrau", "hellblau", "weiss", "akzent"),
                            as_df = FALSE)
 
-# seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
+# unikn::seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
 
 
 # - uni_ulm_2: ---- 
@@ -3864,9 +3770,9 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #' 
 #' @examples
 #' uni_ulm_2
-#' seecol(uni_ulm_2, main = "Department colors of the University of Ulm")
-#' demopal(uni_ulm_2, type = 2, seed = 123,
-#'         main = "Departmental colors of Ulm University")
+#' unikn::seecol(uni_ulm_2, main = "Department colors of the University of Ulm")
+#' unikn::demopal(uni_ulm_2, type = 2, seed = 123,
+#'                main = "Departmental colors of Ulm University")
 #'         
 #' # 5-color gradient:
 #' uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
@@ -3887,7 +3793,7 @@ uni_ulm_2 <- unikn::newpal(col = c(UU_blau, UU_rot, UU_gruen, UU_orange),
                            names = c("blau", "rot", "gruen", "orange"),
                            as_df = FALSE)
 
-# seecol(uni_ulm_2, main = "Departmental colors of the University of Ulm")
+# unikn::seecol(uni_ulm_2, main = "Departmental colors of the University of Ulm")
 
 
 
@@ -3960,8 +3866,8 @@ rpi_2 <- "#54585a"
 #' 
 #' @examples
 #' rpi_pal_1
-#' seecol(rpi_pal_1, main = "The primary colors of RPI")  # view color palette
-#' demopal(rpi_pal_1, type = 3, main = "Primary colors of RPI")
+#' unikn::seecol(rpi_pal_1, main = "The primary colors of RPI")  # view color palette
+#' unikn::demopal(rpi_pal_1, type = 3, main = "Primary colors of RPI")
 #'
 #' @family contributed color palettes
 #'
@@ -3980,7 +3886,7 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
                            names = c("RPI primary red", "RPI light gray", "RPI dark gray", "black", "white"), 
                            as_df = FALSE)
 
-# seecol(rpi_pal_1, main = "Primary Use Colors of RPI")
+# unikn::seecol(rpi_pal_1, main = "Primary Use Colors of RPI")
 
 
 # - rpi_pal_2: Secondary use colors of RPI ---- 
@@ -4017,8 +3923,8 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' 
 #' @examples
 #' rpi_pal_2
-#' seecol(rpi_pal_2, main = "The secondary colors of RPI")  # view color palette
-#' demopal(rpi_pal_2, type = 5, main = "Secondary colors of RPI")
+#' unikn::seecol(rpi_pal_2, main = "The secondary colors of RPI")  # view color palette
+#' unikn::demopal(rpi_pal_2, type = 5, main = "Secondary colors of RPI")
 #'
 #' @family contributed color palettes
 #'
@@ -4037,7 +3943,7 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
                            names = c("RPI dark red", "RPI dark blue", "RPI light blue"), 
                            as_df = FALSE)
 
-# seecol(rpi_pal_2, main = "Secondary Use Colors of RPI")
+# unikn::seecol(rpi_pal_2, main = "Secondary Use Colors of RPI")
 
 
 # - rpi_pal_3: Tint use colors of RPI ---- 
@@ -4081,8 +3987,8 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' 
 #' @examples
 #' rpi_pal_3
-#' seecol(rpi_pal_3, main = "Tint colors of RPI")  # view color palette
-#' demopal(rpi_pal_3, type = 4, seed = 2, main = "Tint colors of RPI")
+#' unikn::seecol(rpi_pal_3, main = "Tint colors of RPI")  # view color palette
+#' unikn::demopal(rpi_pal_3, type = 4, seed = 2, main = "Tint colors of RPI")
 #'
 #' @family contributed color palettes
 #'
@@ -4105,7 +4011,7 @@ rpi_pal_3 <- unikn::newpal(col = c("#ab2328", "#c35442", "#d58570", "#eabcad",
                                      "RPI light blue", "light blue 75%", "light blue 50%", "light blue 25%"), 
                            as_df = FALSE)
 
-# seecol(rpi_pal_3, main = "Tint Colors of RPI")
+# unikn::seecol(rpi_pal_3, main = "Tint Colors of RPI")
 
 
 
@@ -4280,15 +4186,15 @@ rptu_weiss <- "white"
 #' 
 #' @examples
 #' rptu_pal
-#' seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
-#' demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
+#' unikn::seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
+#' unikn::demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
 #' 
 #' # Gradients:
 #' rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
-#' seecol(rptu_10, main = "10 shades of a RPTU color")
+#' # unikn::seecol(rptu_10, main = "10 shades of a RPTU color")
 #' 
 #' rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
-#' seecol(rptu_21, main = "A gradient between a RPTU color pair")
+#' # unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 #' 
 #' @family contributed color palettes
 #' 
@@ -4307,14 +4213,14 @@ rptu_pal <- unikn::newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau
                                     "violett", "pink", "rot", "orange", "schwarz", "weiss"),
                           as_df = FALSE)
 
-# seecol(rptu_pal, main = "The colors of RPTU")
+# unikn::seecol(rptu_pal, main = "The colors of RPTU")
 # 
 # # Gradients:
 # rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
-# seecol(rptu_10, main = "10 shades of a RPTU color")
+# unikn::seecol(rptu_10, main = "10 shades of a RPTU color")
 # 
 # rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
-# seecol(rptu_21, main = "A gradient between a RPTU color pair")
+# unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 
 
 
@@ -4369,7 +4275,7 @@ willamette_pal <- unikn::newpal(col = c("#BA0C2F", "#C6AA76",
                                           "Midnight breakfast", "Waller brick", "Zena field", "Salem sky"),
                                 as_df = FALSE)
 
-# seecol(willamette_pal, main = "Primary and secondary colors of Willamette University")
+# unikn::seecol(willamette_pal, main = "Primary and secondary colors of Willamette University")
 
 
 ## ToDo: -------- 
