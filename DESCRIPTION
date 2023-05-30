@@ -21,4 +21,4 @@ URL: https://github.com/hneth/unicol/
 BugReports: https://github.com/hneth/unicol/issues
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
-Language: en-US
+Language: en-US 
