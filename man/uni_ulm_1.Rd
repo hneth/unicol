@@ -8,7 +8,7 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-ulm.de/misc/corporate-design/#c875952}.
 }
 \usage{
@@ -18,38 +18,38 @@ uni_ulm_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_ulm_1} provides the basic or main colors
+\code{uni_ulm_1} provides the basic or main colors 
 of the \href{https://www.uni-ulm.de/}{University of Ulm}, Germany.
 }
 \details{
-The color \code{hellblau} is alternatively defined as
-\code{RGB 125/154/170}, \code{HEX #7D9AAA}, \code{Pantone 5425 C}, or \code{CMYK 30/0/0/35}.
+The color \code{hellblau} is alternatively defined as 
+\code{RGB 125/154/170}, \code{HEX #7D9AAA}, \code{Pantone 5425 C}, or \code{CMYK 30/0/0/35}. 
 
-The color \code{dunkelgrau} is alternatively defined as
-\code{RGB 87/87/86}, \code{HEX #575756}, \code{Pantone 431 C}, or \code{CMYK 0/0/0/80}.
+The color \code{dunkelgrau} is alternatively defined as 
+\code{RGB 87/87/86}, \code{HEX #575756}, \code{Pantone 431 C}, or \code{CMYK 0/0/0/80}. 
 
-The auxiliary color \code{akzent} is used for decorative elements.
-It is alternatively defined as
-\code{RGB 169/162/141}, \code{HEX #A9A28D}, \code{Pantone 7536 C}, or \code{CMYK 0/0/28/38}.
+The auxiliary color \code{akzent} is used for decorative elements. 
+It is alternatively defined as 
+\code{RGB 169/162/141}, \code{HEX #A9A28D}, \code{Pantone 7536 C}, or \code{CMYK 0/0/28/38}. 
 
 See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_ulm_1
-seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
-demopal(uni_ulm_1, type = 1, 
-        main = "Main colors of Ulm University")
+unikn::seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
+unikn::demopal(uni_ulm_1, type = 1, 
+               main = "Main colors of Ulm University")
         
 # 5-color gradient:
 uni_ulm_5 <- unikn::usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
 
 }
 \seealso{
-\code{\link{uni_ulm_2}} for the departmental accent colors of the University of Ulm;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_ulm_2}} for the departmental accent colors of the University of Ulm;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

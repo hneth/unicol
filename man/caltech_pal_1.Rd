@@ -8,7 +8,7 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://identity.caltech.edu/colors}.
 }
 \usage{
@@ -18,27 +18,32 @@ caltech_pal_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{caltech_pal_1} provides the primary and 7 neutral colors
+\code{caltech_pal_1} provides the primary and 7 neutral colors 
 of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA.
 }
 \details{
-Caltech's primary orange color is defined as \code{Pantone MS 1585c}
-(for coated and matte print jobs, \code{PMS 151} for uncoated print jobs).
-Use this color for small highlights, rather than large areas.
+Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
+(for coated and matte print jobs, \code{PMS 151} for uncoated print jobs). 
+Use this color for small highlights, rather than large areas. 
 
-Caltech's 7 neutral colors complement the primary \code{Caltech orange}
+Caltech's 7 neutral colors complement the primary \code{Caltech orange}  
 and allow to convey a serious, sober, and traditional impression.
 }
 \examples{
 caltech_pal_1
-seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
-demopal(caltech_pal_1, type = 4, seed = 1,  
-        main = "Using the primary and neutral colors of Caltech")
+unikn::seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
+unikn::demopal(caltech_pal_1, type = 4, seed = 1,  
+               main = "Using the primary and neutral colors of Caltech")
 
 }
 \seealso{
-\code{\link{caltech_pal_2}} for Caltech's primary and deep colors;
-\code{\link{caltech_pal_3}} for Caltech's bright colors.
+\code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
+\code{\link{caltech_pal_3}} for Caltech's bright colors; 
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
+\code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 
 \code{\link{caltech_pal_2}},

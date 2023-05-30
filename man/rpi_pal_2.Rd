@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://scer.rpi.edu/brand-in-action/colors}.
 }
 \usage{
@@ -18,29 +18,29 @@ rpi_pal_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{rpi_pal_2} provides the secondary use colors of the
+\code{rpi_pal_2} provides the secondary use colors of the 
 \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
 }
 \details{
-The colors of \code{rpi_pal_2} should be used in combination with
-the primary colors of \code{\link{rpi_pal_1}} to add color accents
-to digital and print materials.
+The colors of \code{rpi_pal_2} should be used in combination with  
+the primary colors of \code{\link{rpi_pal_1}} to add color accents 
+to digital and print materials. 
 
 \code{\link{rpi_pal_3}} provides tint variants of these colors.
 }
 \examples{
 rpi_pal_2
-seecol(rpi_pal_2, main = "The secondary colors of RPI")  # view color palette
-demopal(rpi_pal_2, type = 5, main = "Secondary colors of RPI")
+unikn::seecol(rpi_pal_2, main = "The secondary colors of RPI")  # view color palette
+unikn::demopal(rpi_pal_2, type = 5, main = "Secondary colors of RPI")
 
 }
 \seealso{
-\code{\link{rpi_pal_1}} for primary colors of RPI;
-\code{\link{rpi_pal_3}} for tint colors of RPI;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{rpi_pal_1}} for primary colors of RPI; 
+\code{\link{rpi_pal_3}} for tint colors of RPI; 
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

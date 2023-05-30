@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}.
 }
 \usage{
@@ -18,7 +18,7 @@ hu_pal_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{hu_pal_2} provides the primary (blue) color with five corresponding colors
+\code{hu_pal_2} provides the primary (blue) color with five corresponding colors 
 of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany.
 }
 \details{
@@ -29,16 +29,16 @@ See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color g
 }
 \examples{
 hu_pal_2
-seecol(hu_pal_2, main = "The colors of HU Berlin")  # view color palette
-demopal(hu_pal_2, type = 3, main = "Colors of Humboldt University Berlin")
+unikn::seecol(hu_pal_2, main = "The colors of HU Berlin")  # view color palette
+unikn::demopal(hu_pal_2, type = 3, main = "Colors of Humboldt University Berlin")
 
 }
 \seealso{
-\code{\link{hu_pal_1}} for primary colors of the HU Berlin;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{hu_pal_1}} for primary colors of the HU Berlin;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

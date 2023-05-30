@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}.
 }
 \usage{
@@ -18,8 +18,8 @@ uni_regensburg_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_regensburg_3} provides the departmental (faculty) colors
-for web fonts
+\code{uni_regensburg_3} provides the departmental (faculty) colors 
+for web fonts 
 at the \href{https://www.uni-regensburg.de/}{University of Regensburg}, Germany.
 }
 \details{
@@ -44,17 +44,17 @@ Note that the font color glutrot is currently identical to the area color of \co
 }
 \examples{
 uni_regensburg_3
-seecol(uni_regensburg_3, main = "Department colors at the University of Regensburg")
-demopal(uni_regensburg_3, type = 4, seed = 13, 
-        main = "Using the departmental colors at Regensburg University")
+unikn::seecol(uni_regensburg_3, main = "Department colors at the University of Regensburg")
+unikn::demopal(uni_regensburg_3, type = 4, seed = 13, 
+               main = "Using the departmental colors at Regensburg University")
 
 }
 \seealso{
-\code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_2}} for alternative colors of the University of Regensburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_2}} for alternative colors of the University of Regensburg;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

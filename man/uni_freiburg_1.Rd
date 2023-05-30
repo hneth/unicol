@@ -8,8 +8,8 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on the new web style guide at
-\url{https://uni-freiburg.de/}
+Color definitions are based on the new web style guide at 
+\url{https://uni-freiburg.de/} 
 (at \code{https://cd.uni-freiburg.de/farben/} on 2023-04-28).
 }
 \usage{
@@ -19,24 +19,24 @@ uni_freiburg_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_freiburg_1} provides a primary color palette
+\code{uni_freiburg_1} provides a primary color palette 
 of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany.
 }
 \details{
-The primary color \code{blau} (here: \code{uni_freiburg_1[1]}) is alternatively defined as
+The primary color \code{blau} (here: \code{uni_freiburg_1[1]}) is alternatively defined as 
 \code{Pantone 7687C}, \code{RGB 52/74/154}, \code{HEX #344a9a}, or \code{CMYK 90/75/0/0}.
 
-The color \code{sand} is alternatively defined as \code{HEX #f6f1e3}, \code{RGB 246/241/227}, and \code{CMYK 0/2/10/5}.
+The color \code{sand} is alternatively defined as \code{HEX #f6f1e3}, \code{RGB 246/241/227}, and \code{CMYK 0/2/10/5}. 
 
-The gradient of \code{blau} colors is defined on \url{https://cd.uni-freiburg.de/farben/}.
+The gradient of \code{blau} colors is defined on \url{https://cd.uni-freiburg.de/farben/}. 
 
-See \code{\link{uni_freiburg_0}} for the basic colors (without the \code{Blau} color gradient)
+See \code{\link{uni_freiburg_0}} for the basic colors (without the \code{Blau} color gradient) 
 and the \code{\link{ac}} and \code{\link{usecol}} functions for creating alternative color gradients.
 }
 \examples{
 uni_freiburg_1
-seecol(uni_freiburg_1, main = "Primary color gradient of the University of Freiburg")
-demopal(uni_freiburg_1, type = 1, main = "Primary color gradient of Freiburg University")
+unikn::seecol(uni_freiburg_1, main = "Primary color gradient of the University of Freiburg")
+unikn::demopal(uni_freiburg_1, type = 1, main = "Primary color gradient of Freiburg University")
 
 # Get a "sand" color gradient:
 sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3] 
@@ -46,10 +46,10 @@ sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3]
 \seealso{
 \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
 \code{\link{uni_freiburg_2}} for the secondary colors of the University of Freiburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.startklar2023.de/brand-portal-rptu}.
 }
 \usage{
@@ -18,35 +18,35 @@ rptu_pal
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{rptu_pal} provides the 12 colors (arranged in 6 pairs)
+\code{rptu_pal} provides the 12 colors (arranged in 6 pairs) 
 of the \href{https://rptu.de/}{RPTU} Kaiserslautern-Landau, Germany.
 }
 \details{
-The acronym "RPTU" denotes "Rheinland-Pfälzische Technische Universität",
-which is co-located in Kaiserslautern and Landau, Germany (since 2023).
+The acronym "RPTU" denotes "Rheinland-Pfälzische Technische Universität", 
+which is co-located in Kaiserslautern and Landau, Germany (since 2023). 
 
-The two colors of a pair may be combined with each other.
-When using only one color pair, shades of 10\% may be used in color gradients.
+The two colors of a pair may be combined with each other. 
+When using only one color pair, shades of 10% may be used in color gradients. 
 See examples and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
 }
 \examples{
 rptu_pal
-seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
-demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
+unikn::seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
+unikn::demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
 
 # Gradients:
 rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
-seecol(rptu_10, main = "10 shades of a RPTU color")
+# unikn::seecol(rptu_10, main = "10 shades of a RPTU color")
 
 rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
-seecol(rptu_21, main = "A gradient between a RPTU color pair")
+# unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 
 }
 \seealso{
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

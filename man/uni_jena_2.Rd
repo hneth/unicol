@@ -8,7 +8,7 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-jena.de/corporate-design}.
 }
 \usage{
@@ -18,26 +18,26 @@ uni_jena_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_jena_2} provides the 10 departmental colors
+\code{uni_jena_2} provides the 10 departmental colors 
 of the (10 faculties at the)
 \href{https://www.uni-jena.de/}{University of Jena}, Germany.
 }
 \details{
-The full name of the \href{https://www.uni-jena.de/}{University of Jena}
+The full name of the \href{https://www.uni-jena.de/}{University of Jena} 
 is Friedrich-Schiller-Universität Jena.
 }
 \examples{
 uni_jena_2
-seecol(uni_jena_2, main = "Departmental colors of the University of Jena")
-demopal(uni_jena_2, type = 5, main = "Faculty colors of Jena University")
+unikn::seecol(uni_jena_2, main = "Departmental colors of the University of Jena")
+unikn::demopal(uni_jena_2, type = 5, main = "Faculty colors of Jena University")
 
 }
 \seealso{
-\code{\link{uni_jena_1}} for primary colors of the University of Jena;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_jena_1}} for primary colors of the University of Jena;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

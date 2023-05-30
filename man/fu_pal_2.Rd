@@ -8,7 +8,7 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}.
 }
 \usage{
@@ -18,27 +18,27 @@ fu_pal_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{fu_pal_2} provides the three accent colors and seven grey colors
+\code{fu_pal_2} provides the three accent colors and seven grey colors  
 of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany.
 }
 \details{
-The three accent colors support the two primary colors of \code{\link{fu_pal_0}}
+The three accent colors support the two primary colors of \code{\link{fu_pal_0}} 
 but should not dominate the overall impression.
 }
 \examples{
 fu_pal_2
-seecol(fu_pal_2, main = "Secondary colors of the FU Berlin")  # view color palette
-demopal(fu_pal_2, type = 5, main = "Accent and grey colors of the FU Berlin")
+unikn::seecol(fu_pal_2, main = "Secondary colors of the FU Berlin")  # view color palette
+unikn::demopal(fu_pal_2, type = 5, main = "Accent and grey colors of the FU Berlin")
 
 }
 \seealso{
-\code{\link{fu_pal_0}} for primary colors of the FU Berlin;
+\code{\link{fu_pal_0}} for primary colors of the FU Berlin; 
 \code{\link{fu_pal_1}} for a corresponding color gradient of the FU Berlin;
-\code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

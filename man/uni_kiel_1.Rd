@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.presse.uni-kiel.de/de/erscheinungsbild/farben}.
 }
 \usage{
@@ -22,37 +22,37 @@ A named vector of colors (HEX/HTML codes of type character).
 of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany.
 }
 \details{
-The main color is the luminant \code{violett} of \code{uni_kiel_1[2]},
-which alludes to the historic founding faculty of theology.
-It is alternatively defined as \code{RGB 155/10/125}, \code{Hex #9b0a7d},
-\code{HKS 33}, or \code{CMYK 45/100/0/0}.
+The main color is the luminant \code{violett} of \code{uni_kiel_1[2]}, 
+which alludes to the historic founding faculty of theology. 
+It is alternatively defined as \code{RGB 155/10/125}, \code{Hex #9b0a7d}, 
+\code{HKS 33}, or \code{CMYK 45/100/0/0}. 
 
-The palette \code{uni_kiel_1} enframes this color as its central element
-in \code{"black"} and \code{"white"} to easily enable mixing it with
-shades of \code{"grey"}.
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions
-for creating color gradients.
+The palette \code{uni_kiel_1} enframes this color as its central element 
+in \code{"black"} and \code{"white"} to easily enable mixing it with 
+shades of \code{"grey"}. 
+See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+for creating color gradients. 
 
-The full name of \href{https://www.uni-kiel.de/en/}{Kiel University}
+The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 
 is Christian-Albrechts-Universität (CAU) zu Kiel.
 }
 \examples{
 uni_kiel_1
-seecol(uni_kiel_1, main = "The main color of Kiel University (CAU)")
-demopal(uni_kiel_1, type = 3, main = "Primary colors of the University of Kiel")
+unikn::seecol(uni_kiel_1, main = "The main color of Kiel University (CAU)")
+unikn::demopal(uni_kiel_1, type = 3, main = "Primary colors of the University of Kiel")
 
 # Gradient: Mixing the main color with shades of grey: 
 N = 9
 kiel_mix <- unikn::usecol(uni_kiel_1, n = N)[c(-1, -N)]  # remove extremes
-seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
+unikn::seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
 
 }
 \seealso{
-\code{\link{uni_kiel_2}} for departmental colors of Kiel University;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_kiel_2}} for departmental colors of Kiel University;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

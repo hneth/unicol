@@ -8,12 +8,12 @@
 An object of class \code{character} of length 11.
 }
 \source{
-R package \strong{unikn},
-retrieved from \url{https://CRAN.R-project.org/package=unikn},
-doi \doi{10.5281/zenodo.7096191}.
+R package \strong{unikn}, 
+retrieved from \url{https://CRAN.R-project.org/package=unikn},    
+doi \doi{10.5281/zenodo.7096191}. 
 
-Color definitions are based on
-\url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}
+Color definitions are based on 
+\url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}  
 \url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}
 }
 \usage{
@@ -23,25 +23,25 @@ uni_konstanz_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_konstanz_1} provides the default color palette
+\code{uni_konstanz_1} provides the default color palette 
 of the \href{https://www.uni-konstanz.de/}{University of Konstanz}, Germany.
 }
 \details{
-The \strong{unikn} package provides many additional color palettes for
+The \strong{unikn} package provides many additional color palettes for 
 the \href{https://www.uni-konstanz.de/}{University of Konstanz}.
 }
 \examples{
 uni_konstanz_1
-seecol(uni_konstanz_1, main = "Default colors of the University of Konstanz")
-demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", seed = 1)
+unikn::seecol(uni_konstanz_1, main = "Default colors of the University of Konstanz")
+unikn::demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", seed = 1)
 
 }
 \seealso{
-\code{\link{uni_konstanz_2}} for the preferred colors of the University of Konstanz;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_konstanz_2}} for the preferred colors of the University of Konstanz;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

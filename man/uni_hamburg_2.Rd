@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the 
 \href{https://www.kus.uni-hamburg.de/themen/oeffentlichkeitsarbeit/corporate-design/corporate-manual.html}{CD manual}.
 }
 \usage{
@@ -18,8 +18,8 @@ uni_hamburg_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_hamburg_2} provides three primary colors
-of the \href{https://www.uni-hamburg.de/}{University of Hamburg}, Germany,
+\code{uni_hamburg_2} provides three primary colors 
+of the \href{https://www.uni-hamburg.de/}{University of Hamburg}, Germany, 
 in combination with two pair-wise variants of them.
 }
 \details{
@@ -27,16 +27,16 @@ in combination with two pair-wise variants of them.
 }
 \examples{
 uni_hamburg_2
-seecol(uni_hamburg_2, main = "Visualization colors of the University of Hamburg")
-demopal(uni_hamburg_2, type = 1, main = "Secondary colors of the Uni Hamburg")
+unikn::seecol(uni_hamburg_2, main = "Visualization colors of the University of Hamburg")
+unikn::demopal(uni_hamburg_2, type = 1, main = "Secondary colors of the Uni Hamburg")
 
 }
 \seealso{
-\code{\link{uni_hamburg_1}} for primary colors of the University of Hamburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_hamburg_1}} for primary colors of the University of Hamburg;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

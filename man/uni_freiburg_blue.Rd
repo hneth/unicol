@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the web style guide at
-\url{https://uni-freiburg.de/}
+Color definitions are based on the web style guide at 
+\url{https://uni-freiburg.de/} 
 (at \code{portal.uni-freiburg.de/cmsforum/wsg/webstyleguide/farben} on 2022-10-20).
 }
 \usage{
@@ -19,27 +19,27 @@ uni_freiburg_blue
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_freiburg_blue} provides the blue colors
+\code{uni_freiburg_blue} provides the blue colors 
 of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany.
 }
 \details{
-\strong{Please note}:
-See \code{\link{uni_freiburg_1}}
+\strong{Please note}: 
+See \code{\link{uni_freiburg_1}} 
 for the corresponding colors of the new corporate design (as of 2023).
 }
 \examples{
 uni_freiburg_blue
-seecol(uni_freiburg_blue, main = "Blue colors of the University of Freiburg (2022)")
-demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg University (2022)")
+unikn::seecol(uni_freiburg_blue, main = "Blue colors of the University of Freiburg (2022)")
+unikn::demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg University (2022)")
 
 }
 \seealso{
-\code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;
-\code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
+\code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

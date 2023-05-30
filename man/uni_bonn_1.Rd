@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the 
 \href{https://www.uni-bonn.de/de/universitaet/presse-kommunikation/corporate-design}{CD manual}.
 }
 \usage{
@@ -18,43 +18,43 @@ uni_bonn_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_bonn_1} provides the three primary colors
-(i.e., one main and two decorative colors)
+\code{uni_bonn_1} provides the three primary colors 
+(i.e., one main and two decorative colors) 
 of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany.
 }
 \details{
-The main color \code{uni blau} is defined as \code{CMYK 100/70/0/0}
-and approximated by \code{Pantone 286}, \code{RGB 0/78/159}, \code{HEX #004e9f},
-and \code{RAL 5005}.
+The main color \code{uni blau} is defined as \code{CMYK 100/70/0/0}  
+and approximated by \code{Pantone 286}, \code{RGB 0/78/159}, \code{HEX #004e9f}, 
+and \code{RAL 5005}. 
 
-The decorative color \code{uni gelb} is defined as \code{CMYK 0/30/100/0}
-and approximated by \code{Pantone 1235}, \code{RGB 252/186/0}, \code{HEX #fcba00},
-and \code{RAL 1028}.
+The decorative color \code{uni gelb} is defined as \code{CMYK 0/30/100/0}  
+and approximated by \code{Pantone 1235}, \code{RGB 252/186/0}, \code{HEX #fcba00}, 
+and \code{RAL 1028}. 
 
-The decorative color \code{uni grau} is defined as \code{CMYK 0/0/15/55}
-and approximated by \code{Pantone 415}, \code{RGB 144/144/133}, \code{HEX #909085},
-and \code{RAL 7030}.
+The decorative color \code{uni grau} is defined as \code{CMYK 0/0/15/55}  
+and approximated by \code{Pantone 415}, \code{RGB 144/144/133}, \code{HEX #909085}, 
+and \code{RAL 7030}. 
 
-Colors shades of 75\%, 50\%, and 25\% may be used in diagrams or visualizations.
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions
+Colors shades of 75%, 50%, and 25% may be used in diagrams or visualizations. 
+See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
 for creating color gradients.
 }
 \examples{
 uni_bonn_1
-seecol(uni_bonn_1, main = "Primary colors of the University of Bonn")  # view color palette 
+unikn::seecol(uni_bonn_1, main = "Primary colors of the University of Bonn")  # view color palette 
 
 # Color gradient:
 uni_bonn_blau_gelb <- unikn::usecol(c(uni_bonn_1[1], "white", uni_bonn_1[2]), n = 9)
-# seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
-demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
+# unikn::seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
+unikn::demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
 
 }
 \seealso{
-\code{\link{uni_bonn_2}} for gradient colors of the University of Bonn;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_bonn_2}} for gradient colors of the University of Bonn;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

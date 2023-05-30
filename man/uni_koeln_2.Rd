@@ -8,7 +8,7 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://kommunikation-marketing.uni-koeln.de/marketing/corporate_design/index_ger.html}.
 }
 \usage{
@@ -18,7 +18,7 @@ uni_koeln_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_koeln_2} provides the departmental (faculty) colors
+\code{uni_koeln_2} provides the departmental (faculty) colors 
 of the \href{https://www.uni-koeln.de/}{Universitaet zu Koeln}, Germany.
 }
 \details{
@@ -26,27 +26,27 @@ The named colors of \code{uni_koeln_2} correspond to the following departments:
 
 \enumerate{
 \item \code{gruen}: Wirtschafts-/Sozialwissenschaftliche Fakultaet
-\item \code{bordeaux}: Rechtswissenschaftliche Fakultaet
+\item \code{bordeaux}: Rechtswissenschaftliche Fakultaet 
 \item \code{rot}: Medizinische Fakultaet
 \item \code{violett}: Philosophische Fakultaet
 \item \code{blau}: Mathematisch-Naturwissenschaftliche Fakultaet
-\item \code{orange}: Humanwissenschaftlicheschaftliche Fakultaet
-\item \code{hellblau}: Verwaltung
+\item \code{orange}: Humanwissenschaftlicheschaftliche Fakultaet 
+\item \code{hellblau}: Verwaltung 
 }
 }
 \examples{
 uni_koeln_2
-seecol(uni_koeln_2, main = "Departmental colors of Uni Koeln")
-demopal(uni_koeln_2, type = 3, 
-        main = "Department colors at the University of Cologne")
+unikn::seecol(uni_koeln_2, main = "Departmental colors of Uni Koeln")
+unikn::demopal(uni_koeln_2, type = 3, 
+               main = "Department colors at the University of Cologne")
 
 }
 \seealso{
-\code{\link{uni_koeln_1}} for primary colors of the University of Koeln;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_koeln_1}} for primary colors of the University of Koeln;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

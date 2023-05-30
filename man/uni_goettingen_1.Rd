@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-goettingen.de/de/589412.html}.
 }
 \usage{
@@ -18,26 +18,26 @@ uni_goettingen_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_goettingen_1} provides the primary blue colors
+\code{uni_goettingen_1} provides the primary blue colors 
 of the \href{https://www.uni-goettingen.de/}{University of Göttingen}, Germany.
 }
 \details{
-The primary dark blue color \code{uniblau} is defined as \code{Uni-Blau HKS 41}.
-The palette \code{uni_goettingen_1} adds some derived colors,
+The primary dark blue color \code{uniblau} is defined as \code{Uni-Blau HKS 41}. 
+The palette \code{uni_goettingen_1} adds some derived colors, 
 while the palette \code{\link{uni_goettingen_2}} provides secondary colors.
 }
 \examples{
 uni_goettingen_1
-seecol(uni_goettingen_1, main = "The primary colors of Uni Göttingen")  # view color palette
-demopal(uni_goettingen_1, type = 1, main = "Primary colors of the University of Goettingen")
+unikn::seecol(uni_goettingen_1, main = "The primary colors of Uni Göttingen")  # view color palette
+unikn::demopal(uni_goettingen_1, type = 1, main = "Primary colors of the University of Goettingen")
 
 }
 \seealso{
-\code{\link{uni_goettingen_2}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_goettingen_2}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

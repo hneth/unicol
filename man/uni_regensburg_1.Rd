@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}.
 }
 \usage{
@@ -18,17 +18,17 @@ uni_regensburg_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_regensburg_1} provides the general (administrative and service-oriented) colors
+\code{uni_regensburg_1} provides the general (administrative and service-oriented) colors 
 of the \href{https://www.uni-regensburg.de/}{University of Regensburg}, Germany.
 }
 \details{
 Named colors of \code{uni_regensburg_1} correspond to the following UR services:
 
 \enumerate{
-\item \code{neutralgrau}: Main color (UR-Hausfarbe, Logo)
+\item \code{neutralgrau}: Main color (UR-Hausfarbe, Logo)  
 \item \code{blaugrau}: Leitung, Organe und Verwaltung (LOV, Ausnahme: Referate I/3, I/4, I/5, I/6)
 \item \code{schwarzrot}: Chancengleichheit und Familie (Familien-Service, Frauenbeauftragte, Frauenfoerderung, Gleichstellung)
-\item \code{schilfgruen}: Service-Einrichtungen der Verwaltung für Studierende (Akademisches Auslandsamt, Studentenkanzlei, Zentrales Pruefungssekretariat, Zentrale Studienberatung, Senatsbeauftragter für Behinderte und chronisch Kranke)
+\item \code{schilfgruen}: Service-Einrichtungen der Verwaltung für Studierende (Akademisches Auslandsamt, Studentenkanzlei, Zentrales Pruefungssekretariat, Zentrale Studienberatung, Senatsbeauftragter für Behinderte und chronisch Kranke) 
 \item \code{dianthusrot}: Universitaetsbibliothek (UB)
 \item \code{saphirblau}: Rechenzentrum (RZ)
 \item \code{farngruen}: Zentrum fuer Weiterbildung
@@ -39,21 +39,21 @@ Named colors of \code{uni_regensburg_1} correspond to the following UR services:
 \item \code{wasserblau}: Sportzentrum (SZ)
 }
 
-When coloring large areas, named colors may be used in shades of 70\%.
+When coloring large areas, named colors may be used in shades of 70%.
 }
 \examples{
 uni_regensburg_1
-seecol(uni_regensburg_1, main = "General colors of the University of Regensburg")
-demopal(uni_regensburg_1, alpha = .70, type = 2, 
-        main = "General colors of Regensburg University")
+unikn::seecol(uni_regensburg_1, main = "General colors of the University of Regensburg")
+unikn::demopal(uni_regensburg_1, alpha = .70, type = 2, 
+               main = "General colors of Regensburg University")
 
 }
 \seealso{
-\code{\link{uni_regensburg_2}} and \code{\link{uni_regensburg_3}} for the faculty colors of the University of Regensburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_regensburg_2}} and \code{\link{uni_regensburg_3}} for the faculty colors of the University of Regensburg;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}.
 }
 \usage{
@@ -18,28 +18,28 @@ fu_pal_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{fu_pal_3} provides a gradient of the blue primary color
+\code{fu_pal_3} provides a gradient of the blue primary color  
 of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany.
 }
 \details{
-See \code{\link{fu_pal_0}} for the two primary colors and
-the \code{\link{ac}} and \code{\link{usecol}} functions for creating
+See \code{\link{fu_pal_0}} for the two primary colors and 
+the \code{\link{ac}} and \code{\link{usecol}} functions for creating 
 alternative color gradients.
 }
 \examples{
 fu_pal_3
-seecol(fu_pal_3, main = "Blue color gradient of the FU Berlin")  # view color palette
-demopal(fu_pal_3, type = 3, main = "Blue color gradient of the FU Berlin")
+unikn::seecol(fu_pal_3, main = "Blue color gradient of the FU Berlin")  # view color palette
+unikn::demopal(fu_pal_3, type = 3, main = "Blue color gradient of the FU Berlin")
 
 }
 \seealso{
 \code{\link{fu_pal_0}} for primary colors of the FU Berlin;
-\code{\link{fu_pal_1}} for primary color gradient of the FU Berlin;
-\code{\link{fu_pal_2}} for secondary colors of the FU Berlin;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{fu_pal_1}} for primary color gradient of the FU Berlin; 
+\code{\link{fu_pal_2}} for secondary colors of the FU Berlin; 
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}.
 }
 \usage{
@@ -18,34 +18,34 @@ fu_pal_0
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{fu_pal_0} provides the two primary colors
+\code{fu_pal_0} provides the two primary colors 
 of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany.
 }
 \details{
-The dark \code{"FU blue"} implies consistency, seriosity and respect.
-It is defined as Pantone 280C
+The dark \code{"FU blue"} implies consistency, seriosity and respect. 
+It is defined as Pantone 280C 
 and approximated by CMYK 100/72/0/18.5, RGB 0/51/102, and HEX #003366.
 
-The bright \code{"FU green"} implies renewal and mobility.
-It is is defined as Pantone 381C
-and approximated by CMYK 18.5/0/91/0, RGB 153/204/0, and HEX #99CC00.
+The bright \code{"FU green"} implies renewal and mobility. 
+It is is defined as Pantone 381C 
+and approximated by CMYK 18.5/0/91/0, RGB 153/204/0, and HEX #99CC00. 
 
 See \code{\link{fu_pal_1}} for a corresponding color gradient.
 }
 \examples{
 fu_pal_0
-seecol(fu_pal_0, main = "Primary colors of the FU Berlin")  # view color palette
-demopal(fu_pal_0, type = 1, main = "Primary colors of the FU Berlin")
+unikn::seecol(fu_pal_0, main = "Primary colors of the FU Berlin")  # view color palette
+unikn::demopal(fu_pal_0, type = 1, main = "Primary colors of the FU Berlin")
 
 }
 \seealso{
 \code{\link{fu_pal_1}} for a corresponding color gradient of the FU Berlin;
-\code{\link{fu_pal_2}} for secondary colors of the FU Berlin;
-\code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{fu_pal_2}} for secondary colors of the FU Berlin; 
+\code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

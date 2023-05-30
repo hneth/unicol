@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://communications.princeton.edu/guides-tools/logo-graphic-identity}.
 }
 \usage{
@@ -18,27 +18,27 @@ uni_princeton_0
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_princeton_0} provides the two basic colors
+\code{uni_princeton_0} provides the two basic colors 
 of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA.
 }
 \details{
-Note that
-\href{https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange}{Wikipedia: Shades of orange}
+Note that 
+\href{https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange}{Wikipedia: Shades of orange} 
 defines \code{uni_princeton_2[1]} as "Princeton orange".
 }
 \examples{
 uni_princeton_0
-seecol(uni_princeton_0, main = "Basic colors of Princeton University")
-demopal(uni_princeton_0, type = 1, main = "Colors of Princeton University")
+unikn::seecol(uni_princeton_0, main = "Basic colors of Princeton University")
+unikn::demopal(uni_princeton_0, type = 1, main = "Colors of Princeton University")
 
 }
 \seealso{
-\code{\link{uni_princeton_1}} for Princeton University colors (on white backgrounds);
-\code{\link{uni_princeton_2}} for Princeton University colors (on black backgrounds);
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_princeton_1}} for Princeton University colors (on white backgrounds); 
+\code{\link{uni_princeton_2}} for Princeton University colors (on black backgrounds); 
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

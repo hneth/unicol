@@ -8,7 +8,7 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://docplayer.org/2328711-Max-planck-institut-das-erscheinungsbild-der-max-planck-gesellschaft-4-ueberarbeitete-auflage.html}.
 }
 \usage{
@@ -18,35 +18,35 @@ mpg_pal
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{mpg_pal} provides the default color palette
+\code{mpg_pal} provides the default color palette 
 of the \href{https://www.mpg.de/en}{Max Planck Society}, Germany.
 }
 \details{
-The two primary colors are at the extreme positions of \code{mpg_pal}:
+The two primary colors are at the extreme positions of \code{mpg_pal}: 
 \enumerate{
 \item \code{MPG green} (at \code{mpg_pal[1]}): Defined as \code{Pantone 328}, \code{CMYK 100/0/57/30}, or \code{RGB 17/102/86}.
 \item \code{MPG grey} (at \code{mpg_pal[5]}): Defined as \code{Pantone 427}, \code{CMYK 0/0/6/15}, or \code{RGB 221/222/214}.
 }
 
-At \code{mpg_pal[3]}, the color \code{"white"} was added to enable symmetrical color gradients.
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions
+At \code{mpg_pal[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
+See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
 for creating color gradients.
 }
 \examples{
 mpg_pal
-seecol(mpg_pal, main = "Colors of the Max Planck Society")  # view color palette 
-demopal(mpg_pal, type = 1, main = "Using the MPG colors")
+unikn::seecol(mpg_pal, main = "Colors of the Max Planck Society")  # view color palette 
+unikn::demopal(mpg_pal, type = 1, main = "Using the MPG colors")
 
 # Extended version:
 mpg_pal_11 <- unikn::usecol(c(mpg_pal, "black"), n = 11)
-demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
+unikn::demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
 
 }
 \seealso{
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

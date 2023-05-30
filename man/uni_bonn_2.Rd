@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the 
 \href{https://www.uni-bonn.de/de/universitaet/presse-kommunikation/corporate-design}{CD manual}.
 }
 \usage{
@@ -18,27 +18,27 @@ uni_bonn_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_bonn_2} provides 4 shades (of 100\%, 75\%, 50\%, and 25\%)
-for each of the 3 primary colors
+\code{uni_bonn_2} provides 4 shades (of 100%, 75%, 50%, and 25%) 
+for each of the 3 primary colors 
 of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany.
 }
 \details{
-See \code{\link{uni_bonn_1}} for the definitions of the three primary colors
-and the \code{\link{ac}} and \code{\link{usecol}} functions
+See \code{\link{uni_bonn_1}} for the definitions of the three primary colors 
+and the \code{\link{ac}} and \code{\link{usecol}} functions 
 for creating color gradients.
 }
 \examples{
 uni_bonn_2
-seecol(uni_bonn_2, main = "Gradient colors of the University of Bonn")  # view color palette 
-demopal(uni_bonn_2, type = 3, main = "Color shades of the University of Bonn")
+unikn::seecol(uni_bonn_2, main = "Gradient colors of the University of Bonn")  # view color palette 
+unikn::demopal(uni_bonn_2, type = 3, main = "Color shades of the University of Bonn")
 
 }
 \seealso{
-\code{\link{uni_bonn_1}} for primary colors of the University of Bonn;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_bonn_1}} for primary colors of the University of Bonn;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

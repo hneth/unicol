@@ -8,7 +8,7 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}.
 }
 \usage{
@@ -18,28 +18,28 @@ eth_pal_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{eth_pal_3} provides the black and gray colors
+\code{eth_pal_3} provides the black and gray colors  
 used by the \href{https://ethz.ch/}{ETH Zürich}, Switzerland.
 }
 \details{
-The color \code{"black"} and six shades of gray can be used to visually structure content
-and delineate different elements.
+The color \code{"black"} and six shades of gray can be used to visually structure content 
+and delineate different elements. 
 
-Note that \code{eth_pal_3} mixes colors of
+Note that \code{eth_pal_3} mixes colors of 
 varying opacity / transparency levels.
 }
 \examples{
 eth_pal_3
-seecol(eth_pal_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
-demopal(eth_pal_3, type = 2, main = "Black and gray colors of ETH Zürich")
+unikn::seecol(eth_pal_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
+unikn::demopal(eth_pal_3, type = 2, main = "Black and gray colors of ETH Zürich")
 
 }
 \seealso{
-\code{\link{eth_pal_1}} and \code{\link{eth_pal_2}} for alternative colors of the ETH Zurich;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{eth_pal_1}} and \code{\link{eth_pal_2}} for alternative colors of the ETH Zurich;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

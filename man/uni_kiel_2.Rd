@@ -8,7 +8,7 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.presse.uni-kiel.de/de/erscheinungsbild/farben}.
 }
 \usage{
@@ -18,33 +18,33 @@ uni_kiel_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_kiel_2} provides the 8 departmental colors (German "Fakultäten")
+\code{uni_kiel_2} provides the 8 departmental colors (German "Fakultäten") 
 of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany.
 }
 \details{
-These colors may be mixed with darker shades of \code{"grey"} (or \code{"black"}).
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions
-for creating color gradients.
+These colors may be mixed with darker shades of \code{"grey"} (or \code{"black"}). 
+See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+for creating color gradients. 
 
-The full name of \href{https://www.uni-kiel.de/en/}{Kiel University}
+The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 
 is Christian-Albrechts-Universität (CAU) zu Kiel.
 }
 \examples{
 uni_kiel_2
-seecol(uni_kiel_2, main = "Departmental colors of Kiel University (CAU)")
-demopal(uni_kiel_2, type = 3, main = "Department colors of the University of Kiel")
+unikn::seecol(uni_kiel_2, main = "Departmental colors of Kiel University (CAU)")
+unikn::demopal(uni_kiel_2, type = 3, main = "Department colors of the University of Kiel")
 
 # Gradients: Mix with "black" for darker shades:
 uni_kiel_med <- unikn::usecol(c(uni_kiel_2["Medizin"], "black"), n = 5)
-seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
+unikn::seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
 
 }
 \seealso{
-\code{\link{uni_kiel_1}} for primary colors of Kiel University;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_kiel_1}} for primary colors of Kiel University;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the 
 \href{https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designgrundsaetze/farben/index.html}{LMU brand guide}.
 }
 \usage{
@@ -18,27 +18,27 @@ lmu_pal_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{lmu_pal_3} provides five accent colors
+\code{lmu_pal_3} provides five accent colors 
 of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany.
 }
 \details{
-The accent colors of \code{lmu_pal_3} are used sparsely in combination with
-the primary colors of \code{\link{lmu_pal_1}} and
+The accent colors of \code{lmu_pal_3} are used sparsely in combination with 
+the primary colors of \code{\link{lmu_pal_1}} and 
 the secondary colors of \code{\link{lmu_pal_2}}.
 }
 \examples{
 lmu_pal_3
-seecol(lmu_pal_3, main = "Accent colors of the LMU München")  # view color palette 
-demopal(lmu_pal_3, type = 3, main = "Accent colors of LMU Munich")
+unikn::seecol(lmu_pal_3, main = "Accent colors of the LMU München")  # view color palette 
+unikn::demopal(lmu_pal_3, type = 3, main = "Accent colors of LMU Munich")
 
 }
 \seealso{
-\code{\link{lmu_pal_1}} for primary colors of the LMU Munich;
-\code{\link{lmu_pal_2}} for secondary colors of the LMU Munich;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{lmu_pal_1}} for primary colors of the LMU Munich; 
+\code{\link{lmu_pal_2}} for secondary colors of the LMU Munich;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

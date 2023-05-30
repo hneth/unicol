@@ -8,7 +8,7 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-mannheim.de/cd/marke/farben/}.
 }
 \usage{
@@ -18,30 +18,30 @@ uni_mannheim_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_mannheim_1} provides a color gradient of
-the primary \code{blau} color and six lighter shades
+\code{uni_mannheim_1} provides a color gradient of 
+the primary \code{blau} color and six lighter shades 
 of the \href{https://www.uni-mannheim.de/}{University of Mannheim}, Germany.
 }
 \details{
-The primary color \code{UM blau} is alternatively defined as
-\code{RGB 0/48/86}, \code{HEX #003056}, \code{Pantone 654}, \code{CMYK 100/60/10/60}, or \code{RAL 5011}.
+The primary color \code{UM blau} is alternatively defined as 
+\code{RGB 0/48/86}, \code{HEX #003056}, \code{Pantone 654}, \code{CMYK 100/60/10/60}, or \code{RAL 5011}. 
 
-The six lighter shades were created by mixing the primary \code{UM blau} with \code{"white"}.
+The six lighter shades were created by mixing the primary \code{UM blau} with \code{"white"}.  
 See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_mannheim_1
-seecol(uni_mannheim_1, main = "Main color gradient of the University of Mannheim")
-demopal(uni_mannheim_1, type = 1, 
-        main = "Main color gradient of Mannheim University")
+unikn::seecol(uni_mannheim_1, main = "Main color gradient of the University of Mannheim")
+unikn::demopal(uni_mannheim_1, type = 1, 
+               main = "Main color gradient of Mannheim University")
 
 }
 \seealso{
-\code{\link{uni_mannheim_2}} provides the primary and accent colors of the University of Mannheim;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_mannheim_2}} provides the primary and accent colors of the University of Mannheim;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

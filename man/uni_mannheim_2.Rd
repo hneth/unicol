@@ -8,7 +8,7 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-mannheim.de/cd/marke/farben/}.
 }
 \usage{
@@ -18,8 +18,8 @@ uni_mannheim_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_mannheim_2} provides the primary color \code{UM blau},
-the main accent color \code{silber}, and
+\code{uni_mannheim_2} provides the primary color \code{UM blau}, 
+the main accent color \code{silber}, and 
 five departmental accent colors (\code{graublau}, \code{gruen}, \code{orange}, \code{rot}, and \code{petrol})
 of the the \href{https://www.uni-mannheim.de/}{University of Mannheim}, Germany.
 }
@@ -28,19 +28,19 @@ of the the \href{https://www.uni-mannheim.de/}{University of Mannheim}, Germany.
 
 \enumerate{
 
-\item \code{UM blau}: The primary color is alternatively defined as
-\code{RGB 0/48/86}, \code{HEX #003056}, \code{Pantone 654}, \code{CMYK 100/60/10/60}, or \code{RAL 5011}.
+\item \code{UM blau}: The primary color is alternatively defined as 
+      \code{RGB 0/48/86}, \code{HEX #003056}, \code{Pantone 654}, \code{CMYK 100/60/10/60}, or \code{RAL 5011}. 
 
-\item \code{silber}: The main accent color is alternatively defined as
-\code{RGB 179/182/185}, \code{HEX #B3B6B9}, \code{Pantone 887}, \code{CMYK 35/25/25/0}, or \code{RAL 9006}.
+\item \code{silber}: The main accent color is alternatively defined as 
+      \code{RGB 179/182/185}, \code{HEX #B3B6B9}, \code{Pantone 887}, \code{CMYK 35/25/25/0}, or \code{RAL 9006}. 
 
 \item \code{graublau}: Accent color for 'Rechtswissenschaft und Volkswirtschaftslehre'
 
-\item \code{gruen}: Accent color for 'Betriebswirtschaftslehre'
+\item \code{gruen}: Accent color for 'Betriebswirtschaftslehre' 
 
 \item \code{orange}: Accent color for 'Sozialwissenschaften'
 
-\item \code{rot}: Accent color for 'Philosophie'
+\item \code{rot}: Accent color for 'Philosophie'  
 
 \item \code{petrol}: Accent color for 'Wirtschaftsinformatik und Wirtschaftsmathematik'
 
@@ -48,17 +48,17 @@ of the the \href{https://www.uni-mannheim.de/}{University of Mannheim}, Germany.
 }
 \examples{
 uni_mannheim_2
-seecol(uni_mannheim_2, main = "Main and accent colors of the University of Mannheim")
-demopal(uni_mannheim_2, type = 4, seed = 7, 
-        main = "Main and department accent colors of Mannheim University")
+unikn::seecol(uni_mannheim_2, main = "Main and accent colors of the University of Mannheim")
+unikn::demopal(uni_mannheim_2, type = 4, seed = 7, 
+               main = "Main and department accent colors of Mannheim University")
 
 }
 \seealso{
-\code{\link{uni_mannheim_1}} provides a primary color gradient for the University of Mannheim;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_mannheim_1}} provides a primary color gradient for the University of Mannheim;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

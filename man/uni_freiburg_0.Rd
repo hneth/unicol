@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the new web style guide at
-\url{https://uni-freiburg.de/}
+Color definitions are based on the new web style guide at 
+\url{https://uni-freiburg.de/} 
 (at \code{https://cd.uni-freiburg.de/farben/} on 2023-04-28).
 }
 \usage{
@@ -19,11 +19,11 @@ uni_freiburg_0
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_freiburg_0} provides the three basic colors
+\code{uni_freiburg_0} provides the three basic colors 
 of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany.
 }
 \details{
-The primary color \code{Blau} (here: \code{uni_freiburg_0[2]}) is alternatively defined as
+The primary color \code{Blau} (here: \code{uni_freiburg_0[2]}) is alternatively defined as 
 \code{Pantone 7687C}, \code{RGB 52/74/154}, \code{HEX #344a9a}, or \code{CMYK 90/75/0/0}.
 
 See \code{\link{uni_freiburg_1}} for a primary palette with a \code{Blau} color gradient
@@ -31,18 +31,18 @@ and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color g
 }
 \examples{
 uni_freiburg_0
-seecol(uni_freiburg_0, col_brd = "grey", lwd_brd = 1.5, 
+unikn::seecol(uni_freiburg_0, col_brd = "grey", lwd_brd = 1.5, 
        main = "Basic colors of the University of Freiburg")  # view color palette
-demopal(uni_freiburg_0, type = 5, main = "Basic colors of Freiburg University")
+unikn::demopal(uni_freiburg_0, type = 5, main = "Basic colors of Freiburg University")
 
 }
 \seealso{
 \code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg;
 \code{\link{uni_freiburg_2}} for the secondary colors of the University of Freiburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

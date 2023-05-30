@@ -8,7 +8,7 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}.
 }
 \usage{
@@ -18,26 +18,26 @@ eth_pal_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{eth_pal_1} provides the seven default colors
+\code{eth_pal_1} provides the seven default colors  
 of the \href{https://ethz.ch/}{ETH Zürich}, Switzerland.
 }
 \details{
-Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_pal_2}}.
+Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_pal_2}}. 
 
 The Swiss abbreviation "ETH" stands for "Eidgenössische Technische Hochschule".
 }
 \examples{
 eth_pal_1
-seecol(eth_pal_1, main = "Default colors of the ETH Zürich")  # view color palette
-demopal(eth_pal_1, type = 3, main = "Using the default colors of ETH Zurich")
+unikn::seecol(eth_pal_1, main = "Default colors of the ETH Zürich")  # view color palette
+unikn::demopal(eth_pal_1, type = 3, main = "Using the default colors of ETH Zurich")
 
 }
 \seealso{
-\code{\link{eth_pal_2}} and \code{\link{eth_pal_3}} for alternative colors of the ETH Zurich;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{eth_pal_2}} and \code{\link{eth_pal_3}} for alternative colors of the ETH Zurich;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

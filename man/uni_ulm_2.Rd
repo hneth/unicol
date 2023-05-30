@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-ulm.de/misc/corporate-design/#c875952}.
 }
 \usage{
@@ -18,7 +18,7 @@ uni_ulm_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_ulm_2} provides the four departmental colors
+\code{uni_ulm_2} provides the four departmental colors 
 of the \href{https://www.uni-ulm.de/}{University of Ulm}, Germany.
 }
 \details{
@@ -28,27 +28,27 @@ The named colors of \code{uni_ulm_2} correspond to the following departments:
 \item \code{blau}: Medizin
 \item \code{rot}: Ingenieurwissenschaften, Informatik und Psychologie
 \item \code{gruen}: Mathematik und Wirtschaftswissenschaften
-\item \code{orange}: Naturwissenschaften
+\item \code{orange}: Naturwissenschaften 
 }
 
 See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_ulm_2
-seecol(uni_ulm_2, main = "Department colors of the University of Ulm")
-demopal(uni_ulm_2, type = 2, seed = 123,
-        main = "Departmental colors of Ulm University")
+unikn::seecol(uni_ulm_2, main = "Department colors of the University of Ulm")
+unikn::demopal(uni_ulm_2, type = 2, seed = 123,
+               main = "Departmental colors of Ulm University")
         
 # 5-color gradient:
 uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
 
 }
 \seealso{
-\code{\link{uni_ulm_1}} for the main colors of the University of Ulm;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_ulm_1}} for the main colors of the University of Ulm;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

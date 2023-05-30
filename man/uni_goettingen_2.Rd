@@ -8,7 +8,7 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-goettingen.de/de/589412.html}.
 }
 \usage{
@@ -18,30 +18,30 @@ uni_goettingen_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_goettingen_2} provides the secondary colors
+\code{uni_goettingen_2} provides the secondary colors 
 of the \href{https://www.uni-goettingen.de/}{University of Göttingen}, Germany.
 }
 \details{
-These colors are to be combined with the blue primary colors
-provided by palette \code{\link{uni_goettingen_1}}.
+These colors are to be combined with the blue primary colors 
+provided by palette \code{\link{uni_goettingen_1}}. 
 
-\code{uni_goettingen_2} corrects an error in the color definitions
-of \url{https://www.uni-goettingen.de/de/589412.html},
-where \code{"Chamois"} and \code{"Altweiss"} had identical,
+\code{uni_goettingen_2} corrects an error in the color definitions 
+of \url{https://www.uni-goettingen.de/de/589412.html}, 
+where \code{"Chamois"} and \code{"Altweiss"} had identical, 
 but non-corresponding RGB and HEX values.
 }
 \examples{
 uni_goettingen_2
-seecol(uni_goettingen_2, main = "Secondary colors of the University of Göttingen")
-demopal(uni_goettingen_2, type = 3, main = "Secondary colors of Uni Goettingen")
+unikn::seecol(uni_goettingen_2, main = "Secondary colors of the University of Göttingen")
+unikn::demopal(uni_goettingen_2, type = 3, main = "Secondary colors of Uni Goettingen")
 
 }
 \seealso{
-\code{\link{uni_goettingen_1}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_goettingen_1}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

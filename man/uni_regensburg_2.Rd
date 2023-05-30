@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}.
 }
 \usage{
@@ -18,8 +18,8 @@ uni_regensburg_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_regensburg_2} provides the departmental (faculty) colors
-for coloring print or web areas
+\code{uni_regensburg_2} provides the departmental (faculty) colors 
+for coloring print or web areas 
 at the \href{https://www.uni-regensburg.de/}{University of Regensburg}, Germany.
 }
 \details{
@@ -40,20 +40,20 @@ Named colors of \code{uni_regensburg_2} correspond to the following UR faculties
 \item \code{glutrot}: Informatik und Data Science
 }
 
-When coloring large areas, named colors can be used in shades of 70\%.
+When coloring large areas, named colors can be used in shades of 70%.
 }
 \examples{
 uni_regensburg_2
-seecol(uni_regensburg_2, main = "Departmental colors at the University of Regensburg")
-demopal(uni_regensburg_2, type = 3, main = "Department colors of Regensburg University")
+unikn::seecol(uni_regensburg_2, main = "Departmental colors at the University of Regensburg")
+unikn::demopal(uni_regensburg_2, type = 3, main = "Department colors of Regensburg University")
 
 }
 \seealso{
-\code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_3}} for alternative colors of the University of Regensburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_3}} for alternative colors of the University of Regensburg;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

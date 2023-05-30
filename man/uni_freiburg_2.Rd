@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the new web style guide at
-\url{https://uni-freiburg.de/}
+Color definitions are based on the new web style guide at 
+\url{https://uni-freiburg.de/} 
 (at \code{https://uni-freiburg.de/universitaet/corporate-design/} on 2023-01-01).
 }
 \usage{
@@ -19,37 +19,37 @@ uni_freiburg_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_freiburg_2} provides the four secondary colors
+\code{uni_freiburg_2} provides the four secondary colors  
 of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany.
 }
 \details{
-The primary color \code{Blau} (here: \code{uni_freiburg_1[2]}) is alternatively defined as
+The primary color \code{Blau} (here: \code{uni_freiburg_1[2]}) is alternatively defined as 
 \code{Pantone 7687C}, \code{RGB 52/74/154}, \code{HEX #344a9a}, or \code{CMYK 90/75/0/0}.
 
-The gradient of \code{Blau} was created by mixing
-the primary color \code{uni_freiburg_0[2]} with \code{"white"},
-as in \code{usecol(c(uni_freiburg_0[2], "white"), n = 6)[1:5]}.
+The gradient of \code{Blau} was created by mixing 
+the primary color \code{uni_freiburg_0[2]} with \code{"white"}, 
+as in \code{usecol(c(uni_freiburg_0[2], "white"), n = 6)[1:5]}. 
 
 See \code{\link{uni_freiburg_0}} for the basic colors without the \code{Blau} color gradient
 and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_freiburg_2
-seecol(uni_freiburg_2, main = "Secondary colors of the University of Freiburg")
-demopal(uni_freiburg_2, type = 2, main = "Secondary colors of Freiburg University")
+unikn::seecol(uni_freiburg_2, main = "Secondary colors of the University of Freiburg")
+unikn::demopal(uni_freiburg_2, type = 2, main = "Secondary colors of Freiburg University")
 
 # Color gradients:
 col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
-col_transparent <- ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
+col_transparent <- unikn::ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
 
 }
 \seealso{
 \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
-\code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg; 
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

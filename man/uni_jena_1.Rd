@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on
+Color definitions are based on 
 \url{https://www.uni-jena.de/corporate-design}.
 }
 \usage{
@@ -18,39 +18,39 @@ uni_jena_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_jena_1} provides the main \code{dunkelblau} color
-and the auxiliary \code{gold} color
+\code{uni_jena_1} provides the main \code{dunkelblau} color 
+and the auxiliary \code{gold} color 
 of the \href{https://www.uni-jena.de/}{University of Jena}, Germany.
 }
 \details{
-The main color \code{dunkelblau} is alternatively defined as
-\code{RGB 0/47/93}, \code{CMYK 100/70/10/50}, or \code{HKS 41 K}.
+The main color \code{dunkelblau} is alternatively defined as 
+\code{RGB 0/47/93}, \code{CMYK 100/70/10/50}, or \code{HKS 41 K}. 
 
-The auxiliary color \code{gold} is alternatively defined as
-\code{RGB 174/154/99}, \code{CMYK 20/25/60/25}, or \code{HKS 98 K}.
+The auxiliary color \code{gold} is alternatively defined as 
+\code{RGB 174/154/99}, \code{CMYK 20/25/60/25}, or \code{HKS 98 K}. 
 
-See the \code{\link{ac}} and \code{\link{usecol}} functions
-for creating color gradients.
+See the \code{\link{ac}} and \code{\link{usecol}} functions 
+for creating color gradients. 
 
-The full name of the \href{https://www.uni-jena.de/}{University of Jena}
+The full name of the \href{https://www.uni-jena.de/}{University of Jena} 
 is Friedrich-Schiller-Universität Jena.
 }
 \examples{
 uni_jena_1
-seecol(uni_jena_1, main = "Primary colors of the University of Jena")
-demopal(uni_jena_1, type = 2, seed = 5, main = "Primary colors of Jena University")
+unikn::seecol(uni_jena_1, main = "Primary colors of the University of Jena")
+unikn::demopal(uni_jena_1, type = 2, seed = 5, main = "Primary colors of Jena University")
 
 # Gradient: Mixing the main colors with "white":
 jena_mix <- unikn::usecol(c(uni_jena_1[1], "white", uni_jena_1[2]), n = 7)
-seecol(jena_mix, main = "A gradient of the University of Jena")
+unikn::seecol(jena_mix, main = "A gradient of the University of Jena")
 
 }
 \seealso{
-\code{\link{uni_jena_2}} for departmental colors of the University of Jena;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{uni_jena_2}} for departmental colors of the University of Jena;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 

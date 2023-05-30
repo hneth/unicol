@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the 
 \href{https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designgrundsaetze/farben/index.html}{LMU brand guide}.
 }
 \usage{
@@ -18,7 +18,7 @@ lmu_pal_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{lmu_pal_2} provides four secondary colors
+\code{lmu_pal_2} provides four secondary colors 
 of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany.
 }
 \details{
@@ -26,24 +26,24 @@ The secondary colors of \code{lmu_pal_2} are used to support the primary colors 
 }
 \examples{
 lmu_pal_2
-seecol(lmu_pal_2, main = "The secondary/grey colors of the LMU München")
-demopal(lmu_pal_2, type = 5, main = "Secondary/gray colors of LMU Munich")
+unikn::seecol(lmu_pal_2, main = "The secondary/grey colors of the LMU München")
+unikn::demopal(lmu_pal_2, type = 5, main = "Secondary/gray colors of LMU Munich")
 
 # Combining primary and secondary LMU colors:
 lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
-demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
+unikn::demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 
 lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
-demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
+unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 
 }
 \seealso{
-\code{\link{lmu_pal_1}} for primary colors of the LMU Munich;
-\code{\link{lmu_pal_3}} for accent colors of the LMU Munich;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link{lmu_pal_1}} for primary colors of the LMU Munich; 
+\code{\link{lmu_pal_3}} for accent colors of the LMU Munich;  
+\code{\link{seecol}} for viewing and comparing color palettes; 
+\code{\link{usecol}} for using color palettes; 
+\code{\link{simcol}} for finding similar colors; 
+\code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
 Other contributed color palettes: 
