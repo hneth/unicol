@@ -226,20 +226,17 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link{caltech_pal_3}} for Caltech's bright colors. 
+#' 
+#' @importFrom unikn newpal
 #' 
 #' @export
 
-caltech_pal_1 <- newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
-                                col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
-                        names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
-                                  "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
-                        as_df = FALSE)
+caltech_pal_1 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
+                                       col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
+                               names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
+                                         "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
+                               as_df = FALSE)
 
 # Deep Colors 
 # 
@@ -311,22 +308,19 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link{caltech_pal_3}} for Caltech's bright colors. 
+#' 
+#' @importFrom unikn newpal
 #' 
 #' @export
 
-caltech_pal_2 <- newpal(col = c(col_caltech_p,  
-                                col_caltech_d1, col_caltech_d2, 
-                                col_caltech_d3, col_caltech_d4),
-                        names = c("Caltech orange (PMS 1585c)", 
-                                  "PMS 548c", "PMS 3292c", 
-                                  "PMS 668c", "PMS 195c"), 
-                        as_df = FALSE)
+caltech_pal_2 <- unikn::newpal(col = c(col_caltech_p,  
+                                       col_caltech_d1, col_caltech_d2, 
+                                       col_caltech_d3, col_caltech_d4),
+                               names = c("Caltech orange (PMS 1585c)", 
+                                         "PMS 548c", "PMS 3292c", 
+                                         "PMS 668c", "PMS 195c"), 
+                               as_df = FALSE)
 
 # Bright Colors
 #
@@ -423,20 +417,17 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors. 
+#' 
+#' @importFrom unikn newpal
 #' 
 #' @export
 
-caltech_pal_3 <- newpal(col = c(col_caltech_p,  col_caltech_b1, col_caltech_b2, col_caltech_b3, 
-                                col_caltech_b4, col_caltech_b5, col_caltech_b6, col_caltech_b7),
-                        names = c("Caltech orange (PMS 1585c)", "JPL red (PMS 186c)", "PMS 299c", "PMS 7473c", 
-                                  "PMS 7489c", "PMS 7408c", "PMS 605c", "PMS 1915c"), 
-                        as_df = FALSE)
+caltech_pal_3 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_b1, col_caltech_b2, col_caltech_b3, 
+                                       col_caltech_b4, col_caltech_b5, col_caltech_b6, col_caltech_b7),
+                               names = c("Caltech orange (PMS 1585c)", "JPL red (PMS 186c)", "PMS 299c", "PMS 7473c", 
+                                         "PMS 7489c", "PMS 7408c", "PMS 605c", "PMS 1915c"), 
+                               as_df = FALSE)
 
 
 
@@ -501,9 +492,9 @@ nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
 #' 
 #' @export
 
-uni_goettingen_1 <- newpal(col = col_goe_primary, 
-                           names = nam_goe_primary,
-                           as_df = FALSE)
+uni_goettingen_1 <- unikn::newpal(col = col_goe_primary, 
+                                  names = nam_goe_primary,
+                                  as_df = FALSE)
 
 # seecol(uni_goettingen_1)
 
@@ -562,9 +553,9 @@ nam_goe_secondary <- c("schwarz", "weiss", "chamois", "altweiss",
 #' 
 #' @export
 
-uni_goettingen_2 <- newpal(col = col_goe_secondary, 
-                           names = nam_goe_secondary,
-                           as_df = FALSE)
+uni_goettingen_2 <- unikn::newpal(col = col_goe_secondary, 
+                                  names = nam_goe_secondary,
+                                  as_df = FALSE)
 
 # seecol(uni_goettingen_2)
 
@@ -637,9 +628,9 @@ nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "F
 #' 
 #' @export
 
-uni_goettingen_3 <- newpal(col = col_goe_fac, 
-                           names = nam_goe_fac,
-                           as_df = FALSE)
+uni_goettingen_3 <- unikn::newpal(col = col_goe_fac, 
+                                  names = nam_goe_fac,
+                                  as_df = FALSE)
 
 # seecol(uni_goettingen_3)
 
@@ -723,9 +714,9 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' 
 #' @export
 
-eth_pal_1 <- newpal(col = col_ETH, 
-                    names = nam_ETH,
-                    as_df = FALSE)
+eth_pal_1 <- unikn::newpal(col = col_ETH, 
+                           names = nam_ETH,
+                           as_df = FALSE)
 
 
 # - eth_pal_2: ---- 
@@ -802,9 +793,9 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' 
 #' @export
 
-eth_pal_2 <- newpal(col = col_ETH_light, 
-                    names = nam_ETH_light,
-                    as_df = FALSE)
+eth_pal_2 <- unikn::newpal(col = col_ETH_light, 
+                           names = nam_ETH_light,
+                           as_df = FALSE)
 
 
 # - eth_pal_3: ---- 
@@ -824,37 +815,37 @@ eth_black <- "black"  # = usecol("#000000")
 #   RGB 34, 34, 34
 #   "#222222"
 
-eth_black_light <- usecol("#222222")
+eth_black_light <- unikn::usecol("#222222")
 
 # - Black, 60% opacity: standard interactive colour
 #   RGBA 0, 0, 0, 0.6
 #   "#00000" x 60%
 
-eth_black_60 <- usecol("black", alpha = .60)
+eth_black_60 <- unikn::usecol("black", alpha = .60)
 
 # - Black, 48% opacity, contrast 3:1: icon colour
 #   RGBA 34, 34, 34, 0.48
 #   "#222222" x 48%
 
-eth_black_48 <- usecol("#222222", alpha = .48)
+eth_black_48 <- unikn::usecol("#222222", alpha = .48)
 
 # - Black, 20% opacity, contrast 1.5:1: line colour
 #   RGBA 34, 34, 34, 0.20
 #   "#222222" x 20%
 
-eth_black_20 <- usecol("#222222", alpha = .20)
+eth_black_20 <- unikn::usecol("#222222", alpha = .20)
 
 # + ETH Grey 10%:
 #   RGB 241, 241, 241
 #   "#F1F1F1"
 
-eth_grey_10 <- usecol("#F1F1F1")
+eth_grey_10 <- unikn::usecol("#F1F1F1")
 
 # - ETH Grey 5%: standard background colour for flyout menus, related content (navigation), highlight container, table borders, keyword lists, etc.
 #   RGB 246, 246, 246
 #   "#F6F6F6"
 
-eth_grey_05 <- usecol("#F6F6F6")
+eth_grey_05 <- unikn::usecol("#F6F6F6")
 
 # - White: backgrounds, text colour on dark backgrounds
 # - Black, 80% opacity: hover colour for links
@@ -906,9 +897,9 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' 
 #' @export
 
-eth_pal_3 <- newpal(col = col_eth_grey, 
-                    names = nam_eth_grey,
-                    as_df = FALSE)
+eth_pal_3 <- unikn::newpal(col = col_eth_grey, 
+                           names = nam_eth_grey,
+                           as_df = FALSE)
 
 
 
@@ -943,9 +934,9 @@ eth_pal_3 <- newpal(col = col_eth_grey,
 fu_blue  <- "#003366"
 fu_green <- "#99CC00"
 
-fu_col_1 <- newpal(col = c(fu_blue, fu_green),
-                   names = c("FU blue", "FU green"),
-                   as_df = FALSE)
+fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
+                          names = c("FU blue", "FU green"),
+                          as_df = FALSE)
 
 # seecol(fu_col_1, main = "Primary colors of FU Berlin")
 
@@ -1012,9 +1003,9 @@ fu_pal_0 <- fu_col_1
 # 0-94-100-0 	1795C 	  #CC0000 	    204-0-0
 # - 	        - 	      #0066cc     	0-102-204
 
-fu_accent <- newpal(col = c("#FF9900", "#CC0000", "#0066CC"),
-                    names = c("FU accent orange", "FU accent red", "FU accent blue"),
-                    as_df = FALSE)
+fu_accent <- unikn::newpal(col = c("#FF9900", "#CC0000", "#0066CC"),
+                           names = c("FU accent orange", "FU accent red", "FU accent blue"),
+                           as_df = FALSE)
 
 # seecol(fu_accent, main = "Secondary/accent colors of the FU Berlin")
 
@@ -1034,11 +1025,11 @@ fu_accent <- newpal(col = c("#FF9900", "#CC0000", "#0066CC"),
 # Note positions in:
 # seecol(usecol(c("black", "white"), n = 20))
 
-fu_greys <- newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
-                           "#DDDDDD", "#EEEEEE", "#F1F1F1"),
-                   names = c("FU grey 1", "FU grey 2", "FU grey 3", "FU grey 4",
-                             "FU grey 5", "FU grey 6", "FU grey 7"),
-                   as_df = FALSE)
+fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
+                                  "#DDDDDD", "#EEEEEE", "#F1F1F1"),
+                          names = c("FU grey 1", "FU grey 2", "FU grey 3", "FU grey 4",
+                                    "FU grey 5", "FU grey 6", "FU grey 7"),
+                          as_df = FALSE)
 
 # seecol(fu_greys, main = "Shades of grey colors of FU Berlin")
 
@@ -1102,11 +1093,11 @@ fu_pal_2 <- c(fu_accent, fu_greys)
 # Note differences to:
 # seecol(usecol(c(fu_blue, "white"), n = 11))
 
-fu_blues <- newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#587A9E",
-                           "#6D8BAC", "#839DBA", "#99AFC8", "#AFC0D6", "#C5D2E4"),
-                   names = c("FU blue", "FU blue 90%", "FU blue 80%", "FU blue 70%", "FU blue 60%", 
-                             "FU blue 50%", "FU blue 40%", "FU blue 30%", "FU blue 20%", "FU blue 10%"),
-                   as_df = FALSE)
+fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#587A9E",
+                                  "#6D8BAC", "#839DBA", "#99AFC8", "#AFC0D6", "#C5D2E4"),
+                          names = c("FU blue", "FU blue 90%", "FU blue 80%", "FU blue 70%", "FU blue 60%", 
+                                    "FU blue 50%", "FU blue 40%", "FU blue 30%", "FU blue 20%", "FU blue 10%"),
+                          as_df = FALSE)
 
 # seecol(fu_blues, main = "Shades of blue colors of FU Berlin")
 
@@ -1171,7 +1162,7 @@ fu_pal_3 <- fu_blues
 # Note correspondence to:
 # seecol(usecol(c(fu_blue, fu_green), n = 11)[c(2:10)])
 
-# fu_blue_green <- usecol(c(fu_blue, fu_green), n = 11, use_col_ramp = TRUE)
+# fu_blue_green <- unikn::usecol(c(fu_blue, fu_green), n = 11, use_col_ramp = TRUE)
 # seecol(fu_blue_green, main = "Gradient from blue to green colors of FU Berlin")
 
 
@@ -1215,13 +1206,13 @@ fu_pal_3 <- fu_blues
 #' 
 #' @export
 
-fu_pal_1 <- newpal(col = c("#003366",  # = fu_blue
-                           "#0F425B", "#1E5151", "#2D6047", 
-                           "#3D703D", "#4C7F33", "#5B8E28", 
-                           "#6B9E1E", "#7AAD14", "#89BC0A", 
-                           "#99CC00"), # = fu_green
-                   names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
-                   as_df = FALSE)
+fu_pal_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
+                                  "#0F425B", "#1E5151", "#2D6047", 
+                                  "#3D703D", "#4C7F33", "#5B8E28", 
+                                  "#6B9E1E", "#7AAD14", "#89BC0A", 
+                                  "#99CC00"), # = fu_green
+                          names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
+                          as_df = FALSE)
 
 # seecol(fu_pal_1, main = "Blue/green color gradient of the FU Berlin")
 
@@ -1287,9 +1278,9 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' 
 #' @export
 
-hu_pal_1 <- newpal(col = c(HU_0, "white", "black"),
-                   names = c("HU blau", "weiss", "schwarz"), 
-                   as_df = FALSE)
+hu_pal_1 <- unikn::newpal(col = c(HU_0, "white", "black"),
+                          names = c("HU blau", "weiss", "schwarz"), 
+                          as_df = FALSE)
 
 # seecol(hu_pal_1, n = 3)
 
@@ -1377,9 +1368,9 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' 
 #' @export
 
-hu_pal_2 <- newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
-                   names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
-                   as_df = FALSE)
+hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
+                          names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
+                          as_df = FALSE)
 
 # seecol(hu_pal_2)
 
@@ -1449,9 +1440,9 @@ hu_pal_2 <- newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' 
 #' @export
 
-lmu_pal_1 <- newpal(col = c("#00883A", "#232323", "#FFFFFF"),
-                    names = c("LMU gruen", "LMU schwarz", "weiss"),
-                    as_df = FALSE)
+lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
+                           names = c("LMU gruen", "LMU schwarz", "weiss"),
+                           as_df = FALSE)
 
 # seecol(lmu_pal_1, main = "Primary colors of LMU")
 
@@ -1510,9 +1501,9 @@ lmu_pal_1 <- newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' 
 #' @export
 
-lmu_pal_2 <- newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
-                    names = c("dunkelgrau", "mittelgrau", "hellgrau", "lichtgrau"),
-                    as_df = FALSE)
+lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
+                           names = c("dunkelgrau", "mittelgrau", "hellgrau", "lichtgrau"),
+                           as_df = FALSE)
 
 # seecol(lmu_pal_2, main = "Secondary colors of LMU")
 
@@ -1580,9 +1571,9 @@ lmu_pal_2 <- newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' 
 #' @export
 
-lmu_pal_3 <- newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "#F18700"),
-                    names = c("blau", "cyan", "violett", "rot", "orange"),
-                    as_df = FALSE)
+lmu_pal_3 <- unikn::newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "#F18700"),
+                           names = c("blau", "cyan", "violett", "rot", "orange"),
+                           as_df = FALSE)
 
 # seecol(lmu_pal_3, main = "Accent colors of LMU")
 
@@ -1595,7 +1586,7 @@ lmu_pal_3 <- newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "#F18700
 # MPG green:
 # Pantone 328
 # cmyk 100 - 0 - 57 - 30
-# rgb 17 - 102 - 86
+# rgb 17 - 102 - 86 
 
 # MPG grey:
 # Pantone 427
@@ -1606,8 +1597,8 @@ mpg_green <- rgb( 17, 102,  86, maxColorValue = 255)
 mpg_grey  <- rgb(221, 222, 214, maxColorValue = 255)
 
 # 100% and 50% variants:
-mpg_green_2 <- usecol(c(mpg_green, "white"), n = 3)[1:2] 
-mpg_grey_2  <- usecol(c(mpg_grey,  "white"), n = 3)[1:2]
+mpg_green_2 <- unikn::usecol(c(mpg_green, "white"), n = 3)[1:2] 
+mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 
 # seecol(c(mpg_green_2, "white", rev(mpg_grey_2)))
 
@@ -1644,7 +1635,7 @@ mpg_grey_2  <- usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' demopal(mpg_pal, type = 1, main = "Using the MPG colors")
 #' 
 #' # Extended version:
-#' mpg_pal_11 <- usecol(c(mpg_pal, "black"), n = 11)
+#' mpg_pal_11 <- unikn::usecol(c(mpg_pal, "black"), n = 11)
 #' demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
 #' 
 #' @family contributed color palettes
@@ -1658,9 +1649,9 @@ mpg_grey_2  <- usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' 
 #' @export
 
-mpg_pal <- newpal(col = c(mpg_green_2, "white", rev(mpg_grey_2)), 
-                  names = c("MPG green", "MPG green 50%", "white", "MPG grey 50%", "MPG grey"),
-                  as_df = FALSE)
+mpg_pal <- unikn::newpal(col = c(mpg_green_2, "white", rev(mpg_grey_2)), 
+                         names = c("MPG green", "MPG green 50%", "white", "MPG grey 50%", "MPG grey"),
+                         as_df = FALSE)
 
 
 # Uni Bonn: ------
@@ -1710,9 +1701,9 @@ ub_gelb <- "#FCBA00"
 ub_grau <- "#909085"
 
 # Color gradients (100% and 75%, 50%, 25%):
-ub_blau_4 <- usecol(c(ub_blau, "white"), n = 5)[1:4]
-ub_gelb_4 <- usecol(c(ub_gelb, "white"), n = 5)[1:4]
-ub_grau_4 <- usecol(c(ub_grau, "white"), n = 5)[1:4]
+ub_blau_4 <- unikn::usecol(c(ub_blau, "white"), n = 5)[1:4]
+ub_gelb_4 <- unikn::usecol(c(ub_gelb, "white"), n = 5)[1:4]
+ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 
 
 # - uni_bonn_1: Primary colors ----
@@ -1754,7 +1745,7 @@ ub_grau_4 <- usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' seecol(uni_bonn_1, main = "Primary colors of the University of Bonn")  # view color palette 
 #' 
 #' # Color gradient:
-#' uni_bonn_blau_gelb <- usecol(c(uni_bonn_1[1], "white", uni_bonn_1[2]), n = 9)
+#' uni_bonn_blau_gelb <- unikn::usecol(c(uni_bonn_1[1], "white", uni_bonn_1[2]), n = 9)
 #' # seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
 #' demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
 #'
@@ -1770,9 +1761,9 @@ ub_grau_4 <- usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' 
 #' @export
 
-uni_bonn_1 <- newpal(col = c(ub_blau, ub_gelb, ub_grau),
-                     names = c("uni blau", "uni gelb", "uni grau"),
-                     as_df = FALSE)
+uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
+                            names = c("uni blau", "uni gelb", "uni grau"),
+                            as_df = FALSE)
 
 # seecol(uni_bonn_1, main = "Primary colors of Uni Bonn")
 
@@ -1816,11 +1807,11 @@ uni_bonn_1 <- newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #' 
 #' @export
 
-uni_bonn_2 <- newpal(col = c(ub_blau_4, ub_gelb_4, ub_grau_4),
-                     names = c("uni blau", "uni blau 75%", "uni blau 50%", "uni blau 25%", 
-                               "uni gelb", "uni gelb 75%", "uni gelb 50%", "uni gelb 25%", 
-                               "uni grau", "uni grau 75%", "uni grau 50%", "uni grau 25%"),
-                     as_df = FALSE)
+uni_bonn_2 <- unikn::newpal(col = c(ub_blau_4, ub_gelb_4, ub_grau_4),
+                            names = c("uni blau", "uni blau 75%", "uni blau 50%", "uni blau 25%", 
+                                      "uni gelb", "uni gelb 75%", "uni gelb 50%", "uni gelb 25%", 
+                                      "uni grau", "uni grau 75%", "uni grau 50%", "uni grau 25%"),
+                            as_df = FALSE)
 
 # seecol(uni_bonn_2, main = "Color gradients of Uni Bonn")
 
@@ -1844,12 +1835,12 @@ uni_bonn_2 <- newpal(col = c(ub_blau_4, ub_gelb_4, ub_grau_4),
 frbg_blau <- "#344A9A"  # RGB 52/74/154; HEX #344a9a; Pantone 7687C; CMYK 90/75/0/0.
 names(frbg_blau) <- "blau"
 
-frbg_blau_gradient <- usecol(c(frbg_blau, "white"), n = 6)[1:5]  # mix with "white"
+frbg_blau_gradient <- unikn::usecol(c(frbg_blau, "white"), n = 6)[1:5]  # mix with "white"
 # frbg_blau_transparent <- ac(col = frbg_blau, alpha = c(1, .80, .60, .40, .20))
 
-frbg_blues <- newpal(col =  frbg_blau_gradient,
-                     names = c("Blau", "Blau_80", "Blau_60", "Blau_40", "Blau_20"),
-                     as_df = FALSE)
+frbg_blues <- unikn::newpal(col =  frbg_blau_gradient,
+                            names = c("Blau", "Blau_80", "Blau_60", "Blau_40", "Blau_20"),
+                            as_df = FALSE)
 
 
 # 2. Background colors: ---- 
@@ -1887,41 +1878,41 @@ frbg_blues <- newpal(col =  frbg_blau_gradient,
 frbg_gruen <- "#00A082"  # WAS: #00997D"  # "#00997d"
 names(frbg_gruen) <- "gruen"
 
-# frbg_gruen_gradient <- usecol(c(frbg_gruen, "white"), n = 6)[1:5]  # mix with "white"
+# frbg_gruen_gradient <- unikn::usecol(c(frbg_gruen, "white"), n = 6)[1:5]  # mix with "white"
 # 
-# frbg_green <- newpal(col =  frbg_gruen_gradient, 
+# frbg_green <- unikn::newpal(col =  frbg_gruen_gradient, 
 #                      names = c("Gruen", "Gruen_80", "Gruen_60", "Gruen_40", "Gruen_20"),
 #                      as_df = FALSE)
 
 frbg_braun <- "#8F6B30" # "#8f6b30"
 names(frbg_braun) <- "braun"
 
-# frbg_braun_gradient <- usecol(c(frbg_braun, "white"), n = 6)[1:5]  # mix with "white"
+# frbg_braun_gradient <- unikn::usecol(c(frbg_braun, "white"), n = 6)[1:5]  # mix with "white"
 # 
-# frbg_brown <- newpal(col =  frbg_braun_gradient, 
+# frbg_brown <- unikn::newpal(col =  frbg_braun_gradient, 
 #                      names = c("Braun", "Braun_80", "Braun_60", "Braun_40", "Braun_20"),
 #                      as_df = FALSE)
 
 frbg_gelb <- "#FFE863"  # "#ffe863" 
 names(frbg_gelb) <- "gelb"
 
-# frbg_gelb_gradient <- usecol(c(frbg_gelb, "white"), n = 6)[1:5]  # mix with "white"
+# frbg_gelb_gradient <- unikn::usecol(c(frbg_gelb, "white"), n = 6)[1:5]  # mix with "white"
 # 
-# frbg_yellow <- newpal(col =  frbg_gelb_gradient, 
+# frbg_yellow <- unikn::newpal(col =  frbg_gelb_gradient, 
 #                       names = c("Gelb", "Gelb_80", "Gelb_60", "Gelb_40", "Gelb_20"),
 #                       as_df = FALSE)
 
 frbg_rosa <- "#F5C2ED" # "#f5c2ed"
 names(frbg_rosa) <- "rosa"
 
-# frbg_rosa_gradient <- usecol(c(frbg_rosa, "white"), n = 6)[1:5]  # mix with "white"
+# frbg_rosa_gradient <- unikn::usecol(c(frbg_rosa, "white"), n = 6)[1:5]  # mix with "white"
 # 
-# frbg_pink <- newpal(col =  frbg_rosa_gradient, 
+# frbg_pink <- unikn::newpal(col =  frbg_rosa_gradient, 
 #                     names = c("Rosa", "Rosa_80", "Rosa_60", "Rosa_40", "Rosa_20"),
 #                     as_df = FALSE)
 
 # # Note: To create gradients, mix with "white":
-# col_gradient <- usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
+# col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
 # # seecol(col_gradient, main = "Five shades")
 # # to get transparent colors:
 # col_transparent <- ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
@@ -1973,9 +1964,9 @@ names(frbg_rosa) <- "rosa"
 #' 
 #' @export
 
-uni_freiburg_0 <- newpal(col = c(frbg_blau, "black", "white"),
-                         names = c("blau", "schwarz", "weiss"), 
-                         as_df = FALSE)
+uni_freiburg_0 <- unikn::newpal(col = c(frbg_blau, "black", "white"),
+                                names = c("blau", "schwarz", "weiss"), 
+                                as_df = FALSE)
 
 
 # - uni_freiburg_1: ---- 
@@ -2035,7 +2026,7 @@ frbg_sand_name <- c("sand")
 #' demopal(uni_freiburg_1, type = 1, main = "Primary color gradient of Freiburg University")
 #' 
 #' # Get a "sand" color gradient:
-#' sand_gradient <- usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3] 
+#' sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3] 
 #' # demopal(sand_gradient)
 #'
 #' @family contributed color palettes
@@ -2051,9 +2042,9 @@ frbg_sand_name <- c("sand")
 #' 
 #' @export
 
-uni_freiburg_1 <- newpal(col = c(frbg_blues, frbg_sand_1),
-                         names = c(frbg_blues_names, frbg_sand_name), 
-                         as_df = FALSE)
+uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
+                                names = c(frbg_blues_names, frbg_sand_name), 
+                                as_df = FALSE)
 
 
 # - uni_freiburg_2: ----
@@ -2092,7 +2083,7 @@ uni_freiburg_1 <- newpal(col = c(frbg_blues, frbg_sand_1),
 #' demopal(uni_freiburg_2, type = 2, main = "Secondary colors of Freiburg University")
 #'
 #' # Color gradients:
-#' col_gradient <- usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
+#' col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
 #' col_transparent <- ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
 #' 
 #' @family contributed color palettes
@@ -2108,9 +2099,9 @@ uni_freiburg_1 <- newpal(col = c(frbg_blues, frbg_sand_1),
 #' 
 #' @export
 
-uni_freiburg_2 <- newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_rosa),
-                         names = c("gruen", "braun", "gelb", "rosa"), 
-                         as_df = FALSE)
+uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_rosa),
+                                names = c("gruen", "braun", "gelb", "rosa"), 
+                                as_df = FALSE)
 
 
 
@@ -2160,9 +2151,9 @@ uni_freiburg_2 <- newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_rosa),
 #' 
 #' @export
 
-uni_freiburg_br <- newpal(col = c("#004a99", "#c1002a"),
-                          names = c("uni-blau", "uni-rot"),
-                          as_df = FALSE)
+uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
+                                 names = c("uni-blau", "uni-rot"),
+                                 as_df = FALSE)
 
 
 # - uni_freiburg_blue: ---- 
@@ -2205,9 +2196,9 @@ uni_freiburg_br <- newpal(col = c("#004a99", "#c1002a"),
 #' 
 #' @export
 
-uni_freiburg_blue <- newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
-                            names = c("blue-1", "blue-2", "blue-3"), 
-                            as_df = FALSE)
+uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
+                                   names = c("blue-1", "blue-2", "blue-3"), 
+                                   as_df = FALSE)
 
 
 # - uni_freiburg_grey: ---- 
@@ -2250,11 +2241,11 @@ uni_freiburg_blue <- newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' 
 #' @export
 
-uni_freiburg_grey <- newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9cac8", 
-                                    "#b2b4b3", "#9a9b9c", "#747678", "#363534"), 
-                            names = c("grey-0", "grey-1", "grey-2", "grey-3", 
-                                      "grey-5", "grey-7", "grey-9", "grey-font"),
-                            as_df = FALSE)
+uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9cac8", 
+                                           "#b2b4b3", "#9a9b9c", "#747678", "#363534"), 
+                                   names = c("grey-0", "grey-1", "grey-2", "grey-3", 
+                                             "grey-5", "grey-7", "grey-9", "grey-font"),
+                                   as_df = FALSE)
 
 
 # - uni_freiburg_info: ---- 
@@ -2296,11 +2287,11 @@ uni_freiburg_grey <- newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9cac8",
 #' 
 #' @export
 
-uni_freiburg_info <- newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de3831", "#739600", "#92d400", 
-                                    "#4d4f53", "#747678", "#b2b4b3", "#d5d6d2", "#e98300", "#efbd47"),
-                            names = c("mid-blau", "hell-blau", "dark-red", "hell-red", "mid-green", "hell-green", 
-                                      "anthrazit", "dark-grey", "mid-grey", "hell-grey", "orange", "gelb"),
-                            as_df = FALSE)
+uni_freiburg_info <- unikn::newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de3831", "#739600", "#92d400", 
+                                           "#4d4f53", "#747678", "#b2b4b3", "#d5d6d2", "#e98300", "#efbd47"),
+                                   names = c("mid-blau", "hell-blau", "dark-red", "hell-red", "mid-green", "hell-green", 
+                                             "anthrazit", "dark-grey", "mid-grey", "hell-grey", "orange", "gelb"),
+                                   as_df = FALSE)
 
 
 
@@ -2387,9 +2378,9 @@ uni_freiburg_info <- newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de3831", 
 #' 
 #' @export
 
-uni_hamburg_1 <- newpal(col = c("#e2001a", "#0271bb",  "black", "#3b515b"),
-                        names = c("rot", "blau",  "schwarz", "steingrau"),
-                        as_df = FALSE)
+uni_hamburg_1 <- unikn::newpal(col = c("#e2001a", "#0271bb",  "black", "#3b515b"),
+                               names = c("rot", "blau",  "schwarz", "steingrau"),
+                               as_df = FALSE)
 
 # seecol(uni_hamburg_1, main = "Primary colors of Uni Hamburg")
 
@@ -2455,9 +2446,9 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' 
 #' @export
 
-uni_hamburg_2 <- newpal(col = c("#E2001A", rot_50pc, "#0271BB", blau_50pc, "#3B515B", steingrau_40pc),
-                        names = c("rot", "rot 50%", "blau", "blau 50%", "steingrau", "steingrau 40%"),
-                        as_df = FALSE)
+uni_hamburg_2 <- unikn::newpal(col = c("#E2001A", rot_50pc, "#0271BB", blau_50pc, "#3B515B", steingrau_40pc),
+                               names = c("rot", "rot 50%", "blau", "blau 50%", "steingrau", "steingrau 40%"),
+                               as_df = FALSE)
 
 # seecol(uni_hamburg_2, main = "Pair-wise colors of Uni Hamburg")
 
@@ -2536,7 +2527,7 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' demopal(uni_jena_1, type = 2, seed = 5, main = "Primary colors of Jena University")
 #' 
 #' # Gradient: Mixing the main colors with "white":
-#' jena_mix <- usecol(c(uni_jena_1[1], "white", uni_jena_1[2]), n = 7)
+#' jena_mix <- unikn::usecol(c(uni_jena_1[1], "white", uni_jena_1[2]), n = 7)
 #' seecol(jena_mix, main = "A gradient of the University of Jena")
 #'
 #' @family contributed color palettes
@@ -2551,9 +2542,9 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' 
 #' @export
 
-uni_jena_1 <- newpal(col = c(jena_dunkelblau, jena_gold),
-                     names = c("dunkelblau", "gold"),
-                     as_df = FALSE)
+uni_jena_1 <- unikn::newpal(col = c(jena_dunkelblau, jena_gold),
+                            names = c("dunkelblau", "gold"),
+                            as_df = FALSE)
 
 
 # Fakultätsfarben
@@ -2665,9 +2656,9 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 #' 
 #' @export
 
-uni_jena_2 <- newpal(col = jena_faculties,
-                     names = jena_faculty_names, 
-                     as_df = FALSE)
+uni_jena_2 <- unikn::newpal(col = jena_faculties,
+                            names = jena_faculty_names, 
+                            as_df = FALSE)
 
 
 # Uni Kiel / CAU: ------
@@ -2744,7 +2735,7 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' 
 #' # Gradient: Mixing the main color with shades of grey: 
 #' N = 9
-#' kiel_mix <- usecol(uni_kiel_1, n = N)[c(-1, -N)]  # remove extremes
+#' kiel_mix <- unikn::usecol(uni_kiel_1, n = N)[c(-1, -N)]  # remove extremes
 #' seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
 #'
 #' @family contributed color palettes
@@ -2759,9 +2750,9 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' 
 #' @export
 
-uni_kiel_1 <- newpal(col = c("black", kiel_main, "white"),
-                     names = c("schwarz", "violett", "weiss"),
-                     as_df = FALSE)
+uni_kiel_1 <- unikn::newpal(col = c("black", kiel_main, "white"),
+                            names = c("schwarz", "violett", "weiss"),
+                            as_df = FALSE)
 
 # - uni_kiel_2: ----
 
@@ -2850,7 +2841,7 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' demopal(uni_kiel_2, type = 3, main = "Department colors of the University of Kiel")
 #' 
 #' # Gradients: Mix with "black" for darker shades:
-#' uni_kiel_med <- usecol(c(uni_kiel_2["Medizin"], "black"), n = 5)
+#' uni_kiel_med <- unikn::usecol(c(uni_kiel_2["Medizin"], "black"), n = 5)
 #' seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
 #'
 #' @family contributed color palettes
@@ -2865,9 +2856,9 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' 
 #' @export
 
-uni_kiel_2 <- newpal(col = kiel_faculties,
-                     names = kiel_faculty_names,
-                     as_df = FALSE)
+uni_kiel_2 <- unikn::newpal(col = kiel_faculties,
+                            names = kiel_faculty_names,
+                            as_df = FALSE)
 
 
 
@@ -2944,9 +2935,9 @@ koeln_si_1 <- rgb(175, 17, 29, maxColorValue = 255)
 #' 
 #' @export
 
-uni_koeln_1 <- newpal(col = c(koeln_bg_1, koeln_bg_2, koeln_bg_3, koeln_bg_4, koeln_bg_5, koeln_bg_6, koeln_si_1),
-                      names = c("heller font", "blaugrau hell", "blaugrau mittel", "blaugrau", "blaugrau dunkel", "blauschwarz", "signal rot"),
-                      as_df = FALSE)
+uni_koeln_1 <- unikn::newpal(col = c(koeln_bg_1, koeln_bg_2, koeln_bg_3, koeln_bg_4, koeln_bg_5, koeln_bg_6, koeln_si_1),
+                             names = c("heller font", "blaugrau hell", "blaugrau mittel", "blaugrau", "blaugrau dunkel", "blauschwarz", "signal rot"),
+                             as_df = FALSE)
 
 # seecol(uni_koeln_1, main = "Primary colors of Uni Cologne")
 
@@ -3020,9 +3011,9 @@ koeln_fa_7 <- rgb(145, 196, 234, maxColorValue = 255)
 #' 
 #' @export
 
-uni_koeln_2 <- newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_fa_4, koeln_fa_5, koeln_fa_6, koeln_fa_7),
-                      names = c("gruen", "bordeaux", "rot", "violett", "blau", "orange", "hellblau"),
-                      as_df = FALSE)
+uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_fa_4, koeln_fa_5, koeln_fa_6, koeln_fa_7),
+                             names = c("gruen", "bordeaux", "rot", "violett", "blau", "orange", "hellblau"),
+                             as_df = FALSE)
 
 # seecol(uni_koeln_2, main = "Departmental colors of Uni Cologne")
 
@@ -3075,11 +3066,13 @@ uni_koeln_2 <- newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_fa_4, ko
 #' \code{\link{newpal}} for defining new color palettes; 
 #' \code{\link{grepal}} for finding named colors. 
 #' 
+#' @importFrom unikn pal_unikn
+#' 
 #' @export
 
-uni_konstanz_1 <- newpal(col = pal_unikn,
-                         names = names(pal_unikn),
-                         as_df = FALSE)
+uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
+                                names = names(unikn::pal_unikn),
+                                as_df = FALSE)
 
 
 # - uni_konstanz_2: ---- 
@@ -3122,11 +3115,13 @@ uni_konstanz_1 <- newpal(col = pal_unikn,
 #' \code{\link{newpal}} for defining new color palettes; 
 #' \code{\link{grepal}} for finding named colors. 
 #' 
+#' @importFrom unikn pal_unikn_pref
+#' 
 #' @export
 
-uni_konstanz_2 <- newpal(col = pal_unikn_pref,
-                         names = names(pal_unikn_pref),
-                         as_df = FALSE)
+uni_konstanz_2 <- unikn::newpal(col = unikn::pal_unikn_pref,
+                                names = names(unikn::pal_unikn_pref),
+                                as_df = FALSE)
 
 
 
@@ -3141,8 +3136,8 @@ uni_konstanz_2 <- newpal(col = pal_unikn_pref,
 UM_blau <- rgb(0, 48, 86, maxColorValue = 255)
 
 # Create gradient: 100% + 6 shades of 85 70 55 40 25 10%:
-UM_blau_10 <- usecol(c(UM_blau, "white"), n = 11)[10]
-UM_blau_g7 <- usecol(c(UM_blau, UM_blau_10), n = 7)  # has attribute $comment "custom"
+UM_blau_10 <- unikn::usecol(c(UM_blau, "white"), n = 11)[10]
+UM_blau_g7 <- unikn::usecol(c(UM_blau, UM_blau_10), n = 7)  # has attribute $comment "custom"
 UM_blau_v7 <- as.vector(UM_blau_g7) 
 
 # # Compare:
@@ -3174,7 +3169,7 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #
 # # Main color + accent color: 
 # 
-# uni_mannheim_0 <- newpal(col = c(UM_blau, UM_silber), 
+# uni_mannheim_0 <- unikn::newpal(col = c(UM_blau, UM_silber), 
 #                          names = c("blau", "silber"),
 #                          as_df = FALSE)
 # 
@@ -3223,9 +3218,9 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #' 
 #' @export
 
-uni_mannheim_1 <- newpal(col = UM_blau_v7,
-                         names = c("UM blau", "blau 85%", "blau 70%", "blau 55%", "blau 40%", "blau 25%", "blau 10%"), 
-                         as_df = FALSE)
+uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
+                                names = c("UM blau", "blau 85%", "blau 70%", "blau 55%", "blau 40%", "blau 25%", "blau 10%"), 
+                                as_df = FALSE)
 
 # seecol(uni_mannheim_1, main = "Main 'blau' color gradient of Uni Mannheim")
 
@@ -3290,9 +3285,9 @@ uni_mannheim_1 <- newpal(col = UM_blau_v7,
 #' 
 #' @export
 
-uni_mannheim_2 <- newpal(col = c(UM_blau, UM_silber, UM_graublau, UM_gruen, UM_orange, UM_rot, UM_petrol),
-                         names = c("UM blau", "silber", "graublau", "gruen", "orange", "rot", "petrol"),
-                         as_df = FALSE)
+uni_mannheim_2 <- unikn::newpal(col = c(UM_blau, UM_silber, UM_graublau, UM_gruen, UM_orange, UM_rot, UM_petrol),
+                                names = c("UM blau", "silber", "graublau", "gruen", "orange", "rot", "petrol"),
+                                as_df = FALSE)
 
 # seecol(uni_mannheim_2, main = "Main + accent colors of Uni Mannheim")
 
@@ -3346,9 +3341,9 @@ orange_black <- "#F58025"  # orange on black background
 #' 
 #' @export
 
-uni_princeton_0 <- newpal(col = c(orange_basic, "black"),
-                          names = c("Princeton orange", "black"),
-                          as_df = FALSE)
+uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
+                                 names = c("Princeton orange", "black"),
+                                 as_df = FALSE)
 
 
 # - uni_princeton_1: ----
@@ -3394,9 +3389,9 @@ uni_princeton_0 <- newpal(col = c(orange_basic, "black"),
 #' 
 #' @export
 
-uni_princeton_1 <- newpal(col = c(orange_white, "white", "black"),
-                          names = c("Princeton orange (on white)", "white", "black"),
-                          as_df = FALSE)
+uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
+                                 names = c("Princeton orange (on white)", "white", "black"),
+                                 as_df = FALSE)
 
 
 # - uni_princeton_2: ----
@@ -3445,9 +3440,9 @@ uni_princeton_1 <- newpal(col = c(orange_white, "white", "black"),
 #' 
 #' @export
 
-uni_princeton_2 <- newpal(col = c(orange_black, "black", "white"), 
-                          names = c("Princeton orange (on black)", "black", "white"),
-                          as_df = FALSE)
+uni_princeton_2 <- unikn::newpal(col = c(orange_black, "black", "white"), 
+                                 names = c("Princeton orange (on black)", "black", "white"),
+                                 as_df = FALSE)
 
 
 
@@ -3608,11 +3603,11 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' 
 #' @export
 
-uni_regensburg_1 <- newpal(col = c(UR_neutralgrau, 
-                                   UR_blaugrau, UR_schwarzrot, UR_schilfgruen, 
-                                   UR_dianthusrot, UR_saphirblau, UR_farngruen,
-                                   UR_rotbraun, UR_perlviolett, UR_violettrot, 
-                                   UR_gruenbraun, UR_wasserblau), as_df = FALSE)
+uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau, 
+                                          UR_blaugrau, UR_schwarzrot, UR_schilfgruen, 
+                                          UR_dianthusrot, UR_saphirblau, UR_farngruen,
+                                          UR_rotbraun, UR_perlviolett, UR_violettrot, 
+                                          UR_gruenbraun, UR_wasserblau), as_df = FALSE)
 
 # - uni_regensburg_2: Departmental / faculty / web area colors: ---- 
 
@@ -3666,20 +3661,22 @@ uni_regensburg_1 <- newpal(col = c(UR_neutralgrau,
 #' \code{\link{newpal}} for defining new color palettes; 
 #' \code{\link{grepal}} for finding named colors. 
 #' 
+#' @importFrom unikn newpal
+#' 
 #' @export
 
-uni_regensburg_2 <- newpal(col = c(UR_urangelb, UR_laerchennadelgruen, UR_vatikangelb, 
-                                   UR_orangerot, UR_heucherarot, UR_heidenelkenrot, 
-                                   UR_blattgruen, UR_tuerkisgruen, UR_eisvogelblau, 
-                                   UR_spektralblau, UR_capriblau, UR_glutrot), 
-                           as_df = FALSE)
+uni_regensburg_2 <- unikn::newpal(col = c(UR_urangelb, UR_laerchennadelgruen, UR_vatikangelb, 
+                                          UR_orangerot, UR_heucherarot, UR_heidenelkenrot, 
+                                          UR_blattgruen, UR_tuerkisgruen, UR_eisvogelblau, 
+                                          UR_spektralblau, UR_capriblau, UR_glutrot), 
+                                  as_df = FALSE)
 
-uni_regensburg_2_a <- newpal(col = c(UR_urangelb_a, UR_laerchennadelgruen_a, UR_vatikangelb_a,
-                                     UR_orangerot_a, UR_heucherarot_a, UR_heidenelkenrot_a,
-                                     UR_blattgruen_a, UR_tuerkisgruen_a, UR_eisvogelblau_a,
-                                     UR_spektralblau_a, UR_capriblau_a, UR_glutrot_a), 
-                             names = names(uni_regensburg_2), 
-                             as_df = FALSE)
+uni_regensburg_2_a <- unikn::newpal(col = c(UR_urangelb_a, UR_laerchennadelgruen_a, UR_vatikangelb_a,
+                                            UR_orangerot_a, UR_heucherarot_a, UR_heidenelkenrot_a,
+                                            UR_blattgruen_a, UR_tuerkisgruen_a, UR_eisvogelblau_a,
+                                            UR_spektralblau_a, UR_capriblau_a, UR_glutrot_a), 
+                                    names = names(uni_regensburg_2), 
+                                    as_df = FALSE)
 
 all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web colors for areas.
 
@@ -3739,12 +3736,12 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' 
 #' @export
 
-uni_regensburg_3 <- newpal(col = c(UR_urangelb_f, UR_laerchennadelgruen_f, UR_vatikangelb_f,
-                                   UR_orangerot_f, UR_heucherarot_f, UR_heidenelkenrot_f,
-                                   UR_blattgruen_f, UR_tuerkisgruen_f, UR_eisvogelblau_f,
-                                   UR_spektralblau_f, UR_capriblau_f, UR_glutrot_f), 
-                           names = names(uni_regensburg_2), 
-                           as_df = FALSE)
+uni_regensburg_3 <- unikn::newpal(col = c(UR_urangelb_f, UR_laerchennadelgruen_f, UR_vatikangelb_f,
+                                          UR_orangerot_f, UR_heucherarot_f, UR_heidenelkenrot_f,
+                                          UR_blattgruen_f, UR_tuerkisgruen_f, UR_eisvogelblau_f,
+                                          UR_spektralblau_f, UR_capriblau_f, UR_glutrot_f), 
+                                  names = names(uni_regensburg_2), 
+                                  as_df = FALSE)
 
 
 # Uni Ulm: ------
@@ -3816,7 +3813,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #'         main = "Main colors of Ulm University")
 #'         
 #' # 5-color gradient:
-#' uni_ulm_5 <- usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
+#' uni_ulm_5 <- unikn::usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
 #'
 #' @family contributed color palettes
 #'
@@ -3830,9 +3827,9 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' 
 #' @export
 
-uni_ulm_1 <- newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white", UU_akzent),
-                    names = c("schwarz", "dunkelgrau", "hellblau", "weiss", "akzent"),
-                    as_df = FALSE)
+uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white", UU_akzent),
+                           names = c("schwarz", "dunkelgrau", "hellblau", "weiss", "akzent"),
+                           as_df = FALSE)
 
 # seecol(uni_ulm_1, main = "Main colors of the University of Ulm")
 
@@ -3872,7 +3869,7 @@ uni_ulm_1 <- newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white", UU_akz
 #'         main = "Departmental colors of Ulm University")
 #'         
 #' # 5-color gradient:
-#' uni_ulm_5 <- usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
+#' uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
 #'
 #' @family contributed color palettes
 #'
@@ -3886,9 +3883,9 @@ uni_ulm_1 <- newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white", UU_akz
 #' 
 #' @export
 
-uni_ulm_2 <- newpal(col = c(UU_blau, UU_rot, UU_gruen, UU_orange),
-                    names = c("blau", "rot", "gruen", "orange"),
-                    as_df = FALSE)
+uni_ulm_2 <- unikn::newpal(col = c(UU_blau, UU_rot, UU_gruen, UU_orange),
+                           names = c("blau", "rot", "gruen", "orange"),
+                           as_df = FALSE)
 
 # seecol(uni_ulm_2, main = "Departmental colors of the University of Ulm")
 
@@ -3979,9 +3976,9 @@ rpi_2 <- "#54585a"
 #' 
 #' @export
 
-rpi_pal_1 <- newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"), 
-                    names = c("RPI primary red", "RPI light gray", "RPI dark gray", "black", "white"), 
-                    as_df = FALSE)
+rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"), 
+                           names = c("RPI primary red", "RPI light gray", "RPI dark gray", "black", "white"), 
+                           as_df = FALSE)
 
 # seecol(rpi_pal_1, main = "Primary Use Colors of RPI")
 
@@ -4036,9 +4033,9 @@ rpi_pal_1 <- newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' 
 #' @export
 
-rpi_pal_2 <- newpal(col = c("#ab2328", "#00205b", "#7fa9ae"), 
-                    names = c("RPI dark red", "RPI dark blue", "RPI light blue"), 
-                    as_df = FALSE)
+rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"), 
+                           names = c("RPI dark red", "RPI dark blue", "RPI light blue"), 
+                           as_df = FALSE)
 
 # seecol(rpi_pal_2, main = "Secondary Use Colors of RPI")
 
@@ -4100,13 +4097,13 @@ rpi_pal_2 <- newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' 
 #' @export
 
-rpi_pal_3 <- newpal(col = c("#ab2328", "#c35442", "#d58570", "#eabcad",
-                            "#00205b", "#2b517f", "#667ba2", "#a5b0cb",
-                            "#7fa9ae", "#94c0c6", "#b3d3d5", "#d4e6e8"), 
-                    names = c("RPI dark red", "dark red 75%", "dark red 50%", "dark red 25%", 
-                              "RPI dark blue", "dark blue 75%", "dark blue 50%", "dark blue 25%", 
-                              "RPI light blue", "light blue 75%", "light blue 50%", "light blue 25%"), 
-                    as_df = FALSE)
+rpi_pal_3 <- unikn::newpal(col = c("#ab2328", "#c35442", "#d58570", "#eabcad",
+                                   "#00205b", "#2b517f", "#667ba2", "#a5b0cb",
+                                   "#7fa9ae", "#94c0c6", "#b3d3d5", "#d4e6e8"), 
+                           names = c("RPI dark red", "dark red 75%", "dark red 50%", "dark red 25%", 
+                                     "RPI dark blue", "dark blue 75%", "dark blue 50%", "dark blue 25%", 
+                                     "RPI light blue", "light blue 75%", "light blue 50%", "light blue 25%"), 
+                           as_df = FALSE)
 
 # seecol(rpi_pal_3, main = "Tint Colors of RPI")
 
@@ -4287,10 +4284,10 @@ rptu_weiss <- "white"
 #' demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
 #' 
 #' # Gradients:
-#' rptu_10 <- usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
+#' rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
 #' seecol(rptu_10, main = "10 shades of a RPTU color")
 #' 
-#' rptu_21 <- usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
+#' rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
 #' seecol(rptu_21, main = "A gradient between a RPTU color pair")
 #' 
 #' @family contributed color palettes
@@ -4304,19 +4301,19 @@ rptu_weiss <- "white"
 #' 
 #' @export
 
-rptu_pal <- newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
-                           rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
-                   names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
-                             "violett", "pink", "rot", "orange", "schwarz", "weiss"),
-                   as_df = FALSE)
+rptu_pal <- unikn::newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
+                                  rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
+                          names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
+                                    "violett", "pink", "rot", "orange", "schwarz", "weiss"),
+                          as_df = FALSE)
 
 # seecol(rptu_pal, main = "The colors of RPTU")
 # 
 # # Gradients:
-# rptu_10 <- usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
+# rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
 # seecol(rptu_10, main = "10 shades of a RPTU color")
 # 
-# rptu_21 <- usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
+# rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
 # seecol(rptu_21, main = "A gradient between a RPTU color pair")
 
 
@@ -4366,11 +4363,11 @@ rptu_pal <- newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_
 # RGB: 103/210/223
 # HEX: 67D2DF
 
-willamette_pal <- newpal(col = c("#BA0C2F", "#C6AA76", 
-                                 "#003B5C", "#9C0221", "#F19C49", "#67D2DF"),
-                         names = c("Cardinal", "Gold", 
-                                   "Midnight breakfast", "Waller brick", "Zena field", "Salem sky"),
-                         as_df = FALSE)
+willamette_pal <- unikn::newpal(col = c("#BA0C2F", "#C6AA76", 
+                                        "#003B5C", "#9C0221", "#F19C49", "#67D2DF"),
+                                names = c("Cardinal", "Gold", 
+                                          "Midnight breakfast", "Waller brick", "Zena field", "Salem sky"),
+                                as_df = FALSE)
 
 # seecol(willamette_pal, main = "Primary and secondary colors of Willamette University")
 
