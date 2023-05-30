@@ -8,12 +8,12 @@
 #'
 #' @export
 
-unikn.guide <- function() {
+unicol.guide <- function() {
   
-  # utils::vignette(topic = "User Guide", package = "unikn")
-  utils::browseVignettes(package = "unikn")
+  # utils::vignette(topic = "User Guide", package = "unicol")
+  utils::browseVignettes(package = "unicol")
   
-} # unikn.guide().
+} # unicol.guide().
 
 
 # - .onAttach: Initialize package ----
