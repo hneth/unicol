@@ -1,20 +1,16 @@
-## all_pals.R | 2022 05 30
+## all_pals.R | 2022 05 31
 ## Inventory of all color palettes 
 ## -------------------------------
 
-# Add color palettes of various institutions 
-# (and export contributed color palettes).
-
-# Note:
-# - Many users only want to use, rather than create or manipulate color palettes. 
-# - For convenience, uni_pals are provided as named vectors (not data frames).
+# Keep a record / registry of all color palettes 
+# (and institutions and corresponding labels).
 
 
-# uni_data: Overview -----
+# Color palettes and uni_data: -----
 
-# Institution names and URLs of all_pals:
+# Institution names and URLs of uni_pals:
 
-all_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
+uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "eth_pal_1", "eth_pal_2", "eth_pal_3",
               "fu_pal_0", "fu_pal_1", "fu_pal_2", "fu_pal_3",
               "hu_pal_1", "hu_pal_2",
@@ -107,8 +103,36 @@ url <- c(rep("https://www.caltech.edu/", 3),
          "https://rptu.de/"
 )
 
-uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = all_pals)
+
+# uni_data (as data frame): ----
+
+uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # uni_data
+
+
+# Palettes from unikn package: ------ 
+
+# - Local copies of unikn palettes: 
+
+pal_unikn     <- unikn::pal_unikn
+pal_unikn_web <- unikn::pal_unikn_web
+pal_unikn_ppt <- unikn::pal_unikn_ppt
+
+
+# - Palette names:
+
+all_palkn_basic <- c("pal_unikn", "pal_unikn_web", "pal_unikn_ppt")
+all_palkn_pair  <- c("pal_unikn_light", "pal_unikn_dark", "pal_unikn_pair")
+all_palkn_grad  <- c("pal_seeblau", "pal_peach", "pal_grau", "pal_petrol", "pal_seegruen",
+                     "pal_karpfenblau", "pal_pinky", "pal_bordeaux",
+                     "pal_signal")
+all_palkn_pref  <- c("pal_unikn_pref", all_palkn_grad)
+all_palkn <- c(all_palkn_basic, all_palkn_pair, all_palkn_pref)
+
+
+# All palettes / largest set (of unicol package): ------
+
+all_pals <- c(all_palkn, uni_pals)  # copy
 
 
 ## ToDo: -------- 
