@@ -1,9 +1,9 @@
-## old_pals.R | 2022 05 30
+## old_pals.R | 2022 05 31
 ## Old color palettes (from unikn)
 ## -------------------------------
 
-
-# Colors and color palettes of various institutions.
+# Define colors and color palettes of various institutions.
+# (Export color palettes as vectors, rather than data frames.)
 
 
 # Caltech: ------ 
