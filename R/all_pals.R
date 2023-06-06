@@ -1,10 +1,9 @@
-## all_pals.R | 2022 05 31
+## all_pals.R | 2022 06 06
 ## Inventory of all color palettes 
 ## -------------------------------
 
 # Keep a record / registry of all color palettes 
 # (and institutions and corresponding labels).
-
 
 # Color palettes and uni_data: -----
 
