@@ -1,11 +1,19 @@
+# uni_stuttgart.R | 2023 06 08
+# Colors of the University of Stuttgart, Germany 
+# -------------------------------------
 
-# Uni Stuttgart: ------
+# Information: ------
+
+# Institution:
 
 # Name: Universität Stuttgart
 # English: University of Stuttgart
+# Country: Germany, de
 # URL: https://www.uni-stuttgart.de/
 
-# Color source: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
+# Color source:
+
+# URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
 # Page 24 of PDF manual at
 # <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf>
 
@@ -44,8 +52,8 @@ col_sgtt_anthrazit <- "#323232"
 # TODO: was machen wir mit solchen Informationen?
 # TODO: 2 extra Paletten mit diesen "offset_print" und "offset_print_text" Farben?
 
-col_sgtt_offset_print_antrazit <- "#1a1a1a"
-col_sgtt_offset_print_text_antrazit <- "#000000"  # same as "black"
+col_sgtt_offset_print_anthrazit <- "#1a1a1a"
+col_sgtt_offset_print_text_anthrazit <- "#000000"  # same as "black"
 
 
 # Primary color 3 "MITTELBLAU"
@@ -128,7 +136,7 @@ uni_stuttgart <- unikn::newpal(col = c(col_sgtt_weiss, col_sgtt_anthrazit, col_s
                                as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(uni_stuttgart, main = "Primary colors of Stuttgart University", col_bg = "lightgrey")
+# unikn::seecol(uni_stuttgart, main = "Primary colors of the University of Stuttgart", col_bg = "lightgrey")
 
 
-# eof.
+# eof. ----------
