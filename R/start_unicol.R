@@ -1,3 +1,6 @@
+# start_unicol.R | 2023 06 08
+# Start the unicol package
+# ------------------------
 
 # - unikn.guide: Open package guide ----
 
@@ -29,4 +32,4 @@ unicol.guide <- function() {
 }
 
 
-## eof. ----------
+# eof. ----------
