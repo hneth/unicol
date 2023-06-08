@@ -1,13 +1,11 @@
-## all_pals.R | 2022 06 06
+## all_pals.R | 2022 06 08
 ## Inventory of all color palettes 
 ## -------------------------------
 
 # Keep a record / registry of all color palettes 
 # (and institutions and corresponding labels).
 
-# Color palettes and uni_data: -----
-
-# Institution names and URLs of uni_pals:
+# Meta-information on all color palettes: -----
 
 uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "eth_pal_1", "eth_pal_2", "eth_pal_3",
@@ -27,14 +25,12 @@ uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "uni_mannheim_1", "uni_mannheim_2",
               "uni_princeton_0", "uni_princeton_1", "uni_princeton_2",
               "uni_regensburg_1", "uni_regensburg_2", "uni_regensburg_3",
+              "uni_stuttgart", 
               "uni_ulm_1", "uni_ulm_2",
               "rpi_pal_1", "rpi_pal_2", "rpi_pal_3",
               "rptu_pal"
 )
 
-# Note: 
-# - add_pals is a character vector that contains all names of additional color palettes 
-# - add_pals is currently defined in file color_def_1.R
 
 inst <- c(rep("Caltech", 3), 
           rep("ETH Zurich", 3),
@@ -53,10 +49,12 @@ inst <- c(rep("Caltech", 3),
           rep("University of Mannheim", 2),          
           rep("Princeton University", 3),
           rep("University of Regensburg", 3),
+          rep("University of Stuttgart", 1), 
           rep("University of Ulm", 2),          
           rep("RPI", 3), 
           "RPTU Kaiserslautern-Landau"
 )
+
 
 inst_alt <- c(rep("California Institute of Technology", 3),
               rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
@@ -75,10 +73,12 @@ inst_alt <- c(rep("California Institute of Technology", 3),
               rep("Universit\u00E4t Mannheim", 2),
               rep("Princeton University", 3),
               rep("Universit\u00E4t Regensburg", 3),
+              rep("Universit\u00E4t Stuttgart", 1), 
               rep("Universit\u00E4t Ulm", 2),
               rep("Rensselaer Polytechnic Institute", 3), 
               "Rheinland-Pf\u00E4lzische Technische Universit\u00E4t Kaiserslautern-Landau"
 )
+
 
 url <- c(rep("https://www.caltech.edu/", 3), 
          rep("https://ethz.ch/", 3),
@@ -97,43 +97,20 @@ url <- c(rep("https://www.caltech.edu/", 3),
          rep("https://www.uni-mannheim.de/", 2),
          rep("https://www.princeton.edu/", 3),
          rep("https://www.uni-regensburg.de/", 3),
+         "https://www.uni-stuttgart.de/", 
          rep("https://www.uni-ulm.de/", 2),
          rep("https://www.rpi.edu/", 3),
          "https://rptu.de/"
 )
 
-
-# uni_data (as data frame): ----
+# Collect uni_data (as data frame): ------
 
 uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # uni_data
 
 
-# Palettes from unikn package: ------ 
-
-# - Local copies of unikn palettes: 
-
-pal_unikn     <- unikn::pal_unikn
-pal_unikn_web <- unikn::pal_unikn_web
-pal_unikn_ppt <- unikn::pal_unikn_ppt
-
-
-# - Palette names:
-
-all_palkn_basic <- c("pal_unikn", "pal_unikn_web", "pal_unikn_ppt")
-all_palkn_pair  <- c("pal_unikn_light", "pal_unikn_dark", "pal_unikn_pair")
-all_palkn_grad  <- c("pal_seeblau", "pal_peach", "pal_grau", "pal_petrol", "pal_seegruen",
-                     "pal_karpfenblau", "pal_pinky", "pal_bordeaux",
-                     "pal_signal")
-all_palkn_pref  <- c("pal_unikn_pref", all_palkn_grad)
-all_palkn <- c(all_palkn_basic, all_palkn_pair, all_palkn_pref)
-
-
-# All palettes / largest set (of unicol package): ------
-
-all_pals <- c(all_palkn, uni_pals)  # copy
-
-
 ## ToDo: -------- 
+
+# - add a country field (or read from URL)?
 
 ## eof. ----------
