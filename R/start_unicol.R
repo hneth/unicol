@@ -1,8 +1,9 @@
-# start_unicol.R | 2023 06 08
-# Start the unicol package
-# ------------------------
+## start_unicol.R | 2023 06 08
+## Start the unicol package
+## ------------------------
 
-# - unikn.guide: Open package guide ----
+
+# unikn.guide: Open package guide ------
 
 #' Open the unikn package guides 
 #'
@@ -19,7 +20,8 @@ unicol.guide <- function() {
 } # unicol.guide().
 
 
-# - .onAttach: Initialize package ----
+
+# .onAttach: Initialize package ------
 
 .onAttach <- function(libname, pkgname) {
   
@@ -32,4 +34,4 @@ unicol.guide <- function() {
 }
 
 
-# eof. ----------
+## eof. ----------

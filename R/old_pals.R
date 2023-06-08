@@ -1,4 +1,4 @@
-## old_pals.R | 2023 06 06
+## old_pals.R | 2023 06 08
 ## Old color palettes (from unikn)
 ## -------------------------------
 
