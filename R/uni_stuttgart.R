@@ -1,21 +1,20 @@
-## uni_stuttgart.R | 2023 06 08
+## uni_stuttgart.R | 2023 06 09
 ## Colors of the University of Stuttgart, Germany 
 ## -----------------------------------------------
 
 # Information: ------
 
-# uni_pals: uni_stuttgart (1)
-# inst: University of Stuttgart (in English)
-# inst_alt: Universität Stuttgart 
-# country: Germany, de
-# URL: <https://www.uni-stuttgart.de/>
+# uni_pals: "uni_stuttgart" (1)
+# inst: "University of Stuttgart" (in English)
+# inst_alt: "Universit\u00E4t Stuttgart"
+# country: Germany
+# URL: "https://www.uni-stuttgart.de/"
 
 # Color source:
 
 # URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
 # Page 24 of PDF manual at
 # <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf>
-
 # Last check: 2023-05-31
 
 
@@ -137,5 +136,10 @@ uni_stuttgart <- unikn::newpal(col = c(col_sgtt_weiss, col_sgtt_anthrazit, col_s
 # # Check: 
 # unikn::seecol(uni_stuttgart, main = "Primary colors of the University of Stuttgart", col_bg = "lightgrey")
 
+
+
+## ToDo: -------- 
+
+# - etc.
 
 ## eof. ----------
