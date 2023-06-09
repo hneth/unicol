@@ -118,7 +118,7 @@ col_sgtt_hellBlau <- "#00BEFF"
 #' uni_stuttgart
 #' unikn::seecol(uni_stuttgart, main = "University of Stuttgart") # view color palette
 #'
-#' @family uni color palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

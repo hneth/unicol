@@ -126,7 +126,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' unikn::demopal(caltech_pal_1, type = 4, seed = 1,  
 #'                main = "Using the primary and neutral colors of Caltech")
 #'
-#' @family contributed color palettes
+#' @family university color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
@@ -214,7 +214,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' unikn::demopal(caltech_pal_2, type = 2, seed = 2,  
 #'                main = "Using the primary and deep colors of Caltech")
 #'
-#' @family contributed color palettes
+#' @family university color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
@@ -326,7 +326,7 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' unikn::demopal(caltech_pal_3, type = 3, seed = 1,  
 #'                main = "Using the primary and bright colors of Caltech")
 #'
-#' @family contributed color palettes
+#' @family university color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
