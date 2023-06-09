@@ -1,338 +1,9 @@
-## old_pals.R | 2023 06 08
+## old_pals.R | 2023 06 09
 ## Old color palettes (from unikn)
 ## -------------------------------
 
 # Define colors and color palettes of various institutions.
 # (Export color palettes as vectors, rather than data frames.)
-
-
-# Caltech: ------ 
-
-# Source: <https://identity.caltech.edu/colors>
-# 2022-11-28
-
-# Caltech's official color system is made up of four palettes: 
-# a primary color, a neutral palette, a deep palette, and a bright palette.
-
-
-# Primary Color
-#
-# Caltech's primary color is Pantone MS 1585c Orange for coated and matte print jobs. 
-# Use PMS 151 for uncoated print jobs. It is recommended that you reserve this color 
-# for smaller highlights rather than large swatches.
-
-# PMS 1585c
-# c:0 m:68 y:98 k:0
-# r:255 g:108 b:12
-# HEX #FF6C0C
-
-col_caltech_p <- "#FF6C0C"
-
-
-# Neutral Colors
-#
-# Caltech's neutral color palette complements the Caltech orange and 
-# should be used for projects with a more traditional, serious tone.
-
-# PMS Cool Gray 9
-# c:0 m:0 y:0 k:65
-# r:118 g:119 b:123
-# HEX #76777B
-
-col_caltech_n1 <- "#76777B"
-
-# PMS Cool Grey 3c
-# c:0 m:0 y:0 k:24
-# r:202 g:200 b:200
-# HEX #C8C8C8
-
-col_caltech_n2 <- "#C8C8C8"  # Note: RGB values differ!
-
-# PMS 414
-# c:35 m:28 y:35 k:0
-# r:170 g:169 b:159
-# HEX #AAA99F
-
-col_caltech_n3 <- "#AAA99F"
-
-# PMS 5497c
-# c:51 m:32 y:39 k:2
-# r:133 g:152 b:148
-# HEX #849895
-
-col_caltech_n4 <- "#849895"  # Note: RGB values differ!
-# col_caltech_n4 <- rgb(133, 152, 148, maxColorValue = 255)  # Note: HEX values differ!
-
-# PMS 7494c
-# c:41 m:21 y:53 k:0
-# r:157 g:174 b:136
-# HEX #9DAE88
-
-col_caltech_n5 <- "#9DAE88"
-
-# PMS 451c
-# c:38 m:35 y:73 k:6
-# r:159 g:146 b:94
-# HEX #C7B784
-
-col_caltech_n6 <- "#C7B784"  # Note: RGB values differ WIDELY!
-# col_caltech_n6 <- rgb(159, 146, 94, maxColorValue = 255)  # Note: HEX values differ WIDELY!
-
-# PMS 7403c
-# c:5 m:15 y:57 k:0
-# r:242 g:211 b:131
-# HEX #F1D384
-
-col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
-# col_caltech_n7 <- rgb(242, 211, 131, maxColorValue = 255)  # Note: HEX values differ!
-
-
-# - caltech_pal_1: Primary and neutral colors ----
-
-#' Primary and neutral colors of Caltech
-#'
-#' \code{caltech_pal_1} provides the primary and 7 neutral colors 
-#' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
-#' 
-#' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
-#' (for coated and matte print jobs, \code{PMS 151} for uncoated print jobs). 
-#' Use this color for small highlights, rather than large areas. 
-#' 
-#' Caltech's 7 neutral colors complement the primary \code{Caltech orange}  
-#' and allow to convey a serious, sober, and traditional impression.
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unikn}, 2022-10-28.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://identity.caltech.edu/colors}. 
-#' 
-#' @examples
-#' caltech_pal_1
-#' unikn::seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
-#' unikn::demopal(caltech_pal_1, type = 4, seed = 1,  
-#'                main = "Using the primary and neutral colors of Caltech")
-#'
-#' @family contributed color palettes
-#'
-#' @seealso 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-caltech_pal_1 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
-                                       col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
-                               names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
-                                         "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
-                               as_df = FALSE)
-
-# Deep Colors 
-# 
-# Caltech's deep color palette adds contrast to the Caltech orange as well as the neutral palette, 
-# and may be used to provide more depth and texture to communications materials.
-
-# PMS 548c
-# c:100 m:64 y:51 k:43
-# r:0 g:59 b:76
-# HEX #003B4C
-
-col_caltech_d1 <- "#003B4C"
-
-# PMS 3292c
-# c:100 m:41 y:67 k:33
-# r:0 g:88 b:80
-# HEX #005851
-
-col_caltech_d2 <- "#005851"  # Note: RGB values differ!
-# col_caltech_d2 <- rgb(0, 88, 80, maxColorValue = 255)  # Note: HEX values differ!
-
-# PMS 668c
-# c:69 m78 y:28 k:11
-# r100 g:75 b:120
-# HEX #644B78
-
-col_caltech_d3 <- "#644B78"
-
-# PMS 195c
-# c:36 m:87 y:61 k:33
-# r:123 g:48 b:62
-# HEX #7A303F
-
-col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
-# col_caltech_d4 <- rgb(123, 48, 62, maxColorValue = 255)  # Note: HEX values differ!
-
-# - caltech_pal_2: Primary and deep colors ----
-
-#' Primary and deep colors of Caltech
-#'
-#' \code{caltech_pal_2} provides the primary and 4 deep colors 
-#' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
-#' 
-#' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
-#' (for coated and matte print jobs, \code{PMS 151} for uncoated print jobs). 
-#' Use this color for small highlights, rather than large areas. 
-#' 
-#' Caltech's 4 deep colors add contrast to the primary \code{Caltech orange}  
-#' as well as the neutral colors (of \code{\link{caltech_pal_1}}), 
-#' and are used to provide depth and texture to communications materials. 
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unikn}, 2022-10-28.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://identity.caltech.edu/colors}. 
-#' 
-#' @examples
-#' caltech_pal_2
-#' unikn::seecol(caltech_pal_2, main = "Primary and deep colors of Caltech")
-#' unikn::demopal(caltech_pal_2, type = 2, seed = 2,  
-#'                main = "Using the primary and deep colors of Caltech")
-#'
-#' @family contributed color palettes
-#'
-#' @seealso 
-#' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-caltech_pal_2 <- unikn::newpal(col = c(col_caltech_p,  
-                                       col_caltech_d1, col_caltech_d2, 
-                                       col_caltech_d3, col_caltech_d4),
-                               names = c("Caltech orange (PMS 1585c)", 
-                                         "PMS 548c", "PMS 3292c", 
-                                         "PMS 668c", "PMS 195c"), 
-                               as_df = FALSE)
-
-# Bright Colors
-#
-# Caltech's bright color palette provides an opportunity to adjust the temper of a piece from subtle to bold. 
-# These colors should be used as accents to the primary, neutral, and deep colors, 
-# and carefully selected based on what is appropriate to the tone of the piece.
-
-# PMS 186c (red JPL official color)
-# c:0 m:100 y:81 k:4
-# r:227 g:25 b:55
-# HEX #e41937
-
-col_caltech_b1 <- "#E41937"  # Note: RGB values differ!
-# col_caltech_b1 <- rgb(227, 25, 55, maxColorValue = 255)  # Note: HEX values differ!
-
-# PMS 299c
-# c:80 m:18 y:0 k:0
-# r:0 g:161 b:223
-# HEX #00A1DF
-
-col_caltech_b2 <- "#00A1DF"
-
-# PMS 7473c
-# c:80 m:19 y:52 k:2
-# r:30 g:152 b:138
-# HEX #1E988A
-
-col_caltech_b3 <- "#1E988A"
-
-# PMS 7489c
-# c:61 m:14 y:92 k:1
-# r:115 g:169 b:80
-# HEX #73A950
-
-col_caltech_b4 <- "#73A950"
-
-# PMS 7408c
-# c:2 m:26 y:100 k:0
-# r:249 g:190 b:0
-# HEX #F9BE00
-
-col_caltech_b5 <- "#F9BE00"
-
-# PMS 605c
-# c:15 m:13 y:100 k:0
-# r:226 g:204 b:0
-# HEX #E2CC00
-
-col_caltech_b6 <- "#E2CC00"
-
-# PMS 1915c
-# c:0 m:85 y:24 k:0
-# r:246 g:77 b:128
-# HEX #F54D80
-
-col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
-# col_caltech_b7 <- rgb(246, 77, 128, maxColorValue = 255)  # Note: HEX values differ!
-
-
-# - caltech_pal_3: Primary and bright colors ----
-
-#' Primary and bright colors of Caltech
-#'
-#' \code{caltech_pal_3} provides the primary and 7 bright colors 
-#' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
-#' 
-#' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
-#' (for coated and matte print jobs, \code{PMS 151} for uncoated print jobs). 
-#' Use this color for small highlights, rather than large areas. 
-#' 
-#' Caltech's 7 bright colors provide an opportunity to adjust the temper 
-#' of communication materials from subtle to bold. 
-#' These colors should be used as carefully selected accents 
-#' to the primary, neutral, and deep colors 
-#' (of \code{\link{caltech_pal_1}} and \code{\link{caltech_pal_2}}). 
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unikn}, 2022-10-28.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://identity.caltech.edu/colors}. 
-#' 
-#' @examples
-#' caltech_pal_3
-#' unikn::seecol(caltech_pal_3, main = "Primary and bright colors of Caltech")
-#' unikn::demopal(caltech_pal_3, type = 3, seed = 1,  
-#'                main = "Using the primary and bright colors of Caltech")
-#'
-#' @family contributed color palettes
-#'
-#' @seealso 
-#' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-caltech_pal_3 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_b1, col_caltech_b2, col_caltech_b3, 
-                                       col_caltech_b4, col_caltech_b5, col_caltech_b6, col_caltech_b7),
-                               names = c("Caltech orange (PMS 1585c)", "JPL red (PMS 186c)", "PMS 299c", "PMS 7473c", 
-                                         "PMS 7489c", "PMS 7408c", "PMS 605c", "PMS 1915c"), 
-                               as_df = FALSE)
-
 
 
 # Uni Goettingen / Göttingen: ------
@@ -355,6 +26,7 @@ caltech_pal_3 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_b1, col_calte
 # sowie Grau, Schwarz, Weiss und Chamois zur Verfuegung.
 
 
+
 # - uni_goettingen_1: Primary colors ----
 
 col_goe_primary <- c("#153268", "#005f9b", "#0091c8", "#50a5d2")
@@ -373,7 +45,7 @@ nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-20.
+#' \strong{unicol}, 2022-11-20.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -434,7 +106,7 @@ nam_goe_secondary <- c("schwarz", "weiss", "chamois", "altweiss",
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-20.
+#' \strong{unicol}, 2022-11-20.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -509,7 +181,7 @@ nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "F
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-20.
+#' \strong{unicol}, 2022-11-20.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -595,7 +267,7 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -674,7 +346,7 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -778,7 +450,7 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -865,7 +537,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-03.
+#' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -952,7 +624,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-03.
+#' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1021,7 +693,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-03.
+#' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1085,7 +757,7 @@ fu_pal_3 <- fu_blues
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-03.
+#' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1159,7 +831,7 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-30.
+#' \strong{unicol}, 2022-11-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1249,7 +921,7 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-30.
+#' \strong{unicol}, 2022-11-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1320,7 +992,7 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-02.
+#' \strong{unicol}, 2022-12-02.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -1374,7 +1046,7 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-02.
+#' \strong{unicol}, 2022-12-02.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -1451,7 +1123,7 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-02.
+#' \strong{unicol}, 2022-12-02.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -1527,7 +1199,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-11.
+#' \strong{unicol}, 2022-12-11.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -1638,7 +1310,7 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-10.
+#' \strong{unicol}, 2022-12-10.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -1688,7 +1360,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-10.
+#' \strong{unicol}, 2022-12-10.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -1842,7 +1514,7 @@ names(frbg_rosa) <- "rosa"
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-04-28.
+#' \strong{unicol}, 2023-04-28.
 #' 
 #' @source 
 #' Color definitions are based on the new web style guide at 
@@ -1917,7 +1589,7 @@ frbg_sand_name <- c("sand")
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-04-28.
+#' \strong{unicol}, 2023-04-28.
 #' 
 #' @source 
 #' Color definitions are based on the new web style guide at 
@@ -1974,7 +1646,7 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-04-28.
+#' \strong{unicol}, 2023-04-28.
 #' 
 #' @source 
 #' Color definitions are based on the new web style guide at 
@@ -2031,7 +1703,7 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-10-20.
+#' \strong{unicol}, 2022-10-20.
 #' 
 #' @source 
 #' Color definitions are based on the web style guide at 
@@ -2075,7 +1747,7 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-10-20.
+#' \strong{unicol}, 2022-10-20.
 #' 
 #' @source 
 #' Color definitions are based on the web style guide at 
@@ -2120,7 +1792,7 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-10-20.
+#' \strong{unicol}, 2022-10-20.
 #' 
 #' @source 
 #' Color definitions are based on the web style guide at 
@@ -2167,7 +1839,7 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-10-20.
+#' \strong{unicol}, 2022-10-20.
 #' 
 #' @source 
 #' Color definitions are based on the web style guide at 
@@ -2255,7 +1927,7 @@ uni_freiburg_info <- unikn::newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-06.
+#' \strong{unicol}, 2022-12-06.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -2329,7 +2001,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-06.
+#' \strong{unicol}, 2022-12-06.
 #' 
 #' @source 
 #' Color definitions are based on the 
@@ -2421,7 +2093,7 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-01-02.
+#' \strong{unicol}, 2023-01-02.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2539,7 +2211,7 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-01-02.
+#' \strong{unicol}, 2023-01-02.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2628,7 +2300,7 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-01-02.
+#' \strong{unicol}, 2023-01-02.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2735,7 +2407,7 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-01-02.
+#' \strong{unicol}, 2023-01-02.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2817,7 +2489,7 @@ koeln_si_1 <- rgb(175, 17, 29, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-05.
+#' \strong{unicol}, 2022-12-05.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2893,7 +2565,7 @@ koeln_fa_7 <- rgb(145, 196, 234, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-05.
+#' \strong{unicol}, 2022-12-05.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -2946,10 +2618,10 @@ uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_f
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
-#' R package \strong{unikn}, 
+#' R package \strong{unicol}, 
 #' retrieved from \url{https://CRAN.R-project.org/package=unikn},    
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
@@ -2995,10 +2667,10 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 #' A named vector of colors (HEX/HTML codes of type character). 
 #' 
 #' @author 
-#' \strong{unikn}, 2022-10-20.
+#' \strong{unicol}, 2022-10-20.
 #' 
 #' @source 
-#' R package \strong{unikn}, 
+#' R package \strong{unicol}, 
 #' retrieved from \url{https://CRAN.R-project.org/package=unikn},    
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
@@ -3100,7 +2772,7 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3167,7 +2839,7 @@ uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3223,7 +2895,7 @@ orange_black <- "#F58025"  # orange on black background
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-28.
+#' \strong{unicol}, 2022-11-28.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3270,7 +2942,7 @@ uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-28.
+#' \strong{unicol}, 2022-11-28.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3318,7 +2990,7 @@ uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-28.
+#' \strong{unicol}, 2022-11-28.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3485,7 +3157,7 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-25.
+#' \strong{unicol}, 2022-11-25.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3546,7 +3218,7 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-30.
+#' \strong{unicol}, 2022-11-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3618,7 +3290,7 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-11-30.
+#' \strong{unicol}, 2022-11-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3706,7 +3378,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3762,7 +3434,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-30.
+#' \strong{unicol}, 2022-12-30.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3858,7 +3530,7 @@ rpi_2 <- "#54585a"
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-01.
+#' \strong{unicol}, 2022-12-01.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3915,7 +3587,7 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-01.
+#' \strong{unicol}, 2022-12-01.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -3979,7 +3651,7 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2022-12-01.
+#' \strong{unicol}, 2022-12-01.
 #' 
 #' @source 
 #' Color definitions are based on 
@@ -4178,7 +3850,7 @@ rptu_weiss <- "white"
 #' A named vector of colors (HEX/HTML codes of type character).
 #' 
 #' @author 
-#' \strong{unikn}, 2023-01-01.
+#' \strong{unicol}, 2023-01-01.
 #' 
 #' @source 
 #' Color definitions are based on 
