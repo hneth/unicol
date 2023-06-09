@@ -47,9 +47,63 @@ unikn::seecol(uni_stuttgart, main = "University of Stuttgart") # view color pale
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
+
+Other university color palettes: 
+\code{\link{caltech_pal_1}},
+\code{\link{caltech_pal_2}},
+\code{\link{caltech_pal_3}},
+\code{\link{eth_pal_1}},
+\code{\link{eth_pal_2}},
+\code{\link{eth_pal_3}},
+\code{\link{fu_pal_0}},
+\code{\link{fu_pal_1}},
+\code{\link{fu_pal_2}},
+\code{\link{fu_pal_3}},
+\code{\link{hu_pal_1}},
+\code{\link{hu_pal_2}},
+\code{\link{lmu_pal_1}},
+\code{\link{lmu_pal_2}},
+\code{\link{lmu_pal_3}},
+\code{\link{mpg_pal}},
+\code{\link{rpi_pal_1}},
+\code{\link{rpi_pal_2}},
+\code{\link{rpi_pal_3}},
+\code{\link{rptu_pal}},
+\code{\link{uni_bonn_1}},
+\code{\link{uni_bonn_2}},
+\code{\link{uni_freiburg_0}},
+\code{\link{uni_freiburg_1}},
+\code{\link{uni_freiburg_2}},
+\code{\link{uni_freiburg_blue}},
+\code{\link{uni_freiburg_br}},
+\code{\link{uni_freiburg_grey}},
+\code{\link{uni_freiburg_info}},
+\code{\link{uni_goettingen_1}},
+\code{\link{uni_goettingen_2}},
+\code{\link{uni_goettingen_3}},
+\code{\link{uni_hamburg_1}},
+\code{\link{uni_hamburg_2}},
+\code{\link{uni_jena_1}},
+\code{\link{uni_jena_2}},
+\code{\link{uni_kiel_1}},
+\code{\link{uni_kiel_2}},
+\code{\link{uni_koeln_1}},
+\code{\link{uni_koeln_2}},
+\code{\link{uni_konstanz_1}},
+\code{\link{uni_konstanz_2}},
+\code{\link{uni_mannheim_1}},
+\code{\link{uni_mannheim_2}},
+\code{\link{uni_princeton_0}},
+\code{\link{uni_princeton_1}},
+\code{\link{uni_princeton_2}},
+\code{\link{uni_regensburg_1}},
+\code{\link{uni_regensburg_2}},
+\code{\link{uni_regensburg_3}},
+\code{\link{uni_ulm_1}},
+\code{\link{uni_ulm_2}}
 }
 \author{
 \strong{unicol}, 2023-05-31.
 }
-\concept{uni color palettes}
+\concept{university color palettes}
 \keyword{datasets}

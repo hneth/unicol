@@ -51,7 +51,7 @@ uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
 \code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
-Other contributed color palettes: 
+Other university color palettes: 
 \code{\link{caltech_pal_1}},
 \code{\link{caltech_pal_2}},
 \code{\link{caltech_pal_3}},
@@ -102,10 +102,11 @@ Other contributed color palettes:
 \code{\link{uni_regensburg_1}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
+\code{\link{uni_stuttgart}},
 \code{\link{uni_ulm_1}}
 }
 \author{
-\strong{unikn}, 2022-12-30.
+\strong{unicol}, 2022-12-30.
 }
-\concept{contributed color palettes}
+\concept{university color palettes}
 \keyword{datasets}

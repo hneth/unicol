@@ -8,7 +8,7 @@
 An object of class \code{character} of length 9.
 }
 \source{
-R package \strong{unikn}, 
+R package \strong{unicol}, 
 retrieved from \url{https://CRAN.R-project.org/package=unikn},    
 doi \doi{10.5281/zenodo.7096191}. 
 
@@ -44,7 +44,7 @@ unikn::demopal(uni_konstanz_2, type = 3, main = "Preferred colors of the Uni Kon
 \code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
-Other contributed color palettes: 
+Other university color palettes: 
 \code{\link{caltech_pal_1}},
 \code{\link{caltech_pal_2}},
 \code{\link{caltech_pal_3}},
@@ -94,11 +94,12 @@ Other contributed color palettes:
 \code{\link{uni_regensburg_1}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
+\code{\link{uni_stuttgart}},
 \code{\link{uni_ulm_1}},
 \code{\link{uni_ulm_2}}
 }
 \author{
-\strong{unikn}, 2022-10-20.
+\strong{unicol}, 2022-10-20.
 }
-\concept{contributed color palettes}
+\concept{university color palettes}
 \keyword{datasets}

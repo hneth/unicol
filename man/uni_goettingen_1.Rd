@@ -40,7 +40,7 @@ unikn::demopal(uni_goettingen_1, type = 1, main = "Primary colors of the Univers
 \code{\link{newpal}} for defining new color palettes; 
 \code{\link{grepal}} for finding named colors.
 
-Other contributed color palettes: 
+Other university color palettes: 
 \code{\link{caltech_pal_1}},
 \code{\link{caltech_pal_2}},
 \code{\link{caltech_pal_3}},
@@ -90,11 +90,12 @@ Other contributed color palettes:
 \code{\link{uni_regensburg_1}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
+\code{\link{uni_stuttgart}},
 \code{\link{uni_ulm_1}},
 \code{\link{uni_ulm_2}}
 }
 \author{
-\strong{unikn}, 2022-11-20.
+\strong{unicol}, 2022-11-20.
 }
-\concept{contributed color palettes}
+\concept{university color palettes}
 \keyword{datasets}
