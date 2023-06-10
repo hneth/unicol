@@ -63,7 +63,7 @@ col_3 <- "black"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-05-31.
+#' \strong{unicol}, 2023-06-10.
 #'
 #' @source 
 #' Color definitions are based on the
