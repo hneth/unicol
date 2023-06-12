@@ -31,7 +31,7 @@ The secondary color is
 \code{"HEllBlAU"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF) 
 and used for color accents. 
 
-\code{uni_stuttgart} uses the HEX color definition. 
+\code{uni_pal_1} uses the HEX color definition. 
 CMYK color differs from RGB and HEX definition.
 For \code{"ANTHRAZIT"} and \code{"MITTELBLAU"} the RGB and HEX definitions also differ numerically, 
 yet are visually indistinguishable. Our color palette is based on the HEX definition.
