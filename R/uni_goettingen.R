@@ -1,4 +1,4 @@
-## uni_palette_template.R | 2023 06 10
+## uni_goettingen.R | 2023 06 12
 ## Colors of the University of Goettingen, Germany 
 ## -----------------------------------------------
 
