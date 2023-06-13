@@ -90,7 +90,7 @@ uni_harvard_primary_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://identity.harvard.edu/design-elements/color/}{Color manual}.
+#' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
 #' uni_harvard_secondary_2
@@ -148,7 +148,7 @@ uni_harvard_secondary_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0"
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://identity.harvard.edu/design-elements/color/}{Color manual}.
+#' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
 #' uni_harvard_accent_3
