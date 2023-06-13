@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: https://identity.stanford.edu/design-elements/color/
+# URL: <https://identity.stanford.edu/design-elements/color/>
 # Last check: 2023-06-13
 
 

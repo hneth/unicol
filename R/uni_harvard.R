@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: https://identityguide.hms.harvard.edu/color/
+# URL: <https://identityguide.hms.harvard.edu/color/>
 # Last check: 2023-06-13
 
 

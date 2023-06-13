@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied/
+# URL: <https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied/>
 # Page 28 of PDF manual
 # Last check: 2023-06-13
 
@@ -47,8 +47,8 @@
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://identityguide.hms.chicago.edu/color/}{Color manual}.
+#' Color definitions are based on page 28 of 
+#' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
 #'
 #' @examples
 #' uni_chicago_primary_1
@@ -115,8 +115,8 @@ uni_chicago_primary_1 <- unikn::newpal(col = c("#800000", "#D9D9D9", "#A6A6A6", 
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://identity.chicago.edu/design-elements/color/}{Color manual}.
+#' Color definitions are based on page 28 of 
+#' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
 #'
 #' @examples
 #' uni_chicago_secondary_2
