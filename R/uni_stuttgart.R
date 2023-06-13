@@ -18,6 +18,7 @@
 # Last check: 2023-05-31
 
 
+
 # Colors: ------ 
 
 # Primary colors
@@ -129,7 +130,8 @@ col_sgtt_hellBlau <- "#00BEFF"
 #'
 #' @export
 
-uni_stuttgart <- unikn::newpal(col = c(col_sgtt_weiss, col_sgtt_anthrazit, col_sgtt_mittelBlau, col_sgtt_hellBlau),
+uni_stuttgart <- unikn::newpal(col = c(col_sgtt_weiss, 
+                                       col_sgtt_anthrazit, col_sgtt_mittelBlau, col_sgtt_hellBlau),
                                names = c("Weiss", "Anthrazit", "Mittelblau", "Hellblau"),
                                as_df = FALSE)
 
