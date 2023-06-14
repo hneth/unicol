@@ -1,11 +1,11 @@
 ## uni_york.R | 2023 06 14
-## Colors of University of York, USA
+## Colors of NYU, New York University, USA
 ## -----------------------------------------------
 
 # Information: ------
 
 # uni_pals: "uni_york_primary_1", "uni_york_secondary_2", "uni_york_neutral_3", "uni_york_accent_4" (4)
-# inst: "University of York"
+# inst: "NYU, New York University"
 # country: USA
 # URL: "https://www.nyu.edu"
 
@@ -24,10 +24,10 @@
 
 # - uni_york_primary_1: Primary colors ------
 
-#' Primary colors of University of York
+#' Primary colors of NYU, New York University
 #'
 #' \code{uni_york_primary_1} provides the four primary colors
-#' of the \href{https://www.nyu.edu}{University of York}, USA.
+#' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 #'
 #' Primary color are
 #' \code{"ultra_violet"} (defined as CMYK Refer/to/note, RGB 137/0/225, HEX #8900E1) and
@@ -45,14 +45,14 @@
 #'
 #' @examples
 #' uni_york_primary_1
-#' unikn::seecol(uni_york_primary_1, main = "Primary colors York Uni") # view color palette
+#' unikn::seecol(uni_york_primary_1, main = "Primary colors NYU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_york_secondary_2}} for secondary colors of University of York
-#' \code{\link{uni_york_neutral_3}} for neutral colors of University of York
-#' \code{\link{uni_york_accent_4}} for accent colors of University of York
+#' \code{\link{uni_york_secondary_2}} for secondary colors of NYU, New York University
+#' \code{\link{uni_york_neutral_3}} for neutral colors of NYU, New York University
+#' \code{\link{uni_york_accent_4}} for accent colors of NYU, New York University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -66,17 +66,17 @@ uni_york_primary_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_york_primary_1, main = "Primary colors University of York", col_bg = "lightgrey")
+# unikn::seecol(uni_york_primary_1, main = "Primary colors NYU, New York University", col_bg = "white")
 
 
 
 
 # - uni_york_secondary_2: Secondary  colors ------
 
-#' Secondary  colors of University of York
+#' Secondary  colors of NYU, New York University
 #'
 #' \code{uni_york_secondary_2} provides the four secondary  colors
-#' of the \href{https://www.nyu.edu}{University of York}, USA.
+#' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 #'
 #' Secondary color are
 #' \code{"deep_violet"} (defined as CMYK 92/100/23/28, RGB 51/6/98, HEX #330662),
@@ -97,14 +97,14 @@ uni_york_primary_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #'
 #' @examples
 #' uni_york_secondary_2
-#' unikn::seecol(uni_york_secondary_2, main = "Secondary  colors York Uni") # view color palette
+#' unikn::seecol(uni_york_secondary_2, main = "Secondary colors NYU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_york_primary_1}} for primary colors of University of York
-#' \code{\link{uni_york_neutral_3}} for neutral colors of University of York
-#' \code{\link{uni_york_accent_4}} for accent colors of University of York
+#' \code{\link{uni_york_primary_1}} for primary colors of NYU, New York University
+#' \code{\link{uni_york_neutral_3}} for neutral colors of NYU, New York University
+#' \code{\link{uni_york_accent_4}} for accent colors of NYU, New York University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -118,16 +118,16 @@ uni_york_secondary_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_york_secondary_2, main = "Secondary  colors University of York", col_bg = "lightgrey")
+# unikn::seecol(uni_york_secondary_2, main = "Secondary  colors NYU, New York University", col_bg = "white")
 
 
 
 # - uni_york_neutral_3: Neutral colors ------
 
-#' Neutral colors of University of York
+#' Neutral colors of NYU, New York University
 #'
 #' \code{uni_york_neutral_3} provides the four neutral colors
-#' of the \href{https://www.nyu.edu}{University of York}, USA.
+#' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 #'
 #' Neutral color are
 #' \code{"dark_gray"} (defined as CMYK 68/61/60/47, RGB 64/64/64, HEX #404040),
@@ -149,14 +149,14 @@ uni_york_secondary_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "
 #'
 #' @examples
 #' uni_york_neutral_3
-#' unikn::seecol(uni_york_neutral_3, main = "Neutral colors York Uni") # view color palette
+#' unikn::seecol(uni_york_neutral_3, main = "Neutral colors NYU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_york_primary_1}} for primary colors of University of York
-#' \code{\link{uni_york_secondary_2}} for secondary colors of University of York
-#' \code{\link{uni_york_accent_4}} for accent colors of University of York
+#' \code{\link{uni_york_primary_1}} for primary colors of NYU, New York University
+#' \code{\link{uni_york_secondary_2}} for secondary colors of NYU, New York University
+#' \code{\link{uni_york_accent_4}} for accent colors of NYU, New York University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -170,16 +170,16 @@ uni_york_neutral_3 <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_york_neutral_3, main = "Neutral colors University of York", col_bg = "lightgrey")
+# unikn::seecol(uni_york_neutral_3, main = "Neutral colors NYU, New York University", col_bg = "white")
 
 
 
 # - uni_york_accent_4: Accent colors ------
 
-#' Accent colors of University of York
+#' Accent colors of NYU, New York University
 #'
 #' \code{uni_york_accent_4} provides the four accent colors
-#' of the \href{https://www.nyu.edu}{University of York}, USA.
+#' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 #'
 #' Accent colors can be used for emphasis and contrast within your design.
 #' They can highlight important elements of your communication such as infographics, pull quotes, or even a single word in a title.
@@ -202,14 +202,14 @@ uni_york_neutral_3 <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d
 #'
 #' @examples
 #' uni_york_accent_4
-#' unikn::seecol(uni_york_accent_4, main = "Primary colors York Uni") # view color palette
+#' unikn::seecol(uni_york_accent_4, main = "Primary colors NYU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_york_primary_1}} for primary colors of University of York
-#' \code{\link{uni_york_secondary_2}} for secondary colors of University of York
-#' \code{\link{uni_york_neutral_3}} for neutral colors of University of York
+#' \code{\link{uni_york_primary_1}} for primary colors of NYU, New York University
+#' \code{\link{uni_york_secondary_2}} for secondary colors of NYU, New York University
+#' \code{\link{uni_york_neutral_3}} for neutral colors of NYU, New York University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -223,7 +223,7 @@ uni_york_accent_4 <- unikn::newpal(col = c("#009b8a", "#fb0f78", "#59B2D1", "#f4
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_york_accent_4, main = "Primary colors University of York", col_bg = "lightgrey")
+# unikn::seecol(uni_york_accent_4, main = "Primary colors NYU, New York University", col_bg = "white")
 
 
 
