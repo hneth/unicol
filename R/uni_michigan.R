@@ -26,7 +26,7 @@
 
 #' Primary colors of University of Michigan
 #'
-#' \code{uni_michigan_primary_1} provides the four primary colors
+#' \code{uni_michigan_primary_1} provides the two primary colors
 #' of the \href{https://www.berkeley.edu}{University of Michigan}, USA.
 #'
 #' Our signature color palette of
@@ -74,7 +74,7 @@ uni_michigan_primary_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
 
 #' Secondary colors of University of Michigan
 #'
-#' \code{uni_michigan_secondary_2} provides the 21 secondary colors
+#' \code{uni_michigan_secondary_2} provides the 13 secondary colors
 #' of the \href{https://www.berkeley.edu}{University of Michigan}, USA.
 #'
 #' The colors in our supporting palette were chosen to complement our primary palette of maize and blue, providing additional range to the brand experience.

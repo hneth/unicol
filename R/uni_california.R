@@ -75,7 +75,7 @@ uni_california_primary_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1
 
 #' Secondary colors of University of California
 #'
-#' \code{uni_california_secondary_2} provides the 21 secondary colors
+#' \code{uni_california_secondary_2} provides the 12 secondary colors
 #' of the \href{https://umich.edu}{University of California}, USA.
 #'
 #' The secondary palette is broken into four groups: neutrals, vibrants, brights and darks.
