@@ -7,7 +7,7 @@
 # uni_pals: "uni_michigan_primary_1", "uni_michigan_secondary_2" (2)
 # inst: "University of Michigan"
 # country: USA
-# URL: "https://www.berkeley.edu"
+# URL: "https://umich.edu"
 
 # Color source:
 
@@ -27,7 +27,7 @@
 #' Primary colors of University of Michigan
 #'
 #' \code{uni_michigan_primary_1} provides the two primary colors
-#' of the \href{https://www.berkeley.edu}{University of Michigan}, USA.
+#' of the \href{https://umich.edu}{University of Michigan}, USA.
 #'
 #' Our signature color palette of
 #' \code{"mich_maize"} (defined as PMS 7406, CMYK 0/18/100/0, HEX #FFCB05) and
@@ -75,7 +75,7 @@ uni_michigan_primary_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
 #' Secondary colors of University of Michigan
 #'
 #' \code{uni_michigan_secondary_2} provides the 13 secondary colors
-#' of the \href{https://www.berkeley.edu}{University of Michigan}, USA.
+#' of the \href{https://umich.edu}{University of Michigan}, USA.
 #'
 #' The colors in our supporting palette were chosen to complement our primary palette of maize and blue, providing additional range to the brand experience.
 #' They work well as secondary colors or as backgrounds behind typography or graphics, but should never replace the primary palette as the main color(s) of a design.
