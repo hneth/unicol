@@ -1,5 +1,5 @@
 ## uni_pennsylvania.R | 2023 06 13
-## Colors of University of Pennsylvania, USA
+## Colors of Penn, University of Pennsylvania, USA
 ## -----------------------------------------------
 
 # Information: ------
@@ -25,16 +25,15 @@
 
 # - uni_penn_logo_1: Logo colors ------
 
-#' Logo colors of University of Pennsylvania
+#' Logo colors of Penn, University of Pennsylvania
 #'
 #' \code{uni_penn_logo_1} provides the two logo colors
-#' of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.
+#' of the \href{https://www.upenn.edu/}{Penn, University of Pennsylvania}, USA.
 #'
-#' Red and blue are the traditional colors for the University of Pennsylvania.
+#' \code{"penn_red"} (defined as RGB 153/0/0, HEX #990000) and 
+#' \code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B) are the traditional colors for the University of Pennsylvania.
 #' They are as important to the identification program as the logo forms and typography.
 #'
-#' \code{"penn_red"} (defined as RGB 153/0/0, HEX #990000),
-#' \code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B).
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -78,7 +77,19 @@ uni_penn_logo_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #' \code{uni_penn_web_2} provides the 12 web colors
 #' of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.
 #'
-#' Web colors are defined HEX only.
+#' These web colors are 
+#' \code{"penn_blue"} (defined as HEX #011F5B),
+#' \code{"penn_red"} (defined as HEX #990000),
+#' \code{"penn_blue2"} (defined as HEX #82AFD3),
+#' \code{"penn_orange"} (defined as HEX #C35A00),
+#' \code{"penn_green"} (defined as HEX #008e00),
+#' \code{"penn_yellow"} (defined as HEX #F2C100),
+#' \code{"penn_purple"} (defined as HEX #4A0042),
+#' \code{"penn_grey1"} (defined as HEX #F2F2F2),
+#' \code{"penn_grey2"} (defined as HEX #F7F7F7),
+#' \code{"penn_grey3"} (defined as HEX #CCCCCC),
+#' \code{"penn_grey4"} (defined as HEX #999999) and
+#' \code{"penn_black"} (defined as HEX #333333).
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

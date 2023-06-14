@@ -31,10 +31,9 @@
 #'
 #' Primary colors are the officially recognized color palette for the university.
 #' These colors are critical to leverage the Cornell brand and provide clear university consistency.
-#' Logos may only be represented in \code{"carnelian"}, black or white.
-#'
-#' \code{"carnelian"} (defined as HEX #B31B1B),
-#' \code{"dark_gray"} (defined as HEX #222222) and
+#' Logos may only be represented in 
+#' \code{"carnelian"} (defined as HEX #B31B1B), black 
+#' \code{"dark_gray"} (defined as HEX #222222) or 
 #' \code{"white"} (defined as HEX #FFFFFF).
 #'
 #' @return
@@ -83,6 +82,7 @@ uni_cornell_primary_web_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFF
 #' These neutral hues pair perfectly with the primary palette.
 #' Use these as supplementary colors rather than driving colors in layout and communications.
 #'
+#' This secondary colors are 
 #' \code{"light_gray"} (defined as HEX #F7F7F7),
 #' \code{"dark_warm_gray"} (defined as HEX #A2998B) and
 #' \code{"sea_gray"} (defined as HEX #9FAD9F).
@@ -133,7 +133,8 @@ uni_cornell_secondary_web_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FA
 #' Although our primary and secondary palettes should guide most layouts, in certain instances other colors may be needed.
 #' For those circumstances, refer to the accent palette.
 #' These colors should not be used as full-color bleeds and should be used periodically and in moderation.
-#'
+#' 
+#' This secondary colors are 
 #' \code{"cornell_blue"} (defined as HEX #006699),
 #' \code{"cornell_green_graphic"} (defined as HEX #6EB43F),
 #' \code{"cornell_green_text"} (defined as HEX #4B7B2B),
