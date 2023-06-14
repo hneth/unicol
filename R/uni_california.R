@@ -108,7 +108,7 @@ uni_california_primary_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1
 #'
 #' @examples
 #' uni_california_secondary_2
-#' unikn::seecol(uni_california_secondary_2, main = "Secondary colors California Uni") # view color palette
+#' unikn::seecol(uni_california_secondary_2, main = "Secondary colors California") # view color palette
 #'
 #' @family university color palettes
 #'
