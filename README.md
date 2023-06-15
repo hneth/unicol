@@ -8,12 +8,15 @@
 
 The colors of your university.
 
+## Goal
+
 The R package **unicol** provides colors and color palettes for various
 universities.
 
 <!-- Course coordinates: -->
 
-A collaborative project developed by the following course:
+The **unicol** package was developed as a collaborative project by the
+following course:
 
 - **Open Source Software Development in R** (ADILT applications,
   PSY-18040), at **[University of
@@ -42,18 +45,51 @@ You can install the development version of **unicol** from
 devtools::install_github("hneth/unicol")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
+The **unicol** package provides colors and color palettes, whereas the
+**[unikn](https://CRAN.R-project.org/package=unikn)** provides
+color-related functions:
 
 ``` r
-library(unicol)
-#> Welcome to unicol (v0.0.0.9004)!
+library(unicol)  # for color palettes
+library(unikn)   # for color functions
+```
 
-unikn::demopal(pal = uni_berkeley_primary_1, type = 2)
+## Contents
+
+<!-- A list of all unicol palettes: -->
+
+The **unicol** package currently contains 16 color palettes (with a
+total of Y unique colors) from Z institutions.
+
+An overview of the current color palettes provided by the **unicol**
+package:
+
+<img src="man/figures/README-show-contents-1.png" width="600px" style="display: block; margin: auto;" />
+
+## Examples
+
+Here are some examples how the color palettes from **unicol** can be
+used:
+
+``` r
+seecol(uni_yale_primary, main = "Primary colors of Yale University")
 ```
 
 <img src="man/figures/README-examples-1.png" width="600px" style="display: block; margin: auto;" />
+
+``` r
+demopal(uni_berkeley_primary_1, type = 2, main = "Using the colors of Uni Berkeley")
+```
+
+<img src="man/figures/README-examples-2.png" width="600px" style="display: block; margin: auto;" />
+
+``` r
+demopal(nyu_primary_1, type = 3, main = "NYU colors")
+```
+
+<img src="man/figures/README-examples-3.png" width="600px" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 

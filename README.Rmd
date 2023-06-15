@@ -21,12 +21,14 @@ knitr::opts_chunk$set(
 
 The colors of your university.
 
-The R package **unicol** provides colors and color palettes for various universities. 
 
+## Goal
+
+The R package **unicol** provides colors and color palettes for various universities. 
 
 <!-- Course coordinates: --> 
 
-A collaborative project developed by the following course:
+The **unicol** package was developed as a collaborative project by the following course:
 
 * **Open Source Software Development in R** (ADILT applications, PSY-18040), at **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
 * Spring 2023: **Tuesdays**, **13:30-15:00**; in **C426** 
@@ -49,16 +51,56 @@ You can install the development version of **unicol** from [GitHub](https://gith
 devtools::install_github("hneth/unicol")
 ```
 
-## Example
 
-This is a basic example which shows you how to solve a common problem:
+## Usage
 
-```{r examples}
-library(unicol)
+The **unicol** package provides colors and color palettes, whereas the **[unikn](https://CRAN.R-project.org/package=unikn)** provides color-related functions:
 
-unikn::demopal(pal = uni_berkeley_primary_1, type = 2)
+```{r load-pkgs, message = FALSE}
+library(unicol)  # for color palettes
+library(unikn)   # for color functions
 ```
 
+## Contents
+
+<!-- A list of all unicol palettes: -->
+
+```{r list-all-pals, echo = FALSE}
+# Create a list of all unicol color palettes:
+all_unicol_pals <- list(caltech_pal_1, caltech_pal_2, caltech_pal_3,
+                        eth_pal_1, eth_pal_2, eth_pal_3, 
+                        fu_pal_1, fu_pal_2, fu_pal_3,
+                        hu_pal_1, hu_pal_2,
+                        lmu_pal_1, lmu_pal_2, lmu_pal_3,
+                        mit_pal,
+                        mpg_pal 
+                        # etc.
+                        )
+
+
+n_pals <- length(all_unicol_pals)
+```
+
+
+The **unicol** package currently contains `r n_pals`\ color palettes (with a total of Y\ unique colors) from Z\ institutions. 
+
+
+An overview of the current color palettes provided by the **unicol** package:
+
+```{r show-contents, echo = FALSE, fig.asp = 1}
+seecol(all_unicol_pals, main = "The unicol color palettes")
+```
+
+
+## Examples 
+
+Here are some examples how the color palettes from **unicol** can be used:
+
+```{r examples, message = FALSE}
+seecol(uni_yale_primary, main = "Primary colors of Yale University")
+demopal(uni_berkeley_primary_1, type = 2, main = "Using the colors of Uni Berkeley")
+demopal(nyu_primary_1, type = 3, main = "NYU colors")
+```
 
 
 ------
