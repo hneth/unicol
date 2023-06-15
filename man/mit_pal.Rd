@@ -23,9 +23,9 @@ of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
 }
 \details{
 The three primary colors are
-\code{"black"},
-\code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and
-\code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C).
+\code{"black"}, 
+\code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and 
+\code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C). 
 
 The secondary color is
 \code{"lightgray"} (defined as PMS 420, RGB 194/192/191, HEX #C2C0BF)
