@@ -55,9 +55,9 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
 #'
 #' The three primary colors are
-#' \code{"black"},
-#' \code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and
-#' \code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C).
+#' \code{"black"}, 
+#' \code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and 
+#' \code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C). 
 #'
 #' The secondary color is
 #' \code{"lightgray"} (defined as PMS 420, RGB 194/192/191, HEX #C2C0BF)
@@ -89,8 +89,8 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' @export
 
 mit_pal <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
-                           names = c("black", "PMS 201", "PMS 424", "PMS 420"),
-                           as_df = FALSE)
+                         names = c("black", "PMS 201", "PMS 424", "PMS 420"),
+                         as_df = FALSE)
 
 # # Check:
 # unikn::seecol(mit_pal, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
