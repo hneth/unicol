@@ -61,7 +61,7 @@ Other university color palettes:
 \code{\link{hu_pal_2}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_3}},
-\code{\link{mit_1}},
+\code{\link{mit_pal}},
 \code{\link{mpg_pal}},
 \code{\link{nyu_accent_4}},
 \code{\link{nyu_neutral_3}},
