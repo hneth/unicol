@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_michigan_primary_1} provides the two primary colors
-of the \href{https://www.berkeley.edu}{University of Michigan}, USA.
+of the \href{https://umich.edu}{University of Michigan}, USA.
 }
 \details{
 Our signature color palette of
@@ -63,10 +63,10 @@ Other university color palettes:
 \code{\link{rpi_pal_2}},
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
+\code{\link{uni_berkeley_primary_1}},
+\code{\link{uni_berkeley_secondary_2}},
 \code{\link{uni_bonn_1}},
 \code{\link{uni_bonn_2}},
-\code{\link{uni_california_primary_1}},
-\code{\link{uni_california_secondary_2}},
 \code{\link{uni_chicago_primary_1}},
 \code{\link{uni_chicago_secondary_2}},
 \code{\link{uni_columbia}},
@@ -104,6 +104,8 @@ Other university color palettes:
 \code{\link{uni_mannheim_1}},
 \code{\link{uni_mannheim_2}},
 \code{\link{uni_michigan_secondary_2}},
+\code{\link{uni_northwestern_primary_1}},
+\code{\link{uni_northwestern_secondary_2}},
 \code{\link{uni_pal_1}},
 \code{\link{uni_penn_logo_1}},
 \code{\link{uni_penn_web_2}},
@@ -120,7 +122,11 @@ Other university color palettes:
 \code{\link{uni_stuttgart_2_print}},
 \code{\link{uni_ulm_1}},
 \code{\link{uni_ulm_2}},
-\code{\link{uni_yale_primary}}
+\code{\link{uni_yale_primary}},
+\code{\link{uni_york_accent_4}},
+\code{\link{uni_york_neutral_3}},
+\code{\link{uni_york_primary_1}},
+\code{\link{uni_york_secondary_2}}
 }
 \author{
 \strong{unicol}, 2023-06-14.
