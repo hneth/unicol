@@ -23,9 +23,15 @@ of the \href{https://www.stanford.edu/}{Stanford University}, USA.
 }
 \details{
 \code{"digital_red"} is not a replacement for Cardinal red—it can be used as an accent color on digital communications to add energy and emphasis.
-\code{"digital_red_light"} can be used for interactive elements over dark backgrounds for contrast. \code{"digital_red_dark"} can be used for smaller text over light backgrounds.
-Use \code{"digital_blue"} for links over light backgrounds, \code{"digital_blue_dark"} for link hover/focus states, and \code{"digital_blue_light"} for links over dark backgrounds. Do not use these shades of blue in contexts other than links.
-Use \code{"digital_green"} for things such as form validation, \code{"digital_green_dark"} for link hover/focus states, and \code{"digital_green_light"} for links over dark backgrounds.
+\code{"digital_red_light"} can be used for interactive elements over dark backgrounds for contrast. 
+\code{"digital_red_dark"} can be used for smaller text over light backgrounds.
+Use \code{"digital_blue"} for links over light backgrounds, 
+\code{"digital_blue_dark"} for link hover/focus states, and 
+\code{"digital_blue_light"} for links over dark backgrounds. 
+Do not use these shades of blue in contexts other than links.
+Use \code{"digital_green"} for things such as form validation, 
+\code{"digital_green_dark"} for link hover/focus states, and 
+\code{"digital_green_light"} for links over dark backgrounds.
 
 These nine web colors are
 \code{"digital_red"} (defined as HEX #B1040E),
@@ -70,10 +76,10 @@ Other university color palettes:
 \code{\link{lmu_pal_3}},
 \code{\link{mit_pal}},
 \code{\link{mpg_pal}},
-\code{\link{nyu_accent_4}},
-\code{\link{nyu_neutral_3}},
-\code{\link{nyu_primary_1}},
-\code{\link{nyu_secondary_2}},
+\code{\link{nyu_1}},
+\code{\link{nyu_2}},
+\code{\link{nyu_accent}},
+\code{\link{nyu_neutral}},
 \code{\link{rpi_pal_1}},
 \code{\link{rpi_pal_2}},
 \code{\link{rpi_pal_3}},
