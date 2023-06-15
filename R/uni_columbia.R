@@ -29,7 +29,7 @@
 #' \code{uni_columbia} provides one primary blue and four secondary blue colors
 #' of the \href{http://www.columbia.edu}{Columbia University}, USA.
 #'
-#' The official and primary blue is
+#' The official and primary blue color is 
 #' \code{"columbia_blue"} (PMS 290C, RGB 185/217/235, CMYK 23/0/1/0).
 #' It is based on the color of the Philolexian Society, Columbia’s oldest student organization, founded in 1802.
 #'
@@ -51,7 +51,7 @@
 #'
 #' @examples
 #' uni_columbia
-#' unikn::seecol(uni_columbia, main = "Primary colors Columbia Uni") # view color palette
+#' unikn::seecol(uni_columbia, main = "Primary colors of Columbia University") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -64,12 +64,16 @@
 #'
 #' @export
 
-uni_columbia <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255), rgb(108, 172, 228, maxColorValue = 255), rgb(0, 114, 206, maxColorValue = 255), rgb(0, 51, 160, maxColorValue = 255), rgb( 2, 33, 105, maxColorValue = 255)),
-                           names = c("columbia_blue", "sec_blue1", "sec_blue2", "sec_blue3", "sec_blue4"),
-                           as_df = FALSE)
+uni_columbia <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255), 
+                                      rgb(108, 172, 228, maxColorValue = 255), 
+                                      rgb(  0, 114, 206, maxColorValue = 255), 
+                                      rgb(  0,  51, 160, maxColorValue = 255), 
+                                      rgb(  2,  33, 105, maxColorValue = 255)),
+                              names = c("columbia_blue", "sec_blue1", "sec_blue2", "sec_blue3", "sec_blue4"),
+                              as_df = FALSE)
 
 # # Check:
-unikn::seecol(uni_columbia, main = "Primary colors Columbia University", col_bg = "lightgrey")
+# unikn::seecol(uni_columbia, main = "Primary colors of Columbia University", col_bg = "lightgrey")
 
 
 
