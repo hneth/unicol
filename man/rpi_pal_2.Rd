@@ -61,6 +61,10 @@ Other university color palettes:
 \code{\link{lmu_pal_3}},
 \code{\link{mit_1}},
 \code{\link{mpg_pal}},
+\code{\link{nyu_accent_4}},
+\code{\link{nyu_neutral_3}},
+\code{\link{nyu_primary_1}},
+\code{\link{nyu_secondary_2}},
 \code{\link{rpi_pal_1}},
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
@@ -124,11 +128,7 @@ Other university color palettes:
 \code{\link{uni_stuttgart_2_print}},
 \code{\link{uni_ulm_1}},
 \code{\link{uni_ulm_2}},
-\code{\link{uni_yale_primary}},
-\code{\link{uni_york_accent_4}},
-\code{\link{uni_york_neutral_3}},
-\code{\link{uni_york_primary_1}},
-\code{\link{uni_york_secondary_2}}
+\code{\link{uni_yale_primary}}
 }
 \author{
 \strong{unicol}, 2022-12-01.
