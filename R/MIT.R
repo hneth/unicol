@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "mit_1"
+# uni_pals: "mit_pal"
 # inst: "MIT"
 # inst_alt: "MIT, Massachusetts Institute of Technology"
 # country: USA
@@ -47,11 +47,11 @@ col_lightgray_PMS420 <- "#C2C0BF"
 # Color palette(s):
 
 
-# - mit_1: Primary colors ------
+# - mit_pal: Primary colors ------
 
 #' Colors of MIT, Massachusetts Institute of Technology, USA
 #'
-#' \code{mit_1} provides the three primary colors
+#' \code{mit_pal} provides the three primary colors
 #' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
 #'
 #' The three primary colors are
@@ -74,8 +74,8 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' \href{https://web.mit.edu/graphicidentity/colors.html}{Color manual (HTML)}.
 #'
 #' @examples
-#' mit_1
-#' unikn::seecol(mit_1, main = "MIT, Massachusetts Institute of Technology") # view color palette
+#' mit_pal
+#' unikn::seecol(mit_pal, main = "MIT, Massachusetts Institute of Technology") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -88,12 +88,12 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #'
 #' @export
 
-mit_1 <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
+mit_pal <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
                            names = c("black", "PMS 201", "PMS 424", "PMS 420"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(mit_1, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
+# unikn::seecol(mit_pal, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
 
 
 ## ToDo: -------- 
