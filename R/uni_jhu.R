@@ -1,11 +1,11 @@
 ## uni_johns_hopkins.R | 2023 06 14
-## Colors of Johns Hopkins University, USA
+## Colors of JHU, Johns Hopkins University, USA
 ## -----------------------------------------------
 
 # Information: ------
 
 # uni_pals: "uni_hopkins_identity_1", "uni_hopkins_primary_2", "uni_hopkins_secondary_3", "uni_hopkins_accent_4", "uni_hopkins_greyscale_5" (5)
-# inst: "Johns Hopkins University"
+# inst: "JHU, Johns Hopkins University"
 # country: USA
 # URL: "https://www.jhu.edu"
 
@@ -23,10 +23,10 @@
 
 # - uni_hopkins_identity_1: Identity colors ------
 
-#' Identity colors of Johns Hopkins University
+#' Identity colors of JHU, Johns Hopkins University
 #'
 #' \code{uni_hopkins_identity_1} provides the two identity colors
-#' of the \href{https://www.jhu.edu}{Johns Hopkins University}, USA.
+#' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' Only three colors exist for the university identity. They are 
 #' \code{"heritage_blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
@@ -47,15 +47,15 @@
 #'
 #' @examples
 #' uni_hopkins_identity_1
-#' unikn::seecol(uni_hopkins_identity_1, main = "Identity colors Hopkins Uni") # view color palette
+#' unikn::seecol(uni_hopkins_identity_1, main = "Identity colors of JHU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_hopkins_primary_2}} for primary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_secondary_3}} for secondary, accent colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_accent_4}} for accent, accent colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of Johns Hopkins University
+#' \code{\link{uni_hopkins_primary_2}} for primary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_secondary_3}} for secondary, accent colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_accent_4}} for accent, accent colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -69,7 +69,7 @@ uni_hopkins_identity_1 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D")
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_identity_1, main = "Identity colors Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(uni_hopkins_identity_1, main = "Identity colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 
 
@@ -77,10 +77,10 @@ uni_hopkins_identity_1 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D")
 
 # - uni_hopkins_primary_2: Primary colors ------
 
-#' Primary colors of Johns Hopkins University
+#' Primary colors of JHU, Johns Hopkins University
 #'
 #' \code{uni_hopkins_primary_2} provides the two primary colors
-#' of the \href{https://www.jhu.edu}{Johns Hopkins University}, USA.
+#' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' You may choose either color as the signature color in your design. 
 #' \code{"heritage_blue"} (defined as PMS 288C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72) lends itself to more formal or serious applications, while 
@@ -98,15 +98,15 @@ uni_hopkins_identity_1 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D")
 #'
 #' @examples
 #' uni_hopkins_primary_2
-#' unikn::seecol(uni_hopkins_primary_2, main = "Primary colors Hopkins Uni") # view color palette
+#' unikn::seecol(uni_hopkins_primary_2, main = "Primary colors of JHU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_hopkins_identity_1}} for identity colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_secondary_3}} for secondary, accent colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_accent_4}} for accent, accent colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of Johns Hopkins University
+#' \code{\link{uni_hopkins_identity_1}} for identity colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_secondary_3}} for secondary, accent colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_accent_4}} for accent, accent colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -120,16 +120,16 @@ uni_hopkins_primary_2 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_primary_2, main = "Primary colors Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(uni_hopkins_primary_2, main = "Primary colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 
 
 # - uni_hopkins_secondary_3: Secondary colors ------
 
-#' Secondary colors of Johns Hopkins University
+#' Secondary colors of JHU, Johns Hopkins University
 #'
 #' \code{uni_hopkins_secondary_3} provides the six secondary colors
-#' of the \href{https://www.jhu.edu}{Johns Hopkins University}, USA.
+#' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' The secondary color palette is designed to provide creative flexibility. 
 #' These colors are complementary to the primary blues and were chosen to add warmth and energy to your design.
@@ -154,15 +154,15 @@ uni_hopkins_primary_2 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #'
 #' @examples
 #' uni_hopkins_secondary_3
-#' unikn::seecol(uni_hopkins_secondary_3, main = "Accent colors Hopkins Uni") # view color palette
+#' unikn::seecol(uni_hopkins_secondary_3, main = "Accent colors of JHU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_hopkins_identity_1}} for identity colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_primary_2}} for primary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_accent_4}} for accent colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale colors of Johns Hopkins University
+#' \code{\link{uni_hopkins_identity_1}} for identity colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_primary_2}} for primary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_accent_4}} for accent colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_grayscale_5}} for grey scale colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -176,16 +176,16 @@ uni_hopkins_secondary_3 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95"
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_secondary_3, main = "Accent colors Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(uni_hopkins_secondary_3, main = "Accent colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 
 
 # - uni_hopkins_accent_4: Accent colors ------
 
-#' Accent colors of Johns Hopkins University
+#' Accent colors of JHU, Johns Hopkins University
 #'
 #' \code{uni_hopkins_accent_4} provides the six accent colors
-#' of the \href{https://www.jhu.edu}{Johns Hopkins University}, USA.
+#' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' The accent palette presents a range of colors that provide additional lightness and flavor to your design. 
 #' These colors should be used to highlight important features, or for visual style elements, such as illustrations and typographic accents. 
@@ -219,15 +219,15 @@ uni_hopkins_secondary_3 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95"
 #'
 #' @examples
 #' uni_hopkins_accent_4
-#' unikn::seecol(uni_hopkins_accent_4, main = "Accent colors Hopkins Uni") # view color palette
+#' unikn::seecol(uni_hopkins_accent_4, main = "Accent colors of JHU") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_hopkins_identity_1}} for identity colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_primary_2}} for primary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_secondary_3}} for secondary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for gray scale colors of Johns Hopkins University
+#' \code{\link{uni_hopkins_identity_1}} for identity colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_primary_2}} for primary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_secondary_3}} for secondary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_grayscale_5}} for gray scale colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -241,16 +241,16 @@ uni_hopkins_accent_4 <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_accent_4, main = "Accent colors Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(uni_hopkins_accent_4, main = "Accent colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 
 
 # - uni_hopkins_grayscale_5: Grey scale colors ------
 
-#' Grey scale colors of Johns Hopkins University
+#' Grey scale colors of JHU, Johns Hopkins University
 #'
 #' \code{uni_hopkins_grayscale_5} provides the six grey scale colors
-#' of the \href{https://www.jhu.edu}{Johns Hopkins University}, USA.
+#' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' The grayscale palette includes any tint of PMS Black 4C between 100% and 0% (white). 
 #' Double Black may be used in situations where increased contrast is required, such as text over a color field. 
@@ -277,10 +277,10 @@ uni_hopkins_accent_4 <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_hopkins_identity_1}} for identity colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_primary_2}} for primary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_secondary_3}} for secondary colors of Johns Hopkins University
-#' \code{\link{uni_hopkins_accent_4}} for accent colors of Johns Hopkins University
+#' \code{\link{uni_hopkins_identity_1}} for identity colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_primary_2}} for primary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_secondary_3}} for secondary colors of JHU, Johns Hopkins University
+#' \code{\link{uni_hopkins_accent_4}} for accent colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -294,6 +294,6 @@ uni_hopkins_grayscale_5 <- unikn::newpal(col = c("#31261D", "white", "#000000"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_grayscale_5, main = "Grey scale colors Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(uni_hopkins_grayscale_5, main = "Grey scale colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 ## eof. ----------
