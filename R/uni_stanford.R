@@ -1,4 +1,4 @@
-## uni_stanford.R | 2023 06 13
+## uni_stanford.R | 2023 06 15
 ## Colors of Stanford University, USA
 ## ----------------------------------
 
