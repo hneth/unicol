@@ -52,7 +52,7 @@
 #'
 #' @examples
 #' CMU_1_core
-#' unikn::seecol(CMU_1_core, main = "Core colors Chicago Uni") # view color palette
+#' unikn::seecol(CMU_1_core, main = "Core colors CMU") # view color palette
 #'
 #' @family university color palettes
 #'
