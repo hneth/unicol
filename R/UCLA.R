@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "UCLA_1_primary", "UCLA_2_secondary" (2)
+# uni_pals: "UCLA_1_primary", "UCLA_2_secondary", "UCLA_3_tertiary" (3)
 # inst: "UCLA, University of California"
 # country: USA
 # URL: "https://www.ucla.edu"
