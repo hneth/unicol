@@ -1,15 +1,16 @@
-## caltech.R | 2023 06 09
-## Colors of Caltech, USA
-## ----------------------
+## Caltech.R | 2023 06 16
+## Colors of Caltech, CA, USA
+## --------------------------
 
 
 # Information: ------
 
-# uni_pals: "caltech_pal_1", "caltech_pal_2", "caltech_pal_3" (3)
+# uni_pals: "caltech_1", "caltech_2", "caltech_3" (3)
 # inst: "Caltech"
 # inst_alt: "California Institute of Technology" 
 # country: USA
 # URL: "https://www.caltech.edu/"
+
 
 # Color source:
 
@@ -96,11 +97,11 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 
 
 
-# - caltech_pal_1: Primary and neutral colors ----
+# - caltech_1: Primary and neutral colors ----
 
 #' Primary and neutral colors of Caltech
 #'
-#' \code{caltech_pal_1} provides the primary and 7 neutral colors 
+#' \code{caltech_1} provides the primary and 7 neutral colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
 #' 
 #' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
@@ -121,16 +122,16 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' \url{https://identity.caltech.edu/colors}. 
 #' 
 #' @examples
-#' caltech_pal_1
-#' unikn::seecol(caltech_pal_1, main = "Primary and neutral colors of Caltech")
-#' unikn::demopal(caltech_pal_1, type = 4, seed = 1,  
+#' caltech_1
+#' unikn::seecol(caltech_1, main = "Primary and neutral colors of Caltech")
+#' unikn::demopal(caltech_1, type = 4, seed = 1,  
 #'                main = "Using the primary and neutral colors of Caltech")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
+#' \code{\link{caltech_2}} for Caltech's primary and deep colors; 
+#' \code{\link{caltech_3}} for Caltech's bright colors; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -139,11 +140,11 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' 
 #' @export
 
-caltech_pal_1 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
-                                       col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
-                               names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
-                                         "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
-                               as_df = FALSE)
+caltech_1 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
+                                   col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
+                           names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
+                                     "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
+                           as_df = FALSE)
 
 
 # Deep Colors 
@@ -183,11 +184,11 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 
 
 
-# - caltech_pal_2: Primary and deep colors ----
+# - caltech_2: Primary and deep colors ----
 
 #' Primary and deep colors of Caltech
 #'
-#' \code{caltech_pal_2} provides the primary and 4 deep colors 
+#' \code{caltech_2} provides the primary and 4 deep colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
 #' 
 #' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
@@ -195,7 +196,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' Use this color for small highlights, rather than large areas. 
 #' 
 #' Caltech's 4 deep colors add contrast to the primary \code{Caltech orange}  
-#' as well as the neutral colors (of \code{\link{caltech_pal_1}}), 
+#' as well as the neutral colors (of \code{\link{caltech_1}}), 
 #' and are used to provide depth and texture to communications materials. 
 #' 
 #' @return 
@@ -209,16 +210,16 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' \url{https://identity.caltech.edu/colors}. 
 #' 
 #' @examples
-#' caltech_pal_2
-#' unikn::seecol(caltech_pal_2, main = "Primary and deep colors of Caltech")
-#' unikn::demopal(caltech_pal_2, type = 2, seed = 2,  
+#' caltech_2
+#' unikn::seecol(caltech_2, main = "Primary and deep colors of Caltech")
+#' unikn::demopal(caltech_2, type = 2, seed = 2,  
 #'                main = "Using the primary and deep colors of Caltech")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_3}} for Caltech's bright colors; 
+#' \code{\link{caltech_1}} for Caltech's primary and neutral colors; 
+#' \code{\link{caltech_3}} for Caltech's bright colors; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -227,13 +228,13 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' 
 #' @export
 
-caltech_pal_2 <- unikn::newpal(col = c(col_caltech_p,  
-                                       col_caltech_d1, col_caltech_d2, 
-                                       col_caltech_d3, col_caltech_d4),
-                               names = c("Caltech orange (PMS 1585c)", 
-                                         "PMS 548c", "PMS 3292c", 
-                                         "PMS 668c", "PMS 195c"), 
-                               as_df = FALSE)
+caltech_2 <- unikn::newpal(col = c(col_caltech_p,  
+                                   col_caltech_d1, col_caltech_d2, 
+                                   col_caltech_d3, col_caltech_d4),
+                           names = c("Caltech orange (PMS 1585c)", 
+                                     "PMS 548c", "PMS 3292c", 
+                                     "PMS 668c", "PMS 195c"), 
+                           as_df = FALSE)
 
 # Bright Colors
 #
@@ -293,11 +294,11 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 # col_caltech_b7 <- rgb(246, 77, 128, maxColorValue = 255)  # Note: HEX values differ!
 
 
-# - caltech_pal_3: Primary and bright colors ----
+# - caltech_3: Primary and bright colors ----
 
 #' Primary and bright colors of Caltech
 #'
-#' \code{caltech_pal_3} provides the primary and 7 bright colors 
+#' \code{caltech_3} provides the primary and 7 bright colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
 #' 
 #' Caltech's primary orange color is defined as \code{Pantone MS 1585c}  
@@ -308,7 +309,7 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' of communication materials from subtle to bold. 
 #' These colors should be used as carefully selected accents 
 #' to the primary, neutral, and deep colors 
-#' (of \code{\link{caltech_pal_1}} and \code{\link{caltech_pal_2}}). 
+#' (of \code{\link{caltech_1}} and \code{\link{caltech_2}}). 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -321,16 +322,16 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' \url{https://identity.caltech.edu/colors}. 
 #' 
 #' @examples
-#' caltech_pal_3
-#' unikn::seecol(caltech_pal_3, main = "Primary and bright colors of Caltech")
-#' unikn::demopal(caltech_pal_3, type = 3, seed = 1,  
+#' caltech_3
+#' unikn::seecol(caltech_3, main = "Primary and bright colors of Caltech")
+#' unikn::demopal(caltech_3, type = 3, seed = 1,  
 #'                main = "Using the primary and bright colors of Caltech")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{caltech_pal_1}} for Caltech's primary and neutral colors; 
-#' \code{\link{caltech_pal_2}} for Caltech's primary and deep colors; 
+#' \code{\link{caltech_1}} for Caltech's primary and neutral colors; 
+#' \code{\link{caltech_2}} for Caltech's primary and deep colors; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -339,11 +340,11 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' 
 #' @export
 
-caltech_pal_3 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_b1, col_caltech_b2, col_caltech_b3, 
-                                       col_caltech_b4, col_caltech_b5, col_caltech_b6, col_caltech_b7),
-                               names = c("Caltech orange (PMS 1585c)", "JPL red (PMS 186c)", "PMS 299c", "PMS 7473c", 
-                                         "PMS 7489c", "PMS 7408c", "PMS 605c", "PMS 1915c"), 
-                               as_df = FALSE)
+caltech_3 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_b1, col_caltech_b2, col_caltech_b3, 
+                                   col_caltech_b4, col_caltech_b5, col_caltech_b6, col_caltech_b7),
+                           names = c("Caltech orange (PMS 1585c)", "JPL red (PMS 186c)", "PMS 299c", "PMS 7473c", 
+                                     "PMS 7489c", "PMS 7408c", "PMS 605c", "PMS 1915c"), 
+                           as_df = FALSE)
 
 
 
