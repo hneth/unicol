@@ -179,7 +179,7 @@ UCLA_3_tertiary <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FF
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCLA_3_tertiary, main = "Tertiary colors UCLA, University of California", col_bg = "lightgrey")
+# unikn::seecol(UCLA_3_tertiary, main = "Tertiary colors UCLA, University of California", col_bg = "white")
 
 
 

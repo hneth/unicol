@@ -1,4 +1,4 @@
-## monash.R | 2023 06 16
+## Monash.R | 2023 06 16
 ## Colors of Monash University, USA
 ## -----------------------------------------------
 
