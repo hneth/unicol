@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
-# unicol
+# unicol 0.0.0.9006
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -60,8 +60,8 @@ library(unikn)   # for color functions
 
 <!-- A list of all unicol palettes: -->
 
-The **unicol** package currently contains 25 color palettes (with a
-total of 165 colors) from Z institutions.
+The **unicol** package currently contains 27 color palettes (with a
+total of 181 colors) from Z institutions.
 
 An overview of the current color palettes provided by the **unicol**
 package:
@@ -80,7 +80,7 @@ seecol(yale_1, main = "Primary colors of Yale University")
 <img src="man/figures/README-examples-1.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-demopal(uni_berkeley_1, type = 2, main = "Using the colors of Berkeley University")
+demopal(berkeley_1, type = 2, main = "Using the colors of Berkeley University")
 ```
 
 <img src="man/figures/README-examples-2.png" width="600px" style="display: block; margin: auto;" />
