@@ -74,19 +74,19 @@ Here are some examples how the color palettes from **unicol** can be
 used:
 
 ``` r
-seecol(uni_yale_primary, main = "Primary colors of Yale University")
+seecol(yale_1, main = "Primary colors of Yale University")
 ```
 
 <img src="man/figures/README-examples-1.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-demopal(uni_berkeley_primary_1, type = 2, main = "Using the colors of Uni Berkeley")
+demopal(uni_berkeley_1, type = 2, main = "Using the colors of Berkeley University")
 ```
 
 <img src="man/figures/README-examples-2.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-demopal(nyu_1, type = 3, main = "NYU colors")
+demopal(nyu_1, type = 3, main = "Using NYU colors")
 ```
 
 <img src="man/figures/README-examples-3.png" width="600px" style="display: block; margin: auto;" />
