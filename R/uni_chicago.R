@@ -1,10 +1,10 @@
-## uni_chicago.R | 2023 06 13
+## uni_chicago.R | 2023 06 16
 ## Colors of University of Chicago, USA
-## -----------------------------------------------
+## ------------------------------------
 
 # Information: ------
 
-# uni_pals: "uni_chicago_primary_1", "uni_chicago_secondary_2" (2)
+# uni_pals: "uni_chicago_1", "uni_chicago_2" (2)
 # inst: "University of Chicago"
 # country: USA
 # URL: "https://www.uchicago.edu/"
@@ -23,11 +23,11 @@
 # Color palette(s):
 
 
-# - uni_chicago_primary_1: Primary colors ------
+# - uni_chicago_1: Primary colors ------
 
 #' Primary colors of University of Chicago
 #'
-#' \code{uni_chicago_primary_1} provides the four primary colors
+#' \code{uni_chicago_1} provides the four primary colors
 #' of the \href{https://www.uchicago.edu/}{University of Chicago}, USA.
 #'
 #' The primary color palette should be used in all digital and print communications to assure brand consistency.
@@ -51,13 +51,13 @@
 #' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
 #'
 #' @examples
-#' uni_chicago_primary_1
-#' unikn::seecol(uni_chicago_primary_1, main = "Primary colors Chicago Uni") # view color palette
+#' uni_chicago_1
+#' unikn::seecol(uni_chicago_1, main = "Primary colors Chicago Uni") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_chicago_secondary_2}} for secondary, accent colors of University of Chicago
+#' \code{\link{uni_chicago_2}} for secondary, accent colors of University of Chicago
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -66,20 +66,22 @@
 #'
 #' @export
 
-uni_chicago_primary_1 <- unikn::newpal(col = c("#800000", "#D9D9D9", "#A6A6A6", "#737373"),
-                           names = c("maroon", "light_greystone", "greystone", "dark_greystone"),
-                           as_df = FALSE)
+uni_chicago_1 <- unikn::newpal(col = c("#800000", 
+                                       "#D9D9D9", "#A6A6A6", "#737373"),
+                               names = c("maroon", 
+                                         "light_greystone", "greystone", "dark_greystone"),
+                               as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_chicago_primary_1, main = "Primary colors University of Chicago", col_bg = "lightgrey")
+# unikn::seecol(uni_chicago_1, main = "Primary colors University of Chicago", col_bg = "lightgrey")
 
 
 
-# - uni_chicago_secondary_2: Accent colors ------
+# - uni_chicago_2: Accent colors ------
 
 #' Accent colors of University of Chicago
 #'
-#' \code{uni_chicago_secondary_2} provides the 21 accent colors
+#' \code{uni_chicago_2} provides the 21 accent colors
 #' of the \href{https://www.uchicago.edu/}{University of Chicago}, USA.
 #'
 #' The secondary palette is to be used sparingly and always in conjunction with the primary palette. In other words, all print
@@ -119,13 +121,13 @@ uni_chicago_primary_1 <- unikn::newpal(col = c("#800000", "#D9D9D9", "#A6A6A6", 
 #' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
 #'
 #' @examples
-#' uni_chicago_secondary_2
-#' unikn::seecol(uni_chicago_secondary_2, main = "Accent colors Chicago Uni") # view color palette
+#' uni_chicago_2
+#' unikn::seecol(uni_chicago_2, main = "Accent colors Chicago Uni") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_chicago_primary_1}} for primary colors of University of Chicago
+#' \code{\link{uni_chicago_1}} for primary colors of University of Chicago
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -134,13 +136,26 @@ uni_chicago_primary_1 <- unikn::newpal(col = c("#800000", "#D9D9D9", "#A6A6A6", 
 #'
 #' @export
 
-uni_chicago_secondary_2 <- unikn::newpal(col = c("#EAAA00", "#F3D03E", "#CC8A00", "#DE7C00", "#ECA154", "#A9431E", "#789D4A", "#A9C47F", "#13301C", "#275D38", "#9CAF88", "#284734","#007396", "#3EB1C8", "#002A3A", "#59315F", "#86647A", "#41273B", "#A4343A", "#B46A55", "#643335", "#FFFFFF", "#000000"),
-                           names = c("goldenrod", "light_goldenrod", "dark_goldenrod", "terracotta", "light_terracotta", "dark_terracotta", "ivy", "light_ivy", "dark_ivy", "forest", "light_forest", "dark_forest", "lake", "light_lake","dark_lake", "violet", "light_violet", "dark_violet", "brick", "light_brick", "dark_brick", "white", "black"),
-                           as_df = FALSE)
+uni_chicago_2 <- unikn::newpal(col = c("#EAAA00", "#F3D03E", "#CC8A00", 
+                                       "#DE7C00", "#ECA154", "#A9431E", 
+                                       "#789D4A", "#A9C47F", "#13301C", 
+                                       "#275D38", "#9CAF88", "#284734",
+                                       "#007396", "#3EB1C8", "#002A3A", 
+                                       "#59315F", "#86647A", "#41273B", 
+                                       "#A4343A", "#B46A55", "#643335", 
+                                       "#FFFFFF", "#000000"),
+                               names = c("goldenrod", "light_goldenrod", "dark_goldenrod", 
+                                         "terracotta", "light_terracotta", "dark_terracotta", 
+                                         "ivy", "light_ivy", "dark_ivy", 
+                                         "forest", "light_forest", "dark_forest", 
+                                         "lake", "light_lake","dark_lake", 
+                                         "violet", "light_violet", "dark_violet", 
+                                         "brick", "light_brick", "dark_brick", 
+                                         "white", "black"),
+                               as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_chicago_secondary_2, main = "Accent colors University of Chicago", col_bg = "lightgrey")
-
+# unikn::seecol(uni_chicago_2, main = "Accent colors University of Chicago", col_bg = "lightgrey")
 
 
 ## eof. ----------

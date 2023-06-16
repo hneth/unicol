@@ -1,10 +1,10 @@
-## uni_cornell.R | 2023 06 13
+## uni_cornell.R | 2023 06 16
 ## Colors of Cornell University, USA
 ## -----------------------------------------------
 
 # Information: ------
 
-# uni_pals: "uni_cornell_primary_web_1", "uni_cornell_secondary_web_2", "uni_cornell_accent_web_3" (3)
+# uni_pals: "uni_cornell_1", "uni_cornell_2", "uni_cornell_3_accent" (3)
 # inst: "Cornell University"
 # country: USA
 # URL: "https://www.cornell.edu/"
@@ -22,11 +22,11 @@
 # Color palette(s):
 
 
-# - uni_cornell_primary_web_1: Primary colors ------
+# - uni_cornell_1: Primary colors ------
 
 #' Primary colors of Cornell University
 #'
-#' \code{uni_cornell_primary_web_1} provides the two primary colors
+#' \code{uni_cornell_1} provides the two primary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
 #'
 #' Primary colors are the officially recognized color palette for the university.
@@ -47,14 +47,14 @@
 #' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 #'
 #' @examples
-#' uni_cornell_primary_web_1
-#' unikn::seecol(uni_cornell_primary_web_1, main = "Primary colors Cornell Uni") # view color palette
+#' uni_cornell_1
+#' unikn::seecol(uni_cornell_1, main = "Primary colors Cornell Uni") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_cornell_secondary_web_2}} for secondary colors of Cornell University
-#' \code{\link{uni_cornell_accent_web_3}} for accent colors of Cornell University
+#' \code{\link{uni_cornell_2}} for secondary colors of Cornell University
+#' \code{\link{uni_cornell_3_accent}} for accent colors of Cornell University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -63,20 +63,20 @@
 #'
 #' @export
 
-uni_cornell_primary_web_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
+uni_cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
                            names = c("carnelian", "dark_gray", "white"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_cornell_primary_web_1, main = "Primary colors Cornell University", col_bg = "lightgrey")
+# unikn::seecol(uni_cornell_1, main = "Primary colors Cornell University", col_bg = "lightgrey")
 
 
 
-# - uni_cornell_secondary_web_2: Secondary colors ------
+# - uni_cornell_2: Secondary colors ------
 
 #' Secondary colors of Cornell University
 #'
-#' \code{uni_cornell_secondary_web_2} provides the three secondary colors
+#' \code{uni_cornell_2} provides the three secondary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
 #'
 #' These neutral hues pair perfectly with the primary palette.
@@ -98,14 +98,14 @@ uni_cornell_primary_web_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFF
 #' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 #'
 #' @examples
-#' uni_cornell_secondary_web_2
-#' unikn::seecol(uni_cornell_secondary_web_2, main = "Secondary colors Cornell Uni") # view colors
+#' uni_cornell_2
+#' unikn::seecol(uni_cornell_2, main = "Secondary colors Cornell Uni") # view colors
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_cornell_secondary_web_2}} for primary colors of Cornell University
-#' \code{\link{uni_cornell_accent_web_3}} for accent colors of Cornell University
+#' \code{\link{uni_cornell_2}} for primary colors of Cornell University
+#' \code{\link{uni_cornell_3_accent}} for accent colors of Cornell University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -114,20 +114,20 @@ uni_cornell_primary_web_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFF
 #'
 #' @export
 
-uni_cornell_secondary_web_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
+uni_cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
                            names = c("light_gray", "dark_warm_gray", "sea_gray"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_cornell_secondary_web_2, main = "Secondary colors Cornell University", col_bg = "lightgrey")
+# unikn::seecol(uni_cornell_2, main = "Secondary colors Cornell University", col_bg = "lightgrey")
 
 
 
-# - uni_cornell_accent_web_3: Accent colors ------
+# - uni_cornell_3_accent: Accent colors ------
 
 #' Accent colors of Cornell University
 #'
-#' \code{uni_cornell_accent_web_3} provides the nine primary colors
+#' \code{uni_cornell_3_accent} provides the nine primary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
 #'
 #' Although our primary and secondary palettes should guide most layouts, in certain instances other colors may be needed.
@@ -156,14 +156,14 @@ uni_cornell_secondary_web_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FA
 #' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 #'
 #' @examples
-#' uni_cornell_accent_web_3
-#' unikn::seecol(uni_cornell_accent_web_3, main = "Accent colors Cornell Uni") # view color palette
+#' uni_cornell_3_accent
+#' unikn::seecol(uni_cornell_3_accent, main = "Accent colors Cornell Uni") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_cornell_primary_web_1}} for primary colors of Cornell University
-#' \code{\link{uni_cornell_secondary_web_2}} for primary colors of Cornell University
+#' \code{\link{uni_cornell_1}} for primary colors of Cornell University
+#' \code{\link{uni_cornell_2}} for primary colors of Cornell University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -172,12 +172,20 @@ uni_cornell_secondary_web_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FA
 #'
 #' @export
 
-uni_cornell_accent_web_3 <- unikn::newpal(col = c("#006699", "#6EB43F", "#4B7B2B", "#578E32", "#F8981D", "#D47500", "#EF4035", "#DF1E12", "#073949"),
-                           names = c("cornell_blue", "cornell_green_graphic", "cornell_green_text", "cornell_green_text_big", "cornell_orange_graphic", "cornell_orange_text", "cornell_red_graphic", "cornell_red_text", "cornell_navy"),
+uni_cornell_3_accent <- unikn::newpal(col = c("#006699", 
+                                              "#6EB43F", "#4B7B2B", "#578E32", 
+                                              "#F8981D", "#D47500", 
+                                              "#EF4035", "#DF1E12", 
+                                              "#073949"),
+                           names = c("cornell_blue", 
+                                     "cornell_green_graphic", "cornell_green_text", "cornell_green_text_big", 
+                                     "cornell_orange_graphic", "cornell_orange_text", 
+                                     "cornell_red_graphic", "cornell_red_text", 
+                                     "cornell_navy"),
                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_cornell_accent_web_3, main = "Primary colors Cornell University", col_bg = "lightgrey")
+# unikn::seecol(uni_cornell_3_accent, main = "Primary colors Cornell University", col_bg = "lightgrey")
 
 
 ## eof. ----------
