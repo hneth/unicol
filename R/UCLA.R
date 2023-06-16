@@ -49,7 +49,7 @@
 #'
 #' @examples
 #' UCLA_1_primary
-#' unikn::seecol(UCLA_1_primary, main = "Primary colors Chicago Uni") # view color palette
+#' unikn::seecol(UCLA_1_primary, main = "Primary colors UCLA") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -101,7 +101,7 @@ UCLA_1_primary <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 #'
 #' @examples
 #' UCLA_2_secondary
-#' unikn::seecol(UCLA_2_secondary, main = "Secondary colors Chicago Uni") # view color palette
+#' unikn::seecol(UCLA_2_secondary, main = "Secondary colors UCLA") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -159,7 +159,7 @@ UCLA_2_secondary <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAE
 #'
 #' @examples
 #' UCLA_3_tertiary
-#' unikn::seecol(UCLA_3_tertiary, main = "Tertiary colors Chicago Uni") # view color palette
+#' unikn::seecol(UCLA_3_tertiary, main = "Tertiary colors UCLA") # view color palette
 #'
 #' @family university color palettes
 #'

@@ -47,7 +47,7 @@
 #'
 #' @examples
 #' duke_1_primary
-#' unikn::seecol(duke_1_primary, main = "Primary colors Chicago Uni") # view color palette
+#' unikn::seecol(duke_1_primary, main = "Primary colors Duke University") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -112,7 +112,7 @@ duke_1_primary <- unikn::newpal(col = c("#012169", "#00539B"),
 #'
 #' @examples
 #' duke_2_secondary
-#' unikn::seecol(duke_2_secondary, main = "Secondary colors Chicago Uni") # view color palette
+#' unikn::seecol(duke_2_secondary, main = "Secondary colors Duke University") # view color palette
 #'
 #' @family university color palettes
 #'
