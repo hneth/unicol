@@ -61,7 +61,7 @@ library(unikn)   # for color functions
 <!-- A list of all unicol palettes: -->
 
 The **unicol** package currently contains 25 color palettes (with a
-total of Y unique colors) from Z institutions.
+total of 165 colors) from Z institutions.
 
 An overview of the current color palettes provided by the **unicol**
 package:
@@ -95,6 +95,6 @@ demopal(nyu_1, type = 3, main = "NYU colors")
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-06-15.\]
+\[File `README.Rmd` updated on 2023-06-16.\]
 
 <!-- eof. -->

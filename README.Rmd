@@ -66,6 +66,8 @@ library(unikn)   # for color functions
 <!-- A list of all unicol palettes: -->
 
 ```{r list-all-pals, echo = FALSE}
+# ToDo: Get from palette registry data: ----
+
 # Create a list of all unicol color palettes:
 all_unicol_pals <- list(caltech_pal_1, caltech_pal_2, caltech_pal_3,
                         eth_pal_1, eth_pal_2, eth_pal_3, 
@@ -81,19 +83,56 @@ all_unicol_pals <- list(caltech_pal_1, caltech_pal_2, caltech_pal_3,
                         uni_stanford_web
                         )
 
+all_cols <- unlist(all_unicol_pals)
 
-# Statistics:
+# Can we get all palette names (as a character vector)?
+
+# names(all_unicol_pals) # does not work
+
+# deparse(substitute()) # gets an object's name
+# 
+# get_name <- function(x){
+#  
+#  deparse(substitute(x))
+#  
+# }
+#
+# lapply(all_unicol_pals, get_name)
+
+# Manually:
+all_unicol_pal_names <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
+                          "eth_pal_1", "eth_pal_2", "eth_pal_3", 
+                          "fu_pal_1", "fu_pal_2", "fu_pal_3",
+                          "hu_pal_1", "hu_pal_2",
+                          "lmu_pal_1", "lmu_pal_2", "lmu_pal_3",
+                          "mit_pal",
+                          "mpg_pal",
+                          "nyu_1", "nyu_2", "nyu_accent", "nyu_neutral",
+                          "rpi_pal_1", "rpi_pal_2", "rpi_pal_3",
+                          # etc.
+                          "uni_stanford_1", # "uni_stanford_accent", 
+                          "uni_stanford_web"
+)
+
+
+# Check:
+# length(all_unicol_pals) == length(all_unicol_pal_names)
+
+# Statistics: ---- 
 n_pals <- length(all_unicol_pals)
+n_cols <- length(all_cols)
 ```
 
 
-The **unicol** package currently contains `r n_pals`\ color palettes (with a total of Y\ unique colors) from Z\ institutions. 
+The **unicol** package currently contains `r n_pals`\ color palettes (with a total of `r n_cols`\ colors) from Z\ institutions. 
 
 
 An overview of the current color palettes provided by the **unicol** package:
 
 ```{r show-contents, echo = FALSE, fig.asp = 1}
-seecol(all_unicol_pals, main = "The unicol color palettes")
+seecol(all_unicol_pals, 
+       pal_names = all_unicol_pal_names, 
+       main = "The unicol color palettes")
 ```
 
 
