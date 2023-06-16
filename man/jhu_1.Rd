@@ -35,7 +35,7 @@ unikn::seecol(jhu_1, main = "Primary colors of JHU") # view color palette
 \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University
 \code{\link{jhu_2}} for secondary, accent colors of JHU, Johns Hopkins University
 \code{\link{jhu_3_accent}} for accent, accent colors of JHU, Johns Hopkins University
-\code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of JHU, Johns Hopkins University
+\code{\link{jhu_4_gray}} for grey scale, accent colors of JHU, Johns Hopkins University
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -43,6 +43,8 @@ unikn::seecol(jhu_1, main = "Primary colors of JHU") # view color palette
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes: 
+\code{\link{berkeley_1}},
+\code{\link{berkeley_2}},
 \code{\link{caltech_1}},
 \code{\link{caltech_2}},
 \code{\link{caltech_3}},
@@ -67,6 +69,7 @@ Other university color palettes:
 \code{\link{jhu_0}},
 \code{\link{jhu_2}},
 \code{\link{jhu_3_accent}},
+\code{\link{jhu_4_gray}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
@@ -80,6 +83,9 @@ Other university color palettes:
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
 \code{\link{nyu_neutral}},
+\code{\link{princeton_0}},
+\code{\link{princeton_1}},
+\code{\link{princeton_2}},
 \code{\link{rpi_pal_1}},
 \code{\link{rpi_pal_2}},
 \code{\link{rpi_pal_3}},
@@ -87,8 +93,6 @@ Other university color palettes:
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},
-\code{\link{uni_berkeley_1}},
-\code{\link{uni_berkeley_2}},
 \code{\link{uni_bonn_1}},
 \code{\link{uni_bonn_2}},
 \code{\link{uni_freiburg_0}},
@@ -103,7 +107,6 @@ Other university color palettes:
 \code{\link{uni_goettingen_3}},
 \code{\link{uni_hamburg_1}},
 \code{\link{uni_hamburg_2}},
-\code{\link{uni_hopkins_grayscale_5}},
 \code{\link{uni_jena_1}},
 \code{\link{uni_jena_2}},
 \code{\link{uni_kiel_1}},
@@ -115,9 +118,6 @@ Other university color palettes:
 \code{\link{uni_mannheim_1}},
 \code{\link{uni_mannheim_2}},
 \code{\link{uni_pal_1}},
-\code{\link{uni_princeton_0}},
-\code{\link{uni_princeton_1}},
-\code{\link{uni_princeton_2}},
 \code{\link{uni_regensburg_1}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
