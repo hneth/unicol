@@ -1,4 +1,4 @@
-## old_pals.R | 2023 06 10
+## old_pals.R | 2023 06 16
 ## Old color palettes (from unikn)
 ## -------------------------------
 
@@ -2668,7 +2668,8 @@ uni_mannheim_2 <- unikn::newpal(col = c(UM_blau, UM_silber, UM_graublau, UM_grue
 # unikn::seecol(uni_mannheim_2, main = "Main + accent colors of Uni Mannheim")
 
 
-# Uni Princeton: ------
+
+# Uni Princeton, NJ, USA: ------
 
 # Source: https://communications.princeton.edu/guides-tools/logo-graphic-identity
 # Last check: 2022-11-28
@@ -2678,16 +2679,16 @@ orange_basic <- "#E87722"  # Pantone 158 C
 orange_white <- "#E77500"  # orange on white background (see <https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange>)
 orange_black <- "#F58025"  # orange on black background
 
-# - uni_princeton_0: ----
+# - princeton_0: ----
 
-#' Basic colors of Princeton University 
+#' Basic colors of Princeton University, USA 
 #'
-#' \code{uni_princeton_0} provides the two basic colors 
+#' \code{princeton_0} provides the two basic colors 
 #' of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA. 
 #' 
 #' Note that 
 #' \href{https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange}{Wikipedia: Shades of orange} 
-#' defines \code{uni_princeton_2[1]} as "Princeton orange". 
+#' defines \code{princeton_2[1]} as "Princeton orange". 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -2700,15 +2701,15 @@ orange_black <- "#F58025"  # orange on black background
 #' \url{https://communications.princeton.edu/guides-tools/logo-graphic-identity}. 
 #' 
 #' @examples
-#' uni_princeton_0
-#' unikn::seecol(uni_princeton_0, main = "Basic colors of Princeton University")
-#' unikn::demopal(uni_princeton_0, type = 1, main = "Colors of Princeton University")
+#' princeton_0
+#' unikn::seecol(princeton_0, main = "Basic colors of Princeton University")
+#' unikn::demopal(princeton_0, type = 1, main = "Colors of Princeton University")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{uni_princeton_1}} for Princeton University colors (on white backgrounds); 
-#' \code{\link{uni_princeton_2}} for Princeton University colors (on black backgrounds); 
+#' \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
+#' \code{\link{princeton_2}} for Princeton University colors (on black backgrounds); 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -2717,22 +2718,22 @@ orange_black <- "#F58025"  # orange on black background
 #' 
 #' @export
 
-uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
-                                 names = c("Princeton orange", "black"),
-                                 as_df = FALSE)
+princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
+                             names = c("Princeton orange", "black"),
+                             as_df = FALSE)
 
 
-# - uni_princeton_1: ----
+# - princeton_1: ----
 
 #' Colors of Princeton University (on white backgrounds) 
 #'
-#' \code{uni_princeton_1} provides the two basic colors 
+#' \code{princeton_1} provides the two basic colors 
 #' of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA, 
 #' for use on white backgrounds. 
 #' 
 #' Note that 
 #' \href{https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange}{Wikipedia: Shades of orange} 
-#' defines \code{uni_princeton_2[1]} as "Princeton orange". 
+#' defines \code{princeton_2[1]} as "Princeton orange". 
 #' 
 #' The color \code{"white"} was added to enable symmetrical color gradients.
 #' 
@@ -2747,16 +2748,16 @@ uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #' \url{https://communications.princeton.edu/guides-tools/logo-graphic-identity}. 
 #' 
 #' @examples
-#' uni_princeton_1
-#' unikn::seecol(uni_princeton_1, col_brd = "grey", lwd_brd = 1.5, 
+#' princeton_1
+#' unikn::seecol(princeton_1, col_brd = "grey", lwd_brd = 1.5, 
 #'               main = "Colors of Princeton (on white backgrounds)")
-#' unikn::demopal(uni_princeton_1, type = 4, seed = 1, main = "Princeton University colors")
+#' unikn::demopal(princeton_1, type = 4, seed = 1, main = "Princeton University colors")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{uni_princeton_0}} for basic Princeton University colors; 
-#' \code{\link{uni_princeton_2}} for Princeton University colors (on black backgrounds); 
+#' \code{\link{princeton_0}} for basic Princeton University colors; 
+#' \code{\link{princeton_2}} for Princeton University colors (on black backgrounds); 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -2765,22 +2766,22 @@ uni_princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #' 
 #' @export
 
-uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
-                                 names = c("Princeton orange (on white)", "white", "black"),
-                                 as_df = FALSE)
+princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
+                             names = c("Princeton orange (on white)", "white", "black"),
+                             as_df = FALSE)
 
 
-# - uni_princeton_2: ----
+# - princeton_2: ----
 
 #' Colors of Princeton University (on black backgrounds) 
 #'
-#' \code{uni_princeton_2} provides the two basic colors 
+#' \code{princeton_2} provides the two basic colors 
 #' of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA, 
 #' for use on black backgrounds. 
 #' 
 #' Note that 
 #' \href{https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange}{Wikipedia: Shades of orange} 
-#' defines \code{uni_princeton_2[1]} as "Princeton orange". 
+#' defines \code{princeton_2[1]} as "Princeton orange". 
 #' 
 #' The color \code{"black"} was added to enable symmetrical color gradients.
 #' 
@@ -2795,19 +2796,19 @@ uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' \url{https://communications.princeton.edu/guides-tools/logo-graphic-identity}. 
 #' 
 #' @examples
-#' uni_princeton_2
+#' princeton_2
 #' opar <- par(no.readonly = TRUE)
 #' par(bg = "black", col.main = "white", col = "grey")
-#' unikn::seecol(uni_princeton_2, col_brd = "grey", lwd = 1.5, 
+#' unikn::seecol(princeton_2, col_brd = "grey", lwd = 1.5, 
 #'               main = "Colors of Princeton (on black backgrounds)")
-#' unikn::demopal(uni_princeton_2, type = 3, main = "Colors of Princeton University")
+#' unikn::demopal(princeton_2, type = 3, main = "Colors of Princeton University")
 #' par(opar)
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{uni_princeton_0}} for basic Princeton University colors; 
-#' \code{\link{uni_princeton_1}} for Princeton University colors (on white backgrounds); 
+#' \code{\link{princeton_0}} for basic Princeton University colors; 
+#' \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -2816,9 +2817,9 @@ uni_princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' 
 #' @export
 
-uni_princeton_2 <- unikn::newpal(col = c(orange_black, "black", "white"), 
-                                 names = c("Princeton orange (on black)", "black", "white"),
-                                 as_df = FALSE)
+princeton_2 <- unikn::newpal(col = c(orange_black, "black", "white"), 
+                             names = c("Princeton orange (on black)", "black", "white"),
+                             as_df = FALSE)
 
 
 

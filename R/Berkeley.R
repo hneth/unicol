@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_berkeley_1", "uni_berkeley_2" (2)
+# uni_pals: "berkeley_1", "berkeley_2" (2)
 # inst: "Berkeley, University of California"
 # country: USA
 # URL: "https://www.berkeley.edu"
@@ -22,11 +22,11 @@
 # Color palette(s):
 
 
-# - uni_berkeley_1: Primary colors ------
+# - berkeley_1: Primary colors ------
 
 #' Primary colors of Berkeley, University of California
 #'
-#' \code{uni_berkeley_1} provides the four primary colors
+#' \code{berkeley_1} provides the four primary colors
 #' of the \href{https://www.berkeley.edu}{Berkeley, University of California}, USA.
 #'
 #' The primary palette is broken into heritage and alternate heritage colors.
@@ -47,13 +47,13 @@
 #' \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
 #'
 #' @examples
-#' uni_berkeley_1
-#' unikn::seecol(uni_berkeley_1, main = "Primary colors of Berkeley") # view color palette
+#' berkeley_1
+#' unikn::seecol(berkeley_1, main = "Primary colors of Berkeley") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_berkeley_2}} for the secondary colors of Berkeley, University of California; 
+#' \code{\link{berkeley_2}} for the secondary colors of Berkeley, University of California; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -62,20 +62,20 @@
 #'
 #' @export
 
-uni_berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
+berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
                                 names = c("berkeley_blue", "california_gold", "founders_rock", "medalist"),
                                 as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_berkeley_1, main = "Primary colors Berkeley, University of California", col_bg = "white")
+# unikn::seecol(berkeley_1, main = "Primary colors Berkeley, University of California", col_bg = "white")
 
 
 
-# - uni_berkeley_2: Secondary colors ------
+# - berkeley_2: Secondary colors ------
 
 #' Secondary colors of Berkeley, University of California
 #'
-#' \code{uni_berkeley_2} provides the 12 secondary colors
+#' \code{berkeley_2} provides the 12 secondary colors
 #' of the \href{https://www.berkeley.edu}{Berkeley, University of California}, USA.
 #'
 #' The secondary palette is broken into four groups: neutrals, vibrants, brights and darks.
@@ -107,13 +107,13 @@ uni_berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820
 #' \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
 #'
 #' @examples
-#' uni_berkeley_2
-#' unikn::seecol(uni_berkeley_2, main = "Secondary colors Berkeley") # view color palette
+#' berkeley_2
+#' unikn::seecol(berkeley_2, main = "Secondary colors Berkeley") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_berkeley_1}} for the primary colors of Berkeley, University of California; 
+#' \code{\link{berkeley_1}} for the primary colors of Berkeley, University of California; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -122,7 +122,7 @@ uni_berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820
 #'
 #' @export
 
-uni_berkeley_2 <- unikn::newpal(col = c("#D9661F", "#DDD5C7", "#B9D3B6", 
+berkeley_2 <- unikn::newpal(col = c("#D9661F", "#DDD5C7", "#B9D3B6", 
                                         "#EE1F60", "#00B0DA", "#CFDD45", 
                                         "#ED4E33", "#00A598", "#859438", 
                                         "#6C3302", "#46535E", "#584F29"),
@@ -133,7 +133,7 @@ uni_berkeley_2 <- unikn::newpal(col = c("#D9661F", "#DDD5C7", "#B9D3B6",
                                 as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_berkeley_2, main = "Secondary colors Berkeley, University of California", col_bg = "white")
+# unikn::seecol(berkeley_2, main = "Secondary colors Berkeley, University of California", col_bg = "white")
 
 
 

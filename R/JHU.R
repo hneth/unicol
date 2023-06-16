@@ -56,7 +56,7 @@
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_2}} for secondary, accent colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_3_accent}} for accent, accent colors of JHU, Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of JHU, Johns Hopkins University
+#' \code{\link{jhu_4_gray}} for grey scale, accent colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -107,7 +107,7 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_2}} for secondary, accent colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_3_accent}} for accent, accent colors of JHU, Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale, accent colors of JHU, Johns Hopkins University
+#' \code{\link{jhu_4_gray}} for grey scale, accent colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -163,7 +163,7 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_3_accent}} for accent colors of JHU, Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for grey scale colors of JHU, Johns Hopkins University
+#' \code{\link{jhu_4_gray}} for grey scale colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -228,7 +228,7 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University
 #' \code{\link{jhu_2}} for secondary colors of JHU, Johns Hopkins University
-#' \code{\link{uni_hopkins_grayscale_5}} for gray scale colors of JHU, Johns Hopkins University
+#' \code{\link{jhu_4_gray}} for gray scale colors of JHU, Johns Hopkins University
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -246,11 +246,11 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 
 
 
-# - uni_hopkins_grayscale_5: Grey scale colors of JHU ------
+# - jhu_4_gray: Grey scale colors of JHU ------
 
 #' Grey scale colors of JHU, Johns Hopkins University
 #'
-#' \code{uni_hopkins_grayscale_5} provides the six grey scale colors
+#' \code{jhu_4_gray} provides the six grey scale colors
 #' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' The grayscale palette includes any tint of PMS Black 4C between 100% and 0% (white). 
@@ -272,8 +272,8 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #' \href{https://brand.jhu.edu/color}{Color manual}.
 #'
 #' @examples
-#' uni_hopkins_grayscale_5
-#' unikn::seecol(uni_hopkins_grayscale_5, main = "Grey scale colors Hopkins Uni") # view color palette
+#' jhu_4_gray
+#' unikn::seecol(jhu_4_gray, main = "Grey scale colors Hopkins Uni") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -290,11 +290,11 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #'
 #' @export
 
-uni_hopkins_grayscale_5 <- unikn::newpal(col = c("#31261D", "white", "#000000"),
-                                         names = c("sable", "white", "double_black"),
-                                         as_df = FALSE)
+jhu_4_gray <- unikn::newpal(col = c("#31261D", "white", "#000000"),
+                            names = c("sable", "white", "double_black"),
+                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(uni_hopkins_grayscale_5, main = "Grey scale colors JHU, Johns Hopkins University", col_bg = "lightgrey")
+# unikn::seecol(jhu_4_gray, main = "Grey scale colors JHU, Johns Hopkins University", col_bg = "lightgrey")
 
 ## eof. ----------
