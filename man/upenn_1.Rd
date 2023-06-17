@@ -40,6 +40,15 @@ unikn::seecol(upenn_1, main = "Logo colors Pennsylvania Uni") # view color palet
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes: 
+\code{\link{CMU_1_core}},
+\code{\link{CMU_2_tartan}},
+\code{\link{CMU_3_campus}},
+\code{\link{UCLA_1_primary}},
+\code{\link{UCLA_2_secondary}},
+\code{\link{UCLA_3_tertiary}},
+\code{\link{UCSD_1_core}},
+\code{\link{UCSD_2_accent}},
+\code{\link{UCSD_3_neutral}},
 \code{\link{berkeley_1}},
 \code{\link{berkeley_2}},
 \code{\link{caltech_1}},
@@ -51,6 +60,8 @@ Other university color palettes:
 \code{\link{cornell_1}},
 \code{\link{cornell_2}},
 \code{\link{cornell_3_accent}},
+\code{\link{duke_1_primary}},
+\code{\link{duke_2_secondary}},
 \code{\link{eth_pal_1}},
 \code{\link{eth_pal_2}},
 \code{\link{eth_pal_3}},
@@ -74,6 +85,8 @@ Other university color palettes:
 \code{\link{michigan_1}},
 \code{\link{michigan_2}},
 \code{\link{mit_pal}},
+\code{\link{monash_1_primary}},
+\code{\link{monash_2_secondary}},
 \code{\link{mpg_pal}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
