@@ -1,6 +1,6 @@
-## Duke.R | 2023 06 16
+## Duke.R | 2023 06 17
 ## Colors of Duke University, USA
-## -----------------------------------------------
+## ------------------------------
 
 # Information: ------
 
@@ -82,7 +82,7 @@ duke_1_primary <- unikn::newpal(col = c("#012169", "#00539B"),
 #' typography, backgrounds, call-to-action buttons and more.
 #' These colors are
 #' \code{"copper"} (defined as CMYK 0/76/100/0, RGB 200/78/0, HEX #C84E00),
-#' \code{"persimmon"} (defined as CMYK 0/45/95/0,#' \code{"RGB 232/153/35, HEX #E89923),
+#' \code{"persimmon"} (defined as CMYK 0/45/95/0,#' RGB 232/153/35, HEX #E89923),
 #' \code{"dandelion"} (defined as CMYK 0/8/70/0, RGB 255/217/96, HEX #FFD960),
 #' \code{"piedmont"} (defined as CMYK 54/0/100/0, RGB 161/183/13, HEX #A1B70D),
 #' \code{"eno"} (defined as CMYK 81/0/39/0, RGB 51/152/152, HEX #339898),
