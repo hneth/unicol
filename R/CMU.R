@@ -1,4 +1,4 @@
-## CMU.R | 2023 06 16
+## CMU.R | 2023 06 18
 ## Colors of CMU, Carnegie Mellon University, USA
 ## -----------------------------------------------
 
@@ -23,7 +23,7 @@
 # Color palette(s):
 
 
-# - CMU_1_core: Core colors ------
+# - CMU_1_core: Primary palette, Core colors ------
 
 #' Core colors of CMU, Carnegie Mellon University
 #'
@@ -57,8 +57,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University
-#' \code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University
+#' \code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University; 
+#' \code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -67,9 +67,11 @@
 #'
 #' @export
 
-CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0", "#000000", "#FFFFFF"),
-                           names = c("carnegie_red", "iron_gray", "steel_gray", "black", "white"),
-                           as_df = FALSE)
+CMU_1_core <- unikn::newpal(col = c("#C41230", 
+                                    "#6D6E71", "#E0E0E0", "#000000", "#FFFFFF"),
+                            names = c("carnegie_red", 
+                                      "iron_gray", "steel_gray", "black", "white"),
+                            as_df = FALSE)
 
 # # Check:
 # unikn::seecol(CMU_1_core, main = "Core colors CMU, Carnegie Mellon University", col_bg = "lightgrey")
@@ -83,9 +85,10 @@ CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0", "#000000", 
 #' \code{CMU_2_tartan} provides six secondary colors
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 #'
-#' Use Secondary Colors as accents only to add energy or warmth to layouts as complements to the core palette.
-#' When using a Secondary Color, Carnegie Red must be present in the communication vehicle or product.
-#' Tartan palette contains the secondary colors
+#' Use secondary colors as accents only to add energy or warmth to layouts as complements to the core palette.
+#' When using a secondary color, Carnegie Red (see \code{\link{CMU_1_core}}) 
+#' must be present in the communication vehicle or product.
+#' The Tartan palette contains the following secondary colors:
 #' \code{"scots_rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
 #' \code{"gold_thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 #' \code{"green_thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
@@ -110,8 +113,8 @@ CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0", "#000000", 
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University
-#' \code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University
+#' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 
+#' \code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -120,9 +123,13 @@ CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0", "#000000", 
 #'
 #' @export
 
-CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515", "#009647", "#008F91", "#043673", "#007BC0"),
-                           names = c("scots_rose", "gold_thread", "green_thread", "teal_thread", "blue_thread", "highlands_sky_blue"),
-                           as_df = FALSE)
+CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515", 
+                                      "#009647", "#008F91", 
+                                      "#043673", "#007BC0"),
+                              names = c("scots_rose", "gold_thread", 
+                                        "green_thread", "teal_thread", 
+                                        "blue_thread", "highlands_sky_blue"),
+                              as_df = FALSE)
 
 # # Check:
 # unikn::seecol(CMU_2_tartan, main = "Secondary colors, Tartan palette CMU", col_bg = "lightgrey")
@@ -135,7 +142,7 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515", "#009647", "#008F91"
 #' \code{CMU_3_campus} provides six campus colors
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 #'
-#' Campus palette contains the secondary colors
+#' The Campus palette contains the following colors: 
 #' \code{"machinery_hall_tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
 #' \code{"kittanning_brick_beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
 #' \code{"hornbostel_teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
@@ -160,8 +167,8 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515", "#009647", "#008F91"
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University
-#' \code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University
+#' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 
+#' \code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -170,9 +177,13 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515", "#009647", "#008F91"
 #'
 #' @export
 
-CMU_3_campus <- unikn::newpal(col = c("#BCB49E", "#E4DAC4", "#1F4C4C", "#719F94", "#182C4B", "#941120"),
-                           names = c("machinery_hall_tan", "kittaning_brick_beige", "hornbostel_teal", "palladian_green", "weaver_blue", "skibo_red"),
-                           as_df = FALSE)
+CMU_3_campus <- unikn::newpal(col = c("#BCB49E", "#E4DAC4", 
+                                      "#1F4C4C", "#719F94", 
+                                      "#182C4B", "#941120"),
+                              names = c("machinery_hall_tan", "kittaning_brick_beige", 
+                                        "hornbostel_teal", "palladian_green", 
+                                        "weaver_blue", "skibo_red"),
+                              as_df = FALSE)
 
 # # Check:
 # unikn::seecol(CMU_3_campus, main = "Secondary colors, Campus palette CMU", col_bg = "white")
@@ -180,4 +191,3 @@ CMU_3_campus <- unikn::newpal(col = c("#BCB49E", "#E4DAC4", "#1F4C4C", "#719F94"
 
 
 ## eof. ----------
-

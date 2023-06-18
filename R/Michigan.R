@@ -1,4 +1,4 @@
-## Michigan.R | 2023 06 16
+## Michigan.R | 2023 06 18
 ## Colors of Michigan University, USA
 ## ----------------------------------
 
@@ -53,7 +53,7 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{michigan_2}} for secondary, secondary colors of University of Michigan
+#' \code{\link{michigan_2}} for secondary, secondary colors of University of Michigan; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -63,8 +63,8 @@
 #' @export
 
 michigan_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
-                           names = c("mich_maize", "mich_blue"),
-                           as_df = FALSE)
+                            names = c("mich_maize", "mich_blue"),
+                            as_df = FALSE)
 
 # # Check:
 # unikn::seecol(michigan_1, main = "Primary colors University of Michigan", col_bg = "white")
@@ -114,7 +114,7 @@ michigan_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{michigan_1}} for primary colors of University of Michigan
+#' \code{\link{michigan_1}} for primary colors of University of Michigan; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -123,9 +123,15 @@ michigan_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
 #'
 #' @export
 
-michigan_2 <- unikn::newpal(col = c("#9A3324", "#D86018", "#75988d", "#A5A508", "#00B2A9", "#2F65A7", "#702082", "#575294", "#CFC096", "#9B9A6D", "#989C97", "#655A52", "#131516"),
-                           names = c("tappan_red", "ross_orange", "rackham_green", "wave_field_green", "taubman_teal", "arboretum_blue", "a2_amethyst", "matthaei_violet", "umma_tan", "burton_tower_beige", "angell_hall_ash", "law_quad_stone", "puma_black"),
-                           as_df = FALSE)
+michigan_2 <- unikn::newpal(col = c("#9A3324", "#D86018", "#75988d", "#A5A508", 
+                                    "#00B2A9", "#2F65A7", "#702082", "#575294", 
+                                    "#CFC096", "#9B9A6D", "#989C97", "#655A52", 
+                                    "#131516"),
+                            names = c("tappan_red", "ross_orange", "rackham_green", "wave_field_green", 
+                                      "taubman_teal", "arboretum_blue", "a2_amethyst", "matthaei_violet", 
+                                      "umma_tan", "burton_tower_beige", "angell_hall_ash", "law_quad_stone", 
+                                      "puma_black"),
+                            as_df = FALSE)
 
 # # Check:
 # unikn::seecol(michigan_2, main = "Secondary colors University of Michigan", col_bg = "white")
