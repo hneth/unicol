@@ -53,7 +53,7 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{upenn_2}} for web colors of University of Pennsylvania
+#' \code{\link{upenn_2}} for web colors of University of Pennsylvania;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -109,7 +109,7 @@ upenn_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{upenn_1}} for logo colors of University of Pennsylvania
+#' \code{\link{upenn_1}} for logo colors of University of Pennsylvania;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

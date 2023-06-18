@@ -53,8 +53,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{cornell_2}} for secondary colors of Cornell University
-#' \code{\link{cornell_3_accent}} for accent colors of Cornell University
+#' \code{\link{cornell_2}} for secondary colors of Cornell University;
+#' \code{\link{cornell_3_accent}} for accent colors of Cornell University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -104,8 +104,8 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{cornell_2}} for primary colors of Cornell University
-#' \code{\link{cornell_3_accent}} for accent colors of Cornell University
+#' \code{\link{cornell_1}} for primary colors of Cornell University;
+#' \code{\link{cornell_3_accent}} for accent colors of Cornell University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -162,8 +162,8 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{cornell_1}} for primary colors of Cornell University
-#' \code{\link{cornell_2}} for primary colors of Cornell University
+#' \code{\link{cornell_1}} for primary colors of Cornell University;
+#' \code{\link{cornell_2}} for primary colors of Cornell University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

@@ -51,8 +51,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{harvard_2}} for secondary, accent colors of Harvard University
-#' \code{\link{harvard_3_accent}} for web colors of Harvard University
+#' \code{\link{harvard_2}} for secondary, accent colors of Harvard University;
+#' \code{\link{harvard_3_accent}} for web colors of Harvard University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -100,8 +100,8 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{harvard_1}} for primary colors of Harvard University
-#' \code{\link{harvard_3_accent}} for web colors of Harvard University
+#' \code{\link{harvard_1}} for primary colors of Harvard University;
+#' \code{\link{harvard_3_accent}} for web colors of Harvard University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -158,8 +158,8 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{harvard_1}} for primary colors of Harvard University
-#' \code{\link{harvard_2}} for accent colors of Harvard University
+#' \code{\link{harvard_1}} for primary colors of Harvard University;
+#' \code{\link{harvard_2}} for accent colors of Harvard University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

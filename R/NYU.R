@@ -50,9 +50,9 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{nyu_2}} for secondary colors of NYU, New York University
-#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University
-#' \code{\link{nyu_accent}} for accent colors of NYU, New York University
+#' \code{\link{nyu_2}} for secondary colors of NYU, New York University;
+#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University;
+#' \code{\link{nyu_accent}} for accent colors of NYU, New York University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -102,9 +102,9 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{nyu_1}} for primary colors of NYU, New York University
-#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University
-#' \code{\link{nyu_accent}} for accent colors of NYU, New York University
+#' \code{\link{nyu_1}} for primary colors of NYU, New York University;
+#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University;
+#' \code{\link{nyu_accent}} for accent colors of NYU, New York University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -154,9 +154,9 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{nyu_1}} for primary colors of NYU, New York University
-#' \code{\link{nyu_2}} for secondary colors of NYU, New York University
-#' \code{\link{nyu_accent}} for accent colors of NYU, New York University
+#' \code{\link{nyu_1}} for primary colors of NYU, New York University;
+#' \code{\link{nyu_2}} for secondary colors of NYU, New York University;
+#' \code{\link{nyu_accent}} for accent colors of NYU, New York University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -207,9 +207,9 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{nyu_1}} for primary colors of NYU, New York University
-#' \code{\link{nyu_2}} for secondary colors of NYU, New York University
-#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University
+#' \code{\link{nyu_1}} for primary colors of NYU, New York University;
+#' \code{\link{nyu_2}} for secondary colors of NYU, New York University;
+#' \code{\link{nyu_neutral}} for neutral colors of NYU, New York University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

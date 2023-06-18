@@ -129,7 +129,7 @@ col_hellBlau <- "#00BEFF"
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_stuttgart_2_print}} for Stuttgart's primary colors with alternative printing colors for more contrast
+#' \code{\link{uni_stuttgart_2_print}} for Stuttgart's primary colors with alternative printing colors for more contrast;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -188,7 +188,7 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors without printing colors
+#' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors without printing colors;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
