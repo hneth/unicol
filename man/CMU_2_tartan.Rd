@@ -22,9 +22,10 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 }
 \details{
-Use Secondary Colors as accents only to add energy or warmth to layouts as complements to the core palette.
-When using a Secondary Color, Carnegie Red must be present in the communication vehicle or product.
-Tartan palette contains the secondary colors
+Use secondary colors as accents only to add energy or warmth to layouts as complements to the core palette.
+When using a secondary color, Carnegie Red (see \code{\link{CMU_1_core}}) 
+must be present in the communication vehicle or product.
+The Tartan palette contains the following secondary colors:
 \code{"scots_rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
 \code{"gold_thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 \code{"green_thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
@@ -38,8 +39,8 @@ unikn::seecol(CMU_2_tartan, main = "Secondary colors, Tartan palette CMU") # vie
 
 }
 \seealso{
-\code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University
-\code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University
+\code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 
+\code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

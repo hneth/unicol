@@ -34,7 +34,7 @@ unikn::seecol(michigan_1, main = "Primary colors Michigan Uni") # view color pal
 
 }
 \seealso{
-\code{\link{michigan_2}} for secondary, secondary colors of University of Michigan
+\code{\link{michigan_2}} for secondary, secondary colors of University of Michigan; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

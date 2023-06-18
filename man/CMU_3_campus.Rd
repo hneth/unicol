@@ -22,7 +22,7 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 }
 \details{
-Campus palette contains the secondary colors
+The Campus palette contains the following colors: 
 \code{"machinery_hall_tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
 \code{"kittanning_brick_beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
 \code{"hornbostel_teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
@@ -36,8 +36,8 @@ unikn::seecol(CMU_3_campus, main = "Secondary colors, Campus palette CMU") # vie
 
 }
 \seealso{
-\code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University
-\code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University
+\code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 
+\code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

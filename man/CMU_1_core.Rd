@@ -38,8 +38,8 @@ unikn::seecol(CMU_1_core, main = "Core colors CMU") # view color palette
 
 }
 \seealso{
-\code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University
-\code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University
+\code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University; 
+\code{\link{CMU_3_campus}} for campus colors of CMU, Carnegie Mellon University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
