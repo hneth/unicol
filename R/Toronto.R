@@ -1,6 +1,6 @@
 ## university_of_Toronto.R | 2023 06 20
 ## Colors of the University of Toronto, Canada
-## -----------------------------------------------
+## -------------------------------------------
 
 # Information: ------
 
@@ -77,9 +77,9 @@ col_4 <- "#F2F4F7"
 #' @author 
 #' \strong{unicol}, 2023-06-20.
 #'
-#' @source 
-#' Color definitions are based on the
-#' \href{https://new.brand.utoronto.ca/principles-and-fundamentals/colour/}.
+#' @source
+#' Color definitions are based on the   
+#' \href{https://new.brand.utoronto.ca/principles-and-fundamentals/colour/}{U of T's Brand Portal}. 
 #'
 #' @examples
 #' toronto_1
