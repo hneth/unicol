@@ -1,6 +1,6 @@
 ## Oxford.R | 2023 06 20
 ## Colours of the University of Oxford, England
-## -----------------------------------------------
+## --------------------------------------------
 
 # Information: ------
 
@@ -19,7 +19,7 @@
 # Colours: ------ 
 
 
-# Brand colours
+# Brand colours: 
 #
 # Primary: #002147
 col_brand_1 <- "#002147"
@@ -38,7 +38,7 @@ col_brand_4 <- "#122f53"
 name_brand_4 <- "light_primary"
 
 
-# General/secondary colours
+# General/secondary colours: 
 #
 # Dark Blue: #001c3d
 col_general_1 <- "#001c3d"
@@ -85,7 +85,7 @@ col_general_11 <- "#353c47"
 name_general_11 <- "blue_grey"
 
 
-# Link colours
+# Link colours: 
 #
 # Link: #3277ae
 col_link_1 <- "#3277ae"
@@ -108,7 +108,7 @@ col_link_5 <- "#98c1e1"
 name_link_5 <- "link_overlay"
 
 
-# Shades
+# Shades: 
 #
 # Black: #000000
 col_shades_1 <- "#000000"
@@ -139,7 +139,7 @@ col_shades_7 <- "#ffffff"
 name_shades_7 <- "white"
 
 
-# Custom blog colours
+# Custom blog colours: 
 #
 # Science Blog: #0f7361
 col_blog_1 <- "#0f7361"
@@ -166,7 +166,7 @@ col_blog_6 <- "#9c4700"
 name_blog_6 <- "books_blog_button"
 
 
-# Graduate Country page colours
+# Graduate Country page colours: 
 #
 # Graduate light blue: #9eceeb
 col_graduate_1 <- "#9eceeb"
@@ -217,7 +217,7 @@ col_graduate_12 <- "#a79d96"
 name_graduate_12 <- "graduate_grey"
 
 
-# Error colours
+# Error colours: 
 #
 # Status: #7dbc23
 col_error_1 <- "#7dbc23"
@@ -236,7 +236,7 @@ col_error_4 <- "#fff0f3"
 name_error_4 <- "error_light"
 
 
-# Social Media colours
+# Social Media colours: 
 #
 # Cherry: #be0f34
 col_socialmedia_1 <- "#be0f34"
@@ -318,7 +318,7 @@ name_socialmedia_11 <- "instagram"
 #'
 #' @examples
 #' oxford_brand
-#' unikn::seecol(oxford_brand, main = "Brand Coulors") # view colour palette
+#' unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -339,8 +339,8 @@ name_socialmedia_11 <- "instagram"
 #' @export
 
 oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col_brand_4),
-                           names = c(name_brand_1, name_brand_2, name_brand_3, name_brand_4),
-                           as_df = FALSE)
+                              names = c(name_brand_1, name_brand_2, name_brand_3, name_brand_4),
+                              as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(oxford_brand, main = "Brand colours of the University of Oxford", col_bg = "lightgrey")
@@ -383,7 +383,7 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 #'
 #' @examples
 #' oxford_general
-#' unikn::seecol(oxford_general, main = "General colours") # view colour palette
+#' unikn::seecol(oxford_general, main = "Uni Oxford general colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -404,8 +404,8 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 #' @export
 
 oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_general_3, col_general_4, col_general_5, col_general_6, col_general_7, col_general_8, col_general_9, col_general_10, col_general_11),
-                                  names = c(name_general_1, name_general_2, name_general_3, name_general_4, name_general_5, name_general_6, name_general_7, name_general_8, name_general_9, name_general_10, name_general_11),
-                                  as_df = FALSE)
+                                names = c(name_general_1, name_general_2, name_general_3, name_general_4, name_general_5, name_general_6, name_general_7, name_general_8, name_general_9, name_general_10, name_general_11),
+                                as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(oxford_general, main = "General colours of the University of Oxford", col_bg = "lightgrey")
@@ -446,7 +446,7 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 #'
 #' @examples
 #' oxford_link
-#' unikn::seecol(oxford_link, main = "Link colours") # view colour palette
+#' unikn::seecol(oxford_link, main = "Uni Oxford link colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -467,8 +467,8 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 #' @export
 
 oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_link_4, col_link_5),
-                                 names = c(name_link_1, name_link_2, name_link_3, name_link_4, name_link_5),
-                                 as_df = FALSE)
+                             names = c(name_link_1, name_link_2, name_link_3, name_link_4, name_link_5),
+                             as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(oxford_link, main = "Link colours of the University of Oxford", col_bg = "lightgrey")
@@ -504,7 +504,7 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #'
 #' @examples
 #' oxford_shades
-#' unikn::seecol(oxford_shades, main = "Shade colours") # view colour palette
+#' unikn::seecol(oxford_shades, main = "Uni Oxford shade colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -525,8 +525,8 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #' @export
 
 oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3, col_shades_4, col_shades_5, col_shades_6, col_shades_7),
-                                 names = c(name_shades_1, name_shades_2, name_shades_3, name_shades_4, name_shades_5, name_shades_6, name_shades_7),
-                                 as_df = FALSE)
+                               names = c(name_shades_1, name_shades_2, name_shades_3, name_shades_4, name_shades_5, name_shades_6, name_shades_7),
+                               as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(oxford_shades, main = "Shade colours of the University of Oxford", col_bg = "lightgrey")
@@ -561,7 +561,7 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 #'
 #' @examples
 #' oxford_blog
-#' unikn::seecol(oxford_blog, main = "Custom blog colours") # view colour palette
+#' unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -582,8 +582,8 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 #' @export
 
 oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blog_4, col_blog_5, col_blog_6),
-                               names = c(name_blog_1, name_blog_2, name_blog_3, name_blog_4, name_blog_5, name_blog_6),
-                               as_df = FALSE)
+                             names = c(name_blog_1, name_blog_2, name_blog_3, name_blog_4, name_blog_5, name_blog_6),
+                             as_df = FALSE)
 
 
 # # Check: 
@@ -625,7 +625,7 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #'
 #' @examples
 #' oxford_graduate
-#' unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view colour palette
+#' unikn::seecol(oxford_graduate, main = "Uni Oxford graduate country page colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -646,131 +646,131 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #' @export
 
 oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_graduate_3, col_graduate_4, col_graduate_5, col_graduate_6, col_graduate_7, col_graduate_8, col_graduate_9, col_graduate_10, col_graduate_11, col_graduate_12),
-                             names = c(name_graduate_1,name_graduate_2, name_graduate_3, name_graduate_4, name_graduate_5, name_graduate_6, name_graduate_7, name_graduate_8, name_graduate_9, name_graduate_10, name_graduate_11, name_graduate_12),
-                             as_df = FALSE)
+                                 names = c(name_graduate_1,name_graduate_2, name_graduate_3, name_graduate_4, name_graduate_5, name_graduate_6, name_graduate_7, name_graduate_8, name_graduate_9, name_graduate_10, name_graduate_11, name_graduate_12),
+                                 as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(oxford_graduate, main = "Graduate country page colours of the University of Oxford", col_bg = "lightgrey")
 
 
 
- 
+
 # - oxford_error: Error colours ------
- 
- #' Colours of the University of Oxford
- #'
- #' \code{oxford_error} provides the error colours 
- #' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
- #'
- #' The colours are
- #' \code{"status"} (defined as HEX #7dbc23),
- #' \code{"warning"} (defined as HEX #bc9a23),
- #' \code{"error"} (defined as HEX #be0f34) and
- #' \code{"error_light"} (defined as HEX #fff0f3),
- #'
- #' @return 
- #' A named vector of colours (HEX/HTML codes of type character).
- #'
- #' @author 
- #' \strong{unicol}, 2023-06-15.
- #'
- #' @source 
- #' Colour definitions are based on the
- #' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
- #'
- #' @examples
- #' oxford_error
- #' unikn::seecol(oxford_error, main = "Error colours") # view colour palette
- #'
- #' @family university colour palettes
- #'
- #' @seealso
- #' \code{\link{oxford_brand}} for the brand colours of the University of Oxford;
- #' \code{\link{oxford_general}} for the general colours of the University of Oxford;
- #' \code{\link{oxford_link}} for the link colours of the University of Oxford;
- #' \code{\link{oxford_shades}} for the shade colours of the University of Oxford;
- #' \code{\link{oxford_blog}} for the blog colours of the University of Oxford;
- #' \code{\link{oxford_graduate}} for the graduate colours of the University of Oxford;
- #' \code{\link{oxford_socialmedia}} for the social media colours of the University of Oxford;
- #' \code{\link{seecol}} for viewing and comparing colour palettes;
- #' \code{\link{usecol}} for using colour palettes;
- #' \code{\link{simcol}} for finding similar colours;
- #' \code{\link{newpal}} for defining new colour palettes;
- #' \code{\link{grepal}} for finding named colours.
- #'
- #' @export
- 
- oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col_error_4),
+
+#' Colours of the University of Oxford
+#'
+#' \code{oxford_error} provides the error colours 
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#'
+#' The colours are
+#' \code{"status"} (defined as HEX #7dbc23),
+#' \code{"warning"} (defined as HEX #bc9a23),
+#' \code{"error"} (defined as HEX #be0f34) and
+#' \code{"error_light"} (defined as HEX #fff0f3),
+#'
+#' @return 
+#' A named vector of colours (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-06-15.
+#'
+#' @source 
+#' Colour definitions are based on the
+#' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+#'
+#' @examples
+#' oxford_error
+#' unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour palette
+#'
+#' @family university colour palettes
+#'
+#' @seealso
+#' \code{\link{oxford_brand}} for the brand colours of the University of Oxford;
+#' \code{\link{oxford_general}} for the general colours of the University of Oxford;
+#' \code{\link{oxford_link}} for the link colours of the University of Oxford;
+#' \code{\link{oxford_shades}} for the shade colours of the University of Oxford;
+#' \code{\link{oxford_blog}} for the blog colours of the University of Oxford;
+#' \code{\link{oxford_graduate}} for the graduate colours of the University of Oxford;
+#' \code{\link{oxford_socialmedia}} for the social media colours of the University of Oxford;
+#' \code{\link{seecol}} for viewing and comparing colour palettes;
+#' \code{\link{usecol}} for using colour palettes;
+#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link{grepal}} for finding named colours.
+#'
+#' @export
+
+oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col_error_4),
                               names = c(name_error_1, name_error_2, name_error_3, name_error_4),
                               as_df = FALSE)
- 
- # # Check: 
- #  unikn::seecol(oxford_error, main = "Error colours of the University of Oxford", col_bg = "lightgrey")
- 
- 
+
+# # Check: 
+#  unikn::seecol(oxford_error, main = "Error colours of the University of Oxford", col_bg = "lightgrey")
+
+
 
 # - oxford_socialmedia: Social Media Colours ------
- 
- #' Colours of the University of Oxford
- #'
- #' \code{oxford_socialmedia} provides the social media colours 
- #' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
- #'
- #' The colours are
- #' \code{"cherry"} (defined as HEX #be0f34),
- #' \code{"purple"} (defined as HEX #ac48bf),
- #' \code{"red"} (defined as HEX #c7302b),
- #' \code{"light_blue"} (defined as HEX #1daced),
- #' \code{"deep_blue"} (defined as HEX #001c3d),
- #' \code{"lagoon_blue"} (defined as HEX #006599),
- #' \code{"weibo"} (defined as HEX #d62a2a),
- #' \code{"green"} (defined as HEX #177770),
- #' \code{"orange"} (defined as HEX #fb8113),
- #' \code{"google_plus"} (defined as HEX #d34836) and
- #' \code{"instagram"} (defined as HEX #517fa4),
- #'
- #' @return 
- #' A named vector of colours (HEX/HTML codes of type character).
- #'
- #' @author 
- #' \strong{unicol}, 2023-06-15.
- #'
- #' @source 
- #' Colour definitions are based on the
- #' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
- #'
- #' @examples
- #' oxford_socialmedia
- #' unikn::seecol(oxford_socialmedia, main = "Social Media colours") # view colour palette
- #'
- #' @family university colour palettes
- #'
- #' @seealso
- #' \code{\link{oxford_brand}} for the brand colours of the University of Oxford;
- #' \code{\link{oxford_general}} for the general colours of the University of Oxford;
- #' \code{\link{oxford_link}} for the link colours of the University of Oxford;
- #' \code{\link{oxford_shades}} for the shade colours of the University of Oxford;
- #' \code{\link{oxford_blog}} for the blog colours of the University of Oxford;
- #' \code{\link{oxford_graduate}} for the graduate colours of the University of Oxford;
- #' \code{\link{oxford_error}} for the error colours of the University of Oxford;
- #' \code{\link{seecol}} for viewing and comparing colour palettes;
- #' \code{\link{usecol}} for using colour palettes;
- #' \code{\link{simcol}} for finding similar colours;
- #' \code{\link{newpal}} for defining new colour palettes;
- #' \code{\link{grepal}} for finding named colours.
- #'
- #' @export
- 
- oxford_socialmedia <- unikn::newpal(col = c(col_socialmedia_1, col_socialmedia_2, col_socialmedia_3, col_socialmedia_4, col_socialmedia_5, col_socialmedia_6, col_socialmedia_7, col_socialmedia_8, col_socialmedia_9, col_socialmedia_10, col_socialmedia_11),
-                               names = c(name_socialmedia_1, name_socialmedia_2, name_socialmedia_3, name_socialmedia_4, name_socialmedia_5, name_socialmedia_6, name_socialmedia_7, name_socialmedia_8, name_socialmedia_9, name_socialmedia_10, name_socialmedia_11),
-                               as_df = FALSE)
- 
+
+#' Colours of the University of Oxford
+#'
+#' \code{oxford_socialmedia} provides the social media colours 
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#'
+#' The colours are
+#' \code{"cherry"} (defined as HEX #be0f34),
+#' \code{"purple"} (defined as HEX #ac48bf),
+#' \code{"red"} (defined as HEX #c7302b),
+#' \code{"light_blue"} (defined as HEX #1daced),
+#' \code{"deep_blue"} (defined as HEX #001c3d),
+#' \code{"lagoon_blue"} (defined as HEX #006599),
+#' \code{"weibo"} (defined as HEX #d62a2a),
+#' \code{"green"} (defined as HEX #177770),
+#' \code{"orange"} (defined as HEX #fb8113),
+#' \code{"google_plus"} (defined as HEX #d34836) and
+#' \code{"instagram"} (defined as HEX #517fa4),
+#'
+#' @return 
+#' A named vector of colours (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-06-15.
+#'
+#' @source 
+#' Colour definitions are based on the
+#' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+#'
+#' @examples
+#' oxford_socialmedia
+#' unikn::seecol(oxford_socialmedia, main = "Uni Oxford social media colours") # view colour palette
+#'
+#' @family university colour palettes
+#'
+#' @seealso
+#' \code{\link{oxford_brand}} for the brand colours of the University of Oxford;
+#' \code{\link{oxford_general}} for the general colours of the University of Oxford;
+#' \code{\link{oxford_link}} for the link colours of the University of Oxford;
+#' \code{\link{oxford_shades}} for the shade colours of the University of Oxford;
+#' \code{\link{oxford_blog}} for the blog colours of the University of Oxford;
+#' \code{\link{oxford_graduate}} for the graduate colours of the University of Oxford;
+#' \code{\link{oxford_error}} for the error colours of the University of Oxford;
+#' \code{\link{seecol}} for viewing and comparing colour palettes;
+#' \code{\link{usecol}} for using colour palettes;
+#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link{grepal}} for finding named colours.
+#'
+#' @export
+
+oxford_socialmedia <- unikn::newpal(col = c(col_socialmedia_1, col_socialmedia_2, col_socialmedia_3, col_socialmedia_4, col_socialmedia_5, col_socialmedia_6, col_socialmedia_7, col_socialmedia_8, col_socialmedia_9, col_socialmedia_10, col_socialmedia_11),
+                                    names = c(name_socialmedia_1, name_socialmedia_2, name_socialmedia_3, name_socialmedia_4, name_socialmedia_5, name_socialmedia_6, name_socialmedia_7, name_socialmedia_8, name_socialmedia_9, name_socialmedia_10, name_socialmedia_11),
+                                    as_df = FALSE)
+
 # # Check: 
 # unikn::seecol(oxford_socialmedia, main = "Social Media colours of the University of Oxford", col_bg = "lightgrey")
- 
- 
- 
- 
+
+
+
+
 ## ToDo: -------- 
 
 # - etc.
