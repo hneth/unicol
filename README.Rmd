@@ -16,8 +16,10 @@ knitr::opts_chunk$set(
 
 # unicol `r getNamespaceVersion("unicol")` 
 
+
 <!-- badges: start -->
 <!-- badges: end -->
+
 
 The colors of your university.
 
