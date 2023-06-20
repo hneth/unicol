@@ -64,8 +64,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{stanford_2_accent}} for secondary, accent colors of Stanford University
-#' \code{\link{stanford_3_web}} for web colors of Stanford University
+#' \code{\link{stanford_2_accent}} for secondary, accent colors of Stanford University;
+#' \code{\link{stanford_3_web}} for web colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -158,8 +158,8 @@ stanford_1 <- unikn::newpal(col = c("#8C1515", "#B83A4B", "#820000",
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{stanford_1}} for primary colors of Stanford University
-#' \code{\link{stanford_3_web}} for web colors of Stanford University
+#' \code{\link{stanford_1}} for primary colors of Stanford University;
+#' \code{\link{stanford_3_web}} for web colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -250,8 +250,8 @@ stanford_2_accent <- unikn::newpal(col = c("#175E54", "#2D716F", "#014240",
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{stanford_1}} for primary colors of Stanford University
-#' \code{\link{stanford_2_accent}} for accent colors of Stanford University
+#' \code{\link{stanford_1}} for primary colors of Stanford University;
+#' \code{\link{stanford_2_accent}} for accent colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

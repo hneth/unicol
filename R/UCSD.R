@@ -55,8 +55,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego
-#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego
+#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego;
+#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -109,8 +109,8 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego
-#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego
+#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego;
+#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
