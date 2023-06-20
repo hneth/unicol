@@ -37,7 +37,7 @@ The colours are
 }
 \examples{
 oxford_socialmedia
-unikn::seecol(oxford_socialmedia, main = "Social Media colours") # view colour palette
+unikn::seecol(oxford_socialmedia, main = "Uni Oxford social media colours") # view colour palette
 
 }
 \seealso{

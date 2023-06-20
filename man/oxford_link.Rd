@@ -39,7 +39,7 @@ The colours are
 }
 \examples{
 oxford_link
-unikn::seecol(oxford_link, main = "Link colours") # view colour palette
+unikn::seecol(oxford_link, main = "Uni Oxford link colours") # view colour palette
 
 }
 \seealso{

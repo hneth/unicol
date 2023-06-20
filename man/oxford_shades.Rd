@@ -33,7 +33,7 @@ The colours are
 }
 \examples{
 oxford_shades
-unikn::seecol(oxford_shades, main = "Shade colours") # view colour palette
+unikn::seecol(oxford_shades, main = "Uni Oxford shade colours") # view colour palette
 
 }
 \seealso{

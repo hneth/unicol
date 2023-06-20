@@ -41,7 +41,7 @@ The colours are
 }
 \examples{
 oxford_general
-unikn::seecol(oxford_general, main = "General colours") # view colour palette
+unikn::seecol(oxford_general, main = "Uni Oxford general colours") # view colour palette
 
 }
 \seealso{

@@ -30,7 +30,7 @@ The colours are
 }
 \examples{
 oxford_error
-unikn::seecol(oxford_error, main = "Error colours") # view colour palette
+unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour palette
 
 }
 \seealso{

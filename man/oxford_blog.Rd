@@ -32,7 +32,7 @@ The colours are
 }
 \examples{
 oxford_blog
-unikn::seecol(oxford_blog, main = "Custom blog colours") # view colour palette
+unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colour palette
 
 }
 \seealso{

@@ -38,7 +38,7 @@ The brand colours are
 }
 \examples{
 oxford_brand
-unikn::seecol(oxford_brand, main = "Brand Coulors") # view colour palette
+unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour palette
 
 }
 \seealso{

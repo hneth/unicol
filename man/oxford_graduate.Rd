@@ -38,7 +38,7 @@ The colours are
 }
 \examples{
 oxford_graduate
-unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view colour palette
+unikn::seecol(oxford_graduate, main = "Uni Oxford graduate country page colours") # view colour palette
 
 }
 \seealso{
