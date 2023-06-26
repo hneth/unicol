@@ -43,7 +43,7 @@
 #'
 #' @source 
 #' Color definitions are based on the
-#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}.
+#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}{York Brand Standards (PDF)}.
 #'
 #' @examples
 #' york1
@@ -73,7 +73,7 @@ york1 <- unikn::newpal(col = c("#E31837", "#FFFFFF", "#000000"),
 #'
 #'
 #' \code{"york_red_medium"}  (defined as RGB 175/13/26,   HEX #AF0D1A),
-#' \code{"york_red_dark}     (defined as RGB 129/0/1,     HEX #810001),
+#' \code{"york_red_dark"}    (defined as RGB 129/0/1,     HEX #810001),
 #' \code{"york_bright_blue"} (defined as RGB 58/194/239,  HEX #3AC2EF),
 #' \code{"york_light_blue"}  (defined as RGB 172/230/248, HEX #ACE6F8),
 #' \code{"york_light_grey"}  (defined as RGB 225/223/220, HEX #E1DFDC),
@@ -81,9 +81,7 @@ york1 <- unikn::newpal(col = c("#E31837", "#FFFFFF", "#000000"),
 #' \code{"york_grey_medium"} (defined as RGB 183/174/169, HEX #B7AEA9) and
 #' \code{"york_grey_dark"}   (defined as RGB 104/98/96,   HEX #686260).
 #' 
-#'
 #' \code{york2} uses the HEX color definition. 
-#' 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -93,7 +91,7 @@ york1 <- unikn::newpal(col = c("#E31837", "#FFFFFF", "#000000"),
 #'
 #' @source 
 #' Color definitions are based on the
-#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}.
+#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}{York Brand Standards (PDF)}.
 #'
 #' @examples
 #' york2
