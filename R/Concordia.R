@@ -1,6 +1,6 @@
 ## Concordia.R | 2023 06 26
 ## Colors of the Concordia University, Canada
-## -----------------------------------------------
+## ------------------------------------------
 
 # Information: ------
 
@@ -45,8 +45,8 @@
 #' \strong{unicol}, 2023-06-26.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}.
+#' Color definitions are based on 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
 #'
 #' @examples
 #' conc1
@@ -64,8 +64,8 @@
 #' @export
 
 conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004085", "#0072a8", "#057d78", "#508212" ),
-                           names = c("burgundy", "magenta_concordia", "orange_concordia", "mauve", "dark_blue", "blue_condordia", "turquoise_concordia", "grenn"),
-                           as_df = FALSE)
+                       names = c("burgundy", "magenta_concordia", "orange_concordia", "mauve", "dark_blue", "blue_condordia", "turquoise_concordia", "grenn"),
+                       as_df = FALSE)
 
 
 
@@ -83,7 +83,6 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #' \code{"cyan_concordia"}  (defined as HEX #00adef) and
 #' \code{"lime"}            (defined as HEX #8cc63e).
 #'
-#'
 #' \code{conc2} uses the HEX color definition. 
 #' 
 #' @return 
@@ -93,8 +92,8 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #' \strong{unicol}, 2023-06-26.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}
+#' Color definitions are based on 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
 #'
 #' @examples
 #' conc2
@@ -112,8 +111,8 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #' @export
 
 conc2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
-                           names = c("yellow_concordia", "gold_concordia", "cyan_concordia", "lime"),
-                           as_df = FALSE)
+                       names = c("yellow_concordia", "gold_concordia", "cyan_concordia", "lime"),
+                       as_df = FALSE)
 
 
 
@@ -145,8 +144,8 @@ conc2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' \strong{unicol}, 2023-06-26.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}
+#' Color definitions are based on 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
 #' 
 #' @examples
 #' conc3
@@ -164,8 +163,8 @@ conc2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' @export
 
 conc3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C5DA", "#d3e1e9", "#CCE3E4", "#dfeccf", "#e9e3d3"),
-                           names = c("burgundy1", "magenta1_concordia", "orange1_concordia", "mauve1_concordia", "dark_blue1", "blue1_concordia", "turquoise1_concordia", "green1_concordia", "gold1_concordia"),
-                           as_df = FALSE)
+                       names = c("burgundy1", "magenta1_concordia", "orange1_concordia", "mauve1_concordia", "dark_blue1", "blue1_concordia", "turquoise1_concordia", "green1_concordia", "gold1_concordia"),
+                       as_df = FALSE)
 
 
 
@@ -196,8 +195,8 @@ conc3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C
 #' \strong{unicol}, 2023-06-26.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}
+#' Color definitions are based on 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
 #' 
 #' @examples
 #' conc4
@@ -215,15 +214,14 @@ conc3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C
 #' @export
 
 conc4 <- unikn::newpal(col = c("#f0f0f0", "#c8c8c8", "#6e6e6e", "#2c2c2c", "#000000"),
-                           names = c("light_grey_concordia", "medium_grey_concordia", "dark_grey_concordia", "very_dark_grey_concordia", "black"),
-                           as_df = FALSE)
+                       names = c("light_grey_concordia", "medium_grey_concordia", "dark_grey_concordia", "very_dark_grey_concordia", "black"),
+                       as_df = FALSE)
 
 # # Check: 
-
-#unikn::seecol(conc1, main = "Primary colors of the Concordia University", col_bg = "white")
-#unikn::seecol(conc2, main = "Secondary colors of the Concordia University", col_bg = "white")
-#unikn::seecol(conc3, main = "Background colors of the Concordia University", col_bg = "white")
-#unikn::seecol(conc4, main = "Neutral colors of the Concordia University", col_bg = "white")
+# unikn::seecol(conc1, main = "Primary colors of the Concordia University", col_bg = "white")
+# unikn::seecol(conc2, main = "Secondary colors of the Concordia University", col_bg = "white")
+# unikn::seecol(conc3, main = "Background colors of the Concordia University", col_bg = "white")
+# unikn::seecol(conc4, main = "Neutral colors of the Concordia University", col_bg = "white")
 
 
 
