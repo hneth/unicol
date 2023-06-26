@@ -8,8 +8,8 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on the
-\href{https://brand.ubc.ca/guidelines/downloads/ubc-colour-and-fonts/}.
+Color definitions are based on the 
+\href{https://brand.ubc.ca/guidelines/downloads/ubc-colour-and-fonts/}{UBC Colour and Fonts} guidelines.
 }
 \usage{
 ubc1
