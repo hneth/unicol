@@ -30,11 +30,10 @@
 #' \code{"magenta_concordia"}   (defined as HEX #db0272), 
 #' \code{"orange_concordia"}    (defined as HEX #da3a16),
 #' \code{"mauve"}               (defined as HEX #573996),
-#' \code{"dark_blue}            (defined as HEX #0004085),
+#' \code{"dark_blue"}           (defined as HEX #004085),
 #' \code{"blue_condordia"}      (defined as HEX #0072a8),
 #' \code{"turquoise_concordia"} (defined as HEX #057d78) and
 #' \code{"grenn"}               (defined as HEX #508212).
-#'
 #'
 #' \code{conc1} uses the HEX color definition. 
 #' 
@@ -46,7 +45,7 @@
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
 #'
 #' @examples
 #' conc1
@@ -93,7 +92,7 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
 #'
 #' @examples
 #' conc2
@@ -145,7 +144,7 @@ conc2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
 #' 
 #' @examples
 #' conc3
@@ -196,7 +195,7 @@ conc3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}. 
+#' \href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
 #' 
 #' @examples
 #' conc4
