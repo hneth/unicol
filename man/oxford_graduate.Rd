@@ -8,8 +8,8 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+Colour definitions are based on 
+\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Oxford's digital style guide}.
 }
 \usage{
 oxford_graduate
@@ -38,7 +38,8 @@ The colours are
 }
 \examples{
 oxford_graduate
-unikn::seecol(oxford_graduate, main = "Uni Oxford graduate country page colours") # view colour palette
+unikn::seecol(oxford_graduate, 
+              main = "Uni Oxford graduate country page colours") # view colour palette
 
 }
 \seealso{

@@ -620,12 +620,13 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #' \strong{unicol}, 2023-06-15.
 #'
 #' @source 
-#' Colour definitions are based on the
-#' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+#' Colour definitions are based on 
+#' \href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Oxford's digital style guide}.
 #'
 #' @examples
 #' oxford_graduate
-#' unikn::seecol(oxford_graduate, main = "Uni Oxford graduate country page colours") # view colour palette
+#' unikn::seecol(oxford_graduate, 
+#'               main = "Uni Oxford graduate country page colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
