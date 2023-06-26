@@ -16,10 +16,8 @@ knitr::opts_chunk$set(
 
 # unicol `r getNamespaceVersion("unicol")` 
 
-
 <!-- badges: start -->
 <!-- badges: end -->
-
 
 The colors of your university.
 
@@ -156,6 +154,5 @@ demopal(nyu_1, type = 3, main = "Using NYU colors")
 <!-- Footer: -->
 
 [File `README.Rmd` updated on `r Sys.Date()`.]
-
 
 <!-- eof. --> 
