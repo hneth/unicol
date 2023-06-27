@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{UCSD_3_neutral} provides four neutral colors
-of the \href{https://www.UCSD.edu}{UCSD, UCSanDiego, University of California}, USA.
+of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 }
 \details{
 Including neutrals into our color palette is essential for long-term adaptability.
@@ -37,8 +37,8 @@ unikn::seecol(UCSD_3_neutral, main = "Neutral colors UCSD") # view color palette
 
 }
 \seealso{
-\code{\link{UCSD_1_core}} for Core colors of UCSanDiego
-\code{\link{UCSD_2_accent}} for accent colors of UCSanDiego
+\code{\link{UCSD_1_core}} for core colors of UC San Diego;
+\code{\link{UCSD_2_accent}} for accent colors of UC San Diego;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
