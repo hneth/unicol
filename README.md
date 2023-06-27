@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
-# unicol 0.0.0.9010
+# unicol 0.0.0.9011
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -95,6 +95,6 @@ demopal(nyu_1, type = 3, main = "Using NYU colors")
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-06-26.\]
+\[File `README.Rmd` updated on 2023-06-27.\]
 
 <!-- eof. -->
