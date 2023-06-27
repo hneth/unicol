@@ -6,7 +6,6 @@
 
 # uni_pals: "edinburgh_1" (1)
 # inst: "University of Edinburgh"
-# inst_alt: "Universit\u00E4t Edinburgh"
 # Scotland
 # URL: "https://www.ed.ac.uk/"
 
@@ -31,7 +30,7 @@
 #' The eleven primary colours are
 #' \code{"University Red"}(defined as Hex: D50032, RGB: 213, 0, 50),
 #' \code{"University Blue"} (defined as Hex: 041E42, RGB: 4, 30, 66), 
-#' \code{"Bright Blue"}(defined as ),
+#' \code{"Bright Blue"}(defined as Hex: 007288, RGB: 0, 114, 136),
 #' \code{"Bright Pink"}(defined as Hex: D0006F, RGB: 208, 0, 111),
 #' \code{"Purple"}(defined as Hex: 830065, RGB: 131, 0, 101),
 #' \code{"Burgundy"}(defined as Hex: A50034, RGB: 165, 0, 52),
@@ -75,7 +74,7 @@ edinburgh_1 <- unikn::newpal(col = c("#D50032", "#041E42", "#007288", "#D0006F",
                            as_df = FALSE)
 
 # # Check: 
-unikn::seecol(edinburgh_1, main = "Primary colours of the University of Edinburgh", col_bg = "lightgrey")
+#unikn::seecol(edinburgh_1, main = "Primary colours of the University of Edinburgh", col_bg = "lightgrey")
 
 
 
