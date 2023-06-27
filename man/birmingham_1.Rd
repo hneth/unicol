@@ -24,7 +24,7 @@ of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham},
 \details{
 The three primary colours are
 \code{"undergraduate"} (defined as HEX #c1d82f),
-\code{"undergraduate"} (defined as HEX #c1d82f),
+\code{"postgraduate"} (defined as HEX #c1d82f),
 \code{"MBA"} (defined as HEX #7D0049), and
 \code{"Research/Business"} (defined as HEX #605270) .
 
@@ -37,7 +37,8 @@ The two secondary colours are
 }
 \examples{
 birmingham_1
-unikn::seecol(birmingham_1, main = "University of Example") # view colour palette
+unikn::seecol(birmingham_1, main = "University of Birmingham") 
+# view colour palette
 
 }
 \seealso{
