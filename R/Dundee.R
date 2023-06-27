@@ -67,7 +67,7 @@ dundee_core <- unikn::newpal(col = "#4365e2",
                              as_df = FALSE)
 
 # # Check: 
-unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
+# unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
 
 
 
