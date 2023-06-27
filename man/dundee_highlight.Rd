@@ -35,7 +35,7 @@ Pantone and CMYK colours differ from RGB and HEX definition.
 }
 \examples{
 dundee_highlight
-unikn::seecol(dundee_highlight, main = "Highlight Colours") # view colour palette
+unikn::seecol(dundee_highlight, main = "Dundee highlight colours") # view colour palette
 
 }
 \seealso{

@@ -42,7 +42,7 @@ Pantone and CMYK colours differ from RGB and HEX definition.
 }
 \examples{
 dundee_block
-unikn::seecol(dundee_block, main = "Block Colours") # view colour palette
+unikn::seecol(dundee_block, main = "Dundee block colours") # view colour palette
 
 }
 \seealso{

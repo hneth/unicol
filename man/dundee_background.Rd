@@ -36,11 +36,11 @@ CMYK colours differ from RGB and HEX definition.
 }
 \examples{
 dundee_background
-unikn::seecol(dundee_background, main = "Background Colour") # view colour palette
+unikn::seecol(dundee_background, main = "Dundee background colour") # view colour palette
 
 }
 \seealso{
-\code{\link{dundee_core}} for the core colour of the University of Dundee;
+\code{\link{dundee_core}} for the core colours of the University of Dundee;
 \code{\link{dundee_highlight}} for the highlight colours of the University of Dundee;
 \code{\link{dundee_block}} for the block colours of the University of Dundee;
 \code{\link{seecol}} for viewing and comparing colour palettes;
