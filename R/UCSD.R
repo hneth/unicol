@@ -161,8 +161,8 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego
-#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego
+#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego;
+#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
