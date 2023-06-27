@@ -3,13 +3,13 @@
 \docType{data}
 \name{brown_2}
 \alias{brown_2}
-\title{Colors of the University of Example}
+\title{Secondary colors of Brown University}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}
+Color definitions are based on 
+\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}.
 }
 \usage{
 brown_2
@@ -21,18 +21,20 @@ A named vector of colors (HEX/HTML codes of type character).
 \code{brown_2} provides four secondary colors that complement the primary color palette. 
 of the \href{https://www.brown.edu}{Brown University}, USA
 Composed of contemporary colors, the secondary color palette will be maintained as a flexible palette that may be updated as color trends shift over time.
+}
+\details{
 The four secondary colors are
 \code{"skyblue"} (HEX: #59CBE8),
 \code{"emerald"} (HEX: #00B398),
 \code{"navy"} (HEX: #003C71), and
 \code{"taupe"} (HEX: #B7B09C) .
-}
-\details{
+
 \code{brown_2} uses the HEX color definition.
 }
 \examples{
 brown_2
-unikn::seecol(brown_2, main = "Brown University") # view color palette
+unikn::seecol(brown_2, 
+              main = "Secondary colors of Brown University") # view color palette
 
 }
 \seealso{
@@ -92,6 +94,7 @@ Other university color palettes:
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
 \code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}},
 \code{\link{michigan_1}},
 \code{\link{michigan_2}},
 \code{\link{mit_pal}},

@@ -3,13 +3,13 @@
 \docType{data}
 \name{brown_1}
 \alias{brown_1}
-\title{Colors of the Brown University}
+\title{Primary colors of Brown University}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{CD manual (PDF)}
+Color definitions are based on 
+\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}
 }
 \usage{
 brown_1
@@ -94,6 +94,7 @@ Other university color palettes:
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
 \code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}},
 \code{\link{michigan_1}},
 \code{\link{michigan_2}},
 \code{\link{mit_pal}},

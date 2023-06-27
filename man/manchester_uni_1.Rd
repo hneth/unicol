@@ -3,12 +3,13 @@
 \docType{data}
 \name{manchester_uni_1}
 \alias{manchester_uni_1}
-\title{colours of the Manchester University}
+\title{Primary colours of Manchester University}
 \format{
 An object of class \code{character} of length 3.
 }
 \source{
-
+Color definitions are based on the
+\href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{Manchester's marketing brand toolkit}.
 }
 \usage{
 manchester_uni_1
@@ -21,28 +22,16 @@ A named vector of colours (HEX/HTML codes of type character).
 of the \href{https://www.manchester.edu}{Manchester University}, England.
 }
 \details{
-The eleven primary colours are
-\code{"Manchester gold"}(defined as C=0 M=28 Y=100 K=6, R=238 G=177 B=17, #EEB111),
-\code{"Manchester black}(defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
-\code{"Manchester gray"}(defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
+The three primary colours are
+\code{"Manchester gold"} (defined as C=0 M=28 Y=100 K=6, R=238 G=177 B=17, #EEB111),
+\code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
+\code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 
-
-\code{manchester_uni_accent} provides the three accent primary colours and 
-white as suggested to use in minority ratio (3:1) against the primary colors on a canvas
-of the \href{https://www.manchester.edu}{Manchester University}, England.
-
-The three accent colours are
-\code{"Manchester sunrise"}(defined as C=0 M=71 Y=100 K=0, R=255 G=108 B=12, #FF6C0C),
-\code{"Manchester blue} (defined as C=54 M=4 Y=9 K=0, R=107 G=196 B=222, #6BC4DE),
-\code{"Manchester green"}(defined as C=55 M=3 Y=100 K=0, R=130 G=188 B=0, #82BC00), and
-\code{"white"}.
-
-
-\code{edinburgh_1} uses the HEX color definition.
+\code{manchester_uni_1} uses the HEX color definition.
 }
 \examples{
 manchester_uni_1
-unikn::seecol(manchester_uni_1, main = "Manchester University") 
+unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University") 
 # view color palette
 
 }
@@ -103,6 +92,7 @@ Other university color palettes:
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
+\code{\link{manchester_uni_accent}},
 \code{\link{michigan_1}},
 \code{\link{michigan_2}},
 \code{\link{mit_pal}},
@@ -166,7 +156,7 @@ Other university color palettes:
 \code{\link{york2}}
 }
 \author{
-\strong{unicol}, 2023-06-20.
+\strong{unicol}, 2023-06-27.
 }
 \concept{university color palettes}
 \keyword{datasets}

@@ -94,6 +94,7 @@ Other university color palettes:
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
 \code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}},
 \code{\link{michigan_1}},
 \code{\link{michigan_2}},
 \code{\link{mit_pal}},
