@@ -75,7 +75,7 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{northwestern_2}} for secondary, secondary colors of Northwestern University
+#' \code{\link{northwestern_2}} for secondary, secondary colors of Northwestern University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -134,7 +134,7 @@ northwestern_1 <- unikn::newpal(col = c("#4E2A84", rgb(029, 002, 053, maxColorVa
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{northwestern_1}} for primary colors of Northwestern University
+#' \code{\link{northwestern_1}} for primary colors of Northwestern University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

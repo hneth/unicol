@@ -54,7 +54,7 @@ unikn::seecol(chicago_2, main = "Accent colors Chicago Uni") # view color palett
 
 }
 \seealso{
-\code{\link{chicago_1}} for primary colors of University of Chicago
+\code{\link{chicago_1}} for primary colors of University of Chicago;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -78,11 +78,15 @@ Other university color palettes:
 \code{\link{caltech_3}},
 \code{\link{chicago_1}},
 \code{\link{columbia}},
+\code{\link{conc1}},
+\code{\link{conc2}},
+\code{\link{conc3}},
+\code{\link{conc4}},
 \code{\link{cornell_1}},
 \code{\link{cornell_2}},
 \code{\link{cornell_3_accent}},
-\code{\link{duke_1_primary}},
-\code{\link{duke_2_secondary}},
+\code{\link{duke_1}},
+\code{\link{duke_2}},
 \code{\link{eth_pal_1}},
 \code{\link{eth_pal_2}},
 \code{\link{eth_pal_3}},
@@ -125,6 +129,8 @@ Other university color palettes:
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},
+\code{\link{toronto_1}},
+\code{\link{ubc1}},
 \code{\link{uni_bonn_1}},
 \code{\link{uni_bonn_2}},
 \code{\link{uni_freiburg_0}},
@@ -159,7 +165,9 @@ Other university color palettes:
 \code{\link{uni_ulm_2}},
 \code{\link{upenn_1}},
 \code{\link{upenn_2}},
-\code{\link{yale_1}}
+\code{\link{yale_1}},
+\code{\link{york1}},
+\code{\link{york2}}
 }
 \author{
 \strong{unicol}, 2023-06-14.
