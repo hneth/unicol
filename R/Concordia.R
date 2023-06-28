@@ -6,7 +6,7 @@
 
 # uni_pals: "conc1", "conc2", "conc3", "conc4" (4)
 # inst: "Concordia University" (in English)
-# inst_alt: "Université Concordia University"
+# inst_alt: "Universit00E9 Concordia University"
 # country: Canada
 # URL: "https://www.concordia.ca/"
 
