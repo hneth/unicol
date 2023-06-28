@@ -143,8 +143,8 @@ seecol(all_unicol_pals,
 Here are some examples how the color palettes from **unicol** can be used:
 
 ```{r examples, message = FALSE}
-seecol(yale_1, main = "Primary colors of Yale University")
-demopal(berkeley_1, type = 2, main = "Using the colors of Berkeley University")
+seecol(yale_1, main = "The primary colors of Yale University")
+demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 demopal(nyu_1, type = 3, main = "Using NYU colors")
 ```
 
