@@ -8,8 +8,8 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+Colour definitions are based on 
+\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Oxford's digital style guide}.
 }
 \usage{
 oxford_graduate
@@ -38,7 +38,8 @@ The colours are
 }
 \examples{
 oxford_graduate
-unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view colour palette
+unikn::seecol(oxford_graduate, 
+              main = "Uni Oxford graduate country page colours") # view colour palette
 
 }
 \seealso{
@@ -57,6 +58,10 @@ unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view co
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},

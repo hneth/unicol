@@ -1,6 +1,6 @@
 ## UCSD.R | 2023 06 16
-## Colors of UCSD, UCSanDiego, University of California, USA
-## -----------------------------------------------
+## Colors of UCSD, UC San Diego, University of California, USA
+## -----------------------------------------------------------
 
 # Information: ------
 
@@ -28,7 +28,7 @@
 #' Core colors of UCSD, UCSanDiego, University of California
 #'
 #' \code{UCSD_1_core} provides four Core colors.
-#' of the \href{https://www.UCSD.edu}{UCSD, UCSanDiego, University of California}, USA.
+#' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 #'
 #' Our core colors are the official colors of UC San Diego.
 #' Consistent use of these colors in all branding is essential to establishing our identity.
@@ -55,8 +55,8 @@
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego;
-#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego;
+#' \code{\link{UCSD_2_accent}} for accent colors of UC San Diego;
+#' \code{\link{UCSD_3_neutral}} for neutral colors of UC San Diego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -66,8 +66,8 @@
 #' @export
 
 UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214"),
-                           names = c("sd_navy", "sd_blue", "sd_yellow", "sd_gold"),
-                           as_df = FALSE)
+                             names = c("sd_navy", "sd_blue", "sd_yellow", "sd_gold"),
+                             as_df = FALSE)
 
 # # Check:
 # unikn::seecol(UCSD_1_core, main = "Core colors UCSD, UCSanDiego", col_bg = "lightgrey")
@@ -79,7 +79,7 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 #' accent colors of UCSanDiego
 #'
 #' \code{UCSD_2_accent} provides six accent colors
-#' of the \href{https://www.UCSD.edu}{UCSD, UCSanDiego, University of California}, USA.
+#' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 #'
 #' Our palette of accent colors have been developed to add energy and amplify the UC San Diego brand.
 #' Inspired by our vibrant natural surroundings, accent colors can be used in conjunction with our core
@@ -109,8 +109,8 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego;
-#' \code{\link{UCSD_3_neutral}} for Neutral colors of UCSanDiego;
+#' \code{\link{UCSD_1_core}} for core colors of UC San Diego;
+#' \code{\link{UCSD_3_neutral}} for neutral colors of UC San Diego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -120,8 +120,8 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 #' @export
 
 UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500", "#FC8900", "#6E963B"),
-                           names = c("turquoise", "magenta", "sand", "citron", "orange", "green"),
-                           as_df = FALSE)
+                               names = c("turquoise", "magenta", "sand", "citron", "orange", "green"),
+                               as_df = FALSE)
 
 # # Check:
 # unikn::seecol(UCSD_2_accent, main = "accent colors UCSD, UCSanDiego", col_bg = "lightgrey")
@@ -133,7 +133,7 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 #' Neutral colors of UCSanDiego
 #'
 #' \code{UCSD_3_neutral} provides four neutral colors
-#' of the \href{https://www.UCSD.edu}{UCSD, UCSanDiego, University of California}, USA.
+#' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 #'
 #' Including neutrals into our color palette is essential for long-term adaptability.
 #' While these neutral colors may not play a major role in branded materials, they provide options for contrast and flexibility.
@@ -161,8 +161,8 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{UCSD_1_core}} for Core colors of UCSanDiego
-#' \code{\link{UCSD_2_accent}} for accent colors of UCSanDiego
+#' \code{\link{UCSD_1_core}} for core colors of UC San Diego;
+#' \code{\link{UCSD_2_accent}} for accent colors of UC San Diego;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -172,11 +172,11 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 #' @export
 
 UCSD_3_neutral <- unikn::newpal(col = c("black", "#747678", "#B6B1A9", "white"),
-                           names = c("black", "cool_gray", "stone", "white"),
-                           as_df = FALSE)
+                                names = c("black", "cool_gray", "stone", "white"),
+                                as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCSD_3_neutral, main = "Neutral colors UCSD, UCSanDiego", col_bg = "lightgrey")
+# unikn::seecol(UCSD_3_neutral, main = "Neutral colors UCSD, UC San Diego", col_bg = "lightgrey")
 
 
 

@@ -1,13 +1,15 @@
-## Dundee.R | 2023 06 22
-## Colours of University of Dundee, Scotland 
-## -----------------------------------------
+
+## Dundee.R | 2023 06 27
+## Colours of the University of Dundee, Scotland 
+## ---------------------------------------------
+
 
 # Information: ------
 
 # uni_pals: "dundee_core", "dundee_highlight", "dundee_block", "dundee_background" (4)
 # inst: "University of Dundee"
 # inst_alt: "University of Dundee"
-# country: Scotland
+# country: Scotland, UK
 # URL: "https://www.dundee.ac.uk/"
 
 # Colour source:
@@ -47,8 +49,7 @@
 #'
 #' @examples
 #' dundee_core
-#' unikn::seecol(dundee_core, 
-#'               main = "Core Colour of University of Dundee") # view colour palette
+#' unikn::seecol(dundee_core, main = "Dundee core colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -65,11 +66,11 @@
 #' @export
 
 dundee_core <- unikn::newpal(col = "#4365e2",
-                           names = "core",
-                           as_df = FALSE)
+                             names = "core",
+                             as_df = FALSE)
 
 # # Check: 
-unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
+# unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
 
 
 
@@ -103,8 +104,7 @@ unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
 #'
 #' @examples
 #' dundee_highlight
-#' unikn::seecol(dundee_highlight, 
-#'               main = "Highlight colours of University of Dundee") # view colour palette
+#' unikn::seecol(dundee_highlight, main = "Dundee highlight colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -121,8 +121,8 @@ unikn::seecol(dundee_core, main = "Dundee Core Colour", col_bg = "lightgrey")
 #' @export
 
 dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
-                             names = c("highlight_1", "highlight_2", "highlight_3"),
-                             as_df = FALSE)
+                                  names = c("highlight_1", "highlight_2", "highlight_3"),
+                                  as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(dundee_highlight, main = "Dundee Highlight Colours", col_bg = "lightgrey")
@@ -167,8 +167,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #'
 #' @examples
 #' dundee_block
-#' unikn::seecol(dundee_block, 
-#'               main = "Block colours of University of Dundee") # view colour palette
+#' unikn::seecol(dundee_block, main = "Dundee block colours") # view colour palette
 #'
 #' @family university colour palettes
 #'
@@ -185,8 +184,8 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' @export
 
 dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2", "#c4ebd0"),
-                                  names = c("block_1", "block_2", "block_3", "block_4", "block_5"),
-                                  as_df = FALSE)
+                              names = c("block_1", "block_2", "block_3", "block_4", "block_5"),
+                              as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(dundee_block, main = "Dundee Block Colours", col_bg = "lightgrey")
@@ -226,15 +225,14 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #'
 #' @examples
 #' dundee_background
-#' unikn::seecol(dundee_background, 
-#'               main = "Background colour of University of Dundee") # view colour palette
+#' unikn::seecol(dundee_background, main = "Dundee background colour") # view colour palette
 #'
 #' @family university colour palettes
 #'
 #' @seealso
-#' \code{\link{dundee_core}} for the core colour of University of Dundee;
-#' \code{\link{dundee_highlight}} for the highlight colours of University of Dundee;
-#' \code{\link{dundee_block}} for the block colours of University of Dundee;
+#' \code{\link{dundee_core}} for the core colours of the University of Dundee;
+#' \code{\link{dundee_highlight}} for the highlight colours of the University of Dundee;
+#' \code{\link{dundee_block}} for the block colours of the University of Dundee; 
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -244,15 +242,11 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' @export
 
 dundee_background <- unikn::newpal(col = "#fffaf4",
-                              names = "background",
-                              as_df = FALSE)
+                                   names = "background",
+                                   as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(dundee_background, main = "Dundee Background Colours", col_bg = "lightgrey")
-
-
-
-
 
 
 ## ToDo: -------- 

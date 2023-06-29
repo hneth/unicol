@@ -32,7 +32,7 @@ The colours are
 }
 \examples{
 oxford_blog
-unikn::seecol(oxford_blog, main = "Custom blog colours") # view colour palette
+unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colour palette
 
 }
 \seealso{
@@ -51,6 +51,10 @@ unikn::seecol(oxford_blog, main = "Custom blog colours") # view colour palette
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},

@@ -37,7 +37,7 @@ The colours are
 }
 \examples{
 oxford_socialmedia
-unikn::seecol(oxford_socialmedia, main = "Social Media colours") # view colour palette
+unikn::seecol(oxford_socialmedia, main = "Uni Oxford social media colours") # view colour palette
 
 }
 \seealso{
@@ -56,6 +56,10 @@ unikn::seecol(oxford_socialmedia, main = "Social Media colours") # view colour p
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},

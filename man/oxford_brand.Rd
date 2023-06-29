@@ -38,7 +38,7 @@ The brand colours are
 }
 \examples{
 oxford_brand
-unikn::seecol(oxford_brand, main = "Brand Coulors") # view colour palette
+unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour palette
 
 }
 \seealso{
@@ -57,6 +57,10 @@ unikn::seecol(oxford_brand, main = "Brand Coulors") # view colour palette
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
