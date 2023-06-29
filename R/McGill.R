@@ -1,11 +1,11 @@
 ## McGill.R | 2023 06 20
-## Colours of the University of McGill, Canada 
-## -----------------------------------------------
+## Colours of McGill University, Canada 
+## ------------------------------------
 
 # Information: ------
 
 # uni_pals: "mcgill_red", "mcgill_pastels", "mcgill_brights", "mcgill_muted", "mcgill_darks", "mcgill_grey" (6)
-# inst: "University of McGill"
+# inst: "McGill"
 # inst_alt: "McGill University"
 # country: Canada
 # URL: "https://www.mcgill.ca/"
@@ -27,10 +27,10 @@
 
 # - mcgill_red: McGill Red ------
 
-#' Colours of the University of McGill
+#' Primary colour of McGill University
 #'
 #' \code{mcgill_red} provides the McGill Red 
-#' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+#' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 #'
 #' The colour is
 #' \code{"mcgill_red"} (defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f).
@@ -80,13 +80,13 @@ mcgill_red <- unikn::newpal(col = c("#ed1b2f"),
 
 # - mcgill_pastels: Pastel colours ------
 
-#' Colours of the University of McGill
+#' Pastel colours of McGill University
 #' 
 #' McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
 #' They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
 #'
 #' \code{mcgill_pastels} provides the pastel colours 
-#' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+#' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 #'
 #' The pastel colours are 
 #' \code{"pastel_1"} (defined as CMYK 0/16/47/0, RGB 255/215/148, HEX #FFD794),
@@ -141,13 +141,13 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  
 # - mcgill_brights: Bright Colours ------
  
- #' Colours of the University of McGill
+ #' Bright colours of McGill University
  #'
  #' McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
  #' They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
  #' 
  #' \code{mcgill_brights} provides the bright colours 
- #' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+ #' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
  #'
  #' The bright colours are 
  #' \code{"bright_1"} (defined as CMYK 0/50/100/0, RGB 247/148/29, HEX #F7941D),
@@ -201,14 +201,13 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  
 # - mcgill_muted: Muted colours ------
  
- #' Colours of the University of McGill
- #'
+ #' Muted colours of McGill University
  #'
  #' McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
  #' They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
  #' 
  #' \code{mcgill_muted} provides the muted colours 
- #' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+ #' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
  #'
  #' The muted colours are 
  #' \code{"muted_1"} (defined as CMYK 13/72/76/2, RGB 211/103/74, HEX #D3674A),
@@ -263,13 +262,13 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  
 # - mcgill_darks: Dark colours ------
  
- #' Colours of the University of McGill
+ #' Dark colours of McGill University
  #'
  #' McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
  #' They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
  #'
  #' \code{mcgill_darks} provides the dark colours 
- #' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+ #' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
  #'
  #' The muted colours are 
  #' \code{"dark_1"} (defined as CMYK 0/72/75/35, RGB 170/75/49, HEX #AA4B31),
@@ -324,13 +323,13 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  
 # - mcgill_grey: Cool grey ------
  
- #' Colours of the University of McGill
+ #' Grey of McGill University
  #'
  #' McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
  #' They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
  #' 
  #' \code{mcgill_grey} provides the cool grey 
- #' of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+ #' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
  #'
  #' The colour is 
  #' \code{"cool_grey"} (defined as CMYK 66/52/44/17, RGB 93/103/113, HEX #5D6770).

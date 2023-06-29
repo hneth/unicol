@@ -1,11 +1,12 @@
 ## McMaster.R | 2023 06 27
-## Colours of the McMaster University, Canada 
-## -----------------------------------------------
+## Colours of McMaster University, Canada 
+## --------------------------------------
 
 # Information: ------
 
-# uni_pals: "uni_pal_1" (1)
-# inst: McMaster University"
+# uni_pals: "mcmaster_heritage", "mcmaster_brighterworld" (2)
+# inst: "McMaster"
+# inst_alt: "McMaster University"
 # country: Canada
 # URL: "https://www.mcmaster.ca/"
 
@@ -20,10 +21,10 @@
 
 # - mcmaster_heritage: Heritage colours ------
 
-#' Colours of the McMaster University
+#' Heritage colours of McMaster University
 #'
 #' \code{mcmaster_heritage} provides the three heritage colours 
-#' of the \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
+#' of \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
 #' The heritage colours are used in association with all McMaster materials.
 #' 
 #' Strengthen the McMaster brand by consistently using the McMaster colour palette 
@@ -74,12 +75,12 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 
 
 
-# - mcmaster_heritage: Brighter World Colours ------
+# - mcmaster_brighterworld: Brighter World Colours ------
 
-#' Colours of the McMaster University
+#' Brighter World colours of McMaster University
 #'
 #' \code{mcmaster_brighterworld} provides the Brighter World Colours 
-#' of the \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
+#' of \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
 #' 
 #' The Brighter World brand colours blend well with McMaster Maroon and Gold 
 #' and provide a broadened range of colour options that renew McMaster’s image in a youthful way. 
