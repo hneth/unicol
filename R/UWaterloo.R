@@ -1,5 +1,5 @@
 ## UWaterloo.R | 2023 06 29
-## colors of the University of Waterloo, Canada 
+## Colors of the University of Waterloo, Canada 
 ## -----------------------------------------------
 
 # Information: ------
@@ -125,8 +125,8 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 #' @export
 
 uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F00"),
-                         names = c("Orange Level 1", "Orange Level 2", "Orange Level 3 (print primary color)", "Orange Level 4 (digital primary color)"),
-                         as_df = FALSE)
+                                names = c("Orange Level 1", "Orange Level 2", "Orange Level 3 (print primary color)", "Orange Level 4 (digital primary color)"),
+                                as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(uwaterloo_arts, main = "Art Faculty colors of UWaterloo", col_bg = "white")
@@ -180,12 +180,12 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #'
 #' @export
 
-uwaterloo_Engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", "#57058B"),
-                                names = c("Purple Level 1", "Purple Level 2", "Purple Level 3 (print primary color)", "Purple Level 4 (digital primary color)"),
-                                as_df = FALSE)
+uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", "#57058B"),
+                                       names = c("Purple Level 1", "Purple Level 2", "Purple Level 3 (print primary color)", "Purple Level 4 (digital primary color)"),
+                                       as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(uwaterloo_Engineering, main = "Engineering Faculty colors of UWaterloo", col_bg = "white")
+# unikn::seecol(uwaterloo_engineering, main = "Engineering Faculty colors of UWaterloo", col_bg = "white")
 
 
 
@@ -296,8 +296,8 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' @export
 
 uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005963"),
-                                       names = c("Teal Level 1", "Teal Level 2", "Teal Level 3 (print primary color)", "Teal Level 4 (digital primary color)"),
-                                       as_df = FALSE)
+                                  names = c("Teal Level 1", "Teal Level 2", "Teal Level 3 (print primary color)", "Teal Level 4 (digital primary color)"),
+                                  as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(uwaterloo_health, main = "Health Faculty colors of UWaterloo", col_bg = "white")
@@ -408,8 +408,8 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' @export
 
 uwaterloo_science <- unikn::newpal(col = c("#B4D5FF", "#63A0FF", "#0073CE", "#0033BE"),
-                                  names = c("Blue Level 1", "Blue Level 2", "Blue Level 3 (print primary color)", "Blue Level 4 (digital primary color)"),
-                                  as_df = FALSE)
+                                   names = c("Blue Level 1", "Blue Level 2", "Blue Level 3 (print primary color)", "Blue Level 4 (digital primary color)"),
+                                   as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(uwaterloo_science, main = "science Faculty colors of UWaterloo", col_bg = "white")
