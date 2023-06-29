@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_darks}
 \alias{mcgill_darks}
-\title{Colours of the University of McGill}
+\title{Dark colours of McGill University}
 \format{
 An object of class \code{character} of length 7.
 }
@@ -23,7 +23,7 @@ They can be used to add variety and contrast for headings, bullets, background a
 }
 \details{
 \code{mcgill_darks} provides the dark colours 
-of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 
 The muted colours are 
 \code{"dark_1"} (defined as CMYK 0/72/75/35, RGB 170/75/49, HEX #AA4B31),
@@ -65,6 +65,8 @@ Other university colour palettes:
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -73,10 +75,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

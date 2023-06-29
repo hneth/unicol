@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_red}
 \alias{mcgill_red}
-\title{Colours of the University of McGill}
+\title{Primary colour of McGill University}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{mcgill_red} provides the McGill Red 
-of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 }
 \details{
 The colour is
@@ -56,6 +56,8 @@ Other university colour palettes:
 \code{\link{mcgill_grey}},
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -64,10 +66,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

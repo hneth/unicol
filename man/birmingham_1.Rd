@@ -59,6 +59,8 @@ Other university colour palettes:
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -67,10 +69,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

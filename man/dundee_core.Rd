@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_core}
 \alias{dundee_core}
-\title{Colours of the University of Dundee}
+\title{Core colours of University of Dundee}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_core} provides the core colour 
-of the \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
 }
 \details{
 The central blue core colour is at the heart of our identity. 
@@ -38,9 +38,9 @@ unikn::seecol(dundee_core, main = "Dundee core colours") # view colour palette
 
 }
 \seealso{
-\code{\link{dundee_highlight}} for the highlight colours of the University of Dundee;
-\code{\link{dundee_block}} for the block colours of the University of Dundee;
-\code{\link{dundee_background}} for the background colour of the University of Dundee;
+\code{\link{dundee_highlight}} for the highlight colours of University of Dundee;
+\code{\link{dundee_block}} for the block colours of University of Dundee;
+\code{\link{dundee_background}} for the background colour of University of Dundee;
 \code{\link{seecol}} for viewing and comparing colour palettes;
 \code{\link{usecol}} for using colour palettes;
 \code{\link{simcol}} for finding similar colours;
@@ -58,6 +58,8 @@ Other university colour palettes:
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -66,10 +68,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-22.
