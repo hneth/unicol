@@ -24,7 +24,7 @@ of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham},
 \details{
 The three primary colours are
 \code{"undergraduate"} (defined as HEX #c1d82f),
-\code{"undergraduate"} (defined as HEX #c1d82f),
+\code{"postgraduate"} (defined as HEX #c1d82f),
 \code{"MBA"} (defined as HEX #7D0049), and
 \code{"Research/Business"} (defined as HEX #605270) .
 
@@ -37,7 +37,8 @@ The two secondary colours are
 }
 \examples{
 birmingham_1
-unikn::seecol(birmingham_1, main = "University of Example") # view colour palette
+unikn::seecol(birmingham_1, main = "University of Birmingham") 
+# view colour palette
 
 }
 \seealso{
@@ -48,12 +49,18 @@ unikn::seecol(birmingham_1, main = "University of Example") # view colour palett
 \code{\link{grepal}} for finding named colours.
 
 Other university colour palettes: 
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -62,10 +69,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

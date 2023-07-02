@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_brights}
 \alias{mcgill_brights}
-\title{Colours of the University of McGill}
+\title{Bright colours of McGill University}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -23,7 +23,7 @@ They can be used to add variety and contrast for headings, bullets, background a
 }
 \details{
 \code{mcgill_brights} provides the bright colours 
-of the \href{https://www.mcgill.ca/}{University of McGill}, Canada.
+of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 
 The bright colours are 
 \code{"bright_1"} (defined as CMYK 0/50/100/0, RGB 247/148/29, HEX #F7941D),
@@ -55,11 +55,17 @@ unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour p
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -68,10 +74,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

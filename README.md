@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
-# unicol 0.0.0.9009
+# unicol 0.0.0.9013
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -74,13 +74,13 @@ Here are some examples how the color palettes from **unicol** can be
 used:
 
 ``` r
-seecol(yale_1, main = "Primary colors of Yale University")
+seecol(yale_1, main = "The primary colors of Yale University")
 ```
 
 <img src="man/figures/README-examples-1.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-demopal(berkeley_1, type = 2, main = "Using the colors of Berkeley University")
+demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 ```
 
 <img src="man/figures/README-examples-2.png" width="600px" style="display: block; margin: auto;" />
@@ -95,6 +95,6 @@ demopal(nyu_1, type = 3, main = "Using NYU colors")
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-06-20.\]
+\[File `README.Rmd` updated on 2023-06-29.\]
 
 <!-- eof. -->

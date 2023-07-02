@@ -3,13 +3,13 @@
 \docType{data}
 \name{oxford_graduate}
 \alias{oxford_graduate}
-\title{Colours of the University of Oxford}
+\title{Graduate country page colours of University of Oxford}
 \format{
 An object of class \code{character} of length 12.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Digital style guide}.
+Colour definitions are based on 
+\href{https://www.ox.ac.uk/public-affairs/style-guide/digital-style-guide}{Oxford's digital style guide}.
 }
 \usage{
 oxford_graduate
@@ -38,17 +38,18 @@ The colours are
 }
 \examples{
 oxford_graduate
-unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view colour palette
+unikn::seecol(oxford_graduate, 
+              main = "Uni Oxford graduate country page colours") # view colour palette
 
 }
 \seealso{
-\code{\link{oxford_brand}} for the brand colours of the University of Oxford;
-\code{\link{oxford_general}} for the general colours of the University of Oxford;
-\code{\link{oxford_link}} for the link colours of the University of Oxford;
-\code{\link{oxford_shades}} for the shade colours of the University of Oxford;
-\code{\link{oxford_blog}} for the blog colours of the University of Oxford;
-\code{\link{oxford_error}} for the error colours of the University of Oxford;
-\code{\link{oxford_socialmedia}} for the social media colours of the University of Oxford;
+\code{\link{oxford_brand}} for the brand colours of University of Oxford;
+\code{\link{oxford_general}} for the general colours of University of Oxford;
+\code{\link{oxford_link}} for the link colours of University of Oxford;
+\code{\link{oxford_shades}} for the shade colours of University of Oxford;
+\code{\link{oxford_blog}} for the blog colours of University of Oxford;
+\code{\link{oxford_error}} for the error colours of University of Oxford;
+\code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
 \code{\link{seecol}} for viewing and comparing colour palettes;
 \code{\link{usecol}} for using colour palettes;
 \code{\link{simcol}} for finding similar colours;
@@ -57,12 +58,18 @@ unikn::seecol(oxford_graduate, main = "Graduate country page colours") # view co
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{dundee_background}},
+\code{\link{dundee_block}},
+\code{\link{dundee_core}},
+\code{\link{dundee_highlight}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
 \code{\link{mcgill_muted}},
 \code{\link{mcgill_pastels}},
 \code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
 \code{\link{oxford_error}},
@@ -70,10 +77,15 @@ Other university colour palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{queens_primary}},
+\code{\link{queens_secondary}},
+\code{\link{sfu_brand}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}}
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-15.

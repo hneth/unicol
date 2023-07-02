@@ -1,6 +1,7 @@
 ## University_of_British_Columbia.R | 2023 06 20
 ## Colors of the University of British Columbia, Canada
-## -----------------------------------------------
+## ----------------------------------------------------
+
 
 # Information: ------
 
@@ -49,8 +50,8 @@
 #' \strong{unicol}, 2023-06-24.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://brand.ubc.ca/guidelines/downloads/ubc-colour-and-fonts/}.
+#' Color definitions are based on the 
+#' \href{https://brand.ubc.ca/guidelines/downloads/ubc-colour-and-fonts/}{UBC Colour and Fonts} guidelines. 
 #'
 #' @examples
 #' ubc1
@@ -67,12 +68,14 @@
 #'
 #' @export
 
-ubc1 <- unikn::newpal(col = c( "#002145", "#FFFFFF", "#0055B7", "#00A7E1", "#40B4E5", "#6EC4E8", "#97D4E9"),
-                           names = c("ubc_blue", "white", "pms_2935", "pms_2995", "pms_298", "pms_297", "pms_2975"),
-                           as_df = FALSE)
+ubc1 <- unikn::newpal(col = c( "#002145", "#FFFFFF", 
+                               "#0055B7", "#00A7E1", "#40B4E5", "#6EC4E8", "#97D4E9"),
+                      names = c("ubc_blue", "white", 
+                                "pms_2935", "pms_2995", "pms_298", "pms_297", "pms_2975"),
+                      as_df = FALSE)
 
 # # Check: 
-#unikn::seecol(ubc1, main = "Primary colors of the University of British Columbia", col_bg = "lightgrey")
+# unikn::seecol(ubc1, main = "Primary colors of the University of British Columbia", col_bg = "lightgrey")
 
 
 
