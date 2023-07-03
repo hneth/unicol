@@ -6,7 +6,7 @@
 
 # uni_pals: "birmingham_1" (1)
 # inst: "University of Birmingham"
-# inst_alt: "Universit\u00E4t Example"
+# inst_alt: "University of Birmingham"
 # country: UK
 # URL: "https://www.birmingham.ac.uk/index.aspx"
 
