@@ -22,7 +22,7 @@
 
 # - ubc1: Primary colors ------
 
-#' Colors of the University of Example
+#' Colors of the University of British Columbia
 #'
 #' \code{ubc1} provides the two primary colors and the secondary colors
 #' of the \href{https://www.ubc.ca/}{University of British Columbia}, Canada.

@@ -6,7 +6,7 @@
 
 # uni_pals: "queens_primary", "queens_secondary" (2)
 # inst: "Queen's University"
-# inst_alt: "Queens's University"
+# inst_alt: "Queen's University"
 # country: Canada
 # URL: "https://www.queensu.ca/"
 
