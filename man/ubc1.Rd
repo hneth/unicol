@@ -3,7 +3,7 @@
 \docType{data}
 \name{ubc1}
 \alias{ubc1}
-\title{Colors of the University of Example}
+\title{Colors of the University of British Columbia}
 \format{
 An object of class \code{character} of length 7.
 }
