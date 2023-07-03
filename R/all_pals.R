@@ -1,4 +1,4 @@
-## all_pals.R | 2022 06 28
+## all_pals.R | 2022 07
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -255,11 +255,11 @@ url <- c(rep("https://www.caltech.edu/", 3),
          rep("https://www.yorku.ca/", 2)
 )
 
+
 # Collect uni_data (as data frame): ------
 
 uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
-
-# uni_data
+# dim(uni_data)
 
 
 ## ToDo: --------
