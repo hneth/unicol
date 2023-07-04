@@ -1,4 +1,4 @@
-## all_pals.R | 2022 07
+## all_pals.R | 2022 07 04
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -117,7 +117,7 @@ inst <- c(rep("Caltech", 3),
           rep("Northwestern University", 2),
           rep("NYU, New York University", 4),
           rep("Oxford University", 8),
-          rep("Queen\u0027s University", 2)
+          rep("Queen\u0027s University", 2), 
           rep("SFU", 1),
           rep("Stanford University", 3),
           rep("University of Toronto", 1),
