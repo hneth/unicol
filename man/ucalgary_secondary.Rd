@@ -101,6 +101,7 @@ Other university colour palettes:
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_warmgreys}},
+\code{\link{uni_heidelberg_1}},
 \code{\link{uvic_complementary}},
 \code{\link{uvic_core}}
 
@@ -132,6 +133,7 @@ Other university colour palettes:
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_warmgreys}},
+\code{\link{uni_heidelberg_1}},
 \code{\link{uvic_complementary}},
 \code{\link{uvic_core}}
 }
