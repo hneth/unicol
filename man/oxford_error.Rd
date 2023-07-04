@@ -49,10 +49,13 @@ unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour pal
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{bu_1}},
 \code{\link{dundee_background}},
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},

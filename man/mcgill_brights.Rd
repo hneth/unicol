@@ -55,10 +55,13 @@ unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour p
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{bu_1}},
 \code{\link{dundee_background}},
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
 \code{\link{mcgill_muted}},

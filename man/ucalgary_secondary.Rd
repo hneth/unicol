@@ -75,10 +75,13 @@ unikn::seecol(ucalgary_secondary, main = "Secondary colours UCalgary") # view co
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{bu_1}},
 \code{\link{dundee_background}},
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
@@ -107,10 +110,13 @@ Other university colour palettes:
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{bu_1}},
 \code{\link{dundee_background}},
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
