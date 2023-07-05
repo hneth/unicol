@@ -1,11 +1,11 @@
 
-# unicol 0.0.0.9012
+# unicol 0.0.0.9014
 
 This is the development version of **unicol**, which is available at <https://github.com/hneth/unicol/>. 
 
 <!-- Log of changes: --> 
 
-The **unicol** package currently provides 136\ color palettes. 
+The **unicol** package currently provides 151\ color palettes. 
 
 We are currently preparing the release of an initial version. 
 
@@ -14,6 +14,6 @@ We are currently preparing the release of an initial version.
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-06-28.] 
+[File `NEWS.md` updated on 2023-07-03.] 
 
 <!-- eof. -->

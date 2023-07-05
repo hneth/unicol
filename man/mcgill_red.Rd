@@ -47,10 +47,13 @@ unikn::seecol(mcgill_red, main = "McGill Red") # view colour palette
 
 Other university colour palettes: 
 \code{\link{birmingham_1}},
+\code{\link{bu_1}},
 \code{\link{dundee_background}},
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
 \code{\link{mcgill_brights}},
 \code{\link{mcgill_darks}},
 \code{\link{mcgill_grey}},
@@ -73,6 +76,7 @@ Other university colour palettes:
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
 \code{\link{ucalgary_warmgreys}},
+\code{\link{uni_heidelberg_1}},
 \code{\link{uvic_complementary}},
 \code{\link{uvic_core}}
 }

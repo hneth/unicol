@@ -3,7 +3,7 @@
 \docType{data}
 \name{ubc1}
 \alias{ubc1}
-\title{Colors of the University of Example}
+\title{Colors of the University of British Columbia}
 \format{
 An object of class \code{character} of length 7.
 }
@@ -170,6 +170,7 @@ Other university color palettes:
 \code{\link{uwaterloo_main}},
 \code{\link{uwaterloo_math}},
 \code{\link{uwaterloo_science}},
+\code{\link{western_uni_1}},
 \code{\link{yale_1}},
 \code{\link{york1}},
 \code{\link{york2}}

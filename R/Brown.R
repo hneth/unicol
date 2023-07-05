@@ -6,7 +6,7 @@
 
 # uni_pals: "brown_1" , "brown_2", "brown_metallic" (3)
 # inst: "Brown University" 
-# inst_alt: "Universit\u00E4t Brown Universiry"
+# inst_alt: "Brown Universiry"
 # country: USA
 # URL: "https://www.brown.edu"
 

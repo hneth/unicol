@@ -6,7 +6,7 @@
 
 # uni_pals: "oxford_brand", "oxford_general", "oxford_link", "oxford_shades", "oxford_blog", "oxford_graduate", "oxford_error", "oxford_socialmedia" (8)
 # inst: "Oxford University"
-# inst_alt: "University of Oxford
+# inst_alt: "University of Oxford"
 # country: England
 # URL: "https://www.ox.ac.uk/"
 
