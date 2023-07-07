@@ -1,6 +1,6 @@
-## lancaster.R | 2023 07 04
+## lancaster.R | 2023 07 07
 ## colours of the Lancaster University, UK 
-## -----------------------------------------------
+## ---------------------------------------
 
 # Information: ------
 
@@ -24,14 +24,13 @@
 #' Primary colours of the Lancaster University
 #'
 #' \code{lancaster_1} provides the three Primary colours 
-#' of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
+#' of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 #'
-#' The three Primary colours are
+#' The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster University} are
 #' \code{"Pantone® 1807"} (defined as HEX: #b5121b)
 #' \code{"Pantone® 429"} (defined as HEX: #bec0c2), and
 #' \code{"Pantone® 432"} (defined as HEX: #555656).
 #' 
-#'
 #' \code{lancaster_1} uses the HEX colour definition. 
 #'
 #' @return 
@@ -71,10 +70,11 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 
 # - lancaster_2: Secondary colours ------
 
-#' Secondary colours of the Lancaster University
+#' Secondary colours of Lancaster University
 #'
-#'This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
-#'certain applications. They too must be used carefully to compliment and enrich the Lancaster University identity.
+#' This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
+#' certain applications. They too must be used carefully to compliment and 
+#' enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}. 
 #'
 #' \code{lancaster_2} provides the twelve secondary colours to complement the signature Primary colours
 #' of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
@@ -117,7 +117,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' \href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/Primary/LUPrimaryGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide}. 
 #'
 #' @examples
-#' lancaster_uni_accent
+#' lancaster_2
 #' unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 #' # view colour palette
 #'
