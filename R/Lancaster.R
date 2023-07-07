@@ -27,9 +27,9 @@
 #' of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 #'
 #' The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster University} are
-#' \code{"Pantone® 1807"} (defined as HEX: #b5121b)
-#' \code{"Pantone® 429"} (defined as HEX: #bec0c2), and
-#' \code{"Pantone® 432"} (defined as HEX: #555656).
+#' \code{"Pantone 1807"} (defined as HEX: #b5121b)
+#' \code{"Pantone 429"} (defined as HEX: #bec0c2), and
+#' \code{"Pantone 432"} (defined as HEX: #555656).
 #' 
 #' \code{lancaster_1} uses the HEX colour definition. 
 #'
@@ -60,7 +60,7 @@
 #' @export
 
 lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
-                             names = c("Pantone® 1807", "Pantone® 429", "Pantone® 432"),
+                             names = c("Pantone 1807", "Pantone 429", "Pantone 432"),
                              as_df = FALSE)
 
 # # Check: 
@@ -80,28 +80,28 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 #'
 #' The 19 secondary colours are 
-#' \code{"Pantone® 5555"} (defined as Hex:557869),
-#' \code{"Pantone® 327"} (defined as Hex: 008375),
-#' \code{"Pantone® 3258"} (defined as Hex: 48B6ADB),
-#' \code{"Pantone® 7707"} (defined as Hex: 006382),
-#' \code{"Pantone® 2377"} (defined as Hex: 324147),
+#' \code{"Pantone 5555"} (defined as Hex:557869),
+#' \code{"Pantone 327"} (defined as Hex: 008375),
+#' \code{"Pantone 3258"} (defined as Hex: 48B6ADB),
+#' \code{"Pantone 7707"} (defined as Hex: 006382),
+#' \code{"Pantone 2377"} (defined as Hex: 324147),
 #' 
-#' \code{"Pantone® 7493"} (defined as Hex: 869978),
-#' \code{"Pantone® 346"} (defined as Hex: 75BF9A),
-#' \code{"Pantone® 5503"} (defined as Hex: 81B8BB),
-#' \code{"Pantone® 643"} (defined as Hex: C4DAE5),
-#' \code{"Pantone® 550"} (defined as Hex: 7faabe),
+#' \code{"Pantone 7493"} (defined as Hex: 869978),
+#' \code{"Pantone 346"} (defined as Hex: 75BF9A),
+#' \code{"Pantone 5503"} (defined as Hex: 81B8BB),
+#' \code{"Pantone 643"} (defined as Hex: C4DAE5),
+#' \code{"Pantone 550"} (defined as Hex: 7faabe),
 #' 
-#' \code{"Pantone® 459"} (defined as Hex: e3cb8b),
-#' \code{"Pantone® 7661"} (defined as Hex: 64606c),
-#' \code{"Pantone® 178"} (defined as Hex: FF7372),
-#' \code{"Pantone® 689"} (defined as Hex: 8A3E65),
-#' \code{"Pantone® 7535"} (defined as Hex: bab6a2),
+#' \code{"Pantone 459"} (defined as Hex: e3cb8b),
+#' \code{"Pantone 7661"} (defined as Hex: 64606c),
+#' \code{"Pantone 178"} (defined as Hex: FF7372),
+#' \code{"Pantone 689"} (defined as Hex: 8A3E65),
+#' \code{"Pantone 7535"} (defined as Hex: bab6a2),
 #' 
-#' \code{"Pantone® 7411"} (defined as Hex: e1ab6c),
-#' \code{"Pantone® 7607"} (defined as Hex: c26763),
-#' \code{"Pantone® 1625"} (defined as Hex: F9A98E), and
-#' \code{"Pantone® 7654"} (defined as Hex: A4769A).
+#' \code{"Pantone 7411"} (defined as Hex: e1ab6c),
+#' \code{"Pantone 7607"} (defined as Hex: c26763),
+#' \code{"Pantone 1625"} (defined as Hex: F9A98E), and
+#' \code{"Pantone 7654"} (defined as Hex: A4769A).
 #' 
 #' 
 #' \code{lancaster_2} uses the HEX colour definition. 
@@ -136,10 +136,10 @@ lancaster_2 <- unikn::newpal(col = c("#557869", "#008375", "#006382", "#006382",
                                      "#869978", "#75BF9A", "#81B8BB", "#C4DAE5", "#7faabe", 
                                      "#e3cb8b", "#64606c", "#FF7372", "#8A3E65", "#bab6a2", 
                                      "#e1ab6c", "#c26763", "#F9A98E", "#A4769A"),
-                             names = c("Pantone® 5555", "Pantone® 327", "Pantone® 3258", "Pantone® 7707", "Pantone® 2377", 
-                                       "Pantone® 7493", "Pantone® 346", "Pantone® 5503", "Pantone® 643", "Pantone® 550", 
-                                       "Pantone® 459", "Pantone® 7661", "Pantone® 178", "Pantone® 689", "Pantone® 7535", 
-                                       "Pantone® 7411", "Pantone® 7607", "Pantone® 1625", "Pantone® 7654"),
+                             names = c("Pantone 5555", "Pantone 327", "Pantone 3258", "Pantone 7707", "Pantone 2377", 
+                                       "Pantone 7493", "Pantone 346", "Pantone 5503", "Pantone 643", "Pantone 550", 
+                                       "Pantone 459", "Pantone 7661", "Pantone 178", "Pantone 689", "Pantone 7535", 
+                                       "Pantone 7411", "Pantone 7607", "Pantone 1625", "Pantone 7654"),
                              as_df = FALSE)
 
 # # Check: 
