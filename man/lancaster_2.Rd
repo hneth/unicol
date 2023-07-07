@@ -3,7 +3,7 @@
 \docType{data}
 \name{lancaster_2}
 \alias{lancaster_2}
-\title{Secondary colours of the Lancaster University}
+\title{Secondary colours of Lancaster University}
 \format{
 An object of class \code{character} of length 19.
 }
@@ -19,7 +19,8 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
-certain applications. They too must be used carefully to compliment and enrich the Lancaster University identity.
+certain applications. They too must be used carefully to compliment and 
+enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}.
 }
 \details{
 \code{lancaster_2} provides the twelve secondary colours to complement the signature Primary colours
@@ -53,7 +54,7 @@ The 19 secondary colours are
 \code{lancaster_2} uses the HEX colour definition.
 }
 \examples{
-lancaster_uni_accent
+lancaster_2
 unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 # view colour palette
 
