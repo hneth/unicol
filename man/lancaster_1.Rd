@@ -23,9 +23,9 @@ of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 }
 \details{
 The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster University} are
-\code{"Pantone® 1807"} (defined as HEX: #b5121b)
-\code{"Pantone® 429"} (defined as HEX: #bec0c2), and
-\code{"Pantone® 432"} (defined as HEX: #555656).
+\code{"Pantone 1807"} (defined as HEX: #b5121b)
+\code{"Pantone 429"} (defined as HEX: #bec0c2), and
+\code{"Pantone 432"} (defined as HEX: #555656).
 
 \code{lancaster_1} uses the HEX colour definition.
 }

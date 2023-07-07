@@ -27,28 +27,28 @@ enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster Un
 of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 
 The 19 secondary colours are 
-\code{"Pantone® 5555"} (defined as Hex:557869),
-\code{"Pantone® 327"} (defined as Hex: 008375),
-\code{"Pantone® 3258"} (defined as Hex: 48B6ADB),
-\code{"Pantone® 7707"} (defined as Hex: 006382),
-\code{"Pantone® 2377"} (defined as Hex: 324147),
+\code{"Pantone 5555"} (defined as Hex:557869),
+\code{"Pantone 327"} (defined as Hex: 008375),
+\code{"Pantone 3258"} (defined as Hex: 48B6ADB),
+\code{"Pantone 7707"} (defined as Hex: 006382),
+\code{"Pantone 2377"} (defined as Hex: 324147),
 
-\code{"Pantone® 7493"} (defined as Hex: 869978),
-\code{"Pantone® 346"} (defined as Hex: 75BF9A),
-\code{"Pantone® 5503"} (defined as Hex: 81B8BB),
-\code{"Pantone® 643"} (defined as Hex: C4DAE5),
-\code{"Pantone® 550"} (defined as Hex: 7faabe),
+\code{"Pantone 7493"} (defined as Hex: 869978),
+\code{"Pantone 346"} (defined as Hex: 75BF9A),
+\code{"Pantone 5503"} (defined as Hex: 81B8BB),
+\code{"Pantone 643"} (defined as Hex: C4DAE5),
+\code{"Pantone 550"} (defined as Hex: 7faabe),
 
-\code{"Pantone® 459"} (defined as Hex: e3cb8b),
-\code{"Pantone® 7661"} (defined as Hex: 64606c),
-\code{"Pantone® 178"} (defined as Hex: FF7372),
-\code{"Pantone® 689"} (defined as Hex: 8A3E65),
-\code{"Pantone® 7535"} (defined as Hex: bab6a2),
+\code{"Pantone 459"} (defined as Hex: e3cb8b),
+\code{"Pantone 7661"} (defined as Hex: 64606c),
+\code{"Pantone 178"} (defined as Hex: FF7372),
+\code{"Pantone 689"} (defined as Hex: 8A3E65),
+\code{"Pantone 7535"} (defined as Hex: bab6a2),
 
-\code{"Pantone® 7411"} (defined as Hex: e1ab6c),
-\code{"Pantone® 7607"} (defined as Hex: c26763),
-\code{"Pantone® 1625"} (defined as Hex: F9A98E), and
-\code{"Pantone® 7654"} (defined as Hex: A4769A).
+\code{"Pantone 7411"} (defined as Hex: e1ab6c),
+\code{"Pantone 7607"} (defined as Hex: c26763),
+\code{"Pantone 1625"} (defined as Hex: F9A98E), and
+\code{"Pantone 7654"} (defined as Hex: A4769A).
 
 
 \code{lancaster_2} uses the HEX colour definition.
