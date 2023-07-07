@@ -28,6 +28,7 @@ The R package **unicol** provides colors and color palettes for various universi
 
 <!-- Course coordinates: --> 
 
+
 The **unicol** package was developed as a collaborative project by the following course:
 
 * **Open Source Software Development in R** (ADILT applications, PSY-18040), at **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
