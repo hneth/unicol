@@ -28,12 +28,11 @@ The four primary colors are
 \code{"medium_blue_manitoba"} (defined as RGB 56/94/157, HEX #385E9D), and
 \code{"light_blue_manitoba"} (defined as RGB 0/163/224, HEX #00A3E0).
 
-
 \code{manitoba_1} uses the HEX color definition.
 }
 \examples{
 manitoba_1
-unikn::seecol(manitoba1, main = "Primary Colors of University of Manitoba") # view color palette
+unikn::seecol(manitoba_1, main = "Primary colors of the University of Manitoba") # view color palette
 
 }
 \seealso{
