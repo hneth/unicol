@@ -3,7 +3,7 @@
 \docType{data}
 \name{manitoba_1}
 \alias{manitoba_1}
-\title{Colors of the University of Manitoba}
+\title{Primary colors of the University of Manitoba}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -32,10 +32,12 @@ The four primary colors are
 }
 \examples{
 manitoba_1
-unikn::seecol(manitoba_1, main = "Primary colors of the University of Manitoba") # view color palette
+unikn::seecol(manitoba_1, 
+              main = "Primary colors of the University of Manitoba") 
 
 }
 \seealso{
+\code{\link{manitoba_2}} for the extended colors of the University of Manitoba; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

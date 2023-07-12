@@ -3,7 +3,7 @@
 \docType{data}
 \name{manitoba_2}
 \alias{manitoba_2}
-\title{Colors of the University of Manitoba}
+\title{Extended colors of the University of Manitoba}
 \format{
 An object of class \code{character} of length 13.
 }
@@ -42,10 +42,12 @@ The 13 colors are
 }
 \examples{
 manitoba_2
-unikn::seecol(manitoba_2, main = "Colors of the University of Manitoba") # view color palette
+unikn::seecol(manitoba_2, 
+              main = "Primary colors of the University of Manitoba") 
 
 }
 \seealso{
+\code{\link{manitoba_1}} for the primary colors of the University of Manitoba; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
