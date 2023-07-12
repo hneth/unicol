@@ -7,7 +7,8 @@
 # uni_pals: "ottawa_1" (1)
 # inst: "University of Ottawa" (in English)
 # inst_alt: "University of Ottawa"
-# countrhttps://www.uottawa.ca/en"
+# country: Canada
+# URL: "https://www.uottawa.ca/en"
 
 # Color source:
 
