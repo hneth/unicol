@@ -38,9 +38,7 @@
 #' \code{"light_grey_ottawa"} (defined as RGB 172/163/154, HEX #ACA39A), and
 #' \code{"cool_grey"} (defined as RGB 200/201/199, HEX #C8C9C7). 
 #' 
-#' 
 #' \code{ottawa_1} uses the HEX color definition. 
-#' 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -49,8 +47,8 @@
 #' \strong{unicol}, 2023-07-04.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.uottawa.ca/about-us/administration-services/brand#:~:text=Vertical%20and%20horizontal%20logo,or%20other%20modifications%20are%20permitted.}{Color Website Ottawa}.
+#' Color definitions are based on UOttawa's 
+#' \href{https://www.uottawa.ca/about-us/administration-services/brand}{brand specifications}.
 #'
 #' @examples
 #' ottawa_1
@@ -67,9 +65,11 @@
 #'
 #' @export
 
-ottawa_1 <- unikn::newpal(col = c("#8F001A", "#80746C","#2D2D2C", "#636d77", "#67796C", "#F2F2F2", "#ACA39A", "#C8C9C7"),
-                           names = c("garnet", "grey_ottawa", "charcoal", "grey_blue", "green_ottawa", "polar_grey", "light_grey_ottawa", "cool_grey"),
-                           as_df = FALSE)
+ottawa_1 <- unikn::newpal(col = c("#8F001A", "#80746C","#2D2D2C", "#636d77", 
+                                  "#67796C", "#F2F2F2", "#ACA39A", "#C8C9C7"),
+                          names = c("garnet", "grey_ottawa", "charcoal", "grey_blue", 
+                                    "green_ottawa", "polar_grey", "light_grey_ottawa", "cool_grey"),
+                          as_df = FALSE)
 
 # # Check: 
 ## unikn::seecol(ottawa_1, main = "Colors of the University of Ottawa", col_bg = "white")
