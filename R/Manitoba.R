@@ -17,13 +17,11 @@
 
 
 
-
 # Color palette(s):
-
 
 # - manitoba_1: Primary colors ------
 
-#' Colors of the University of Manitoba
+#' Primary colors of the University of Manitoba
 #'
 #' \code{maitoba_1} provides the four primary colors 
 #' of the \href{https://umanitoba.ca/}{University of Manitoba}, Canada.
@@ -34,9 +32,7 @@
 #' \code{"medium_blue_manitoba"} (defined as RGB 56/94/157, HEX #385E9D), and
 #' \code{"light_blue_manitoba"} (defined as RGB 0/163/224, HEX #00A3E0).
 #'
-#'
 #' \code{manitoba_1} uses the HEX color definition. 
-#' 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -50,11 +46,13 @@
 #'
 #' @examples
 #' manitoba_1
-#' unikn::seecol(manitoba1, main = "Primary Colors of University of Manitoba") # view color palette
+#' unikn::seecol(manitoba_1, 
+#'               main = "Primary colors of the University of Manitoba") 
 #'
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{manitoba_2}} for the extended colors of the University of Manitoba; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -64,14 +62,14 @@
 #' @export
 
 manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
-                           names = c("brown_manitoba", "gold_manitoba", "medium_blue_manitoba", "light_blue_manitoba"),
-                           as_df = FALSE)
+                            names = c("brown_manitoba", "gold_manitoba", "medium_blue_manitoba", "light_blue_manitoba"),
+                            as_df = FALSE)
 
 
 
 # - manitoba_2: Extended colors ------
 
-#' Colors of the University of Manitoba
+#' Extended colors of the University of Manitoba
 #'
 #' \code{manitoba_2} provides the 13 extended color palette colors 
 #' of the \href{https://umanitoba.ca/}{University of Manitoba}, Canada.
@@ -94,7 +92,6 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #'
 #' \code{manitoba_2} uses the HEX color definition. 
 #' 
-#' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -107,11 +104,13 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #'
 #' @examples
 #' manitoba_2
-#' unikn::seecol(manitoba_2, main = "Colors of the University of Manitoba") # view color palette
+#' unikn::seecol(manitoba_2, 
+#'               main = "Primary colors of the University of Manitoba") 
 #'
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{manitoba_1}} for the primary colors of the University of Manitoba; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -120,9 +119,13 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #'
 #' @export
 
-manitoba_2 <- unikn::newpal(col = c("#3C1053", "#002F6C", "#00BBDC", "#7BAFD4", "#1D3C34", "#006F62", "#00AB8E", "#2CD5C4","#7C878E","#7E7F74","#E87722","#F3D03E","#83786F"),
-                           names = c("PMS_2627", "PMS_294", "PMS_2199", "PMS_542", "PMS_560", "PMS_562", "PMS_3268", "PMS_3255","PMS_430","PMS_416","PMS_158","PMS_129","warm_gray" ),
-                           as_df = FALSE)
+manitoba_2 <- unikn::newpal(col = c("#3C1053", "#002F6C", "#00BBDC", "#7BAFD4", "#1D3C34", 
+                                    "#006F62", "#00AB8E", "#2CD5C4","#7C878E","#7E7F74",
+                                    "#E87722","#F3D03E","#83786F"),
+                            names = c("PMS_2627", "PMS_294", "PMS_2199", "PMS_542", "PMS_560", 
+                                      "PMS_562", "PMS_3268", "PMS_3255", "PMS_430","PMS_416",
+                                      "PMS_158","PMS_129","warm_gray" ),
+                            as_df = FALSE)
 
 # # Check: 
 ## unikn::seecol(manitoba_1, main = "Primary colors of the University of Manitoba", col_bg = "white")
