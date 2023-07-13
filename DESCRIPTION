@@ -2,7 +2,7 @@ Package: unicol
 Type: Package
 Title: The colors of your university 
 Version: 0.0.0.9017
-Date: 2023-07-12
+Date: 2023-07-13
 Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")))
 Maintainer: Hansjoerg Neth <h.neth@uni.kn>
 Description: The 'unicol' package provides the colors and color palettes of various universities for plotting and printing in R. 
