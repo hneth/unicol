@@ -289,15 +289,11 @@ url <- c(rep("https://www.caltech.edu/", 3),
 uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(uni_data)
 
-uni_data$pal[duplicated(uni_data$pal)]
+# Descriptive stats:
+# uni_data$pal[duplicated(uni_data$pal)]  # duplicates?
 
-length(uni_data$pal)  # 168
-
-
-
-unique(uni_data$pal) # 66 (2023-07-13)
-
-length(unique(uni_data$inst)) # 66 (2023-07-13)
+# length(uni_data$pal)  # 164 color palettes (on 2023-07-13)
+# length(unique(uni_data$inst)) # 65 institutions (2023-07-13)
 
 
 ## ToDo: --------
