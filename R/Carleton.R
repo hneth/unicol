@@ -27,10 +27,12 @@
 #' of the \href{https://carleton.ca/}{University of Carleton}, Canada.
 #'
 #' The two official colors are
-#' \code{"maize"} (defined as Pantone 122, RGB 255/223/79, or HEX #FFDF4F), and
-#' \code{"blue_carleton"} (defined as Pantone 294, RGB 0/48/105, or HEX #003069).
+#' \code{"maize"} (defined as Pantone 122, 
+#' and approximated by RGB 255/223/79, or HEX #FFDF4F), and
+#' \code{"blue_carleton"} (defined as Pantone 294, 
+#' and approximated by RGB 0/48/105, or HEX #003069).
 #'
-#' \code{carleton_1} uses the HEX color definition. 
+#' \code{carleton_1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -59,8 +61,8 @@
 #' @export
 
 carleton_1 <- unikn::newpal(col = c("#FFDF4F", "#003069"),
-                           names = c("maize", "blue_carleton"),
-                           as_df = FALSE)
+                            names = c("maize", "blue_carleton"),
+                            as_df = FALSE)
 
 # # Check: 
 ## unikn::seecol(carleton_1, main = "Official colors of the University of Carleton", col_bg = "white")

@@ -23,10 +23,12 @@ of the \href{https://carleton.ca/}{University of Carleton}, Canada.
 }
 \details{
 The two official colors are
-\code{"maize"} (defined as Pantone 122, RGB 255/223/79, or HEX #FFDF4F), and
-\code{"blue_carleton"} (defined as Pantone 294, RGB 0/48/105, or HEX #003069).
+\code{"maize"} (defined as Pantone 122, 
+and approximated by RGB 255/223/79, or HEX #FFDF4F), and
+\code{"blue_carleton"} (defined as Pantone 294, 
+and approximated by RGB 0/48/105, or HEX #003069).
 
-\code{carleton_1} uses the HEX color definition.
+\code{carleton_1} uses the HEX color definitions.
 }
 \examples{
 carleton_1
