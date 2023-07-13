@@ -1,6 +1,6 @@
-## UCalgary.R | 2023 06 20
-## Colours of University of Calgary, Canada 
-## ----------------------------------------
+## UCalgary.R | 2023 07 13
+## Colours of the University of Calgary, Canada 
+## --------------------------------------------
 
 # Information: ------
 
@@ -21,7 +21,7 @@
 
 # - ucalgary_primary: Primary Colours ------
 
-#' Primary colours of University of Calgary
+#' Primary colours of the University of Calgary
 #'
 #' \code{ucalgary_primary} provides the two primary colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -47,9 +47,9 @@
 #' @family university colour palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_secondary}} for the secondary colours of University of Calgary;
-#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of University of Calgary;
-#' \code{\link{ucalgary_accent}} for the accent colours of University of Calgary;
+#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
+#' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -59,8 +59,8 @@
 #' @export
 
 ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
-                           names = c("red", "gold"),
-                           as_df = FALSE)
+                                  names = c("red", "gold"),
+                                  as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(ucalgary_primary, main = "Primary colours of University of Calgary")
@@ -70,7 +70,7 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 
 # - ucalgary_secondary: Secondary colours ------
 
-#' Secondary colours of University of Calgary
+#' Secondary colours of the University of Calgary
 #'
 #' \code{ucalgary_secondary} provides the four secondary colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -98,9 +98,9 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' @family university colour palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of University of Calgary;
-#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of University of Calgary;
-#' \code{\link{ucalgary_accent}} for the accent colours of University of Calgary;
+#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
+#' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -110,11 +110,11 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' @export
 
 ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
-                                  names = c("light_orange", "dark_orange", "berry", "brown"),
-                                  as_df = FALSE)
+                                    names = c("light_orange", "dark_orange", "berry", "brown"),
+                                    as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ucalgary_secondary, main = "Secondary colours of University of Calgary", col_bg = "lightgrey")
+# unikn::seecol(ucalgary_secondary, main = "Secondary colours of the University of Calgary", col_bg = "lightgrey")
 
 
 
@@ -122,7 +122,7 @@ ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6
 
 # - ucalgary_warmgreys: Warm grey colours ------
 
-#' Warm grey colours of University of Calgary
+#' Warm grey colours of the University of Calgary
 #'
 #' \code{ucalgary_warmgreys} provides the warm greys 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -148,9 +148,9 @@ ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6
 #' @family university colour palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of University of Calgary;
-#' \code{\link{ucalgary_secondary}} for the secondary colours of University of Calgary;
-#' \code{\link{ucalgary_accent}} for the accent colours of University of Calgary;
+#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -164,14 +164,14 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
                                     as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ucalgary_warmgreys, main = "Warm greys of University of Calgary", col_bg = "lightgrey")
+# unikn::seecol(ucalgary_warmgreys, main = "Warm greys of the University of Calgary", col_bg = "lightgrey")
 
 
 
 
 # - ucalgary_accent: Accent colours ------
 
-#' Accent colours of University of Calgary
+#' Accent colours of the University of Calgary
 #'
 #' \code{ucalgary_accent} provides the accent colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -200,9 +200,9 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' @family university colour palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of University of Calgary;
-#' \code{\link{ucalgary_secondary}} for the secondary colours of University of Calgary;
-#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of University of Calgary;
+#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -212,11 +212,11 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' @export
 
 ucalgary_accent <- unikn::newpal(col = c("#000000", "#ffffff", "#ce0058", "#b5bd00"),
-                                    names = c("black", "white", "rubine", "green"),
-                                    as_df = FALSE)
+                                 names = c("black", "white", "rubine", "green"),
+                                 as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ucalgary_accent,main = "Accent colours of University of Calgary", col_bg = "lightgrey")
+# unikn::seecol(ucalgary_accent,main = "Accent colours of the University of Calgary", col_bg = "lightgrey")
 
 
 

@@ -1,4 +1,4 @@
-## all_pals.R | 2022 07 04
+## all_pals.R | 2022 07 13
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -32,7 +32,6 @@ uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "ubc1", 
               "brown_1", "brown_2", 
               "bu_1", 
-              "ucalgary_primary", "ucalgary_secondary", "ucalgary_warmgreys", "ucalgary_accent", 
               "caltech_1", "caltech_2", "caltech_3", 
               "chicago_1", "chicago_2", 
               "CMU_1_core", "CMU_2_tartan", "CMU_3_campus", 
@@ -102,7 +101,6 @@ inst <- c(rep("Caltech", 3),
           rep("University of British Columbia", 1),
           rep("Brown University", 2),
           rep("Boston University", 1),
-          rep("University of Calgary", 4),
           rep("Caltech", 3),
           rep("University of Chicago", 2),
           rep("CMU, Carnegie Mellon University", 3),
@@ -172,7 +170,6 @@ inst_alt <- c(rep("California Institute of Technology", 3),
               rep("University of British Columbia", 1),
               rep("Brown Universiry", 2),
               rep("Boston University", 1),
-              rep("UCalgary", 4),
               rep("California Institute of Technology", 3),
               rep("University of Chicago", 2),
               rep("CMU, Carnegie Mellon University", 3),
@@ -242,7 +239,6 @@ url <- c(rep("https://www.caltech.edu/", 3),
          rep("https://www.ubc.ca/", 1),
          rep("https://www.brown.edu", 2),
          rep("https://www.bu.edu", 1),
-         rep("https://www.ucalgary.ca/", 4),
          rep("https://www.caltech.edu/", 3),
          rep("https://www.uchicago.edu/", 2),
          rep("https://www.cmu.edu", 3),
@@ -292,6 +288,16 @@ url <- c(rep("https://www.caltech.edu/", 3),
 
 uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(uni_data)
+
+uni_data$pal[duplicated(uni_data$pal)]
+
+length(uni_data$pal)  # 168
+
+
+
+unique(uni_data$pal) # 66 (2023-07-13)
+
+length(unique(uni_data$inst)) # 66 (2023-07-13)
 
 
 ## ToDo: --------
