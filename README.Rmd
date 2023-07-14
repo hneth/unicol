@@ -21,12 +21,12 @@ knitr::opts_chunk$set(
 
 The colors of your university.
 
-
 ## Goal
 
 The R package **unicol** provides colors and color palettes for various universities. 
 
 <!-- Course coordinates: --> 
+
 
 The **unicol** package was developed as a collaborative project by the following course:
 

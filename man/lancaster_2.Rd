@@ -3,7 +3,7 @@
 \docType{data}
 \name{lancaster_2}
 \alias{lancaster_2}
-\title{Secondary colours of the Lancaster University}
+\title{Secondary colours of Lancaster University}
 \format{
 An object of class \code{character} of length 19.
 }
@@ -19,41 +19,42 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
-certain applications. They too must be used carefully to compliment and enrich the Lancaster University identity.
+certain applications. They too must be used carefully to compliment and 
+enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}.
 }
 \details{
 \code{lancaster_2} provides the twelve secondary colours to complement the signature Primary colours
 of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
 
 The 19 secondary colours are 
-\code{"Pantone® 5555"} (defined as Hex:557869),
-\code{"Pantone® 327"} (defined as Hex: 008375),
-\code{"Pantone® 3258"} (defined as Hex: 48B6ADB),
-\code{"Pantone® 7707"} (defined as Hex: 006382),
-\code{"Pantone® 2377"} (defined as Hex: 324147),
+\code{"Pantone 5555"} (defined as Hex:557869),
+\code{"Pantone 327"} (defined as Hex: 008375),
+\code{"Pantone 3258"} (defined as Hex: 48B6ADB),
+\code{"Pantone 7707"} (defined as Hex: 006382),
+\code{"Pantone 2377"} (defined as Hex: 324147),
 
-\code{"Pantone® 7493"} (defined as Hex: 869978),
-\code{"Pantone® 346"} (defined as Hex: 75BF9A),
-\code{"Pantone® 5503"} (defined as Hex: 81B8BB),
-\code{"Pantone® 643"} (defined as Hex: C4DAE5),
-\code{"Pantone® 550"} (defined as Hex: 7faabe),
+\code{"Pantone 7493"} (defined as Hex: 869978),
+\code{"Pantone 346"} (defined as Hex: 75BF9A),
+\code{"Pantone 5503"} (defined as Hex: 81B8BB),
+\code{"Pantone 643"} (defined as Hex: C4DAE5),
+\code{"Pantone 550"} (defined as Hex: 7faabe),
 
-\code{"Pantone® 459"} (defined as Hex: e3cb8b),
-\code{"Pantone® 7661"} (defined as Hex: 64606c),
-\code{"Pantone® 178"} (defined as Hex: FF7372),
-\code{"Pantone® 689"} (defined as Hex: 8A3E65),
-\code{"Pantone® 7535"} (defined as Hex: bab6a2),
+\code{"Pantone 459"} (defined as Hex: e3cb8b),
+\code{"Pantone 7661"} (defined as Hex: 64606c),
+\code{"Pantone 178"} (defined as Hex: FF7372),
+\code{"Pantone 689"} (defined as Hex: 8A3E65),
+\code{"Pantone 7535"} (defined as Hex: bab6a2),
 
-\code{"Pantone® 7411"} (defined as Hex: e1ab6c),
-\code{"Pantone® 7607"} (defined as Hex: c26763),
-\code{"Pantone® 1625"} (defined as Hex: F9A98E), and
-\code{"Pantone® 7654"} (defined as Hex: A4769A).
+\code{"Pantone 7411"} (defined as Hex: e1ab6c),
+\code{"Pantone 7607"} (defined as Hex: c26763),
+\code{"Pantone 1625"} (defined as Hex: F9A98E), and
+\code{"Pantone 7654"} (defined as Hex: A4769A).
 
 
 \code{lancaster_2} uses the HEX colour definition.
 }
 \examples{
-lancaster_uni_accent
+lancaster_2
 unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 # view colour palette
 
