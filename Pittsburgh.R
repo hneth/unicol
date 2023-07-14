@@ -1,4 +1,7 @@
-library (unikn)
+##Pittsburgh.R|2023-07-05
+##Colors of the University of Pittsburgh, USA
+#---------------------------------------------
+
 #Information
 #uni_pals: "pal_pittsburgh_contemporary", "pal_pittsburgh_legacy" (2)
 #inst: "University of Pittsburgh"
@@ -13,7 +16,7 @@ library (unikn)
 #-pal_pittsburgh_contemporary: Contemporary colors
 #'Colors of the university of Pittyburgh
 #'
-#'\code{pal_pittsburgh_primary} provides the 2 contemporary colors of the \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}{University of Pittsburgh},USA
+#'\code{pal_pittsburgh_primary} provides the 2 contemporary colors of the \href{https://www.pitt.edu/}{University of Pittsburgh},USA
 #'
 #'The 2 contemporary colors are
 #'\code {"pittsburgh_royal"} (defined as HEX #003594),
@@ -55,7 +58,7 @@ pal_pittsburgh_contemporary <- unikn::newpal(col = c("#003594","#FFB81C"), names
 
 #'Colors of the University of Pittsburgh
 #'
-#'\code{pal_pittsburgh} provides the 3 colors of the \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}, USA.
+#'\code{pal_pittsburgh} provides the 3 colors of the \href{https://www.pitt.edu/}, USA.
 #'
 #'The legacy colors are
 #'\code{"pittsburgh_dark_blue"}(defined as HEX #141B4D),
@@ -89,7 +92,7 @@ pal_pittsburgh_contemporary <- unikn::newpal(col = c("#003594","#FFB81C"), names
 pal_pittsburgh_legacy <- unikn::newpal(col=c("#141B4D","#00205B","#B58500"), names=c("pittsburgh_dark_blue","pittsburgh_medium_blue","pittsburgh_dark_gold"), as_df=FALSE)
 
 ##Check:
-#unikn::seecol(pal_pittsburgh_legacy, main="Legacy colors of the University of Pittsburgh")
+#unikn::seecol(pal_pittsburgh_legacy, main="Legacy colors of the University of Pittsburgh", col_bg="pittsburgh_dark_blue")
 
 ##ToDo:------
 
