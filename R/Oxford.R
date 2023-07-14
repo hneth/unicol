@@ -320,7 +320,7 @@ name_socialmedia_11 <- "instagram"
 #' oxford_brand
 #' unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_general}} for the general colours of University of Oxford;
@@ -385,7 +385,7 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 #' oxford_general
 #' unikn::seecol(oxford_general, main = "Uni Oxford general colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -448,7 +448,7 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 #' oxford_link
 #' unikn::seecol(oxford_link, main = "Uni Oxford link colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -506,7 +506,7 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #' oxford_shades
 #' unikn::seecol(oxford_shades, main = "Uni Oxford shade colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -563,7 +563,7 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 #' oxford_blog
 #' unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -628,7 +628,7 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #' unikn::seecol(oxford_graduate, 
 #'               main = "Uni Oxford graduate country page colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -683,7 +683,7 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 #' oxford_error
 #' unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -744,7 +744,7 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 #' oxford_socialmedia
 #' unikn::seecol(oxford_socialmedia, main = "Uni Oxford social media colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;

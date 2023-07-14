@@ -53,7 +53,7 @@
 #' sfu_brand
 #' unikn::seecol(sfu_brand, main = "SFU Brand Colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;

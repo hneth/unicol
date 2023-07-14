@@ -53,7 +53,7 @@
 #' mcmaster_heritage
 #' unikn::seecol(mcmaster_heritage, main = "McMaster Heritage Colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{mcmaster_brighterworld}} for the brighter world colours of McMaster University; 
@@ -119,7 +119,7 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 #' mcmaster_brighterworld
 #' unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{mcmaster_heritage}} for the heritage colours of McMaster University;

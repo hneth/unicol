@@ -54,7 +54,7 @@
 #' queens_primary
 #' unikn::seecol(queens_primary, main = "Primary colours of Queen's University") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{queens_secondary}} for the secondary colours of Queen's University;
@@ -115,7 +115,7 @@ queens_primary <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #' unikn::seecol(queens_secondary, 
 #'               main = "Secondary colours of Queen's University") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{queens_primary}} for the primary colours of Queen's University;

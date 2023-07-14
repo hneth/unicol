@@ -49,7 +49,7 @@
 #' unikn::seecol(uni_heidelberg_1, main = "Official colours of the University of Heidelberg") 
 #' # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

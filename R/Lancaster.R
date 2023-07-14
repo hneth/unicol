@@ -48,7 +48,7 @@
 #' unikn::seecol(lancaster_1, main = "Primary colours of Lancaster University", col_bg = "white") 
 #' # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
@@ -121,7 +121,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 #' # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;

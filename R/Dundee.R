@@ -51,7 +51,7 @@
 #' dundee_core
 #' unikn::seecol(dundee_core, main = "Dundee core colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{dundee_highlight}} for the highlight colours of University of Dundee;
@@ -106,7 +106,7 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #' dundee_highlight
 #' unikn::seecol(dundee_highlight, main = "Dundee highlight colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{dundee_core}} for the core colour of University of Dundee;
@@ -169,7 +169,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' dundee_block
 #' unikn::seecol(dundee_block, main = "Dundee block colours") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{dundee_core}} for the core colour of University of Dundee;
@@ -227,7 +227,7 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' dundee_background
 #' unikn::seecol(dundee_background, main = "Dundee background colour") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{dundee_core}} for the core colours of the University of Dundee;

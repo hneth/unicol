@@ -47,11 +47,11 @@
 #' @source
 #' Color definitions are based on the \href{gla.ac.uk}{University of Glasgow's website}.
 #'
-#' @example
+#' @examples 
 #' pal_glasgow_1
 #' unikn::seecol(pal_glasgow_1, main = "University of Glasgow") # view color palette
 #'
-#' @family university of color palettes
+#' @family university color palettes
 #'
 #' seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

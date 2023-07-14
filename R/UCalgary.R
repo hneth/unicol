@@ -44,7 +44,7 @@
 #' ucalgary_primary
 #' unikn::seecol(ucalgary_primary, main = "Primary colours UCalgary") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
@@ -95,7 +95,7 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' ucalgary_secondary
 #' unikn::seecol(ucalgary_secondary, main = "Secondary colours UCalgary") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
@@ -145,7 +145,7 @@ ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6
 #' ucalgary_secondary
 #' unikn::seecol(ucalgary_warmgreys, main = "Warm greys UCalgary") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
@@ -197,7 +197,7 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' unikn::seecol(ucalgary_accent, 
 #'               main = "Accent colours UCalgary", col_bg = "lightgrey") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;

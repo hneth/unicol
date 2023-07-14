@@ -57,7 +57,7 @@
 #' uvic_core
 #' unikn::seecol(uvic_core, main = "UVic core palette") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{uvic_complementary}} for the complementary colour palette of University of Victoria;
@@ -119,7 +119,7 @@ uvic_core <- unikn::newpal(col = c("#005493", "#F5AA1C", "#C63527", "#002754"),
 #' uvic_complementary
 #' unikn::seecol(uvic_complementary, main = "UVic complementary colour palette") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{uvic_core}} for the core colour palette of University of Victoria;

@@ -52,7 +52,7 @@
 #' mcgill_red
 #' unikn::seecol(mcgill_red, main = "McGill Red") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_pastels}} for the pastel colours of McGill;
@@ -113,7 +113,7 @@ mcgill_red <- unikn::newpal(col = c("#ed1b2f"),
 #' mcgill_pastels
 #' unikn::seecol(mcgill_pastels, main = "Pastel colours of McGill") # view colour palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}};
@@ -174,7 +174,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  #' mcgill_brights
  #' unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour palette
  #'
- #' @family university colour palettes
+ #' @family university color palettes
  #'
  #' @seealso
  #' \code{\link{mcgill_red}};
@@ -235,7 +235,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  #' mcgill_muted
  #' unikn::seecol(mcgill_muted, main = "Muted colours of McGill") # view colour palette
  #'
- #' @family university colour palettes
+ #' @family university color palettes
  #'
  #' @seealso
  #' \code{\link{mcgill_red}};
@@ -296,7 +296,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  #' mcgill_darks
  #' unikn::seecol(mcgill_darks, main = "Dark colours of McGill") # view colour palette
  #'
- #' @family university colour palettes
+ #' @family university color palettes
  #'
  #' @seealso
  #' \code{\link{mcgill_red}};
@@ -351,7 +351,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
  #' mcgill_grey
  #' unikn::seecol(mcgill_grey, main = "Cool Grey of McGill") # view colour palette
  #'
- #' @family university colour palettes
+ #' @family university color palettes
  #'
  #' @seealso
  #' \code{\link{mcgill_red}};
