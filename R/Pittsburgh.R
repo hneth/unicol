@@ -34,12 +34,12 @@
 #' Color definitions are based in the 
 #' \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}{Pitt's brand website}.
 #'
-#' @example
+#' @examples 
 #' pal_pittsburgh_1
 #' unikn::seecol(pal_pittsburgh_1, 
 #'               main = "Contemporary colors") # view color palette
 #'
-#' @family university colour palettes
+#' @family university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
