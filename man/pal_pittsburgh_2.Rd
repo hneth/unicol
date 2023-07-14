@@ -18,7 +18,8 @@ pal_pittsburgh_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{pal_pittsburgh_2} provides the 3 colors of the \href{https://www.pitt.edu/}, USA.
+\code{pal_pittsburgh_2} provides the 3 legacy colors of the 
+\href{https://www.pitt.edu/}{University of Pittsburgh}, USA.
 }
 \details{
 The three legacy colors are

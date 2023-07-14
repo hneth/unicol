@@ -18,7 +18,8 @@ pal_msu
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code {pal_msu} provides the 6 colors of \href{https://msu.edu/}{Michigan State University}, USA.
+\code{pal_msu} provides the 6 core colors of 
+\href{https://msu.edu/}{Michigan State University}, USA.
 }
 \details{
 The 6 colors are

@@ -18,7 +18,7 @@ pal_minnesotatwin_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code(pal_minnesotatwin_2) provides the 8 secondary colors
+\code{pal_minnesotatwin_2} provides the 8 secondary colors
 of the \href{https://twin-cities.umn.edu/}{University of Minnesota Twin Cities}, USA.
 }
 \details{
