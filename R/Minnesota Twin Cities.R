@@ -62,12 +62,12 @@ pal_minnesotatwin_1 <- unikn::newpal(col=c("#7A0019","#FFCC33"),
                                      as_df=FALSE)
 
 
-# pal_minnesotatwin_2: Secondary colors of UMN ------
 
+# pal_minnesotatwin_2: Secondary colors of UMN ------
 
 #' Secondary colors of the University of Minnesota Twin Cities
 #'
-#' \code(pal_minnesotatwin_2) provides the 8 secondary colors
+#' \code{pal_minnesotatwin_2} provides the 8 secondary colors
 #' of the \href{https://twin-cities.umn.edu/}{University of Minnesota Twin Cities}, USA.
 #'
 #' The 8 secondary colors are
