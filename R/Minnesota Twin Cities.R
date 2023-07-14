@@ -27,7 +27,7 @@
 #' \code{"minnesotatwin_maroon"} (defined as HEX #7A0019) and
 #' \code{"minnesotatwin_gold"} (defined as HEX #FFCC33).
 #'
-#' \code {pal_minnesotatwin_1} uses the HEX color definition.
+#' \code{pal_minnesotatwin_1} uses the HEX color definition.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

@@ -63,7 +63,8 @@ pal_pittsburgh_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 
 #' Legacy colors of the University of Pittsburgh
 #'
-#' \code{pal_pittsburgh_2} provides the 3 colors of the \href{https://www.pitt.edu/}, USA.
+#' \code{pal_pittsburgh_2} provides the 3 legacy colors of the 
+#' \href{https://www.pitt.edu/}{University of Pittsburgh}, USA. 
 #'
 #' The three legacy colors are
 #' \code{"pittsburgh_dark_blue"}(defined as HEX #141B4D),
