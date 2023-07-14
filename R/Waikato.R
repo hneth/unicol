@@ -1,18 +1,19 @@
 ## Waikato.R|2023-07-05
 ## Colors of the University of Waikato, New Zealand
-## -----------------------------------------------
+## ------------------------------------------------
 
-#Information
-#uni_pals:"pal_waikato" (1)
-#inst:"University of Waikato"
-#country: New Zealand
+# Information
+# uni_pals:"pal_waikato" (1)
+# inst:"University of Waikato"
+# country: New Zealand
 
-#Color source:
-#URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
+# Color source:
+# URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
 
-#Color palettes
+# Color palettes
 
-#-pal_waikato_web: Official web colors------
+
+# pal_waikato_web: Official web colors ------
 
 #' Colors of the University of Waikato, NZ 
 #'
@@ -36,7 +37,7 @@
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author
-#' \strong(unicol), 2023-07-05.
+#' \strong{unicol}, 2023-07-05.
 #'
 #' @source
 #' Color definitions are based on the 
@@ -55,7 +56,7 @@
 #' \code{\link{newpal}} for defining new color palettes;
 #' \code{\link{grepal}} for finding named colors.
 #' 
-#'@export 
+#' @export 
 
 pal_waikato <- unikn::newpal(col = c("#D40100","#BE0403","#AA0000","#FAA61A",
                                      "#E79000","#353535","#32373D","#F2F2F2"), 

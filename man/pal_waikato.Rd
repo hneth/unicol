@@ -221,7 +221,7 @@ Other university color palettes:
 \code{\link{york2}}
 }
 \author{
-\strong(unicol), 2023-07-05.
+\strong{unicol}, 2023-07-05.
 }
 \concept{university color palettes}
 \keyword{datasets}
