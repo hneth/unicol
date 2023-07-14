@@ -12,7 +12,8 @@
 
 #' Colors of Michigan State University
 #'
-#' \code {pal_msu} provides the 6 colors of \href{https://msu.edu/}{Michigan State University}, USA.
+#' \code{pal_msu} provides the 6 core colors of 
+#' \href{https://msu.edu/}{Michigan State University}, USA.
 #'
 #' The 6 colors are
 #' \code{"Spartan_Green_msu"} (defined as HEX #18453B),
