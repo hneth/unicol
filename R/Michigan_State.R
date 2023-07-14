@@ -8,7 +8,7 @@
 
 # Color palettes
 
-# MSU1: core colors ------
+# pal_msu: core colors ------
 
 #' Colors of Michigan State University
 #'
@@ -19,7 +19,7 @@
 #' \code{"White"} (defined as HEX #FFFFFF),
 #' \code{"Black"} (defined as HEX #000000),
 #' \code{"kelly_green_msu"} (defined as HEX #008208),
-#' \code{"lime_green_msu"} (defined as HEX #7BBD00) and
+#' \code{"lime_green_msu"} (defined as HEX #7BBD00), and
 #' \code{"excellence_green_msu"} (defined as HEX #0B9A6D).
 #'
 #' \code{pal_msu} uses the HEX color definition. 
@@ -36,7 +36,8 @@
 #' 
 #' @examples 
 #' pal_msu
-#' unikn::seecol(pal_msu, main = "Michigan State University") # view color palette
+#' unikn::seecol(pal_msu, 
+#'               main = "Colors of Michigan State University") # view color palette
 #' 
 #' @family university color palettes
 #' 
