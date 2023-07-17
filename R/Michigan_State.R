@@ -2,6 +2,7 @@
 # uni_pals:"pal_msu"
 # inst:"Michigan State University" (in English)
 # country: USA
+# URL: "https://msu.edu/"
 
 # Color source
 # URL: https://brand.emory.edu/color.html
