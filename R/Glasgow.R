@@ -73,7 +73,7 @@ pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94
 
 
 
-# pal_glasgow_2: Secondary colors----
+# pal_glasgow_2: Secondary colors ----
 
 #' Secondary colors of the University of Glasgow, Scotland
 #'
@@ -112,7 +112,7 @@ pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94
 #' \code{\link{newpal}} for defining new color palettes;
 #' \code{\link{grepal}} for finding named colors.
 #'
-#'@export
+#' @export
 
 pal_glasgow_2 <- unikn::newpal(col = c(rgb(0, 181, 209, maxColorValue = 255), 
                                        rgb(176, 108, 150, maxColorValue = 255), 
@@ -123,8 +123,8 @@ pal_glasgow_2 <- unikn::newpal(col = c(rgb(0, 181, 209, maxColorValue = 255),
                                          "glasgow_pumpkin", "glasgow_sunshine", 
                                          "glasgow_mocha"), 
                                as_df = FALSE)
-## Check:
 
+## Check:
 # unikn::seecol(pal_glasgow_1, main= "University of Glasgow", col_bg= "glasgow_burgundy")
 # unikn::seecol(pal_glasgow_2, main = "University of Glasgow", col_bg= "glasgow_rose")
 
