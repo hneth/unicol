@@ -3,13 +3,13 @@
 \docType{data}
 \name{pal_waikato}
 \alias{pal_waikato}
-\title{Colors of the University of Waikato, NZ}
+\title{Colors of the University of Waikato}
 \format{
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on the 
-\href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{University of Waikato's website}.
+Color definitions are based on the
+\href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}.
 }
 \usage{
 pal_waikato
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{pal_waikato} provides the 8 official web colors 
-of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
+of the \href{https://www.waikato.ac.nz/}{University of Waikato}, Newseeland.
 }
 \details{
 The 8 official web colors are
@@ -29,7 +29,7 @@ The 8 official web colors are
 \code{"waikato_light_yellow"}(defined as HEX #FAA61A),
 \code{"waikato_darker_yellow"}(defines as HEX #E79000),
 \code{"waikato_dark_grey"}(defined as HEX #353535),
-\code{"waikato_blue_grey"}(defined as HEX #32373D), and
+\code{"waikato_blue_grey"}(defined as HEX #32373D) and
 \code{"waikato_light_grey"}(defined as HEX #F2F2F2).
 
 
@@ -37,7 +37,7 @@ The 8 official web colors are
 }
 \examples{
 pal_waikato
-unikn::seecol(pal_waikato, main = "University of Waikato") # view color palettes
+unikn::seecol(pal_waikato, main="University of Waikato") #view color palettes
 
 }
 \seealso{
@@ -142,10 +142,24 @@ Other university color palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
+\code{\link{pal_asu_primary}},
+\code{\link{pal_dartmouth_1}},
+\code{\link{pal_galway_1}},
+\code{\link{pal_kassel_haus}},
+\code{\link{pal_limerick_1}},
 \code{\link{pal_minnesotatwin_2}},
-\code{\link{pal_msu}},
-\code{\link{pal_pittsburgh_1}},
-\code{\link{pal_pittsburgh_2}},
+\code{\link{pal_minnesotatwin_secondary}},
+\code{\link{pal_notredame_primary}},
+\code{\link{pal_pittsburgh_legacy}},
+\code{\link{pal_potsdam}},
+\code{\link{pal_standrews_1}},
+\code{\link{pal_standrews_2}},
+\code{\link{pal_trinity_1}},
+\code{\link{pal_uci_1}},
+\code{\link{pal_uflorida_primary}},
+\code{\link{pal_vanderbiltu_core}},
+\code{\link{pal_vanderbiltu_santurated}},
+\code{\link{pal_yeshivau}},
 \code{\link{princeton_0}},
 \code{\link{princeton_1}},
 \code{\link{princeton_2}},
@@ -165,7 +179,6 @@ Other university color palettes:
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
 \code{\link{ucalgary_warmgreys}},
-\code{\link{uflorida_1}},
 \code{\link{ug_1}},
 \code{\link{umass_2}},
 \code{\link{umass_brand}},
@@ -221,7 +234,7 @@ Other university color palettes:
 \code{\link{york2}}
 }
 \author{
-\strong{unicol}, 2023-07-05.
+\strong(unicol), 2023-07-05.
 }
 \concept{university color palettes}
 \keyword{datasets}

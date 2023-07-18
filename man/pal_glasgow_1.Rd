@@ -8,7 +8,8 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the \href{gla.ac.uk}{University of Glasgow's website}.
+Color definitions are based on the 
+\href{gla.ac.uk}.
 }
 \usage{
 pal_glasgow_1
@@ -32,25 +33,25 @@ The 12 primary colors are
 \code{"glasgow_rust"}(defines as HEX #9A3A06),
 \code{"glasgow_sandstone"}(defines as HEX #52473B),
 \code{"glasgow_sky_blue"}(defines as HEX #005398),
-\code{"glasgow_slate"}(defines as HEX #4F5961) and
+\code{"glasgow_slate"}(defines as HEX #4F5961), and
 \code{"glasgow_thistle"}(defines as HEX #951272).
 
 \code{pal_glasgow_1}uses the HEX color definition.
 }
-\examples{
-pal_glasgow_1
-unikn::seecol(pal_glasgow_1, main = "University of Glasgow") # view color palette
-
-}
-\author{
-\strong{unicol}, 2023-07-05.
-}
-\concept{university color palettes
-
-seealso
+\seealso{
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.}
+\code{\link{grepal}} for finding named colors.
+
+Other university of color palettes: 
+\code{\link{pal_glasgow_2}},
+\code{\link{pal_minnesotatwin_1}},
+\code{\link{pal_minnesotatwin_primary}}
+}
+\author{
+\strong{unicol}, 2023-07-05.
+}
+\concept{university of color palettes}
 \keyword{datasets}
