@@ -57,7 +57,7 @@
 
 pal_yeshivau <- unikn::newpal(col = c("#325A89","#000000","#85878A"), 
                               names = c("yeshiva_blue", "yeshiva_black", "yeshiva_gray"), 
-                              as_df = FLASE)
+                              as_df = FALSE)
 
 
 ## Check: 
