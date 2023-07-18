@@ -15,7 +15,7 @@
 
 # Color palettes:
 
-# - pal_galway_1: Primary colors ----
+# pal_galway_1: Primary colors ------
 
 
 #' Primary colors of the University of Galway, Ireland  
@@ -44,7 +44,7 @@
 #'
 #' @examples
 #' pal_galway_1
-#' unikn::seecol(pal_galway_1, main = "University of Galway") # view color palette.
+#' unikn::seecol(pal_galway_1, main = "University of Galway 1") # view color palette.
 #'
 #' @family university color palettes
 #'
@@ -64,11 +64,8 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
                               as_df = FALSE)
 
 
-# ERROR: Description in documentation noted 5 colors, not only 2 (which were based on Notre Dame palette). 
 
-
-
-# - pal_galway_2: Secondary colors -----
+# pal_galway_2: Secondary colors -----
 
 #' Secondary colors of the University of Galway, Ireland  
 #' 
@@ -107,7 +104,7 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' pal_galway_2
 #' unikn::seecol(pal_galway_2, main = "University of Galway 2") # view color palette
 #' 
-#' @family university color palettes.
+#' @family university color palettes 
 #'
 #' @seealso 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
