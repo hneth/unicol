@@ -45,8 +45,7 @@ unikn::seecol(pal_minnesotatwin_1,
 
 Other university of color palettes: 
 \code{\link{pal_glasgow_1}},
-\code{\link{pal_glasgow_2}},
-\code{\link{pal_minnesotatwin_primary}}
+\code{\link{pal_glasgow_2}}
 }
 \author{
 \strong{unicol}, 2023-07-01.

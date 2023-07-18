@@ -48,7 +48,6 @@ unikn::seecol(pal_asu_secondary, main = "Arizona State University") # view color
 Other university color palettes.: 
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_galway_2}},
 \code{\link{pal_limerick_2}},
 \code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},

@@ -33,7 +33,7 @@ The 5 primary colors are
 }
 \examples{
 pal_galway_1
-unikn::seecol(pal_galway_1, main = "University of Galway") # view color palette.
+unikn::seecol(pal_galway_1, main = "University of Galway 1") # view color palette.
 
 }
 \seealso{
@@ -140,10 +140,10 @@ Other university color palettes:
 \code{\link{oxford_socialmedia}},
 \code{\link{pal_asu_primary}},
 \code{\link{pal_dartmouth_1}},
+\code{\link{pal_galway_2}},
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_limerick_1}},
 \code{\link{pal_minnesotatwin_2}},
-\code{\link{pal_minnesotatwin_secondary}},
 \code{\link{pal_msu}},
 \code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
