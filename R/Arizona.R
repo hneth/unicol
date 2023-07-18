@@ -55,9 +55,10 @@
 #' 
 #' @export
 
-pal_asu_primary <- unikn::newpal(col = c("#8C1D40", "#FFC627", "000000", "FFFFFF"), 
-                                 names = c("asu_maroon", "asu_gold", "asu_rich_black", "asu_white"), 
+pal_asu_primary <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"), 
+                                 names = c("asu_maroon", "asu_gold", "black", "white"), 
                                  as_df = FALSE)
+
 
 # - pal_asu_secondary: Secondary colors of ASU -----
 
@@ -102,8 +103,10 @@ pal_asu_primary <- unikn::newpal(col = c("#8C1D40", "#FFC627", "000000", "FFFFFF
 #' 
 #' @export
 
-pal_asu_secondary <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474", "#Af674B", "#4AB7C4", "#E74973"), 
-                                   names = c("asu_green", "asu_blue","asu_orange", "asu_gray", "asu_copper", "asu_turquoise", "asu_pink"), 
+pal_asu_secondary <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474", 
+                                           "#Af674B", "#4AB7C4", "#E74973"), 
+                                   names = c("asu_green", "asu_blue","asu_orange", "asu_gray", 
+                                             "asu_copper", "asu_turquoise", "asu_pink"), 
                                    as_df = FALSE)
 
 
@@ -114,16 +117,16 @@ pal_asu_secondary <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#74
 #' \code{pal_asu_grayscale} provides the 9 grayscale colors
 #' of the \href{https://www.asu.edu}{Arizona State University}, USA.
 #' 
-#' The 9 tertiary colors are
+#' The 9 tertiary colors are 
 #' \code{"asu_black"}(defined as HEX #000000),
 #' \code{"gray1"}(defined as HEX #191919),
 #' \code{"gray2"}(defined as HEX #484848),
-#' \code{"asu_gray"} (defined as HEX #747474)
-#' \code{"gray4"} (defined as HEX #BFBFBF)
-#' \code{"gray5"} (defined as HEX #D0D0D0)
-#' \code{"gray6"} (defined as HEX #E8E8E8)
-#' \code{"gray7"} (defined as HEX #FAFAFA)
-#' \code{"asu_white"} (defined as HEX #FFFFFF)
+#' \code{"asu_gray"} (defined as HEX #747474), 
+#' \code{"gray4"} (defined as HEX #BFBFBF), 
+#' \code{"gray5"} (defined as HEX #D0D0D0), 
+#' \code{"gray6"} (defined as HEX #E8E8E8), 
+#' \code{"gray7"} (defined as HEX #FAFAFA), and 
+#' \code{"asu_white"} (defined as HEX #FFFFFF). 
 #' 
 #' \code{pal_asu_grayscale} uses the HEX color definition.
 #' 
@@ -152,9 +155,14 @@ pal_asu_secondary <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#74
 #' 
 #' @export
 
-pla_asu_grayscale <- unikn::newpal(col = c("#000000", "#191919", "#484848", "#747474", "#BFBFBF", "#D0D0D0", "#E8E8E8", "#FAFAFA", "#FFFFFF"), 
-                                   names = c("asu_black","gray1", "gray2","asu_gray", "gray4", "gray5", "gray6", "gray7", "asu_white"), 
+pla_asu_grayscale <- unikn::newpal(col = c("#000000", "#191919", "#484848", "#747474", 
+                                           "#BFBFBF", "#D0D0D0", "#E8E8E8", "#FAFAFA", 
+                                           "#FFFFFF"), 
+                                   names = c("black","gray_1", "gray_2","gray_3", 
+                                             "gray_4", "gray_5", "gray_6", "gray_7", 
+                                             "white"), 
                                    as_df = FALSE)
+
 
 ## ToDo: -----
 
