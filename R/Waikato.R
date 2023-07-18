@@ -1,6 +1,7 @@
-## Waikato.R|2023-07-05
-## Colors of the University of Waikato, New Zealand
-## ------------------------------------------------
+## Waikato.R | 2023-07-05
+## Colors of the University of Waikato, Newseeland
+## -------------------------------------------------
+
 
 # Information
 # uni_pals:"pal_waikato" (1)
@@ -8,18 +9,18 @@
 # country: New Zealand
 # URL: "https://www.waikato.ac.nz"
 
+
 # Color source:
 # URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
 
 # Color palettes
 
+# -pal_waikato_web: Official web colors------
 
-# pal_waikato_web: Official web colors ------
-
-#' Colors of the University of Waikato, NZ 
+#' Colors of the University of Waikato
 #'
 #' \code{pal_waikato} provides the 8 official web colors 
-#' of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
+#' of the \href{https://www.waikato.ac.nz/}{University of Waikato}, Newseeland.
 #'
 #' The 8 official web colors are
 #' \code{"waikato_light_red"}(defined as HEX #D40100),
@@ -28,7 +29,7 @@
 #' \code{"waikato_light_yellow"}(defined as HEX #FAA61A),
 #' \code{"waikato_darker_yellow"}(defines as HEX #E79000),
 #' \code{"waikato_dark_grey"}(defined as HEX #353535),
-#' \code{"waikato_blue_grey"}(defined as HEX #32373D), and
+#' \code{"waikato_blue_grey"}(defined as HEX #32373D) and
 #' \code{"waikato_light_grey"}(defined as HEX #F2F2F2).
 #'
 #'
@@ -38,15 +39,15 @@
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author
-#' \strong{unicol}, 2023-07-05.
+#' \strong(unicol), 2023-07-05.
 #'
 #' @source
-#' Color definitions are based on the 
-#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{University of Waikato's website}.
+#' Color definitions are based on the
+#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}.
 #'
 #' @examples
 #' pal_waikato
-#' unikn::seecol(pal_waikato, main = "University of Waikato") # view color palettes
+#' unikn::seecol(pal_waikato, main="University of Waikato") #view color palettes
 #'
 #' @family university color palettes
 #'
@@ -59,11 +60,7 @@
 #' 
 #' @export 
 
-pal_waikato <- unikn::newpal(col = c("#D40100","#BE0403","#AA0000","#FAA61A",
-                                     "#E79000","#353535","#32373D","#F2F2F2"), 
-                             names = c("waikato_light_red", "waikato_medium_red", "waikato_dark_red", "waikato_light_yellow", 
-                                       "waikato_darker_yellow", "waikato_dark_grey", "waikato_blue_grey", "waikato_light_grey"), 
-                             as_df = FALSE)
+pal_waikato <- unikan::newpal(col=c("#D40100","#BE0403","#AA0000","#FAA61A","#E79000","#353535","#32373D","#F2F2F2"), names= c("waikato_light_red","waikato_medium_red","waikato_dark_red","waikato_light_yellow","waikato_darker_yellow","waikato_dark_grey","waikato_blue_grey","waikato_light_grey"), as_df=FALSE)
 
 ## Check:
 # unikn::seecol(pal_waikato, main="University of Waikato", col_bg="waikato_light_red")
@@ -71,6 +68,6 @@ pal_waikato <- unikn::newpal(col = c("#D40100","#BE0403","#AA0000","#FAA61A",
 
 ## ToDo:------
 
-# -etc.
+#-etc.
 
 ## eof.-------
