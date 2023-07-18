@@ -13,6 +13,7 @@
 # Color source:
 # URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
 
+
 # Color palettes
 
 # -pal_waikato_web: Official web colors------
@@ -60,7 +61,11 @@
 #' 
 #' @export 
 
-pal_waikato <- unikan::newpal(col=c("#D40100","#BE0403","#AA0000","#FAA61A","#E79000","#353535","#32373D","#F2F2F2"), names= c("waikato_light_red","waikato_medium_red","waikato_dark_red","waikato_light_yellow","waikato_darker_yellow","waikato_dark_grey","waikato_blue_grey","waikato_light_grey"), as_df=FALSE)
+pal_waikato <- unikn::newpal(col = c("#D40100", "#BE0403", "#AA0000", "#FAA61A", 
+                                     "#E79000", "#353535", "#32373D", "#F2F2F2"), 
+                             names = c("waikato_light_red", "waikato_medium_red", "waikato_dark_red", "waikato_light_yellow", 
+                                      "waikato_darker_yellow", "waikato_dark_grey", "waikato_blue_grey", "waikato_light_grey"), 
+                             as_df = FALSE)
 
 ## Check:
 # unikn::seecol(pal_waikato, main="University of Waikato", col_bg="waikato_light_red")
