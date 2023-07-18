@@ -23,16 +23,18 @@ of \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
 The primary color is
-\code{"dartmouth_green"}(defined as HEX #00693E)
+\code{"dartmouth_green"} (defined as HEX #00693E). 
 
 \code{pal_dartmouth_1} uses the HEX color definition.
 }
 \examples{
 pal_dartmouth_1
-unikn::seecol(pal_dartmouth_1, main= "Dartmouth College") #view color palette.
+unikn::seecol(pal_dartmouth_1, main = "Dartmouth College 1") # view color palette.
 
 }
 \seealso{
+\code{\link{pal_dartmouth_2}} for the secondary colors of Dartmouth College; 
+\code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -140,8 +142,9 @@ Other university color palettes:
 \code{\link{pal_limerick_1}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_minnesotatwin_secondary}},
+\code{\link{pal_msu}},
 \code{\link{pal_notredame_primary}},
-\code{\link{pal_pittsburgh_legacy}},
+\code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},
 \code{\link{pal_standrews_2}},

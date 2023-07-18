@@ -22,10 +22,10 @@ A names vector of colors (HEX/HTML codes of type character).
 of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
-The 4 secondary colors are
-\code{"forest_green"}(defined as HEX #12312b),
-\code{"rich_forest_green"}(defined as HEX #0D1E1C),
-\code{"snow_white"}(defined as HEX #ffffff),
+The 4 secondary colors are 
+\code{"forest_green"} (defined as HEX #12312b),
+\code{"rich_forest_green"} (defined as HEX #0D1E1C),
+\code{"snow_white"} (defined as HEX #ffffff),
 \code{"midnight_black"} (defined as HEX #000000)
 \code{"web_gray_1"} (defined as HEX #f7f7f7)
 \code{"web_gray_2"} (defined as HEX #e2e2e2)
@@ -36,10 +36,12 @@ The 4 secondary colors are
 }
 \examples{
 pal_dartmouth_2
-unikn::seecol(pal_dartmouth_2, main = "Dartmouth College") # view color palette
+unikn::seecol(pal_dartmouth_2, main = "Dartmouth College 2") # view color palette
 
 }
 \seealso{
+\code{\link{pal_dartmouth_1}} for the primary color of Dartmouth College;
+\code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

@@ -8,8 +8,8 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on the
-\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}
+Color definitions are based on 
+\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
 }
 \usage{
 pal_dartmouth_3
@@ -22,26 +22,28 @@ A names vector of colors (HEX/HTML codes of type character).
 of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
-The 10 tertiary colors are
-\code{"autumn_brown"}(defined as HEX #643c20),
-\code{"bonfire_red"}(defined as HEX #9d162e),
-\code{"tuck_orange"}(defined as HEX #e32d1c),
-\code{"summer_yellow"} (defined as HEX #f5dc96)
-\code{"spring_green"} (defined as HEX #c4dd88)
-\code{"rich_spring_green"} (defined as HEX #a5d75f)
-\code{"river_navy"} (defined as HEX #003c73)
-\code{"river_blue"} (defined as HEX #267aba)
-\code{"web_violet"} (defined as HEX #8a6996)
-\code{"bonfire_orange"} (defined as HEX #ffa00f)
+The 10 tertiary colors are 
+\code{"autumn_brown"} (defined as HEX #643c20), 
+\code{"bonfire_red"} (defined as HEX #9d162e), 
+\code{"tuck_orange"} (defined as HEX #e32d1c), 
+\code{"summer_yellow"} (defined as HEX #f5dc96), 
+\code{"spring_green"} (defined as HEX #c4dd88), 
+\code{"rich_spring_green"} (defined as HEX #a5d75f), 
+\code{"river_navy"} (defined as HEX #003c73), 
+\code{"river_blue"} (defined as HEX #267aba), 
+\code{"web_violet"} (defined as HEX #8a6996), and 
+\code{"bonfire_orange"} (defined as HEX #ffa00f). 
 
 \code{pal_dartmouth_3} uses the HEX color definition.
 }
 \examples{
 pal_dartmouth_3
-unikn::seecol(pal_dartmouth_3, main = "Dartmouth College") # view color palette
+unikn::seecol(pal_dartmouth_3, main = "Dartmouth College 3") # view color palette
 
 }
 \seealso{
+\code{\link{pal_dartmouth_1}} for the primary color of Dartmouth College; 
+\code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

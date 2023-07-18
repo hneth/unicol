@@ -38,6 +38,12 @@ The 12 primary colors are
 
 \code{pal_glasgow_1}uses the HEX color definition.
 }
+\examples{
+ 
+pal_glasgow_1
+unikn::seecol(pal_glasgow_1, main="University of Glasgow") #view color palette
+
+}
 \seealso{
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
