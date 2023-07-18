@@ -1,72 +1,74 @@
-##Glasgow.R|2023 07 05
-##Colors of the University of Glasgow, Scotland
-##----------------------------------------------
+## Glasgow.R|2023 07 05
+## Colors of the University of Glasgow, Scotland
+## ---------------------------------------------
 
-#Information
-
-#uni_pals: "pal_glasgow_1", "pal_galsgow_2" (2)
-#inst: "University of Glasgow"
-#country: Scotland
-#URL: https://www.gla.ac.uk/
-
-#Color source:
-#URL: https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/
+# Information
 
 
-#Color palettes:
+# uni_pals: "pal_glasgow_1", "pal_galsgow_2" (2)
+# inst: "University of Glasgow"
+# country: Scotland
+# URL: "https://www.gla.ac.uk/"
 
-#-pal_glasgow_1: Primary colors ----
 
-#'Colors of the University of Glasgow
+# Color source:
+# URL: https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/
+
+
+# Color palettes:
+
+# pal_glasgow_1: Primary colors ----
+
+#' Colors of the University of Glasgow
 #'
-#'\code{pal_glasgow_1} provides the 12 primary colors 
-#'of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
+#' \code{pal_glasgow_1} provides the 12 primary colors 
+#' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
 #'
-#'The 12 primary colors are
-#'\code{"glasgow_university_blue"}(defined as HEX #003865),
-#'\code{"glasgow_burgundy"}(defined as HEX #7D2239),
-#'\code{"glasgow_cobalt"}(defined as HEX #005C8A),
-#'\code{"glasgow_lavender"}(defined as HEX #5B4D94),
-#'\code{"glasgow_leaf"}(defines as HEX #006630),
-#'\code{"glasgow_moss"}(defined as HEX #385A4F),
-#'\code{"glasgow_pillarbox"}(defined as HEX #B30C00),
-#'\code{"glasgow_rust"}(defines as HEX #9A3A06),
-#'\code{"glasgow_sandstone"}(defines as HEX #52473B),
-#'\code{"glasgow_sky_blue"}(defines as HEX #005398),
-#'\code{"glasgow_slate"}(defines as HEX #4F5961) and
-#'\code{"glasgow_thistle"}(defines as HEX #951272).
+#' The 12 primary colors are
+#' \code{"glasgow_university_blue"}(defined as HEX #003865),
+#' \code{"glasgow_burgundy"}(defined as HEX #7D2239),
+#' \code{"glasgow_cobalt"}(defined as HEX #005C8A),
+#' \code{"glasgow_lavender"}(defined as HEX #5B4D94),
+#' \code{"glasgow_leaf"}(defines as HEX #006630),
+#' \code{"glasgow_moss"}(defined as HEX #385A4F),
+#' \code{"glasgow_pillarbox"}(defined as HEX #B30C00),
+#' \code{"glasgow_rust"}(defines as HEX #9A3A06),
+#' \code{"glasgow_sandstone"}(defines as HEX #52473B),
+#' \code{"glasgow_sky_blue"}(defines as HEX #005398),
+#' \code{"glasgow_slate"}(defines as HEX #4F5961) and
+#' \code{"glasgow_thistle"}(defines as HEX #951272).
 #'
-#'\code{pal_glasgow_1}uses the HEX color definition.
+#' \code{pal_glasgow_1}uses the HEX color definition.
 #'
-#'@return
-#'A named vector of colors (HEX/HTML codes of type character).
+#' @return
+#' A named vector of colors (HEX/HTML codes of type character).
 #'
-#'@author
-#'\strong{unicol}, 2023-07-05.
+#' @author
+#' \strong{unicol}, 2023-07-05.
 #'
-#'@source
-#'Color definitions are based on the 
-#'\href{gla.ac.uk}.
+#' @source
+#' Color definitions are based on the 
+#' \href{gla.ac.uk}.
 #'
-#'@exmaple
-#'pal_glasgow_1
-#'unikn::seecol(pal_glasgow_1, main="University of Glasgow") #view color palette
+#' @exmaple
+#' pal_glasgow_1
+#' unikn::seecol(pal_glasgow_1, main="University of Glasgow") #view color palette
 #'
-#'@family university of color palettes
+#' @family university of color palettes
 #'
-#'@seealso
-#'\code{\link{seecol}} for viewing and comparing color palettes;
+#' @seealso
+#' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
 #' \code{\link{grepal}} for finding named colors.
 #'
-#'@export
+#' @export
 
-pal_glasgow_1 <-unikn::newpal(col=c("#003865","#7D2239","#005C8A","#5B4D94","#006630","#385A4F","#B30C00","#9A3A06","#52473B","#005398","#4F5961","#951272"), names= c("glasgow_university_blue","glasgow_burgundy", "glasgow_cobalt","glasgow_lavender","glasgow_leaf","glasgow_moss","glasgow_pillarbox","glasgow_rust","glasgow_sandstone","glasgow_sky_blue","glasgow_slate","glasgow_thistle"), as_df=FALSE)
+pal_glasgow_1 <- unikn::newpal(col=c("#003865","#7D2239","#005C8A","#5B4D94","#006630","#385A4F","#B30C00","#9A3A06","#52473B","#005398","#4F5961","#951272"), names= c("glasgow_university_blue","glasgow_burgundy", "glasgow_cobalt","glasgow_lavender","glasgow_leaf","glasgow_moss","glasgow_pillarbox","glasgow_rust","glasgow_sandstone","glasgow_sky_blue","glasgow_slate","glasgow_thistle"), as_df=FALSE)
 
 
-# - pal_glasgow_2: Secondary colors----
+# pal_glasgow_2: Secondary colors----
 
 #'Colors of the university of glasgow
 #'
