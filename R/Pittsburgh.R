@@ -7,7 +7,7 @@
 # inst: "University of Pittsburgh"
 # inst_alt: "Pittsburgh"
 # country: USA
-# URL:https://www.pitt.edu/
+# URL: "https://www.pitt.edu/"
 
 # Color source
 # URL:https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette

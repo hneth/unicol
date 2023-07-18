@@ -7,7 +7,7 @@
 # uni_pals: "pal_glasgow_1", "pal_galsgow_2" (2)
 # inst: "University of Glasgow"
 # country: Scotland
-# URL: https://www.gla.ac.uk/
+# URL: "https://www.gla.ac.uk/"
 
 # Color source:
 # URL: https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/

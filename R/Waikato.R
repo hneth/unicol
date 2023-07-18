@@ -6,6 +6,7 @@
 # uni_pals:"pal_waikato" (1)
 # inst:"University of Waikato"
 # country: New Zealand
+# URL: "https://www.waikato.ac.nz"
 
 # Color source:
 # URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
