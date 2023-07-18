@@ -57,13 +57,14 @@
 #'
 #' @export
 
-pal_minnesotatwin_1 <- unikn::newpal(col=c("#7A0019","#FFCC33"), 
+pal_minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"), 
                                      names = c("minnesotatwin_maroon", "minnesotatwin_gold"), 
-                                     as_df=FALSE)
+                                     as_df = FALSE)
 
 
 
 # pal_minnesotatwin_2: Secondary colors of UMN ------
+
 
 #' Secondary colors of the University of Minnesota Twin Cities
 #'
@@ -111,9 +112,9 @@ pal_minnesotatwin_1 <- unikn::newpal(col=c("#7A0019","#FFCC33"),
 
 pal_minnesotatwin_2 <- unikn::newpal(col = c("#5B0013","#FFB71E","#333333", "#777677", 
                                              "#900021","#FFDE7A","#5A5A5A","#D5D6D2"), 
-                                     names= c("minnesotatwin_dark_marron", "minnesotatwin_dark_gold", "minnesotatwin_darker_grey", "minnesotatwin_medium_grey",
-                                              "minnesotatwin_light_maroon", "minnesotatwin_light_gold", "minnesotatwin_dark_grey", "minnesotatwin_light_grey"), 
-                                     as_df=FALSE)
+                                     names = c("minnesotatwin_dark_marron", "minnesotatwin_dark_gold", "minnesotatwin_darker_grey", "minnesotatwin_medium_grey",
+                                               "minnesotatwin_light_maroon", "minnesotatwin_light_gold", "minnesotatwin_dark_grey", "minnesotatwin_light_grey"), 
+                                     as_df = FALSE)
 
 
 ## ToDo:------
