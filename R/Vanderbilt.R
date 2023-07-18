@@ -51,12 +51,16 @@
 #' 
 #' @export
 
-pal_vanderbiltu_core <- unikn::newpal(col = c("#FEEEB6","#CFAE70","#1C1C1C","#FFFFFF"), names = c("vanderbilt_matallic gold","vanderbilt_flat_gold","black","white"), as_df = FLASE)
+pal_vanderbiltu_core <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
+                                              "#1C1C1C", "#FFFFFF"), 
+                                      names = c("vanderbilt_matallic gold", "vanderbilt_flat_gold",
+                                                "black", "white"), 
+                                      as_df = FALSE)
 
 
-#- pal_vanderbiltu_neutrals:Secondary colors: neutrals -----
+#- pal_vanderbiltu_neutrals: Secondary colors: neutrals -----
 
-#' Colors of the Vanderbalt University
+#' Neutral colors of Vanderbilt University
 #' 
 #' \code{pal_vanderbiltu_neutrals} provides the 4 neutral colors
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
@@ -94,10 +98,12 @@ pal_vanderbiltu_core <- unikn::newpal(col = c("#FEEEB6","#CFAE70","#1C1C1C","#FF
 #' 
 #' @export
 
-pal_vanderbiltu_neutrals <- unikn::newpal(col = c("#777777","#E4E4E4","#E0D5C0","#F5F3EF"),names = c("vanderbilt_dark_grey","vanderbilt_light_grey","vanderbilt_sand","vanderbilt_cream"), as_df = FALSE) 
+pal_vanderbiltu_neutrals <- unikn::newpal(col = c("#777777", "#E4E4E4", "#E0D5C0", "#F5F3EF"),
+                                          names = c("vanderbilt_dark_grey", "vanderbilt_light_grey", "vanderbilt_sand", "vanderbilt_cream"), 
+                                          as_df = FALSE) 
 
 
-#- pal_vanderbiltu_saturated: Secondary colors saturated ------
+# - pal_vanderbiltu_saturated: Secondary colors saturated ------
 
 #' Colors of the Vanderbilt University
 #' 
@@ -137,13 +143,14 @@ pal_vanderbiltu_neutrals <- unikn::newpal(col = c("#777777","#E4E4E4","#E0D5C0",
 #'
 #' @export
 
-pal_vanderbiltu_santurated <- unikn::newpal(col = c("#B3C9CD","#ECB748","#946E24","#8BA18E"), names = c("vanderbilt_sky","vanderbilt_highlight","vanderbilt_oak","vanderbilt_sage"), as_df = FALSE)
+pal_vanderbiltu_santurated <- unikn::newpal(col = c("#B3C9CD", "#ECB748", "#946E24", "#8BA18E"), 
+                                            names = c("vanderbilt_sky", "vanderbilt_highlight", "vanderbilt_oak", "vanderbilt_sage"), 
+                                            as_df = FALSE)
 
 ## Check:
-
-#unikn::seecol(pal_vanderbilt_core, main = "Core colors of the Vanderbilt University", col_bg = "white")
-#unikn::seecol(pal_vanderbiltu_neutrals, main = "Neutral colors of the Vanderbilt University", col_bg = "vanderbilt_sand")
-#unikn::seecol(pal_vanderbiltu_saturated, main = "Saturated colors of the Vanderbilt University", col_bg = "vanderbilt_sage")
+# unikn::seecol(pal_vanderbilt_core, main = "Core colors of the Vanderbilt University", col_bg = "white")
+# unikn::seecol(pal_vanderbiltu_neutrals, main = "Neutral colors of the Vanderbilt University", col_bg = "vanderbilt_sand")
+# unikn::seecol(pal_vanderbiltu_saturated, main = "Saturated colors of the Vanderbilt University", col_bg = "vanderbilt_sage")
  
  
 ## ToDo: -----
