@@ -39,7 +39,7 @@
 #' pal_msu
 #' unikn::seecol(pal_msu, main="Michigan State University") #view color palette
 #' 
-#' @familiy university color palettes
+#' @family university color palettes
 #' 
 #' @seealso 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -50,7 +50,11 @@
 #' 
 #' @export
 
-pal_msu<-unikn::newpal(col = c("#18453B","#FFFFFF","#000000","#008208","#7BBD00","#0B9A6D"),names=c("spartan_green_msu","White","Black","kelly_green_msu","lime_green_msu","excellence_green_msu"),as_df = FALSE)
+pal_msu<-unikn::newpal(col = c("#18453B", "#FFFFFF", "#000000", 
+                               "#008208", "#7BBD00", "#0B9A6D"),
+                       names=c("spartan_green_msu", "White","Black", 
+                               "kelly_green_msu", "lime_green_msu","excellence_green_msu"), 
+                       as_df = FALSE)
 
 
 ## Check:

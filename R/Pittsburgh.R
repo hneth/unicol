@@ -35,7 +35,7 @@
 #' color definitions are based in the
 #' \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}.
 #'
-#' @example
+#' @examples 
 #' pal_pittsburgh_contemporary
 #' uniln::seecol(pal_pittsburgh_contemporary, main "Contemporary colors") #view color palette
 #'
@@ -64,7 +64,7 @@ pal_pittsburgh_contemporary <- unikn::newpal(col = c("#003594","#FFB81C"), names
 #' \code{pal_pittsburgh} provides the 3 colors of the \href{https://www.pitt.edu/}, USA.
 #'
 #' The legacy colors are
-#' \code{"pittsburgh_dark_blue"}(defined as HEX #141B4D),
+#' \code{"pittsburgh_dark_blue"} (defined as HEX #141B4D),
 #' \code{"pittsburgh_medium_blue"} (defined as HEX #00205B),
 #' \code{"pittsburgh_dark_gold"} (defined as HEX #B58500).
 #'

@@ -50,7 +50,7 @@
 #' Color definitions are based on the 
 #' \href{gla.ac.uk}.
 #'
-#' @exmaple
+#' @examples  
 #' pal_glasgow_1
 #' unikn::seecol(pal_glasgow_1, main="University of Glasgow") #view color palette
 #'
