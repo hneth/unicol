@@ -8,8 +8,8 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the 
-\href{gla.ac.uk}.
+Color definitions are based on 
+\href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}.
 }
 \usage{
 pal_glasgow_1
