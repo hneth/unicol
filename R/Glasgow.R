@@ -47,8 +47,8 @@
 #' \strong{unicol}, 2023-07-05.
 #'
 #' @source
-#' Color definitions are based on the 
-#' \href{gla.ac.uk}.
+#' Color definitions are based on 
+#' \href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}. 
 #'
 #' @examples  
 #' pal_glasgow_1
