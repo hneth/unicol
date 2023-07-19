@@ -18,22 +18,22 @@ pal_glasgow_2
 A named vector of colors (RGB/HTML codes of type character).
 }
 \description{
-\code{pal_glasgow_2}provides the 5 secondary colors 
+\code{pal_glasgow_2} provides the 5 secondary colors 
 of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
 }
 \details{
 The 5 secondary colors are 
-\code{"glasgow_turquoise"}(defined as R0 G181 B209),
-\code{"glasgow_rose"}(defined as R176 G108 B150),
-\code{"glasgow_pumpkin"}(defined as R255 G185 B72),
-\code{"glasgow_sunshine"}(defined as R255 G220 B54), and
-\code{"glasgow_mocha"}(defined as R170 G128 B102).
+\code{"glasgow_turquoise"} (defined as R0 G181 B209),
+\code{"glasgow_rose"} (defined as R176 G108 B150),
+\code{"glasgow_pumpkin"} (defined as R255 G185 B72),
+\code{"glasgow_sunshine"} (defined as R255 G220 B54), and
+\code{"glasgow_mocha"} (defined as R170 G128 B102).
 
 \code{pal_glasgow_2} uses the RGB color definition.
 }
 \examples{
 pal_glasgow_2
-unikn::seecol(pal_glasgow_2, main="University of Glasgow") #view color palette
+unikn::seecol(pal_glasgow_2, main = "University of Glasgow 2") # view color palette
 
 }
 \seealso{

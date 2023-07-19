@@ -3,7 +3,7 @@
 \docType{data}
 \name{pal_glasgow_1}
 \alias{pal_glasgow_1}
-\title{Colors of the University of Glasgow}
+\title{Primary colors of the University of Glasgow, Scotland}
 \format{
 An object of class \code{character} of length 12.
 }
@@ -23,25 +23,25 @@ of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
 }
 \details{
 The 12 primary colors are
-\code{"glasgow_university_blue"}(defined as HEX #003865),
-\code{"glasgow_burgundy"}(defined as HEX #7D2239),
-\code{"glasgow_cobalt"}(defined as HEX #005C8A),
-\code{"glasgow_lavender"}(defined as HEX #5B4D94),
-\code{"glasgow_leaf"}(defines as HEX #006630),
-\code{"glasgow_moss"}(defined as HEX #385A4F),
-\code{"glasgow_pillarbox"}(defined as HEX #B30C00),
-\code{"glasgow_rust"}(defines as HEX #9A3A06),
-\code{"glasgow_sandstone"}(defines as HEX #52473B),
-\code{"glasgow_sky_blue"}(defines as HEX #005398),
-\code{"glasgow_slate"}(defines as HEX #4F5961), and
-\code{"glasgow_thistle"}(defines as HEX #951272).
+\code{"glasgow_university_blue"} (defined as HEX #003865),
+\code{"glasgow_burgundy"} (defined as HEX #7D2239),
+\code{"glasgow_cobalt"} (defined as HEX #005C8A),
+\code{"glasgow_lavender"} (defined as HEX #5B4D94),
+\code{"glasgow_leaf"} (defines as HEX #006630),
+\code{"glasgow_moss"} (defined as HEX #385A4F),
+\code{"glasgow_pillarbox"} (defined as HEX #B30C00),
+\code{"glasgow_rust"} (defined as HEX #9A3A06),
+\code{"glasgow_sandstone"} (defined as HEX #52473B),
+\code{"glasgow_sky_blue"} (defined as HEX #005398),
+\code{"glasgow_slate"} (defined as HEX #4F5961), and
+\code{"glasgow_thistle"} (defined as HEX #951272).
 
-\code{pal_glasgow_1}uses the HEX color definition.
+\code{pal_glasgow_1} uses the HEX color definition.
 }
 \examples{
  
 pal_glasgow_1
-unikn::seecol(pal_glasgow_1, main="University of Glasgow") #view color palette
+unikn::seecol(pal_glasgow_1, main = "University of Glasgow 1") # view color palette
 
 }
 \seealso{

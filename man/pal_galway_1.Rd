@@ -9,7 +9,7 @@ An object of class \code{character} of length 5.
 }
 \source{
 Color definitions are based on 
-\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}(UGalway's brand guidelines).
+\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
 }
 \usage{
 pal_galway_1
