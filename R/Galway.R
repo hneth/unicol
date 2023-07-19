@@ -40,7 +40,7 @@
 #'
 #' @source
 #' Color definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}(UGalway's brand guidelines).
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
 #'
 #' @examples
 #' pal_galway_1
@@ -96,9 +96,9 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' @author 
 #' \strong{unicol}, 2320-07-16.
 #' 
-#' @source 
+#' @source
 #' Color definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}(UGalway's brand guidelines). 
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
 #'
 #' @examples 
 #' pal_galway_2
