@@ -1,6 +1,6 @@
-## Waikato.R | 2023-07-05
-## Colors of the University of Waikato, Newseeland
-## -------------------------------------------------
+## Waikato.R | 2023-07-20
+## Colors of the University of Waikato, New Zealand
+## ------------------------------------------------
 
 
 # Information
@@ -18,21 +18,20 @@
 
 # -pal_waikato_web: Official web colors------
 
-#' Colors of the University of Waikato
+#' Colors of the University of Waikato, NZ 
 #'
 #' \code{pal_waikato} provides the 8 official web colors 
-#' of the \href{https://www.waikato.ac.nz/}{University of Waikato}, Newseeland.
+#' of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
 #'
 #' The 8 official web colors are
-#' \code{"waikato_light_red"}(defined as HEX #D40100),
-#' \code{"waikato_medium_red"}(defined as HEX #BE0403),
-#' \code{"waikato_dark_red"}(defined as HEX #AA0000),
-#' \code{"waikato_light_yellow"}(defined as HEX #FAA61A),
-#' \code{"waikato_darker_yellow"}(defines as HEX #E79000),
-#' \code{"waikato_dark_grey"}(defined as HEX #353535),
-#' \code{"waikato_blue_grey"}(defined as HEX #32373D) and
-#' \code{"waikato_light_grey"}(defined as HEX #F2F2F2).
-#'
+#' \code{"waikato_light_red"} (defined as HEX #D40100),
+#' \code{"waikato_medium_red"} (defined as HEX #BE0403),
+#' \code{"waikato_dark_red"} (defined as HEX #AA0000),
+#' \code{"waikato_light_yellow"} (defined as HEX #FAA61A),
+#' \code{"waikato_darker_yellow"} (defined as HEX #E79000),
+#' \code{"waikato_dark_grey"} (defined as HEX #353535),
+#' \code{"waikato_blue_grey"} (defined as HEX #32373D) and
+#' \code{"waikato_light_grey"} (defined as HEX #F2F2F2).
 #'
 #' \code{pal_waikato} uses the HEX color definitions.
 #'
@@ -40,15 +39,15 @@
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author
-#' \strong(unicol), 2023-07-05.
+#' \strong{unicol}, 2023-07-05.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}.
+#' Color definitions are based on 
+#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{Waikato's brand standards}.
 #'
 #' @examples
 #' pal_waikato
-#' unikn::seecol(pal_waikato, main="University of Waikato") #view color palettes
+#' unikn::seecol(pal_waikato, main = "University of Waikato") # view color palettes
 #'
 #' @family university color palettes
 #'
@@ -64,11 +63,11 @@
 pal_waikato <- unikn::newpal(col = c("#D40100", "#BE0403", "#AA0000", "#FAA61A", 
                                      "#E79000", "#353535", "#32373D", "#F2F2F2"), 
                              names = c("waikato_light_red", "waikato_medium_red", "waikato_dark_red", "waikato_light_yellow", 
-                                      "waikato_darker_yellow", "waikato_dark_grey", "waikato_blue_grey", "waikato_light_grey"), 
+                                       "waikato_darker_yellow", "waikato_dark_grey", "waikato_blue_grey", "waikato_light_grey"), 
                              as_df = FALSE)
 
 ## Check:
-# unikn::seecol(pal_waikato, main="University of Waikato", col_bg="waikato_light_red")
+# unikn::seecol(pal_waikato, main = "University of Waikato")
 
 
 ## ToDo:------
