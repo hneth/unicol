@@ -19,28 +19,28 @@
 # - standrews_1: Primary colors: ------ 
 
 
-#' Primary colors of the University of St Andrews, UK 
+#' Primary colours of the University of St Andrews, UK 
 #' 
-#' \code{standrews_1} provides the four primary colors 
+#' \code{standrews_1} provides the four primary colours 
 #' of the \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{University of St Andrews}, UK. 
 #' 
 #' The 4 primary colors are 
-#' \code{“standrews_blue"} (defined as HEX #00539b), 
+#' \code{"standrews_blue"} (defined as HEX #00539b), 
 #' \code{"standrews_red"} (defined as HEX #ee312a), 
 #' \code{"standrews_yellow"} (defined as HEX #ffdf00), and 
 #' \code{"standrews_black"} (defined as HEX #231f20). 
-#'  
-#' \code{standrews_1} uses the HEX color definitions.
+#'
+#' \code{standrews_1} uses the HEX colour definitions.
 #' 
 #' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
+#' A named vector of colors (HEX/HTML codes of type character). 
 #'
 #' @author 
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source 
-#' Color definitions are based on 
-#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews' design guidelines}.
+#' Colour definitions are based on 
+#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews design guidelines}.
 #'
 #' @examples
 #' standrews_1
@@ -65,6 +65,7 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 
 
 # - standrews_2: Secondary colors ------ 
+
 
 #' Secondary colours of the University of St Andrews, UK 
 #' 
@@ -91,7 +92,7 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #'
 #' @source 
 #' Colour definitions are based on 
-#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews' design guidelines}.
+#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews design guidelines}.
 #'
 #' @examples
 #' standrews_2
