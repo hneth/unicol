@@ -27,7 +27,7 @@
 #' of \href{https://www.sfu.ca/}{Simon Fraser University}, Canada. 
 #'
 #' The primary colour is 
-#' \code{"light_red"}(defined as HEX #CC0633 or RGB R204/G6/B51). 
+#' \code{"light_red"} (defined as HEX #CC0633 or RGB R204/G6/B51). 
 #' The secondary colours are 
 #' \code{"dark_red"} (defined as HEX #A6192E or RGB R166/G25/B46),
 #' \code{"dark_grey"} (defined as HEX #54585A or RGB R84/G88/B90), and

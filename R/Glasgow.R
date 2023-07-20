@@ -29,7 +29,7 @@
 #' \code{"glasgow_burgundy"} (defined as HEX #7D2239),
 #' \code{"glasgow_cobalt"} (defined as HEX #005C8A),
 #' \code{"glasgow_lavender"} (defined as HEX #5B4D94),
-#' \code{"glasgow_leaf"} (defines as HEX #006630),
+#' \code{"glasgow_leaf"} (defined as HEX #006630),
 #' \code{"glasgow_moss"} (defined as HEX #385A4F),
 #' \code{"glasgow_pillarbox"} (defined as HEX #B30C00),
 #' \code{"glasgow_rust"} (defined as HEX #9A3A06),

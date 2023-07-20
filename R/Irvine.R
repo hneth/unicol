@@ -24,8 +24,8 @@
 #' of the \href{https://www.uci.edu}{University of California, Irvine}, USA.
 #'
 #' The 2 primary colors are
-#' \code{"uci_blue"}(defined as HEX #0064a4) and
-#' \code{"uci_gold"}(defines as HEX #ffd200).
+#' \code{"uci_blue"} (defined as HEX #0064a4) and
+#' \code{"uci_gold"} (defined as HEX #ffd200).
 #'
 #' \code{pal_uci_1} uses the HEX color definitions.
 #'
@@ -70,9 +70,9 @@ pal_uci_1 <- unikn::newpal(col = c("#0064a4", "#ffd200"),
 #' of the \href{https://www.uci.edu}{University of California, Irvine}, USA.
 #' 
 #' The 7 secondary colors are
-#' \code{"light_blue"}(defined as HEX #6aa2b8),
-#' \code{"light_gray"}(defined as HEX #c6beb5),
-#' \code{"dark_blue"}(defined as HEX #1b3d6d),
+#' \code{"light_blue"} (defined as HEX #6aa2b8),
+#' \code{"light_gray"} (defined as HEX #c6beb5),
+#' \code{"dark_blue"} (defined as HEX #1b3d6d),
 #' \code{"orange"} (defined as HEX #f78d2d), 
 #' \code{"light_yellow"} (defined as HEX #f7eb5f), 
 #' \code{"dark_gray"} (defined as HEX #555759), and 
@@ -121,11 +121,11 @@ pal_uci_secondary <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f7
 #' of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
 #'
 #' The 5 neutral colors are
-#' \code{"brick_red"}(defined as HEX #981e32),
-#' \code{"purple"}(defined as HEX #631d76),
-#' \code{"teal_blue"}(defined as HEX #0083b3),
-#' \code{"green"}(defined as HEX #3f9c35), and 
-#' \code{"dark_blue"}(defined as HEX #1b3d6d).
+#' \code{"brick_red"} (defined as HEX #981e32),
+#' \code{"purple"} (defined as HEX #631d76),
+#' \code{"teal_blue"} (defined as HEX #0083b3),
+#' \code{"green"} (defined as HEX #3f9c35), and 
+#' \code{"dark_blue"} (defined as HEX #1b3d6d).
 #' 
 #' \code{pal_ucihealth_2} uses the HEX color definitions.
 #'
@@ -166,11 +166,11 @@ pal_ucihealth_2 <- unikn::newpal(col = c("#981e32","#631d76","#0083b3","#3f9c35"
 #' of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
 #'
 #' The 5 teritary colors are
-#' \code{"dark_orange"}(defined as HEX #b71234),
-#' \code{"bright_purple"}(defined as HEX #7c109a),
-#' \code{"turquoise"}(defined as HEX #00b0ca),
-#' \code{"lime_green"}(defined as HEX #7ab800) and 
-#' \code{"yellow"}(defined as HEX #fecb00).
+#' \code{"dark_orange"} (defined as HEX #b71234),
+#' \code{"bright_purple"} (defined as HEX #7c109a),
+#' \code{"turquoise"} (defined as HEX #00b0ca),
+#' \code{"lime_green"} (defined as HEX #7ab800) and 
+#' \code{"yellow"} (defined as HEX #fecb00).
 #' 
 #' \code{pal_ucihealth_3} uses the HEX color definitions.
 #'

@@ -24,9 +24,9 @@
 #' of the \href{https://www.yu.edu/}{Yeshiva University}, USA.
 #'
 #' The 3 colors of the Yeshiva University are
-#' \code{"yeshiva_blue"}(defined as HEX #325A89), 
-#' \code{"yeshiva_black"}(defined as HEX #000000), and
-#' \code{"yeshiva_gray"}(defined as HEX #85878A)
+#' \code{"yeshiva_blue"} (defined as HEX #325A89), 
+#' \code{"yeshiva_black"} (defined as HEX #000000), and
+#' \code{"yeshiva_gray"} (defined as HEX #85878A)
 #'
 #' \code{pal_yeshivau} uses the HEX color definitions.
 #'

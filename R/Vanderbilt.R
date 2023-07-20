@@ -19,10 +19,10 @@
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 #' 
 #' The 4 core colors are
-#' \code{"vanderbilt_metallic_gold"}(defined as HEX #FEEEB6),
-#' \code{"vanderbilt_falt_gold"}(defined as HEX #CFAE70),
-#' \code{"black"}(defined as HEX #1C1C1C) and 
-#' \code{"white"}(defined as HEX #FFFFFF).
+#' \code{"vanderbilt_metallic_gold"} (defined as HEX #FEEEB6),
+#' \code{"vanderbilt_falt_gold"} (defined as HEX #CFAE70),
+#' \code{"black"} (defined as HEX #1C1C1C) and 
+#' \code{"white"} (defined as HEX #FFFFFF).
 #' 
 #' \code{pal_vanderbiltu_core} uses the HEX color definitions.
 #' 
@@ -66,10 +66,10 @@ pal_vanderbiltu_core <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 #' 
 #' The 4 neutral colors are
-#' \code{"vanderbilt_dark_grey"}(defined as HEX #777777),
-#' \code{"vanderbilt_light_gery"}(defines as HEX #E4E4E4),
-#' \code{"vanderbilt_sand"}(defined as HEX #E0D5C0) and 
-#' \code{"vanderbilt_cream"}(defined as HEX #F5F3EF).
+#' \code{"vanderbilt_dark_grey"} (defined as HEX #777777),
+#' \code{"vanderbilt_light_gery"} (defined as HEX #E4E4E4),
+#' \code{"vanderbilt_sand"} (defined as HEX #E0D5C0) and 
+#' \code{"vanderbilt_cream"} (defined as HEX #F5F3EF).
 #' 
 #' \code{pal_vanderbiltu_neutrals} uses the HEX color definitions.
 #' 
@@ -111,10 +111,10 @@ pal_vanderbiltu_neutrals <- unikn::newpal(col = c("#777777", "#E4E4E4", "#E0D5C0
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 #' 
 #' The 4 saturated colors are
-#' \code{"vanderbilt_sky"}(defined as HEX #B3C9CD),
-#' \code{"vanderbilt_highlight"}(defined as HEX #ECB748),
-#' \code{"vanderbilt_oak"}(defined as HEX #946E24) and 
-#' \code{"vanderbilt_sage"}(defines as HEX #8BA18E).
+#' \code{"vanderbilt_sky"} (defined as HEX #B3C9CD),
+#' \code{"vanderbilt_highlight"} (defined as HEX #ECB748),
+#' \code{"vanderbilt_oak"} (defined as HEX #946E24) and 
+#' \code{"vanderbilt_sage"} (defined as HEX #8BA18E).
 #' 
 #' \code{pal_vanderbilt_saturated} uses the HEX color definitions.
 #' 

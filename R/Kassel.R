@@ -23,17 +23,17 @@
 #' of the \href{https://www.uni-kassel.de/uni/}{University of Kassel}, Germany.
 #'
 #' The 11 primary colors are 
-#' \code{"k80"}(defined as HEX #575757), 
-#' \code{"k50"}(defined as HEX #9D9D9D), 
-#' \code{"k20"}(defined as HEX #DADADA), 
-#' \code{"hks28+k30"}(defined as HEX #9A0C46), 
-#' \code{"hks28"}(defined as HEX #C7105C), 
-#' \code{"hks28-20"}(defined as HEX #F3D8DD), 
-#' \code{"dark_green"}(defined as HEX #153824), 
-#' \code{"light_blue"}(defined as HEX #5095C8), 
-#' \code{"yellow_green"}(defined as HEX #C4D20F), 
-#' \code{"light_green"}(defined as HEX #4AAC96), and 
-#' \code{"dark_gold"}(defined as HEX #EAC372).
+#' \code{"k80"} (defined as HEX #575757), 
+#' \code{"k50"} (defined as HEX #9D9D9D), 
+#' \code{"k20"} (defined as HEX #DADADA), 
+#' \code{"hks28+k30"} (defined as HEX #9A0C46), 
+#' \code{"hks28"} (defined as HEX #C7105C), 
+#' \code{"hks28-20"} (defined as HEX #F3D8DD), 
+#' \code{"dark_green"} (defined as HEX #153824), 
+#' \code{"light_blue"} (defined as HEX #5095C8), 
+#' \code{"yellow_green"} (defined as HEX #C4D20F), 
+#' \code{"light_green"} (defined as HEX #4AAC96), and 
+#' \code{"dark_gold"} (defined as HEX #EAC372).
 #'
 #' \code{pal_kassel_haus} uses the HEX color definitions.
 #'

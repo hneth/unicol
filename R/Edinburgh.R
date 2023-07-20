@@ -28,16 +28,16 @@
 #' of the \href{https://www.ed.ac.uk/en}{University of Edinburgh}, Scotland.
 #'
 #' The eleven primary colours are
-#' \code{"University Red"}(defined as Hex: D50032, RGB: 213, 0, 50),
+#' \code{"University Red"} (defined as Hex: D50032, RGB: 213, 0, 50),
 #' \code{"University Blue"} (defined as Hex: 041E42, RGB: 4, 30, 66), 
-#' \code{"Bright Blue"}(defined as Hex: 007288, RGB: 0, 114, 136),
-#' \code{"Bright Pink"}(defined as Hex: D0006F, RGB: 208, 0, 111),
-#' \code{"Purple"}(defined as Hex: 830065, RGB: 131, 0, 101),
-#' \code{"Burgundy"}(defined as Hex: A50034, RGB: 165, 0, 52),
-#' \code{"Dark green"}(defined as Hex: 154734, RGB: 21, 71, 52),
-#' \code{"Jade"}(defined as Hex: 487A7B, RGB: 72, 122, 123),
-#' \code{"Muted Blue"}(defined as Hex: 004F71, RGB: 0, 79, 113),
-#' \code{"Muted brown"}(defined as Hex: 6D4F47, RGB: 109, 79, 71),and
+#' \code{"Bright Blue"} (defined as Hex: 007288, RGB: 0, 114, 136),
+#' \code{"Bright Pink"} (defined as Hex: D0006F, RGB: 208, 0, 111),
+#' \code{"Purple"} (defined as Hex: 830065, RGB: 131, 0, 101),
+#' \code{"Burgundy"} (defined as Hex: A50034, RGB: 165, 0, 52),
+#' \code{"Dark green"} (defined as Hex: 154734, RGB: 21, 71, 52),
+#' \code{"Jade"} (defined as Hex: 487A7B, RGB: 72, 122, 123),
+#' \code{"Muted Blue"} (defined as Hex: 004F71, RGB: 0, 79, 113),
+#' \code{"Muted brown"} (defined as Hex: 6D4F47, RGB: 109, 79, 71),and
 #' \code{"Spuce grey"} (defined as Hex: 333F48, RGB: 51, 63, 72).
 #'
 #'

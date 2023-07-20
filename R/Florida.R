@@ -23,8 +23,8 @@
 #'of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 #'
 #'The 2 primary colors are
-#'\code{"florida_core orange"}(defined as HEX #FA416) and
-#'\code{"florida_core_blue"}(defines as HEX #0021A5).
+#'\code{"florida_core orange"} (defined as HEX #FA416) and
+#'\code{"florida_core_blue"} (defined as HEX #0021A5).
 #'
 #'\code{pal_uflorida_primary} uses the HEX color definitions.
 #'
@@ -64,9 +64,9 @@ pal_uflorida_primary <- unikn::newpal(col = c("#FA4616", "#0021A5"), names = c("
 #' of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 #' 
 #' The 5 secondary colors are
-#' \code{"florida_bottlebrush"}(defined as HEX #D32737),
-#' \code{"florida_alachua"}(defined as HEX #F2A900),
-#' \code{"florida_gator"}(defined as HEX #2284C),
+#' \code{"florida_bottlebrush"} (defined as HEX #D32737),
+#' \code{"florida_alachua"} (defined as HEX #F2A900),
+#' \code{"florida_gator"} (defined as HEX #2284C),
 #' \code{"florida_dark_blue"} (defined as HEX #002657) and
 #' \code{"florida_perennial"} (defined as HEX #6A2A60).
 #' 
@@ -107,11 +107,11 @@ pal_uflorida_secondary <- unikn::newpal(col = c("#D32737","#F2A900","#22884C","#
 #' \href{https://www.ufl.edu/}
 #'
 #' The 5 neutral colors are
-#' \code{"black"}(defined as HEX #000000),
-#' \code{"florida_cool_grey_11"}(defined as HEX #343741),
-#' \code{"florida_cool_grey_3"}(defined as HEX #C7C9C8),
-#' \code{"florida_warm_grey_1"}(defined as HEX #D8D4D7) and 
-#' \code{"white"}(defined as HEX #FFFFFF).
+#' \code{"black"} (defined as HEX #000000),
+#' \code{"florida_cool_grey_11"} (defined as HEX #343741),
+#' \code{"florida_cool_grey_3"} (defined as HEX #C7C9C8),
+#' \code{"florida_warm_grey_1"} (defined as HEX #D8D4D7) and 
+#' \code{"white"} (defined as HEX #FFFFFF).
 #' 
 #' \code{pal_uflorida_neutral} uses the HEX color definitions.
 #'

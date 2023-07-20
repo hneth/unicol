@@ -77,7 +77,7 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #' of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
 #'
 #' The four secondary colors are
-#' \code{"yellow_concordia"}(defined as HEX #e5a712),
+#' \code{"yellow_concordia"} (defined as HEX #e5a712),
 #' \code{"gold_concordia"}  (defined as HEX #cbb576), 
 #' \code{"cyan_concordia"}  (defined as HEX #00adef) and
 #' \code{"lime"}            (defined as HEX #8cc63e).

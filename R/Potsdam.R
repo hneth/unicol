@@ -23,15 +23,15 @@
 #'of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
 #'
 #'The 9 primary colors are
-#'\code{"hks_41"}(defined as HEX #00305e)
-#'\code{"hks_41_45"}(defined as HEX #818bac)
-#'\code{"web_color"}(defined as HEX #c1d3e0)
-#'\code{"faculty_of_law"}(defined as HEX #e4003a)
-#'\code{"faculty_of_philosophy"}(defines as HEX #8b2939).
-#'\code{"faculty_of_humanities"}(defines as HEX #f59c00).
-#'\code{"faculty_of_economics"}(defines as HEX #52822f).
-#'\code{"faculty_of_mathematics"}(defines as HEX #0080b5).
-#'\code{"faculty_of_digital_engineering"}(defines as HEX #5A5F62).
+#'\code{"hks_41"} (defined as HEX #00305e)
+#'\code{"hks_41_45"} (defined as HEX #818bac)
+#'\code{"web_color"} (defined as HEX #c1d3e0)
+#'\code{"faculty_of_law"} (defined as HEX #e4003a)
+#'\code{"faculty_of_philosophy"} (defined as HEX #8b2939).
+#'\code{"faculty_of_humanities"} (defined as HEX #f59c00).
+#'\code{"faculty_of_economics"} (defined as HEX #52822f).
+#'\code{"faculty_of_mathematics"} (defined as HEX #0080b5).
+#'\code{"faculty_of_digital_engineering"} (defined as HEX #5A5F62).
 #'
 #'\code{pal_potsdam} uses the HEX color definitions.
 #'

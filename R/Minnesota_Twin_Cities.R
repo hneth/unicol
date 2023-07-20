@@ -72,14 +72,14 @@ pal_minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 #' of the \href{https://twin-cities.umn.edu/}{University of Minnesota Twin Cities}, USA.
 #'
 #' The 8 secondary colors are
-#' \code{"minnesotatwin_dark-marron"}(defined as HEX #5B0013),
-#' \code{"minnesotatwin_dark_gold"}(defined as HEX #FFB71E),
-#' \code{"minnesotatwin_darker_gray"}(defines as HEX #333333),
-#' \code{"minnesotatwin_medium_grey"}(defined as HEX #777677),
-#' \code{"minnesotatwin_light_maroon"}(defined as HEX #900021),
-#' \code{"minnesotatwin_light_gold"}(defined as HEX #FFDE7A),
-#' \code{"minnesotatwin_dark_grey"}(defined as HEX #5A5A5A) and
-#' \code{"minnesotatwin_light_grey"}(defined as HEX #D5D6D2).
+#' \code{"minnesotatwin_dark-marron"} (defined as HEX #5B0013),
+#' \code{"minnesotatwin_dark_gold"} (defined as HEX #FFB71E),
+#' \code{"minnesotatwin_darker_gray"} (defined as HEX #333333),
+#' \code{"minnesotatwin_medium_grey"} (defined as HEX #777677),
+#' \code{"minnesotatwin_light_maroon"} (defined as HEX #900021),
+#' \code{"minnesotatwin_light_gold"} (defined as HEX #FFDE7A),
+#' \code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A) and
+#' \code{"minnesotatwin_light_grey"} (defined as HEX #D5D6D2).
 #'
 #' \code{pal_minnesotatwin_2} uses the HEX color definitions.
 #'

@@ -24,18 +24,18 @@
 #' of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 #'
 #' The 12 primary colors are
-#' \code{"trinity_blue_100"}(defined as HEX #0569b9)
-#' \code{"trinity_blue_75"}(defined as HEX #448fcb)
-#' \code{"trinity_blue_50"}(defined as HEX #82b4dc)
-#' \code{"trinity_blue_25"}(defined as HEX #cidaee)
-#' \code{"trinity_blue_10"}(defined as HEX #e6f0f8)
-#' \code{"grey_100"}(defined as HEX #50555a)
-#' \code{"grey_75"}(defined as HEX #7c8083)
-#' \code{"grey_50"}(defined as HEX #a8aaad)
-#' \code{"grey_25"}(defined as HEX #d3d5d6)
-#' \code{"grey_10"}(defined as HEX #eeeeef)
-#' \code{"white"}(defined as HEX #ffffff)
-#' \code{"black"}(defined as HEX #000000)
+#' \code{"trinity_blue_100"} (defined as HEX #0569b9)
+#' \code{"trinity_blue_75"} (defined as HEX #448fcb)
+#' \code{"trinity_blue_50"} (defined as HEX #82b4dc)
+#' \code{"trinity_blue_25"} (defined as HEX #cidaee)
+#' \code{"trinity_blue_10"} (defined as HEX #e6f0f8)
+#' \code{"grey_100"} (defined as HEX #50555a)
+#' \code{"grey_75"} (defined as HEX #7c8083)
+#' \code{"grey_50"} (defined as HEX #a8aaad)
+#' \code{"grey_25"} (defined as HEX #d3d5d6)
+#' \code{"grey_10"} (defined as HEX #eeeeef)
+#' \code{"white"} (defined as HEX #ffffff)
+#' \code{"black"} (defined as HEX #000000)
 #'
 #' \code{pal_trinity_1} uses the HEX color definitions.
 #'
@@ -83,57 +83,57 @@ pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee"
 #' of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 #' 
 #' The 57 secondary colors are 
-#' \code{"pms_312_100"}(defined as HEX #12312b),
-#' \code{"pms_312_75"}(defined as HEX #0D1E1C),
-#' \code{"pms_312_50"}(defined as HEX #ffffff),
+#' \code{"pms_312_100"} (defined as HEX #12312b),
+#' \code{"pms_312_75"} (defined as HEX #0D1E1C),
+#' \code{"pms_312_50"} (defined as HEX #ffffff),
 #' \code{"pms_312_25"} (defined as HEX #000000), 
 #' \code{"pms_312_10"} (defined as HEX #f7f7f7), 
 #' \code{"pms_326_100"} (defined as HEX #e2e2e2), 
 #' \code{"pms_326_75"} (defined as HEX #707070), 
 #' \code{"pms_326_50"} (defined as HEX #424141), 
-#' \code{"pms_326_25"}(defined as HEX #12312b),
-#' \code{"pms_326_10"}(defined as HEX #0D1E1C),
-#' \code{"pms_360_100"}(defined as HEX #ffffff),
+#' \code{"pms_326_25"} (defined as HEX #12312b),
+#' \code{"pms_326_10"} (defined as HEX #0D1E1C),
+#' \code{"pms_360_100"} (defined as HEX #ffffff),
 #' \code{"pms_360_75"} (defined as HEX #000000), 
 #' \code{"pms_360_50"} (defined as HEX #f7f7f7), 
 #' \code{"pms_360_25"} (defined as HEX #e2e2e2), 
 #' \code{"pms_360_10"} (defined as HEX #707070), 
 #' \code{"pms_375_100"} (defined as HEX #424141),
-#' \code{"pms_375_100"}(defined as HEX #12312b),
-#' \code{"pms_375_75"}(defined as HEX #0D1E1C),
-#' \code{"pms_375_50"}(defined as HEX #ffffff),
+#' \code{"pms_375_100"} (defined as HEX #12312b),
+#' \code{"pms_375_75"} (defined as HEX #0D1E1C),
+#' \code{"pms_375_50"} (defined as HEX #ffffff),
 #' \code{"pms_375_25"} (defined as HEX #000000), 
 #' \code{"pms_375_10"} (defined as HEX #f7f7f7), 
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
 #' \code{"web_gray_3"} (defined as HEX #707070), 
 #' \code{"granite_gray"} (defined as HEX #424141), 
-#' \code{"forest_green"}(defined as HEX #12312b),
-#' \code{"rich_forest_green"}(defined as HEX #0D1E1C),
-#' \code{"snow_white"}(defined as HEX #ffffff),
+#' \code{"forest_green"} (defined as HEX #12312b),
+#' \code{"rich_forest_green"} (defined as HEX #0D1E1C),
+#' \code{"snow_white"} (defined as HEX #ffffff),
 #' \code{"midnight_black"} (defined as HEX #000000), 
 #' \code{"web_gray_1"} (defined as HEX #f7f7f7), 
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
 #' \code{"web_gray_3"} (defined as HEX #707070), 
 #' \code{"granite_gray"} (defined as HEX #424141), 
-#' \code{"forest_green"}(defined as HEX #12312b),
-#' \code{"rich_forest_green"}(defined as HEX #0D1E1C),
-#' \code{"snow_white"}(defined as HEX #ffffff),
+#' \code{"forest_green"} (defined as HEX #12312b),
+#' \code{"rich_forest_green"} (defined as HEX #0D1E1C),
+#' \code{"snow_white"} (defined as HEX #ffffff),
 #' \code{"midnight_black"} (defined as HEX #000000), 
 #' \code{"web_gray_1"} (defined as HEX #f7f7f7), 
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
 #' \code{"web_gray_3"} (defined as HEX #707070), 
 #' \code{"granite_gray"} (defined as HEX #424141), 
-#' \code{"forest_green"}(defined as HEX #12312b),
-#' \code{"rich_forest_green"}(defined as HEX #0D1E1C),
-#' \code{"snow_white"}(defined as HEX #ffffff),
+#' \code{"forest_green"} (defined as HEX #12312b),
+#' \code{"rich_forest_green"} (defined as HEX #0D1E1C),
+#' \code{"snow_white"} (defined as HEX #ffffff),
 #' \code{"midnight_black"} (defined as HEX #000000), 
 #' \code{"web_gray_1"} (defined as HEX #f7f7f7), 
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
 #' \code{"web_gray_3"} (defined as HEX #707070), 
 #' \code{"granite_gray"} (defined as HEX #424141), 
-#' \code{"forest_green"}(defined as HEX #12312b),
-#' \code{"rich_forest_green"}(defined as HEX #0D1E1C),
-#' \code{"snow_white"}(defined as HEX #ffffff),
+#' \code{"forest_green"} (defined as HEX #12312b),
+#' \code{"rich_forest_green"} (defined as HEX #0D1E1C),
+#' \code{"snow_white"} (defined as HEX #ffffff),
 #' \code{"midnight_black"} (defined as HEX #000000), 
 #' \code{"web_gray_1"} (defined as HEX #f7f7f7), 
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
