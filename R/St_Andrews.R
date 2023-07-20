@@ -1,4 +1,4 @@
-## St Andrews. R| 2023 07 16
+## St_Andrews.R | 2023 07 20
 ## Colors of the University of St Andrews
 ## ---------------------------------------
 
@@ -18,6 +18,7 @@
 
 # - standrews_1: Primary colors: ------ 
 
+
 #' Primary colors of the University of St Andrews, UK 
 #' 
 #' \code{standrews_1} provides the four primary colors 
@@ -28,8 +29,8 @@
 #' \code{"standrews_red"} (defined as HEX #ee312a), 
 #' \code{"standrews_yellow"} (defined as HEX #ffdf00), and 
 #' \code{"standrews_black"} (defined as HEX #231f20). 
-#' 
-#' \code{standrews_1} uses the HEX color definitions. 
+#'  
+#' \code{standrews_1} uses the HEX color definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -119,12 +120,8 @@ standrews_2 <- unikn::newpal(col = c("#00aeef", "#007dc5", "#c60c46", "#7b439a",
 # unikn::seecol(conc2, main = "Secondary colors of the University of St Andrews")
 
 
-
 ## ToDo: -------- 
 
 # - etc.
 
 ## eof. ----------
-
-
-
