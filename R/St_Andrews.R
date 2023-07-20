@@ -73,7 +73,7 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #' of the \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{University of St Andrews}, UK. 
 #' 
 #' The 8 secondary colours are 
-#' \code{“andrews_light_blue"} (defined as HEX #00aeef), 
+#' \code{"andrews_light_blue"} (defined as HEX #00aeef), 
 #' \code{"andrews_mid_blue"} (defined as HEX #007dc5),
 #' \code{"andrews_burgundy"} (defined as HEX #c60c46),
 #' \code{"andrews_purple"} (defined as HEX #7b439a)
