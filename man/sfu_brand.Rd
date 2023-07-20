@@ -23,7 +23,7 @@ of \href{https://www.sfu.ca/}{Simon Fraser University}, Canada.
 }
 \details{
 The primary colour is 
-\code{"light_red"}(defined as HEX #CC0633 or RGB R204/G6/B51). 
+\code{"light_red"} (defined as HEX #CC0633 or RGB R204/G6/B51). 
 The secondary colours are 
 \code{"dark_red"} (defined as HEX #A6192E or RGB R166/G25/B46),
 \code{"dark_grey"} (defined as HEX #54585A or RGB R84/G88/B90), and
@@ -153,8 +153,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
@@ -171,6 +169,8 @@ Other university color palettes:
 \code{\link{rpi_pal_2}},
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

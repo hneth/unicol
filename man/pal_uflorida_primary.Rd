@@ -23,8 +23,8 @@ of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 }
 \details{
 The 2 primary colors are
-\code{"florida_core orange"}(defined as HEX #FA416) and
-\code{"florida_core_blue"}(defines as HEX #0021A5).
+\code{"florida_core orange"} (defined as HEX #FA416) and
+\code{"florida_core_blue"} (defined as HEX #0021A5).
 
 \code{pal_uflorida_primary} uses the HEX color definitions.
 }
@@ -146,8 +146,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_vanderbiltu_core}},
@@ -164,6 +162,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

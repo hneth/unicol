@@ -23,9 +23,9 @@ of the \href{https://www.uci.edu}{University of California, Irvine}, USA.
 }
 \details{
 The 7 secondary colors are
-\code{"light_blue"}(defined as HEX #6aa2b8),
-\code{"light_gray"}(defined as HEX #c6beb5),
-\code{"dark_blue"}(defined as HEX #1b3d6d),
+\code{"light_blue"} (defined as HEX #6aa2b8),
+\code{"light_gray"} (defined as HEX #c6beb5),
+\code{"dark_blue"} (defined as HEX #1b3d6d),
 \code{"orange"} (defined as HEX #f78d2d), 
 \code{"light_yellow"} (defined as HEX #f7eb5f), 
 \code{"dark_gray"} (defined as HEX #555759), and 

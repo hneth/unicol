@@ -23,9 +23,9 @@ of the \href{https://www.asu.edu}{Arizona State University}, USA.
 }
 \details{
 The 9 tertiary colors are 
-\code{"asu_black"}(defined as HEX #000000),
-\code{"gray1"}(defined as HEX #191919),
-\code{"gray2"}(defined as HEX #484848),
+\code{"asu_black"} (defined as HEX #000000),
+\code{"gray1"} (defined as HEX #191919),
+\code{"gray2"} (defined as HEX #484848),
 \code{"asu_gray"} (defined as HEX #747474), 
 \code{"gray4"} (defined as HEX #BFBFBF), 
 \code{"gray5"} (defined as HEX #D0D0D0), 

@@ -23,10 +23,10 @@ of the \href{https://www.asu.edu}{Arizona State University}, USA.
 }
 \details{
 The 4 primary colors are
-\code{"asu_maroon"}(defined as HEX #8C1D40)
-\code{"asu_gold"}(defined as HEX #FFC627)
-\code{"asu_rich_black"}(defined as HEX #000000)
-\code{"asu_white"}(defined as HEX #FFFFFF)
+\code{"asu_maroon"} (defined as HEX #8C1D40)
+\code{"asu_gold"} (defined as HEX #FFC627)
+\code{"asu_rich_black"} (defined as HEX #000000)
+\code{"asu_white"} (defined as HEX #FFFFFF)
 
 \code{pal_asu_primary} uses the HEX color definitions.
 }
@@ -147,8 +147,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
@@ -166,6 +164,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

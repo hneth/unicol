@@ -23,9 +23,9 @@ of the \href{https://www.asu.edu}{Arizona State University}, USA.
 }
 \details{
 The 7 secondary colors are
-\code{"asu_green"}(defined as HEX #78BE20),
-\code{"asu_blue"}(defined as HEX #00A3E0),
-\code{"asu_orange"}(defined as HEX #FF7F32),
+\code{"asu_green"} (defined as HEX #78BE20),
+\code{"asu_blue"} (defined as HEX #00A3E0),
+\code{"asu_orange"} (defined as HEX #FF7F32),
 \code{"asu_gray"} (defined as HEX #747474)
 \code{"asu_copper"} (defined as HEX #Af674B)
 \code{"asu_turquoise"} (defined as HEX #4AB7C4)

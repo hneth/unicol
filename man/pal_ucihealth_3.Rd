@@ -23,11 +23,11 @@ of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
 }
 \details{
 The 5 teritary colors are
-\code{"dark_orange"}(defined as HEX #b71234),
-\code{"bright_purple"}(defined as HEX #7c109a),
-\code{"turquoise"}(defined as HEX #00b0ca),
-\code{"lime_green"}(defined as HEX #7ab800) and 
-\code{"yellow"}(defined as HEX #fecb00).
+\code{"dark_orange"} (defined as HEX #b71234),
+\code{"bright_purple"} (defined as HEX #7c109a),
+\code{"turquoise"} (defined as HEX #00b0ca),
+\code{"lime_green"} (defined as HEX #7ab800) and 
+\code{"yellow"} (defined as HEX #fecb00).
 
 \code{pal_ucihealth_3} uses the HEX color definitions.
 }

@@ -23,18 +23,18 @@ of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 }
 \details{
 The 12 primary colors are
-\code{"trinity_blue_100"}(defined as HEX #0569b9)
-\code{"trinity_blue_75"}(defined as HEX #448fcb)
-\code{"trinity_blue_50"}(defined as HEX #82b4dc)
-\code{"trinity_blue_25"}(defined as HEX #cidaee)
-\code{"trinity_blue_10"}(defined as HEX #e6f0f8)
-\code{"grey_100"}(defined as HEX #50555a)
-\code{"grey_75"}(defined as HEX #7c8083)
-\code{"grey_50"}(defined as HEX #a8aaad)
-\code{"grey_25"}(defined as HEX #d3d5d6)
-\code{"grey_10"}(defined as HEX #eeeeef)
-\code{"white"}(defined as HEX #ffffff)
-\code{"black"}(defined as HEX #000000)
+\code{"trinity_blue_100"} (defined as HEX #0569b9)
+\code{"trinity_blue_75"} (defined as HEX #448fcb)
+\code{"trinity_blue_50"} (defined as HEX #82b4dc)
+\code{"trinity_blue_25"} (defined as HEX #cidaee)
+\code{"trinity_blue_10"} (defined as HEX #e6f0f8)
+\code{"grey_100"} (defined as HEX #50555a)
+\code{"grey_75"} (defined as HEX #7c8083)
+\code{"grey_50"} (defined as HEX #a8aaad)
+\code{"grey_25"} (defined as HEX #d3d5d6)
+\code{"grey_10"} (defined as HEX #eeeeef)
+\code{"white"} (defined as HEX #ffffff)
+\code{"black"} (defined as HEX #000000)
 
 \code{pal_trinity_1} uses the HEX color definitions.
 }
@@ -156,8 +156,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
 \code{\link{pal_vanderbiltu_core}},
@@ -174,6 +172,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

@@ -23,11 +23,11 @@ of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
 }
 \details{
 The 5 neutral colors are
-\code{"brick_red"}(defined as HEX #981e32),
-\code{"purple"}(defined as HEX #631d76),
-\code{"teal_blue"}(defined as HEX #0083b3),
-\code{"green"}(defined as HEX #3f9c35), and 
-\code{"dark_blue"}(defined as HEX #1b3d6d).
+\code{"brick_red"} (defined as HEX #981e32),
+\code{"purple"} (defined as HEX #631d76),
+\code{"teal_blue"} (defined as HEX #0083b3),
+\code{"green"} (defined as HEX #3f9c35), and 
+\code{"dark_blue"} (defined as HEX #1b3d6d).
 
 \code{pal_ucihealth_2} uses the HEX color definitions.
 }

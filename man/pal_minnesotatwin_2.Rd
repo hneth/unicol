@@ -23,14 +23,14 @@ of the \href{https://twin-cities.umn.edu/}{University of Minnesota Twin Cities},
 }
 \details{
 The 8 secondary colors are
-\code{"minnesotatwin_dark-marron"}(defined as HEX #5B0013),
-\code{"minnesotatwin_dark_gold"}(defined as HEX #FFB71E),
-\code{"minnesotatwin_darker_gray"}(defines as HEX #333333),
-\code{"minnesotatwin_medium_grey"}(defined as HEX #777677),
-\code{"minnesotatwin_light_maroon"}(defined as HEX #900021),
-\code{"minnesotatwin_light_gold"}(defined as HEX #FFDE7A),
-\code{"minnesotatwin_dark_grey"}(defined as HEX #5A5A5A) and
-\code{"minnesotatwin_light_grey"}(defined as HEX #D5D6D2).
+\code{"minnesotatwin_dark-marron"} (defined as HEX #5B0013),
+\code{"minnesotatwin_dark_gold"} (defined as HEX #FFB71E),
+\code{"minnesotatwin_darker_gray"} (defined as HEX #333333),
+\code{"minnesotatwin_medium_grey"} (defined as HEX #777677),
+\code{"minnesotatwin_light_maroon"} (defined as HEX #900021),
+\code{"minnesotatwin_light_gold"} (defined as HEX #FFDE7A),
+\code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A) and
+\code{"minnesotatwin_light_grey"} (defined as HEX #D5D6D2).
 
 \code{pal_minnesotatwin_2} uses the HEX color definitions.
 }
@@ -153,8 +153,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
@@ -172,6 +170,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

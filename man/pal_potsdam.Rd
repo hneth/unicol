@@ -23,15 +23,15 @@ of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
 }
 \details{
 The 9 primary colors are
-\code{"hks_41"}(defined as HEX #00305e)
-\code{"hks_41_45"}(defined as HEX #818bac)
-\code{"web_color"}(defined as HEX #c1d3e0)
-\code{"faculty_of_law"}(defined as HEX #e4003a)
-\code{"faculty_of_philosophy"}(defines as HEX #8b2939).
-\code{"faculty_of_humanities"}(defines as HEX #f59c00).
-\code{"faculty_of_economics"}(defines as HEX #52822f).
-\code{"faculty_of_mathematics"}(defines as HEX #0080b5).
-\code{"faculty_of_digital_engineering"}(defines as HEX #5A5F62).
+\code{"hks_41"} (defined as HEX #00305e)
+\code{"hks_41_45"} (defined as HEX #818bac)
+\code{"web_color"} (defined as HEX #c1d3e0)
+\code{"faculty_of_law"} (defined as HEX #e4003a)
+\code{"faculty_of_philosophy"} (defined as HEX #8b2939).
+\code{"faculty_of_humanities"} (defined as HEX #f59c00).
+\code{"faculty_of_economics"} (defined as HEX #52822f).
+\code{"faculty_of_mathematics"} (defined as HEX #0080b5).
+\code{"faculty_of_digital_engineering"} (defined as HEX #5A5F62).
 
 \code{pal_potsdam} uses the HEX color definitions.
 }
@@ -152,8 +152,6 @@ Other university color palettes:
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
@@ -171,6 +169,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

@@ -23,11 +23,11 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \details{
 The 5 neutral colors are
-\code{"black"}(defined as HEX #000000),
-\code{"florida_cool_grey_11"}(defined as HEX #343741),
-\code{"florida_cool_grey_3"}(defined as HEX #C7C9C8),
-\code{"florida_warm_grey_1"}(defined as HEX #D8D4D7) and 
-\code{"white"}(defined as HEX #FFFFFF).
+\code{"black"} (defined as HEX #000000),
+\code{"florida_cool_grey_11"} (defined as HEX #343741),
+\code{"florida_cool_grey_3"} (defined as HEX #C7C9C8),
+\code{"florida_warm_grey_1"} (defined as HEX #D8D4D7) and 
+\code{"white"} (defined as HEX #FFFFFF).
 
 \code{pal_uflorida_neutral} uses the HEX color definitions.
 }

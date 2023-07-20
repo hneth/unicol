@@ -23,8 +23,8 @@ of the \href{https://www.nd.edu}{University of Notre Dame}, USA.
 }
 \details{
 The 2 primary colors are
-\code{"nd_blue"}(defined as HEX #0c2340) and 
-\code{"nd_metallic_gold"}(defined as HEX #ae9142). 
+\code{"nd_blue"} (defined as HEX #0c2340) and 
+\code{"nd_metallic_gold"} (defined as HEX #ae9142). 
 
 \code{notredame_1} uses the HEX color definitions.
 }
@@ -146,8 +146,6 @@ Other university color palettes:
 \code{\link{pal_msu}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
-\code{\link{pal_standrews_1}},
-\code{\link{pal_standrews_2}},
 \code{\link{pal_trinity_1}},
 \code{\link{pal_uci_1}},
 \code{\link{pal_uflorida_primary}},
@@ -165,6 +163,8 @@ Other university color palettes:
 \code{\link{rpi_pal_3}},
 \code{\link{rptu_pal}},
 \code{\link{sfu_brand}},
+\code{\link{standrews_1}},
+\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},

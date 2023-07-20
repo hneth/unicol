@@ -23,9 +23,9 @@ of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 }
 \details{
 The 5 secondary colors are
-\code{"florida_bottlebrush"}(defined as HEX #D32737),
-\code{"florida_alachua"}(defined as HEX #F2A900),
-\code{"florida_gator"}(defined as HEX #2284C),
+\code{"florida_bottlebrush"} (defined as HEX #D32737),
+\code{"florida_alachua"} (defined as HEX #F2A900),
+\code{"florida_gator"} (defined as HEX #2284C),
 \code{"florida_dark_blue"} (defined as HEX #002657) and
 \code{"florida_perennial"} (defined as HEX #6A2A60).
 

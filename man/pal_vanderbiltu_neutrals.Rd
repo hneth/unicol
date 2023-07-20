@@ -23,10 +23,10 @@ of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 }
 \details{
 The 4 neutral colors are
-\code{"vanderbilt_dark_grey"}(defined as HEX #777777),
-\code{"vanderbilt_light_gery"}(defines as HEX #E4E4E4),
-\code{"vanderbilt_sand"}(defined as HEX #E0D5C0) and 
-\code{"vanderbilt_cream"}(defined as HEX #F5F3EF).
+\code{"vanderbilt_dark_grey"} (defined as HEX #777777),
+\code{"vanderbilt_light_gery"} (defined as HEX #E4E4E4),
+\code{"vanderbilt_sand"} (defined as HEX #E0D5C0) and 
+\code{"vanderbilt_cream"} (defined as HEX #F5F3EF).
 
 \code{pal_vanderbiltu_neutrals} uses the HEX color definitions.
 }

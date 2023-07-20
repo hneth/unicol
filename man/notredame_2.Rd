@@ -23,9 +23,9 @@ of the \href{https://www.nd.edu}{University of Notre Dame}, USA.
 }
 \details{
 The 11 secondary colors are 
-\code{"brand_blue_light"}(defined as HEX #143865),
-\code{"brand_blue_bright"}(defined as HEX #1c4f8f),
-\code{"brand_gold_dark"}(defined as HEX #8c7535),
+\code{"brand_blue_light"} (defined as HEX #143865),
+\code{"brand_blue_bright"} (defined as HEX #1c4f8f),
+\code{"brand_gold_dark"} (defined as HEX #8c7535),
 \code{"brand_gold_light"} (defined as HEX #d39f10), 
 \code{"sky_blue"} (defined as HEX #e1e8f2), 
 \code{"sky_blue_dark"} (defined as HEX #c1cddd), 
