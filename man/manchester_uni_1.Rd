@@ -27,7 +27,7 @@ The three primary colours are
 \code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
 \code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 
-\code{manchester_uni_1} uses the HEX color definition.
+\code{manchester_uni_1} uses the HEX color definitions.
 }
 \examples{
 manchester_uni_1
@@ -124,6 +124,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -144,7 +145,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

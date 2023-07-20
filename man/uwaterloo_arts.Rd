@@ -32,7 +32,7 @@ The four orange colors are
 \code{"Orange Level 4 (digital primary color)"} (defined as RGB: 217 63 0, Hex:	#D93F00).
 
 
-\code{uwaterloo_arts} uses the HEX color definition.
+\code{uwaterloo_arts} uses the HEX color definitions.
 }
 \examples{
 uwaterloo_arts
@@ -130,6 +130,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -150,7 +151,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

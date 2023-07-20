@@ -29,7 +29,7 @@ The 5 secondary colors are
 \code{"florida_dark_blue"} (defined as HEX #002657) and
 \code{"florida_perennial"} (defined as HEX #6A2A60).
 
-\code{pal_uflorida_secondary} uses the HEX color definition.
+\code{pal_uflorida_secondary} uses the HEX color definitions.
 }
 \examples{
 pal_uflorida_secondary
@@ -45,10 +45,10 @@ unikn::seecol(pal_uflorida_secondary, main = "University of Florida") # view col
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_vanderbiltu_neutrals}},

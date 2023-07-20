@@ -28,7 +28,7 @@ The four primary colors are
 \code{"medium_blue_manitoba"} (defined as RGB 56/94/157, HEX #385E9D), and
 \code{"light_blue_manitoba"} (defined as RGB 0/163/224, HEX #00A3E0).
 
-\code{manitoba_1} uses the HEX color definition.
+\code{manitoba_1} uses the HEX color definitions.
 }
 \examples{
 manitoba_1
@@ -126,6 +126,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -146,7 +147,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

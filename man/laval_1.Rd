@@ -32,7 +32,7 @@ The four secondary colors are
 \code{"dark_grey_laval"} (defined as RGB 81/81/81, HEX #515151), and 
 \code{"black"} (defined as RGB 0/0/0, HEX #000000).
 
-\code{laval_1} uses the HEX color definition.
+\code{laval_1} uses the HEX color definitions.
 }
 \examples{
 laval_1
@@ -128,6 +128,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -148,7 +149,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

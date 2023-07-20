@@ -29,7 +29,7 @@ The 5 neutral colors are
 \code{"green"}(defined as HEX #3f9c35), and 
 \code{"dark_blue"}(defined as HEX #1b3d6d).
 
-\code{pal_ucihealth_2} uses the HEX color definition.
+\code{pal_ucihealth_2} uses the HEX color definitions.
 }
 \examples{
 pal_ucihealth_2

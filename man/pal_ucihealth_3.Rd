@@ -29,7 +29,7 @@ The 5 teritary colors are
 \code{"lime_green"}(defined as HEX #7ab800) and 
 \code{"yellow"}(defined as HEX #fecb00).
 
-\code{pal_ucihealth_3} uses the HEX color definition.
+\code{pal_ucihealth_3} uses the HEX color definitions.
 }
 \examples{
 pal_ucihealth_3

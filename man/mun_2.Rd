@@ -37,7 +37,7 @@ The 12 secondary colors are
 \code{"purple_mun"} (defined as RGB 187/41/187, HEX #BB29BB).
 
 
-\code{mun_2} uses the HEX color definition. 
+\code{mun_2} uses the HEX color definitions. 
 the RGB and HEX definitions differ numerically for the \code{"PMS_2736"} , 
 yet are visually indistinguishable. Our color palette is based on the HEX definition.
 }
@@ -136,6 +136,7 @@ Other university color palettes:
 \code{\link{mun_1}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -156,7 +157,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

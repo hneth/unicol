@@ -34,7 +34,7 @@ The 10 tertiary colors are
 \code{"web_violet"} (defined as HEX #8a6996), and 
 \code{"bonfire_orange"} (defined as HEX #ffa00f). 
 
-\code{pal_dartmouth_3} uses the HEX color definition.
+\code{pal_dartmouth_3} uses the HEX color definitions.
 }
 \examples{
 pal_dartmouth_3
@@ -52,9 +52,9 @@ unikn::seecol(pal_dartmouth_3, main = "Dartmouth College 3") # view color palett
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},

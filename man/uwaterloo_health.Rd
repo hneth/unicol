@@ -31,7 +31,7 @@ The four teal colors are
 \code{"Teal Level 4 (digital primary color)"} (defined as CMYK: 83 14 23 50, RGB:	0 89 99, HEX:	#005963).
 
 
-\code{uwaterloo_health} uses the HEX color definition.
+\code{uwaterloo_health} uses the HEX color definitions.
 }
 \examples{
 uwaterloo_health
@@ -129,6 +129,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -149,7 +150,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

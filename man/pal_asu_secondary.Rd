@@ -31,7 +31,7 @@ The 7 secondary colors are
 \code{"asu_turquoise"} (defined as HEX #4AB7C4)
 \code{"asu_pink"} (defined as HEX #E74973)
 
-\code{pal_asu_secondary} uses the HEX color definition.
+\code{pal_asu_secondary} uses the HEX color definitions.
 }
 \examples{
 pal_asu_secondary
@@ -47,9 +47,9 @@ unikn::seecol(pal_asu_secondary, main = "Arizona State University") # view color
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},

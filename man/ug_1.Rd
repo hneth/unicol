@@ -30,7 +30,7 @@ The two secondary color are
 \code{"PMS_123"} (defined as RGB 255/199/42, HEX #FFC72A) and
 \code{"PMS_549"} (defined as RGB 105/163/185, HEX ##69A3B9).
 
-\code{ug_1} uses the HEX color definition.
+\code{ug_1} uses the HEX color definitions.
 }
 \examples{
 ug_1
@@ -127,6 +127,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -147,7 +148,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

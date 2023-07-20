@@ -81,7 +81,7 @@ The 57 secondary colors are
 \code{"granite_gray"} (defined as HEX #424141), and 
 \code{"granite_gray"} (defined as HEX #424141)
 
-\code{pal_trinity_2} uses the HEX color definition.
+\code{pal_trinity_2} uses the HEX color definitions.
 }
 \examples{
 pal_trinity_2
@@ -97,10 +97,10 @@ unikn::seecol(pal_trinity_2, main = "Trinity College Dublin") # view color palet
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},
 \code{\link{pal_vanderbiltu_neutrals}},

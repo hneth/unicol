@@ -33,7 +33,7 @@ The 9 tertiary colors are
 \code{"gray7"} (defined as HEX #FAFAFA), and 
 \code{"asu_white"} (defined as HEX #FFFFFF). 
 
-\code{pal_asu_grayscale} uses the HEX color definition.
+\code{pal_asu_grayscale} uses the HEX color definitions.
 }
 \examples{
 pal_asu_grayscale
@@ -49,10 +49,10 @@ unikn::seecol(pal_asu_grayscale, main = "Arizona State University") # view color
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},

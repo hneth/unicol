@@ -32,7 +32,7 @@ The 8 secondary colors are
 \code{"minnesotatwin_dark_grey"}(defined as HEX #5A5A5A) and
 \code{"minnesotatwin_light_grey"}(defined as HEX #D5D6D2).
 
-\code{pal_minnesotatwin_2} uses the HEX color definition.
+\code{pal_minnesotatwin_2} uses the HEX color definitions.
 }
 \examples{
 pal_minnesotatwin_2
@@ -131,6 +131,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -150,7 +151,6 @@ Other university color palettes:
 \code{\link{pal_galway_2}},
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

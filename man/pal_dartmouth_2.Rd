@@ -32,7 +32,7 @@ The 4 secondary colors are
 \code{"web_gray_3"} (defined as HEX #707070)
 \code{"granite_gray"} (defined as HEX #424141)
 
-\code{pal_dartmouth_2} uses the HEX color definition.
+\code{pal_dartmouth_2} uses the HEX color definitions.
 }
 \examples{
 pal_dartmouth_2
@@ -50,9 +50,9 @@ unikn::seecol(pal_dartmouth_2, main = "Dartmouth College 2") # view color palett
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},

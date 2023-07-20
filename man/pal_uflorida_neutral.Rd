@@ -29,7 +29,7 @@ The 5 neutral colors are
 \code{"florida_warm_grey_1"}(defined as HEX #D8D4D7) and 
 \code{"white"}(defined as HEX #FFFFFF).
 
-\code{pal_uflorida_neutral} uses the HEX color definition.
+\code{pal_uflorida_neutral} uses the HEX color definitions.
 }
 \examples{
 pal_uflorida_neutral

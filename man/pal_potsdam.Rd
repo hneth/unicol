@@ -33,7 +33,7 @@ The 9 primary colors are
 \code{"faculty_of_mathematics"}(defines as HEX #0080b5).
 \code{"faculty_of_digital_engineering"}(defines as HEX #5A5F62).
 
-\code{pal_potsdam} uses the HEX color definition.
+\code{pal_potsdam} uses the HEX color definitions.
 }
 \examples{
 pal_potsdam
@@ -130,6 +130,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -150,7 +151,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_standrews_1}},
 \code{\link{pal_standrews_2}},

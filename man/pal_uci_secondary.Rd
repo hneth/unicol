@@ -31,7 +31,7 @@ The 7 secondary colors are
 \code{"dark_gray"} (defined as HEX #555759), and 
 \code{"lime_green"} (defined as HEX #7ab800). 
 
-\code{pal_uci_secondary} uses the HEX color definition.
+\code{pal_uci_secondary} uses the HEX color definitions.
 }
 \examples{
 pal_uci_secondary
@@ -47,10 +47,10 @@ unikn::seecol(pal_uci_secondary, main = "University of California, Irvine") # vi
 
 Other university color palettes.: 
 \code{\link{limerick_2}},
+\code{\link{notredame_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uflorida_secondary}},
 \code{\link{pal_vanderbiltu_neutrals}},

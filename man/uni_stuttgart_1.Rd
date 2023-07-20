@@ -31,7 +31,7 @@ The secondary color is
 \code{"hellblau"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF)
 and used for color accents.
 
-\code{uni_stuttgart_1} uses the HEX color definition.
+\code{uni_stuttgart_1} uses the HEX color definitions.
 CMYK color differs from RGB and HEX definition.
 For \code{"anthrazit"} and \code{"mittelblau"} the RGB and HEX definitions also differ numerically,
 yet are visually indistinguishable. Our color palette is based on the HEX definition.
@@ -132,6 +132,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -152,7 +153,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},

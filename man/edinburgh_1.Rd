@@ -36,7 +36,7 @@ The eleven primary colours are
 \code{"Spuce grey"} (defined as Hex: 333F48, RGB: 51, 63, 72).
 
 
-\code{edinburgh_1} uses the HEX color definition.
+\code{edinburgh_1} uses the HEX color definitions.
 }
 \examples{
 edinburgh_1
@@ -133,6 +133,7 @@ Other university color palettes:
 \code{\link{mun_2}},
 \code{\link{northwestern_1}},
 \code{\link{northwestern_2}},
+\code{\link{notredame_1}},
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
@@ -153,7 +154,6 @@ Other university color palettes:
 \code{\link{pal_kassel_haus}},
 \code{\link{pal_minnesotatwin_2}},
 \code{\link{pal_msu}},
-\code{\link{pal_notredame_primary}},
 \code{\link{pal_pitt_2}},
 \code{\link{pal_potsdam}},
 \code{\link{pal_standrews_1}},
