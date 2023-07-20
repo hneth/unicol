@@ -37,7 +37,7 @@
 #' \code{"dark_grey_laval"} (defined as RGB 81/81/81, HEX #515151), and 
 #' \code{"black"} (defined as RGB 0/0/0, HEX #000000).
 #'
-#' \code{laval_1} uses the HEX color definition.
+#' \code{laval_1} uses the HEX color definitions.
 #' 
 #' 
 #' @return 

@@ -26,7 +26,7 @@
 #'\code{"florida_core orange"}(defined as HEX #FA416) and
 #'\code{"florida_core_blue"}(defines as HEX #0021A5).
 #'
-#'\code{pal_uflorida_primary} uses the HEX color definition.
+#'\code{pal_uflorida_primary} uses the HEX color definitions.
 #'
 #'@return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -70,7 +70,7 @@ pal_uflorida_primary <- unikn::newpal(col = c("#FA4616", "#0021A5"), names = c("
 #' \code{"florida_dark_blue"} (defined as HEX #002657) and
 #' \code{"florida_perennial"} (defined as HEX #6A2A60).
 #' 
-#' \code{pal_uflorida_secondary} uses the HEX color definition.
+#' \code{pal_uflorida_secondary} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -113,7 +113,7 @@ pal_uflorida_secondary <- unikn::newpal(col = c("#D32737","#F2A900","#22884C","#
 #' \code{"florida_warm_grey_1"}(defined as HEX #D8D4D7) and 
 #' \code{"white"}(defined as HEX #FFFFFF).
 #' 
-#' \code{pal_uflorida_neutral} uses the HEX color definition.
+#' \code{pal_uflorida_neutral} uses the HEX color definitions.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

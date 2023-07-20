@@ -28,7 +28,7 @@
 #' \code{"asu_rich_black"}(defined as HEX #000000)
 #' \code{"asu_white"}(defined as HEX #FFFFFF)
 #'
-#' \code{pal_asu_primary} uses the HEX color definition.
+#' \code{pal_asu_primary} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -76,7 +76,7 @@ pal_asu_primary <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFF
 #' \code{"asu_turquoise"} (defined as HEX #4AB7C4)
 #' \code{"asu_pink"} (defined as HEX #E74973)
 #' 
-#' \code{pal_asu_secondary} uses the HEX color definition.
+#' \code{pal_asu_secondary} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -128,7 +128,7 @@ pal_asu_secondary <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#74
 #' \code{"gray7"} (defined as HEX #FAFAFA), and 
 #' \code{"asu_white"} (defined as HEX #FFFFFF). 
 #' 
-#' \code{pal_asu_grayscale} uses the HEX color definition.
+#' \code{pal_asu_grayscale} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).

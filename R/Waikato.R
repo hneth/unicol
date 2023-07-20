@@ -34,7 +34,7 @@
 #' \code{"waikato_light_grey"}(defined as HEX #F2F2F2).
 #'
 #'
-#' \code{pal_waikato} uses the HEX color definition.
+#' \code{pal_waikato} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

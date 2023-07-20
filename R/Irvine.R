@@ -27,7 +27,7 @@
 #' \code{"uci_blue"}(defined as HEX #0064a4) and
 #' \code{"uci_gold"}(defines as HEX #ffd200).
 #'
-#' \code{pal_uci_1} uses the HEX color definition.
+#' \code{pal_uci_1} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -78,7 +78,7 @@ pal_uci_1 <- unikn::newpal(col = c("#0064a4", "#ffd200"),
 #' \code{"dark_gray"} (defined as HEX #555759), and 
 #' \code{"lime_green"} (defined as HEX #7ab800). 
 #' 
-#' \code{pal_uci_secondary} uses the HEX color definition.
+#' \code{pal_uci_secondary} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -127,7 +127,7 @@ pal_uci_secondary <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f7
 #' \code{"green"}(defined as HEX #3f9c35), and 
 #' \code{"dark_blue"}(defined as HEX #1b3d6d).
 #' 
-#' \code{pal_ucihealth_2} uses the HEX color definition.
+#' \code{pal_ucihealth_2} uses the HEX color definitions.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -172,7 +172,7 @@ pal_ucihealth_2 <- unikn::newpal(col = c("#981e32","#631d76","#0083b3","#3f9c35"
 #' \code{"lime_green"}(defined as HEX #7ab800) and 
 #' \code{"yellow"}(defined as HEX #fecb00).
 #' 
-#' \code{pal_ucihealth_3} uses the HEX color definition.
+#' \code{pal_ucihealth_3} uses the HEX color definitions.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

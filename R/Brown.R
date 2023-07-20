@@ -158,7 +158,7 @@ col_taupe <- "#B7B09C"
 #' \code{"gold"} (HEX: #FFC72C) and
 #' \code{"gray"} (HEX: #98A4AE) .
 #'
-#' \code{brown_1} uses the HEX color definition. 
+#' \code{brown_1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -207,7 +207,7 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' \code{"navy"} (HEX: #003C71), and
 #' \code{"taupe"} (HEX: #B7B09C) .
 #'
-#' \code{brown_2} uses the HEX color definition. 
+#' \code{brown_2} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

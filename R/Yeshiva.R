@@ -28,7 +28,7 @@
 #' \code{"yeshiva_black"}(defined as HEX #000000), and
 #' \code{"yeshiva_gray"}(defined as HEX #85878A)
 #'
-#' \code{pal_yeshivau} uses the HEX color definition.
+#' \code{pal_yeshivau} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

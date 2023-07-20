@@ -39,7 +39,7 @@
 #' \code{"pms_2975"} (defined as RGB 151/212/233, HEX ##97D4E9). 
 #' 
 #'
-#' \code{ubc1} uses the HEX color definition. 
+#' \code{ubc1} uses the HEX color definitions. 
 #' For \code{"ubc_blue"} the RGB and HEX definitions differ numerically, 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
 #'

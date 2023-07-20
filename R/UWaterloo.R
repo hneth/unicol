@@ -38,7 +38,7 @@
 #' \code{"White"} (defined as CMYK:0 0 0 0, RGB:	255 255 255, HEX:	#FFFFFF).
 #' 
 #'
-#' \code{uwaterloo_main} uses the HEX color definition. 
+#' \code{uwaterloo_main} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -96,7 +96,7 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 #' \code{"Orange Level 4 (digital primary color)"} (defined as RGB: 217 63 0, Hex:	#D93F00).
 #' 
 #' 
-#' \code{uwaterloo_arts} uses the HEX color definition. 
+#' \code{uwaterloo_arts} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -152,7 +152,7 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #' \code{"Purple Level 4 (digital primary color)"} (defined as CMYK: 78 94 0 0, RGB:	87 5 139, HEX:	#57058B).
 #' 
 #' 
-#' \code{uwaterloo_engineering} uses the HEX color definition. 
+#' \code{uwaterloo_engineering} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -209,7 +209,7 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' \code{"Green Level 4 (digital primary color)"} (defined as RGB: 96 112 0, HEX:	#607000).
 #' 
 #' 
-#' \code{uwaterloo_environment} uses the HEX color definition. 
+#' \code{uwaterloo_environment} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -267,7 +267,7 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' \code{"Teal Level 4 (digital primary color)"} (defined as CMYK: 83 14 23 50, RGB:	0 89 99, HEX:	#005963).
 #' 
 #' 
-#' \code{uwaterloo_health} uses the HEX color definition. 
+#' \code{uwaterloo_health} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -323,7 +323,7 @@ uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005
 #' \code{"Pink Level 4 (digital primary color)"} (defined as CMYK: 18 100 4 17, RGB:	198 0 120, HEX:	#C60078).
 #' 
 #' 
-#' \code{uwaterloo_math} uses the HEX color definition. 
+#' \code{uwaterloo_math} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -379,7 +379,7 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' \code{"Blue Level 4 (digital primary color)"} (defined as CMYK: 100 75 0 5, RGB:	0 51 190, HEX:	#0033BE).
 #' 
 #' 
-#' \code{uwaterloo_science} uses the HEX color definition. 
+#' \code{uwaterloo_science} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

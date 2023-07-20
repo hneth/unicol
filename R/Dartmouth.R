@@ -25,7 +25,7 @@
 #' The primary color is
 #' \code{"dartmouth_green"} (defined as HEX #00693E). 
 #'
-#' \code{pal_dartmouth_1} uses the HEX color definition.
+#' \code{pal_dartmouth_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -78,7 +78,7 @@ pal_dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' \code{"web_gray_3"} (defined as HEX #707070)
 #' \code{"granite_gray"} (defined as HEX #424141)
 #' 
-#' \code{pal_dartmouth_2} uses the HEX color definition.
+#' \code{pal_dartmouth_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -134,7 +134,7 @@ pal_dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#0000
 #' \code{"web_violet"} (defined as HEX #8a6996), and 
 #' \code{"bonfire_orange"} (defined as HEX #ffa00f). 
 #' 
-#' \code{pal_dartmouth_3} uses the HEX color definition.
+#' \code{pal_dartmouth_3} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).

@@ -29,7 +29,7 @@
 #' \code{"andrews_yellow"}(defined as HEX #ffdf00), and 
 #' \code{"andrews_black"}(defined as HEX #231f20).
 #' 
-#' \code{pal_standrews_1} uses the HEX color definition. 
+#' \code{pal_standrews_1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -79,7 +79,7 @@ pal_standrews_1 <- unikn::newpal(col = c("#00539b","#ee312a","#ffdf00","#231f20"
 #' \code{"andrews_mid_green"}(defined as HEX #00853f), and 
 #' \code{"andrews_dark_green"}(defined as HEX #005953).
 #' 
-#' \code{pal_standrews_1} uses the HEX color definition. 
+#' \code{pal_standrews_1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

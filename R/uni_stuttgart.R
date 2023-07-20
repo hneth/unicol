@@ -107,7 +107,7 @@ col_hellBlau <- "#00BEFF"
 #' \code{"hellblau"} (defined as PANTONE 2985U, CMYK 70/0/0/0, RGB 0/190/255, HEX #00BEFF)
 #' and used for color accents.
 #'
-#' \code{uni_stuttgart_1} uses the HEX color definition.
+#' \code{uni_stuttgart_1} uses the HEX color definitions.
 #' CMYK color differs from RGB and HEX definition.
 #' For \code{"anthrazit"} and \code{"mittelblau"} the RGB and HEX definitions also differ numerically,
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
@@ -166,7 +166,7 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' \code{"anthrazit dark"} (defined as CMYK 0/0/0/90) when printing black and white, and
 #' \code{"black"} (defined as CMYK 0/0/0/100) when printing text block in correspondence.
 #'
-#' \code{uni_stuttgart_2_print} uses the HEX color definition.
+#' \code{uni_stuttgart_2_print} uses the HEX color definitions.
 #' CMYK color differs from RGB and HEX definition.
 #' For \code{"anthrazit"} and \code{"mittelblau"} the RGB and HEX definitions also differ numerically,
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.

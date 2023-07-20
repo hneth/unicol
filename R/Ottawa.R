@@ -39,7 +39,7 @@
 #' \code{"light_grey_ottawa"} (defined as RGB 172/163/154, HEX #ACA39A), and
 #' \code{"cool_grey"} (defined as RGB 200/201/199, HEX #C8C9C7). 
 #' 
-#' \code{ottawa_1} uses the HEX color definition. 
+#' \code{ottawa_1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

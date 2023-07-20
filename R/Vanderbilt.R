@@ -24,7 +24,7 @@
 #' \code{"black"}(defined as HEX #1C1C1C) and 
 #' \code{"white"}(defined as HEX #FFFFFF).
 #' 
-#' \code{pal_vanderbiltu_core} uses the HEX color definition.
+#' \code{pal_vanderbiltu_core} uses the HEX color definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -71,7 +71,7 @@ pal_vanderbiltu_core <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
 #' \code{"vanderbilt_sand"}(defined as HEX #E0D5C0) and 
 #' \code{"vanderbilt_cream"}(defined as HEX #F5F3EF).
 #' 
-#' \code{pal_vanderbiltu_neutrals} uses the HEX color definition.
+#' \code{pal_vanderbiltu_neutrals} uses the HEX color definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -116,7 +116,7 @@ pal_vanderbiltu_neutrals <- unikn::newpal(col = c("#777777", "#E4E4E4", "#E0D5C0
 #' \code{"vanderbilt_oak"}(defined as HEX #946E24) and 
 #' \code{"vanderbilt_sage"}(defines as HEX #8BA18E).
 #' 
-#' \code{pal_vanderbilt_saturated} uses the HEX color definition.
+#' \code{pal_vanderbilt_saturated} uses the HEX color definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML of type character).

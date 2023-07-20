@@ -32,7 +32,7 @@
 #' \code{"medium_blue_manitoba"} (defined as RGB 56/94/157, HEX #385E9D), and
 #' \code{"light_blue_manitoba"} (defined as RGB 0/163/224, HEX #00A3E0).
 #'
-#' \code{manitoba_1} uses the HEX color definition. 
+#' \code{manitoba_1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -90,7 +90,7 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #' \code{"warm_gray"} (defined as RGB 131/120/111, HEX #83786F).
 #'
 #'
-#' \code{manitoba_2} uses the HEX color definition. 
+#' \code{manitoba_2} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

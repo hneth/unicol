@@ -38,7 +38,7 @@
 #' \code{"glasgow_slate"} (defined as HEX #4F5961), and
 #' \code{"glasgow_thistle"} (defined as HEX #951272).
 #'
-#' \code{pal_glasgow_1} uses the HEX color definition.
+#' \code{pal_glasgow_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

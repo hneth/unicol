@@ -34,7 +34,7 @@
 #' 
 #' The purple should be used as a main colour with the grey and yellow to complement it. 
 #' 
-#' \code{uni_manchester_1} uses the HEX color definition. 
+#' \code{uni_manchester_1} uses the HEX color definitions. 
 #' #' RGB color values differ from HEX definition.
 #' For \code{"Purple"} and \code{"Grey"} the RGB and HEX definitions differ numerically, 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.

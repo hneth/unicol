@@ -31,7 +31,7 @@
 #' \code{"Grey (Silver)"} (defined as R:128 G:127 B:131, Hex: #807F83), and
 #' \code{"white"} (not defined).
 #'
-#' \code{western_uni_1} uses the HEX color definition. 
+#' \code{western_uni_1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).

@@ -37,7 +37,7 @@
 #' \code{"white"}(defined as HEX #ffffff)
 #' \code{"black"}(defined as HEX #000000)
 #'
-#' \code{pal_trinity_1} uses the HEX color definition.
+#' \code{pal_trinity_1} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -141,7 +141,7 @@ pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee"
 #' \code{"granite_gray"} (defined as HEX #424141), and 
 #' \code{"granite_gray"} (defined as HEX #424141)
 #' 
-#' \code{pal_trinity_2} uses the HEX color definition.
+#' \code{pal_trinity_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).

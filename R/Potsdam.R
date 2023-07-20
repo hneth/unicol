@@ -33,7 +33,7 @@
 #'\code{"faculty_of_mathematics"}(defines as HEX #0080b5).
 #'\code{"faculty_of_digital_engineering"}(defines as HEX #5A5F62).
 #'
-#'\code{pal_potsdam} uses the HEX color definition.
+#'\code{pal_potsdam} uses the HEX color definitions.
 #'
 #'@return
 #' A names vector of colors (HEX/HTML codes of type character).

@@ -35,7 +35,7 @@
 #' \code{"turquoise_concordia"} (defined as HEX #057d78) and
 #' \code{"grenn"}               (defined as HEX #508212).
 #'
-#' \code{conc1} uses the HEX color definition. 
+#' \code{conc1} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -82,7 +82,7 @@ conc1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004
 #' \code{"cyan_concordia"}  (defined as HEX #00adef) and
 #' \code{"lime"}            (defined as HEX #8cc63e).
 #'
-#' \code{conc2} uses the HEX color definition. 
+#' \code{conc2} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -134,7 +134,7 @@ conc2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' \code{"gold1_concordia"}      (defined as HEX #e9e3d3).
 #'
 #'
-#' \code{conc3} uses the HEX color definition. 
+#' \code{conc3} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -185,7 +185,7 @@ conc3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C
 #'
 #'
 #'
-#' \code{conc4} uses the HEX color definition. 
+#' \code{conc4} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

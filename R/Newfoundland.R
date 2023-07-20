@@ -39,7 +39,7 @@
 #' \code{"warm_grey_8"} (defined as RGB 140/130/121, HEX #8C8279).
 #'
 #'
-#' \code{mun_1} uses the HEX color definition. 
+#' \code{mun_1} uses the HEX color definitions. 
 #' 
 #' 
 #' @return 
@@ -97,7 +97,7 @@ mun_1 <- unikn::newpal(col = c("#862633", "#231F20", "#63666A", "#97999B", "#A59
 #' \code{"purple_mun"} (defined as RGB 187/41/187, HEX #BB29BB).
 #'
 #'
-#' \code{mun_2} uses the HEX color definition. 
+#' \code{mun_2} uses the HEX color definitions. 
 #' the RGB and HEX definitions differ numerically for the \code{"PMS_2736"} , 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
 #'

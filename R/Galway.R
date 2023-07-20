@@ -30,7 +30,7 @@
 #' \code{"black"} (defined as HEX #000000), and 
 #' \code{"white"} (defined as HEX #ffffff). 
 #'
-#' \code{pal_galway_1} uses the HEX color definition.
+#' \code{pal_galway_1} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -88,7 +88,7 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' \code{"sandstone"} (defined as HEX #c4c0b7), and 
 #' \code{"black"} (defined as HEX #000000). 
 #' 
-#' \code{pal_galway_2} uses the HEX color definition.
+#' \code{pal_galway_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).

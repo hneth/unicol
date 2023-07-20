@@ -41,7 +41,7 @@
 #' \code{"Spuce grey"} (defined as Hex: 333F48, RGB: 51, 63, 72).
 #'
 #'
-#' \code{edinburgh_1} uses the HEX color definition. 
+#' \code{edinburgh_1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).

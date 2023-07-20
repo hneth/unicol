@@ -33,7 +33,7 @@
 #' \code{"black"} (defined as RGB 0/0/0, HEX #000000).
 #' 
 #'
-#' \code{york1} uses the HEX color definition. 
+#' \code{york1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -81,7 +81,7 @@ york1 <- unikn::newpal(col = c("#E31837", "#FFFFFF", "#000000"),
 #' \code{"york_grey_medium"} (defined as RGB 183/174/169, HEX #B7AEA9) and
 #' \code{"york_grey_dark"}   (defined as RGB 104/98/96,   HEX #686260).
 #' 
-#' \code{york2} uses the HEX color definition. 
+#' \code{york2} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

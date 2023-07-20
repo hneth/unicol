@@ -36,7 +36,7 @@
 #' \code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
 #' \code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 #'
-#' \code{manchester_uni_1} uses the HEX color definition. 
+#' \code{manchester_uni_1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -88,7 +88,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 #' \code{"Manchester green"} (defined as C=55 M=3 Y=100 K=0, R=130 G=188 B=0, #82BC00), and
 #' \code{"white"}.
 #' 
-#' \code{manchester_uni_accent} uses the HEX color definition. 
+#' \code{manchester_uni_accent} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).

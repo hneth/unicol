@@ -69,7 +69,7 @@ col_4 <- "#F2F4F7"
 #' \code{"light_grey"} (defined as RGB 242/244/247, HEX #F2F4F7).
 #'
 #'
-#' \code{uni_pal_1} uses the HEX color definition. 
+#' \code{uni_pal_1} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

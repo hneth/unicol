@@ -33,7 +33,7 @@
 #' \code{"White"} (not defined).
 #' 
 #'
-#' \code{umass_brand} uses the HEX color definition. 
+#' \code{umass_brand} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -93,7 +93,7 @@ umass_brand <- unikn::newpal(col = c("#881c1c", "#212721", "white"),
 #' 
 #' Secondary colors* must never overpower the brand colors.
 #' 
-#' \code{umass_2} uses the HEX color definition. 
+#' \code{umass_2} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -145,7 +145,7 @@ umass_2 <- unikn::newpal(col = c("#ffc72c", "#ff9e1b", "#615e9b", "#44693d", "#5
 #' \code{"PMS 429"} (defined as C21 M11 Y9 K23, R162 G170 B173, Hex a2aaad).
 #' 
 #'
-#' \code{umass_neutrals} uses the HEX color definition. 
+#' \code{umass_neutrals} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).

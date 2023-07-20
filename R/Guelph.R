@@ -31,7 +31,7 @@
 #' \code{"PMS_123"} (defined as RGB 255/199/42, HEX #FFC72A) and
 #' \code{"PMS_549"} (defined as RGB 105/163/185, HEX ##69A3B9).
 #'
-#' \code{ug_1} uses the HEX color definition. 
+#' \code{ug_1} uses the HEX color definitions. 
 #' 
 #' 
 #' @return 

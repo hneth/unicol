@@ -27,7 +27,7 @@
 #' \code{"minnesotatwin_maroon"} (defined as HEX #7A0019) and
 #' \code{"minnesotatwin_gold"} (defined as HEX #FFCC33).
 #'
-#' \code{pal_minnesotatwin_1} uses the HEX color definition.
+#' \code{pal_minnesotatwin_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -81,7 +81,7 @@ pal_minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 #' \code{"minnesotatwin_dark_grey"}(defined as HEX #5A5A5A) and
 #' \code{"minnesotatwin_light_grey"}(defined as HEX #D5D6D2).
 #'
-#' \code{pal_minnesotatwin_2} uses the HEX color definition.
+#' \code{pal_minnesotatwin_2} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
