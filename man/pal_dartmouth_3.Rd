@@ -51,9 +51,9 @@ unikn::seecol(pal_dartmouth_3, main = "Dartmouth College 3") # view color palett
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes.: 
+\code{\link{limerick_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
-\code{\link{pal_limerick_2}},
 \code{\link{pal_notredame_secondary}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},

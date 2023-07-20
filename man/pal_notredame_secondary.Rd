@@ -50,10 +50,10 @@ unikn::seecol(pal_notredame_secondary, main = "University of Notre Dame") # view
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes.: 
+\code{\link{limerick_2}},
 \code{\link{pal_asu_secondary}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_limerick_2}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pal_uflorida_secondary}},
