@@ -52,8 +52,8 @@ unikn::seecol(pal_glasgow_1, main = "University of Glasgow 1") # view color pale
 \code{\link{grepal}} for finding named colors.
 
 Other university of color palettes: 
-\code{\link{pal_glasgow_2}},
-\code{\link{pal_minnesotatwin_1}}
+\code{\link{minnesotatwin_1}},
+\code{\link{pal_glasgow_2}}
 }
 \author{
 \strong{unicol}, 2023-07-05.
