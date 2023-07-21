@@ -50,9 +50,9 @@ Other university color palettes.:
 \code{\link{notredame_2}},
 \code{\link{pal_dartmouth_2}},
 \code{\link{pal_dartmouth_3}},
-\code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
 \code{\link{pla_asu_grayscale}},
+\code{\link{trinity_2}},
 \code{\link{uflorida_2}},
 \code{\link{vanderbilt_2}}
 }
