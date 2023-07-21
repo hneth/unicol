@@ -43,7 +43,7 @@
 #'
 #' @examples 
 #' pitt_1
-#' unikn::seecol(pitt_1, main "Pitt's contemporary colors") # view color palette
+#' unikn::seecol(pitt_1, main = "Pitt's contemporary colors") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -63,7 +63,7 @@ pitt_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 
 
 ## Check:
-# unikn::seecol(pitt_1, main= "Contemporary colors of the University of Pittsburgh")
+# unikn::seecol(pitt_1, main = "Contemporary colors of the University of Pittsburgh")
 
 
 
@@ -92,7 +92,7 @@ pitt_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 #'
 #' @examples
 #' pitt_2
-#' unikn::seecol(pitt_2, main= "Pittsburgh legacy colors") #view color palette
+#' unikn::seecol(pitt_2, main = "Pitt's legacy colors") # view color palette
 #'
 #' @family university color palettes
 #'
