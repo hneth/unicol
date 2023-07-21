@@ -55,8 +55,8 @@ Other university color palettes.:
 \code{\link{pal_dartmouth_3}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
-\code{\link{pal_vanderbiltu_neutrals}},
-\code{\link{uflorida_2}}
+\code{\link{uflorida_2}},
+\code{\link{vanderbilt_2}}
 }
 \author{
 \strong{unicol}, 2320-07-13.
