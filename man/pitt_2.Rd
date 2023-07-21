@@ -29,7 +29,7 @@ The 3 legacy colors are
 }
 \examples{
 pitt_2
-unikn::seecol(pitt_2, main= "Pittsburgh legacy colors") #view color palette
+unikn::seecol(pitt_2, main = "Pitt's legacy colors") # view color palette
 
 }
 \seealso{

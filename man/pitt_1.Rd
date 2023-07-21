@@ -28,7 +28,7 @@ The 2 contemporary colors are
 }
 \examples{
 pitt_1
-unikn::seecol(pitt_1, main "Pitt's contemporary colors") # view color palette
+unikn::seecol(pitt_1, main = "Pitt's contemporary colors") # view color palette
 
 }
 \seealso{
