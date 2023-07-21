@@ -134,11 +134,11 @@ uflorida_2 <- unikn::newpal(col = c("#D32737","#F2A900","#22884C",
 #' 
 #' @source 
 #' Color definitions are based on the 
-#' \href{https://brandcenter.ufl.edu/colors/}
+#' \href{https://brandcenter.ufl.edu/colors/}{UFL brand center}. 
 #' 
 #' @examples 
 #' uflorida_3
-#' unikn::seecol(uflorida_3, main = "University of Florida") # view color palette
+#' unikn::seecol(uflorida_3, main = "University of Florida 3") # view color palette
 #' 
 #' @seealso 
 #' \code{\link{uflorida_1}} for primary colors of the University of Florida;
@@ -151,8 +151,13 @@ uflorida_2 <- unikn::newpal(col = c("#D32737","#F2A900","#22884C",
 #' 
 #' @export
 
-uflorida_3 <- unikn::newpal(col = c("#000000","#343741","#C7C9CB","#D8D4D7","#FFFFFF"), names = c("black","ufl_cool_grey_11","ufl_cool_grey_33","ufl_warm_grey_1","white"), as_df = FALSE)
+uflorida_3 <- unikn::newpal(col = c("#000000","#343741","#C7C9CB","#D8D4D7","#FFFFFF"), 
+                            names = c("black", "ufl_cool_grey_11", "ufl_cool_grey_33", "ufl_warm_grey_1", "white"), 
+                            as_df = FALSE)
 
+
+## Check:
+# unikn::seecol(uflorida_3, main = "University of Florida 3", col_bg = "skyblue1") # view color palette
 
 ## ToDo: -----
 
