@@ -50,8 +50,8 @@ Other university color palettes.:
 \code{\link{pal_dartmouth_3}},
 \code{\link{pal_trinity_2}},
 \code{\link{pal_uci_secondary}},
-\code{\link{pal_uflorida_secondary}},
-\code{\link{pla_asu_grayscale}}
+\code{\link{pla_asu_grayscale}},
+\code{\link{uflorida_2}}
 }
 \author{
 \strong{unicol}, 2023-07-12
