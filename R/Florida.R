@@ -1,10 +1,10 @@
-## Florida.R|2023 07 08
+## Florida.R | 2023 07 21
 ## Colors of the University of Florida, USA
 # ------------------------------------------
 
 # Information: ----
 
-# unipals: "pal_uflorida_primary", "pal_uflorida_secondary", "pal_uflorida_neutral" (3)
+# unipals: "uflorida_1", "uflorida_2", "uflorida_3" (3)
 # inst: "University of Florida" 
 # country: USA
 # URL: "https://www.ufl.edu/"
@@ -15,37 +15,39 @@
 
 # Color palettes:
 
-# - pal_uflorida_primary: Primary colors ----
+# - uflorida_1: Primary colors ----
 
-#'Colors of the University of Florida:
+#' Primary colors of the University of Florida, USA 
 #'
-#'\code{pal_uflorida_primary} provides the 2 primary colors
-#'of the \href{https://www.ufl.edu/}{University of Florida}, USA.
+#' \code{uflorida_1} provides the two primary colors
+#' of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 #'
-#'The 2 primary colors are
-#'\code{"florida_core orange"} (defined as HEX #FA416) and
-#'\code{"florida_core_blue"} (defined as HEX #0021A5).
+#' The 2 primary colors are
+#' \code{"ufl_core orange"} (defined as HEX #FA416) and
+#' \code{"ufl_core_blue"} (defined as HEX #0021A5).
 #'
-#'\code{pal_uflorida_primary} uses the HEX color definitions.
+#' \code{uflorida_1} uses the HEX color definitions.
 #'
-#'@return
+#' @return
 #' A names vector of colors (HEX/HTML codes of type character).
 #' 
-#'@author
-#'\strong{unicol}, 2023-07-07.
+#' @author
+#' \strong{unicol}, 2023-07-21.
 #'
-#'@source
-#'Color definitions are based on the
-#'\href{https://brandcenter.ufl.edu/colors/}.
+#' @source
+#' Color definitions are based on the 
+#' \href{https://brandcenter.ufl.edu/colors/}{UFL brand center}.
 #'
-#'@examples
-#'pal_uflorida_primary
-#'unikn::seecol(pal_uflorida_primary, main= "University of Florida") #view color palette.
+#' @examples
+#' uflorida_1
+#' unikn::seecol(uflorida_1, main = "University of Florida 1") # view color palette.
 #'
-#'@family university color palettes
+#' @family university color palettes
 #'
-#'@seealso
-#'\code{\link{seecol}} for viewing and comparing color palettes;
+#' @seealso
+#' \code{\link{uflorida_2}} for secondary colors of the University of Florida; 
+#' \code{\link{uflorida_3}} for neutral colors of the University of Florida; 
+#' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
@@ -53,24 +55,26 @@
 #' 
 #' @export
 
-pal_uflorida_primary <- unikn::newpal(col = c("#FA4616", "#0021A5"), names = c("florida_core_orange","florida_core_blue"), as_df = FALSE)
+uflorida_1 <- unikn::newpal(col = c("#FA4616", "#0021A5"), 
+                            names = c("ufl_core_orange", "ufl_core_blue"), 
+                            as_df = FALSE)
 
 
-# - pal_uflorida_secondary: Secondary colors -----
+# - uflorida_2: Secondary colors -----
 
-#' Colors of the University of Florida
+#' Secondary colors of the University of Florida, USA 
 #' 
-#' \code{pal_uflorida_secondary} provides the 5 secondary colors
+#' \code{uflorida_2} provides the 5 secondary colors
 #' of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 #' 
 #' The 5 secondary colors are
-#' \code{"florida_bottlebrush"} (defined as HEX #D32737),
-#' \code{"florida_alachua"} (defined as HEX #F2A900),
-#' \code{"florida_gator"} (defined as HEX #2284C),
-#' \code{"florida_dark_blue"} (defined as HEX #002657) and
-#' \code{"florida_perennial"} (defined as HEX #6A2A60).
+#' \code{"ufl_bottlebrush"} (defined as HEX #D32737),
+#' \code{"ufl_alachua"} (defined as HEX #F2A900),
+#' \code{"ufl_gator"} (defined as HEX #2284C),
+#' \code{"ufl_dark_blue"} (defined as HEX #002657) and
+#' \code{"ufl_perennial"} (defined as HEX #6A2A60).
 #' 
-#' \code{pal_uflorida_secondary} uses the HEX color definitions.
+#' \code{uflorida_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -80,15 +84,17 @@ pal_uflorida_primary <- unikn::newpal(col = c("#FA4616", "#0021A5"), names = c("
 #' 
 #' @source 
 #' Color definitions are based on the
-#' \href{https://brandcenter.ufl.edu/colors/}
+#' \href{https://brandcenter.ufl.edu/colors/}{UFL brand center}.
 #'
 #' @examples 
-#' pal_uflorida_secondary
-#' unikn::seecol(pal_uflorida_secondary, main = "University of Florida") # view color palette
+#' uflorida_2
+#' unikn::seecol(uflorida_2, main = "University of Florida 2") # view color palette
 #' 
 #' @family university color palettes.
 #'
 #' @seealso 
+#' \code{\link{uflorida_1}} for primary colors of the University of Florida;
+#' \code{\link{uflorida_3}} for neutral colors of the University of Florida; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -96,24 +102,29 @@ pal_uflorida_primary <- unikn::newpal(col = c("#FA4616", "#0021A5"), names = c("
 #' \code{\link{grepal}} for finding named colors.
 #' 
 #' @export
-pal_uflorida_secondary <- unikn::newpal(col = c("#D32737","#F2A900","#22884C","#002657","#6A2A60"), names = c("florida_bottlebrush","florida_alachua", "florida_gator","florida_dark_blue","florida_perennial"), as_df = FALSE)
+
+uflorida_2 <- unikn::newpal(col = c("#D32737","#F2A900","#22884C",
+                                    "#002657","#6A2A60"), 
+                            names = c("ufl_bottlebrush", "ufl_alachua", "ufl_gator", 
+                                      "ufl_dark_blue", "ufl_perennial"), 
+                            as_df = FALSE)
 
 
-# - pal_uflorida_neutral: Neutral colors ----
+# - uflorida_3: Neutral colors ----
 
-#' Colors of the University of Florida
+#' Neutral colors of the University of Florida, USA 
 #' 
-#' \code{pal_uflorida_neutral} provides the 5 neutra colors of the 
-#' \href{https://www.ufl.edu/}
+#' \code{uflorida_3} provides the five neutral colors 
+#' of the \href{https://www.ufl.edu/}{University of Florida}, USA.
 #'
-#' The 5 neutral colors are
+#' The 5 neutral colors are 
 #' \code{"black"} (defined as HEX #000000),
-#' \code{"florida_cool_grey_11"} (defined as HEX #343741),
-#' \code{"florida_cool_grey_3"} (defined as HEX #C7C9C8),
-#' \code{"florida_warm_grey_1"} (defined as HEX #D8D4D7) and 
+#' \code{"ufl_cool_grey_11"} (defined as HEX #343741),
+#' \code{"ufl_cool_grey_3"} (defined as HEX #C7C9C8),
+#' \code{"ufl_warm_grey_1"} (defined as HEX #D8D4D7), and 
 #' \code{"white"} (defined as HEX #FFFFFF).
 #' 
-#' \code{pal_uflorida_neutral} uses the HEX color definitions.
+#' \code{uflorida_3} uses the HEX color definitions.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -126,10 +137,12 @@ pal_uflorida_secondary <- unikn::newpal(col = c("#D32737","#F2A900","#22884C","#
 #' \href{https://brandcenter.ufl.edu/colors/}
 #' 
 #' @examples 
-#' pal_uflorida_neutral
-#' unikn::seecol(pal_uflorida_neutral, main = "University of Florida") # view color palette
+#' uflorida_3
+#' unikn::seecol(uflorida_3, main = "University of Florida") # view color palette
 #' 
 #' @seealso 
+#' \code{\link{uflorida_1}} for primary colors of the University of Florida;
+#' \code{\link{uflorida_2}} for secondary colors of the University of Florida; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -138,7 +151,7 @@ pal_uflorida_secondary <- unikn::newpal(col = c("#D32737","#F2A900","#22884C","#
 #' 
 #' @export
 
-pal_uflorida_neutral <- unikn::newpal(col = c("#000000","#343741","#C7C9CB","#D8D4D7","#FFFFFF"), names = c("black","florida_cool_grey_11","florida_cool_grey_33","florida_warm_grey_1","white"), as_df = FALSE)
+uflorida_3 <- unikn::newpal(col = c("#000000","#343741","#C7C9CB","#D8D4D7","#FFFFFF"), names = c("black","ufl_cool_grey_11","ufl_cool_grey_33","ufl_warm_grey_1","white"), as_df = FALSE)
 
 
 ## ToDo: -----
