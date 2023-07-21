@@ -1,10 +1,10 @@
-## Dublin.R | 2023 07 16
+## Dublin.R | 2023 07 21
 ## Colors of the Trinity College Dublin, Ireland
 ## ---------------------------------------------
 
 # Information: ----
 
-# unipals: "pal_trinity_1", "pal_trinity_2" (2)
+# unipals: "trinity_1", "trinity_2" (2)
 # inst: "Trinity College Dublin" 
 # country: Ireland
 # URL: "https://www.tcd.ie"
@@ -16,28 +16,28 @@
 # Color palettes:
 
 
-# - pal_trinity_1: Primary colors ----
+# - trinity_1: Primary colors ----
 
-#' Primary colors of the Trinity College Dublin 
+#' Primary colors of the Trinity College Dublin, Ireland 
 #'
-#' \code{pal_trinity_1} provides the 12 primary colors
+#' \code{trinity_1} provides the 12 primary colors
 #' of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 #'
 #' The 12 primary colors are
-#' \code{"trinity_blue_100"} (defined as HEX #0569b9)
-#' \code{"trinity_blue_75"} (defined as HEX #448fcb)
-#' \code{"trinity_blue_50"} (defined as HEX #82b4dc)
-#' \code{"trinity_blue_25"} (defined as HEX #cidaee)
-#' \code{"trinity_blue_10"} (defined as HEX #e6f0f8)
-#' \code{"grey_100"} (defined as HEX #50555a)
-#' \code{"grey_75"} (defined as HEX #7c8083)
-#' \code{"grey_50"} (defined as HEX #a8aaad)
-#' \code{"grey_25"} (defined as HEX #d3d5d6)
-#' \code{"grey_10"} (defined as HEX #eeeeef)
-#' \code{"white"} (defined as HEX #ffffff)
-#' \code{"black"} (defined as HEX #000000)
+#' \code{"trinity_blue_100"} (defined as HEX #0569b9), 
+#' \code{"trinity_blue_75"} (defined as HEX #448fcb), 
+#' \code{"trinity_blue_50"} (defined as HEX #82b4dc), 
+#' \code{"trinity_blue_25"} (defined as HEX #cidaee), 
+#' \code{"trinity_blue_10"} (defined as HEX #e6f0f8), 
+#' \code{"grey_100"} (defined as HEX #50555a), 
+#' \code{"grey_75"} (defined as HEX #7c8083), 
+#' \code{"grey_50"} (defined as HEX #a8aaad), 
+#' \code{"grey_25"} (defined as HEX #d3d5d6), 
+#' \code{"grey_10"} (defined as HEX #eeeeef), 
+#' \code{"white"} (defined as HEX #ffffff), and 
+#' \code{"black"} (defined as HEX #000000).
 #'
-#' \code{pal_trinity_1} uses the HEX color definitions.
+#' \code{trinity_1} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -50,8 +50,8 @@
 #' \href{https://www.tcd.ie/identity/colour-palette/}{TCD's website}.
 #'
 #' @examples
-#' pal_trinity_1
-#' unikn::seecol(pal_trinity_1, main= "Trinity College Dublin") #view color palette.
+#' trinity_1
+#' unikn::seecol(trinity_1, main= "Trinity College Dublin 1") # view color palette.
 #'
 #' @family university color palettes
 #'
@@ -64,22 +64,22 @@
 #' 
 #' @export
 
-pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee", "#e6f0f8", 
-                                       "#50555a", "#7c8083", "#a8aaad", "#d3d5d6", "#eeeeef", 
-                                       "#ffffff", "#000000"), 
-                               names = c("trinity_blue_100", "trinity_blue_75", "trinity_blue_50", "trinity_blue_25", "trinity_blue_10", 
-                                         "grey_100", "grey_75", "grey_50", "grey_25", "grey_10", 
-                                         "white", "black"), 
-                               as_df = FALSE)
+trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee", "#e6f0f8", 
+                                   "#50555a", "#7c8083", "#a8aaad", "#d3d5d6", "#eeeeef", 
+                                   "#ffffff", "#000000"), 
+                           names = c("trinity_blue_100", "trinity_blue_75", "trinity_blue_50", "trinity_blue_25", "trinity_blue_10", 
+                                     "grey_100", "grey_75", "grey_50", "grey_25", "grey_10", 
+                                     "white", "black"), 
+                           as_df = FALSE)
 
 
 
-# - pal_trinity_2: Secondary colors -----
+# - trinity_2: Secondary colors -----
 
 
-#' Secondary colors of Trinity College Dublin
+#' Secondary colors of Trinity College Dublin, Ireland 
 #' 
-#' \code{pal_trinity_2} provides the 57 secondary colors 
+#' \code{trinity_2} provides the 57 secondary colors 
 #' of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 #' 
 #' The 57 secondary colors are 
@@ -139,9 +139,9 @@ pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee"
 #' \code{"web_gray_2"} (defined as HEX #e2e2e2), 
 #' \code{"web_gray_3"} (defined as HEX #707070), 
 #' \code{"granite_gray"} (defined as HEX #424141), and 
-#' \code{"granite_gray"} (defined as HEX #424141)
+#' \code{"granite_gray"} (defined as HEX #424141).
 #' 
-#' \code{pal_trinity_2} uses the HEX color definitions.
+#' \code{trinity_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -154,8 +154,8 @@ pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee"
 #' \href{https://www.tcd.ie/identity/colour-palette/}{TCD's website}.
 #'
 #' @examples 
-#' pal_trinity_2
-#' unikn::seecol(pal_trinity_2, main = "Trinity College Dublin") # view color palette
+#' trinity_2
+#' unikn::seecol(trinity_2, main = "Trinity College Dublin 2") # view color palette
 #' 
 #' @family university color palettes.
 #'
@@ -168,11 +168,11 @@ pal_trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee"
 #' 
 #' @export
 
-pal_trinity_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000", 
-                                       "#f7f7f7", "#e2e2e2", "#707070", "#424141"), 
-                               names = c("forest_green", "rich_forest_green","snow_white", "midnight_black", 
-                                         "web_gray_1", "web_gray_2", "web_gray_3", "granite_gray"), 
-                               as_df = FALSE)
+trinity_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000", 
+                                   "#f7f7f7", "#e2e2e2", "#707070", "#424141"), 
+                           names = c("forest_green", "rich_forest_green","snow_white", "midnight_black", 
+                                     "web_gray_1", "web_gray_2", "web_gray_3", "granite_gray"), 
+                           as_df = FALSE)
 
 ## ToDo: ----
 

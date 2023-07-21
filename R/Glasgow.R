@@ -2,10 +2,10 @@
 ## Colors of the University of Glasgow, Scotland
 ## ---------------------------------------------
 
-# Information
+# Information: 
 
 
-# uni_pals: "pal_glasgow_1", "pal_galsgow_2" (2)
+# uni_pals: "glasgow_1", "pal_galsgow_2" (2)
 # inst: "University of Glasgow"
 # country: Scotland
 # URL: "https://www.gla.ac.uk/"
@@ -17,11 +17,13 @@
 
 # Color palettes:
 
-# pal_glasgow_1: Primary colors ----
+
+# glasgow_1: Primary colors ----
+
 
 #' Primary colors of the University of Glasgow, Scotland 
 #'
-#' \code{pal_glasgow_1} provides the 12 primary colors 
+#' \code{glasgow_1} provides the 12 primary colors 
 #' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
 #'
 #' The 12 primary colors are
@@ -38,7 +40,7 @@
 #' \code{"glasgow_slate"} (defined as HEX #4F5961), and
 #' \code{"glasgow_thistle"} (defined as HEX #951272).
 #'
-#' \code{pal_glasgow_1} uses the HEX color definitions.
+#' \code{glasgow_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -51,12 +53,13 @@
 #' \href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}. 
 #'
 #' @examples  
-#' pal_glasgow_1
-#' unikn::seecol(pal_glasgow_1, main = "University of Glasgow 1") # view color palette
+#' glasgow_1
+#' unikn::seecol(glasgow_1, main = "University of Glasgow 1") # view color palette
 #'
 #' @family university of color palettes
 #'
 #' @seealso
+#' \code{\link{glasgow_2}} for secondary colors of the University of Glasgow;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -65,22 +68,22 @@
 #'
 #' @export
 
-pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94", "#006630", "#385A4F",
-                                       "#B30C00", "#9A3A06", "#52473B", "#005398", "#4F5961", "#951272"), 
-                               names = c("glasgow_university_blue", "glasgow_burgundy", "glasgow_cobalt", 
-                                         "glasgow_lavender", "glasgow_leaf", "glasgow_moss",
-                                         "glasgow_pillarbox", "glasgow_rust", "glasgow_sandstone", 
-                                         "glasgow_sky_blue", "glasgow_slate", "glasgow_thistle"), 
-                               as_df = FALSE)
+glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94", "#006630", "#385A4F",
+                                   "#B30C00", "#9A3A06", "#52473B", "#005398", "#4F5961", "#951272"), 
+                           names = c("glasgow_university_blue", "glasgow_burgundy", "glasgow_cobalt", 
+                                     "glasgow_lavender", "glasgow_leaf", "glasgow_moss",
+                                     "glasgow_pillarbox", "glasgow_rust", "glasgow_sandstone", 
+                                     "glasgow_sky_blue", "glasgow_slate", "glasgow_thistle"), 
+                           as_df = FALSE)
 
 
 
-# pal_glasgow_2: Secondary colors ----
+# glasgow_2: Secondary colors ----
 
 
 #' Secondary colors of the University of Glasgow, Scotland
 #'
-#' \code{pal_glasgow_2} provides the 5 secondary colors 
+#' \code{glasgow_2} provides the 5 secondary colors 
 #' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland. 
 #'
 #' The 5 secondary colors are 
@@ -90,7 +93,7 @@ pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94
 #' \code{"glasgow_sunshine"} (defined as R255 G220 B54), and
 #' \code{"glasgow_mocha"} (defined as R170 G128 B102).
 #'
-#' \code{pal_glasgow_2} uses the RGB color definition.
+#' \code{glasgow_2} uses the RGB color definition.
 #'
 #' @return
 #' A named vector of colors (RGB/HTML codes of type character).
@@ -103,12 +106,13 @@ pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94
 #' \href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}.
 #'
 #' @examples
-#' pal_glasgow_2
-#' unikn::seecol(pal_glasgow_2, main = "University of Glasgow 2") # view color palette
+#' glasgow_2
+#' unikn::seecol(glasgow_2, main = "University of Glasgow 2") # view color palette
 #'
 #' @family university of color palettes
 #'
 #' @seealso
+#' \code{\link{glasgow_1}} for primary colors of the University of Glasgow;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -117,21 +121,21 @@ pal_glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94
 #'
 #' @export
 
-pal_glasgow_2 <- unikn::newpal(col = c(rgb(  0, 181, 209, maxColorValue = 255), 
-                                       rgb(176, 108, 150, maxColorValue = 255), 
-                                       rgb(255, 185,  72, maxColorValue = 255), 
-                                       rgb(255, 220,  54, maxColorValue = 255), 
-                                       rgb(170, 128, 102, maxColorValue = 255)), 
-                               names = c("glasgow_turquoise", 
-                                         "glasgow_rose",
-                                         "glasgow_pumpkin", 
-                                         "glasgow_sunshine", 
-                                         "glasgow_mocha"), 
-                               as_df = FALSE)
+glasgow_2 <- unikn::newpal(col = c(rgb(  0, 181, 209, maxColorValue = 255), 
+                                   rgb(176, 108, 150, maxColorValue = 255), 
+                                   rgb(255, 185,  72, maxColorValue = 255), 
+                                   rgb(255, 220,  54, maxColorValue = 255), 
+                                   rgb(170, 128, 102, maxColorValue = 255)), 
+                           names = c("glasgow_turquoise", 
+                                     "glasgow_rose",
+                                     "glasgow_pumpkin", 
+                                     "glasgow_sunshine", 
+                                     "glasgow_mocha"), 
+                           as_df = FALSE)
 
 ## Check:
-# unikn::seecol(pal_glasgow_1, main= "University of Glasgow")
-# unikn::seecol(pal_glasgow_2, main = "University of Glasgow")
+# unikn::seecol(glasgow_1, main = "University of Glasgow 1")
+# unikn::seecol(glasgow_2, main = "University of Glasgow 2")
 
 
 ## ToDo: ----
