@@ -58,9 +58,9 @@ unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palett
 Other university color palettes.: 
 \code{\link{asu_2}},
 \code{\link{asu_3}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
 \code{\link{notredame_2}},
-\code{\link{pal_dartmouth_2}},
-\code{\link{pal_dartmouth_3}},
 \code{\link{pal_uci_secondary}},
 \code{\link{trinity_2}},
 \code{\link{uflorida_2}},

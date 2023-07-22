@@ -47,10 +47,10 @@ unikn::seecol(vanderbilt_2, main = "Vanderbilt University 2 (neutral)") # view c
 Other university color palettes.: 
 \code{\link{asu_2}},
 \code{\link{asu_3}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
 \code{\link{limerick_2}},
 \code{\link{notredame_2}},
-\code{\link{pal_dartmouth_2}},
-\code{\link{pal_dartmouth_3}},
 \code{\link{pal_uci_secondary}},
 \code{\link{trinity_2}},
 \code{\link{uflorida_2}}
