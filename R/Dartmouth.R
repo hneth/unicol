@@ -1,10 +1,10 @@
-## Dartmouth.R | 2023 07 13
+## Dartmouth.R | 2023 07 22
 ## Colors of Dartmouth College, USA
 ## --------------------------------
 
 # Information: ----
 
-# unipals: "pal_dartmouth_1", "pal_dartmouth_2", "pal_dartmouth_3" (3)
+# unipals: "dartmouth_1", "dartmouth_2", "dartmouth_3" (3)
 # inst: "Dartmouth College" 
 # country: USA
 # URL: "https://home.dartmouth.edu"
@@ -15,17 +15,17 @@
 
 # Color palettes:
 
-# pal_dartmouth_1: Primary color ----
+# - dartmouth_1: Primary color ----
 
-#' Primary color of Dartmouth College 
+#' Primary color of Dartmouth College, USA 
 #'
-#' \code{pal_dartmouth_1} provides the primary color 
+#' \code{dartmouth_1} provides the primary color 
 #' of \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 #'
 #' The primary color is
 #' \code{"dartmouth_green"} (defined as HEX #00693E). 
 #'
-#' \code{pal_dartmouth_1} uses the HEX color definitions.
+#' \code{dartmouth_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -38,14 +38,14 @@
 #' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
 #'
 #' @examples
-#' pal_dartmouth_1
-#' unikn::seecol(pal_dartmouth_1, main = "Dartmouth College 1") # view color palette.
+#' dartmouth_1
+#' unikn::seecol(dartmouth_1, main = "Dartmouth College 1") # view color palette.
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{pal_dartmouth_2}} for the secondary colors of Dartmouth College; 
-#' \code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
+#' \code{\link{dartmouth_2}} for the secondary colors of Dartmouth College; 
+#' \code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -54,21 +54,21 @@
 #' 
 #' @export
 
-pal_dartmouth_1 <- unikn::newpal(col = c("#00693E"), 
-                                 names = c("dartmouth_green"), 
-                                 as_df = FALSE)
+dartmouth_1 <- unikn::newpal(col = c("#00693E"), 
+                             names = c("dartmouth_green"), 
+                             as_df = FALSE)
 
 
 
-# pal_dartmouth_2: Secondary colors -----
+# - dartmouth_2: Secondary colors -----
 
 
-#' Secondary colors of Dartmouth College
+#' Secondary colors of Dartmouth College, USA 
 #' 
-#' \code{pal_dartmouth_2} provides the 8 secondary colors
+#' \code{dartmouth_2} provides the eight secondary colors
 #' of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 #' 
-#' The 4 secondary colors are 
+#' The 8 secondary colors are 
 #' \code{"forest_green"} (defined as HEX #12312b),
 #' \code{"rich_forest_green"} (defined as HEX #0D1E1C),
 #' \code{"snow_white"} (defined as HEX #ffffff),
@@ -78,7 +78,7 @@ pal_dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' \code{"web_gray_3"} (defined as HEX #707070)
 #' \code{"granite_gray"} (defined as HEX #424141)
 #' 
-#' \code{pal_dartmouth_2} uses the HEX color definitions.
+#' \code{dartmouth_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -91,14 +91,14 @@ pal_dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
 #'
 #' @examples 
-#' pal_dartmouth_2
-#' unikn::seecol(pal_dartmouth_2, main = "Dartmouth College 2") # view color palette
+#' dartmouth_2
+#' unikn::seecol(dartmouth_2, main = "Dartmouth College 2") # view color palette
 #' 
 #' @family university color palettes.
 #'
 #' @seealso 
-#' \code{\link{pal_dartmouth_1}} for the primary color of Dartmouth College;
-#' \code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
+#' \code{\link{dartmouth_1}} for the primary color of Dartmouth College;
+#' \code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -107,19 +107,19 @@ pal_dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' 
 #' @export
 
-pal_dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000", 
-                                         "#f7f7f7", "#e2e2e2", "#707070", "#424141"), 
-                                 names = c("forest_green", "rich_forest_green","snow_white", "midnight_black", 
-                                           "web_gray_1", "web_gray_2", "web_gray_3", "granite_gray"), 
-                                 as_df = FALSE)
+dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000", 
+                                     "#f7f7f7", "#e2e2e2", "#707070", "#424141"), 
+                             names = c("forest_green", "rich_forest_green","snow_white", "midnight_black", 
+                                       "web_gray_1", "web_gray_2", "web_gray_3", "granite_gray"), 
+                             as_df = FALSE)
 
 
 
-# pal_dartmouth_3: Tertiary colors -----
+# - dartmouth_3: Tertiary colors -----
 
-#' Tertiary colors of Dartmouth College
+#' Tertiary colors of Dartmouth College, USA 
 #' 
-#' \code{pal_dartmouth_3} provides the 10 tertiary colors
+#' \code{dartmouth_3} provides the ten tertiary colors
 #' of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 #' 
 #' The 10 tertiary colors are 
@@ -134,7 +134,7 @@ pal_dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#0000
 #' \code{"web_violet"} (defined as HEX #8a6996), and 
 #' \code{"bonfire_orange"} (defined as HEX #ffa00f). 
 #' 
-#' \code{pal_dartmouth_3} uses the HEX color definitions.
+#' \code{dartmouth_3} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -147,14 +147,14 @@ pal_dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#0000
 #' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}. 
 #'
 #' @examples 
-#' pal_dartmouth_3
-#' unikn::seecol(pal_dartmouth_3, main = "Dartmouth College 3") # view color palette
+#' dartmouth_3
+#' unikn::seecol(dartmouth_3, main = "Dartmouth College 3") # view color palette
 #' 
 #' @family university color palettes.
 #'
 #' @seealso 
-#' \code{\link{pal_dartmouth_1}} for the primary color of Dartmouth College; 
-#' \code{\link{pal_dartmouth_3}} for the tertiary colors of Dartmouth College; 
+#' \code{\link{dartmouth_1}} for the primary color of Dartmouth College; 
+#' \code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -163,11 +163,11 @@ pal_dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#0000
 #' 
 #' @export
 
-pal_dartmouth_3 <- unikn::newpal(col = c("#643c20", "#9d162e", "#e32d1c", "#f5dc96", "#c4dd88", 
-                                         "#a5d75f", "#003c73", "#267aba", "#8a6996", "#ffa00f"), 
-                                 names = c("autumn_brown", "bonfire_red", "tuck_orange", "summer_yellow", "spring_green", 
-                                           "rich_spring_green", "river_navy", "river_blue", "web_violet", "bonfire_orange"), 
-                                 as_df = FALSE)
+dartmouth_3 <- unikn::newpal(col = c("#643c20", "#9d162e", "#e32d1c", "#f5dc96", "#c4dd88", 
+                                     "#a5d75f", "#003c73", "#267aba", "#8a6996", "#ffa00f"), 
+                             names = c("autumn_brown", "bonfire_red", "tuck_orange", "summer_yellow", "spring_green", 
+                                       "rich_spring_green", "river_navy", "river_blue", "web_violet", "bonfire_orange"), 
+                             as_df = FALSE)
 
 ## ToDo:---
 
