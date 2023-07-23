@@ -1,10 +1,10 @@
-## Galway.R | 2023 07 16
+## Galway.R | 2023 07 23
 ## Colors of the University of Galway, Ireland
 ## -------------------------------------------
 
 # Information: ----
 
-# unipals: "pal_galway_1", "pal_galway_2" (2)
+# unipals: "galway_1", "galway_2" (2)
 # inst: "University of Galway" 
 # country: Ireland
 # URL: "https://www.universityofgalway.ie"
@@ -15,12 +15,12 @@
 
 # Color palettes:
 
-# pal_galway_1: Primary colors ------
+# galway_1: Primary colors ------
 
 
 #' Primary colors of the University of Galway, Ireland  
 #'
-#' \code{pal_galway_1} provides the 5 primary colors
+#' \code{galway_1} provides the 5 primary colors
 #' of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 #'
 #' The 5 primary colors are
@@ -30,7 +30,7 @@
 #' \code{"black"} (defined as HEX #000000), and 
 #' \code{"white"} (defined as HEX #ffffff). 
 #'
-#' \code{pal_galway_1} uses the HEX color definitions.
+#' \code{galway_1} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -43,8 +43,8 @@
 #' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
 #'
 #' @examples
-#' pal_galway_1
-#' unikn::seecol(pal_galway_1, main = "University of Galway 1") # view color palette.
+#' galway_1
+#' unikn::seecol(galway_1, main = "University of Galway 1") # view color palette.
 #'
 #' @family university color palettes
 #'
@@ -57,19 +57,19 @@
 #' 
 #' @export
 
-pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e", 
-                                      "#000000", "#ffffff"), 
-                              names = c("galway_maroon", "galway_deep_maroon", "galway_magenta", 
-                                        "black", "white"), 
-                              as_df = FALSE)
+galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e", 
+                                  "#000000", "#ffffff"), 
+                          names = c("galway_maroon", "galway_deep_maroon", "galway_magenta", 
+                                    "black", "white"), 
+                          as_df = FALSE)
 
 
 
-# pal_galway_2: Secondary colors -----
+# galway_2: Secondary colors -----
 
 #' Secondary colors of the University of Galway, Ireland  
 #' 
-#' \code{pal_galway_2} provides the 14 secondary colors
+#' \code{galway_2} provides the 14 secondary colors
 #' of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 #' 
 #' The 14 secondary colors are
@@ -88,7 +88,7 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' \code{"sandstone"} (defined as HEX #c4c0b7), and 
 #' \code{"black"} (defined as HEX #000000). 
 #' 
-#' \code{pal_galway_2} uses the HEX color definitions.
+#' \code{galway_2} uses the HEX color definitions.
 #' 
 #' @return 
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -101,8 +101,8 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
 #'
 #' @examples 
-#' pal_galway_2
-#' unikn::seecol(pal_galway_2, main = "University of Galway 2") # view color palette
+#' galway_2
+#' unikn::seecol(galway_2, main = "University of Galway 2") # view color palette
 #' 
 #' @family university color palettes 
 #'
@@ -115,11 +115,11 @@ pal_galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' 
 #' @export
 
-pal_galway_2 <- unikn::newpal(col = c("#00b1ba", "#0080a3", "#00bf6f", "#c5e86c", "#f58e2f", "#e30044", "#ffc72b", 
-                                      "#c4299b", "#e66eb2", "#753abd", "#5e514d", "#94795d", "#c4c0b7", "#000000"), 
-                              names = c("aqua_marine", "ocean_blue","spring_green", "lime_green", "orange", "rose", "yellow", 
-                                        "deep_orchid", "lavender_pink", "violet", "ash", "warm_stone", "sandstone", "black"), 
-                              as_df = FALSE)
+galway_2 <- unikn::newpal(col = c("#00b1ba", "#0080a3", "#00bf6f", "#c5e86c", "#f58e2f", "#e30044", "#ffc72b", 
+                                  "#c4299b", "#e66eb2", "#753abd", "#5e514d", "#94795d", "#c4c0b7", "#000000"), 
+                          names = c("aqua_marine", "ocean_blue","spring_green", "lime_green", "orange", "rose", "yellow", 
+                                    "deep_orchid", "lavender_pink", "violet", "ash", "warm_stone", "sandstone", "black"), 
+                          as_df = FALSE)
 
 ## ToDo: ------
 
