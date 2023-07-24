@@ -55,8 +55,8 @@ Other university color palettes.:
 \code{\link{dartmouth_3}},
 \code{\link{limerick_2}},
 \code{\link{notredame_2}},
-\code{\link{pal_uci_secondary}},
 \code{\link{trinity_2}},
+\code{\link{uci_2}},
 \code{\link{uflorida_2}},
 \code{\link{vanderbilt_2}}
 }
