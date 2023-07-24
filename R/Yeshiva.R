@@ -1,10 +1,10 @@
-## Yeshiva.R | 2023 07 13
+## Yeshiva.R | 2023 07 24
 ## Colors of Yeshiva University, USA
 ## ---------------------------------
 
 # Information: -----------
 
-# uni_pals: "pal_yeshivau"
+# uni_pals: "yeshiva"
 # inst: "Yeshiva University"
 # country: USA
 # URL: "https://www.yu.edu/"
@@ -16,19 +16,19 @@
 
 # Color palettes:
 
-# - pal_yeshivau: Colors of Yeshiva University ------ 
+# - yeshiva: Colors of Yeshiva University ------ 
 
 #' Colors of Yeshiva University 
 #'
-#' \code{pal_yeshivau} provides the 3 colors 
+#' \code{yeshiva} provides the 3 colors 
 #' of the \href{https://www.yu.edu/}{Yeshiva University}, USA.
 #'
 #' The 3 colors of the Yeshiva University are
 #' \code{"yeshiva_blue"} (defined as HEX #325A89), 
 #' \code{"yeshiva_black"} (defined as HEX #000000), and
-#' \code{"yeshiva_gray"} (defined as HEX #85878A)
+#' \code{"yeshiva_gray"} (defined as HEX #85878A). 
 #'
-#' \code{pal_yeshivau} uses the HEX color definitions.
+#' \code{yeshiva} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -41,8 +41,8 @@
 #' \href{https://www.yu.edu/marketing/branding}{YU's website}. 
 #'
 #' @examples
-#' pal_yeshivau
-#' unikn::seecol(pal_yeshivau, main = "Yeshiva University") # view color palette
+#' yeshiva
+#' unikn::seecol(yeshiva, main = "Yeshiva University") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -55,9 +55,9 @@
 #'
 #' @export
 
-pal_yeshivau <- unikn::newpal(col = c("#325A89","#000000","#85878A"), 
-                              names = c("yeshiva_blue", "yeshiva_black", "yeshiva_gray"), 
-                              as_df = FALSE)
+yeshiva <- unikn::newpal(col = c("#325A89","#000000","#85878A"), 
+                         names = c("yeshiva_blue", "yeshiva_black", "yeshiva_gray"), 
+                         as_df = FALSE)
 
 
 ## Check: 
