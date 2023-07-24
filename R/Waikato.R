@@ -1,4 +1,4 @@
-## Waikato.R | 2023-07-24
+## Waikato.R | 2023 07 24
 ## Colors of the University of Waikato, New Zealand
 ## ------------------------------------------------
 
