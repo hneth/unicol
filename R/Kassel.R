@@ -1,10 +1,10 @@
-## Kassel.R | 2023 07 16
+## Kassel.R | 2023 07 24
 ## Colors of the University of Kassel, Germany
 ## -------------------------------------------
 
 # Information: ----
 
-# unipals: "pal_kassel_haus" (1)
+# unipals: "uni_kassel" (1)
 # inst: "University of Kassel" 
 # country: Germany
 # URL: "https://www.uni-kassel.de/uni/"
@@ -15,11 +15,11 @@
 
 # Color palettes:
 
-# - pal_kassel_haus: Primary color ----
+# - uni_kassel: Primary colors ----
 
 #' Colors of the University of Kassel, Germany 
 #'
-#' \code{pal_kassel_haus} provides the 11 primary colors
+#' \code{uni_kassel} provides the 11 primary colors
 #' of the \href{https://www.uni-kassel.de/uni/}{University of Kassel}, Germany.
 #'
 #' The 11 primary colors are 
@@ -35,7 +35,7 @@
 #' \code{"light_green"} (defined as HEX #4AAC96), and 
 #' \code{"dark_gold"} (defined as HEX #EAC372).
 #'
-#' \code{pal_kassel_haus} uses the HEX color definitions.
+#' \code{uni_kassel} uses the HEX color definitions.
 #'
 #' @return
 #' A names vector of colors (HEX/HTML codes of type character).
@@ -48,8 +48,8 @@
 #' \href{https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox/corporate-design-und-medienservice/gestaltungselemente}{Uni Kassel's website}.
 #'
 #' @examples
-#' pal_kassel_haus
-#' unikn::seecol(pal_kassel_haus, main= "University of Kassel") # view color palette.
+#' uni_kassel
+#' unikn::seecol(uni_kassel, main = "University of Kassel") # view color palette.
 #'
 #' @family university color palettes
 #'
@@ -62,15 +62,15 @@
 #' 
 #' @export
 
-pal_kassel_haus <- unikn::newpal(col = c("#575757", "#9D9D9D", "#DADADA", 
-                                         "#9A0C46", "#C7105C", "#F3D8DD", 
-                                         "#153824", "#5095C8", "#C4D20F", 
-                                         "#4AAC96", "#EAC372"), 
-                                 names = c("k80", "k50", "k20", 
-                                           "hks28+k30", "hks28", "hks28-20", 
-                                           "dark_green", "light_blue", "yellow_green", 
-                                           "light_green", "dark_gold"), 
-                                 as_df = FALSE)
+uni_kassel <- unikn::newpal(col = c("#575757", "#9D9D9D", "#DADADA", 
+                                    "#9A0C46", "#C7105C", "#F3D8DD", 
+                                    "#153824", "#5095C8", "#C4D20F", 
+                                    "#4AAC96", "#EAC372"), 
+                            names = c("k80", "k50", "k20", 
+                                      "hks28+k30", "hks28", "hks28-20", 
+                                      "dark_green", "light_blue", "yellow_green", 
+                                      "light_green", "dark_gold"), 
+                            as_df = FALSE)
 
 
 
