@@ -145,8 +145,6 @@ Other university color palettes:
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
 \code{\link{oxford_socialmedia}},
-\code{\link{pal_waikato}},
-\code{\link{pal_yeshivau}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
 \code{\link{princeton_0}},
@@ -226,7 +224,9 @@ Other university color palettes:
 \code{\link{uwaterloo_science}},
 \code{\link{vanderbilt_1}},
 \code{\link{vanderbilt_3}},
+\code{\link{waikato}},
 \code{\link{yale_1}},
+\code{\link{yeshiva}},
 \code{\link{york1}},
 \code{\link{york2}}
 }
