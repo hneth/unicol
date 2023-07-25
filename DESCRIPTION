@@ -1,9 +1,22 @@
 Package: unicol
 Type: Package
 Title: The colors of your university 
-Version: 0.0.0.9024
-Date: 2023-07-24
-Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")))
+Version: 0.0.0.9025
+Date: 2023-07-25
+Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")), 
+             person("Constantin", "Basler", role = "aut"),
+             person("Paula", "Bauer", role = "aut"),
+             person("Kaethe", "Bodenstein", role = "aut"),
+             person("Franziska", "Drechsel", role = "aut"),
+             person("Gina-Loretta", "Franz", role = "aut"),
+             person("Karolin", "Heiss", role = "aut"),
+             person("Julia", "Koenig", role = "aut"),
+             person("Isabelle", "Krist", role = "aut"),
+             person("Larissa", "Schwab", role = "aut"),
+             person("Alina", "Sohst", role = "aut"),
+             person("Isabel", "Staatz", role = "aut"),
+             person("Lisa", "Trueb", role = "aut")
+             )
 Maintainer: Hansjoerg Neth <h.neth@uni.kn>
 Description: The 'unicol' package provides the colors and color palettes of various universities for plotting and printing in R. 
 Depends:
