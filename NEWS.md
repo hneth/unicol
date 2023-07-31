@@ -1,5 +1,5 @@
 
-# unicol 0.0.0.9017
+# unicol 0.0.0.9026
 
 This is the development version of **unicol**, which is available at <https://github.com/hneth/unicol/>. 
 
@@ -14,6 +14,6 @@ We are currently preparing the release of an initial version.
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-07-13.] 
+[File `NEWS.md` updated on 2023-07-31.] 
 
 <!-- eof. -->

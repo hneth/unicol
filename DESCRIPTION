@@ -1,8 +1,8 @@
 Package: unicol
 Type: Package
 Title: The colors of your university 
-Version: 0.0.0.9025
-Date: 2023-07-25
+Version: 0.0.0.9026
+Date: 2023-07-31
 Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")), 
              person("Constantin", "Basler", role = "aut"),
              person("Paula", "Bauer", role = "aut"),
