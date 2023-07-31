@@ -1,10 +1,10 @@
 ## QueensUniversity | 2023 06 28
-## Colours of Queen's Universtiy, Canada 
+## Colours of Queen's University, Canada 
 ## -------------------------------------
 
 # Information: ------
 
-# uni_pals: "queens_primary", "queens_secondary" (2)
+# uni_pals: "queens_1", "queens_2" (2)
 # inst: "Queen's University"
 # inst_alt: "Queen's University"
 # country: Canada
@@ -19,11 +19,11 @@
 # Colour palette(s):
 
 
-# - queens_primary: Primary colours ------
+# - queens_1: Primary colours ------
 
-#' Primary colours of Queen's University
+#' Primary colours of Queen's University, Canada 
 #'
-#' \code{queens_primary} provides the three primary colours 
+#' \code{queens_1} provides the three primary colours 
 #' of \href{https://www.queensu.ca/}{Queen's University}, Canada.
 #' 
 #' Queen’s University is widely recognized for its unique Tricolour palette of blue, gold, and red. 
@@ -32,12 +32,12 @@
 #' Tricolour must be incorporated into all applications in a mindful way 
 #' that allows the message and imagery to be the focus.
 #'
-#' The three primary colours are
+#' The three primary colours are 
 #' \code{"queens_blue"} (defined as PMS 295, CMYK 100/63/0/67, RGB 0/36/82, HEX #002452),
 #' \code{"queens_gold"} (defined as PMS 124, CMYK 0/29/100/1, RGB 250/189/15, HEX #fabd0f), and
 #' \code{"queens_red"} (defined as PMS 187, CMYK 0/100/74/26, RGB 185/14/49, HEX #b90e31).
 #'
-#' \code{queens_primary} uses the HEX colour definition. 
+#' \code{queens_1} uses the HEX colour definition. 
 #' PMS and CMYK colours differ from RGB and HEX definition.
 #'
 #' @return 
@@ -51,13 +51,13 @@
 #' \href{https://www.queensu.ca/brand-central/visual-identity/colours}{Visual Identity}.
 #'
 #' @examples
-#' queens_primary
-#' unikn::seecol(queens_primary, main = "Primary colours of Queen's University") # view colour palette
+#' queens_1
+#' unikn::seecol(queens_1, main = "Primary colours of Queen's University") # view colour palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{queens_secondary}} for the secondary colours of Queen's University;
+#' \code{\link{queens_2}} for the secondary colours of Queen's University;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -66,20 +66,22 @@
 #'
 #' @export
 
-queens_primary <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
-                           names = c("queens_blue", "queens_gold", "queens_red"),
-                           as_df = FALSE)
+queens_1 <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
+                          names = c("queens_blue", "queens_gold", "queens_red"),
+                          as_df = FALSE)
+
 
 # # Check: 
-# unikn::seecol(queens_primary, main = "Primary colours of Queen's University", col_bg = "lightgrey")
+# unikn::seecol(queens_1, main = "Primary colours of Queen's University", col_bg = "lightgrey")
 
 
 
-# - queens_secondary: Secondary colours ------
+# - queens_2: Secondary colours ------
 
-#' Secondary colours of Queen's University
+
+#' Secondary colours of Queen's University, Canada 
 #'
-#' \code{queens_secondary} provides the secondary colours 
+#' \code{queens_2} provides the secondary colours 
 #' of \href{https://www.queensu.ca/}{Queen's University}, Canada.
 #' 
 #' A secondary palette of neutral colours may be used with the primary palette to provide balance.
@@ -97,7 +99,7 @@ queens_primary <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #' \code{"limestone"} (defined as PMS 403 CMYK 39/36/40/14, RGB 144/137/130, HEX #908982), and
 #' \code{"dark_limestone"} (defined as PMS 405, CMYK 49/47/51/32, RGB 106/98/92, HEX #6a625c).
 #'
-#' \code{queens_secondary} uses the HEX colour definition. 
+#' \code{queens_2} uses the HEX colour definition. 
 #' PMS and CMYK colours differ from RGB and HEX definition.
 #'
 #' @return 
@@ -111,14 +113,14 @@ queens_primary <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #' \href{https://www.queensu.ca/brand-central/visual-identity/colours}{Visual Identity}.
 #'
 #' @examples
-#' queens_secondary
-#' unikn::seecol(queens_secondary, 
+#' queens_2
+#' unikn::seecol(queens_2, 
 #'               main = "Secondary colours of Queen's University") # view colour palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{queens_primary}} for the primary colours of Queen's University;
+#' \code{\link{queens_1}} for the primary colours of Queen's University;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -127,16 +129,15 @@ queens_primary <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #'
 #' @export
 
-queens_secondary <- unikn::newpal(col = c("#ffffff", "#f1f2f2", "#e6e7e8", "#d1d3d4", "#a7a9ac", "#808285", 
-                                          "#58595b", "#212121", "#b3aea8", "#908982", "#6a625c"),
-                                  names = c("white", "lightest_grey", "light_grey", "grey", "medium_grey", "dark_grey", 
-                                            "darkest_grey", "black", "light_limestone", "limestone", "dark_limestone"),
-                                  as_df = FALSE)
+queens_2 <- unikn::newpal(col = c("#ffffff", "#f1f2f2", "#e6e7e8", "#d1d3d4", "#a7a9ac", "#808285", 
+                                  "#58595b", "#212121", "#b3aea8", "#908982", "#6a625c"),
+                          names = c("white", "lightest_grey", "light_grey", "grey", "medium_grey", "dark_grey", 
+                                    "darkest_grey", "black", "light_limestone", "limestone", "dark_limestone"),
+                          as_df = FALSE)
+
 
 # # Check: 
-# unikn::seecol(queens_secondary, main = "secondary colours of Queen's University", col_bg = "lightgrey")
-
-
+# unikn::seecol(queens_2, main = "secondary colours of Queen's University", col_bg = "lightgrey")
 
 
 
