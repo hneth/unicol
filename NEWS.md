@@ -5,7 +5,7 @@ This is the development version of **unicol**, which is available at <https://gi
 
 <!-- Log of changes: --> 
 
-The **unicol** package currently provides 164\ color palettes from 65\ institutions. 
+The **unicol** package currently provides 205\ color palettes from 86\ institutions. 
 
 We are currently preparing the release of an initial version. 
 
