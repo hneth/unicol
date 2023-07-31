@@ -1,4 +1,4 @@
-## all_pals.R | 2022 07 13
+## all_pals.R | 2022 07 31
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -73,7 +73,7 @@ uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "oxford_brand <-", "oxford_general <-", "oxford_link <-", "oxford_shades <-", "oxford_blog <-", "oxford_graduate <-", "oxford_error <-", "oxford_socialmedia <-", 
               "pitt_1 <-", "pitt_2 <-", 
               "uni_potsdam <-", 
-              "queens_primary <-", "queens_secondary <-", 
+              "queens_1 <-", "queens_2 <-", 
               "sfu_brand <-", 
               "stanford_1 <-", "stanford_2_accent <-", "stanford_3_web <-", 
               "standrews_1 <-", "standrews_2 <-", 
@@ -371,13 +371,13 @@ url <- c(rep("https://www.caltech.edu/", 3),
 # Collect uni_data (as data frame): ------
 
 uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
-# dim(uni_data)
+# dim(uni_data)  # 205 4  2023-07-31
 
-# Descriptive stats:
+# # Descriptive stats:
 # uni_data$pal[duplicated(uni_data$pal)]  # duplicates?
-
-# length(uni_data$pal)  # 164 color palettes (on 2023-07-13)
-# length(unique(uni_data$inst)) # 65 institutions (2023-07-13)
+# 
+# length(uni_data$pal)  # 205 color palettes (on 2023-07-31)
+# length(unique(uni_data$inst)) # 86 institutions (2023-07-31)
 
 
 ## ToDo: --------
