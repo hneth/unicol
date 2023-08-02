@@ -109,10 +109,10 @@ the **unicol** color palettes:
 
 <!-- Table of vignettes: -->
 
-| Nr. | Vignette                                            | Content                                         |
-|----:|:----------------------------------------------------|:------------------------------------------------|
-| 1\. | [Color palettes](./vignettes/color_pals.html)       | The color palettes of the **unicol** R package  |
-| 2\. | [Using color palettes](./vignettes/using_pals.html) | Recipes for using the **unicol** color palettes |
+| Nr. | Vignette                                           | Content                                         |
+|----:|:---------------------------------------------------|:------------------------------------------------|
+| 1\. | [Color palettes](/vignettes/color_pals.html)       | The color palettes of the **unicol** R package  |
+| 2\. | [Using color palettes](/vignettes/using_pals.html) | Recipes for using the **unicol** color palettes |
 
 ------------------------------------------------------------------------
 
