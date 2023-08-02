@@ -96,23 +96,9 @@ demopal(nyu_1, type = 3, main = "Using NYU colors")
 
 <img src="man/figures/README-examples-3.png" width="600px" style="display: block; margin: auto;" />
 
-## Vignettes
+## Contact
 
-<!-- unikn pkg logo and link: -->
-
-<a href = "https://CRAN.R-project.org/package=unikn">
-<img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
-</a>
-
-The following vignettes provide an overview of and examples for using
-the **unicol** color palettes:
-
-<!-- Table of vignettes: -->
-
-| Nr. | Vignette                                           | Content                                         |
-|----:|:---------------------------------------------------|:------------------------------------------------|
-| 1\. | [Color palettes](/vignettes/color_pals.html)       | The color palettes of the **unicol** R package  |
-| 2\. | [Using color palettes](/vignettes/using_pals.html) | Recipes for using the **unicol** color palettes |
+Add contact details here.
 
 ------------------------------------------------------------------------
 

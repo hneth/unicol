@@ -169,23 +169,9 @@ demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of Cali
 demopal(nyu_1, type = 3, main = "Using NYU colors")
 ```
 
+## Contact
 
-## Vignettes
-
-<!-- unikn pkg logo and link: -->
-<a href = "`r url_unikn_cran`">
-<img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
-</a>
-
-The following vignettes provide an overview of and examples for using the **unicol** color palettes: 
-
-<!-- Table of vignettes: -->
-
-| Nr.  | Vignette | Content    |        
-| ---: |:---------|:-----------|
-| 1. | [Color palettes](/vignettes/color_pals.html) | The color palettes of the **unicol** R package |
-| 2. | [Using color palettes](/vignettes/using_pals.html) | Recipes for using the **unicol** color palettes |
-
+Add contact details here.
 
 ------
 
