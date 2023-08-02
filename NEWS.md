@@ -14,6 +14,6 @@ We are currently preparing the release of an initial version.
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-07-31.] 
+[File `NEWS.md` updated on 2023-08-02.] 
 
 <!-- eof. -->
