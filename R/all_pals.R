@@ -1,13 +1,13 @@
-## all_pals.R | 2022 07 31
-## Inventory of all color palettes
-## -------------------------------
+## all_pals.R | 2022 08 03
+## An inventory of all color palettes
+## ----------------------------------
 
 # Keep a record / registry of all color palettes
 # (and institutions and corresponding labels).
 
 # Meta-information on all color palettes: -----
 
-uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
+uni_pals <- c("caltech_1", "caltech_2", "caltech_3",
               "eth_pal_1", "eth_pal_2", "eth_pal_3",
               "fu_pal_0", "fu_pal_1", "fu_pal_2", "fu_pal_3",
               "hu_pal_1", "hu_pal_2",
@@ -96,6 +96,12 @@ uni_pals <- c("caltech_pal_1", "caltech_pal_2", "caltech_pal_3",
               "yeshiva <-", 
               "york1 <-", "york2 <-"
 )
+
+
+# Bug fix: Replace all instances of " <-" by "" (empty string) in uni_pals:
+
+uni_pals <- gsub(pattern = " <-", replacement = "", x = uni_pals)
+# uni_pals
 
 
 inst <- c(rep("Caltech", 3),
@@ -368,17 +374,61 @@ url <- c(rep("https://www.caltech.edu/", 3),
 )
 
 
-# Collect uni_data (as data frame): ------
+# Collect all_data (as data frame): ------
 
-uni_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
-# dim(uni_data)  # 205 4  2023-07-31
+all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
+# dim(all_data)  # 205 4  2023-07-31
+
+# Sort df by inst & pal: 
+all_data <- all_data[order(all_data$inst, all_data$pal), ]
+
+# Re-set rownames:
+row.names(all_data) <- 1:nrow(all_data)
+
 
 # # Descriptive stats:
-# uni_data$pal[duplicated(uni_data$pal)]  # duplicates?
+# all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(uni_data$pal)  # 205 color palettes (on 2023-07-31)
-# length(unique(uni_data$inst)) # 86 institutions (2023-07-31)
+# length(all_data$pal)  # 205 color palettes (on 2023-07-31)
+# length(unique(all_data$inst)) # 86 institutions (2023-07-31)
 
+
+
+# Export as unicol_data (as data frame): ------
+
+
+#' The color palettes of the \strong{unicol} package
+#' 
+#' \code{unicol_data} summarizes the color palettes 
+#' included in the \strong{unicol} package 
+#' (as a data frame). 
+#' 
+#' @return 
+#' A data frame summarizing the unicol color palettes. 
+#'
+#' @examples 
+#' dim(unicol_data)
+#' head(unicol_data)
+#' 
+#' # Descriptives: 
+#' length(unique(unicol_data$pal))   # number of color palettes
+#' length(unique(unicol_data$inst))  # number of institutions
+#' 
+#' @family internal
+#'
+#' @seealso 
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#' 
+#' @export
+
+unicol_data <- all_data
+
+# # Check:
+# unicol_data
 
 ## ToDo: --------
 
