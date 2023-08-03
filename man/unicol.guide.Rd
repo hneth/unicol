@@ -2,10 +2,10 @@
 % Please edit documentation in R/start_unicol.R
 \name{unicol.guide}
 \alias{unicol.guide}
-\title{Open the unikn package guides}
+\title{Open the unicol package guides}
 \usage{
 unicol.guide()
 }
 \description{
-Open the unikn package guides
+Open the unicol package guides
 }
