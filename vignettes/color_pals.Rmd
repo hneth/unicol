@@ -72,7 +72,7 @@ The **unicol** package currently contains **`r length(unique(unicol_data$pal))`\
 ```{r unicol-pals-example, echo = FALSE, eval = TRUE}
 # Parameters:
 N <- length(unicol_data$pal)
-n <- 50
+n <- 100
 
 # Sample:
 set.seed(2)
