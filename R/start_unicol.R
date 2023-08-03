@@ -1,11 +1,11 @@
-## start_unicol.R | 2023 06 08
-## Start the unicol package
-## ------------------------
+## start_unicol.R | 2023 08 03
+## Starting the unicol package
+## ---------------------------
 
 
-# unikn.guide: Open package guide ------
+# unicol.guide: Open the unicol package guide ------
 
-#' Open the unikn package guides 
+#' Open the unicol package guides 
 #'
 #' @importFrom utils vignette
 #' @importFrom utils browseVignettes
@@ -31,7 +31,7 @@ unicol.guide <- function() {
   
   packageStartupMessage(cli::col_grey("Welcome to ", cli::col_blue("unicol"), " (v", pkg_version, ")!", sep = ""))
   
-}
+} # .onAttach 
 
 
 ## eof. ----------
