@@ -64,6 +64,7 @@ We install or load the **unicol** package to get started:
 library('unicol')             # load the package
 ```
 
+
 ## The color palettes of the **unicol** package
 
 ```{r unicol-stats, echo = FALSE}
@@ -71,14 +72,15 @@ n_pals <- length(unique(unicol_data$pal))
 n_inst <- length(unique(unicol_data$inst))
 ```
 
-The **unicol** package currently contains **`r n_pals`\ color palettes** from **`r n_inst`\ institutions**. 
+The **unicol** package currently provides **`r n_pals`\ color palettes** from **`r n_inst`\ institutions**. 
+
 
 ### Illustration 
 
 ```{r unicol-pals-example, echo = FALSE, eval = TRUE}
 # Parameters:
 N <- length(unicol_data$pal)
-n <- 50
+n <- 50 # N
 
 # Sample:
 set.seed(123)
@@ -115,6 +117,14 @@ fig_caption <- paste0("Figure 1: A sample of ", n, " unicol palettes (containing
 my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors).")
 ```
 
+```{r unicol-pals-example-stats, echo = FALSE, eval = FALSE}
+# Stats (for n <- N):
+n_pals  # number of color palettes: 202 on 2023-04-08. 
+n_inst  # number of institutions: 86 on 2023-08-03.
+# Colors:
+length(unlist(pal_list))          # number of colors: 1327 on 2023-04-08. 
+length(unique(unlist(pal_list)))  # number of unique colors: 1130 on 2023-04-08. 
+```
 
 
 <!-- As a table: -->
@@ -132,7 +142,9 @@ unikn::seecol(pal = pal_list,
               main = my_main)
 ```
 
+
 ### Overview
+
 
 **Table\ 1** provides an overview of **all `r n_pals`\ color palettes** from from **`r n_inst`\ institutions**: 
 
