@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
-# unicol 0.0.0.9026
+# unicol 0.0.0.9028
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -63,17 +63,39 @@ library(unikn)   # for color functions
 
 ## Contents
 
-<!-- A list of all unicol palettes: -->
+The **unicol** package currently provides **202 color palettes** from
+**86 institutions**.
 
-The **unicol** package currently contains 27 color palettes (with a
-total of 181 colors) from Z institutions.
+<!-- **Table\ 1** provides an overview of all color palettes:  -->
 
-An overview of the current color palettes provided by the **unicol**
-package:
+(See the vignette on **Color palettes** for an overview of all colors
+and institutions.)
 
-<img src="man/figures/README-show-contents-1.png" width="600px" style="display: block; margin: auto;" />
+<!-- +++ here now +++  -->
 
 ## Examples
+
+<!-- Goal: Show some color palettes and how they can be used: -->
+
+### Color palettes
+
+<!-- The **unicol** package currently contains **202\ color palettes** from **86\ institutions**.  -->
+<!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
+<!-- As a table: -->
+<!-- As a figure: -->
+
+**Figure 1** illustrates 50 random color palettes (with 319 colors):
+
+<div class="figure" style="text-align: center">
+
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 319 colors)." width="80%" />
+<p class="caption">
+Figure 1: A sample of 50 unicol palettes (containing 319 colors).
+</p>
+
+</div>
+
+### Using palettes
 
 Here are some examples how the color palettes from **unicol** can be
 used:
@@ -104,6 +126,6 @@ Add contact details here.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-02.\]
+\[File `README.Rmd` updated on 2023-08-04.\]
 
 <!-- eof. -->
