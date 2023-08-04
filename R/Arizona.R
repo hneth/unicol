@@ -15,6 +15,7 @@
 
 # Color palettes:
 
+
 # - asu_1: Primary colors of ASU ----
 
 #' Primary colors of the Arizona State University, USA 
@@ -62,9 +63,10 @@ asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"),
                        as_df = FALSE)
 
 
+
 # - asu_2: Secondary colors of ASU -----
 
-#' Colors of the Arizona State University, USA 
+#' Secondary colors of the Arizona State University, USA 
 #' 
 #' \code{asu_2} provides the seven secondary colors
 #' of the \href{https://www.asu.edu}{Arizona State University}, USA.
@@ -112,6 +114,7 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
                        names = c("asu_green", "asu_blue","asu_orange", "asu_gray", 
                                  "asu_copper", "asu_turquoise", "asu_pink"), 
                        as_df = FALSE)
+
 
 
 # - asu_3: grayscale colors of ASU -----
@@ -168,6 +171,7 @@ asu_3 <- unikn::newpal(col = c("#000000", "#191919", "#484848", "#747474",
                                  "gray_4", "gray_5", "gray_6", "gray_7", 
                                  "white"), 
                        as_df = FALSE)
+
 
 
 ## ToDo: -----
