@@ -3,7 +3,7 @@
 \docType{data}
 \name{asu_2}
 \alias{asu_2}
-\title{Colors of the Arizona State University, USA}
+\title{Secondary colors of the Arizona State University, USA}
 \format{
 An object of class \code{character} of length 7.
 }
