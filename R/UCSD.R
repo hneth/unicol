@@ -25,7 +25,7 @@
 
 # - UCSD_1_core: Core colors ------
 
-#' Core colors of UCSD, UCSanDiego, University of California
+#' Core colors of the University of California San Diego (UCSD), USA 
 #'
 #' \code{UCSD_1_core} provides four Core colors.
 #' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
@@ -76,7 +76,7 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 
 # - UCSD_2_accent: accent colors ------
 
-#' accent colors of UCSanDiego
+#' Accent colors of the University of California San Diego (UCSD), USA 
 #'
 #' \code{UCSD_2_accent} provides six accent colors
 #' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
@@ -130,7 +130,7 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 
 # - UCSD_3_neutral: Neutral colors ------
 
-#' Neutral colors of UCSanDiego
+#' Neutral colors of the University of California San Diego (UCSD), USA 
 #'
 #' \code{UCSD_3_neutral} provides four neutral colors
 #' of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.

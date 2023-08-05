@@ -1,19 +1,18 @@
-## Brown.R | 2023 06 27
+## Brown.R | 2023 08 05
 ## Colors of the Brown University, USA 
 ## -----------------------------------
 
 # Information: ------
 
-# uni_pals: "brown_1" , "brown_2", "brown_metallic" (3)
+# uni_pals: "brown_1" , "brown_2" (2)  # ToDo: "brown_metallic" (3)
 # inst: "Brown University" 
-# inst_alt: "Brown Universiry"
+# inst_alt: "Brown University"
 # country: USA
 # URL: "https://www.brown.edu"
 
 # Color source:
 
-# URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
-# Page 19 to 21 of PDF manual at
+# URL: 
 # <https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf>
 # Last check: 2023-06-19
 
@@ -110,7 +109,8 @@ col_taupe <- "#B7B09C"
 
 
 
-# Metallic Colors
+# Metallic colors
+
 # All metallic colors were only given as Pantone codes. In order to include them in R, 
 # they have to be converted. This code is left unfinished, as the Pantone colors are difficult to transfer into HEX colors.
 # However if anyone is able to do that, you can include these in the code.
@@ -145,7 +145,7 @@ col_taupe <- "#B7B09C"
 
 # - brown_1: Primary colors ------
 
-#' Primary colors of Brown University
+#' Primary colors of Brown University, USA 
 #'
 #' \code{brown_1} provides 2 main and 2 accent colors 
 #' of the \href{https://www.brown.edu}{Brown University}, USA
@@ -195,7 +195,7 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 
 # - brown_2: Secondary colors ------
 
-#' Secondary colors of Brown University
+#' Secondary colors of Brown University, USA 
 #'
 #' \code{brown_2} provides four secondary colors that complement the primary color palette. 
 #' of the \href{https://www.brown.edu}{Brown University}, USA
