@@ -54,7 +54,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <img src = "../inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
 </a>
 
-This vignettes provides an overview of the **color palettes** included in the **unicol** package. 
+This vignettes provides an overview of the **color palettes** provided by the **unicol** package. 
 (See the vignette on [Using color palettes](using_pals.html) for how to use the **unicol** color palettes.) 
 
 We install or load the **unicol** package to get started: 
@@ -82,12 +82,20 @@ The **unicol** package currently provides **`r n_pals`\ color palettes** from **
 N <- length(unicol_data$pal)
 n <- 50 # N
 
-# Sample:
-set.seed(123)
-sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
+set.seed(102) # 77 102 123  # reproducible randomness
 
-# Get sample of my_pals from unicol_data:
+# A: Get sample_n of my_pals from all unicol_data$pal:
+sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
 my_pals <- unicol_data$pal[sample_n]
+
+# B: Get sample_n of primary_pals:
+is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
+# sum(is_pal_1)
+primary_pals <- unicol_data$pal[is_pal_1]
+
+N <- length(primary_pals)
+sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
+my_pals <- primary_pals[sample_n]
 
 # Initialize data structures:
 pal_list  <- vector(mode = "list", length = n)
@@ -114,7 +122,7 @@ for (i in 1:n){
 # Captions:
 tab_caption <- paste0("A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
 fig_caption <- paste0("Figure 1: A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
-my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors).")
+my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors)")
 ```
 
 ```{r unicol-pals-example-stats, echo = FALSE, eval = FALSE}
@@ -127,17 +135,18 @@ length(unique(unlist(pal_list)))  # number of unique colors: 1130 on 2023-04-08.
 ```
 
 
-<!-- As a table: -->
+<!-- Show as table: -->
 
 ```{r unicol-pals-table-sample, echo = FALSE, eval = FALSE}
-# knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
+knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 ```
 
-<!-- As a figure: -->
+
+<!-- Show as figure: -->
 
 **Figure\ 1** illustrates `r n` random color palettes: 
 
-```{r unicol-pals-figure-sample, echo = FALSE, eval = TRUE, fig.width = 7.2, out.width = "100%", fig.asp = 1.8, fig.cap = fig_caption}
+```{r unicol-pals-figure-sample, echo = FALSE, eval = TRUE, fig.width = 8, out.width = "90%", fig.asp = 1.5, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
               pal_names = pal_names,         
@@ -146,7 +155,6 @@ unikn::seecol(pal = pal_list,
 
 
 ### Overview
-
 
 **Table\ 1** provides an overview of **all `r n_pals`\ color palettes** from from **`r n_inst`\ institutions**: 
 
@@ -160,6 +168,7 @@ tab_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst,
 # Print table:
 knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
+
 
 <!-- +++ here now +++  -->
 
