@@ -84,16 +84,24 @@ and institutions.)
 <!-- As a table: -->
 <!-- As a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 319 colors):
+**Figure 1** illustrates 50 random color palettes (with 246 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 319 colors)." width="80%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 246 colors)." width="90%" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 319 colors).
+Figure 1: A sample of 50 unicol palettes (containing 246 colors).
 </p>
 
 </div>
+
+<!-- Example: Primary pals only: -->
+
+``` r
+is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
+sum(is_pal_1)
+#> [1] 66
+```
 
 ### Using palettes
 
@@ -126,6 +134,6 @@ Add contact details here.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-04.\]
+\[File `README.Rmd` updated on 2023-08-05.\]
 
 <!-- eof. -->

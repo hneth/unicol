@@ -28,11 +28,8 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 # unicol `r getNamespaceVersion("unicol")` 
 
-
-
 <!-- badges: start -->
 <!-- badges: end -->
-
 
 <!-- unikn pkg logo and link: -->
 <a href = "`r url_unikn_cran`">
@@ -47,7 +44,6 @@ The colors of your university.
 The R package **unicol** provides colors and color palettes for various universities. 
 
 <!-- Course coordinates: --> 
-
 
 The **unicol** package was developed as a collaborative project by the following course:
 
@@ -81,6 +77,7 @@ The **unicol** package provides colors and color palettes, whereas the **[unikn]
 library(unicol)  # for color palettes
 library(unikn)   # for color functions
 ```
+
 
 ## Contents
 
@@ -127,16 +124,21 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-# Parameters:
-N <- length(unicol_data$pal)
-n <- 50 # N
+set.seed(77) # 77 102 123  # reproducible randomness
 
-# Sample:
-set.seed(123)
+# A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
-
-# Get sample of my_pals from unicol_data:
 my_pals <- unicol_data$pal[sample_n]
+
+# B: Get sample_n of primary_pals:
+is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
+# sum(is_pal_1)
+primary_pals <- unicol_data$pal[is_pal_1]
+
+N <- length(primary_pals)
+sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
+my_pals <- primary_pals[sample_n]
+
 
 # Initialize data structures:
 pal_list  <- vector(mode = "list", length = n)
@@ -163,7 +165,7 @@ for (i in 1:n){
 # Captions:
 tab_caption <- paste0("A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
 fig_caption <- paste0("Figure 1: A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
-my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors).")
+my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors)")
 ```
 
 ```{r unicol-pals-example-1-stats, echo = FALSE, eval = FALSE}
@@ -178,19 +180,28 @@ length(unique(unlist(pal_list)))  # number of unique colors: 1130 on 2023-04-08.
 <!-- As a table: -->
 
 ```{r unicol-pals-example-1-table, echo = FALSE, eval = FALSE}
-# knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
+knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 ```
 
 <!-- As a figure: -->
 
 **Figure\ 1** illustrates `r n` random color palettes (with `r col_count`\ colors): 
 
-```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, fig.width = 7, out.width = "80%", fig.align = 'center', fig.asp = 1.2, fig.cap = fig_caption}
+```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, fig.width = 8, out.width = "90%", fig.align = 'center', fig.asp = 1.5, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
               pal_names = pal_names,         
               main = my_main)
 ```
+
+
+<!-- Example: Primary pals only: -->
+
+```{r}
+is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
+sum(is_pal_1)
+```
+
 
 
 ### Using palettes
@@ -203,11 +214,13 @@ demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of Cali
 demopal(nyu_1, type = 3, main = "Using NYU colors")
 ```
 
+
 ## Contact
 
 Add contact details here.
 
 ------
+
 
 <!-- Footer: -->
 
