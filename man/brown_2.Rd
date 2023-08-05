@@ -3,7 +3,7 @@
 \docType{data}
 \name{brown_2}
 \alias{brown_2}
-\title{Secondary colors of Brown University}
+\title{Secondary colors of Brown University, USA}
 \format{
 An object of class \code{character} of length 4.
 }

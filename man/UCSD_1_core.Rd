@@ -3,7 +3,7 @@
 \docType{data}
 \name{UCSD_1_core}
 \alias{UCSD_1_core}
-\title{Core colors of UCSD, UCSanDiego, University of California}
+\title{Core colors of the University of California San Diego (UCSD), USA}
 \format{
 An object of class \code{character} of length 4.
 }

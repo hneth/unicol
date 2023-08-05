@@ -3,7 +3,7 @@
 \docType{data}
 \name{UCSD_3_neutral}
 \alias{UCSD_3_neutral}
-\title{Neutral colors of UCSanDiego}
+\title{Neutral colors of the University of California San Diego (UCSD), USA}
 \format{
 An object of class \code{character} of length 4.
 }

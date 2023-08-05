@@ -3,7 +3,7 @@
 \docType{data}
 \name{UCSD_2_accent}
 \alias{UCSD_2_accent}
-\title{accent colors of UCSanDiego}
+\title{Accent colors of the University of California San Diego (UCSD), USA}
 \format{
 An object of class \code{character} of length 6.
 }
