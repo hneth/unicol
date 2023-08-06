@@ -75,8 +75,10 @@ Loading the **unicol** package automatically makes the color functions of the re
 
 **Task:** Using **unicol** colors in visualizations created by **base** R graphics. 
 
-When creating **base** R visualizations (e.g., using `plot()` for creating a scatterplot), 
-use the `usecol()` function (of the **[unikn](`r `url_unikn_cran`)** package) in combination with any color palette (e.g., `pal_unikn`) as the `col`\ argument: 
+The **unicol** color palettes are typically provided as named vectors of color objects. Thus, when creating **base** R visualizations (e.g., using `plot()` for creating a scatterplot), we can directly use a color palette as the `col`\ argument. 
+Alternatively, we can first modify a color palette (e.g., change its number of colors or add transparency) with the `usecol()` function of the **[unikn](`r `url_unikn_cran`)** package and then use the modified palette as the `col`\ argument of an R graphics function. 
+
+The following examples illustrate both of these alternatives. 
 
 ```{r plot-par-set, eval = TRUE, echo = FALSE}
 opar <- par(no.readonly = TRUE)  # store current settings
@@ -86,19 +88,19 @@ par(mar = c(1, 1, 2.1, 1), oma = c(0, 0, 0, 0))  # reduce margins
 set.seed(6 * pi)  # reproducible randomness
 ```
 
-1. Directly using a color palette:
+1. Directly using a color palette (e.g., the color palette\ `berkeley_1`): 
 
 ```{r demo-scatterplot-a, eval = TRUE, fig.width = 6, fig.asp = .90, fig.align = 'center', collapse = TRUE}
 plot(x = runif(99), y = runif(99), type = "p", 
      pch = 16, cex = 4,
-     col = mit_pal,
+     col = berkeley_1,
      main = "99 dots", axes = FALSE, xlab = NA, ylab = NA)
 ```
 
 2. Using a transformed color palette (after using the `usecol()` function of the **[unikn](`r `url_unikn_cran`)** package for resizing and adding transparency to the palette):
 
 ```{r demo-scatterplot-b, eval = TRUE, fig.width = 6, fig.asp = .90, fig.align = 'center', collapse = TRUE}
-my_col <- unikn::usecol(mit_pal, n = 7, alpha = .50)  # with transparency
+my_col <- unikn::usecol(berkeley_1, n = 7, alpha = .67)  # with transparency
 
 plot(x = runif(99), y = runif(99), type = "p", 
      pch = 16, cex = 4,
