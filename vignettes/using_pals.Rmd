@@ -41,7 +41,7 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 
 # unicol: 
 url_unicol_cran   <- "" # "https://CRAN.R-project.org/package=unicol"
-url_unicol_github <- "https://github.com/hneth/unicol"
+url_unicol_github <- "https://github.com/hneth/unicol" 
 ```
 
 <!-- unikn logo and link: -->
@@ -54,21 +54,31 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <img src = "../inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
 </a>
 
-This vignettes shows **how to** use the color palettes included in the **unicol** package. 
-(See the vignette on [Color palettes](color_pals.html) for an overview of the palettes included in the **unicol** R package.) 
+This vignettes shows **how to** use the color palettes included in the **unicol** R\ package. 
+(See the vignette on [Color palettes](color_pals.html) for an overview of the palettes included in the package.) 
+
+We install or load the **unicol** package to get started: 
+
+```{r load-unicol-pkg, message = FALSE, warning = FALSE}
+# install.packages('unicol')  # install unicol from CRAN client
+library('unicol')             # load the package
+```
+
+Loading the **unicol** package automatically makes the color functions of the required **[unikn](`r `url_unikn_cran`)** package available. 
 
 <!-- +++ here now +++  -->
 
 
 
+
 ## Using colors in **base** R 
 
-**Task:** Using **unikn** colors in visualizations created by **base** R graphics. 
+**Task:** Using **unicol** colors in visualizations created by **base** R graphics. 
 
 When creating **base** R visualizations (e.g., using `plot()` for creating a scatterplot), 
-use the `usecol()` function in combination with any color palette (e.g., `pal_unikn`) as the `col`\ argument: 
+use the `usecol()` function (of the **[unikn](`r `url_unikn_cran`)** package) in combination with any color palette (e.g., `pal_unikn`) as the `col`\ argument: 
 
-```{r plot-par-set, eval = FALSE, echo = FALSE}
+```{r plot-par-set, eval = TRUE, echo = FALSE}
 opar <- par(no.readonly = TRUE)  # store current settings
 
 par(mar = c(1, 1, 2.1, 1), oma = c(0, 0, 0, 0))  # reduce margins
@@ -76,9 +86,19 @@ par(mar = c(1, 1, 2.1, 1), oma = c(0, 0, 0, 0))  # reduce margins
 set.seed(6 * pi)  # reproducible randomness
 ```
 
+1. Directly using a color palette:
 
-```{r demo-scatterplot, eval = FALSE, fig.width = 5, fig.asp=.95, fig.align = 'center', collapse = TRUE}
-my_col <- usecol(pal_unikn, alpha = .50)  # with transparency
+```{r demo-scatterplot-a, eval = TRUE, fig.width = 6, fig.asp = .90, fig.align = 'center', collapse = TRUE}
+plot(x = runif(99), y = runif(99), type = "p", 
+     pch = 16, cex = 4,
+     col = mit_pal,
+     main = "99 dots", axes = FALSE, xlab = NA, ylab = NA)
+```
+
+2. Using a transformed color palette (after using the `usecol()` function of the **[unikn](`r `url_unikn_cran`)** package for resizing and adding transparency to the palette):
+
+```{r demo-scatterplot-b, eval = TRUE, fig.width = 6, fig.asp = .90, fig.align = 'center', collapse = TRUE}
+my_col <- unikn::usecol(mit_pal, n = 7, alpha = .50)  # with transparency
 
 plot(x = runif(99), y = runif(99), type = "p", 
      pch = 16, cex = 4,
@@ -86,7 +106,7 @@ plot(x = runif(99), y = runif(99), type = "p",
      main = "99 transparent dots", axes = FALSE, xlab = NA, ylab = NA)
 ```
 
-```{r plot-par-reset, eval = FALSE, echo = FALSE}
+```{r plot-par-reset, eval = TRUE, echo = FALSE}
 par(opar)  # re-store current settings
 ```
 
