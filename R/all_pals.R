@@ -1,4 +1,4 @@
-## all_pals.R | 2022 08 05
+## all_pals.R | 2022 08 07
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -364,7 +364,7 @@ url <- c(rep("https://ethz.ch", 3),
          rep("https://www.vanderbilt.edu", 3),
          rep("https://www.waikato.ac.nz", 1),
          rep("https://www.uwo.ca", 1),
-         rep("https://www.cornell.edu", 1),
+         rep("https://www.yale.edu", 1),
          rep("https://www.yu.edu", 1),
          rep("https://www.yorku.ca", 2)
 )
