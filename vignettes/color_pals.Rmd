@@ -56,7 +56,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 This vignettes provides an overview of the **color palettes** provided by the **unicol** package. 
@@ -182,7 +182,7 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 The following vignettes provide an overview of and examples for using the **unicol** color palettes: 

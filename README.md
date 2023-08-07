@@ -8,7 +8,7 @@
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 <!-- Slogan: -->
@@ -153,7 +153,7 @@ demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 ## Contact

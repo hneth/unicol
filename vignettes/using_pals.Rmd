@@ -56,7 +56,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 
@@ -246,7 +246,7 @@ See the [Color recipes](https://hneth.github.io/unikn/articles/color_recipes.htm
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 The following vignettes provide an overview of and examples for using the **unicol** color palettes: 
