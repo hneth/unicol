@@ -92,8 +92,8 @@ and institutions.)
 
 <!-- The **unicol** package currently contains **202\ color palettes** from **86\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
-<!-- As a table: -->
-<!-- As a figure: -->
+<!-- Show as a table: -->
+<!-- Show as a figure: -->
 
 **Figure 1** illustrates 50 random color palettes (with 246 colors):
 
@@ -154,12 +154,23 @@ unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University 
 <img src="man/figures/README-examples-unicol-2.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-unikn::demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
+unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
 
 <img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
 
 ## Adding color palettes
+
+If you are missing a color palette, you can easily create it. For
+instructions, see the documentation of the `newpal()` function (of the
+**[unikn](https://CRAN.R-project.org/package=unikn)**). The vignette on
+[Institutional
+colors](https://hneth.github.io/unikn/articles/color_inst.html) provides
+a corresponding example.
+
+If you create a new color palette, **please let us know** (on [GitHub
+issues](https://github.com/hneth/unicol/issues)) so that we can include
+it in future versions of the **unicol** package.
 
 <!-- +++ here now +++  -->
 <!-- unicol pkg logo and link: -->

@@ -188,13 +188,14 @@ length(unlist(pal_list))          # number of colors: 1327 on 2023-04-08.
 length(unique(unlist(pal_list)))  # number of unique colors: 1130 on 2023-04-08. 
 ```
 
-<!-- As a table: -->
+
+<!-- Show as a table: -->
 
 ```{r unicol-pals-example-1-table, echo = FALSE, eval = FALSE}
 knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 ```
 
-<!-- As a figure: -->
+<!-- Show as a figure: -->
 
 **Figure\ 1** illustrates `r n` random color palettes (with `r col_count`\ colors): 
 
@@ -236,11 +237,18 @@ Here are some some additional examples how the color palettes from **unicol** ca
 unikn::seecol(yale_1, main = "The primary colors of Yale University")
 # Demo plots:
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
-unikn::demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
+unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
 
 
 ## Adding color palettes
+
+If you are missing a color palette, you can easily create it. 
+For instructions, see the documentation of the `newpal()` function (of the **[unikn](https://CRAN.R-project.org/package=unikn)**). 
+The vignette on [Institutional colors](https://hneth.github.io/unikn/articles/color_inst.html) provides a corresponding example. 
+
+If you create a new color palette, **please let us know** (on [GitHub issues](https://github.com/hneth/unicol/issues)) so that we can include it in future versions of the **unicol** package. 
+
 
 <!-- +++ here now +++  -->
 
