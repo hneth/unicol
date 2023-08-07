@@ -175,6 +175,14 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
 
+## Adding color palettes
+
+If you are missing a color palette, you can easily create it. 
+For instructions, see the documentation of the `newpal()` function (of the **[unikn](https://CRAN.R-project.org/package=unikn)**). 
+The vignette on [Institutional colors](https://hneth.github.io/unikn/articles/color_inst.html) provides a corresponding example. 
+
+If you create a new color palette, **please let us know** (on [GitHub issues](https://github.com/hneth/unicol/issues)) so that we can include it in future versions of the **unicol** package. 
+
 <!-- +++ here now +++  -->
 
 
