@@ -161,6 +161,16 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 
 ## Adding color palettes
 
+<!-- unicol pkg logo and link: -->
+
+<a href = "https://github.com/hneth/unicol">
+<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
+</a>
+
+The current range of color palettes included in **unicol** is selective
+and incomplete. We are always happy to include new color palettes and
+institutions from all over the world.
+
 If you are missing a color palette, you can easily create it. For
 instructions, see the documentation of the `newpal()` function (of the
 **[unikn](https://CRAN.R-project.org/package=unikn)**). The vignette on
@@ -173,15 +183,8 @@ issues](https://github.com/hneth/unicol/issues)) so that we can include
 it in future versions of the **unicol** package.
 
 <!-- +++ here now +++  -->
-<!-- unicol pkg logo and link: -->
-
-<a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
-</a>
-
-## Contact
-
-Add contact details here.
+<!-- ## Contact -->
+<!-- ToDo: Add contact details here. -->
 
 ------------------------------------------------------------------------
 
