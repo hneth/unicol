@@ -5,18 +5,23 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
-<!-- unikn pkg logo and link: -->
+<!-- unicol pkg logo and link: -->
 
-<a href = "https://CRAN.R-project.org/package=unikn">
-<img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
+<a href = "https://github.com/hneth/unicol">
+<img src = "./inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
 </a>
+
+<!-- Slogan: -->
 
 The colors of your university.
 
-## Goal
+## Objectives
 
-The R package **unicol** provides colors and color palettes for various
-universities.
+<!-- Goal: -->
+
+The R package **unicol** contains colors and color palettes for various
+universities. Our goal is to collect and provide as many palettes as
+possible for creating scientific visualizations.
 
 <!-- Course coordinates: -->
 
@@ -31,10 +36,11 @@ following course:
   [SPDS](https://www.spds.uni-konstanz.de/), [University of
   Konstanz](https://www.uni-konstanz.de/en/))
 
-<!-- Goal: -->
-
-The goal of **unicol** is to provide university color palettes for
-creating scientific visualizations.
+<!-- Relation to unikn:: -->
+<!-- unikn pkg logo and link: -->
+<!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
+<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- </a> -->
 
 This package is based on the R package
 **[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
@@ -144,6 +150,11 @@ demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
 <img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
 
 <!-- +++ here now +++  -->
+<!-- unicol pkg logo and link: -->
+
+<a href = "https://github.com/hneth/unicol">
+<img src = "./inst/pix/pkg_unicol.png" alt = "unicol::" align = "right" width = "220px" style = "width: 220px; float: right; border:0;"/>
+</a>
 
 ## Contact
 
