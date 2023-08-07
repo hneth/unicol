@@ -1146,7 +1146,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 
 #' Gradient colors of the University of Bonn
 #'
-#' \code{uni_bonn_2} provides 4 shades (of 100%, 75%, 50%, and 25%) 
+#' \code{uni_bonn_2} provides 4 shades (of \code{100%}, \code{75%}, \code{50%}, and \code{25%}) 
 #' for each of the 3 primary colors 
 #' of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany. 
 #' 

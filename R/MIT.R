@@ -1,4 +1,4 @@
-## MIT.R | 2023 06 14
+## MIT.R | 2023 08 07
 ## Colors of MIT, Massachusetts Institute of Technology, USA
 ## ---------------------------------------------------------
 
@@ -23,24 +23,27 @@
 # Light gray may also be used for contrast reasons.
 #
 # Primary color 1 "BLACK"
-col_black <- "black"
+# col_black <- "black"
 
 # Primary color 2 "red"
 # RGB 163/31/52
 # HEX #A31F34
 # PMS 201
+
 col_red_PMS201 <- "#A31F34"
 
 # Primary color 3 "grey"
 # RGB 138/139/140
 # HEX #8A8B8C
 # PMS 424
+
 col_gray_PMS424 <- "#8A8B8C"
 
 # Secondary color 1 "light gray"
 # RGB 194/192/191
 # HEX #C2C0BF
 # PMS 420
+
 col_lightgray_PMS420 <- "#C2C0BF"
 
 
@@ -49,19 +52,20 @@ col_lightgray_PMS420 <- "#C2C0BF"
 
 # - mit_pal: Primary colors ------
 
-#' Colors of MIT, Massachusetts Institute of Technology, USA
+#' Primary colors of the MIT (Massachusetts Institute of Technology), USA
 #'
 #' \code{mit_pal} provides the three primary colors
-#' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
+#' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA, 
+#' plus a secondary light gray color. 
 #'
 #' The three primary colors are
 #' \code{"black"}, 
 #' \code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and 
 #' \code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C). 
 #'
-#' The secondary color is
+#' The secondary color 
 #' \code{"lightgray"} (defined as PMS 420, RGB 194/192/191, HEX #C2C0BF)
-#' and used for contrast reasons.
+#' is used for contrast reasons.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -88,8 +92,8 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #'
 #' @export
 
-mit_pal <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
-                         names = c("black", "PMS 201", "PMS 424", "PMS 420"),
+mit_pal <- unikn::newpal(col = c("black", col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
+                         names = c("black", "MIT_red (PMS 201)", "MIT_gray (PMS 424)", "MIT_lightgray (PMS 420)"),
                          as_df = FALSE)
 
 # # Check:
@@ -101,4 +105,3 @@ mit_pal <- unikn::newpal(col = c(col_black, col_red_PMS201, col_gray_PMS424, col
 # - etc.
 
 ## eof. ----------
-
