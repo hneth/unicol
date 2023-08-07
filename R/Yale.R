@@ -1,4 +1,4 @@
-## Yale.R | 2023 06 16
+## Yale.R | 2023 08 07
 ## Colors of Yale University, USA
 ## ------------------------------
 
@@ -7,11 +7,11 @@
 # uni_pals: "yale_1" (1)
 # inst: "Yale University"
 # country: USA
-# URL: "https://www.cornell.edu/"
+# URL: "https://www.yale.edu"
 
 # Color source:
 
-# URL: <https://brand.cornell.edu/design-center/colors/>
+# URL: <https://yaleidentity.yale.edu/colors>
 # Last check: 2023-06-13
 
 
@@ -24,10 +24,10 @@
 
 # - yale_1: Primary colors ------
 
-#' Primary colors of Yale University
+#' Primary colors of Yale University, USA 
 #'
 #' \code{yale_1} provides the ten primary colors
-#' of the \href{https://www.cornell.edu/}{Yale University}, USA.
+#' of the \href{https://www.yale.edu}{Yale University}, USA.
 #'
 #' Yale Blue is the university’s identifying color, and has the hex value #00356b. 
 #' The standard range of blue tints is shown in the primary color palette below along with the standard range of grays and two accent colors. 
@@ -37,11 +37,11 @@
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author
-#' \strong{unicol}, 2023-06-14.
+#' \strong{unicol}, 2023-08-07.
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
+#' \href{https://yaleidentity.yale.edu/colors}{Yale identity website}. 
 #'
 #' @examples
 #' yale_1
@@ -58,8 +58,12 @@
 #'
 #' @export
 
-yale_1 <- unikn::newpal(col = c("#00356b", "#286dc0", "#63aaff", "#222222", "#4a4a4a", "#978d85", "#dddddd", "#f9f9f9", "#5f712d", "#bd5319"),
-                           names = c("yale_blue", "yale_blue_shade1", "yale_blue_shade2", "yale_gray1", "yale_gray2", "yale_gray3", "yale_gray4", "yale_gray5", "yale_green_accent", "yale_orange_accent"),
+yale_1 <- unikn::newpal(col = c("#00356b", "#286dc0", "#63aaff", 
+                                "#222222", "#4a4a4a", "#978d85", "#dddddd", "#f9f9f9", 
+                                "#5f712d", "#bd5319"),
+                           names = c("yale_blue", "yale_blue_shade1", "yale_blue_shade2", 
+                                     "yale_gray1", "yale_gray2", "yale_gray3", "yale_gray4", "yale_gray5", 
+                                     "yale_green_accent", "yale_orange_accent"),
                            as_df = FALSE)
 
 # # Check:
