@@ -3,7 +3,7 @@
 \docType{data}
 \name{cornell_1}
 \alias{cornell_1}
-\title{Primary colors of Cornell University}
+\title{Primary colors of Cornell University, USA}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -25,8 +25,8 @@ of the \href{https://www.cornell.edu/}{Cornell University}, USA.
 Primary colors are the officially recognized color palette for the university.
 These colors are critical to leverage the Cornell brand and provide clear university consistency.
 Logos may only be represented in 
-\code{"carnelian"} (defined as HEX #B31B1B), black 
-\code{"dark_gray"} (defined as HEX #222222) or 
+\code{"carnelian"} (defined as HEX #B31B1B),  
+\code{"dark_gray"} (defined as HEX #222222), or 
 \code{"white"} (defined as HEX #FFFFFF).
 }
 \examples{

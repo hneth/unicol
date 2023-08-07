@@ -3,13 +3,13 @@
 \docType{data}
 \name{yale_1}
 \alias{yale_1}
-\title{Primary colors of Yale University}
+\title{Primary colors of Yale University, USA}
 \format{
 An object of class \code{character} of length 10.
 }
 \source{
 Color definitions are based on the
-\href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
+\href{https://yaleidentity.yale.edu/colors}{Yale identity website}.
 }
 \usage{
 yale_1
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{yale_1} provides the ten primary colors
-of the \href{https://www.cornell.edu/}{Yale University}, USA.
+of the \href{https://www.yale.edu}{Yale University}, USA.
 }
 \details{
 Yale Blue is the university’s identifying color, and has the hex value #00356b. 
@@ -227,7 +227,7 @@ Other university color palettes:
 \code{\link{york2}}
 }
 \author{
-\strong{unicol}, 2023-06-14.
+\strong{unicol}, 2023-08-07.
 }
 \concept{university color palettes}
 \keyword{datasets}

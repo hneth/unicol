@@ -3,7 +3,7 @@
 \docType{data}
 \name{cornell_3_accent}
 \alias{cornell_3_accent}
-\title{Accent colors of Cornell University}
+\title{Accent colors of Cornell University, USA}
 \format{
 An object of class \code{character} of length 9.
 }
@@ -34,7 +34,7 @@ This secondary colors are
 \code{"cornell_orange_graphic"} (defined as HEX #F8981D),
 \code{"cornell_orange_text"} (defined as HEX #D47500),
 \code{"cornell_red_graphic"} (defined as HEX #EF4035),
-\code{"cornell_red_text"} (defined as HEX #DF1E12) and
+\code{"cornell_red_text"} (defined as HEX #DF1E12), and
 \code{"cornell_navy"} (defined as HEX #073949).
 }
 \examples{

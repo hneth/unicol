@@ -3,7 +3,7 @@
 \docType{data}
 \name{cornell_2}
 \alias{cornell_2}
-\title{Secondary colors of Cornell University}
+\title{Secondary colors of Cornell University, USA}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -27,7 +27,7 @@ Use these as supplementary colors rather than driving colors in layout and commu
 
 This secondary colors are 
 \code{"light_gray"} (defined as HEX #F7F7F7),
-\code{"dark_warm_gray"} (defined as HEX #A2998B) and
+\code{"dark_warm_gray"} (defined as HEX #A2998B), and
 \code{"sea_gray"} (defined as HEX #9FAD9F).
 }
 \examples{
