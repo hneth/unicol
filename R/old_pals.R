@@ -1,4 +1,4 @@
-## old_pals.R | 2023 06 16
+## old_pals.R | 2023 08 07
 ## Old color palettes (from unikn)
 ## -------------------------------
 
@@ -18,7 +18,7 @@
 # Seven corporate design colours form the basis of our colour schemes, interactive elements and design elements. 
 # White text should always be used on coloured backgrounds to ensure readability/accessibility.
 
-# - eth_pal_1: ---- 
+# - eth_1: ---- 
 
 # ETH Blue: 
 #   RGB 33, 92, 175 
@@ -54,10 +54,10 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 
 #' Default colors of the ETH Zurich 
 #'
-#' \code{eth_pal_1} provides the seven default colors  
+#' \code{eth_1} provides the seven default colors  
 #' of the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
 #' 
-#' Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_pal_2}}. 
+#' Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_2}}. 
 #' 
 #' The Swiss abbreviation "ETH" stands for "Eidgenössische Technische Hochschule".
 #' 
@@ -72,14 +72,14 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
-#' eth_pal_1
-#' unikn::seecol(eth_pal_1, main = "Default colors of the ETH Zürich")  # view color palette
-#' unikn::demopal(eth_pal_1, type = 3, main = "Using the default colors of ETH Zurich")
+#' eth_1
+#' unikn::seecol(eth_1, main = "Default colors of the ETH Zürich")  # view color palette
+#' unikn::demopal(eth_1, type = 3, main = "Using the default colors of ETH Zurich")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{eth_pal_2}} and \code{\link{eth_pal_3}} for alternative colors of the ETH Zurich;  
+#' \code{\link{eth_2}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -88,12 +88,12 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' 
 #' @export
 
-eth_pal_1 <- unikn::newpal(col = col_ETH, 
-                           names = nam_ETH,
-                           as_df = FALSE)
+eth_1 <- unikn::newpal(col = col_ETH, 
+                       names = nam_ETH,
+                       as_df = FALSE)
 
 
-# - eth_pal_2: ---- 
+# - eth_2: ---- 
 
 # Lighter shades:
 # Light colours are also available and can be used to make certain elements (like text boxes) stand out. 
@@ -133,10 +133,10 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 
 #' Lighter shades of the ETH Zurich colors 
 #'
-#' \code{eth_pal_2} provides lighter shades of the default colors  
+#' \code{eth_2} provides lighter shades of the default colors  
 #' of the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
 #' 
-#' The primary colors of the ETH Zurich are provided by \code{\link{eth_pal_1}}. 
+#' The primary colors of the ETH Zurich are provided by \code{\link{eth_1}}. 
 #' 
 #' The Swiss abbreviation "ETH" stands for "Eidgenössische Technische Hochschule".
 #' 
@@ -151,14 +151,14 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
-#' eth_pal_2
-#' unikn::seecol(eth_pal_2, main = "Light shades of the ETH Zurich")  # view color palette
-#' unikn::demopal(eth_pal_2, type = 4, main = "Light shades of ETH Zürich colors")
+#' eth_2
+#' unikn::seecol(eth_2, main = "Light shades of the ETH Zurich")  # view color palette
+#' unikn::demopal(eth_2, type = 4, main = "Light shades of ETH Zürich colors")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{eth_pal_1}} and \code{\link{eth_pal_3}} for alternative colors of the ETH Zurich;  
+#' \code{\link{eth_1}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -167,12 +167,12 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' 
 #' @export
 
-eth_pal_2 <- unikn::newpal(col = col_ETH_light, 
-                           names = nam_ETH_light,
-                           as_df = FALSE)
+eth_2 <- unikn::newpal(col = col_ETH_light, 
+                       names = nam_ETH_light,
+                       as_df = FALSE)
 
 
-# - eth_pal_3: ---- 
+# - eth_3: ---- 
 
 # Using black and shades of grey:
 # Shades of grey can be used to visually structure content and delineate different elements. 
@@ -235,13 +235,13 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 
 #' Black and grey colors of the ETH Zurich 
 #'
-#' \code{eth_pal_3} provides the black and gray colors  
+#' \code{eth_3} provides the black and gray colors  
 #' used by the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
 #' 
 #' The color \code{"black"} and six shades of gray can be used to visually structure content 
 #' and delineate different elements. 
 #' 
-#' Note that \code{eth_pal_3} mixes colors of 
+#' Note that \code{eth_3} mixes colors of 
 #' varying opacity / transparency levels.
 #' 
 #' @return 
@@ -255,14 +255,14 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
-#' eth_pal_3
-#' unikn::seecol(eth_pal_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
-#' unikn::demopal(eth_pal_3, type = 2, main = "Black and gray colors of ETH Zürich")
+#' eth_3
+#' unikn::seecol(eth_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
+#' unikn::demopal(eth_3, type = 2, main = "Black and gray colors of ETH Zürich")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{eth_pal_1}} and \code{\link{eth_pal_2}} for alternative colors of the ETH Zurich;  
+#' \code{\link{eth_1}} and \code{\link{eth_2}} for alternative colors of the ETH Zurich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -271,9 +271,9 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' 
 #' @export
 
-eth_pal_3 <- unikn::newpal(col = col_eth_grey, 
-                           names = nam_eth_grey,
-                           as_df = FALSE)
+eth_3 <- unikn::newpal(col = col_eth_grey, 
+                       names = nam_eth_grey,
+                       as_df = FALSE)
 
 
 
@@ -1082,7 +1082,7 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 
 # - uni_bonn_1: Primary colors ----
 
-#' Primary colors of the University of Bonn
+#' Primary colors of the University of Bonn, Germany 
 #'
 #' \code{uni_bonn_1} provides the three primary colors 
 #' (i.e., one main and two decorative colors) 
@@ -1144,9 +1144,9 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 
 # - uni_bonn_2: Gradients ----
 
-#' Gradient colors of the University of Bonn
+#' Gradient colors of the University of Bonn, Germany 
 #'
-#' \code{uni_bonn_2} provides 4 shades (of \code{100%}, \code{75%}, \code{50%}, and \code{25%}) 
+#' \code{uni_bonn_2} provides 4 shades (of 100, 75, 50, and 25 percent) 
 #' for each of the 3 primary colors 
 #' of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany. 
 #' 
