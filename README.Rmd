@@ -26,6 +26,7 @@ url_unicol_cran   <- "" # "https://CRAN.R-project.org/package=unicol"
 url_unicol_github <- "https://github.com/hneth/unicol"
 ```
 
+
 # unicol `r getNamespaceVersion("unicol")` 
 
 <!-- badges: start -->
@@ -35,6 +36,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <a href = "`r url_unikn_cran`">
 <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/>
 </a>
+
 
 The colors of your university.
 
@@ -71,7 +73,7 @@ devtools::install_github("hneth/unicol")
 
 ## Usage
 
-The **unicol** package provides colors and color palettes, whereas the **[unikn](https://CRAN.R-project.org/package=unikn)** provides color-related functions:
+The **unicol** package provides colors and color palettes, whereas the **[unikn](https://CRAN.R-project.org/package=unikn)** package provides color-related functions:
 
 ```{r load-pkgs, message = FALSE}
 library(unicol)  # for color palettes
@@ -102,8 +104,6 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
 (See the vignette on **Color palettes** for an overview of all colors and institutions.)
-
-<!-- +++ here now +++  -->
 
 
 ## Examples 
@@ -195,29 +195,42 @@ unikn::seecol(pal = pal_list,
 ```
 
 
-<!-- Example: Primary pals only: -->
+### Using color palettes
 
-```{r}
-is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
-sum(is_pal_1)
+As the **unicol** palettes are provided as vectors of R colors, they can simply be used as the `col` argument of R graphics functions. 
+For instance, we can use the MIT colors (of the [Massachusetts Institute of Technology](https://web.mit.edu/)) in a bar plot as follows:
+
+```{r example-base-r-1}
+barplot(height = 1:10, 
+        col = mit_pal, 
+        main = "Using the MIT colors")
 ```
 
+To modify a color palette (e.g., by resizing or adding transparency), we can use the `usecol()` function of the 
+**[unikn](https://CRAN.R-project.org/package=unikn)** package:
 
+```{r example-base-r-2}
+barplot(height = 1:10, 
+        col = usecol(mit_pal, n = 10), 
+        main = "Using a gradient of MIT colors")
+```
 
-### Using palettes
+<!-- More examples: -->
 
-Here are some examples how the color palettes from **unicol** can be used:
+Here are some some additional examples how the color palettes from **unicol** can be used:
 
-```{r examples, message = FALSE}
+```{r examples-unicol, message = FALSE}
 seecol(yale_1, main = "The primary colors of Yale University")
 demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
-demopal(nyu_1, type = 3, main = "Using NYU colors")
+demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
 ```
 
+<!-- +++ here now +++  -->
 
 ## Contact
 
 Add contact details here.
+
 
 ------
 

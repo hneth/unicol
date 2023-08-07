@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
-# unicol 0.0.0.9028
+# unicol 0.0.0.9030
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -53,7 +53,7 @@ devtools::install_github("hneth/unicol")
 ## Usage
 
 The **unicol** package provides colors and color palettes, whereas the
-**[unikn](https://CRAN.R-project.org/package=unikn)** provides
+**[unikn](https://CRAN.R-project.org/package=unikn)** package provides
 color-related functions:
 
 ``` r
@@ -70,8 +70,6 @@ The **unicol** package currently provides **202 color palettes** from
 
 (See the vignette on **Color palettes** for an overview of all colors
 and institutions.)
-
-<!-- +++ here now +++  -->
 
 ## Examples
 
@@ -95,36 +93,57 @@ Figure 1: A sample of 50 unicol palettes (containing 246 colors).
 
 </div>
 
-<!-- Example: Primary pals only: -->
+### Using color palettes
+
+As the **unicol** palettes are provided as vectors of R colors, they can
+simply be used as the `col` argument of R graphics functions. For
+instance, we can use the MIT colors (of the [Massachusetts Institute of
+Technology](https://web.mit.edu/)) in a bar plot as follows:
 
 ``` r
-is_pal_1 <- grepl(pattern = "_1", unicol_data$pal)
-sum(is_pal_1)
-#> [1] 66
+barplot(height = 1:10, 
+        col = mit_pal, 
+        main = "Using the MIT colors")
 ```
 
-### Using palettes
+<img src="man/figures/README-example-base-r-1-1.png" width="600px" style="display: block; margin: auto;" />
 
-Here are some examples how the color palettes from **unicol** can be
-used:
+To modify a color palette (e.g., by resizing or adding transparency), we
+can use the `usecol()` function of the
+**[unikn](https://CRAN.R-project.org/package=unikn)** package:
+
+``` r
+barplot(height = 1:10, 
+        col = usecol(mit_pal, n = 10), 
+        main = "Using a gradient of MIT colors")
+```
+
+<img src="man/figures/README-example-base-r-2-1.png" width="600px" style="display: block; margin: auto;" />
+
+<!-- More examples: -->
+
+Here are some some additional examples how the color palettes from
+**unicol** can be used:
 
 ``` r
 seecol(yale_1, main = "The primary colors of Yale University")
 ```
 
-<img src="man/figures/README-examples-1.png" width="600px" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-1.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
 demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 ```
 
-<img src="man/figures/README-examples-2.png" width="600px" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-2.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
-demopal(nyu_1, type = 3, main = "Using NYU colors")
+demopal(limerick_1, type = 3, main = "Using the colors of Limerick University")
 ```
 
-<img src="man/figures/README-examples-3.png" width="600px" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
+
+<!-- +++ here now +++  -->
 
 ## Contact
 
@@ -134,6 +153,6 @@ Add contact details here.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-05.\]
+\[File `README.Rmd` updated on 2023-08-07.\]
 
 <!-- eof. -->
