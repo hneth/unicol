@@ -1,4 +1,4 @@
-## Cornell.R | 2023 06 16
+## Cornell.R | 2023 08 07
 ## Colors of Cornell University, USA
 ## ---------------------------------
 
@@ -7,7 +7,7 @@
 # uni_pals: "cornell_1", "cornell_2", "cornell_3_accent" (3)
 # inst: "Cornell University"
 # country: USA
-# URL: "https://www.cornell.edu/"
+# URL: "https://www.cornell.edu"
 
 # Color source:
 
@@ -24,7 +24,7 @@
 
 # - cornell_1: Primary colors ------
 
-#' Primary colors of Cornell University
+#' Primary colors of Cornell University, USA 
 #'
 #' \code{cornell_1} provides the two primary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
@@ -32,9 +32,9 @@
 #' Primary colors are the officially recognized color palette for the university.
 #' These colors are critical to leverage the Cornell brand and provide clear university consistency.
 #' Logos may only be represented in 
-#' \code{"carnelian"} (defined as HEX #B31B1B), black 
-#' \code{"dark_gray"} (defined as HEX #222222) or 
-#' \code{"white"} (defined as HEX #FFFFFF).
+#' \code{"carnelian"} (defined as HEX #B31B1B),  
+#' \code{"dark_gray"} (defined as HEX #222222), or 
+#' \code{"white"} (defined as HEX #FFFFFF). 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -74,7 +74,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 
 # - cornell_2: Secondary colors ------
 
-#' Secondary colors of Cornell University
+#' Secondary colors of Cornell University, USA 
 #'
 #' \code{cornell_2} provides the three secondary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
@@ -84,7 +84,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #'
 #' This secondary colors are 
 #' \code{"light_gray"} (defined as HEX #F7F7F7),
-#' \code{"dark_warm_gray"} (defined as HEX #A2998B) and
+#' \code{"dark_warm_gray"} (defined as HEX #A2998B), and
 #' \code{"sea_gray"} (defined as HEX #9FAD9F).
 #'
 #' @return
@@ -125,7 +125,7 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 
 # - cornell_3_accent: Accent colors ------
 
-#' Accent colors of Cornell University
+#' Accent colors of Cornell University, USA 
 #'
 #' \code{cornell_3_accent} provides the nine primary colors
 #' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
@@ -142,7 +142,7 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' \code{"cornell_orange_graphic"} (defined as HEX #F8981D),
 #' \code{"cornell_orange_text"} (defined as HEX #D47500),
 #' \code{"cornell_red_graphic"} (defined as HEX #EF4035),
-#' \code{"cornell_red_text"} (defined as HEX #DF1E12) and
+#' \code{"cornell_red_text"} (defined as HEX #DF1E12), and
 #' \code{"cornell_navy"} (defined as HEX #073949).
 #'
 #' @return
