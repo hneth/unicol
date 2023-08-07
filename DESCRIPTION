@@ -22,10 +22,10 @@ Description: The 'unicol' package provides the colors and color palettes of vari
 Depends:
     R (>= 3.4.0)
 Imports:
-    ggplot2,
     unikn
 Suggests:
     cli,
+    ggplot2,
     knitr,
     rmarkdown,
     spelling
