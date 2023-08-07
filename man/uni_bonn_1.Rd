@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_bonn_1}
 \alias{uni_bonn_1}
-\title{Primary colors of the University of Bonn}
+\title{Primary colors of the University of Bonn, Germany}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -96,9 +96,9 @@ Other university color palettes:
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
 \code{\link{edinburgh_1}},
-\code{\link{eth_pal_1}},
-\code{\link{eth_pal_2}},
-\code{\link{eth_pal_3}},
+\code{\link{eth_1}},
+\code{\link{eth_2}},
+\code{\link{eth_3}},
 \code{\link{fu_pal_0}},
 \code{\link{fu_pal_1}},
 \code{\link{fu_pal_2}},

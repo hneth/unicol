@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_bonn_2}
 \alias{uni_bonn_2}
-\title{Gradient colors of the University of Bonn}
+\title{Gradient colors of the University of Bonn, Germany}
 \format{
 An object of class \code{character} of length 12.
 }
@@ -18,7 +18,7 @@ uni_bonn_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_bonn_2} provides 4 shades (of 100%, 75%, 50%, and 25%) 
+\code{uni_bonn_2} provides 4 shades (of 100, 75, 50, and 25 percent) 
 for each of the 3 primary colors 
 of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany.
 }
@@ -80,9 +80,9 @@ Other university color palettes:
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
 \code{\link{edinburgh_1}},
-\code{\link{eth_pal_1}},
-\code{\link{eth_pal_2}},
-\code{\link{eth_pal_3}},
+\code{\link{eth_1}},
+\code{\link{eth_2}},
+\code{\link{eth_3}},
 \code{\link{fu_pal_0}},
 \code{\link{fu_pal_1}},
 \code{\link{fu_pal_2}},

@@ -3,7 +3,7 @@
 \docType{data}
 \name{mit_pal}
 \alias{mit_pal}
-\title{Colors of MIT, Massachusetts Institute of Technology, USA}
+\title{Primary colors of the MIT (Massachusetts Institute of Technology), USA}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -19,7 +19,8 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{mit_pal} provides the three primary colors
-of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA.
+of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA, 
+plus a secondary light gray color.
 }
 \details{
 The three primary colors are
@@ -27,9 +28,9 @@ The three primary colors are
 \code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and 
 \code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C). 
 
-The secondary color is
+The secondary color 
 \code{"lightgray"} (defined as PMS 420, RGB 194/192/191, HEX #C2C0BF)
-and used for contrast reasons.
+is used for contrast reasons.
 }
 \examples{
 mit_pal
@@ -82,9 +83,9 @@ Other university color palettes:
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
 \code{\link{edinburgh_1}},
-\code{\link{eth_pal_1}},
-\code{\link{eth_pal_2}},
-\code{\link{eth_pal_3}},
+\code{\link{eth_1}},
+\code{\link{eth_2}},
+\code{\link{eth_3}},
 \code{\link{fu_pal_0}},
 \code{\link{fu_pal_1}},
 \code{\link{fu_pal_2}},
