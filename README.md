@@ -1,21 +1,17 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
-
-# unicol 0.0.0.9030
-
 <!-- badges: start -->
 <!-- badges: end -->
+
+# unicol 0.0.0.9030 <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "200px" />
+
 <!-- unicol pkg logo and link: -->
-
-<a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
-</a>
-
+<!-- <a href = "https://github.com/hneth/unicol"> -->
+<!-- <img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/> -->
+<!-- </a> -->
 <!-- Slogan: -->
 
-The colors of your university.
-
-## Objectives
+### The colors of your university
 
 <!-- Vision / Mission: -->
 
@@ -23,7 +19,7 @@ The R package **unicol** contains the colors and color palettes of
 various universities. We collect and provide a diverse range of color
 palettes for creating scientific visualizations.
 
-<!-- Goal: -->
+<!-- Goal / Objectives: -->
 
 Our primary goal is to make it simple to create beautiful visualizations
 that are in accordance with institutional style guides. Assuming that
@@ -84,24 +80,23 @@ The **unicol** package currently provides **202 color palettes** from
 (See the vignette on **Color palettes** for an overview of all colors
 and institutions.)
 
-## Examples
-
+<!-- ## Examples  -->
 <!-- Goal: Show some color palettes and how they can be used: -->
 
-### Color palettes
+### Examples of color palettes
 
 <!-- The **unicol** package currently contains **202\ color palettes** from **86\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 246 colors):
+**Figure 1** illustrates 50 random color palettes (with 239 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 246 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 239 colors)." width="90%" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 246 colors).
+Figure 1: A sample of 50 unicol palettes (containing 239 colors).
 </p>
 
 </div>
@@ -190,6 +185,6 @@ it in future versions of the **unicol** package.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-07.\]
+\[File `README.Rmd` updated on 2023-08-08.\]
 
 <!-- eof. -->

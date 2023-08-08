@@ -26,29 +26,27 @@ url_unicol_cran   <- "" # "https://CRAN.R-project.org/package=unicol"
 url_unicol_github <- "https://github.com/hneth/unicol"
 ```
 
-
-# unicol `r getNamespaceVersion("unicol")` 
-
 <!-- badges: start -->
 <!-- badges: end -->
 
+
+# unicol `r packageVersion('unicol')` <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "200px" />
+
 <!-- unicol pkg logo and link: -->
-<a href = "`r url_unicol_github`">
-<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
-</a>
+<!-- <a href = "`r url_unicol_github`"> -->
+<!-- <img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/> -->
+<!-- </a> -->
 
 <!-- Slogan: -->
 
-The colors of your university.
-
-## Objectives 
+### The colors of your university {-}
 
 <!-- Vision / Mission: -->
 
 The R\ package **unicol** contains the colors and color palettes of various universities. 
 We collect and provide a diverse range of color palettes for creating scientific visualizations. 
 
-<!-- Goal: -->
+<!-- Goal / Objectives: -->
 
 Our primary goal is to make it simple to create beautiful visualizations that are in accordance with institutional style guides. 
 Assuming that you have some R\ code for creating an image, the **unicol** allows you to directly use the color palette of your institution. 
@@ -116,13 +114,11 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 
 (See the vignette on **Color palettes** for an overview of all colors and institutions.)
 
-
-## Examples 
+<!-- ## Examples  -->
 
 <!-- Goal: Show some color palettes and how they can be used: -->
 
-
-### Color palettes
+### Examples of color palettes
 
 <!-- The **unicol** package currently contains **`r n_pals`\ color palettes** from **`r n_inst`\ institutions**.  -->
 
