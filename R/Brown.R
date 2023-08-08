@@ -20,7 +20,6 @@
 # Colors: ------ 
 
 
-
 # Primary colors
 # "Red should always be used at 100% tint. The brown, silver and gold may be used at different screens for design purposes."
 #
@@ -177,6 +176,7 @@ col_taupe <- "#B7B09C"
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{brown_2}} for secondary colors of Brown University;  
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -227,6 +227,7 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{brown_1}} for primary colors of Brown University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -244,14 +245,9 @@ brown_2 <- unikn::newpal(col = c(col_skyblue, col_emerald, col_navy, col_taupe),
 
 
 
-
-
-
 ## ToDo: -------- 
-# The Metallic color palette (only Pantone given)  cannot be converted to HEX. 
-# Therefor, the code is left empty.
 
-
-# - etc.
+# - The metallic color palette (only Pantone given)  cannot be converted to HEX. 
+#   Therefore, the corresponding code is missing here.
 
 ## eof. ----------

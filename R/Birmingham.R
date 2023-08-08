@@ -22,21 +22,21 @@
 
 # - : All colours ------
 
-#' colours of the University of Birmingham
+#' Colours of the University of Birmingham, UK 
 #'
 #' \code{birmingham_1} provides the three primary colours 
+#' and two secondary colours 
 #' of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, UK.
 #'
 #' The three primary colours are
-#' \code{"undergraduate"} (defined as HEX #c1d82f),
-#' \code{"postgraduate"} (defined as HEX #c1d82f),
+#' \code{"Undergraduate"} (defined as HEX #c1d82f),
+#' \code{"Postgraduate"} (defined as HEX #c1d82f),
 #' \code{"MBA"} (defined as HEX #7D0049), and
-#' \code{"Research/Business"} (defined as HEX #605270) .
+#' \code{"Research/Business"} (defined as HEX #605270).
 #'
-#'
-#' The two secondary colours are
-#'  \code{"Secondary colour 1"} (defined as HEX #bfb6ad) and
-#' \code{"Secondary colour 2"} (defined as HEX #757477) .
+#' The two secondary colours are 
+#' \code{"Secondary colour 1"} (defined as HEX #bfb6ad), and
+#' \code{"Secondary colour 2"} (defined as HEX #757477).
 #'
 #' \code{birmingham_1} uses the HEX colour definition. 
 #'
@@ -52,8 +52,7 @@
 #'
 #' @examples
 #' birmingham_1
-#' unikn::seecol(birmingham_1, main = "University of Birmingham") 
-#' # view colour palette
+#' unikn::seecol(birmingham_1, main = "University of Birmingham") # view colour palette
 #'
 #' @family university color palettes
 #'
@@ -66,13 +65,15 @@
 #'
 #' @export
 
-birmingham_1 <- unikn::newpal(col = c("#c1d82f", "#00bbe4", "#7D0049", "#605270", "#bfb6ad", "#757477"),
-                           names = c("undergraduate", "postgraduate", "MBA", "Research/Business", "Secondary Colour 1","Secondary Colour 2" ),
-                           as_df = FALSE)
+birmingham_1 <- unikn::newpal(col = c("#c1d82f", "#00bbe4", "#7D0049", "#605270", 
+                                      "#bfb6ad", "#757477"),
+                              names = c("Undergraduate", "Postgraduate", "MBA", "Research/Business", 
+                                        "Secondary colour 1", "Secondary colour 2" ),
+                              as_df = FALSE)
+
 
 # # Check: 
 # unikn::seecol(birmingham_1, main = "Primary colours of the University of Birmingham", col_bg = "white")
-
 
 
 ## ToDo: -------- 
