@@ -38,6 +38,7 @@ unikn::seecol(brown_1, main = "Brown University") # view color palette
 
 }
 \seealso{
+\code{\link{brown_2}} for secondary colors of Brown University;  
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -165,7 +166,7 @@ Other university color palettes:
 \code{\link{stanford_3_web}},
 \code{\link{toronto_1}},
 \code{\link{trinity_1}},
-\code{\link{ubc1}},
+\code{\link{ubc_1}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},

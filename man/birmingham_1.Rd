@@ -3,7 +3,7 @@
 \docType{data}
 \name{birmingham_1}
 \alias{birmingham_1}
-\title{colours of the University of Birmingham}
+\title{Colours of the University of Birmingham, UK}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -19,26 +19,25 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{birmingham_1} provides the three primary colours 
+and two secondary colours 
 of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, UK.
 }
 \details{
 The three primary colours are
-\code{"undergraduate"} (defined as HEX #c1d82f),
-\code{"postgraduate"} (defined as HEX #c1d82f),
+\code{"Undergraduate"} (defined as HEX #c1d82f),
+\code{"Postgraduate"} (defined as HEX #c1d82f),
 \code{"MBA"} (defined as HEX #7D0049), and
-\code{"Research/Business"} (defined as HEX #605270) .
+\code{"Research/Business"} (defined as HEX #605270).
 
-
-The two secondary colours are
- \code{"Secondary colour 1"} (defined as HEX #bfb6ad) and
-\code{"Secondary colour 2"} (defined as HEX #757477) .
+The two secondary colours are 
+\code{"Secondary colour 1"} (defined as HEX #bfb6ad), and
+\code{"Secondary colour 2"} (defined as HEX #757477).
 
 \code{birmingham_1} uses the HEX colour definition.
 }
 \examples{
 birmingham_1
-unikn::seecol(birmingham_1, main = "University of Birmingham") 
-# view colour palette
+unikn::seecol(birmingham_1, main = "University of Birmingham") # view colour palette
 
 }
 \seealso{
@@ -169,7 +168,7 @@ Other university color palettes:
 \code{\link{stanford_3_web}},
 \code{\link{toronto_1}},
 \code{\link{trinity_1}},
-\code{\link{ubc1}},
+\code{\link{ubc_1}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},

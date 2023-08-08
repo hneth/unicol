@@ -177,7 +177,7 @@ Other university color palettes:
 \code{\link{stanford_3_web}},
 \code{\link{toronto_1}},
 \code{\link{trinity_1}},
-\code{\link{ubc1}},
+\code{\link{ubc_1}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_primary}},
 \code{\link{ucalgary_secondary}},
