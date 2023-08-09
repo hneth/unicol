@@ -3,11 +3,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-# unicol 0.0.0.9030 <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "200px" />
+# unicol 0.0.0.9030 <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://github.com/hneth/unicol"> -->
-<!-- <img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/> -->
+<!-- <img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
 
@@ -16,8 +16,9 @@
 <!-- Vision / Mission: -->
 
 The R package **unicol** contains the colors and color palettes of
-various universities. We collect and provide a diverse range of color
-palettes for creating scientific visualizations.
+various universities.  
+We collect and provide a diverse range of color palettes for creating
+scientific visualizations.
 
 <!-- Goal / Objectives: -->
 
@@ -154,12 +155,15 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 
 <img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
 
-## Adding color palettes
+<!-- ## Adding color palettes -->
+<!-- Collecting contributed color palettes (in unicol): -->
+
+## Your color palettes
 
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
+<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
 </a>
 
 The current range of color palettes included in **unicol** is selective
@@ -167,15 +171,38 @@ and incomplete. We are always happy to include new color palettes and
 institutions from all over the world.
 
 If you are missing a color palette, you can easily create it. For
-instructions, see the documentation of the `newpal()` function (of the
-**[unikn](https://CRAN.R-project.org/package=unikn)**). The vignette on
-[Institutional
+instructions how this can be done, please see the documentation of the
+`newpal()` function (of the
+**[unikn](https://CRAN.R-project.org/package=unikn)** package). The
+vignette on [Institutional
 colors](https://hneth.github.io/unikn/articles/color_inst.html) provides
 a corresponding example.
 
-If you create a new color palette, **please let us know** (on [GitHub
-issues](https://github.com/hneth/unicol/issues)) so that we can include
-it in future versions of the **unicol** package.
+**Call for contributions: Collecting color palettes**
+
+- Are you using the **unikn** color functions to create **your own color
+  palettes**?
+
+<!-- ToDo: -->
+
+<a href = "https://github.com/hneth/unicol/issues/30">
+<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
+</a>
+
+If you do create a new color palette, **please let us know** (on this
+[GitHub issue](https://github.com/hneth/unicol/issues/30)) so that we
+can include it in future versions of the **unicol** package. To enable
+us to verify and provide credit to your contributions, please send us
+the following information:
+
+1.  your code (e.g., the `newpal()` command creating your color
+    palette),  
+2.  your reference or source information (e.g., some URL with color
+    definitions),  
+3.  your name and some contact information (e.g., an Email address).
+
+We’re looking forward to **your inputs and contributions** (at this
+[GitHub issue](https://github.com/hneth/unicol/issues/30))!
 
 <!-- +++ here now +++  -->
 <!-- ## Contact -->
@@ -185,6 +212,6 @@ it in future versions of the **unicol** package.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-08.\]
+\[File `README.Rmd` updated on 2023-08-09.\]
 
 <!-- eof. -->
