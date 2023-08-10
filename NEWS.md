@@ -1,19 +1,18 @@
 
-# unicol 0.0.0.9026
+# unicol 0.1.0
 
-This is the development version of **unicol**, which is available at <https://github.com/hneth/unicol/>. 
-
-<!-- Log of changes: --> 
+This is the initial release of the R package **unicol**. 
 
 The **unicol** package currently provides 205\ color palettes from 86\ institutions. 
 
-We are currently preparing the release of an initial version. 
+<!-- Log of changes: --> 
 
+The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
 
 <!-- Footer:  --> 
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-02.] 
+[File `NEWS.md` updated on 2023-08-10.] 
 
 <!-- eof. -->
