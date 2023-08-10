@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_konstanz_1}
 \alias{uni_konstanz_1}
-\title{Default colors of the University of Konstanz}
+\title{Default colors of the University of Konstanz, Germany}
 \format{
 An object of class \code{character} of length 11.
 }

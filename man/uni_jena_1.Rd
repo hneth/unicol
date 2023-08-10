@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_jena_1}
 \alias{uni_jena_1}
-\title{Primary colors of the University of Jena}
+\title{Primary colors of the University of Jena, Germany}
 \format{
 An object of class \code{character} of length 2.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{fu_pal_3}
 \alias{fu_pal_3}
-\title{Blue color gradient of the Free University Berlin}
+\title{Blue color gradient of the Free University (FU) Berlin, Germany}
 \format{
 An object of class \code{character} of length 10.
 }

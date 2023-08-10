@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_mannheim_1}
 \alias{uni_mannheim_1}
-\title{Main color gradient of the University of Mannheim}
+\title{Main color gradient of the University of Mannheim, Germany}
 \format{
 An object of class \code{character} of length 7.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{fu_pal_0}
 \alias{fu_pal_0}
-\title{Primary colors of the Free University Berlin}
+\title{Primary colors of the Free University (FU) Berlin, Germany}
 \format{
 An object of class \code{character} of length 2.
 }

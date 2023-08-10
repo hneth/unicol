@@ -3,7 +3,7 @@
 \docType{data}
 \name{eth_2}
 \alias{eth_2}
-\title{Lighter shades of the ETH Zurich colors}
+\title{Lighter shades of the colors of the ETH Zurich, CH}
 \format{
 An object of class \code{character} of length 7.
 }

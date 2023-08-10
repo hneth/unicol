@@ -3,7 +3,7 @@
 \docType{data}
 \name{lmu_pal_2}
 \alias{lmu_pal_2}
-\title{Secondary colors of the LMU Munich}
+\title{Secondary colors of the LMU Munich, Germany}
 \format{
 An object of class \code{character} of length 4.
 }

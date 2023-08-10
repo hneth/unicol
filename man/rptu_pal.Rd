@@ -3,7 +3,7 @@
 \docType{data}
 \name{rptu_pal}
 \alias{rptu_pal}
-\title{Color palette of the RPTU Kaiserslautern-Landau}
+\title{Color palette of the RPTU Kaiserslautern-Landau, Germany}
 \format{
 An object of class \code{character} of length 12.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_freiburg_2}
 \alias{uni_freiburg_2}
-\title{Secondary colors of the University of Freiburg}
+\title{Secondary colors of the University of Freiburg, Germany}
 \format{
 An object of class \code{character} of length 4.
 }

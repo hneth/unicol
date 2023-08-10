@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_hamburg_1}
 \alias{uni_hamburg_1}
-\title{Primary colors of the University of Hamburg}
+\title{Primary colors of the University of Hamburg, Germany}
 \format{
 An object of class \code{character} of length 4.
 }

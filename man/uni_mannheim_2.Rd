@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_mannheim_2}
 \alias{uni_mannheim_2}
-\title{Primary and departmental accent colors of the University of Mannheim}
+\title{Primary and departmental accent colors of the University of Mannheim, Germany}
 \format{
 An object of class \code{character} of length 7.
 }

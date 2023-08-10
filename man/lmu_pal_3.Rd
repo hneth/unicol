@@ -3,7 +3,7 @@
 \docType{data}
 \name{lmu_pal_3}
 \alias{lmu_pal_3}
-\title{Accent colors of the LMU Munich}
+\title{Accent colors of the LMU Munich, Germany}
 \format{
 An object of class \code{character} of length 5.
 }

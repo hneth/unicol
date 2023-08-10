@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_regensburg_2}
 \alias{uni_regensburg_2}
-\title{Departmental colors of the University of Regensburg (for areas)}
+\title{Departmental colors of the University of Regensburg, Germany (for areas)}
 \format{
 An object of class \code{character} of length 12.
 }

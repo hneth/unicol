@@ -3,7 +3,7 @@
 \docType{data}
 \name{rpi_pal_2}
 \alias{rpi_pal_2}
-\title{Secondary colors of RPI}
+\title{Secondary colors of RPI (Rensselaer Polytechnic Institute), USA}
 \format{
 An object of class \code{character} of length 3.
 }

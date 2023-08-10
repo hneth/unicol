@@ -3,7 +3,7 @@
 \docType{data}
 \name{hu_pal_2}
 \alias{hu_pal_2}
-\title{Secondary colors of the Humboldt University Berlin}
+\title{Secondary colors of the Humboldt University (HU) Berlin, Germany}
 \format{
 An object of class \code{character} of length 6.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{lmu_pal_1}
 \alias{lmu_pal_1}
-\title{Primary colors of the LMU Munich}
+\title{Primary colors of the LMU Munich, Germany}
 \format{
 An object of class \code{character} of length 3.
 }
