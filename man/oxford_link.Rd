@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_link}
 \alias{oxford_link}
-\title{Link colours of University of Oxford}
+\title{Link colours of University of Oxford, UK}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_link} provides the link colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
 Light blue is used to indicate general actions (links and buttons). 

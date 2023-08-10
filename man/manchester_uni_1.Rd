@@ -3,7 +3,7 @@
 \docType{data}
 \name{manchester_uni_1}
 \alias{manchester_uni_1}
-\title{Primary colours of Manchester University}
+\title{Primary colours of Manchester University, UK}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{manchester_uni_1} provides the three primary colours 
-of the \href{https://www.manchester.edu}{Manchester University}, England.
+of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
 }
 \details{
 The three primary colours are

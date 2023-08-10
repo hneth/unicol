@@ -3,7 +3,7 @@
 \docType{data}
 \name{manchester_uni_accent}
 \alias{manchester_uni_accent}
-\title{Accent colours of Manchester University}
+\title{Accent colours of Manchester University, UK}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -20,7 +20,7 @@ A named vector of colours (HEX/HTML codes of type character).
 \description{
 \code{manchester_uni_accent} provides the three accent primary colours and 
 white as suggested to use in minority ratio (3:1) against the primary colors on a canvas
-of the \href{https://www.manchester.edu}{Manchester University}, England.
+of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
 }
 \details{
 The three accent colours are 

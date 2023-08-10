@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcmaster_heritage}
 \alias{mcmaster_heritage}
-\title{Heritage colours of McMaster University}
+\title{Heritage colours of McMaster University, Canada}
 \format{
 An object of class \code{character} of length 3.
 }

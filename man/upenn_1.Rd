@@ -3,7 +3,7 @@
 \docType{data}
 \name{upenn_1}
 \alias{upenn_1}
-\title{Logo colors of Penn, University of Pennsylvania}
+\title{Logo colors of Penn, University of Pennsylvania, USA}
 \format{
 An object of class \code{character} of length 2.
 }

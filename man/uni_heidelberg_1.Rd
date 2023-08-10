@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_heidelberg_1}
 \alias{uni_heidelberg_1}
-\title{Official colours of the University of Heidelberg}
+\title{Official colours of the University of Heidelberg, Germany}
 \format{
 An object of class \code{character} of length 3.
 }

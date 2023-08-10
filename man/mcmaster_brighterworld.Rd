@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcmaster_brighterworld}
 \alias{mcmaster_brighterworld}
-\title{Brighter World colours of McMaster University}
+\title{Brighter World colours of McMaster University, Canada}
 \format{
 An object of class \code{character} of length 7.
 }

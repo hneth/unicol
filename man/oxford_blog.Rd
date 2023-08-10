@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_blog}
 \alias{oxford_blog}
-\title{Custom blog colours of University of Oxford}
+\title{Custom blog colours of University of Oxford, UK}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_blog} provides the custom blog colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
 The colours are

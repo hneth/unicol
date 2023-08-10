@@ -3,7 +3,7 @@
 \docType{data}
 \name{manitoba_1}
 \alias{manitoba_1}
-\title{Primary colors of the University of Manitoba}
+\title{Primary colors of the University of Manitoba, Canada}
 \format{
 An object of class \code{character} of length 4.
 }

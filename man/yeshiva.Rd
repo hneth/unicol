@@ -3,7 +3,7 @@
 \docType{data}
 \name{yeshiva}
 \alias{yeshiva}
-\title{Colors of Yeshiva University}
+\title{Colors of Yeshiva University, USA}
 \format{
 An object of class \code{character} of length 3.
 }

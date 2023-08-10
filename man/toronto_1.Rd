@@ -3,7 +3,7 @@
 \docType{data}
 \name{toronto_1}
 \alias{toronto_1}
-\title{Colors of the University of Toronto}
+\title{Colors of the University of Toronto, Canada}
 \format{
 An object of class \code{character} of length 4.
 }

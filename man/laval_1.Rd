@@ -3,7 +3,7 @@
 \docType{data}
 \name{laval_1}
 \alias{laval_1}
-\title{Colors of the Laval University}
+\title{Colors of the Laval University, Canada}
 \format{
 An object of class \code{character} of length 6.
 }

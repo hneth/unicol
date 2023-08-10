@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_shades}
 \alias{oxford_shades}
-\title{Shade colours of University of Oxford}
+\title{Shade colours of University of Oxford, UK}
 \format{
 An object of class \code{character} of length 7.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_shades} provides the shade colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
 The colours are
