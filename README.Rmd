@@ -29,7 +29,6 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <!-- badges: start -->
 <!-- badges: end -->
 
-
 # unicol `r packageVersion('unicol')` <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
 
 <!-- unicol pkg logo and link: -->
@@ -41,33 +40,16 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 ### The colors of your university {-}
 
-<!-- Vision / Mission: -->
+<!-- Vision / Mission / DESCRIPTION: -->
 
-The R\ package **unicol** contains the colors and color palettes of various universities.   
+The **unicol** package provides the colors and color palettes of various universities for easy plotting and printing in\ R. 
 We collect and provide a diverse range of color palettes for creating scientific visualizations. 
+
 
 <!-- Goal / Objectives: -->
 
 Our primary goal is to make it simple to create beautiful visualizations that are in accordance with institutional style guides. 
 Assuming that you have some R\ code for creating an image, the **unicol** allows you to directly use the color palette of your institution. 
-
-<!-- Course coordinates: --> 
-
-The **unicol** package was developed as a collaborative project by the following course:
-
-* **Open Source Software Development in R** (ADILT applications, PSY-18040), at **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
-* Spring/Summer\ 2023: **Tuesdays**, **13:30-15:00**; in **C426** 
-* Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
-
-
-<!-- Relation to unikn:: -->
-
-<!-- unikn pkg logo and link: -->
-<!-- <a href = "`r url_unikn_cran`"> -->
-<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
-<!-- </a> -->
-
-This package is based on the R\ package **[unikn](`r url_unikn_cran`)** and loads key functionality from it. 
 
 
 ## Installation
@@ -274,7 +256,59 @@ To enable us to verify and provide credit to your contributions, please send us 
   
 We're looking forward to **your inputs and contributions** (at this [GitHub issue](https://github.com/hneth/unicol/issues/30))! 
 
+
+
+## References 
+
+
+<!-- Origin / Background / Credit / Course coordinates: --> 
+
+### Origin 
+
+<!-- unikn logo and link: -->
+<a href = "`r url_unikn`">
+<img src = "./inst/pix/logo_unikn.png" alt = "unikn::" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
+</a>
+
+The **unicol** package originated as a collaborative project by the following course:
+
+* **Open Source Software Development in R** (ADILT applications, PSY-18040), at **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
+* Spring/Summer\ 2023: **Tuesdays**, **13:30-15:00**; in **C426** 
+* Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
+
+
+<!-- Relation to unikn:: -->
+
+<!-- unikn pkg logo and link: -->
+<!-- <a href = "`r url_unikn_cran`"> -->
+<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- </a> -->
+
+This package is based on the R\ package **[unikn](`r url_unikn_cran`)** and loads key functionality from it. 
+
 <!-- +++ here now +++  -->
+
+
+### Citation 
+
+To support our efforts, please cite the **unicol** package in your derivations or publications. 
+
+<!-- Citation / reference (in APA format): -->
+
+<!-- BibTeX:  -->
+
+A BibTeX entry for LaTeX users is:
+
+```{r pkg-unicol-citation, echo = FALSE, eval = TRUE, comment = "", highlight = FALSE}
+# From package citation:
+x <- citation(package = 'unicol')
+# print(x, prefix = "")
+toBibtex(x)
+```
+
+<!-- Copyrights of designs: -->
+
+The copyrights to all **unicol** designs remain with their original creators. 
 
 <!-- ## Contact -->
 

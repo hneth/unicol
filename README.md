@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-# unicol 0.0.0.9030 <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
+# unicol 0.1.0 <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://github.com/hneth/unicol"> -->
@@ -13,12 +13,12 @@
 
 ### The colors of your university
 
-<!-- Vision / Mission: -->
+<!-- Vision / Mission / DESCRIPTION: -->
 
-The R package **unicol** contains the colors and color palettes of
-various universities.  
-We collect and provide a diverse range of color palettes for creating
-scientific visualizations.
+The **unicol** package provides the colors and color palettes of various
+universities for easy plotting and printing in R. We collect and provide
+a diverse range of color palettes for creating scientific
+visualizations.
 
 <!-- Goal / Objectives: -->
 
@@ -26,29 +26,6 @@ Our primary goal is to make it simple to create beautiful visualizations
 that are in accordance with institutional style guides. Assuming that
 you have some R code for creating an image, the **unicol** allows you to
 directly use the color palette of your institution.
-
-<!-- Course coordinates: -->
-
-The **unicol** package was developed as a collaborative project by the
-following course:
-
-- **Open Source Software Development in R** (ADILT applications,
-  PSY-18040), at **[University of
-  Konstanz](https://www.uni-konstanz.de/en/)**  
-- Spring/Summer 2023: **Tuesdays**, **13:30-15:00**; in **C426**
-- Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
-  [SPDS](https://www.spds.uni-konstanz.de/), [University of
-  Konstanz](https://www.uni-konstanz.de/en/))
-
-<!-- Relation to unikn:: -->
-<!-- unikn pkg logo and link: -->
-<!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
-<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
-<!-- </a> -->
-
-This package is based on the R package
-**[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
-functionality from it.
 
 ## Installation
 
@@ -204,7 +181,66 @@ the following information:
 We’re looking forward to **your inputs and contributions** (at this
 [GitHub issue](https://github.com/hneth/unicol/issues/30))!
 
+## References
+
+<!-- Origin / Background / Credit / Course coordinates: -->
+
+### Origin
+
+<!-- unikn logo and link: -->
+
+<a href = "https://www.uni-konstanz.de/">
+<img src = "./inst/pix/logo_unikn.png" alt = "unikn::" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
+</a>
+
+The **unicol** package originated as a collaborative project by the
+following course:
+
+- **Open Source Software Development in R** (ADILT applications,
+  PSY-18040), at **[University of
+  Konstanz](https://www.uni-konstanz.de/en/)**  
+- Spring/Summer 2023: **Tuesdays**, **13:30-15:00**; in **C426**
+- Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
+  [SPDS](https://www.spds.uni-konstanz.de/), [University of
+  Konstanz](https://www.uni-konstanz.de/en/))
+
+<!-- Relation to unikn:: -->
+<!-- unikn pkg logo and link: -->
+<!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
+<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- </a> -->
+
+This package is based on the R package
+**[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
+functionality from it.
+
 <!-- +++ here now +++  -->
+
+### Citation
+
+To support our efforts, please cite the **unicol** package in your
+derivations or publications.
+
+<!-- Citation / reference (in APA format): -->
+<!-- BibTeX:  -->
+
+A BibTeX entry for LaTeX users is:
+
+    @Manual{,
+      title = {unicol: The colors of your university},
+      author = {Hansjoerg Neth and Constantin Basler and Paula Bauer and Kaethe Bodenstein and Franziska Drechsel and Gina-Loretta Franz and Karolin Heiss and Julia Koenig and Isabelle Krist and Larissa Schwab and Alina Sohst and Isabel Staatz and Lisa Trueb},
+      year = {2023},
+      organization = {Social Psychology and Decision Sciences, University of Konstanz},
+      address = {Konstanz, Germany},
+      note = {R package (version 0.1.0, August 10, 2023)},
+      url = {https://github.com/hneth/unicol/},
+    }
+
+<!-- Copyrights of designs: -->
+
+The copyrights to all **unicol** designs remain with their original
+creators.
+
 <!-- ## Contact -->
 <!-- ToDo: Add contact details here. -->
 
@@ -212,6 +248,6 @@ We’re looking forward to **your inputs and contributions** (at this
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-09.\]
+\[File `README.Rmd` updated on 2023-08-10.\]
 
 <!-- eof. -->
