@@ -1,4 +1,4 @@
-## uni_goettingen.R | 2023 06 12
+## Uni_Goettingen.R | 2023 06 12
 ## Colors of the University of Goettingen, Germany 
 ## -----------------------------------------------
 
@@ -41,7 +41,7 @@ nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
 
 # Color palette(s):
 
-#' Primary colors of the University of Göttingen
+#' Primary colors of the University of Göttingen, Germany 
 #'
 #' \code{uni_goettingen_1} provides the primary blue colors 
 #' of the \href{https://www.uni-goettingen.de/}{University of Göttingen}, Germany.  
@@ -103,7 +103,7 @@ nam_goe_secondary <- c("schwarz", "weiss", "chamois", "altweiss",
 
 # Color palette(s):
 
-#' Secondary colors of the University of Göttingen
+#' Secondary colors of the University of Göttingen, Germany 
 #'
 #' \code{uni_goettingen_2} provides the secondary colors 
 #' of the \href{https://www.uni-goettingen.de/}{University of Göttingen}, Germany.  
@@ -183,7 +183,7 @@ nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "F
 # nam_goe_fac <- paste0("UG ", nam_goe_fac)  # add prefix
 
 
-#' Departmental colors of the University of Göttingen 
+#' Departmental colors of the University of Göttingen, Germany 
 #'
 #' \code{uni_goettingen_3} provides the 13 departmental colors 
 #' (German "Fakultäten") of the \href{https://www.uni-goettingen.de/}{University of Göttingen}, Germany.  

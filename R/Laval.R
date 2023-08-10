@@ -1,6 +1,6 @@
 ## Laval.R | 2023 07 04
 ## Colors of the Laval University, Canada 
-## -----------------------------------------------
+## --------------------------------------
 
 # Information: ------
 
@@ -22,7 +22,7 @@
 
 # - laval_1: All colors ------
 
-#' Colors of the Laval University
+#' Colors of the Laval University, Canada 
 #'
 #' \code{laval_1} provides the two primary colors and the four secondary colors
 #' of the \href{https://www.ulaval.ca/}{Laval University}, Canada.
@@ -70,7 +70,7 @@ laval_1 <- unikn::newpal(col = c("#e30513", "#ffc103", "#d9d9d9", "#7f7f7f", "#5
                            as_df = FALSE)
 
 # # Check: 
-##unikn::seecol(laval_1, main = "colors of the Université Laval", col_bg = "white")
+# unikn::seecol(laval_1, main = "Colors of the Université Laval", col_bg = "white")
 
 
 

@@ -414,10 +414,10 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 
 # - oxford_link: Link colours ------
 
-#' Link colours of University of Oxford
+#' Link colours of University of Oxford, UK
 #'
 #' \code{oxford_link} provides the link colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #' 
 #' Light blue is used to indicate general actions (links and buttons). 
 #' Hence, it is also used in various navigational elements such as the block rollover effect 
@@ -478,10 +478,10 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 
 # - oxford_shades: Shades ------
 
-#' Shade colours of University of Oxford
+#' Shade colours of University of Oxford, UK
 #'
 #' \code{oxford_shades} provides the shade colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #'
 #' The colours are
 #' \code{"black"} (defined as HEX #000000),
@@ -524,8 +524,10 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #'
 #' @export
 
-oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3, col_shades_4, col_shades_5, col_shades_6, col_shades_7),
-                               names = c(name_shades_1, name_shades_2, name_shades_3, name_shades_4, name_shades_5, name_shades_6, name_shades_7),
+oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3, col_shades_4, 
+                                       col_shades_5, col_shades_6, col_shades_7),
+                               names = c(name_shades_1, name_shades_2, name_shades_3, name_shades_4, 
+                                         name_shades_5, name_shades_6, name_shades_7),
                                as_df = FALSE)
 
 # # Check: 
@@ -536,10 +538,10 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 
 # - oxford_blog: Custom blog colours ------
 
-#' Custom blog colours of University of Oxford
+#' Custom blog colours of University of Oxford, UK
 #'
 #' \code{oxford_blog} provides the custom blog colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #'
 #' The colours are
 #' \code{"science_blog"} (defined as HEX #0f7361),
@@ -594,10 +596,10 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 
 # - oxford_graduate: Graduate country page colours ------
 
-#' Graduate country page colours of University of Oxford
+#' Graduate country page colours of University of Oxford, UK
 #'
 #' \code{oxford_graduate} provides the graduate country page colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #'
 #' The colours are
 #' \code{"graduate_light_blue"} (defined as HEX #9eceeb),
@@ -646,8 +648,12 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #'
 #' @export
 
-oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_graduate_3, col_graduate_4, col_graduate_5, col_graduate_6, col_graduate_7, col_graduate_8, col_graduate_9, col_graduate_10, col_graduate_11, col_graduate_12),
-                                 names = c(name_graduate_1,name_graduate_2, name_graduate_3, name_graduate_4, name_graduate_5, name_graduate_6, name_graduate_7, name_graduate_8, name_graduate_9, name_graduate_10, name_graduate_11, name_graduate_12),
+oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_graduate_3, col_graduate_4, 
+                                         col_graduate_5, col_graduate_6, col_graduate_7, col_graduate_8, 
+                                         col_graduate_9, col_graduate_10, col_graduate_11, col_graduate_12),
+                                 names = c(name_graduate_1, name_graduate_2, name_graduate_3, name_graduate_4, 
+                                           name_graduate_5, name_graduate_6, name_graduate_7, name_graduate_8, 
+                                           name_graduate_9, name_graduate_10, name_graduate_11, name_graduate_12),
                                  as_df = FALSE)
 
 # # Check: 
@@ -658,10 +664,10 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 
 # - oxford_error: Error colours ------
 
-#' Error colours of University of Oxford
+#' Error colours of University of Oxford, UK 
 #'
 #' \code{oxford_error} provides the error colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #'
 #' The colours are
 #' \code{"status"} (defined as HEX #7dbc23),
@@ -712,10 +718,10 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 
 # - oxford_socialmedia: Social Media Colours ------
 
-#' Social Media colours of University of Oxford
+#' Social Media colours of University of Oxford, UK
 #'
 #' \code{oxford_socialmedia} provides the social media colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 #'
 #' The colours are
 #' \code{"cherry"} (defined as HEX #be0f34),
@@ -762,8 +768,12 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 #'
 #' @export
 
-oxford_socialmedia <- unikn::newpal(col = c(col_socialmedia_1, col_socialmedia_2, col_socialmedia_3, col_socialmedia_4, col_socialmedia_5, col_socialmedia_6, col_socialmedia_7, col_socialmedia_8, col_socialmedia_9, col_socialmedia_10, col_socialmedia_11),
-                                    names = c(name_socialmedia_1, name_socialmedia_2, name_socialmedia_3, name_socialmedia_4, name_socialmedia_5, name_socialmedia_6, name_socialmedia_7, name_socialmedia_8, name_socialmedia_9, name_socialmedia_10, name_socialmedia_11),
+oxford_socialmedia <- unikn::newpal(col = c(col_socialmedia_1, col_socialmedia_2, col_socialmedia_3, col_socialmedia_4, 
+                                            col_socialmedia_5, col_socialmedia_6, col_socialmedia_7, col_socialmedia_8, 
+                                            col_socialmedia_9, col_socialmedia_10, col_socialmedia_11),
+                                    names = c(name_socialmedia_1, name_socialmedia_2, name_socialmedia_3, name_socialmedia_4, 
+                                              name_socialmedia_5, name_socialmedia_6, name_socialmedia_7, name_socialmedia_8, 
+                                              name_socialmedia_9, name_socialmedia_10, name_socialmedia_11),
                                     as_df = FALSE)
 
 # # Check: 

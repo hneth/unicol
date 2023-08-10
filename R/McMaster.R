@@ -21,7 +21,7 @@
 
 # - mcmaster_heritage: Heritage colours ------
 
-#' Heritage colours of McMaster University
+#' Heritage colours of McMaster University, Canada 
 #'
 #' \code{mcmaster_heritage} provides the three heritage colours 
 #' of \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
@@ -66,8 +66,8 @@
 #' @export
 
 mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
-                           names = c("mcmaster_heritage_maroon", "mcmaster_heritage_gold", "mcmaster_heritage_grey"),
-                           as_df = FALSE)
+                                   names = c("mcmaster_heritage_maroon", "mcmaster_heritage_gold", "mcmaster_heritage_grey"),
+                                   as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(mcmaster_heritage, main = "McMaster Heritage Colours")
@@ -77,7 +77,7 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 
 # - mcmaster_brighterworld: Brighter World Colours ------
 
-#' Brighter World colours of McMaster University
+#' Brighter World colours of McMaster University, Canada 
 #'
 #' \code{mcmaster_brighterworld} provides the Brighter World Colours 
 #' of \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
@@ -132,9 +132,9 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 #' @export
 
 mcmaster_brighterworld <- unikn::newpal(col = c("#FFD100", "#D2D755", "#8BD3E6", "#A6192E", "#007B4B", "#007096", "#DBDBDD"),
-                                   names = c("brighter_world_yellow", "brighter_world_lime", "brighter_world_sky_blue", 
-                                             "brighter_world_red", "brighter_world_green", "brighter_world_blue", "cool_grey"),
-                                   as_df = FALSE)
+                                        names = c("brighter_world_yellow", "brighter_world_lime", "brighter_world_sky_blue", 
+                                                  "brighter_world_red", "brighter_world_green", "brighter_world_blue", "cool_grey"),
+                                        as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World Colours")

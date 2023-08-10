@@ -22,7 +22,7 @@
 
 # - uni_heidelberg_1: Official colours ------
 
-#' Official colours of the University of Heidelberg
+#' Official colours of the University of Heidelberg, Germany 
 #'
 #' \code{uni_heidelberg_1} provides the three official colours 
 #' of the \href{https://www.uni-heidelberg.de/de}{University of Heidelberg}, Germany.

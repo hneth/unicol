@@ -1,6 +1,6 @@
-## uni_stuttgart.R | 2023 06 09
+## Uni_Stuttgart.R | 2023 06 09
 ## Colors of the University of Stuttgart, Germany
-## -----------------------------------------------
+## ----------------------------------------------
 
 # Information: ------
 
@@ -93,7 +93,7 @@ col_hellBlau <- "#00BEFF"
 
 # - uni_stuttgart_1: Primary colors ------
 
-#' Primary colors of the University of Stuttgart
+#' Primary colors of the University of Stuttgart, Germany 
 #'
 #' \code{uni_stuttgart_1} provides three primary colors and one secondary color
 #' of the \href{https://www.uni-stuttgart.de/en}{University of Stuttgart}, Germany.
@@ -139,8 +139,8 @@ col_hellBlau <- "#00BEFF"
 #' @export
 
 uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau),
-                               names = c("weiss", "anthrazit", "mittelblau", "hellblau"),
-                               as_df = FALSE)
+                                 names = c("weiss", "anthrazit", "mittelblau", "hellblau"),
+                                 as_df = FALSE)
 
 
 # # Check:
@@ -148,7 +148,7 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 
 # - uni_stuttgart_2_print: Printing colors ------
 
-#' Printing colors of the University of Stuttgart
+#' Printing colors of the University of Stuttgart, Germany 
 #'
 #' \code{uni_stuttgart_2_print} provides three primary colors, one secondary color and two alternative printing colors
 #' of the \href{https://www.uni-stuttgart.de/en}{University of Stuttgart}, Germany.
@@ -198,8 +198,8 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' @export
 
 uni_stuttgart_2_print <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_blackwhite, col_black_print_text),
-                               names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit dark", "black"),
-                               as_df = FALSE)
+                                       names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit dark", "black"),
+                                       as_df = FALSE)
 
 
 # # Check:
