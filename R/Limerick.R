@@ -1,6 +1,6 @@
 ## Limerick.R | 2023 07 16
 ## Colors of the University of Limerick, Ireland
-# ------------------------------------------
+# ----------------------------------------------
 
 # Information: ----
 
@@ -56,8 +56,8 @@
 #' @export
 
 limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"), 
-                                names = c("ul_green", "ul_modern_green", "ul_heritage_green", "white"), 
-                                as_df = FALSE)
+                            names = c("ul_green", "ul_modern_green", "ul_heritage_green", "white"), 
+                            as_df = FALSE)
 
 
 
@@ -115,14 +115,14 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' @export
 
 limerick_2 <- unikn::newpal(col = c("#00A3E0", "#007DBA", "#2D5980", "#13294B", "#FFC72C", 
-                                        "#FFA300", "#D45D00", "#CB333B", "#E31C79", "#6F263D", 
-                                        "#89532F", "#7e5c4d", "#FFFFFF", "#919D9D", "#707372", 
-                                        "#505759", "#373A36"), 
-                                names = c("shannon", "sky", "stone", "marine", "marigold", 
-                                          "golden_leaf", "pumpkin", "munster", "salmon", "autumnal_leaf", 
-                                          "copper", "bronze", "white", "limestone", "pebble", 
-                                          "granite", "slate"), 
-                                as_df = FALSE)
+                                    "#FFA300", "#D45D00", "#CB333B", "#E31C79", "#6F263D", 
+                                    "#89532F", "#7e5c4d", "#FFFFFF", "#919D9D", "#707372", 
+                                    "#505759", "#373A36"), 
+                            names = c("shannon", "sky", "stone", "marine", "marigold", 
+                                      "golden_leaf", "pumpkin", "munster", "salmon", "autumnal_leaf", 
+                                      "copper", "bronze", "white", "limestone", "pebble", 
+                                      "granite", "slate"), 
+                            as_df = FALSE)
 
 
 ## ToDo: ------

@@ -1,6 +1,6 @@
 ## Manchester_Uni.R | 2023 06 27
-## colours of the Manchester University, England 
-## -----------------------------------------------
+## Colours of the Manchester University, England/UK
+## ------------------------------------------------
 
 # Information: ------
 
@@ -26,10 +26,10 @@
 
 # - manchester_uni_1: Primary colours ------
 
-#' Primary colours of Manchester University
+#' Primary colours of Manchester University, UK 
 #'
 #' \code{manchester_uni_1} provides the three primary colours 
-#' of the \href{https://www.manchester.edu}{Manchester University}, England.
+#' of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
 #'
 #' The three primary colours are
 #' \code{"Manchester gold"} (defined as C=0 M=28 Y=100 K=6, R=238 G=177 B=17, #EEB111),
@@ -76,11 +76,11 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 
 # - manchester_uni_accent: Accent colours ------
 
-#' Accent colours of Manchester University
+#' Accent colours of Manchester University, UK 
 #'
 #' \code{manchester_uni_accent} provides the three accent primary colours and 
 #' white as suggested to use in minority ratio (3:1) against the primary colors on a canvas
-#' of the \href{https://www.manchester.edu}{Manchester University}, England.
+#' of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
 #'
 #' The three accent colours are 
 #' \code{"Manchester sunrise"} (defined as C=0 M=71 Y=100 K=0, R=255 G=108 B=12, #FF6C0C),

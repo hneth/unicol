@@ -1,6 +1,6 @@
-## Manitoba.R | 2023 07 12
+## Manitoba.R | 2023 08 10
 ## Colors of the University of Manitoba, Canada
-## -----------------------------------------------
+## --------------------------------------------
 
 # Information: ------
 
@@ -21,7 +21,7 @@
 
 # - manitoba_1: Primary colors ------
 
-#' Primary colors of the University of Manitoba
+#' Primary colors of the University of Manitoba, Canada 
 #'
 #' \code{maitoba_1} provides the four primary colors 
 #' of the \href{https://umanitoba.ca/}{University of Manitoba}, Canada.
@@ -69,7 +69,7 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 
 # - manitoba_2: Extended colors ------
 
-#' Extended colors of the University of Manitoba
+#' Extended colors of the University of Manitoba, Canada 
 #'
 #' \code{manitoba_2} provides the 13 extended color palette colors 
 #' of the \href{https://umanitoba.ca/}{University of Manitoba}, Canada.
