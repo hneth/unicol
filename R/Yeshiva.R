@@ -18,7 +18,7 @@
 
 # - yeshiva: Colors of Yeshiva University ------ 
 
-#' Colors of Yeshiva University 
+#' Colors of Yeshiva University, USA 
 #'
 #' \code{yeshiva} provides the 3 colors 
 #' of the \href{https://www.yu.edu/}{Yeshiva University}, USA.

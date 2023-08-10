@@ -26,7 +26,7 @@
 
 # - upenn_1: Logo colors ------
 
-#' Logo colors of Penn, University of Pennsylvania
+#' Logo colors of Penn, University of Pennsylvania, USA 
 #'
 #' \code{upenn_1} provides the two logo colors
 #' of the \href{https://www.upenn.edu/}{Penn, University of Pennsylvania}, USA.
@@ -34,7 +34,6 @@
 #' \code{"penn_red"} (defined as RGB 153/0/0, HEX #990000) and 
 #' \code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B) are the traditional colors for the University of Pennsylvania.
 #' They are as important to the identification program as the logo forms and typography.
-#'
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -73,7 +72,7 @@ upenn_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 
 # - upenn_2: Web colors ------
 
-#' Web colors of University of Pennsylvania
+#' Web colors of University of Pennsylvania, USA 
 #'
 #' \code{upenn_2} provides the 12 web colors
 #' of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.

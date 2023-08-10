@@ -57,7 +57,7 @@ col_4 <- "#F2F4F7"
 
 # - toronto_1: palette of the university of Toronto  ------
 
-#' Colors of the University of Toronto
+#' Colors of the University of Toronto, Canada 
 #'
 #' \code{toronto_1} provides the four colors of the University of Toronto
 #' of the \href{https://www.utoronto.ca/}{University of Toronto}, Canada.
