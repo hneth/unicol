@@ -11,7 +11,7 @@
 
 # ETH Zurich / Eidgenössische Technische Hochschule, Zürich, CH: ------
 
-# Source: https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html
+# Source: https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html
 # Last check: 2022-12-30
 
 # Colour definition:
@@ -55,7 +55,7 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' Default colors of the ETH Zurich 
 #'
 #' \code{eth_1} provides the seven default colors  
-#' of the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
+#' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
 #' 
 #' Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_2}}. 
 #' 
@@ -69,7 +69,7 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
+#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
 #' eth_1
@@ -134,7 +134,7 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' Lighter shades of the ETH Zurich colors 
 #'
 #' \code{eth_2} provides lighter shades of the default colors  
-#' of the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
+#' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
 #' 
 #' The primary colors of the ETH Zurich are provided by \code{\link{eth_1}}. 
 #' 
@@ -148,7 +148,7 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
+#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
 #' eth_2
@@ -236,7 +236,7 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' Black and grey colors of the ETH Zurich 
 #'
 #' \code{eth_3} provides the black and gray colors  
-#' used by the \href{https://ethz.ch/}{ETH Zürich}, Switzerland. 
+#' used by the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
 #' 
 #' The color \code{"black"} and six shades of gray can be used to visually structure content 
 #' and delineate different elements. 
@@ -252,7 +252,7 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
+#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
 #' 
 #' @examples
 #' eth_3
