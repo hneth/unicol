@@ -1,4 +1,4 @@
-## old_pals.R | 2023 08 07
+## old_pals.R | 2023 08 10
 ## Old color palettes (from unikn)
 ## -------------------------------
 
@@ -52,7 +52,7 @@ col_ETH <- c("#215CAF", "#007894", "#627313", "#8E6713", "#B7352D", "#A7117A", "
 nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ETH purple", "ETH grey")
 
 
-#' Default colors of the ETH Zurich 
+#' Default colors of the ETH Zurich, CH 
 #'
 #' \code{eth_1} provides the seven default colors  
 #' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
@@ -131,7 +131,7 @@ col_ETH_light <- c("#E9EFF7", "#E7F4F7", "#EFF1E7", "#F4F0E7", "#F8EBEA", "#F8E8
 nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze 10%", "red 10%", "purple 10%", "grey 10%"))
 
 
-#' Lighter shades of the ETH Zurich colors 
+#' Lighter shades of the colors of the ETH Zurich, CH 
 #'
 #' \code{eth_2} provides lighter shades of the default colors  
 #' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
@@ -233,7 +233,7 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
                                             "grey 10%", "grey 5%")))
 
 
-#' Black and grey colors of the ETH Zurich 
+#' Black and grey colors of the ETH Zurich, CH 
 #'
 #' \code{eth_3} provides the black and gray colors  
 #' used by the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
@@ -316,7 +316,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 
 # - fu_pal_0: Primary colors ----
 
-#' Primary colors of the Free University Berlin 
+#' Primary colors of the Free University (FU) Berlin, Germany 
 #'
 #' \code{fu_pal_0} provides the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -410,7 +410,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 
 # - fu_pal_2: Secondary and grey colors ----
 
-#' Secondary and grey colors of the Free University Berlin 
+#' Secondary and grey colors of the Free University (FU) Berlin, Germany 
 #'
 #' \code{fu_pal_2} provides the three accent colors and seven grey colors  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -478,7 +478,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 
 # - fu_pal_3: Blue color gradient ----
 
-#' Blue color gradient of the Free University Berlin 
+#' Blue color gradient of the Free University (FU) Berlin, Germany 
 #'
 #' \code{fu_pal_3} provides a gradient of the blue primary color  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -542,7 +542,7 @@ fu_pal_3 <- fu_blues
 
 # - fu_pal_1: Primary color gradient ----
 
-#' Primary color gradient of the Free University Berlin 
+#' Primary color gradient of the Free University (FU) Berlin, Germany 
 #'
 #' \code{fu_pal_1} provides a gradient of the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -615,7 +615,7 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 
 # - hu_pal_1: Primary colors ---- 
 
-#' Primary colors of the Humboldt University Berlin 
+#' Primary colors of the Humboldt University (HU) Berlin, Germany 
 #'
 #' \code{hu_pal_1} provides the three primary colors 
 #' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
@@ -705,7 +705,7 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 
 # - hu_pal_2: Secondary colors ---- 
 
-#' Secondary colors of the Humboldt University Berlin 
+#' Secondary colors of the Humboldt University (HU) Berlin, Germany 
 #'
 #' \code{hu_pal_2} provides the primary (blue) color with five corresponding colors 
 #' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
@@ -771,7 +771,7 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 
 # - lmu_pal_1: Primary colors ---- 
 
-#' Primary colors of the LMU Munich 
+#' Primary colors of the LMU Munich, Germany 
 #'
 #' \code{lmu_pal_1} provides the three primary colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
@@ -833,7 +833,7 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 # RGB	    98.100.104	192.193.195	230.230.231	245.245.245
 # CMYK	  0/0/0/85	  0/0/0/50	  0/0/0/25	  0/0/0/6
 
-#' Secondary colors of the LMU Munich 
+#' Secondary colors of the LMU Munich, Germany 
 #'
 #' \code{lmu_pal_2} provides four secondary colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
@@ -908,7 +908,7 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 
 # - lmu_pal_3: Accent colors ---- 
 
-#' Accent colors of the LMU Munich 
+#' Accent colors of the LMU Munich, Germany 
 #'
 #' \code{lmu_pal_3} provides five accent colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
@@ -978,7 +978,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 
 # - mpg_pal: ---- 
 
-#' Default colors of the Max-Planck-Gesellschaft 
+#' Default colors of the Max-Planck-Gesellschaft (MPG), Germany
 #'
 #' \code{mpg_pal} provides the default color palette 
 #' of the \href{https://www.mpg.de/en}{Max Planck Society}, Germany. 
@@ -1297,7 +1297,7 @@ names(frbg_rosa) <- "rosa"
 
 # Basic colors only: Primary blue + black + white
 
-#' Basic colors of the University of Freiburg 
+#' Basic colors of the University of Freiburg, Germany 
 #'
 #' \code{uni_freiburg_0} provides the three basic colors 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1368,7 +1368,7 @@ frbg_sand_name <- c("sand")
 
 # Primary colors (with primary blue color gradient):
 
-#' Primary colors of the University of Freiburg 
+#' Primary colors of the University of Freiburg, Germany 
 #'
 #' \code{uni_freiburg_1} provides a primary color palette 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1425,7 +1425,7 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 
 # 4 secondary colors:
 
-#' Secondary colors of the University of Freiburg 
+#' Secondary colors of the University of Freiburg, Germany 
 #'
 #' \code{uni_freiburg_2} provides the four secondary colors  
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1486,7 +1486,7 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 
 # - uni_freiburg_br: ----
 
-#' Default colors of the University of Freiburg (2022)
+#' Default colors of the University of Freiburg, Germany (2022) 
 #'
 #' \code{uni_freiburg_br} provides the two default colors 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1532,7 +1532,7 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 
 # - uni_freiburg_blue: ---- 
 
-#' Blue colors of the University of Freiburg (2022)
+#' Blue colors of the University of Freiburg, Germany (2022)
 #'
 #' \code{uni_freiburg_blue} provides the blue colors 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1577,7 +1577,7 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 
 # - uni_freiburg_grey: ---- 
 
-#' Grey colors of the University of Freiburg (2022)
+#' Grey colors of the University of Freiburg, Germany (2022)
 #'
 #' \code{uni_freiburg_grey} provides the grey colors 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1624,7 +1624,7 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 
 # - uni_freiburg_info: ---- 
 
-#' Info colors of the University of Freiburg (2022)
+#' Info colors of the University of Freiburg, Germany (2022)
 #'
 #' \code{uni_freiburg_info} provides the info colors 
 #' of the \href{https://uni-freiburg.de/}{University of Freiburg}, Germany. 
@@ -1701,9 +1701,10 @@ uni_freiburg_info <- unikn::newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de
 # Schwarz   CMYK 0/0/0/100    RGB: 0/0/0      #000000
 # Steingrau CMYK 45/11/11/73  RGB: 59/81/91   #3b515b           Pantone: 432U
 
+
 # - uni_hamburg_1: Primary colors ----
 
-#' Primary colors of the University of Hamburg
+#' Primary colors of the University of Hamburg, Germany 
 #'
 #' \code{uni_hamburg_1} provides the four primary colors 
 #' of the \href{https://www.uni-hamburg.de/}{University of Hamburg}, Germany. 
@@ -1787,7 +1788,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 
 # - uni_hamburg_2: Pair-wise colors / for visualizations ----
 
-#' Secondary colors of the University of Hamburg
+#' Secondary colors of the University of Hamburg, Germany 
 #'
 #' \code{uni_hamburg_2} provides three primary colors 
 #' of the \href{https://www.uni-hamburg.de/}{University of Hamburg}, Germany, 
@@ -1869,7 +1870,7 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 
 # - uni_jena_1: ----
 
-#' Primary colors of the University of Jena 
+#' Primary colors of the University of Jena, Germany 
 #'
 #' \code{uni_jena_1} provides the main \code{dunkelblau} color 
 #' and the auxiliary \code{gold} color 
@@ -1996,7 +1997,7 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 
 # - uni_jena_2: ----
 
-#' Departmental colors of the University of Jena 
+#' Departmental colors of the University of Jena, Germany 
 #'
 #' \code{uni_jena_2} provides the 10 departmental colors 
 #' of the (10 faculties at the)
@@ -2075,7 +2076,7 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 
 # - uni_kiel_1: ----
 
-#' Primary color of Kiel University
+#' Primary color of Kiel University, Germany 
 #'
 #' \code{uni_kiel_1} provides the primary \code{violett} color
 #' of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany. 
@@ -2189,7 +2190,7 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
                         "Wirtschafts- und Sozialwissenschaften", "Technik")
 
 
-#' Departmental colors of Kiel University 
+#' Departmental colors of Kiel University, Germany 
 #'
 #' \code{uni_kiel_2} provides the 8 departmental colors (German "Fakultäten") 
 #' of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany. 
@@ -2271,7 +2272,7 @@ koeln_si_1 <- rgb(175, 17, 29, maxColorValue = 255)
 
 # - uni_koeln_1: Shades of blaugrau und red signal color ----
 
-#' Primary colors of the University of Koeln (Cologne) 
+#' Primary colors of the University of Koeln (Cologne), Germany 
 #'
 #' \code{uni_koeln_1} provides the primary colors 
 #' of the \href{https://www.uni-koeln.de/}{Universitaet zu Koeln}, Germany. 
@@ -2342,7 +2343,7 @@ koeln_fa_7 <- rgb(145, 196, 234, maxColorValue = 255)
 
 # - uni_koeln_2: Codierfarben / Departmental colors ----
 
-#' Departmental colors of the University of Koeln (Cologne) 
+#' Departmental colors of the University of Koeln (Cologne), Germany 
 #'
 #' \code{uni_koeln_2} provides the departmental (faculty) colors 
 #' of the \href{https://www.uni-koeln.de/}{Universitaet zu Koeln}, Germany. 
@@ -2404,7 +2405,7 @@ uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_f
 
 # - uni_konstanz_1: ---- 
 
-#' Default colors of the University of Konstanz 
+#' Default colors of the University of Konstanz, Germany 
 #'
 #' \code{uni_konstanz_1} provides the default color palette 
 #' of the \href{https://www.uni-konstanz.de/}{University of Konstanz}, Germany. 
@@ -2453,7 +2454,7 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 
 # - uni_konstanz_2: ---- 
 
-#' Preferred colors of the University of Konstanz 
+#' Preferred colors of the University of Konstanz, Germany 
 #'
 #' \code{uni_konstanz_2} provides the palette of preferred colors  
 #' of the \href{https://www.uni-konstanz.de/}{University of Konstanz}, Germany.
@@ -2554,7 +2555,7 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 
 # - uni_mannheim_1: ----
 
-#' Main color gradient of the University of Mannheim 
+#' Main color gradient of the University of Mannheim, Germany 
 #'
 #' \code{uni_mannheim_1} provides a color gradient of 
 #' the primary \code{blau} color and six lighter shades 
@@ -2603,7 +2604,7 @@ uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
 
 # - uni_mannheim_2: ----
 
-#' Primary and departmental accent colors of the University of Mannheim
+#' Primary and departmental accent colors of the University of Mannheim, Germany 
 #'
 #' \code{uni_mannheim_2} provides the primary color \code{UM blau}, 
 #' the main accent color \code{silber}, and 
@@ -2725,7 +2726,7 @@ princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 
 # - princeton_1: ----
 
-#' Colors of Princeton University (on white backgrounds) 
+#' Colors of Princeton University, USA (on white backgrounds) 
 #'
 #' \code{princeton_1} provides the two basic colors 
 #' of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA, 
@@ -2773,7 +2774,7 @@ princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 
 # - princeton_2: ----
 
-#' Colors of Princeton University (on black backgrounds) 
+#' Colors of Princeton University, USA (on black backgrounds) 
 #'
 #' \code{princeton_2} provides the two basic colors 
 #' of \href{https://www.princeton.edu/}{Princeton University}, NJ, USA, 
@@ -2928,7 +2929,7 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 
 # - uni_regensburg_1: General / Service und fakultätsübergreifende Einrichtungen: ---- 
 
-#' General colors of the University of Regensburg 
+#' General colors of the University of Regensburg, Germany 
 #'
 #' \code{uni_regensburg_1} provides the general (administrative and service-oriented) colors 
 #' of the \href{https://www.uni-regensburg.de/}{University of Regensburg}, Germany. 
@@ -2988,8 +2989,8 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 
 # - uni_regensburg_2: Departmental / faculty / web area colors: ---- 
 
-#' Departmental colors of the University of Regensburg (for areas) 
-#'
+#' Departmental colors of the University of Regensburg, Germany (for areas) 
+#' 
 #' \code{uni_regensburg_2} provides the departmental (faculty) colors 
 #' for coloring print or web areas 
 #' at the \href{https://www.uni-regensburg.de/}{University of Regensburg}, Germany. 
@@ -3060,7 +3061,7 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 
 # - uni_regensburg_3: Departmental / faculty / web font colors: ---- 
 
-#' Departmental colors of the University of Regensburg (for fonts) 
+#' Departmental colors of the University of Regensburg, Germany (for fonts) 
 #'
 #' \code{uni_regensburg_3} provides the departmental (faculty) colors 
 #' for web fonts 
@@ -3156,7 +3157,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 
 # - uni_ulm_1: ---- 
 
-#' Main colors of the University of Ulm  
+#' Main colors of the University of Ulm, Germany 
 #'
 #' \code{uni_ulm_1} provides the basic or main colors 
 #' of the \href{https://www.uni-ulm.de/}{University of Ulm}, Germany. 
@@ -3213,7 +3214,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 
 # - uni_ulm_2: ---- 
 
-#' Departmental colors of the University of Ulm  
+#' Departmental colors of the University of Ulm, Germany 
 #'
 #' \code{uni_ulm_2} provides the four departmental colors 
 #' of the \href{https://www.uni-ulm.de/}{University of Ulm}, Germany. 
@@ -3316,7 +3317,7 @@ rpi_2 <- "#54585a"
 # R255 G255 B255
 # #fffff
 
-#' Primary colors of RPI 
+#' Primary colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
 #' \code{rpi_pal_1} provides the primary colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
@@ -3371,7 +3372,7 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 # Dark Blue, C100 M85 Y5 K36, R0 G32 B91, #00205b, PMS: 281
 # Light Blue, C47 M4 Y16 K16, R127 G169 B174, #7fa9ae, PMS: 5493
 
-#' Secondary colors of RPI 
+#' Secondary colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
 #' \code{rpi_pal_2} provides the secondary use colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
@@ -3436,7 +3437,7 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 # Tint: 50%, HEX: #b3d3d5
 # Tint: 25%, HEX: #d4e6e8
 
-#' Tint colors of RPI 
+#' Tint colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
 #' \code{rpi_pal_3} provides the tint colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
@@ -3633,7 +3634,7 @@ rptu_weiss <- "white"
 
 # 10 colors in 5 pairs (+ 2 colors of 1 black/white pair):
 
-#' Color palette of the RPTU Kaiserslautern-Landau
+#' Color palette of the RPTU Kaiserslautern-Landau, Germany 
 #'
 #' \code{rptu_pal} provides the 12 colors (arranged in 6 pairs) 
 #' of the \href{https://rptu.de/}{RPTU} Kaiserslautern-Landau, Germany. 
