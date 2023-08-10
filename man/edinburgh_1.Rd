@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{edinburgh_1} provides the eleven primary colours 
-of the \href{https://www.ed.ac.uk/en}{University of Edinburgh}, Scotland.
+of the \href{https://www.ed.ac.uk}{University of Edinburgh}, Scotland.
 }
 \details{
 The eleven primary colours are

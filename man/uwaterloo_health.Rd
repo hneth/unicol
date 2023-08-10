@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_health}
 \alias{uwaterloo_health}
-\title{Faculty of Health colors of the University of Waterloo}
+\title{Faculty of Health colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_health
@@ -29,7 +29,6 @@ The four teal colors are
 \code{"Teal Level 2"} (defined as CMYK: 69 0 16 0, RGB:	0 190 208, HEX:	#00BED0),
 \code{"Teal Level 3 (print primary color)"} (defined as CMYK: 100 0 30 2, RGB:	0 152 165, HEX:	#0098A5), and
 \code{"Teal Level 4 (digital primary color)"} (defined as CMYK: 83 14 23 50, RGB:	0 89 99, HEX:	#005963).
-
 
 \code{uwaterloo_health} uses the HEX color definitions.
 }

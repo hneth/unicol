@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_science}
 \alias{uwaterloo_science}
-\title{Faculty of Science colors of the University of Waterloo}
+\title{Faculty of Science colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_science
@@ -29,7 +29,6 @@ The four blue colors are
 \code{"Blue Level 2"} (defined as CMYK: 62 28 2 3, RGB:	99 160 255, HEX:	#63A0FF),
 \code{"Blue Level 3 (print primary color)"} (defined as CMYK: 90 48 0 0, RGB:	0 115 206, HEX:	#0073CE), and
 \code{"Blue Level 4 (digital primary color)"} (defined as CMYK: 100 75 0 5, RGB:	0 51 190, HEX:	#0033BE).
-
 
 \code{uwaterloo_science} uses the HEX color definitions.
 }

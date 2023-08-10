@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_main}
 \alias{uwaterloo_main}
-\title{Main colors of the University of Waterloo}
+\title{Main colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 9.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca/brand/how-express-our-brand/colour#unipalette}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_main

@@ -3,13 +3,13 @@
 \docType{data}
 \name{chicago_2}
 \alias{chicago_2}
-\title{Accent colors of University of Chicago}
+\title{Accent colors of the University of Chicago, USA}
 \format{
 An object of class \code{character} of length 23.
 }
 \source{
-Color definitions are based on page 28 of 
-\href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
+Color definitions are based on the University of Chicago's 
+\href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
 }
 \usage{
 chicago_2
@@ -45,7 +45,7 @@ providing subtle accent color options with
 \code{"light_violet"} (defined as Pantone 5205C, CMYK 25/42/13/43, RGB 134/100/122, HEX #86647A),
 \code{"dark_violet"} (defined as Pantone 7449C, CMYK 63/96/21/83, RGB 65/39/59, HEX #41273B),
 \code{"brick*"} (defined as Pantone 1807C, CMYK 6/85/71/30, RGB 164/52/58, HEX #A4343A),
-\code{"light_brick"} (defined as Pantone 7522C, CMYK 10/58/54/18, RGB 180/106/85, HEX #B46A55) and
+\code{"light_brick"} (defined as Pantone 7522C, CMYK 10/58/54/18, RGB 180/106/85, HEX #B46A55), and
 \code{"dark_brick"} (defined as Pantone 1817C, CMYK 20/70/59/60, RGB 100/51/53, HEX #643335).
 }
 \examples{

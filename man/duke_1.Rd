@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on the
-\href{https://brand.duke.edu/colors}{Color manual}.
+\href{https://brand.duke.edu/colors/}{Color manual}.
 }
 \usage{
 duke_1

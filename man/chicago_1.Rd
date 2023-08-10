@@ -3,13 +3,13 @@
 \docType{data}
 \name{chicago_1}
 \alias{chicago_1}
-\title{Primary colors of University of Chicago}
+\title{Primary colors of the University of Chicago, USA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on page 28 of 
-\href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
+Color definitions are based on the University of Chicago's 
+\href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
 }
 \usage{
 chicago_1

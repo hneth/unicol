@@ -9,7 +9,7 @@ An object of class \code{character} of length 6.
 }
 \source{
 Color definitions are based on the
-\href{https://brand.jhu.edu/color}{Color manual}.
+\href{https://brand.jhu.edu/color/}{Color manual}.
 }
 \usage{
 jhu_2

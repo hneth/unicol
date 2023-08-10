@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_math}
 \alias{uwaterloo_math}
-\title{Faculty of Math colors of the University of Waterloo}
+\title{Faculty of Math colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_math

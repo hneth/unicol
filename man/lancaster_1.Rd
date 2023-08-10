@@ -3,13 +3,13 @@
 \docType{data}
 \name{lancaster_1}
 \alias{lancaster_1}
-\title{Primary colours of the Lancaster University}
+\title{Primary colours of the Lancaster University, UK}
 \format{
 An object of class \code{character} of length 3.
 }
 \source{
-colour definitions are based on the
-\href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/Primary/LUPrimaryGuidelines-Staff-Nov-2018.pdf}{lancaster Primary guide}.
+Colour definitions are based on 
+\href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/brand/LUBrandGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide (PDF)}.
 }
 \usage{
 lancaster_1

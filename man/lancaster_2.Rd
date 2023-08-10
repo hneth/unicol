@@ -3,13 +3,13 @@
 \docType{data}
 \name{lancaster_2}
 \alias{lancaster_2}
-\title{Secondary colours of Lancaster University}
+\title{Secondary colours of Lancaster University, UK}
 \format{
 An object of class \code{character} of length 19.
 }
 \source{
-colour definitions are based on the
-\href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/Primary/LUPrimaryGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide}.
+Colour definitions are based on 
+\href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/brand/LUBrandGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide (PDF)}.
 }
 \usage{
 lancaster_2
@@ -49,7 +49,6 @@ The 19 secondary colours are
 \code{"Pantone 7607"} (defined as Hex: c26763),
 \code{"Pantone 1625"} (defined as Hex: F9A98E), and
 \code{"Pantone 7654"} (defined as Hex: A4769A).
-
 
 \code{lancaster_2} uses the HEX colour definition.
 }

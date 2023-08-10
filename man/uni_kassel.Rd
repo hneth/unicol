@@ -19,7 +19,7 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_kassel} provides the 11 primary colors
-of the \href{https://www.uni-kassel.de/uni/}{University of Kassel}, Germany.
+of the \href{https://www.uni-kassel.de/uni//}{University of Kassel}, Germany.
 }
 \details{
 The 11 primary colors are 

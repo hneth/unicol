@@ -9,7 +9,7 @@ An object of class \code{character} of length 7.
 }
 \source{
 Color definitions are based on 
-\url{https://ethz.ch/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}.
+\url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}.
 }
 \usage{
 eth_3
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{eth_3} provides the black and gray colors  
-used by the \href{https://ethz.ch/}{ETH Zürich}, Switzerland.
+used by the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland.
 }
 \details{
 The color \code{"black"} and six shades of gray can be used to visually structure content 

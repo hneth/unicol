@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_environment}
 \alias{uwaterloo_environment}
-\title{Faculty of Environment colors of the University of Waterloo}
+\title{Faculty of Environment colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_environment
@@ -29,7 +29,6 @@ The four green colors are
 \code{"Green Level 2"} (defined as CMYK: 23 0 89 0, RGB:	190 213 0, HEX:	#BED500),
 \code{"Green Level 3 (print primary color)"} (defined as CMYK: 24 0 98 8, RGB:	180 190 0, HEX:	#B4BE00), and
 \code{"Green Level 4 (digital primary color)"} (defined as RGB: 96 112 0, HEX:	#607000).
-
 
 \code{uwaterloo_environment} uses the HEX color definitions.
 }

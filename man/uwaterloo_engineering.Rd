@@ -3,13 +3,13 @@
 \docType{data}
 \name{uwaterloo_engineering}
 \alias{uwaterloo_engineering}
-\title{Faculty of Engineering colors of the University of Waterloo}
+\title{Faculty of Engineering colors of the University of Waterloo, CA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}.
+Color definitions are based on the University of Waterloo's 
+\href{https://uwaterloo.ca/brand/}{Brand home}.
 }
 \usage{
 uwaterloo_engineering
@@ -29,7 +29,6 @@ The four purple colors are
 \code{"Purple Level 2"} (defined as CMYK: 51 71 0 0, RGB:	190 51 218, HEX:	#BE33DA),
 \code{"Purple Level 3 (print primary color)"} (defined as CMYK: 60 72 0 0, RGB:	129 0 180, HEX:	#8100B4), and
 \code{"Purple Level 4 (digital primary color)"} (defined as CMYK: 78 94 0 0, RGB:	87 5 139, HEX:	#57058B).
-
 
 \code{uwaterloo_engineering} uses the HEX color definitions.
 }
