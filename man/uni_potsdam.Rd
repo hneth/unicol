@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_potsdam}
 \alias{uni_potsdam}
-\title{Colors of the University of Potsdam:}
+\title{Colors of the University of Potsdam, Germany}
 \format{
 An object of class \code{character} of length 9.
 }
@@ -19,7 +19,7 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_potsdam} provides the nine primary colors
-of the \href{https://www.uni-potsdam.de/}{University of Potsdam}, Germany.
+of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
 }
 \details{
 The 9 primary colors are 
