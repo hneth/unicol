@@ -1,0 +1,30 @@
+citHeader("To cite 'unicol' in derivations and publications, please use:")
+
+bibentry(bibtype = "Manual",
+         title        = "unicol: The colors of your university",
+         author       = c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")), 
+             person("Constantin", "Basler", role = "aut"),
+             person("Paula", "Bauer", role = "aut"),
+             person("Kaethe", "Bodenstein", role = "aut"),
+             person("Franziska", "Drechsel", role = "aut"),
+             person("Gina-Loretta", "Franz", role = "aut"),
+             person("Karolin", "Heiss", role = "aut"),
+             person("Julia", "Koenig", role = "aut"),
+             person("Isabelle", "Krist", role = "aut"),
+             person("Larissa", "Schwab", role = "aut"),
+             person("Alina", "Sohst", role = "aut"),
+             person("Isabel", "Staatz", role = "aut"),
+             person("Lisa", "Trueb", role = "aut")),
+         year         = "2023",
+         organization = "Social Psychology and Decision Sciences, University of Konstanz",
+         address      = "Konstanz, Germany",
+         note         = "R package (version 0.1.0, August 10, 2023)",
+         url          = "https://github.com/hneth/unicol/",
+
+         textVersion  =
+           paste("Neth, H. et al. (2023).",
+                 "unicol: The colors of your university.",
+                 "Social Psychology and Decision Sciences, University of Konstanz, Germany.",
+                 "Computer software (R package version 0.1.0, August 10, 2023).",
+                 "Retrieved from <https://github.com/hneth/unicol/>.")
+         )
