@@ -70,7 +70,7 @@ We install or load the **unicol** package to get started:
 library('unicol')             # load the package
 ```
 
-Loading the **unicol** package automatically makes the color functions of the required **[unikn](`r `url_unikn_cran`)** package available. 
+Loading the **unicol** package automatically makes the color functions of the required **[unikn](`r url_unikn_cran`)** package available. 
 
 
 ## Using colors in **base** R 
@@ -98,7 +98,7 @@ barplot(1/sqrt(1:10), col = uni_bonn_2)
 <!-- Example 2: Modify pal before using it in base R: -->
 
 In case we want to modify a color palette (e.g., change its number of colors or add transparency) before using it, 
-we can do so by using the `usecol()` function of the **[unikn](`r `url_unikn_cran`)** package before providing the modified palette as the `col`\ argument of an R graphics function. 
+we can do so by using the `usecol()` function of the **[unikn](`r url_unikn_cran`)** package before providing the modified palette as the `col`\ argument of an R graphics function. 
 The following examples illustrate both of these alternatives. 
 
 ```{r plot-base-r-caltech-1}
@@ -124,7 +124,7 @@ plot(x = runif(99), y = runif(99), type = "p",
      main = "99 dots (in Caltech colors)", axes = FALSE, xlab = NA, ylab = NA)
 ```
 
-2. Using a transformed color palette (after using the `usecol()` function of the **[unikn](`r `url_unikn_cran`)** package for resizing and adding transparency to the palette):
+2. Using a transformed color palette (after using the `usecol()` function of the **[unikn](`r url_unikn_cran`)** package for resizing and adding transparency to the palette):
 
 ```{r demo-scatterplot-b, eval = TRUE, fig.width = 6, fig.asp = .90, fig.align = 'center', collapse = TRUE}
 my_col <- unikn::usecol(caltech_1, alpha = .60)  # with transparency
@@ -222,7 +222,7 @@ ggplot2::ggplot(my_data, aes(x = X, y = Y, fill = Group)) +
 ## Resources
 
 See the [Color recipes](https://hneth.github.io/unikn/articles/color_recipes.html) vignette 
-(of the **[unikn](`r `url_unikn_cran`)** package) for solving color-related tasks like:
+(of the **[unikn](`r url_unikn_cran`)** package) for solving color-related tasks like:
 
 - Viewing and comparing color palettes 
 - Finding similar colors 
