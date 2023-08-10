@@ -1,4 +1,4 @@
-## Chicago.R | 2023 06 16
+## Chicago.R | 2023 08 10
 ## Colors of Chicago University, USA
 ## ---------------------------------
 
@@ -25,7 +25,7 @@
 
 # - chicago_1: Primary colors ------
 
-#' Primary colors of University of Chicago
+#' Primary colors of the University of Chicago, USA
 #'
 #' \code{chicago_1} provides the four primary colors
 #' of the \href{https://www.uchicago.edu/}{University of Chicago}, USA.
@@ -47,8 +47,8 @@
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on page 28 of 
-#' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
+#' Color definitions are based on the University of Chicago's 
+#' \href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
 #'
 #' @examples
 #' chicago_1
@@ -67,10 +67,10 @@
 #' @export
 
 chicago_1 <- unikn::newpal(col = c("#800000", 
-                                       "#D9D9D9", "#A6A6A6", "#737373"),
-                               names = c("maroon", 
-                                         "light_greystone", "greystone", "dark_greystone"),
-                               as_df = FALSE)
+                                   "#D9D9D9", "#A6A6A6", "#737373"),
+                           names = c("maroon", 
+                                     "light_greystone", "greystone", "dark_greystone"),
+                           as_df = FALSE)
 
 # # Check:
 # unikn::seecol(chicago_1, main = "Primary colors University of Chicago", col_bg = "lightgrey")
@@ -79,7 +79,7 @@ chicago_1 <- unikn::newpal(col = c("#800000",
 
 # - chicago_2: Accent colors ------
 
-#' Accent colors of University of Chicago
+#' Accent colors of the University of Chicago, USA
 #'
 #' \code{chicago_2} provides the 21 accent colors
 #' of the \href{https://www.uchicago.edu/}{University of Chicago}, USA.
@@ -107,7 +107,7 @@ chicago_1 <- unikn::newpal(col = c("#800000",
 #' \code{"light_violet"} (defined as Pantone 5205C, CMYK 25/42/13/43, RGB 134/100/122, HEX #86647A),
 #' \code{"dark_violet"} (defined as Pantone 7449C, CMYK 63/96/21/83, RGB 65/39/59, HEX #41273B),
 #' \code{"brick*"} (defined as Pantone 1807C, CMYK 6/85/71/30, RGB 164/52/58, HEX #A4343A),
-#' \code{"light_brick"} (defined as Pantone 7522C, CMYK 10/58/54/18, RGB 180/106/85, HEX #B46A55) and
+#' \code{"light_brick"} (defined as Pantone 7522C, CMYK 10/58/54/18, RGB 180/106/85, HEX #B46A55), and
 #' \code{"dark_brick"} (defined as Pantone 1817C, CMYK 20/70/59/60, RGB 100/51/53, HEX #643335).
 #'
 #' @return
@@ -117,8 +117,8 @@ chicago_1 <- unikn::newpal(col = c("#800000",
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on page 28 of 
-#' \href{https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied}{PDF Color manual}.
+#' Color definitions are based on the University of Chicago's 
+#' \href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}. 
 #'
 #' @examples
 #' chicago_2
@@ -137,22 +137,22 @@ chicago_1 <- unikn::newpal(col = c("#800000",
 #' @export
 
 chicago_2 <- unikn::newpal(col = c("#EAAA00", "#F3D03E", "#CC8A00", 
-                                       "#DE7C00", "#ECA154", "#A9431E", 
-                                       "#789D4A", "#A9C47F", "#13301C", 
-                                       "#275D38", "#9CAF88", "#284734",
-                                       "#007396", "#3EB1C8", "#002A3A", 
-                                       "#59315F", "#86647A", "#41273B", 
-                                       "#A4343A", "#B46A55", "#643335", 
-                                       "#FFFFFF", "#000000"),
-                               names = c("goldenrod", "light_goldenrod", "dark_goldenrod", 
-                                         "terracotta", "light_terracotta", "dark_terracotta", 
-                                         "ivy", "light_ivy", "dark_ivy", 
-                                         "forest", "light_forest", "dark_forest", 
-                                         "lake", "light_lake","dark_lake", 
-                                         "violet", "light_violet", "dark_violet", 
-                                         "brick", "light_brick", "dark_brick", 
-                                         "white", "black"),
-                               as_df = FALSE)
+                                   "#DE7C00", "#ECA154", "#A9431E", 
+                                   "#789D4A", "#A9C47F", "#13301C", 
+                                   "#275D38", "#9CAF88", "#284734",
+                                   "#007396", "#3EB1C8", "#002A3A", 
+                                   "#59315F", "#86647A", "#41273B", 
+                                   "#A4343A", "#B46A55", "#643335", 
+                                   "#FFFFFF", "#000000"),
+                           names = c("goldenrod", "light_goldenrod", "dark_goldenrod", 
+                                     "terracotta", "light_terracotta", "dark_terracotta", 
+                                     "ivy", "light_ivy", "dark_ivy", 
+                                     "forest", "light_forest", "dark_forest", 
+                                     "lake", "light_lake","dark_lake", 
+                                     "violet", "light_violet", "dark_violet", 
+                                     "brick", "light_brick", "dark_brick", 
+                                     "white", "black"),
+                           as_df = FALSE)
 
 # # Check:
 # unikn::seecol(chicago_2, main = "Accent colors University of Chicago", col_bg = "lightgrey")

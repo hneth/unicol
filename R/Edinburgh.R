@@ -25,7 +25,7 @@
 #' colours of the University of Edinburgh
 #'
 #' \code{edinburgh_1} provides the eleven primary colours 
-#' of the \href{https://www.ed.ac.uk/en}{University of Edinburgh}, Scotland.
+#' of the \href{https://www.ed.ac.uk}{University of Edinburgh}, Scotland.
 #'
 #' The eleven primary colours are
 #' \code{"University Red"} (defined as Hex: D50032, RGB: 213, 0, 50),

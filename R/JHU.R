@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: <https://brand.jhu.edu/color>
+# URL: <https://brand.jhu.edu/color/>
 # Last check: 2023-06-14
 
 
@@ -44,7 +44,7 @@
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.jhu.edu/color}{Color manual}.
+#' \href{https://brand.jhu.edu/color/}{Color manual}.
 #'
 #' @examples
 #' jhu_0
@@ -95,7 +95,7 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.jhu.edu/color}{Color manual}.
+#' \href{https://brand.jhu.edu/color/}{Color manual}.
 #'
 #' @examples
 #' jhu_1
@@ -151,7 +151,7 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.jhu.edu/color}{Color manual}.
+#' \href{https://brand.jhu.edu/color/}{Color manual}.
 #'
 #' @examples
 #' jhu_2
@@ -216,7 +216,7 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.jhu.edu/color}{Color manual}.
+#' \href{https://brand.jhu.edu/color/}{Color manual}.
 #'
 #' @examples
 #' jhu_3_accent
@@ -269,7 +269,7 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.jhu.edu/color}{Color manual}.
+#' \href{https://brand.jhu.edu/color/}{Color manual}.
 #'
 #' @examples
 #' jhu_4_gray

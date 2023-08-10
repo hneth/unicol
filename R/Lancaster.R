@@ -1,4 +1,4 @@
-## lancaster.R | 2023 07 07
+## lancaster.R | 2023 08 10
 ## colours of the Lancaster University, UK 
 ## ---------------------------------------
 
@@ -21,7 +21,7 @@
 
 # - lancaster_1: Primary colours ------
 
-#' Primary colours of the Lancaster University
+#' Primary colours of the Lancaster University, UK 
 #'
 #' \code{lancaster_1} provides the three Primary colours 
 #' of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
@@ -40,8 +40,8 @@
 #' \strong{unicol}, 2023-07-04.
 #'
 #' @source 
-#' colour definitions are based on the
-#' \href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/Primary/LUPrimaryGuidelines-Staff-Nov-2018.pdf}{lancaster Primary guide}.
+#' Colour definitions are based on 
+#' \href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/brand/LUBrandGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide (PDF)}. 
 #'
 #' @examples
 #' lancaster_1
@@ -70,7 +70,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 
 # - lancaster_2: Secondary colours ------
 
-#' Secondary colours of Lancaster University
+#' Secondary colours of Lancaster University, UK 
 #'
 #' This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
 #' certain applications. They too must be used carefully to compliment and 
@@ -103,7 +103,6 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' \code{"Pantone 1625"} (defined as Hex: F9A98E), and
 #' \code{"Pantone 7654"} (defined as Hex: A4769A).
 #' 
-#' 
 #' \code{lancaster_2} uses the HEX colour definition. 
 #'
 #' @return 
@@ -113,9 +112,9 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' \strong{unicol}, 2023-06-27.
 #' 
 #' @source 
-#' colour definitions are based on the
-#' \href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/Primary/LUPrimaryGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide}. 
-#'
+#' Colour definitions are based on 
+#' \href{https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/current-staff/brand/LUBrandGuidelines-Staff-Nov-2018.pdf}{Lancaster's Primary guide (PDF)}. 
+#'       
 #' @examples
 #' lancaster_2
 #' unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 

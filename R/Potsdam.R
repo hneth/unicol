@@ -7,7 +7,7 @@
 # unipals: "uni_potsdam" (1)
 # inst: "University of Potsdam" 
 # country: Germany
-# URL: "https://www.uni-potsdam.de/de/"
+# URL: "https://www.uni-potsdam.de/"
 
 # Color source:
 # URL: https://www.uni-potsdam.de/fileadmin/projects/zim/files/Printmedien_Leitfaden_2020-21.pdf
@@ -20,7 +20,7 @@
 #' Colors of the University of Potsdam:
 #'
 #' \code{uni_potsdam} provides the nine primary colors
-#' of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
+#' of the \href{https://www.uni-potsdam.de/}{University of Potsdam}, Germany.
 #'
 #' The 9 primary colors are 
 #' \code{"hks_41"} (defined as HEX #00305e), 

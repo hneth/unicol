@@ -1,6 +1,6 @@
-## UWaterloo.R | 2023 06 29
+## UWaterloo.R | 2023 08 10
 ## Colors of the University of Waterloo, Canada 
-## -----------------------------------------------
+## --------------------------------------------
 
 # Information: ------
 
@@ -21,7 +21,7 @@
 
 # - uwaterloo_main: Main University colors ------
 
-#' Main colors of the University of Waterloo
+#' Main colors of the University of Waterloo, CA 
 #'
 #' \code{uwaterloo_main} provides the main University colors 
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -47,8 +47,8 @@
 #' \strong{unicol}, 2023-06-29.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca/brand/how-express-our-brand/colour#unipalette}{UWaterloo Uni Palette}.
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_main
@@ -81,7 +81,7 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 
 # - uwaterloo_arts: Faculty of Arts colors ------
 
-#' Faculty of Arts colors of the University of Waterloo
+#' Faculty of Arts colors of the University of Waterloo, CA
 #'
 #' \code{uwaterloo_arts} provides the orange color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -105,8 +105,8 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_arts
@@ -125,7 +125,8 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 #' @export
 
 uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F00"),
-                                names = c("Orange Level 1", "Orange Level 2", "Orange Level 3 (print primary color)", "Orange Level 4 (digital primary color)"),
+                                names = c("Orange Level 1", "Orange Level 2", 
+                                          "Orange Level 3 (print primary color)", "Orange Level 4 (digital primary color)"),
                                 as_df = FALSE)
 
 # # Check: 
@@ -138,7 +139,7 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 
 # - uwaterloo_engineering: Faculty of Engineering colors ------
 
-#' Faculty of Engineering colors of the University of Waterloo
+#' Faculty of Engineering colors of the University of Waterloo, CA
 #'
 #' \code{uwaterloo_engineering} provides the purple color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -151,7 +152,6 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #' \code{"Purple Level 3 (print primary color)"} (defined as CMYK: 60 72 0 0, RGB:	129 0 180, HEX:	#8100B4), and
 #' \code{"Purple Level 4 (digital primary color)"} (defined as CMYK: 78 94 0 0, RGB:	87 5 139, HEX:	#57058B).
 #' 
-#' 
 #' \code{uwaterloo_engineering} uses the HEX color definitions. 
 #'
 #' @return 
@@ -161,8 +161,8 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_engineering
@@ -181,7 +181,8 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #' @export
 
 uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", "#57058B"),
-                                       names = c("Purple Level 1", "Purple Level 2", "Purple Level 3 (print primary color)", "Purple Level 4 (digital primary color)"),
+                                       names = c("Purple Level 1", "Purple Level 2", 
+                                                 "Purple Level 3 (print primary color)", "Purple Level 4 (digital primary color)"),
                                        as_df = FALSE)
 
 # # Check: 
@@ -195,7 +196,7 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 
 # - uwaterloo_engineering: Faculty of Environment colors ------
 
-#' Faculty of Environment colors of the University of Waterloo
+#' Faculty of Environment colors of the University of Waterloo, CA
 #'
 #' \code{uwaterloo_environment} provides the green color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -208,7 +209,6 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' \code{"Green Level 3 (print primary color)"} (defined as CMYK: 24 0 98 8, RGB:	180 190 0, HEX:	#B4BE00), and
 #' \code{"Green Level 4 (digital primary color)"} (defined as RGB: 96 112 0, HEX:	#607000).
 #' 
-#' 
 #' \code{uwaterloo_environment} uses the HEX color definitions. 
 #'
 #' @return 
@@ -218,8 +218,8 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_environment
@@ -238,7 +238,8 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' @export
 
 uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", "#607000"),
-                                       names = c("Green Level 1", "Green Level 2", "Green Level 3 (print primary color)", "Green Level 4 (digital primary color)"),
+                                       names = c("Green Level 1", "Green Level 2", 
+                                                 "Green Level 3 (print primary color)", "Green Level 4 (digital primary color)"),
                                        as_df = FALSE)
 
 # # Check: 
@@ -247,13 +248,9 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 
 
 
-
-
-
-
 # - uwaterloo_health: Faculty of Health colors ------
 
-#' Faculty of Health colors of the University of Waterloo
+#' Faculty of Health colors of the University of Waterloo, CA
 #'
 #' \code{uwaterloo_health} provides the teal color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -266,7 +263,6 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' \code{"Teal Level 3 (print primary color)"} (defined as CMYK: 100 0 30 2, RGB:	0 152 165, HEX:	#0098A5), and
 #' \code{"Teal Level 4 (digital primary color)"} (defined as CMYK: 83 14 23 50, RGB:	0 89 99, HEX:	#005963).
 #' 
-#' 
 #' \code{uwaterloo_health} uses the HEX color definitions. 
 #'
 #' @return 
@@ -276,8 +272,8 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_health
@@ -296,7 +292,8 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' @export
 
 uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005963"),
-                                  names = c("Teal Level 1", "Teal Level 2", "Teal Level 3 (print primary color)", "Teal Level 4 (digital primary color)"),
+                                  names = c("Teal Level 1", "Teal Level 2", 
+                                            "Teal Level 3 (print primary color)", "Teal Level 4 (digital primary color)"),
                                   as_df = FALSE)
 
 # # Check: 
@@ -309,7 +306,7 @@ uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005
 
 # - uwaterloo_arts: Faculty of Math colors ------
 
-#' Faculty of Math colors of the University of Waterloo
+#' Faculty of Math colors of the University of Waterloo, CA
 #'
 #' \code{uwaterloo_math} provides the pink color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -332,8 +329,8 @@ uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_math
@@ -352,7 +349,8 @@ uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005
 #' @export
 
 uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C60078"),
-                                names = c("Pink Level 1", "Pink Level 2", "Pink Level 3 (print primary color)", "Pink Level 4 (digital primary color)"),
+                                names = c("Pink Level 1", "Pink Level 2", 
+                                          "Pink Level 3 (print primary color)", "Pink Level 4 (digital primary color)"),
                                 as_df = FALSE)
 
 # # Check: 
@@ -365,7 +363,7 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 
 # - uwaterloo_health: Faculty of Science colors ------
 
-#' Faculty of Science colors of the University of Waterloo
+#' Faculty of Science colors of the University of Waterloo, CA 
 #'
 #' \code{uwaterloo_science} provides the teal color levels
 #' of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
@@ -378,7 +376,6 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' \code{"Blue Level 3 (print primary color)"} (defined as CMYK: 90 48 0 0, RGB:	0 115 206, HEX:	#0073CE), and
 #' \code{"Blue Level 4 (digital primary color)"} (defined as CMYK: 100 75 0 5, RGB:	0 51 190, HEX:	#0033BE).
 #' 
-#' 
 #' \code{uwaterloo_science} uses the HEX color definitions. 
 #'
 #' @return 
@@ -388,8 +385,8 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' \strong{unicol}, 2023-06-29.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://uwaterloo.ca//brand/elements/color}{UWaterloo Uni Palette}. 
+#' Color definitions are based on the University of Waterloo's 
+#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_science
@@ -408,7 +405,8 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' @export
 
 uwaterloo_science <- unikn::newpal(col = c("#B4D5FF", "#63A0FF", "#0073CE", "#0033BE"),
-                                   names = c("Blue Level 1", "Blue Level 2", "Blue Level 3 (print primary color)", "Blue Level 4 (digital primary color)"),
+                                   names = c("Blue Level 1", "Blue Level 2", 
+                                             "Blue Level 3 (print primary color)", "Blue Level 4 (digital primary color)"),
                                    as_df = FALSE)
 
 # # Check: 

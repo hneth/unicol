@@ -7,7 +7,7 @@
 # unipals: "uni_kassel" (1)
 # inst: "University of Kassel" 
 # country: Germany
-# URL: "https://www.uni-kassel.de/uni/"
+# URL: "https://www.uni-kassel.de/uni//"
 
 # Color source:
 # URL: https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox/corporate-design-und-medienservice/gestaltungselemente
@@ -20,7 +20,7 @@
 #' Colors of the University of Kassel, Germany 
 #'
 #' \code{uni_kassel} provides the 11 primary colors
-#' of the \href{https://www.uni-kassel.de/uni/}{University of Kassel}, Germany.
+#' of the \href{https://www.uni-kassel.de/uni//}{University of Kassel}, Germany.
 #'
 #' The 11 primary colors are 
 #' \code{"k80"} (defined as HEX #575757), 

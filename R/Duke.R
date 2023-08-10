@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: <https://brand.duke.edu/colors>
+# URL: <https://brand.duke.edu/colors/>
 # Last check: 2023-06-16
 
 
@@ -43,7 +43,7 @@
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.duke.edu/colors}{Color manual}.
+#' \href{https://brand.duke.edu/colors/}{Color manual}.
 #'
 #' @examples
 #' duke_1
@@ -108,7 +108,7 @@ duke_1 <- unikn::newpal(col = c("#012169", "#00539B"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.duke.edu/colors}{Color manual}.
+#' \href{https://brand.duke.edu/colors/}{Color manual}.
 #'
 #' @examples
 #' duke_2
