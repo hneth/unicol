@@ -3,7 +3,7 @@
 \docType{data}
 \name{CMU_1_core}
 \alias{CMU_1_core}
-\title{Core colors of CMU, Carnegie Mellon University}
+\title{Core colors of Carnegie Mellon University (CMU), USA}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -26,10 +26,12 @@ The core colors of Carnegie Mellon University, registered since the late 1920s, 
 \code{"carnegie_red"} (defined as CMYK 0/100/79/20, RGB R196/18/48, HEX #C41230),
 \code{"iron_gray"} (defined as CMYK 0/0/0/70, RGB R109/110/113, HEX #6D6E71),
 \code{"steel_gray"} (defined as CMYK 0/0/0/30, RGB R224/224/224, HEX #E0E0E0),
-\code{"black"} (defined as CMYK 0/0/0/100, RGB R0/0/0, HEX #000000) and
-\code{"white"}
+\code{"black"} (defined as CMYK 0/0/0/100, RGB R0/0/0, HEX #000000), and
+\code{"white"}. 
 
-Carnegie Red should be the dominant color in your color scheme. The grays, black and white support Carnegie Red.
+\code{CMU_1_core} uses the HEX color definitions. 
+
+Carnegie red should be the dominant color in your color scheme. The grays, black and white support Carnegie red.
 Official university collateral, uniforms, vehicles, signs and other key identity elements should always be produced using the core color palette.
 }
 \examples{

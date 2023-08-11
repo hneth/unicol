@@ -3,7 +3,7 @@
 \docType{data}
 \name{columbia}
 \alias{columbia}
-\title{Primary and secondary blue colors of Columbia University}
+\title{Primary and secondary blue colors of Columbia University, USA}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -29,8 +29,10 @@ It is based on the color of the Philolexian Society, Columbia’s oldest student
 The Columbia University trademark can also be rendered in these approved blues:
 \code{"sec_blue1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
 \code{"sec_blue2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
-\code{"sec_blue3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0) and
+\code{"sec_blue3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
 \code{"sec_blue4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
+
+\code{columbia} uses the RGB color definitions.
 }
 \examples{
 columbia

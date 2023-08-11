@@ -3,7 +3,7 @@
 \docType{data}
 \name{CMU_3_campus}
 \alias{CMU_3_campus}
-\title{Campus colors of CMU, Carnegie Mellon University}
+\title{Campus colors of Carnegie Mellon University (CMU), USA}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -27,8 +27,10 @@ The Campus palette contains the following colors:
 \code{"kittanning_brick_beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
 \code{"hornbostel_teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
 \code{"palladian_green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
-\code{"weaver_blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B),
+\code{"weaver_blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
 \code{"skibo_red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
+
+\code{CMU_3_campus} uses the HEX color definitions.
 }
 \examples{
 CMU_3_campus

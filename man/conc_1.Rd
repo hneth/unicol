@@ -3,7 +3,7 @@
 \docType{data}
 \name{conc_1}
 \alias{conc_1}
-\title{Primary colors of the Concordia University, Canada}
+\title{Primary colors of Concordia University, Canada}
 \format{
 An object of class \code{character} of length 8.
 }

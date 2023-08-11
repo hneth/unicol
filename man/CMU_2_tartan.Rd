@@ -3,7 +3,7 @@
 \docType{data}
 \name{CMU_2_tartan}
 \alias{CMU_2_tartan}
-\title{Secondary colors of CMU, Carnegie Mellon University}
+\title{Secondary colors of Carnegie Mellon University (CMU), USA}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -30,8 +30,10 @@ The Tartan palette contains the following secondary colors:
 \code{"gold_thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 \code{"green_thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
 \code{"teal_thread"} (defined as CMYK 100/0/29/24, RGB R0/143/145, HEX #008F91),
-\code{"blue_thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673),
-\code{"highlands_sky_blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0),
+\code{"blue_thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673), and 
+\code{"highlands_sky_blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
+
+\code{CMU_2_tartan} uses the HEX color definitions.
 }
 \examples{
 CMU_2_tartan

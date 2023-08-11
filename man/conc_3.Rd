@@ -3,7 +3,7 @@
 \docType{data}
 \name{conc_3}
 \alias{conc_3}
-\title{Background colors of the Concordia University, Canada}
+\title{Background colors of Concordia University, Canada}
 \format{
 An object of class \code{character} of length 9.
 }
