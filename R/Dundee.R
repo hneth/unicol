@@ -1,4 +1,3 @@
-
 ## Dundee.R | 2023 06 27
 ## Colours of the University of Dundee, Scotland 
 ## ---------------------------------------------
@@ -22,7 +21,7 @@
 
 # - dundee_core: Core colour ------
 
-#' Core colours of University of Dundee
+#' Core colours of University of Dundee, Scotland/UK 
 #' 
 #' \code{dundee_core} provides the core colour 
 #' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
@@ -32,10 +31,9 @@
 #' and it can also be applied to icons and typography.
 #'
 #' The core colour is 
-#' \code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2).
-#'
+#' \code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
 #' \code{dundee_core} uses the HEX colour definition. 
-#' Pantone and CMYK colours differ from RGB and HEX definition.
+#' Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -76,7 +74,7 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 
 # - dundee_highlight: Highlight colours ------
 
-#' Highlight colours of University of Dundee
+#' Highlight colours of University of Dundee, Scotland/UK 
 #' 
 #' \code{dundee_highlight} provides the highlight colours 
 #' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
@@ -132,7 +130,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 
 # - dundee_block: Block colours ------
 
-#' Block colours of University of Dundee
+#' Block colours of University of Dundee, Scotland/UK 
 #' 
 #' \code{dundee_block} provides the block colours 
 #' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
@@ -196,7 +194,7 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 
 # - dundee_background: Background colour ------
 
-#' Background colours of University of Dundee
+#' Background colours of University of Dundee, Scotland/UK 
 #' 
 #' \code{dundee_background} provides the background colour 
 #' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
