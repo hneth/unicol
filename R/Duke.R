@@ -1,4 +1,4 @@
-## Duke.R | 2023 06 17
+## Duke.R | 2023 08 11
 ## Colors of Duke University, USA
 ## ------------------------------
 
@@ -25,7 +25,7 @@
 
 # - duke_1: Primary colors ------
 
-#' Primary colors of Duke University
+#' Primary colors of Duke University, USA 
 #'
 #' \code{duke_1} provides the two primary colors
 #' of the \href{https://duke.edu}{Duke University}, USA.
@@ -62,8 +62,8 @@
 #' @export
 
 duke_1 <- unikn::newpal(col = c("#012169", "#00539B"),
-                           names = c("duke_navy_blue", "duke_royal_blue"),
-                           as_df = FALSE)
+                        names = c("duke_navy_blue", "duke_royal_blue"),
+                        as_df = FALSE)
 
 # # Check:
 # unikn::seecol(duke_1, main = "Primary colors Duke University", col_bg = "white")
@@ -72,7 +72,7 @@ duke_1 <- unikn::newpal(col = c("#012169", "#00539B"),
 
 # - duke_2: Secondary colors ------
 
-#' Secondary colors of Duke University
+#' Secondary colors of Duke University, USA 
 #'
 #' \code{duke_2} provides the 18 secondary colors
 #' of the \href{https://duke.edu}{Duke University}, USA.
@@ -97,7 +97,7 @@ duke_1 <- unikn::newpal(col = c("#012169", "#00539B"),
 #' \code{"shackleford"} (defined as CMYK 3/4/14/8, RGB 218/208/198, HEX #DAD0C6),
 #' \code{"cast_iron"} (defined as CMYK 67/44/67/95, RGB 38/38/38, HEX #262626),
 #' \code{"graphite"} (defined as CMYK 40/30/20/66, RGB 102/102/102, HEX #666666),
-#' \code{"granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5) and
+#' \code{"granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5), and
 #' \code{"limestone"} (defined as CMYK 5/3/5/11, RGB 229/229/229, HEX #E5E5E5).
 #'
 #' @return
@@ -127,12 +127,12 @@ duke_1 <- unikn::newpal(col = c("#012169", "#00539B"),
 #' @export
 
 duke_2 <- unikn::newpal(col = c("#C84E00", "#E89923", "#FFD960", "#A1B70D", "#339898", "#1D6363",
-                                          "#005587", "#0577B1", "#993399", "#E2E6ED", "#F3F2F1", "#FCF7E5",
-                                          "#988675", "#DAD0C6", "#262626", "#666666", "#B5B5B5", "#E5E5E5"),
-                           names = c("copper", "persimmon", "dandelion", "piedmont", "eno", "magnolia",
-                                     "prussian_blue", "shale_blue", "ironweed", "hatteras", "whisper_gray", "ginger_beer",
-                                     "dogwwod", "shackleford", "cast_iron", "graphite", "granite", "limestone"),
-                           as_df = FALSE)
+                                "#005587", "#0577B1", "#993399", "#E2E6ED", "#F3F2F1", "#FCF7E5",
+                                "#988675", "#DAD0C6", "#262626", "#666666", "#B5B5B5", "#E5E5E5"),
+                        names = c("copper", "persimmon", "dandelion", "piedmont", "eno", "magnolia",
+                                  "prussian_blue", "shale_blue", "ironweed", "hatteras", "whisper_gray", "ginger_beer",
+                                  "dogwwod", "shackleford", "cast_iron", "graphite", "granite", "limestone"),
+                        as_df = FALSE)
 
 # # Check:
 # unikn::seecol(duke_2, main = "Secondary colors Duke University", col_bg = "white")
