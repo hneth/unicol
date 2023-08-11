@@ -1,4 +1,4 @@
-## Dublin.R | 2023 07 21
+## Dublin.R | 2023 08 11
 ## Colors of the Trinity College Dublin, Ireland
 ## ---------------------------------------------
 
@@ -51,11 +51,12 @@
 #'
 #' @examples
 #' trinity_1
-#' unikn::seecol(trinity_1, main= "Trinity College Dublin 1") # view color palette.
+#' unikn::seecol(trinity_1, main = "Trinity College Dublin 1") # view color palette.
 #'
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{trinity_2}} for secondary colors of Trinity College Dublin; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -160,6 +161,7 @@ trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee", "#
 #' @family university color palettes.
 #'
 #' @seealso 
+#' \code{\link{trinity_1}} for primary colors of Trinity College Dublin; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
