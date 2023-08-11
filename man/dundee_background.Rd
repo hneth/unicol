@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_background}
 \alias{dundee_background}
-\title{Background colours of University of Dundee}
+\title{Background colours of University of Dundee, Scotland/UK}
 \format{
 An object of class \code{character} of length 1.
 }

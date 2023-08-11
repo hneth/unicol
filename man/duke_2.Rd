@@ -3,7 +3,7 @@
 \docType{data}
 \name{duke_2}
 \alias{duke_2}
-\title{Secondary colors of Duke University}
+\title{Secondary colors of Duke University, USA}
 \format{
 An object of class \code{character} of length 18.
 }
@@ -42,7 +42,7 @@ These colors are
 \code{"shackleford"} (defined as CMYK 3/4/14/8, RGB 218/208/198, HEX #DAD0C6),
 \code{"cast_iron"} (defined as CMYK 67/44/67/95, RGB 38/38/38, HEX #262626),
 \code{"graphite"} (defined as CMYK 40/30/20/66, RGB 102/102/102, HEX #666666),
-\code{"granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5) and
+\code{"granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5), and
 \code{"limestone"} (defined as CMYK 5/3/5/11, RGB 229/229/229, HEX #E5E5E5).
 }
 \examples{

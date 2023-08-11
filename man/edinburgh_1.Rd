@@ -3,7 +3,7 @@
 \docType{data}
 \name{edinburgh_1}
 \alias{edinburgh_1}
-\title{colours of the University of Edinburgh}
+\title{Primary colours of the University of Edinburgh, Scotland/UK}
 \format{
 An object of class \code{character} of length 11.
 }
@@ -32,9 +32,8 @@ The eleven primary colours are
 \code{"Dark green"} (defined as Hex: 154734, RGB: 21, 71, 52),
 \code{"Jade"} (defined as Hex: 487A7B, RGB: 72, 122, 123),
 \code{"Muted Blue"} (defined as Hex: 004F71, RGB: 0, 79, 113),
-\code{"Muted brown"} (defined as Hex: 6D4F47, RGB: 109, 79, 71),and
+\code{"Muted brown"} (defined as Hex: 6D4F47, RGB: 109, 79, 71), and
 \code{"Spuce grey"} (defined as Hex: 333F48, RGB: 51, 63, 72).
-
 
 \code{edinburgh_1} uses the HEX color definitions.
 }

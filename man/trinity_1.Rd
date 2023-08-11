@@ -40,10 +40,11 @@ The 12 primary colors are
 }
 \examples{
 trinity_1
-unikn::seecol(trinity_1, main= "Trinity College Dublin 1") # view color palette.
+unikn::seecol(trinity_1, main = "Trinity College Dublin 1") # view color palette.
 
 }
 \seealso{
+\code{\link{trinity_2}} for secondary colors of Trinity College Dublin; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

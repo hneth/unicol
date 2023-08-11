@@ -89,6 +89,7 @@ unikn::seecol(trinity_2, main = "Trinity College Dublin 2") # view color palette
 
 }
 \seealso{
+\code{\link{trinity_1}} for primary colors of Trinity College Dublin; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

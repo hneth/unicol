@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_highlight}
 \alias{dundee_highlight}
-\title{Highlight colours of University of Dundee}
+\title{Highlight colours of University of Dundee, Scotland/UK}
 \format{
 An object of class \code{character} of length 3.
 }

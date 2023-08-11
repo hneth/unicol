@@ -3,7 +3,7 @@
 \docType{data}
 \name{duke_1}
 \alias{duke_1}
-\title{Primary colors of Duke University}
+\title{Primary colors of Duke University, USA}
 \format{
 An object of class \code{character} of length 2.
 }

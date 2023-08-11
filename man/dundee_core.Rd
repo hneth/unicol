@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_core}
 \alias{dundee_core}
-\title{Core colours of University of Dundee}
+\title{Core colours of University of Dundee, Scotland/UK}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -27,10 +27,9 @@ The University shield and wordmark can be reproduced in the core colour
 and it can also be applied to icons and typography.
 
 The core colour is 
-\code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2).
-
+\code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
 \code{dundee_core} uses the HEX colour definition. 
-Pantone and CMYK colours differ from RGB and HEX definition.
+Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 }
 \examples{
 dundee_core

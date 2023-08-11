@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_block}
 \alias{dundee_block}
-\title{Block colours of University of Dundee}
+\title{Block colours of University of Dundee, Scotland/UK}
 \format{
 An object of class \code{character} of length 5.
 }
