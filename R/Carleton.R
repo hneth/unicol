@@ -1,4 +1,4 @@
-## Carleton.R | 2023 07 13
+## Carleton.R | 2023 08 10
 ## Colors of the University of Carleton, Canada 
 ## --------------------------------------------
 
@@ -21,15 +21,15 @@
 
 # - carleton_1: All colors ------
 
-#' Colors of the University of Carleton
+#' Colors of the University of Carleton, Canada 
 #'
 #' \code{carleton_1} provides the two official colors 
 #' of the \href{https://carleton.ca/}{University of Carleton}, Canada.
 #'
 #' The two official colors are
-#' \code{"maize"} (defined as Pantone 122, 
+#' \code{maize} (defined as Pantone 122, 
 #' and approximated by RGB 255/223/79, or HEX #FFDF4F), and
-#' \code{"blue_carleton"} (defined as Pantone 294, 
+#' \code{blue_carleton} (defined as Pantone 294, 
 #' and approximated by RGB 0/48/105, or HEX #003069).
 #'
 #' \code{carleton_1} uses the HEX color definitions. 

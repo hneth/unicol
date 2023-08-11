@@ -1,6 +1,6 @@
-## Concordia.R | 2023 08 03
-## Colors of the Concordia University, Canada
-## ------------------------------------------
+## Concordia.R | 2023 08 11
+## Colors of Concordia University, Canada
+## --------------------------------------
 
 # Information: ------
 
@@ -20,7 +20,7 @@
 
 # - conc_1: Primary colors ------
 
-#' Primary colors of the Concordia University, Canada 
+#' Primary colors of Concordia University, Canada 
 #'
 #' \code{conc_1} provides the eight primary colors 
 #' of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
@@ -62,16 +62,18 @@
 #'
 #' @export
 
-conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#004085", "#0072a8", "#057d78", "#508212" ),
-                       names = c("burgundy", "magenta_concordia", "orange_concordia", "mauve", "dark_blue", "blue_condordia", "turquoise_concordia", "grenn"),
-                       as_df = FALSE)
+conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", 
+                                "#004085", "#0072a8", "#057d78", "#508212" ),
+                        names = c("burgundy", "magenta_concordia", "orange_concordia", "mauve", 
+                                  "dark_blue", "blue_condordia", "turquoise_concordia", "grenn"),
+                        as_df = FALSE)
 
 
 
 
 # - conc_2: Secondary colors ------
 
-#' Secondary colors of the Concordia University, Canada 
+#' Secondary colors of Concordia University, Canada 
 #'
 #' \code{conc_2} provides the four secondary colors 
 #' of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
@@ -110,15 +112,15 @@ conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", "#00
 #' @export
 
 conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
-                       names = c("yellow_concordia", "gold_concordia", "cyan_concordia", "lime"),
-                       as_df = FALSE)
+                        names = c("yellow_concordia", "gold_concordia", "cyan_concordia", "lime"),
+                        as_df = FALSE)
 
 
 
 # - conc_3: Background colors ------
 
 
-#' Background colors of the Concordia University, Canada 
+#' Background colors of Concordia University, Canada 
 #'
 #' \code{uni_pal_1} provides the nine background colors 
 #' of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
@@ -164,9 +166,9 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 
 conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C5DA", 
                                 "#d3e1e9", "#CCE3E4", "#dfeccf", "#e9e3d3"),
-                       names = c("burgundy1_concordia", "magenta1_concordia", "orange1_concordia", "mauve1_concordia", "dark_blue1_concordia", 
-                                 "blue1_concordia", "turquoise1_concordia", "green1_concordia", "gold1_concordia"),
-                       as_df = FALSE)
+                        names = c("burgundy1_concordia", "magenta1_concordia", "orange1_concordia", "mauve1_concordia", "dark_blue1_concordia", 
+                                  "blue1_concordia", "turquoise1_concordia", "green1_concordia", "gold1_concordia"),
+                        as_df = FALSE)
 
 
 
@@ -174,7 +176,7 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 
 # - conc_4: Neutral colors ------
 
-#' Neutral colors of the Concordia University, Canada 
+#' Neutral colors of Concordia University, Canada 
 #'
 #' \code{conc_4} provides the five neutral colors 
 #' of the \href{https://www.concordia.ca/}{Concorida University}, Canada.
@@ -215,9 +217,9 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 
 conc_4 <- unikn::newpal(col = c("#f0f0f0", "#c8c8c8", "#6e6e6e", "#2c2c2c", 
                                 "#000000"),
-                       names = c("light_grey_concordia", "medium_grey_concordia", "dark_grey_concordia", "very_dark_grey_concordia", 
-                                 "black"),
-                       as_df = FALSE)
+                        names = c("light_grey_concordia", "medium_grey_concordia", "dark_grey_concordia", "very_dark_grey_concordia", 
+                                  "black"),
+                        as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(conc_1, main = "Primary colors of the Concordia University", col_bg = "white")

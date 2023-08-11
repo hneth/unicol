@@ -25,7 +25,7 @@
 
 # - CMU_1_core: Primary palette, Core colors ------
 
-#' Core colors of CMU, Carnegie Mellon University
+#' Core colors of Carnegie Mellon University (CMU), USA 
 #'
 #' \code{CMU_1_core} provides five core colors.
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
@@ -34,10 +34,12 @@
 #' \code{"carnegie_red"} (defined as CMYK 0/100/79/20, RGB R196/18/48, HEX #C41230),
 #' \code{"iron_gray"} (defined as CMYK 0/0/0/70, RGB R109/110/113, HEX #6D6E71),
 #' \code{"steel_gray"} (defined as CMYK 0/0/0/30, RGB R224/224/224, HEX #E0E0E0),
-#' \code{"black"} (defined as CMYK 0/0/0/100, RGB R0/0/0, HEX #000000) and
-#' \code{"white"}
+#' \code{"black"} (defined as CMYK 0/0/0/100, RGB R0/0/0, HEX #000000), and
+#' \code{"white"}. 
+#' 
+#' \code{CMU_1_core} uses the HEX color definitions. 
 #'
-#' Carnegie Red should be the dominant color in your color scheme. The grays, black and white support Carnegie Red.
+#' Carnegie red should be the dominant color in your color scheme. The grays, black and white support Carnegie red.
 #' Official university collateral, uniforms, vehicles, signs and other key identity elements should always be produced using the core color palette.
 #'
 #' @return
@@ -67,10 +69,10 @@
 #'
 #' @export
 
-CMU_1_core <- unikn::newpal(col = c("#C41230", 
-                                    "#6D6E71", "#E0E0E0", "#000000", "#FFFFFF"),
-                            names = c("carnegie_red", 
-                                      "iron_gray", "steel_gray", "black", "white"),
+CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0", 
+                                    "#000000", "#FFFFFF"),
+                            names = c("carnegie_red", "iron_gray", "steel_gray", 
+                                      "black", "white"),
                             as_df = FALSE)
 
 # # Check:
@@ -80,7 +82,7 @@ CMU_1_core <- unikn::newpal(col = c("#C41230",
 
 # - CMU_2_tartan: Secondary colors, Tartan palette ------
 
-#' Secondary colors of CMU, Carnegie Mellon University
+#' Secondary colors of Carnegie Mellon University (CMU), USA 
 #'
 #' \code{CMU_2_tartan} provides six secondary colors
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
@@ -93,8 +95,10 @@ CMU_1_core <- unikn::newpal(col = c("#C41230",
 #' \code{"gold_thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 #' \code{"green_thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
 #' \code{"teal_thread"} (defined as CMYK 100/0/29/24, RGB R0/143/145, HEX #008F91),
-#' \code{"blue_thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673),
-#' \code{"highlands_sky_blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0),
+#' \code{"blue_thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673), and 
+#' \code{"highlands_sky_blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
+#' 
+#' \code{CMU_2_tartan} uses the HEX color definitions. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -137,7 +141,7 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515",
 
 # - CMU_3_campus: Secondary colors, Campus palette ------
 
-#' Campus colors of CMU, Carnegie Mellon University
+#' Campus colors of Carnegie Mellon University (CMU), USA 
 #'
 #' \code{CMU_3_campus} provides six campus colors
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
@@ -147,8 +151,10 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515",
 #' \code{"kittanning_brick_beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
 #' \code{"hornbostel_teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
 #' \code{"palladian_green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
-#' \code{"weaver_blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B),
+#' \code{"weaver_blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
 #' \code{"skibo_red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
+#'
+#' \code{CMU_3_campus} uses the HEX color definitions. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).

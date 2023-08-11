@@ -1,4 +1,4 @@
-## Columbia.R | 2023 06 16
+## Columbia.R | 2023 08 11
 ## Colors of Columbia University, USA
 ## ----------------------------------
 
@@ -24,7 +24,7 @@
 
 # - columbia: Primary and secondary blue colors ------
 
-#' Primary and secondary blue colors of Columbia University
+#' Primary and secondary blue colors of Columbia University, USA 
 #'
 #' \code{columbia} provides one primary blue and four secondary blue colors
 #' of the \href{http://www.columbia.edu}{Columbia University}, USA.
@@ -36,8 +36,10 @@
 #' The Columbia University trademark can also be rendered in these approved blues:
 #' \code{"sec_blue1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
 #' \code{"sec_blue2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
-#' \code{"sec_blue3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0) and
+#' \code{"sec_blue3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
 #' \code{"sec_blue4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
+#' 
+#' \code{columbia} uses the RGB color definitions. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -65,12 +67,12 @@
 #' @export
 
 columbia <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255), 
-                                      rgb(108, 172, 228, maxColorValue = 255), 
-                                      rgb(  0, 114, 206, maxColorValue = 255), 
-                                      rgb(  0,  51, 160, maxColorValue = 255), 
-                                      rgb(  2,  33, 105, maxColorValue = 255)),
-                              names = c("columbia_blue", "sec_blue1", "sec_blue2", "sec_blue3", "sec_blue4"),
-                              as_df = FALSE)
+                                  rgb(108, 172, 228, maxColorValue = 255), 
+                                  rgb(  0, 114, 206, maxColorValue = 255), 
+                                  rgb(  0,  51, 160, maxColorValue = 255), 
+                                  rgb(  2,  33, 105, maxColorValue = 255)),
+                          names = c("columbia_blue", "sec_blue1", "sec_blue2", "sec_blue3", "sec_blue4"),
+                          as_df = FALSE)
 
 # # Check:
 # unikn::seecol(columbia, main = "Primary colors of Columbia University", col_bg = "lightgrey")
