@@ -46,6 +46,7 @@ unikn::seecol(galway_2, main = "University of Galway 2") # view color palette
 
 }
 \seealso{
+\code{\link{galway_1}} for primary colors of the University of Galway; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -99,6 +100,7 @@ Other university color palettes:
 \code{\link{fu_pal_2}},
 \code{\link{fu_pal_3}},
 \code{\link{galway_1}},
+\code{\link{guelph}},
 \code{\link{harvard_1}},
 \code{\link{harvard_2}},
 \code{\link{harvard_3_accent}},
@@ -180,7 +182,6 @@ Other university color palettes:
 \code{\link{ucalgary_warmgreys}},
 \code{\link{uci_1}},
 \code{\link{uflorida_1}},
-\code{\link{ug_1}},
 \code{\link{umass_2}},
 \code{\link{umass_brand}},
 \code{\link{umass_neutrals}},
