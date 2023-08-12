@@ -1,10 +1,10 @@
 ## Guelph.R | 2023 07 12
 ## Colors of the University of Guelph, Canada 
-## -----------------------------------------------
+## ------------------------------------------
 
-# Information: -----------------------------------
+# Information: ------ 
 
-# uni_pals: "ug_1" (1)
+# uni_pals: "guelph" (1)
 # inst: "University of Guelph" (in English)
 # inst_alt: "University of Guelph"
 # country: Canada
@@ -16,11 +16,11 @@
 # Last check: 2023-07-12
 
 
-# - ug_1: All colors ------
+# - guelph: All colors ------
 
-#' Colors of the University of Guelph
+#' Colors of the University of Guelph, Canada 
 #'
-#' \code{ug_1} provides the two primary colors and the two secondary colors
+#' \code{guelph} provides the two primary colors and the two secondary colors
 #' of the \href{https://www.uoguelph.ca/}{University of Guelph}, Canada.
 #'
 #' The two primary colors are
@@ -31,7 +31,7 @@
 #' \code{"PMS_123"} (defined as RGB 255/199/42, HEX #FFC72A) and
 #' \code{"PMS_549"} (defined as RGB 105/163/185, HEX ##69A3B9).
 #'
-#' \code{ug_1} uses the HEX color definitions. 
+#' \code{guelph} uses the HEX color definitions. 
 #' 
 #' 
 #' @return 
@@ -45,8 +45,8 @@
 #' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{Website of the University of Guelph}.
 #'
 #' @examples
-#' ug_1
-#' unikn::seecol(ug_1, main = "Colors of the University of Guelph") # view color palette
+#' guelph
+#' unikn::seecol(guelph, main = "Colors of the University of Guelph") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -59,12 +59,12 @@
 #'
 #' @export
 
-ug_1 <- unikn::newpal(col = c("#C20430", "#000000", "#FFC72A", "#69A3B9"),
-                           names = c("PMS_200", "black", "PMS_123", "PMS_549"),
-                           as_df = FALSE)
+guelph <- unikn::newpal(col = c("#C20430", "#000000", "#FFC72A", "#69A3B9"),
+                        names = c("PMS_200", "black", "PMS_123", "PMS_549"),
+                        as_df = FALSE)
 
 # # Check: 
-## unikn::seecol(ug_1, main = "Colors of the University of Guelph", col_bg = "white")
+## unikn::seecol(guelph, main = "Colors of the University of Guelph", col_bg = "white")
 
 
 

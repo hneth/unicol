@@ -1,4 +1,4 @@
-## all_pals.R | 2022 08 10
+## all_pals.R | 2022 08 12
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -47,7 +47,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uflorida_1 <-", "uflorida_2 <-", "uflorida_3 <-", 
               "galway_1 <-", "galway_2 <-", 
               "glasgow_1 <-", "glasgow_2 <-", 
-              "ug_1 <-", 
+              "guelph <-", 
               "harvard_1 <-", "harvard_2 <-", "harvard_3_accent <-", 
               "uci_1 <-", "uci_2 <-", "uci_3 <-", "uci_4 <-", 
               "jhu_0 <-", "jhu_1 <-", "jhu_2 <-", "jhu_3_accent <-", "jhu_4_gray <-", 
