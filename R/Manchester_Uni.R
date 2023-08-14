@@ -1,4 +1,4 @@
-## Manchester_Uni.R | 2023 06 27
+## Manchester_Uni.R | 2023 08 14
 ## Colours of the Manchester University, England/UK
 ## ------------------------------------------------
 
@@ -36,7 +36,7 @@
 #' \code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
 #' \code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 #'
-#' \code{manchester_uni_1} uses the HEX color definitions. 
+#' \code{manchester_uni_1} uses the HEX colour definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -56,6 +56,7 @@
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{manchester_uni_accent}} for accent colours of Manchester University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -69,7 +70,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
                                   as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(manchester_uni_1, main = "Primary colours of the Manchester University", col_bg = "white")
+# unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University", col_bg = "white")
 
 
 
@@ -108,6 +109,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{manchester_uni_1}} for primary colours of Manchester University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colours;
