@@ -27,7 +27,7 @@ The three primary colours are
 \code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
 \code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 
-\code{manchester_uni_1} uses the HEX color definitions.
+\code{manchester_uni_1} uses the HEX colour definitions.
 }
 \examples{
 manchester_uni_1
@@ -36,6 +36,7 @@ unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University
 
 }
 \seealso{
+\code{\link{manchester_uni_accent}} for accent colours of Manchester University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colours;
@@ -103,7 +104,7 @@ Other university color palettes:
 \code{\link{jhu_4_gray}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
-\code{\link{laval_1}},
+\code{\link{laval}},
 \code{\link{limerick_1}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},

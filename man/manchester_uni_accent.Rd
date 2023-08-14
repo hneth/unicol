@@ -38,6 +38,7 @@ unikn::seecol(manchester_uni_accent, main = "Accent colors of Manchester Univers
 
 }
 \seealso{
+\code{\link{manchester_uni_1}} for primary colours of Manchester University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colours;
@@ -105,7 +106,7 @@ Other university color palettes:
 \code{\link{jhu_4_gray}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
-\code{\link{laval_1}},
+\code{\link{laval}},
 \code{\link{limerick_1}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},

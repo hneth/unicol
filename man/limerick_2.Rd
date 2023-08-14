@@ -8,7 +8,7 @@
 An object of class \code{character} of length 17.
 }
 \source{
-Color definitions are based on 
+Colour definitions are based on 
 \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
 }
 \usage{
@@ -38,7 +38,7 @@ The 12 secondary colors are
 \code{"white"} (defined as HEX #FFFFFF), 
 \code{"limestone"} (defined as HEX #919D9D), 
 \code{"pebble"} (defined as HEX #707372), 
-\code{"granite"} (defined as HEX #505759), 
+\code{"granite"} (defined as HEX #505759), and 
 \code{"slate"} (defined as HEX #373A36). 
 
 \code{limerick_2} uses the HEX color definitions.
@@ -49,6 +49,7 @@ unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palett
 
 }
 \seealso{
+\code{\link{limerick_2}} for primary colours of the University of Limerick; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

@@ -103,7 +103,7 @@ Other university color palettes:
 \code{\link{jhu_3_accent}},
 \code{\link{jhu_4_gray}},
 \code{\link{lancaster_2}},
-\code{\link{laval_1}},
+\code{\link{laval}},
 \code{\link{limerick_1}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},

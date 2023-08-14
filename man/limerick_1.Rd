@@ -3,39 +3,40 @@
 \docType{data}
 \name{limerick_1}
 \alias{limerick_1}
-\title{Primary colors of the University of Limerick, Ireland}
+\title{Primary colours of the University of Limerick, Ireland}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on 
+Colour definitions are based on 
 \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
 }
 \usage{
 limerick_1
 }
 \value{
-A names vector of colors (HEX/HTML codes of type character).
+A names vector of colours (HEX/HTML codes of type character).
 }
 \description{
-\code{limerick_1} provides the four primary colors
+\code{limerick_1} provides the four primary colours
 of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 }
 \details{
-The 4 primary colors are
+The 4 primary colours are
 \code{"ul_green"} (defined as HEX #005335), 
 \code{"ul_modern_green"} (defined as HEX #00B140), 
 \code{"ul_heritage_green"} (defined as HEX #003726), 
 \code{"white"} (defined as HEX #FFFFFF). 
 
-\code{limerick_1} uses the HEX color definitions.
+\code{limerick_1} uses the HEX colour definitions.
 }
 \examples{
 limerick_1
-unikn::seecol(limerick_1, main= "University of Limerick 1") # view color palette.
+unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palette.
 
 }
 \seealso{
+\code{\link{limerick_2}} for secondary colours of the University of Limerick;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -103,7 +104,7 @@ Other university color palettes:
 \code{\link{jhu_4_gray}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
-\code{\link{laval_1}},
+\code{\link{laval}},
 \code{\link{lmu_pal_1}},
 \code{\link{lmu_pal_2}},
 \code{\link{lmu_pal_3}},
