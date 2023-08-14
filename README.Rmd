@@ -95,7 +95,7 @@ tab_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst,
 knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
-(See the vignette on **Color palettes** for an overview of all colors and institutions.)
+(See the vignette on **Color palettes** for an overview of all color palettes and institutions.) 
 
 <!-- ## Examples  -->
 
@@ -258,9 +258,7 @@ To enable us to verify and provide credit to your contributions, please send us 
 We're looking forward to **your inputs and contributions** (at this [GitHub issue](https://github.com/hneth/unicol/issues/30))! 
 
 
-
 ## References 
-
 
 <!-- Origin / Background / Credit / Course coordinates: --> 
 

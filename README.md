@@ -55,8 +55,8 @@ The **unicol** package currently provides **202 color palettes** from
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
-(See the vignette on **Color palettes** for an overview of all colors
-and institutions.)
+(See the vignette on **Color palettes** for an overview of all color
+palettes and institutions.)
 
 <!-- ## Examples  -->
 <!-- Goal: Show some color palettes and how they can be used: -->
@@ -68,13 +68,13 @@ and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 251 colors):
+**Figure 1** illustrates 50 random color palettes (with 265 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 265 colors)." width="90%" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 251 colors).
+Figure 1: A sample of 50 unicol palettes (containing 265 colors).
 </p>
 
 </div>
