@@ -1,6 +1,6 @@
-## Limerick.R | 2023 07 16
-## Colors of the University of Limerick, Ireland
-# ----------------------------------------------
+## Limerick.R | 2023 08 14
+## Colours of the University of Limerick, Ireland
+# -----------------------------------------------
 
 # Information: ----
 
@@ -9,44 +9,45 @@
 # country: Ireland
 # URL: "https://www.ul.ie"
 
-# Color source:
+# Colour source:
 # URL: https://www.ul.ie/media/31805/download?inline
 
 
-# Color palettes:
+# Colour palettes:
 
 # - limerick_1: Primary colors ----
 
-#' Primary colors of the University of Limerick, Ireland 
+#' Primary colours of the University of Limerick, Ireland 
 #'
-#' \code{limerick_1} provides the four primary colors
+#' \code{limerick_1} provides the four primary colours
 #' of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 #'
-#' The 4 primary colors are
+#' The 4 primary colours are
 #' \code{"ul_green"} (defined as HEX #005335), 
 #' \code{"ul_modern_green"} (defined as HEX #00B140), 
 #' \code{"ul_heritage_green"} (defined as HEX #003726), 
 #' \code{"white"} (defined as HEX #FFFFFF). 
 #'
-#'\code{limerick_1} uses the HEX color definitions.
+#'\code{limerick_1} uses the HEX colour definitions.
 #'
 #'@return
-#' A names vector of colors (HEX/HTML codes of type character). 
+#' A names vector of colours (HEX/HTML codes of type character). 
 #' 
 #'@author
 #'\strong{unicol}, 2023-07-16.
 #'
 #'@source
-#' Color definitions are based on 
+#' Colour definitions are based on 
 #' \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
 #'
 #'@examples
 #' limerick_1
-#' unikn::seecol(limerick_1, main= "University of Limerick 1") # view color palette.
+#' unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palette.
 #'
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{limerick_2}} for secondary colours of the University of Limerick;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -84,7 +85,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' \code{"white"} (defined as HEX #FFFFFF), 
 #' \code{"limestone"} (defined as HEX #919D9D), 
 #' \code{"pebble"} (defined as HEX #707372), 
-#' \code{"granite"} (defined as HEX #505759), 
+#' \code{"granite"} (defined as HEX #505759), and 
 #' \code{"slate"} (defined as HEX #373A36). 
 #' 
 #' \code{limerick_2} uses the HEX color definitions.
@@ -96,7 +97,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' \strong{unicol}, 2320-07-16.
 #' 
 #'@source
-#' Color definitions are based on 
+#' Colour definitions are based on 
 #' \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
 #'
 #' @examples 
@@ -106,6 +107,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' @family university color palettes.
 #'
 #' @seealso 
+#' \code{\link{limerick_2}} for primary colours of the University of Limerick; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
