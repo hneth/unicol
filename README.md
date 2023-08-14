@@ -13,7 +13,7 @@
 
 ### The colors of your university
 
-<!-- Vision / Mission / DESCRIPTION: -->
+<!-- DESCRIPTION / Mission / Vision: -->
 
 The **unicol** package provides the colors and color palettes of various
 universities for easy plotting and printing in R. We collect and provide
