@@ -29,6 +29,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <!-- badges: start -->
 <!-- badges: end -->
 
+
 # unicol `r packageVersion('unicol')` <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
 
 <!-- unicol pkg logo and link: -->

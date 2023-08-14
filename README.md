@@ -68,13 +68,13 @@ and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 239 colors):
+**Figure 1** illustrates 50 random color palettes (with 251 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 239 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 239 colors).
+Figure 1: A sample of 50 unicol palettes (containing 251 colors).
 </p>
 
 </div>
@@ -232,7 +232,7 @@ A BibTeX entry for LaTeX users is:
       year = {2023},
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
-      note = {R package (version 0.1.0, August 10, 2023)},
+      note = {R package (version 0.1.0, August 15, 2023)},
       url = {https://github.com/hneth/unicol/},
     }
 
@@ -248,6 +248,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-10.\]
+\[File `README.Rmd` updated on 2023-08-14.\]
 
 <!-- eof. -->
