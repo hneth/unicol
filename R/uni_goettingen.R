@@ -1,5 +1,5 @@
-## Uni_Goettingen.R | 2023 06 12
-## Colors of the University of Goettingen, Germany 
+## Uni_Goettingen.R | 2023 08 12
+## Colors of the University of Goettingen, Germany
 ## -----------------------------------------------
 
 # Information: ------
@@ -175,11 +175,15 @@ uni_goettingen_2 <- unikn::newpal(col = col_goe_secondary,
 # rgb2hex(68, 37, 61)  # HEX: "#44253D"
 # Correction: Using HEX code corresponding to RGB values.
 
-col_goe_fac <- c("#25795d", "#fd8f4a", "#eeb32a", "#256951", "#ac5b53", "#e07f41", "#fda642", 
-                 "#c70d2d", "#b52141", "#2b7ab3", "#45195c", "#44253d", "#153268")
+col_goe_fac <- c("#25795d", "#fd8f4a", "#eeb32a", "#256951", 
+                 "#ac5b53", "#e07f41", "#fda642", "#c70d2d", 
+                 "#b52141", "#2b7ab3", "#45195c", "#44253d", 
+                 "#153268")
 
-nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "Forstwissenschaften und Waldoekologie", "Geowissenschaften und Geographie", "Mathematik und Informatik", "Physik", 
-                 "Jura", "Sozialwissenschaften", "Wirtschaftswissenschaften", "Philosophie", "Theologie", "Medizin")
+nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "Forstwissenschaften und Waldoekologie", 
+                 "Geowissenschaften und Geographie", "Mathematik und Informatik", "Physik", "Jura", 
+                 "Sozialwissenschaften", "Wirtschaftswissenschaften", "Philosophie", "Theologie", 
+                 "Medizin")
 # nam_goe_fac <- paste0("UG ", nam_goe_fac)  # add prefix
 
 

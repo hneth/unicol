@@ -1,14 +1,16 @@
-## uni_palette_template.R | 2023 06 12
+## uni_palette_template.R | 2023 08 14
 ## Colors of the University of City, Country 
-## -----------------------------------------------
+## -----------------------------------------
 
 # Information: ------
+
 
 # uni_pals: "uni_pal_1" (1)
 # inst: "University of Example" (in English)
 # inst_alt: "Universit\u00E4t Example"
 # country: Germany
 # URL: "https://www.uni-example.de/"
+
 
 # Color source:
 
@@ -35,12 +37,13 @@ col_3 <- "black"
 # etc.
 
 
+
 # Color palette(s):
 
 
 # - uni_pal_1: Primary colors ------
 
-#' Colors of the University of Example
+#' Colors of the University of Example, Country 
 #'
 #' \code{uni_pal_1} provides the three primary colors 
 #' of the \href{https://www.uni-stuttgart.de/en}{University of Stuttgart}, Germany.
@@ -89,7 +92,7 @@ uni_pal_1 <- unikn::newpal(col = c(col_1, col_2, col_3),
                            as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(uni_pal_1, main = "Primary colors of the University of Stuttgart", col_bg = "lightgrey")
+# unikn::seecol(uni_pal_1, main = "Primary colors of the University of Example", col_bg = "lightgrey")
 
 
 
