@@ -3,7 +3,7 @@
 \docType{data}
 \name{jhu_3_accent}
 \alias{jhu_3_accent}
-\title{Accent colors of JHU, Johns Hopkins University}
+\title{Accent colors of Johns Hopkins University (JHU), USA}
 \format{
 An object of class \code{character} of length 13.
 }
@@ -39,7 +39,7 @@ These accent colors are
 \code{"jhu_purple3"} (defined as PMS 666 C, CMYK 36/39/2/5, RGB 161/146/178, HEX #A192B2), 
 \code{"jhu_blueberry"} (defined as PMS 279 C, CMYK 68/34/0/0, RGB 65/143/222, HEX #418FDE), 
 \code{"jhu_green2"} (defined as PMS 564 C, CMYK 43/0/23/0, RGB 134/200/188, HEX #86C8BC), 
-\code{"jhu_green3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140) and 
+\code{"jhu_green3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140), and 
 \code{"jhu_green4"} (defined as PMS 7490 C, CMYK 57/6/92/19, RGB 113/153/73, HEX #719949).
 }
 \examples{

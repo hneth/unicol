@@ -3,7 +3,7 @@
 \docType{data}
 \name{harvard_3}
 \alias{harvard_3}
-\title{Web colors of Harvard University}
+\title{Web colors of Harvard University, USA}
 \format{
 An object of class \code{character} of length 8.
 }
@@ -31,7 +31,7 @@ These colors are
 \code{"pear"} (defined as RGB 195/215/164, HEX #C3D7A4),
 \code{"lemon"} (defined as RGB 255/219/109 , HEX #FFDB6D),
 \code{"saffron"} (defined as RGB 232/125/30, HEX #D16103),
-\code{"gold"} (defined as RGB 196/150/26 , HEX #C4961A) and
+\code{"gold"} (defined as RGB 196/150/26 , HEX #C4961A), and
 \code{"creme"} (defined as RGB 244/237/202, HEX #F4EDCA).
 
 For \code{"saffron"} the RGB and HEX definitions differ numerically.

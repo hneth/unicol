@@ -50,7 +50,7 @@ The 19 secondary colours are
 \code{"Pantone 1625"} (defined as Hex: F9A98E), and
 \code{"Pantone 7654"} (defined as Hex: A4769A).
 
-\code{lancaster_2} uses the HEX colour definition.
+\code{lancaster_2} uses the HEX colour definitions.
 }
 \examples{
 lancaster_2
@@ -59,6 +59,7 @@ unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University")
 
 }
 \seealso{
+\code{\link{lancaster_1}} for primary colours of Lancaster University;
 \code{\link{seecol}} for viewing and comparing colour palettes;
 \code{\link{usecol}} for using colour palettes;
 \code{\link{simcol}} for finding similar colours;

@@ -3,7 +3,7 @@
 \docType{data}
 \name{jhu_4_gray}
 \alias{jhu_4_gray}
-\title{Grey scale colors of JHU, Johns Hopkins University}
+\title{Grey scale colors of Johns Hopkins University (JHU), USA}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -26,9 +26,9 @@ The grayscale palette includes any tint of PMS Black 4C between 100% and 0% (whi
 Double Black may be used in situations where increased contrast is required, such as text over a color field. 
 
 These grey scale colors are
-\code{""} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D) 
-\code{""} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff) 
-\code{""} (defined as CMYK 100/100/100/100, RGB 0/0/0, HEX #000000)
+\code{""} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), 
+\code{""} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff), and  
+\code{""} (defined as CMYK 100/100/100/100, RGB 0/0/0, HEX #000000).
 }
 \examples{
 jhu_4_gray

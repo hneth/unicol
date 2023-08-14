@@ -3,7 +3,7 @@
 \docType{data}
 \name{harvard_2}
 \alias{harvard_2}
-\title{Accent colors of Harvard University}
+\title{Accent colors of Harvard University, USA}
 \format{
 An object of class \code{character} of length 4.
 }

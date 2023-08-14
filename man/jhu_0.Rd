@@ -3,7 +3,7 @@
 \docType{data}
 \name{jhu_0}
 \alias{jhu_0}
-\title{Identity colors of JHU, Johns Hopkins University}
+\title{Identity colors of of Johns Hopkins University (JHU), USA}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -26,6 +26,7 @@ Only three colors exist for the university identity. They are
 \code{"heritage_blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
 \code{"sable"} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), and 
 \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff). 
+
 No other color may be used when reproducing the university logo.
 }
 \examples{

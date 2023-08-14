@@ -27,7 +27,7 @@ The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster Univer
 \code{"Pantone 429"} (defined as HEX: #bec0c2), and
 \code{"Pantone 432"} (defined as HEX: #555656).
 
-\code{lancaster_1} uses the HEX colour definition.
+\code{lancaster_1} uses the HEX colour definitions.
 }
 \examples{
 lancaster_1
@@ -36,6 +36,7 @@ unikn::seecol(lancaster_1, main = "Primary colours of Lancaster University", col
 
 }
 \seealso{
+\code{\link{lancaster_2}} for secondary colours of Lancaster University;
 \code{\link{seecol}} for viewing and comparing colour palettes;
 \code{\link{usecol}} for using colour palettes;
 \code{\link{simcol}} for finding similar colours;
