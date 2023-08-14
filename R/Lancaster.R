@@ -1,5 +1,5 @@
-## lancaster.R | 2023 08 10
-## colours of the Lancaster University, UK 
+## lancaster.R | 2023 08 14
+## The colours of Lancaster University, UK 
 ## ---------------------------------------
 
 # Information: ------
@@ -31,7 +31,7 @@
 #' \code{"Pantone 429"} (defined as HEX: #bec0c2), and
 #' \code{"Pantone 432"} (defined as HEX: #555656).
 #' 
-#' \code{lancaster_1} uses the HEX colour definition. 
+#' \code{lancaster_1} uses the HEX colour definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -51,6 +51,7 @@
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{lancaster_2}} for secondary colours of Lancaster University;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -103,7 +104,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' \code{"Pantone 1625"} (defined as Hex: F9A98E), and
 #' \code{"Pantone 7654"} (defined as Hex: A4769A).
 #' 
-#' \code{lancaster_2} uses the HEX colour definition. 
+#' \code{lancaster_2} uses the HEX colour definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -123,6 +124,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' @family university color palettes
 #'
 #' @seealso
+#' \code{\link{lancaster_1}} for primary colours of Lancaster University;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
