@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "harvard_1", "harvard_2", harvard_3_accent (3)
+# uni_pals: "harvard_1", "harvard_2", harvard_3 (3)
 # inst: "Harvard University"
 # country: USA
 # URL: "https://www.harvard.edu/"
@@ -25,7 +25,7 @@
 
 # - harvard_1: Primary colors ------
 
-#' Primary colors of Harvard University
+#' Primary colors of Harvard University, USA 
 #'
 #' \code{harvard_1} provides the two primary colors
 #' of the \href{https://www.harvard.edu/}{Harvard University}, USA.
@@ -52,7 +52,7 @@
 #'
 #' @seealso
 #' \code{\link{harvard_2}} for secondary, accent colors of Harvard University;
-#' \code{\link{harvard_3_accent}} for web colors of Harvard University;
+#' \code{\link{harvard_3}} for web colors of Harvard University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -72,7 +72,7 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 
 # - harvard_2: Accent colors ------
 
-#' Accent colors of Harvard University
+#' Accent colors of Harvard University, USA 
 #'
 #' \code{harvard_2} provides the four accent colors
 #' of the \href{https://www.harvard.edu/}{Harvard University}, USA.
@@ -101,7 +101,7 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #'
 #' @seealso
 #' \code{\link{harvard_1}} for primary colors of Harvard University;
-#' \code{\link{harvard_3_accent}} for web colors of Harvard University;
+#' \code{\link{harvard_3}} for web colors of Harvard University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -119,11 +119,11 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 
 
 
-# - harvard_3_accent: Web colors ------
+# - harvard_3: Web colors ------
 
-#' Web colors of Harvard University
+#' Web colors of Harvard University, USA 
 #'
-#' \code{harvard_3_accent} provides the 8 web colors
+#' \code{harvard_3} provides the 8 web colors
 #' of the \href{https://www.harvard.edu/}{Harvard University}, USA.
 #'
 #' Additional web colors have been provided to allow for highlighting or accenting key information.
@@ -135,7 +135,7 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' \code{"pear"} (defined as RGB 195/215/164, HEX #C3D7A4),
 #' \code{"lemon"} (defined as RGB 255/219/109 , HEX #FFDB6D),
 #' \code{"saffron"} (defined as RGB 232/125/30, HEX #D16103),
-#' \code{"gold"} (defined as RGB 196/150/26 , HEX #C4961A) and
+#' \code{"gold"} (defined as RGB 196/150/26 , HEX #C4961A), and
 #' \code{"creme"} (defined as RGB 244/237/202, HEX #F4EDCA).
 #'
 #' For \code{"saffron"} the RGB and HEX definitions differ numerically.
@@ -152,8 +152,8 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
-#' harvard_3_accent
-#' unikn::seecol(harvard_3_accent, main = "Web colors Harvard University") # view color palette
+#' harvard_3
+#' unikn::seecol(harvard_3, main = "Web colors Harvard University") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -168,12 +168,14 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #'
 #' @export
 
-harvard_3_accent <- unikn::newpal(col = c("#293352", "#4E84C4", "#52854C", "#C3D7A4", "#FFDB6D", "#D16103", "#C4961A", "#F4EDCA"),
-                                  names = c("indigo", "blue_bonnet", "ivy", "pear", "lemon", "saffron", "gold", "creme"),
+harvard_3 <- unikn::newpal(col = c("#293352", "#4E84C4", "#52854C", "#C3D7A4", 
+                                          "#FFDB6D", "#D16103", "#C4961A", "#F4EDCA"),
+                                  names = c("indigo", "blue_bonnet", "ivy", "pear", 
+                                            "lemon", "saffron", "gold", "creme"),
                                   as_df = FALSE)
 
 # # Check:
-#  unikn::seecol(harvard_3_accent, main = "Web colors Harvard University", col_bg = "lightgrey")
+#  unikn::seecol(harvard_3, main = "Web colors Harvard University", col_bg = "lightgrey")
 
 
 

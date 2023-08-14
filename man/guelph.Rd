@@ -94,7 +94,7 @@ Other university color palettes:
 \code{\link{galway_2}},
 \code{\link{harvard_1}},
 \code{\link{harvard_2}},
-\code{\link{harvard_3_accent}},
+\code{\link{harvard_3}},
 \code{\link{hu_pal_1}},
 \code{\link{hu_pal_2}},
 \code{\link{jhu_0}},

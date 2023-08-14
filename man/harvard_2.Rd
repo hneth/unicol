@@ -35,7 +35,7 @@ unikn::seecol(harvard_2, main = "Accent colors Harvard Uni") # view color palett
 }
 \seealso{
 \code{\link{harvard_1}} for primary colors of Harvard University;
-\code{\link{harvard_3_accent}} for web colors of Harvard University;
+\code{\link{harvard_3}} for web colors of Harvard University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -92,7 +92,7 @@ Other university color palettes:
 \code{\link{galway_2}},
 \code{\link{guelph}},
 \code{\link{harvard_1}},
-\code{\link{harvard_3_accent}},
+\code{\link{harvard_3}},
 \code{\link{hu_pal_1}},
 \code{\link{hu_pal_2}},
 \code{\link{jhu_0}},
