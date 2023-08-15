@@ -1,4 +1,4 @@
-## .gitignore | unicol | 2023 05 30
+## .gitignore | unicol | 2023 08 15
 
 ## 1. generic stuff: -----
 
@@ -53,6 +53,7 @@ vignettes/*.pdf
 
 # CRAN:
 cran-comments.md
+^CRAN-SUBMISSION$
 ^CRAN-RELEASE$
 
 # pkgdown: 
