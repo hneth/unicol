@@ -216,7 +216,6 @@ Other university color palettes:
 \code{\link{uni_manchester_1}},
 \code{\link{uni_mannheim_1}},
 \code{\link{uni_mannheim_2}},
-\code{\link{uni_pal_1}},
 \code{\link{uni_potsdam}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
