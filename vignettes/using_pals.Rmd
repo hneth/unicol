@@ -51,12 +51,12 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 <!-- unikn pkg logo and link: -->
 <!-- <a href = "`r url_unikn_cran`"> -->
-<!-- <img src = "../inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- <img src = "../inst/pix/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
+<img src = "../inst/pix/logo_unicol.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 
@@ -246,7 +246,7 @@ See the [Color recipes](https://hneth.github.io/unikn/articles/color_recipes.htm
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "../inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
+<img src = "../inst/pix/logo_unicol.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a>
 
 The following vignettes provide an overview of and examples for using the **unicol** color palettes: 

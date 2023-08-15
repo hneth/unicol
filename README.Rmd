@@ -30,11 +30,12 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 
 <!-- badges: end -->
 
-# unicol `r packageVersion('unicol')` <img src = "./inst/pix/pkg_unicol_s.png" align = "right" alt = "unicol::" width = "180px" />
+# unicol `r packageVersion('unicol')` <img src = "./inst/pix/logo_unicol.png" align = "right" alt = "unicol::" width = "200px" />
+
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "`r url_unicol_github`"> -->
-<!-- <img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/> -->
+<!-- <img src = "./inst/pix/logo_unicol.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 <!-- Slogan: -->
@@ -228,7 +229,7 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_github`">
-<img src = "./inst/pix/pkg_unicol_s.png" alt = "unicol::" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
+<img src = "./inst/pix/logo_unicol.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
 </a> 
 
 The current range of color palettes included in **unicol** is selective and incomplete. 
@@ -244,7 +245,7 @@ The vignette on [Institutional colors](https://hneth.github.io/unikn/articles/co
 
 <!-- ToDo: -->
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "180px" style = "width: 180px; float: right; border:0;"/>
+<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
 </a>
 
 If you do create a new color palette, **please let us know** (on this [GitHub issue](https://github.com/hneth/unicol/issues/30)) 
@@ -280,7 +281,7 @@ The **unicol** package originated as a collaborative project by the following co
 
 <!-- unikn pkg logo and link: -->
 <!-- <a href = "`r url_unikn_cran`"> -->
-<!-- <img src = "./inst/pix/pkg_unikn.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- <img src = "./inst/pix/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 This package is based on the R\ package **[unikn](`r url_unikn_cran`)** and loads key functionality from it. 
