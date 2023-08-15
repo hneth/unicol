@@ -3,11 +3,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-# unicol 0.1.0 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "200px" alt="" />
+# unicol 0.1.0 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://github.com/hneth/unicol"> -->
-<!-- <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/> -->
+<!-- <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
 
@@ -140,7 +140,7 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://github.com/hneth/unicol">
-<img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "200px" style = "width: 200px; float: right; border:0;"/>
+<img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 The current range of color palettes included in **unicol** is selective
@@ -163,7 +163,7 @@ a corresponding example.
 <!-- ToDo: -->
 
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
+<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 If you do create a new color palette, **please let us know** (on this
