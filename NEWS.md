@@ -14,6 +14,6 @@ The development version of **unicol** is available at <https://github.com/hneth/
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-14.] 
+[File `NEWS.md` updated on 2023-08-15.] 
 
 <!-- eof. -->
