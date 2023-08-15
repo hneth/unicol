@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_red}
 \alias{mcgill_red}
-\title{Primary colour of McGill University}
+\title{Primary colour of McGill University, Canada}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -26,7 +26,7 @@ The colour is
 \code{"mcgill_red"} (defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f).
 
 \code{mcgill_red} uses the HEX colour definition. 
-CMYK colour differs from RGB and HEX definition.
+Note that the CMYK colour differs from the RGB and HEX definitions.
 }
 \examples{
 mcgill_red

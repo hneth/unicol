@@ -3,7 +3,7 @@
 \docType{data}
 \name{michigan_2}
 \alias{michigan_2}
-\title{Secondary colors of University of Michigan}
+\title{Secondary colors of the University of Michigan, USA}
 \format{
 An object of class \code{character} of length 13.
 }
@@ -22,11 +22,17 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://umich.edu}{University of Michigan}, USA.
 }
 \details{
-The colors in our supporting palette were chosen to complement our primary palette of maize and blue, providing additional range to the brand experience.
-They work well as secondary colors or as backgrounds behind typography or graphics, but should never replace the primary palette as the main color(s) of a design.
-NOTE: While these colors are recommended rather than mandated, we strongly encourage you to use them.
+The colors in our supporting palette were chosen to complement our 
+primary palette of maize and blue (see \code{\link{michigan_1}}), 
+providing additional range to the brand experience.
 
-These secondary colors are
+They work well as secondary colors or as backgrounds behind typography or graphics, 
+but should never replace the primary palette as the main color(s) of a design.
+
+While these colors are recommended rather than mandated, 
+we strongly encourage you to use them.
+
+These secondary colors are 
 \code{"tappan_red"} (defined as PMS 484, CMYK 8/92/100/33, HEX #9A3324),
 \code{"ross_orange"} (defined as PMS 1595, CMYK 0/71/100/3, HEX #D86018),
 \code{"rackham_green"} (defined as PMS 5565, CMYK 44/12/34/24, HEX #75988d),
@@ -38,7 +44,7 @@ These secondary colors are
 \code{"umma_tan"} (defined as PMS 7502, CMYK 6/14/39/8, HEX #CFC096),
 \code{"burton_tower_beige"} (defined as PMS 451, CMYK 21/15/54/31, HEX #9B9A6D),
 \code{"angell_hall_ash"} (defined as PMS PANTONE Warm Gray 6, CMYK 14/19/21/39, HEX #989C97),
-\code{"law_quad_stone"} (defined as PMS PANTONE Warm Gray 11, CMYK 26/36/38/68, HEX #655A52) and
+\code{"law_quad_stone"} (defined as PMS PANTONE Warm Gray 11, CMYK 26/36/38/68, HEX #655A52), and
 \code{"puma_black"} (defined as PMS PANTONE Black 6, CMYK 100/79/44/93, HEX #131516).
 }
 \examples{
@@ -47,7 +53,7 @@ unikn::seecol(michigan_2, main = "Secondary colors Michigan Uni") # view color p
 
 }
 \seealso{
-\code{\link{michigan_1}} for primary colors of University of Michigan; 
+\code{\link{michigan_1}} for primary colors of the University of Michigan; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

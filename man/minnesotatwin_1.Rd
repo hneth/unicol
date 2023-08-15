@@ -3,7 +3,7 @@
 \docType{data}
 \name{minnesotatwin_1}
 \alias{minnesotatwin_1}
-\title{Primary colors of the University of Minnesota}
+\title{Primary colors of the University of Minnesota Twin Cities, USA}
 \format{
 An object of class \code{character} of length 2.
 }
@@ -18,7 +18,7 @@ minnesotatwin_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{minnesotatwin_1} provides the primary colors
+\code{minnesotatwin_1} provides the two primary colors
 of the \href{https://twin-cities.umn.edu/}{University of Minnesota}, USA.
 }
 \details{

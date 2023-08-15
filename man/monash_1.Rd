@@ -3,7 +3,7 @@
 \docType{data}
 \name{monash_1}
 \alias{monash_1}
-\title{Primary colors of Monash University}
+\title{Primary colors of Monash University, USA}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -19,25 +19,26 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{monash_1} provides the six primary colors
-of the \href{https://www.monash.edu/}{Monash University}, USA.
+of \href{https://www.monash.edu/}{Monash University}, USA.
 }
 \details{
-The primay colour palette is preferred. The use of greys (tints of black) are welcomed.
+The primay colour palette is preferred. 
+The use of greys (tints of black) are welcomed.
 Primary colors are
 \code{"white"} (defined as HEX #FFFFFF),
 \code{"monash_blue"} (defined as HEX #006DAE),
 \code{"black"} (defined as HEX #000000),
 \code{"dark_grey"} (defined as HEX #3c3c3c),
-\code{"grey"} (defined as HEX #505050) and
+\code{"grey"} (defined as HEX #505050), and
 \code{"light_grey"} (defined as HEX #F6F6F6).
 }
 \examples{
 monash_1
-unikn::seecol(monash_1, main = "Primary colors Monash University") # view color palette
+unikn::seecol(monash_1, main = "Primary colors of Monash University") # view color palette
 
 }
 \seealso{
-\code{\link{monash_2}} for secondary colors of Monash University; 
+\code{\link{monash_2}} for the secondary colors of Monash University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

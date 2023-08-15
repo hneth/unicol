@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_pastels}
 \alias{mcgill_pastels}
-\title{Pastel colours of McGill University}
+\title{Pastel colours of McGill University, Canada}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -30,7 +30,7 @@ The pastel colours are
 \code{"pastel_2"} (defined as CMYK 0/2/52/0, RGB 255/241/147, HEX #FFF193),
 \code{"pastel_3"} (defined as CMYK 28/0/12/0, RGB 181/225/225, HEX #B5E1E1),
 \code{"pastel_4"} (defined as CMYK 20/0/2/0, RGB 200/234/245, HEX #C8EAF5),
-\code{"pastel_5"} (defined as CMYK 18/0/43/0, RGB 213/230/168, HEX #D5E6A8) and
+\code{"pastel_5"} (defined as CMYK 18/0/43/0, RGB 213/230/168, HEX #D5E6A8), and
 \code{"pastel_6"} (defined as CMYK 8/40/0/0, RGB 226/167/204, HEX #E2A7CC).
 
 \code{mcgill_pastels} uses the HEX colour definition. 
@@ -42,7 +42,7 @@ unikn::seecol(mcgill_pastels, main = "Pastel colours of McGill") # view colour p
 
 }
 \seealso{
-\code{\link{mcgill_red}};
+\code{\link{mcgill_red}} for the primary colour of McGill University;
 \code{\link{mcgill_brights}} for the bright colours of McGill;
 \code{\link{mcgill_muted}} for the muted colours of McGill;
 \code{\link{mcgill_darks}} for the dark colours of McGill;

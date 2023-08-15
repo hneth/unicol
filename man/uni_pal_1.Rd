@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_pal_1}
 \alias{uni_pal_1}
-\title{Colors of the University of Example}
+\title{Colors of the University of Example, Country}
 \format{
 An object of class \code{character} of length 3.
 }

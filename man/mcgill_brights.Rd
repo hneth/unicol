@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_brights}
 \alias{mcgill_brights}
-\title{Bright colours of McGill University}
+\title{Bright colours of McGill University, Canada}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -30,7 +30,7 @@ The bright colours are
 \code{"bright_2"} (defined as CMYK 0/15/100/0, RGB 255/212/0, HEX #FFD400),
 \code{"bright_3"} (defined as CMYK 70/0/30/0, RGB 39/189/190, HEX #27BDBE),
 \code{"bright_4"} (defined as CMYK 60/0/0/0, RGB 68/200/245, HEX #44C8F5),
-\code{"bright_5"} (defined as CMYK 35/0/100/0, RGB 178/210/53, HEX #B2D235) and
+\code{"bright_5"} (defined as CMYK 35/0/100/0, RGB 178/210/53, HEX #B2D235), and
 \code{"bright_6"} (defined as CMYK 20/72/0/0, RGB 199/104/169, HEX #C768A9).
 
 \code{mcgill_brights} uses the HEX colour definition. 
@@ -42,7 +42,7 @@ unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour p
 
 }
 \seealso{
-\code{\link{mcgill_red}};
+\code{\link{mcgill_red}} for the primary colour of McGill University;
 \code{\link{mcgill_pastels}} for the pastel colours of McGill;
 \code{\link{mcgill_muted}} for the muted colours of McGill;
 \code{\link{mcgill_darks}} for the dark colours of McGill;

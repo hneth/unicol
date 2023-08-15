@@ -3,7 +3,7 @@
 \docType{data}
 \name{minnesotatwin_2}
 \alias{minnesotatwin_2}
-\title{Secondary colors of the University of Minnesota Twin Cities}
+\title{Secondary colors of the University of Minnesota Twin Cities, USA}
 \format{
 An object of class \code{character} of length 8.
 }
@@ -29,7 +29,7 @@ The 8 secondary colors are
 \code{"minnesotatwin_medium_grey"} (defined as HEX #777677),
 \code{"minnesotatwin_light_maroon"} (defined as HEX #900021),
 \code{"minnesotatwin_light_gold"} (defined as HEX #FFDE7A),
-\code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A) and
+\code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A), and
 \code{"minnesotatwin_light_grey"} (defined as HEX #D5D6D2).
 
 \code{minnesotatwin_2} uses the HEX color definitions.

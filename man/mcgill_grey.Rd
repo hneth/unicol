@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_grey}
 \alias{mcgill_grey}
-\title{Grey of McGill University}
+\title{Grey colour of McGill University, Canada}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -29,7 +29,7 @@ The colour is
 \code{"cool_grey"} (defined as CMYK 66/52/44/17, RGB 93/103/113, HEX #5D6770).
 
 \code{mcgill_grey} uses the HEX colour definition. 
-CMYK colour differs from RGB and HEX definition.
+Note that the CMYK colour differs from RGB and HEX definition.
 }
 \examples{
 mcgill_grey
@@ -37,7 +37,7 @@ unikn::seecol(mcgill_grey, main = "Cool Grey of McGill") # view colour palette
 
 }
 \seealso{
-\code{\link{mcgill_red}};
+\code{\link{mcgill_red}} for the primary colour of McGill University; 
 \code{\link{mcgill_pastels}} for the pastel colours of McGill;
 \code{\link{mcgill_brights}} for the bright colours of McGill;
 \code{\link{mcgill_muted}} for the muted colours of McGill;

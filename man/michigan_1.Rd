@@ -3,7 +3,7 @@
 \docType{data}
 \name{michigan_1}
 \alias{michigan_1}
-\title{Primary colors of University of Michigan}
+\title{Primary colors of the University of Michigan, USA}
 \format{
 An object of class \code{character} of length 2.
 }
@@ -24,8 +24,11 @@ of the \href{https://umich.edu}{University of Michigan}, USA.
 \details{
 Our signature color palette of
 \code{"mich_maize"} (defined as PMS 7406, CMYK 0/18/100/0, HEX #FFCB05) and
-\code{"mich_blue"} (defined as PMS 282, CMYK 100/60/0/60, HEX #00274C) creates a powerful differentiator for our brand.
+\code{"mich_blue"} (defined as PMS 282, CMYK 100/60/0/60, HEX #00274C) 
+creates a powerful differentiator for our brand.
+
 Using this palette appropriately and consistently provides an additional layer of distinction.
+
 Signature colors may be used extensively both for large areas of color and as secondary colors.
 }
 \examples{
@@ -34,7 +37,7 @@ unikn::seecol(michigan_1, main = "Primary colors Michigan Uni") # view color pal
 
 }
 \seealso{
-\code{\link{michigan_2}} for secondary, secondary colors of University of Michigan; 
+\code{\link{michigan_2}} for secondary, secondary colors of the University of Michigan; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

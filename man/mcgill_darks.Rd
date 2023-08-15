@@ -3,7 +3,7 @@
 \docType{data}
 \name{mcgill_darks}
 \alias{mcgill_darks}
-\title{Dark colours of McGill University}
+\title{Dark colours of McGill University, Canada}
 \format{
 An object of class \code{character} of length 7.
 }
@@ -31,11 +31,11 @@ The muted colours are
 \code{"dark_3"} (defined as CMYK 90/45/53/23, RGB 10/98/102, HEX #0A6266),
 \code{"dark_4"} (defined as CMYK 97/66/38/20, RGB 2/79/109, HEX #024F6D),
 \code{"dark_5"} (defined as CMYK 78/42/86/40, RGB 48/85/52, HEX #305534),
-\code{"dark_6"} (defined as CMYK 65/90/31/18, RGB 103/53/103, HEX #673567) and
+\code{"dark_6"} (defined as CMYK 65/90/31/18, RGB 103/53/103, HEX #673567), and
 \code{"dark_7"} (defined as CMYK 0/100/90/40, RGB 158/9/24, HEX #9E0918).
 
 \code{mcgill_darks} uses the HEX colour definition. 
-CMYK colour differs from RGB and HEX definition.
+Note that the CMYK colours differ from RGB and HEX definitions.
 }
 \examples{
 mcgill_darks
@@ -43,7 +43,7 @@ unikn::seecol(mcgill_darks, main = "Dark colours of McGill") # view colour palet
 
 }
 \seealso{
-\code{\link{mcgill_red}};
+\code{\link{mcgill_red}} for the primary colour of McGill University; 
 \code{\link{mcgill_pastels}} for the pastel colours of McGill;
 \code{\link{mcgill_brights}} for the bright colours of McGill;
 \code{\link{mcgill_muted}} for the muted colours of McGill;

@@ -3,7 +3,7 @@
 \docType{data}
 \name{monash_2}
 \alias{monash_2}
-\title{Secondary colors of Monash University}
+\title{Secondary colors of Monash University, USA}
 \format{
 An object of class \code{character} of length 9.
 }
@@ -19,11 +19,12 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{monash_2} provides the nine secondary colors
-of the \href{https://www.monash.edu/}{Monash University}, USA.
+of \href{https://www.monash.edu/}{Monash University}, USA.
 }
 \details{
 In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
 the secondary colors have been approved for online use with white text overlay.
+
 Secondary colors are 
 \code{"blue"} (defined as HEX #00739d),
 \code{"purple"} (defined as HEX #6f64a9),
@@ -37,11 +38,11 @@ Secondary colors are
 }
 \examples{
 monash_2
-unikn::seecol(monash_2, main = "Secondary colors Monash University") # view color palette
+unikn::seecol(monash_2, main = "Secondary colors of Monash University") # view color palette
 
 }
 \seealso{
-\code{\link{monash_1}} for primary colors of Monash University; 
+\code{\link{monash_1}} for the primary colors of Monash University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
