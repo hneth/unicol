@@ -2,4 +2,5 @@
 ^\.Rproj\.user$
 ^_gitless$
 ^README\.Rmd$
+^logo\.png$
 ^cran-comments\.md$
