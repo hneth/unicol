@@ -1,6 +1,7 @@
-## MIT.R | 2023 08 07
+## MIT.R | 2023 08 15
 ## Colors of MIT, Massachusetts Institute of Technology, USA
 ## ---------------------------------------------------------
+
 
 # Information: ------
 

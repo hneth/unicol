@@ -26,18 +26,19 @@
 
 # - monash_1: Primary colors ------
 
-#' Primary colors of Monash University
+#' Primary colors of Monash University, USA 
 #'
 #' \code{monash_1} provides the six primary colors
-#' of the \href{https://www.monash.edu/}{Monash University}, USA.
+#' of \href{https://www.monash.edu/}{Monash University}, USA.
 #'
-#' The primay colour palette is preferred. The use of greys (tints of black) are welcomed.
+#' The primay colour palette is preferred. 
+#' The use of greys (tints of black) are welcomed.
 #' Primary colors are
 #' \code{"white"} (defined as HEX #FFFFFF),
 #' \code{"monash_blue"} (defined as HEX #006DAE),
 #' \code{"black"} (defined as HEX #000000),
 #' \code{"dark_grey"} (defined as HEX #3c3c3c),
-#' \code{"grey"} (defined as HEX #505050) and
+#' \code{"grey"} (defined as HEX #505050), and
 #' \code{"light_grey"} (defined as HEX #F6F6F6).
 #'
 #' @return
@@ -52,12 +53,12 @@
 #'
 #' @examples
 #' monash_1
-#' unikn::seecol(monash_1, main = "Primary colors Monash University") # view color palette
+#' unikn::seecol(monash_1, main = "Primary colors of Monash University") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{monash_2}} for secondary colors of Monash University; 
+#' \code{\link{monash_2}} for the secondary colors of Monash University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -73,19 +74,20 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
                           as_df = FALSE)
 
 # # Check:
-# unikn::seecol(monash_1, main = "Primary colors Monash University", col_bg = "lightgrey")
+# unikn::seecol(monash_1, main = "Primary colors of Monash University", col_bg = "lightgrey")
 
 
 
 # - monash_2: Secondary colors ------
 
-#' Secondary colors of Monash University
+#' Secondary colors of Monash University, USA 
 #'
 #' \code{monash_2} provides the nine secondary colors
-#' of the \href{https://www.monash.edu/}{Monash University}, USA.
+#' of \href{https://www.monash.edu/}{Monash University}, USA.
 #'
 #' In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
 #' the secondary colors have been approved for online use with white text overlay.
+#' 
 #' Secondary colors are 
 #' \code{"blue"} (defined as HEX #00739d),
 #' \code{"purple"} (defined as HEX #6f64a9),
@@ -109,12 +111,12 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
 #'
 #' @examples
 #' monash_2
-#' unikn::seecol(monash_2, main = "Secondary colors Monash University") # view color palette
+#' unikn::seecol(monash_2, main = "Secondary colors of Monash University") # view color palette
 #'
 #' @family university color palettes
 #'
 #' @seealso
-#' \code{\link{monash_1}} for primary colors of Monash University; 
+#' \code{\link{monash_1}} for the primary colors of Monash University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

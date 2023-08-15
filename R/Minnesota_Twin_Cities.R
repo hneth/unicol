@@ -1,4 +1,4 @@
-# Minnesota Twin Cities | 2023-07-21
+# Minnesota Twin Cities | 2023 08 15
 # Colors of the University of Minnesota, USA
 # -------------------------------------------
 
@@ -18,9 +18,9 @@
 
 # minnesotatwin_1: Primary colors of UMN ------ 
 
-#' Primary colors of the University of Minnesota
+#' Primary colors of the University of Minnesota Twin Cities, USA 
 #'
-#' \code{minnesotatwin_1} provides the primary colors
+#' \code{minnesotatwin_1} provides the two primary colors
 #' of the \href{https://twin-cities.umn.edu/}{University of Minnesota}, USA.
 #'
 #' The 2 primary colors are
@@ -66,7 +66,7 @@ minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 # minnesotatwin_2: Secondary colors of UMN ------
 
 
-#' Secondary colors of the University of Minnesota Twin Cities
+#' Secondary colors of the University of Minnesota Twin Cities, USA 
 #'
 #' \code{minnesotatwin_2} provides the 8 secondary colors
 #' of the \href{https://twin-cities.umn.edu/}{University of Minnesota Twin Cities}, USA.
@@ -78,7 +78,7 @@ minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 #' \code{"minnesotatwin_medium_grey"} (defined as HEX #777677),
 #' \code{"minnesotatwin_light_maroon"} (defined as HEX #900021),
 #' \code{"minnesotatwin_light_gold"} (defined as HEX #FFDE7A),
-#' \code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A) and
+#' \code{"minnesotatwin_dark_grey"} (defined as HEX #5A5A5A), and
 #' \code{"minnesotatwin_light_grey"} (defined as HEX #D5D6D2).
 #'
 #' \code{minnesotatwin_2} uses the HEX color definitions.
