@@ -298,7 +298,7 @@ We're looking forward to **your inputs and contributions** (at this [GitHub issu
 
 The **unicol** package originated as a collaborative project by the following course:
 
-* **Open Source Software Development in R** (ADILT applications, PSY-18040), at **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
+* **Open Source Software Development in R** (ADILT applications, PSY-18040), at the **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
 * Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426** 
 * Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
 

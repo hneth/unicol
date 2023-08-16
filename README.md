@@ -226,7 +226,7 @@ The **unicol** package originated as a collaborative project by the
 following course:
 
 - **Open Source Software Development in R** (ADILT applications,
-  PSY-18040), at **[University of
+  PSY-18040), at the **[University of
   Konstanz](https://www.uni-konstanz.de/en/)**  
 - Spring/Summer 2023: **Tuesdays**, **13:30—15:00**; in **C426**
 - Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
@@ -269,7 +269,8 @@ A BibTeX entry for LaTeX users is:
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
       note = {R package (version 0.1.0, August 16, 2023)},
-      url = {https://github.com/hneth/unicol/},
+      url = {https://CRAN.R-project.org/package=unicol},
+      doi = {10.5281/zenodo.8252106},
     }
 
 <!-- Copyrights of designs: -->
