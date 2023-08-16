@@ -6,6 +6,10 @@
 \usage{
 unicol.guide()
 }
+\value{
+No return value, called for side effects.
+}
 \description{
-Open the unicol package guides
+\code{unicol.guide} allows accessing the \strong{unicol} package vignettes, 
+which illustrate the package contents and some ways in which these can be used.
 }
