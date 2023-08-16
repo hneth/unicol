@@ -1,4 +1,4 @@
-## NYU.R | 2023 06 15
+## NYU.R | 2023 08 16
 ## Colors of NYU, New York University, USA
 ## -----------------------------------------------
 
@@ -24,7 +24,7 @@
 
 # - nyu_1: Primary colors ------
 
-#' Primary colors of NYU, New York University
+#' Primary colors of New York University (NYU), USA
 #'
 #' \code{nyu_1} provides the four primary colors
 #' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
@@ -73,7 +73,7 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 
 # - nyu_2: Secondary colors ------
 
-#' Secondary  colors of NYU, New York University
+#' Secondary colors of New York University (NYU), USA
 #'
 #' \code{nyu_2} provides the four secondary  colors
 #' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
@@ -82,7 +82,7 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #' \code{"deep_violet"} (defined as CMYK 92/100/23/28, RGB 51/6/98, HEX #330662),
 #' \code{"medium_violet1"} (defined as CMYK 69/96/0/0, RGB 112/43/157, HEX #702B9D),
 #' \code{"medium_violet2"} (defined as CMYK 60/75/0/0, RGB 123/90/166, HEX #7B5AA6),
-#' \code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5) and
+#' \code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5), and
 #' \code{"light_violet2"} (defined as CMYK 5/9/0/0, RGB 238/230/243, HEX #EEE6F3).
 #'
 #' @return
@@ -124,7 +124,7 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 
 # - nyu_neutral: Neutral colors ------
 
-#' Neutral colors of NYU, New York University
+#' Neutral colors of of New York University (NYU), USA 
 #'
 #' \code{nyu_neutral} provides the four neutral colors
 #' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
@@ -134,7 +134,7 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #' \code{"medium_gray1"} (defined as CMYK 58/49/49/16, RGB 109/109/109, HEX #6D6D6D),
 #' \code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #B8B8B8),
 #' \code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #D6D6D6),
-#' \code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2) and
+#' \code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2), and
 #' \code{"white"} (defined as CMYK /0/0/0/0, RGB 255/255/255, HEX #FFFFFF).
 #'
 #' @return
@@ -176,7 +176,7 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 
 # - nyu_accent: Accent colors ------
 
-#' Accent colors of NYU, New York University
+#' Accent colors of New York University (NYU), USA
 #'
 #' \code{nyu_accent} provides the four accent colors
 #' of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
@@ -187,7 +187,7 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #' Accent color are
 #' \code{"teal"} (defined as CMYK 82/16/54/01, RGB 000/156/139, HEX #009B8A),
 #' \code{"magenta"} (defined as CMYK 06/100/19/00, RGB 224/015/120, HEX #FB0F78),
-#' \code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1) and
+#' \code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1), and
 #' \code{"yellow"} (defined as CMYK 07/00/81/00, RGB 244/236/081, HEX #F4EC51).
 #'
 #' @return
