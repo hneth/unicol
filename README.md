@@ -15,17 +15,18 @@
 
 <!-- DESCRIPTION / Mission / Vision: -->
 
-The **unicol** package provides the colors and color palettes of various
-universities for easy plotting and printing in R. We collect and provide
-a diverse range of color palettes for creating scientific
-visualizations.
+Most universities use specific color combinations to express their
+unique brand identity. The **unicol** package provides the colors and
+color palettes of various universities for easy plotting and printing
+in R. We collect and provide a diverse range of color palettes for
+creating scientific visualizations.
 
 <!-- Goal / Objectives: -->
 
 Our primary goal is to make it simple to create beautiful visualizations
-that are in accordance with institutional style guides. Assuming that
-you have some R code for creating an image, the **unicol** allows you to
-directly use the color palette of your institution.
+that are in accordance with institutional regulations and style guides.
+Assuming that you have some R code for creating an image, the **unicol**
+allows you to directly use the color palette of your institution.
 
 ## Installation
 
@@ -232,7 +233,7 @@ A BibTeX entry for LaTeX users is:
       year = {2023},
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
-      note = {R package (version 0.1.0, August 15, 2023)},
+      note = {R package (version 0.1.0, August 16, 2023)},
       url = {https://github.com/hneth/unicol/},
     }
 
@@ -248,6 +249,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-15.\]
+\[File `README.Rmd` updated on 2023-08-16.\]
 
 <!-- eof. -->

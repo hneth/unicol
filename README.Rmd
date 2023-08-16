@@ -38,19 +38,22 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <!-- <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
 <!-- </a> -->
 
-<!-- Slogan: -->
 
+<!-- Slogan: -->
 
 ### The colors of your university {-}
 
+
 <!-- DESCRIPTION / Mission / Vision: -->
 
+Most universities use specific color combinations to express their unique brand identity. 
 The **unicol** package provides the colors and color palettes of various universities for easy plotting and printing in\ R. 
 We collect and provide a diverse range of color palettes for creating scientific visualizations. 
 
+
 <!-- Goal / Objectives: -->
 
-Our primary goal is to make it simple to create beautiful visualizations that are in accordance with institutional style guides. 
+Our primary goal is to make it simple to create beautiful visualizations that are in accordance with institutional regulations and style guides. 
 Assuming that you have some R\ code for creating an image, the **unicol** allows you to directly use the color palette of your institution. 
 
 
