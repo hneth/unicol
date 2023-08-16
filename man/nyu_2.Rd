@@ -3,7 +3,7 @@
 \docType{data}
 \name{nyu_2}
 \alias{nyu_2}
-\title{Secondary  colors of NYU, New York University}
+\title{Secondary colors of New York University (NYU), USA}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -26,7 +26,7 @@ Secondary color are
 \code{"deep_violet"} (defined as CMYK 92/100/23/28, RGB 51/6/98, HEX #330662),
 \code{"medium_violet1"} (defined as CMYK 69/96/0/0, RGB 112/43/157, HEX #702B9D),
 \code{"medium_violet2"} (defined as CMYK 60/75/0/0, RGB 123/90/166, HEX #7B5AA6),
-\code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5) and
+\code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5), and
 \code{"light_violet2"} (defined as CMYK 5/9/0/0, RGB 238/230/243, HEX #EEE6F3).
 }
 \examples{

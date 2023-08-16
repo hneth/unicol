@@ -3,7 +3,7 @@
 \docType{data}
 \name{nyu_accent}
 \alias{nyu_accent}
-\title{Accent colors of NYU, New York University}
+\title{Accent colors of New York University (NYU), USA}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -28,7 +28,7 @@ They can highlight important elements of your communication such as infographics
 Accent color are
 \code{"teal"} (defined as CMYK 82/16/54/01, RGB 000/156/139, HEX #009B8A),
 \code{"magenta"} (defined as CMYK 06/100/19/00, RGB 224/015/120, HEX #FB0F78),
-\code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1) and
+\code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1), and
 \code{"yellow"} (defined as CMYK 07/00/81/00, RGB 244/236/081, HEX #F4EC51).
 }
 \examples{

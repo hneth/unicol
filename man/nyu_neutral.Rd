@@ -3,7 +3,7 @@
 \docType{data}
 \name{nyu_neutral}
 \alias{nyu_neutral}
-\title{Neutral colors of NYU, New York University}
+\title{Neutral colors of of New York University (NYU), USA}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -27,7 +27,7 @@ Neutral color are
 \code{"medium_gray1"} (defined as CMYK 58/49/49/16, RGB 109/109/109, HEX #6D6D6D),
 \code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #B8B8B8),
 \code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #D6D6D6),
-\code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2) and
+\code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2), and
 \code{"white"} (defined as CMYK /0/0/0/0, RGB 255/255/255, HEX #FFFFFF).
 }
 \examples{

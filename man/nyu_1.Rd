@@ -3,7 +3,7 @@
 \docType{data}
 \name{nyu_1}
 \alias{nyu_1}
-\title{Primary colors of NYU, New York University}
+\title{Primary colors of New York University (NYU), USA}
 \format{
 An object of class \code{character} of length 3.
 }
