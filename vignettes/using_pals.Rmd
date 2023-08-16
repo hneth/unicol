@@ -14,6 +14,8 @@ editor_options:
 ---
 
 ```{r setup, include = FALSE}
+org_opt <- options()  # store original user options
+
 options(max.print = "75")
 
 knitr::opts_chunk$set(echo = TRUE,
@@ -107,7 +109,7 @@ unikn::seecol(caltech_1, main = "The colors of Caltech, USA")
 ```
 
 
-```{r plot-par-set, eval = TRUE, echo = FALSE}
+```{r plot-par-set, echo = FALSE}
 opar <- par(no.readonly = TRUE)  # store current settings
 
 par(mar = c(1, 1, 2.1, 1), oma = c(0, 0, 0, 0))  # reduce margins
@@ -135,8 +137,8 @@ plot(x = runif(99), y = runif(99), type = "p",
      main = "99 transparent dots", axes = FALSE, xlab = NA, ylab = NA)
 ```
 
-```{r plot-par-reset, eval = TRUE, echo = FALSE}
-par(opar)  # re-store current settings
+```{r plot-par-reset, echo = FALSE}
+par(opar)  # re-store original user settings
 ```
 
 
@@ -257,5 +259,10 @@ The following vignettes provide an overview of and examples for using the **unic
 | ---: |:---------|:-----------|
 | 1. | [Color palettes](color_pals.html) | The color palettes of the **unicol** R package |
 | 2. | [Using color palettes](using_pals.html) | Recipes for using the **unicol** color palettes |
+
+
+```{r restore-org-options, include = FALSE}
+options(org_opt)  # restore original user options
+```
 
 <!-- eof. -->
