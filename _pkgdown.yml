@@ -13,7 +13,7 @@ authors:
     href: https://www.spds.uni-konstanz.de/hans-neth
 
 development:
-  mode: devel # devel OR release
+  mode: release # devel OR release
 
 # template:
 #   bootstrap: 5
