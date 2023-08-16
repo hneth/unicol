@@ -1,12 +1,24 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
-<!-- badges: start -->
-<!-- badges: end -->
+<!-- Devel badges start: -->
 
-# unicol 0.1.0 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+[![CRAN
+status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
+[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
+<!-- Devel badges end. -->
+
+<!-- Release badges start: -->
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
+<!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
+<!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
+<!-- Release badges end. -->
+
+# unicol 0.1.0.9001 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
-<!-- <a href = "https://github.com/hneth/unicol"> -->
+<!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
 <!-- <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
@@ -30,13 +42,29 @@ allows you to directly use the color palette of your institution.
 
 ## Installation
 
-You can install the development version of **unicol** from
-[GitHub](https://github.com/) with:
+The latest release of **unicol** is available from
+[CRAN](https://CRAN.R-project.org) at
+<https://CRAN.R-project.org/package=unicol>:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("hneth/unicol")
+install.packages('unicol')  # install from CRAN client
+library('unicol')           # load the package
 ```
+
+The current development version can be installed from its
+[GitHub](https://github.com) repository at
+<https://github.com/hneth/unicol/>:
+
+``` r
+# install.packages('devtools')  # install pkg
+devtools::install_github('hneth/unicol')
+```
+
+<!-- Note: unicol is based on unikn -->
+
+The **unicol** package is based on the R package
+**[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
+functionality from it.
 
 ## Usage
 
@@ -140,7 +168,7 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 
 <!-- unicol pkg logo and link: -->
 
-<a href = "https://github.com/hneth/unicol">
+<a href = "https://CRAN.R-project.org/package=unicol">
 <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
@@ -190,7 +218,7 @@ We’re looking forward to **your inputs and contributions** (at this
 
 <!-- Uni Konstanz / uni.kn logo and link: -->
 
-<a href = "https://www.uni-konstanz.de/">
+<a href = "https://www.uni-konstanz.de">
 <img src = "./inst/pix/logo_unikn.png" alt = "uni.kn" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
 </a>
 
@@ -200,7 +228,7 @@ following course:
 - **Open Source Software Development in R** (ADILT applications,
   PSY-18040), at **[University of
   Konstanz](https://www.uni-konstanz.de/en/)**  
-- Spring/Summer 2023: **Tuesdays**, **13:30-15:00**; in **C426**
+- Spring/Summer 2023: **Tuesdays**, **13:30—15:00**; in **C426**
 - Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
   [SPDS](https://www.spds.uni-konstanz.de/), [University of
   Konstanz](https://www.uni-konstanz.de/en/))
@@ -211,11 +239,9 @@ following course:
 <!-- <img src = "./inst/pix/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
 <!-- </a> -->
 
-This package is based on the R package
+The **unicol** package is based on the R package
 **[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
 functionality from it.
-
-<!-- +++ here now +++  -->
 
 ### Citation
 
@@ -223,6 +249,15 @@ To support our efforts, please cite the **unicol** package in your
 derivations or publications.
 
 <!-- Citation / reference (in APA format): -->
+
+- Neth, H. et al. (2023). unicol: The colors of your university.  
+  Social Psychology and Decision Sciences, University of Konstanz,
+  Germany.  
+  Computer software (R package version 0.1.0, August 16, 2023).  
+  Retrieved from <https://CRAN.R-project.org/package=unicol>.  
+  doi [10.5281/zenodo.8252106](https://doi.org/10.5281/zenodo.8252106)
+
+<!-- +++ here now +++  -->
 <!-- BibTeX:  -->
 
 A BibTeX entry for LaTeX users is:

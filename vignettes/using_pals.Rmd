@@ -35,15 +35,16 @@ knitr::opts_chunk$set(echo = TRUE,
 
 # URLs: ------ 
 
-# unikn:
-url_unikn <- "https://www.uni-konstanz.de/"
+# unicol package: 
+url_unicol_cran   <- "https://CRAN.R-project.org/package=unicol"
+url_unicol_github <- "https://github.com/hneth/unicol"
 
+# unikn / Uni Konstanz:
+url_unikn <- "https://www.uni-konstanz.de"
+
+# unikn package: 
 url_unikn_cran   <- "https://CRAN.R-project.org/package=unikn"
 url_unikn_github <- "https://github.com/hneth/unikn"
-
-# unicol: 
-url_unicol_cran   <- "" # "https://CRAN.R-project.org/package=unicol"
-url_unicol_github <- "https://github.com/hneth/unicol" 
 ```
 
 <!-- unikn logo and link: -->
@@ -57,7 +58,7 @@ url_unicol_github <- "https://github.com/hneth/unicol"
 <!-- </a> -->
 
 <!-- unicol pkg logo and link: -->
-<a href = "`r url_unicol_github`">
+<a href = "`r url_unicol_cran`">
 <img src = "../inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
@@ -247,7 +248,7 @@ See the [Color recipes](https://hneth.github.io/unikn/articles/color_recipes.htm
 ## Vignettes
 
 <!-- unicol pkg logo and link: -->
-<a href = "`r url_unicol_github`">
+<a href = "`r url_unicol_cran`">
 <img src = "../inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
