@@ -27,7 +27,9 @@ Changes since last release:
 
 ## Details 
 
-- adjusted DESCRIPTION and CITATION, and README (after CRAN release).
+- fix minor bugs in documentation 
+
+- adjust DESCRIPTION and CITATION, and README (after CRAN release)
 
 
 <!-- Development version:  --> 
