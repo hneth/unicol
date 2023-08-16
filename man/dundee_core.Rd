@@ -230,8 +230,8 @@ Other university color palettes:
 \code{\link{western_uni_1}},
 \code{\link{yale_1}},
 \code{\link{yeshiva}},
-\code{\link{york1}},
-\code{\link{york2}}
+\code{\link{york_1}},
+\code{\link{york_2}}
 }
 \author{
 \strong{unicol}, 2023-06-22.
