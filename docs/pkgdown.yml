@@ -1,0 +1,11 @@
+pandoc: 3.1.1
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  color_pals: color_pals.html
+  using_pals: using_pals.html
+last_built: 2023-08-16T15:19Z
+urls:
+  reference: https://hneth.github.io/unicol/reference
+  article: https://hneth.github.io/unicol/articles
+
