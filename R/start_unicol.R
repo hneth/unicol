@@ -1,4 +1,4 @@
-## start_unicol.R | 2023 08 03
+## start_unicol.R | 2023 08 16
 ## Starting the unicol package
 ## ---------------------------
 
@@ -6,6 +6,12 @@
 # unicol.guide: Open the unicol package guide ------
 
 #' Open the unicol package guides 
+#'
+#' \code{unicol.guide} allows accessing the \strong{unicol} package vignettes, 
+#' which illustrate the package contents and some ways in which these can be used.
+#'
+#' @return 
+#' No return value, called for side effects. 
 #'
 #' @importFrom utils vignette
 #' @importFrom utils browseVignettes
