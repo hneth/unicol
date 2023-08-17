@@ -83,6 +83,7 @@ Other university color palettes:
 \code{\link{edinburgh_1}},
 \code{\link{eth_1}},
 \code{\link{eth_2}},
+\code{\link{example_1}},
 \code{\link{fu_pal_0}},
 \code{\link{fu_pal_1}},
 \code{\link{fu_pal_2}},
