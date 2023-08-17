@@ -1,4 +1,4 @@
-## Irvine.R | 2023 07 24
+## Irvine.R | 2023 08 17
 ## Colors of the University of California, Irvine, USA
 ## ----------------------------------------------------
 
@@ -128,11 +128,11 @@ uci_2 <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f78d2d",
 #' \code{uci_3} provides the 5 tertiary colors of the 
 #' of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
 #'
-#' The 5 teritary colors are
+#' The 5 tertiary colors are
 #' \code{"dark_orange"} (defined as HEX #b71234),
 #' \code{"bright_purple"} (defined as HEX #7c109a),
 #' \code{"turquoise"} (defined as HEX #00b0ca),
-#' \code{"lime_green"} (defined as HEX #7ab800) and 
+#' \code{"lime_green"} (defined as HEX #7ab800), and 
 #' \code{"yellow"} (defined as HEX #fecb00).
 #' 
 #' \code{uci_3} uses the HEX color definitions.
