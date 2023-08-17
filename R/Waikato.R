@@ -4,7 +4,7 @@
 
 
 # Information
-# uni_pals:"waikato" (1)
+# cur_pals:"waikato" (1)
 # inst:"University of Waikato"
 # country: New Zealand
 # URL: "https://www.waikato.ac.nz"

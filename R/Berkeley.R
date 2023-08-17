@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "berkeley_1", "berkeley_2" (2)
+# cur_pals: "berkeley_1", "berkeley_2" (2)
 # inst: "Berkeley, University of California"
 # country: USA
 # URL: "https://www.berkeley.edu"

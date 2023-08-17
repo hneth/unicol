@@ -1,19 +1,23 @@
-## example_pal.R template  |  2023 08 17
+## example_pal.R | 2023 08 17
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
+
+# NOTE: This is a template file for defining new color palettes.
+
+
 # Information: ------
 
-# uni_pals: "example_1" (1)
-# inst: "University of Example" (in English)
-# inst_alt: "Universit\u00E4t des Beispiels"
-# country: Germany
-# Uni URL: "https://www.example.org"
+# cur_pals: "example_1" (1)
 
+# inst: "University of Example" (in English)
+# inst_alt: "Universit\u00E4t des Beispiels" (in source language)
+# inst_URL: "https://www.example.org" (URL of institution)
+# country: Germany
 
 # Color source:
 
-# URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
+# color_URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
 # Page 24 of PDF manual at
 # <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf>
 # Last check: 2023-05-31
@@ -29,10 +33,10 @@
 
 # Defining individual colors (and names):
 
-col_1 <- "white"    # "bright"
-col_2 <- "#AAAAAA"  # "bright grey"
-col_2 <- "#555555"  # "dark grey"
-col_3 <- "black"    # "dark"
+col_1 <- "#E0607E"  # "pinky pink"
+col_2 <- "#CCCCCC"  # "bright grey"
+col_3 <- "#4C4C4C"  # "dark gray"
+col_4 <- "black"    # "too dark"
 
 # etc.
 
@@ -41,7 +45,7 @@ col_3 <- "black"    # "dark"
 # Color palette(s):
 
 
-# - example_1: Primary colors ------
+# - example_1: Primary example palette ------
 
 #' Primary colors of the University of Example, Country 
 #'
@@ -49,10 +53,10 @@ col_3 <- "black"    # "dark"
 #' of the \href{https://example.org/}{University of Example}, Country.
 #'
 #' The 4 primary colors are 
-#' \code{"bright"} (defined as R color \code{"white"}),
-#' \code{"bright grey"} (defined as HEX \code{#AAAAAA}), 
-#' \code{"dark grey"} (defined as HEX \code{#555555}), and
-#' \code{"dark"} (defined as R color \code{"black"}.
+#' \code{"pinky pink"} (defined as HEX \code{"#E0607E"}),
+#' \code{"bright grey"} (defined as HEX \code{"#CCCCCC"}), 
+#' \code{"dark grey"} (defined as HEX \code{"#4C4C4C"}), and
+#' \code{"dark"} (defined as R color \code{"black"} or HEX \code{"#000000"}).
 #'
 #' \code{example_1} uses the HEX color definitions. 
 #'
@@ -69,7 +73,8 @@ col_3 <- "black"    # "dark"
 #' @examples
 #' example_1
 #' unikn::seecol(example_1, main = "Colors of the University of Example 1") # view color palette
-#'
+#' unikn::demopal(example_1, main = "Illustrating the colors of Example 1") # demo color palette 
+#' 
 #' @family university color palettes
 #'
 #' @seealso
@@ -81,8 +86,8 @@ col_3 <- "black"    # "dark"
 #'
 #' @export
 
-example_1 <- unikn::newpal(col = c(col_1, col_2, col_3),
-                           names = c("bright", "middle", "dark"),
+example_1 <- unikn::newpal(col = c(col_1, col_2, col_3, col_4),
+                           names = c("pinky pink", "bright grey", "dark gray", "too dark"),
                            as_df = FALSE)
 
 # # Check: 

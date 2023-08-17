@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "galway_1", "galway_2" (2)
+# cur_pals: "galway_1", "galway_2" (2)
 # inst: "University of Galway" 
 # country: Ireland
 # URL: "https://www.universityofgalway.ie"

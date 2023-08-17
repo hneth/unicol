@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "yale_1" (1)
+# cur_pals: "yale_1" (1)
 # inst: "Yale University"
 # country: USA
 # URL: "https://www.yale.edu"

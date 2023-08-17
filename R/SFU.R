@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "sfu_brand" (1)
+# cur_pals: "sfu_brand" (1)
 # inst: "SFU"
 # inst_alt: "Simon Fraser University"
 # country: Canada

@@ -4,7 +4,7 @@
 
 # Information: ------------------------------
 
-# uni_pals: "ottawa_1" (1)
+# cur_pals: "ottawa_1" (1)
 # inst: "University of Ottawa" (in English)
 # inst_alt: "University of Ottawa"
 # country: Canada

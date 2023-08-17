@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "jhu_0", "jhu_1", "jhu_2", "jhu_3_accent", "jhu_4_gray" (5)
+# cur_pals: "jhu_0", "jhu_1", "jhu_2", "jhu_3_accent", "jhu_4_gray" (5)
 # inst: "JHU, Johns Hopkins University"
 # country: USA
 # URL: "https://www.jhu.edu"

@@ -4,7 +4,7 @@
 
 # Information: ---------------------------------------------
 
-# uni_pals: "mun_1", "mun_2" (2)
+# cur_pals: "mun_1", "mun_2" (2)
 # inst: "Memorial University of Newfoundland" (in English)
 # inst_alt: "Memorial University of Newfoundland"
 # country: Canada

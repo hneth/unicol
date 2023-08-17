@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "manchester_uni_1", "manchester_uni_accent (2)
+# cur_pals: "manchester_uni_1", "manchester_uni_accent (2)
 # inst: "Manchester University"
 # England
 # URL: "https://www.manchester.edu"

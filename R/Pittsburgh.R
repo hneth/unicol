@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "pitt_1", "pitt_2" (2)
+# cur_pals: "pitt_1", "pitt_2" (2)
 # inst: "University of Pittsburgh"
 # inst_alt: "Pittsburgh"
 # country: USA

@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "nyu_1", "nyu_2", "nyu_neutral", "nyu_accent" (4)
+# cur_pals: "nyu_1", "nyu_2", "nyu_neutral", "nyu_accent" (4)
 # inst: "NYU, New York University"
 # country: USA
 # URL: "https://www.nyu.edu"

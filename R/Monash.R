@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "monash_1", "monash_2" (2)
+# cur_pals: "monash_1", "monash_2" (2)
 # inst: "Monash University"
 # country: USA
 # URL: "https://www.monash.edu/"

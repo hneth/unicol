@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_stuttgart_1", "uni_stuttgart_2_print" (2)
+# cur_pals: "uni_stuttgart_1", "uni_stuttgart_2_print" (2)
 # inst: "University of Stuttgart"
 # inst_alt: "Universit\u00E4t Stuttgart"
 # country: Germany

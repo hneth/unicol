@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "mcmaster_heritage", "mcmaster_brighterworld" (2)
+# cur_pals: "mcmaster_heritage", "mcmaster_brighterworld" (2)
 # inst: "McMaster"
 # inst_alt: "McMaster University"
 # country: Canada

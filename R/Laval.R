@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "laval" (1)
+# cur_pals: "laval" (1)
 # inst: "Laval University" (in English)
 # inst_alt: "Université Laval"
 # country: Canada

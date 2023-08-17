@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "birmingham_1" (1)
+# cur_pals: "birmingham_1" (1)
 # inst: "University of Birmingham"
 # inst_alt: "University of Birmingham"
 # country: UK

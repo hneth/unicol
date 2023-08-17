@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "edinburgh_1" (1)
+# cur_pals: "edinburgh_1" (1)
 # inst: "University of Edinburgh"
 # Scotland
 # URL: "https://www.ed.ac.uk/"

@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "caltech_1", "caltech_2", "caltech_3" (3)
+# cur_pals: "caltech_1", "caltech_2", "caltech_3" (3)
 # inst: "Caltech"
 # inst_alt: "California Institute of Technology" 
 # country: USA

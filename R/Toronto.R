@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "toronto_1" (1)
+# cur_pals: "toronto_1" (1)
 # inst: "University of Toronto" (in English)
 # inst_alt: "University of Toronto"
 # country: Canada

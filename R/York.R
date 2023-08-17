@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "york_1","york_2" (1)
+# cur_pals: "york_1","york_2" (1)
 # inst: "York University" (in English)
 # inst_alt: "York University"
 # country: Canada

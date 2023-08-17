@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "harvard_1", "harvard_2", harvard_3 (3)
+# cur_pals: "harvard_1", "harvard_2", harvard_3 (3)
 # inst: "Harvard University"
 # country: USA
 # URL: "https://www.harvard.edu/"

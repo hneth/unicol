@@ -4,7 +4,7 @@
 
 # Information: ------ 
 
-# uni_pals: "guelph" (1)
+# cur_pals: "guelph" (1)
 # inst: "University of Guelph" (in English)
 # inst_alt: "University of Guelph"
 # country: Canada

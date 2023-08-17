@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "CMU_1_core", "CMU_2_tartan", "CMU_3_campus" (3)
+# cur_pals: "CMU_1_core", "CMU_2_tartan", "CMU_3_campus" (3)
 # inst: "CMU, Carnegie Mellon University"
 # country: USA
 # URL: "https://www.cmu.edu"

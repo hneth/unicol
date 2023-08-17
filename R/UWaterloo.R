@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uwaterloo_main", "uwaterloo_arts", "uwaterloo_engineering", "uwaterloo_environment", "uwaterloo_health", "uwaterloo_math", "uwaterloo_science" (7)
+# cur_pals: "uwaterloo_main", "uwaterloo_arts", "uwaterloo_engineering", "uwaterloo_environment", "uwaterloo_health", "uwaterloo_math", "uwaterloo_science" (7)
 # inst: "University of Waterloo"
 # Canada
 # URL: "https://uwaterloo.ca/"

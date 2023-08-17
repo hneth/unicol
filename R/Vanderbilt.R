@@ -4,7 +4,7 @@
 
 # Information: -----
 
-# uni_pals: "vanderbilt_1","vanderbilt_2", "vanderbilt_3"
+# cur_pals: "vanderbilt_1","vanderbilt_2", "vanderbilt_3"
 # inst: "Vanderbilt University"
 # country: USA
 # URL: https://www.vanderbilt.edu/

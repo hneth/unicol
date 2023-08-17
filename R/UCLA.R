@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "UCLA_1", "UCLA_2", "UCLA_3" (3)
+# cur_pals: "UCLA_1", "UCLA_2", "UCLA_3" (3)
 # inst: "UCLA, University of California"
 # country: USA
 # URL: "https://www.ucla.edu"

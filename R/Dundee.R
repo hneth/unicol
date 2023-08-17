@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "dundee_core", "dundee_highlight", "dundee_block", "dundee_background" (4)
+# cur_pals: "dundee_core", "dundee_highlight", "dundee_block", "dundee_background" (4)
 # inst: "University of Dundee"
 # inst_alt: "University of Dundee"
 # country: Scotland, UK

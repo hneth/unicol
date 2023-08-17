@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "limerick_1", "limerick_2" (2)
+# cur_pals: "limerick_1", "limerick_2" (2)
 # inst: "University of Limerick" 
 # country: Ireland
 # URL: "https://www.ul.ie"

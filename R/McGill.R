@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "mcgill_red", "mcgill_pastels", "mcgill_brights", "mcgill_muted", "mcgill_darks", "mcgill_grey" (6)
+# cur_pals: "mcgill_red", "mcgill_pastels", "mcgill_brights", "mcgill_muted", "mcgill_darks", "mcgill_grey" (6)
 # inst: "McGill"
 # inst_alt: "McGill University"
 # country: Canada

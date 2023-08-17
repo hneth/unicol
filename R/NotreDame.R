@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "notredame_1", "notredame_2" (2)
+# cur_pals: "notredame_1", "notredame_2" (2)
 # inst: "University of Notre Dame" 
 # country: USA
 # URL: "https://www.nd.edu"

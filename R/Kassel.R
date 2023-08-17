@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "uni_kassel" (1)
+# cur_pals: "uni_kassel" (1)
 # inst: "University of Kassel" 
 # country: Germany
 # URL: "https://www.uni-kassel.de/uni//"

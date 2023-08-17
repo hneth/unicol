@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "brown_1" , "brown_2" (2)  # ToDo: "brown_metallic" (3)
+# cur_pals: "brown_1" , "brown_2" (2)  # ToDo: "brown_metallic" (3)
 # inst: "Brown University" 
 # inst_alt: "Brown University"
 # country: USA

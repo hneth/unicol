@@ -4,7 +4,7 @@
 
 # Information: -----------
 
-# uni_pals: "yeshiva"
+# cur_pals: "yeshiva"
 # inst: "Yeshiva University"
 # country: USA
 # URL: "https://www.yu.edu/"

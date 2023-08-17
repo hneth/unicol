@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "stanford_1", "stanford_2_accent", stanford_3_web (3)
+# cur_pals: "stanford_1", "stanford_2_accent", stanford_3_web (3)
 # inst: "Stanford University"
 # country: USA
 # URL: "https://www.stanford.edu/"

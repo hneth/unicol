@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "manitoba_1" , "manitoba_2" (2)
+# cur_pals: "manitoba_1" , "manitoba_2" (2)
 # inst: "University of Manitoba" (in English)
 # inst_alt: "University of Manitoba"
 # country: Canada

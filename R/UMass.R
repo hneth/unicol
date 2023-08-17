@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "umass_brand", "umass_2", "umass_neutrals" (3)
+# cur_pals: "umass_brand", "umass_2", "umass_neutrals" (3)
 # inst: "University of Massachusetts Amherst"
 # USA
 # URL: "https://www.umass.edu"

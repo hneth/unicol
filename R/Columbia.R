@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "columbia" (1)
+# cur_pals: "columbia" (1)
 # inst: "Columbia University"
 # country: USA
 # URL: "http://www.columbia.edu"

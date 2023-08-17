@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "UCSD_1_core", "UCSD_2_accent", "UCSD_3_neutral" (3)
+# cur_pals: "UCSD_1_core", "UCSD_2_accent", "UCSD_3_neutral" (3)
 # inst: "UCSD, UCSanDiego, University of California"
 # country: USA
 # URL: "https://www.UCSD.edu"

@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "conc_1", "conc_2", "conc_3", "conc_4" (4)
+# cur_pals: "conc_1", "conc_2", "conc_3", "conc_4" (4)
 # inst: "Concordia University" (in English)
 # inst_alt: "Concordia University"
 # country: Canada

@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "uni_potsdam" (1)
+# cur_pals: "uni_potsdam" (1)
 # inst: "University of Potsdam" 
 # country: Germany
 # URL: "https://www.uni-potsdam.de/"

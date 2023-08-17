@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "northwestern_1", "northwestern_2" (2)
+# cur_pals: "northwestern_1", "northwestern_2" (2)
 # inst: "Northwestern University"
 # country: USA
 # URL: "https://www.northwestern.edu"

@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "michigan_1", "michigan_2" (2)
+# cur_pals: "michigan_1", "michigan_2" (2)
 # inst: "University of Michigan"
 # country: USA
 # URL: "https://umich.edu"

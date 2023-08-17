@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "lancaster_1", "lancaster_2" (2)
+# cur_pals: "lancaster_1", "lancaster_2" (2)
 # inst: "Lancaster University"
 # UK
 # URL: "https://www.lancaster.ac.uk"

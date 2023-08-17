@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uvic_core", "uvic_complementary" (2)
+# cur_pals: "uvic_core", "uvic_complementary" (2)
 # inst: "UVic"
 # inst_alt: "University of Victoria"
 # country: Canada

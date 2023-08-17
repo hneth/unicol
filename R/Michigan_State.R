@@ -5,7 +5,7 @@
 
 # Information: ----
 
-# uni_pals: "msu_pal"
+# cur_pals: "msu_pal"
 # inst: "Michigan State University"
 # country: USA
 # URL: "https://msu.edu/"

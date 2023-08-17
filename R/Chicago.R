@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "chicago_1", "chicago_2" (2)
+# cur_pals: "chicago_1", "chicago_2" (2)
 # inst: "University of Chicago"
 # country: USA
 # URL: "https://www.uchicago.edu/"

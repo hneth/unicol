@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_goettingen_1" "uni_goettingen_2" "uni_goettingen_3" (3)
+# cur_pals: "uni_goettingen_1" "uni_goettingen_2" "uni_goettingen_3" (3)
 # inst: "University of Goettingen"
 # inst_alt: "Universit\u00E4t G\u00F6ttingen"
 # country: Germany

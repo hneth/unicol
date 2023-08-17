@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "bu_1" (1)
+# cur_pals: "bu_1" (1)
 # inst: "Boston University"
 # country: USA
 # URL: "https://www.bu.edu"

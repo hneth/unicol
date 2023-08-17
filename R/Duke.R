@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "duke_1", "duke_2" (2)
+# cur_pals: "duke_1", "duke_2" (2)
 # inst: "Duke University"
 # country: USA
 # URL: "https://duke.edu"

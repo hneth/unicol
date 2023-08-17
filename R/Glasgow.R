@@ -5,7 +5,7 @@
 # Information: 
 
 
-# uni_pals: "glasgow_1", "pal_galsgow_2" (2)
+# cur_pals: "glasgow_1", "pal_galsgow_2" (2)
 # inst: "University of Glasgow"
 # country: Scotland
 # URL: "https://www.gla.ac.uk/"

@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "ucalgary_primary", "ucalgary_secondary", "ucalgary_warmgreys", "ucalgary_accent" (4)
+# cur_pals: "ucalgary_primary", "ucalgary_secondary", "ucalgary_warmgreys", "ucalgary_accent" (4)
 # inst: "UCalgary"
 # inst_alt: "University of Calgary"
 # country: Canada

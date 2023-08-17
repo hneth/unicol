@@ -4,13 +4,14 @@
 
 # Information: ----
 
-# uni_pals: "asu_1", "asu_2", "asu_3" (3)
+# cur_pals: "asu_1", "asu_2", "asu_3" (3)
+
 # inst: "Arizona State University" 
 # country: USA
-# URL: "https://www.asu.edu"
+# inst_URL: "https://www.asu.edu"
 
 # Color source:
-# URL: https://brandguide.asu.edu/brand-elements/design/color
+# color_URL: https://brandguide.asu.edu/brand-elements/design/color
 
 
 # Color palettes:

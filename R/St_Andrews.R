@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "standrews_1", "standrews_2 (2)
+# cur_pals: "standrews_1", "standrews_2 (2)
 # inst: "University of St Andrews"
 # country: UK
 # URL: "https://www.st-andrews.ac.uk/"

@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "Western_uni_1"
+# cur_pals: "Western_uni_1"
 # inst: "Western University"
 # Canada
 # URL: "https://www.uwo.ca"

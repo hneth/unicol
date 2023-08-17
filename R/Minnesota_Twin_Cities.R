@@ -3,7 +3,7 @@
 # -------------------------------------------
 
 # Information
-# uni_pals:"minnesotatwin_1", "minnesotatwin_2" (2)
+# cur_pals:"minnesotatwin_1", "minnesotatwin_2" (2)
 # inst: "University of Minnesota Twin Cities"
 # country: USA
 # URL: "https://twin-cities.umn.edu"

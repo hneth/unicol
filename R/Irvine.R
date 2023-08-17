@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# uni_pals: "uci_1", "uci_2", "uci_3", "uci_4" (4)
+# cur_pals: "uci_1", "uci_2", "uci_3", "uci_4" (4)
 # inst: "University of California, Irvine" 
 # country: USA
 # URL: "https://www.uci.edu"

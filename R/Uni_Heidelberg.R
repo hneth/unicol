@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "uni_heidelberg_1"
+# cur_pals: "uni_heidelberg_1"
 # inst: "University of Heidelberg"
 # inst_alt: "Universit\u00E4t Heidelberg"
 # Germany

@@ -4,7 +4,7 @@
 
 # Information: ------ 
 
-# uni_pals: "carleton_1" (1)
+# cur_pals: "carleton_1" (1)
 # inst: "University of Carleton" (in English)
 # inst_alt: "University of Carleton"
 # country: Canada

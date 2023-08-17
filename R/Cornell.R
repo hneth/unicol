@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "cornell_1", "cornell_2", "cornell_3_accent" (3)
+# cur_pals: "cornell_1", "cornell_2", "cornell_3_accent" (3)
 # inst: "Cornell University"
 # country: USA
 # URL: "https://www.cornell.edu"

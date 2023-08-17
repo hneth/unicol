@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "upenn_1", "upenn_2" (2)
+# cur_pals: "upenn_1", "upenn_2" (2)
 # inst: "UPenn, University of Pennsylvania"
 # country: USA
 # URL: "https://www.upenn.edu/"

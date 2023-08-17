@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "ubc_1" (1)
+# cur_pals: "ubc_1" (1)
 # inst: "University of British Columbia" (in English)
 # inst_alt: "University of British Columbia"
 # country: Canada 

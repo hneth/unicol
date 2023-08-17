@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# uni_pals: "queens_1", "queens_2" (2)
+# cur_pals: "queens_1", "queens_2" (2)
 # inst: "Queen's University"
 # inst_alt: "Queen's University"
 # country: Canada

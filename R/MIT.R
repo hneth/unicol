@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# uni_pals: "mit_pal"
+# cur_pals: "mit_pal"
 # inst: "MIT"
 # inst_alt: "MIT, Massachusetts Institute of Technology"
 # country: USA
