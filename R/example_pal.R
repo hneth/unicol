@@ -20,7 +20,7 @@
 # color_URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
 # Page 24 of PDF manual at
 # <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf>
-# Last check: 2023-05-31
+# Last check: 2023-08-17
 
 
 # Author information:
