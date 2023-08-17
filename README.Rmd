@@ -38,7 +38,6 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
-
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
@@ -46,8 +45,8 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol `r packageVersion('unicol')` <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
+# unicol `r packageVersion('unicol')` <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "`r url_unicol_cran`"> -->
