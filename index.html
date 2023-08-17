@@ -33,7 +33,7 @@
     
     <a class="navbar-brand me-2" href="index.html">unicol</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0.9001</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.1.0.9002</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,15 +42,15 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
-<li class="nav-item">
-  <a class="nav-link" href="reference/index.html">Reference</a>
-</li>
 <li class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
   <div class="dropdown-menu" aria-labelledby="dropdown-articles">
     <a class="dropdown-item" href="articles/color_pals.html">Color palettes</a>
     <a class="dropdown-item" href="articles/using_pals.html">Using color palettes</a>
   </div>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="reference/index.html">Reference</a>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="news/index.html">Changelog</a>
@@ -83,7 +83,7 @@
 <!-- Release badges end. -->
 <div class="section level1">
 <div class="page-header">
-<img src="logo.png" class="logo" alt=""><h1 id="unicol-0109001-">unicol 0.1.0.9001 <a class="anchor" aria-label="anchor" href="#unicol-0109001-"></a>
+<img src="logo.png" class="logo" alt=""><h1 id="unicol-0109002-">unicol 0.1.0.9002 <a class="anchor" aria-label="anchor" href="#unicol-0109002-"></a>
 </h1>
 </div>
 <!-- unicol pkg logo and link: -->
@@ -136,10 +136,10 @@
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
-<p><strong>Figure 1</strong> illustrates 50 random color palettes (with 265 colors):</p>
+<p><strong>Figure 1</strong> illustrates 50 random color palettes (with 251 colors):</p>
 <div class="figure" style="text-align: center">
-<img src="reference/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 265 colors)." width="90%"><p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 265 colors).
+<img src="inst/pix/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%"><p class="caption">
+Figure 1: A sample of 50 unicol palettes (containing 251 colors).
 </p>
 </div>
 </div>
@@ -151,26 +151,26 @@ Figure 1: A sample of 50 unicol palettes (containing 265 colors).
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/barplot.html" class="external-link">barplot</a></span><span class="op">(</span>height <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">10</span>,</span>
 <span>        col <span class="op">=</span> <span class="va">mit_pal</span>, </span>
 <span>        main <span class="op">=</span> <span class="st">"Using the MIT colors"</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-example-base-r-1-1.png" width="600px" style="display: block; margin: auto;"></p>
+<p><img src="inst/pix/README-example-base-r-1-1.png" width="600" style="display: block; margin: auto;"></p>
 <p>To modify a color palette (e.g., by resizing the palette or adding transparency), we use the <code><a href="https://rdrr.io/pkg/unikn/man/usecol.html" class="external-link">usecol()</a></code> function of the <strong><a href="https://CRAN.R-project.org/package=unikn" class="external-link">unikn</a></strong> package:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/barplot.html" class="external-link">barplot</a></span><span class="op">(</span>height <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html" class="external-link">sqrt</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">16</span><span class="op">)</span>, </span>
 <span>        col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/unikn/man/usecol.html" class="external-link">usecol</a></span><span class="op">(</span><span class="va">mit_pal</span>, n <span class="op">=</span> <span class="fl">16</span><span class="op">)</span>, </span>
 <span>        main <span class="op">=</span> <span class="st">"A color gradient of MIT colors"</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-example-base-r-2-1.png" width="600px" style="display: block; margin: auto;"></p>
+<p><img src="inst/pix/README-example-base-r-2-1.png" width="600" style="display: block; margin: auto;"></p>
 <!-- More examples: -->
 <p>Here are some some additional examples how the color palettes from <strong>unicol</strong> can be used:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Viewing a color palette:</span></span>
 <span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/seecol.html" class="external-link">seecol</a></span><span class="op">(</span><span class="va">yale_1</span>, main <span class="op">=</span> <span class="st">"The primary colors of Yale University"</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-examples-unicol-1.png" width="600px" style="display: block; margin: auto;"></p>
+<p><img src="inst/pix/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;"></p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Demo plots:</span></span>
 <span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/demopal.html" class="external-link">demopal</a></span><span class="op">(</span><span class="va">berkeley_1</span>, type <span class="op">=</span> <span class="fl">2</span>, main <span class="op">=</span> <span class="st">"The colors of Berkeley, University of California"</span>, seed <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-examples-unicol-2.png" width="600px" style="display: block; margin: auto;"></p>
+<p><img src="inst/pix/README-examples-unicol-2.png" width="600" style="display: block; margin: auto;"></p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/demopal.html" class="external-link">demopal</a></span><span class="op">(</span><span class="va">limerick_1</span>, type <span class="op">=</span> <span class="fl">3</span>, main <span class="op">=</span> <span class="st">"Using the colors of the University of Limerick"</span>, seed <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span></code></pre></div>
-<p><img src="reference/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;"></p>
+<p><img src="inst/pix/README-examples-unicol-3.png" width="600" style="display: block; margin: auto;"></p>
 <!-- ## Adding color palettes -->
 <!-- Collecting contributed color palettes (in unicol): -->
 </div>
@@ -200,7 +200,7 @@ Figure 1: A sample of 50 unicol palettes (containing 265 colors).
 <div class="section level2">
 <h2 id="resources">Resources<a class="anchor" aria-label="anchor" href="#resources"></a>
 </h2>
-<p>The following versions of <strong>unicol</strong> and corresponding resources are currently available:</p>
+<p>The following versions of <strong>unicol</strong> and corresponding resources are available:</p>
 <table class="table">
 <colgroup>
 <col width="20%">
@@ -286,7 +286,7 @@ doi <a href="https://doi.org/10.5281/zenodo.8252106" class="external-link">10.5
 <!-- ## Contact -->
 <!-- ToDo: Add contact details here. -->
 <hr>
-<!-- Footer: --><p>[File <code>README.Rmd</code> updated on 2023-08-16.]</p>
+<!-- Footer: --><p>[File <code>README.Rmd</code> updated on 2023-08-17.]</p>
 <!-- eof. -->
 </div>
 </div>
@@ -336,14 +336,7 @@ doi <a href="https://doi.org/10.5281/zenodo.8252106" class="external-link">10.5
 </ul>
 </div>
 
-<div class="dev-status">
-<h2 data-toc-skip>Dev status</h2>
-<ul class="list-unstyled">
-<li><a href="https://CRAN.R-project.org/package=unicol" class="external-link"><img src="https://www.r-pkg.org/badges/version/unicol" alt="CRAN status"></a></li>
-<li><a href="https://www.r-pkg.org/pkg/unicol" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/unicol" alt="Downloads/month"></a></li>
-<li><a href="https://doi.org/10.5281/zenodo.8252106" class="external-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg" alt="DOI"></a></li>
-</ul>
-</div>
+
 
   </aside>
 </div>
