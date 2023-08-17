@@ -23,10 +23,10 @@ of the \href{https://example.org/}{University of Example}, Country.
 }
 \details{
 The 4 primary colors are 
-\code{"bright"} (defined as R color \code{"white"}),
-\code{"bright grey"} (defined as HEX \code{#AAAAAA}), 
-\code{"dark grey"} (defined as HEX \code{#555555}), and
-\code{"dark"} (defined as R color \code{"black"}.
+\code{"pinky pink"} (defined as HEX \code{"#E0607E"}),
+\code{"bright grey"} (defined as HEX \code{"#CCCCCC"}), 
+\code{"dark grey"} (defined as HEX \code{"#4C4C4C"}), and
+\code{"dark"} (defined as R color \code{"black"} or HEX \code{"#000000"}).
 
 \code{example_1} uses the HEX color definitions.
 }
