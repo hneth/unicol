@@ -1,25 +1,4 @@
-## _pkgdown.yml | unicol
-## 2023 08 16
-## -------------------------
-
-## site info: ----------
-
-title: unicol
-
 url: https://hneth.github.io/unicol/
+template:
+  bootstrap: 5
 
-authors:
-  Hansjoerg Neth:
-    href: https://www.spds.uni-konstanz.de/hans-neth
-
-development:
-  mode: devel # devel OR release
-
-# template:
-#   bootstrap: 5
-#   bootswatch: lumen
-
-toc:
-  depth: 3
-
-## eof. ----------

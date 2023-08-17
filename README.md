@@ -210,6 +210,20 @@ the following information:
 We’re looking forward to **your inputs and contributions** (at this
 [GitHub issue](https://github.com/hneth/unicol/issues/30))!
 
+## Resources
+
+The following versions of **unicol** and corresponding resources are
+currently available:
+
+| Type:                      | Version:                                                     | URL:                                        |
+|:---------------------------|:-------------------------------------------------------------|:--------------------------------------------|
+| A. **unicol** (R package): | [Release version](https://CRAN.R-project.org/package=unicol) | <https://CRAN.R-project.org/package=unicol> |
+|                            | [Development version](https://github.com/hneth/unicol/)      | <https://github.com/hneth/unicol/>          |
+| B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)           | <https://hneth.github.io/unicol/>           |
+|                            | [Development version](https://hneth.github.io/unicol/dev/)   | <https://hneth.github.io/unicol/dev/>       |
+
+<!-- +++ here now +++  -->
+
 ## References
 
 <!-- Origin / Background / Credit / Course coordinates: -->
@@ -257,7 +271,6 @@ derivations or publications.
   Retrieved from <https://CRAN.R-project.org/package=unicol>.  
   doi [10.5281/zenodo.8252106](https://doi.org/10.5281/zenodo.8252106)
 
-<!-- +++ here now +++  -->
 <!-- BibTeX:  -->
 
 A BibTeX entry for LaTeX users is:
