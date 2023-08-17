@@ -247,6 +247,24 @@ following course:
   [SPDS](https://www.spds.uni-konstanz.de/), [University of
   Konstanz](https://www.uni-konstanz.de/en/))
 
+### License
+
+<!-- License: CC BY-SA 4.0 (also in Description) -->
+<!-- Image with link: -->
+
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt = "Creative Commons License" align = "right" style = "border-width:0; float: right;" src = "https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+<!-- Text with links: -->
+
+<span xmlns:dct="https://purl.org/dc/terms/"
+property="dct:title"><strong>unicol</strong></span> (created by
+<a xmlns:cc="https://creativecommons.org/ns#" href="https://github.com/hneth/unikn" property="cc:attributionName" rel="cc:attributionURL">Hansjörg
+Neth et al.</a>) is licensed under a
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative
+Commons Attribution-ShareAlike 4.0 International License</a>. (Based on
+a work at
+<a xmlns:dct="https://purl.org/dc/terms/" href="https://github.com/hneth/unicol" rel="dct:source">https://github.com/hneth/unicol</a>).
+
 <!-- Relation to unikn:: -->
 <!-- unikn pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
