@@ -8,6 +8,7 @@ development:
 
 template:
   bootstrap: 5
+  bootswatch: spacelab # sandstone flatly 
 
 toc:
   depth: 3
