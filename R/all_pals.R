@@ -93,7 +93,9 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "western_uni_1 <-", 
               "yale_1 <-", 
               "yeshiva <-", 
-              "york_1 <-", "york_2 <-"
+              "york_1 <-", "york_2 <-",
+              # Contributed color palettes: 
+              "groningen_1", "groningen_2"
 )
 
 
@@ -188,7 +190,9 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Western University", 1),
           rep("Yale University", 1),
           rep("Yeshiva University", 1),
-          rep("York University", 2)
+          rep("York University", 2), 
+          # Contributed color palettes: 
+          rep("University of Groningen", 2)
 )
 
 
@@ -277,7 +281,9 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Western University", 1),
               rep("Yale University", 1),
               rep("Yeshiva University", 1),
-              rep("York University", 2)
+              rep("York University", 2),
+              # Contributed color palettes: 
+              rep("Rijksuniversiteit Groningen", 2)
 )
 
 
@@ -366,14 +372,17 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.uwo.ca", 1),
          rep("https://www.yale.edu", 1),
          rep("https://www.yu.edu", 1),
-         rep("https://www.yorku.ca", 2)
+         rep("https://www.yorku.ca", 2),
+         # Contributed color palettes: 
+         rep("https://www.rug.nl", 2)
 )
 
 
 # Collect all_data (as data frame): ------
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
-# dim(all_data)  # 202 4  2023-08-04
+# dim(all_data)  # 202 4  2023-08-15
+# dim(all_data)  # 204 4  2023-08-17
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
