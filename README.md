@@ -101,7 +101,7 @@ palettes and institutions.)
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%" />
+<img src="inst/pix/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%" />
 <p class="caption">
 Figure 1: A sample of 50 unicol palettes (containing 251 colors).
 </p>
@@ -122,7 +122,7 @@ barplot(height = 1:10,
         main = "Using the MIT colors")
 ```
 
-<img src="man/figures/README-example-base-r-1-1.png" width="600px" style="display: block; margin: auto;" />
+<img src="inst/pix/README-example-base-r-1-1.png" width="600" style="display: block; margin: auto;" />
 
 To modify a color palette (e.g., by resizing the palette or adding
 transparency), we use the `usecol()` function of the
@@ -134,7 +134,7 @@ barplot(height = 1/sqrt(1:16),
         main = "A color gradient of MIT colors")
 ```
 
-<img src="man/figures/README-example-base-r-2-1.png" width="600px" style="display: block; margin: auto;" />
+<img src="inst/pix/README-example-base-r-2-1.png" width="600" style="display: block; margin: auto;" />
 
 <!-- More examples: -->
 
@@ -146,20 +146,20 @@ Here are some some additional examples how the color palettes from
 unikn::seecol(yale_1, main = "The primary colors of Yale University")
 ```
 
-<img src="man/figures/README-examples-unicol-1.png" width="600px" style="display: block; margin: auto;" />
+<img src="inst/pix/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;" />
 
 ``` r
 # Demo plots:
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 ```
 
-<img src="man/figures/README-examples-unicol-2.png" width="600px" style="display: block; margin: auto;" />
+<img src="inst/pix/README-examples-unicol-2.png" width="600" style="display: block; margin: auto;" />
 
 ``` r
 unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
 
-<img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
+<img src="inst/pix/README-examples-unicol-3.png" width="600" style="display: block; margin: auto;" />
 
 <!-- ## Adding color palettes -->
 <!-- Collecting contributed color palettes (in unicol): -->

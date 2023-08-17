@@ -5,13 +5,17 @@ output: github_document
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  fig.align = "center", 
-  out.width = "600px"
-)
+# Set default chunk options: 
+knitr::opts_chunk$set(collapse = TRUE,
+                      comment = "#>",
+                      message = FALSE,
+                      warning = FALSE, 
+                      # Default figure options:
+                      fig.align = "center", 
+                      fig.path = "inst/pix/README-",
+                      out.width = "600")
+
+library(unicol)  # load package
 
 # URLs: ------ 
 
