@@ -1,4 +1,20 @@
+## _pkgdown.yml unicol | 2023 08 17
+## --------------------------------
+
 url: https://hneth.github.io/unicol/
+
+development:
+  mode: devel # devel OR release
+
 template:
   bootstrap: 5
 
+toc:
+  depth: 3
+
+navbar:
+  structure:
+    left:  [intro, articles, reference, news]
+    right: [search, github]
+
+# eof.
