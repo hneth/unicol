@@ -49,17 +49,17 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 
 <!-- unikn logo and link: -->
 <!-- <a href = "`r url_unikn`"> -->
-<!-- <img src = "../inst/pix/logo_unikn.png" alt = "unikn::" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/> -->
+<!-- <img src = "../man/figures/logo_unikn.png" alt = "unikn::" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 <!-- unikn pkg logo and link: -->
 <!-- <a href = "`r url_unikn_cran`"> -->
-<!-- <img src = "../inst/pix/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- <img src = "../man/figures/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_cran`">
-<img src = "../inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "../man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 
@@ -218,7 +218,7 @@ ggplot2::ggplot(my_data, aes(x = X, y = Y, fill = Group)) +
 <!-- Image from README (as HTML link): -->
 
 <!-- <p style="text-align:center;"> -->
-<!-- <img src = "./../inst/pix/README-usecol-ggplot2-1.png" alt = "pal_unikn" style = "width: 450px; border:10;"/> -->
+<!-- <img src = "./../man/figures/README-usecol-ggplot2-1.png" alt = "pal_unikn" style = "width: 450px; border:10;"/> -->
 <!-- </p> -->
 
 
@@ -249,7 +249,7 @@ See the [Color recipes](https://hneth.github.io/unikn/articles/color_recipes.htm
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_cran`">
-<img src = "../inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "../man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 The following vignettes provide an overview of and examples for using the **unicol** color palettes: 

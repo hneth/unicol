@@ -15,11 +15,11 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9002 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.1.0.9002 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
-<!-- <img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
+<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
 
@@ -101,7 +101,7 @@ palettes and institutions.)
 
 <div class="figure" style="text-align: center">
 
-<img src="inst/pix/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 265 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 265 colors)." width="90%" />
 <p class="caption">
 Figure 1: A sample of 50 unicol palettes (containing 265 colors).
 </p>
@@ -122,7 +122,7 @@ barplot(height = 1:10,
         main = "Using the MIT colors")
 ```
 
-<img src="inst/pix/README-example-base-r-1-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-example-base-r-1-1.png" width="600" style="display: block; margin: auto;" />
 
 To modify a color palette (e.g., by resizing the palette or adding
 transparency), we use the `usecol()` function of the
@@ -134,7 +134,7 @@ barplot(height = 1/sqrt(1:16),
         main = "A color gradient of MIT colors")
 ```
 
-<img src="inst/pix/README-example-base-r-2-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-example-base-r-2-1.png" width="600" style="display: block; margin: auto;" />
 
 <!-- More examples: -->
 
@@ -146,20 +146,20 @@ Here are some some additional examples how the color palettes from
 unikn::seecol(yale_1, main = "The primary colors of Yale University")
 ```
 
-<img src="inst/pix/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;" />
 
 ``` r
 # Demo plots:
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 ```
 
-<img src="inst/pix/README-examples-unicol-2.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-2.png" width="600" style="display: block; margin: auto;" />
 
 ``` r
 unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
 
-<img src="inst/pix/README-examples-unicol-3.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-3.png" width="600" style="display: block; margin: auto;" />
 
 <!-- ## Adding color palettes -->
 <!-- Collecting contributed color palettes (in unicol): -->
@@ -169,7 +169,7 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://CRAN.R-project.org/package=unicol">
-<img src = "./inst/pix/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 The current range of color palettes included in **unicol** is selective
@@ -192,7 +192,7 @@ a corresponding example.
 <!-- ToDo: -->
 
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./inst/pix/todo.png" alt = "unicol::todo" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
 If you do create a new color palette, **please let us know** (on this
@@ -233,7 +233,7 @@ available:
 <!-- Uni Konstanz / uni.kn logo and link: -->
 
 <a href = "https://www.uni-konstanz.de">
-<img src = "./inst/pix/logo_unikn.png" alt = "uni.kn" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
+<img src = "./man/figures/logo_unikn.png" alt = "uni.kn" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
 </a>
 
 The **unicol** package originated as a collaborative project by the
@@ -268,7 +268,7 @@ a work at
 <!-- Relation to unikn:: -->
 <!-- unikn pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
-<!-- <img src = "./inst/pix/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+<!-- <img src = "./man/figures/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 The **unicol** package is based on the R package
