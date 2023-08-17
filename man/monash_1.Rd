@@ -22,8 +22,8 @@ A named vector of colors (HEX/HTML codes of type character).
 of \href{https://www.monash.edu/}{Monash University}, USA.
 }
 \details{
-The primay colour palette is preferred. 
-The use of greys (tints of black) are welcomed.
+The primary color palette is preferred. 
+The use of grays (tints of black) are welcomed.
 Primary colors are
 \code{"white"} (defined as HEX #FFFFFF),
 \code{"monash_blue"} (defined as HEX #006DAE),

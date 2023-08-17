@@ -7,7 +7,7 @@
 # cur_pals: "monash_1", "monash_2" (2)
 # inst: "Monash University"
 # country: USA
-# URL: "https://www.monash.edu/"
+# URL: "https://www.monash.edu"
 
 # Color source:
 
@@ -31,8 +31,8 @@
 #' \code{monash_1} provides the six primary colors
 #' of \href{https://www.monash.edu/}{Monash University}, USA.
 #'
-#' The primay colour palette is preferred. 
-#' The use of greys (tints of black) are welcomed.
+#' The primary color palette is preferred. 
+#' The use of grays (tints of black) are welcomed.
 #' Primary colors are
 #' \code{"white"} (defined as HEX #FFFFFF),
 #' \code{"monash_blue"} (defined as HEX #006DAE),
