@@ -1,5 +1,5 @@
 
-# unicol 0.1.0.9001
+# unicol 0.1.0.9002
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
@@ -20,16 +20,18 @@ Changes since last release:
 
 ## Minor changes 
 
-- none yet.
+- rename some color palettes
+
+- fix bugs in documentation of color palettes
 
 
 <!-- Details:  --> 
 
 ## Details 
 
-- fix minor bugs in documentation 
+- add online documentation at <https://hneth.github.io/unicol/>
 
-- adjust DESCRIPTION and CITATION, and README (after CRAN release)
+- update DESCRIPTION and CITATION, and README after CRAN release
 
 
 <!-- Development version:  --> 
@@ -50,6 +52,6 @@ The **unicol** package currently provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-16.] 
+[File `NEWS.md` updated on 2023-08-17.] 
 
 <!-- eof. -->
