@@ -1,12 +1,10 @@
-## old_pals.R | 2023 08 10
+## old_pals.R | 2023 08 17
 ## Old color palettes (from unikn)
 ## -------------------------------
 
 # Define colors and color palettes of various institutions.
 # (Export color palettes as vectors, rather than data frames.)
 
-
-# +++ here now +++
 
 
 # ETH Zurich / Eidgenössische Technische Hochschule, Zürich, CH: ------
