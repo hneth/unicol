@@ -166,19 +166,13 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 
 ## Your color palettes
 
-<!-- unicol pkg logo and link: -->
+The current range of color palettes included in **unicol** is highly
+selective and incomplete. However, we are happy to include color
+palettes and institutions from all over the world.
 
-<a href = "https://CRAN.R-project.org/package=unicol">
-<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
-</a>
-
-The current range of color palettes included in **unicol** is selective
-and incomplete. We are always happy to include new color palettes and
-institutions from all over the world.
-
-If you are missing a color palette, you can easily create it. For
-instructions how this can be done, please see the documentation of the
-`newpal()` function (of the
+If you are missing a color palette, you can easily create and add it.
+For instructions on how this can be done, please see the documentation
+of the `newpal()` function (of the
 **[unikn](https://CRAN.R-project.org/package=unikn)** package). The
 vignette on [Institutional
 colors](https://hneth.github.io/unikn/articles/color_inst.html) provides
@@ -186,8 +180,14 @@ a corresponding example.
 
 **Call for contributions: Collecting color palettes**
 
-- Are you using the **unikn** color functions to create **your own color
+- Are you using the **unikn** functions to create **your own color
   palettes**?
+
+If you do, **please let us know** (e.g., on this [GitHub
+issue](https://github.com/hneth/unicol/issues/30)) so that we can
+include it in future versions of the **unicol** package. To enable us to
+verify and provide credit to your contributions, please send us the
+following information:
 
 <!-- ToDo: -->
 
@@ -195,20 +195,17 @@ a corresponding example.
 <img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
 </a>
 
-If you do create a new color palette, **please let us know** (on this
-[GitHub issue](https://github.com/hneth/unicol/issues/30)) so that we
-can include it in future versions of the **unicol** package. To enable
-us to verify and provide credit to your contributions, please send us
-the following information:
-
 1.  your code (e.g., the `newpal()` command creating your color
     palette),  
-2.  your reference or source information (e.g., some URL with color
-    definitions),  
-3.  your name and some contact information (e.g., an Email address).
+2.  your reference or source information (e.g., the names of the
+    institution and some URL with color definitions),  
+3.  your name and some valid contact information (e.g., an Email
+    address).
 
-We’re looking forward to **your inputs and contributions** (at this
-[GitHub issue](https://github.com/hneth/unicol/issues/30))!
+We’re looking forward to **your inputs and contributions** (at [this
+GitHub issue](https://github.com/hneth/unicol/issues/30))!
+
+<!-- +++ here now +++  -->
 
 ## Resources
 
@@ -222,14 +219,10 @@ available:
 | B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)           | <https://hneth.github.io/unicol/>           |
 |                            | [Development version](https://hneth.github.io/unicol/dev/)   | <https://hneth.github.io/unicol/dev/>       |
 
-<!-- +++ here now +++  -->
-
 ## References
 
 <!-- Origin / Background / Credit / Course coordinates: -->
-
-### Origin
-
+<!-- Origin:  -->
 <!-- Uni Konstanz / uni.kn logo and link: -->
 
 <a href = "https://www.uni-konstanz.de">
@@ -276,6 +269,12 @@ The **unicol** package is based on the R package
 functionality from it.
 
 ### Citation
+
+<!-- unicol pkg logo and link: -->
+
+<a href = "https://CRAN.R-project.org/package=unicol">
+<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+</a>
 
 To support our efforts, please cite the **unicol** package in your
 derivations or publications.
