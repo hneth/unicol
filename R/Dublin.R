@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# unipals: "trinity_1", "trinity_2" (2)
+# uni_pals: "trinity_1", "trinity_2" (2)
 # inst: "Trinity College Dublin" 
 # country: Ireland
 # URL: "https://www.tcd.ie"

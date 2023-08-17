@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# unipals: "dartmouth_1", "dartmouth_2", "dartmouth_3" (3)
+# uni_pals: "dartmouth_1", "dartmouth_2", "dartmouth_3" (3)
 # inst: "Dartmouth College" 
 # country: USA
 # URL: "https://home.dartmouth.edu"

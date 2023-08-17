@@ -4,7 +4,7 @@
 
 # Information: ----
 
-# unipals: "uflorida_1", "uflorida_2", "uflorida_3" (3)
+# uni_pals: "uflorida_1", "uflorida_2", "uflorida_3" (3)
 # inst: "University of Florida" 
 # country: USA
 # URL: "https://www.ufl.edu/"

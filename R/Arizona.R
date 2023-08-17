@@ -1,10 +1,10 @@
-## Arizona.R | 2023 07 13
+## Arizona.R | 2023 08 17
 ## Colors of the Arizona State University, USA
 ## -------------------------------------------
 
 # Information: ----
 
-# unipals: "asu_1", "asu_2", "asu_3" (3)
+# uni_pals: "asu_1", "asu_2", "asu_3" (3)
 # inst: "Arizona State University" 
 # country: USA
 # URL: "https://www.asu.edu"
