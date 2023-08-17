@@ -5,7 +5,7 @@
 \alias{example_1}
 \title{Primary colors of the University of Example, Country}
 \format{
-An object of class \code{character} of length 3.
+An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the 
@@ -33,6 +33,7 @@ The 4 primary colors are
 \examples{
 example_1
 unikn::seecol(example_1, main = "Colors of the University of Example 1") # view color palette
+unikn::demopal(example_1, main = "Illustrating the colors of Example 1") # demo color palette 
 
 }
 \seealso{
