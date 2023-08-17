@@ -287,7 +287,7 @@ We're looking forward to **your inputs and contributions** (at this [GitHub issu
 
 ## Resources
 
-The following versions of **unicol** and corresponding resources are currently available: 
+The following versions of **unicol** and corresponding resources are available: 
 
 Type:                      | Version:           | URL:                           |         
 :--------------------------|:-------------------|:-------------------------------| 

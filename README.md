@@ -15,7 +15,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9001 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.1.0.9002 <img src = "inst/pix/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -97,13 +97,13 @@ palettes and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 265 colors):
+**Figure 1** illustrates 50 random color palettes (with 251 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 265 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 251 colors)." width="90%" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 265 colors).
+Figure 1: A sample of 50 unicol palettes (containing 251 colors).
 </p>
 
 </div>
@@ -213,7 +213,7 @@ We’re looking forward to **your inputs and contributions** (at this
 ## Resources
 
 The following versions of **unicol** and corresponding resources are
-currently available:
+available:
 
 | Type:                      | Version:                                                     | URL:                                        |
 |:---------------------------|:-------------------------------------------------------------|:--------------------------------------------|
@@ -298,6 +298,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-16.\]
+\[File `README.Rmd` updated on 2023-08-17.\]
 
 <!-- eof. -->
