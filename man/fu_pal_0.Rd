@@ -22,7 +22,7 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany.
 }
 \details{
-The dark \code{"FU blue"} implies consistency, seriosity and respect. 
+The dark \code{"FU blue"} implies consistency, seriousness, and respect. 
 It is defined as Pantone 280C 
 and approximated by CMYK 100/72/0/18.5, RGB 0/51/102, and HEX #003366.
 

@@ -319,7 +319,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' \code{fu_pal_0} provides the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
-#' The dark \code{"FU blue"} implies consistency, seriosity and respect. 
+#' The dark \code{"FU blue"} implies consistency, seriousness, and respect. 
 #' It is defined as Pantone 280C 
 #' and approximated by CMYK 100/72/0/18.5, RGB 0/51/102, and HEX #003366.
 #' 
