@@ -15,7 +15,7 @@ Changes since last release:
 
 - New color palettes: 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2`
-    - ... 
+    - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon`  
 
 
 <!-- Minor changes: --> 
