@@ -206,6 +206,7 @@ Other university color palettes:
 \code{\link{uni_koeln_2}},
 \code{\link{uni_konstanz_1}},
 \code{\link{uni_konstanz_2}},
+\code{\link{uni_lisbon}},
 \code{\link{uni_manchester_1}},
 \code{\link{uni_mannheim_1}},
 \code{\link{uni_mannheim_2}},
