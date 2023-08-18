@@ -95,7 +95,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "yeshiva <-", 
               "york_1 <-", "york_2 <-",
               # Contributed color palettes: 
-              "groningen_1", "groningen_2"
+              "groningen_1", "groningen_2",
+              "uni_lisbon"
 )
 
 
@@ -192,7 +193,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Yeshiva University", 1),
           rep("York University", 2), 
           # Contributed color palettes: 
-          rep("University of Groningen", 2)
+          rep("University of Groningen", 2),
+          "University of Lisbon"
 )
 
 
@@ -283,7 +285,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Yeshiva University", 1),
               rep("York University", 2),
               # Contributed color palettes: 
-              rep("Rijksuniversiteit Groningen", 2)
+              rep("Rijksuniversiteit Groningen", 2),
+              "Universidade de Lisboa"
 )
 
 
@@ -374,7 +377,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.yu.edu", 1),
          rep("https://www.yorku.ca", 2),
          # Contributed color palettes: 
-         rep("https://www.rug.nl", 2)
+         rep("https://www.rug.nl", 2),
+         "https://www.ulisboa.pt"
 )
 
 
