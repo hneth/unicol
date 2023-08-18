@@ -15,7 +15,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9002 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.1.0.9003 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -118,7 +118,7 @@ function of the base R **graphics** package) as follows:
 
 ``` r
 barplot(height = 1:10,
-        col = mit_pal, 
+        col = mit, 
         main = "Using the MIT colors")
 ```
 
@@ -130,7 +130,7 @@ transparency), we use the `usecol()` function of the
 
 ``` r
 barplot(height = 1/sqrt(1:16), 
-        col = usecol(mit_pal, n = 16), 
+        col = usecol(mit, n = 16), 
         main = "A color gradient of MIT colors")
 ```
 
@@ -315,6 +315,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-17.\]
+\[File `README.Rmd` updated on 2023-08-18.\]
 
 <!-- eof. -->
