@@ -4,10 +4,10 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
-[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
+<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
@@ -79,8 +79,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **204 color palettes** from
-**87 institutions**.
+The **unicol** package currently provides **205 color palettes** from
+**88 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
@@ -92,7 +92,7 @@ palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **204\ color palettes** from **87\ institutions**.  -->
+<!-- The **unicol** package currently contains **205\ color palettes** from **88\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->

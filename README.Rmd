@@ -33,9 +33,10 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 
 <!-- Devel badges start: -->
 [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
-[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
+
+<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -288,8 +289,8 @@ We're looking forward to **your inputs and contributions** (at [this GitHub issu
 
 The following versions of **unicol** and corresponding resources are available: 
 
-Type:                      | Version:           | URL:                           |         
-:--------------------------|:-------------------|:-------------------------------| 
+Type:                         | Version:        | URL:                           |         
+:-----------------------------|:----------------|:-------------------------------| 
 A. **unicol** (R package): | [Release version](https://CRAN.R-project.org/package=unicol)  | <https://CRAN.R-project.org/package=unicol> |
     &nbsp;                 | [Development version](https://github.com/hneth/unicol/)       | <https://github.com/hneth/unicol/> | 
 B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)            | <https://hneth.github.io/unicol/> | 
