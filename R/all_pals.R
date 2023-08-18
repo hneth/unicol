@@ -1,4 +1,4 @@
-## all_pals.R | 2022 08 17
+## all_pals.R | 2022 08 18
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -8,10 +8,10 @@
 # Meta-information on all color palettes: -----
 
 uni_pals <- c("eth_1", "eth_2", "eth_3",
-              "fu_pal_0", "fu_pal_1", "fu_pal_2", "fu_pal_3",
-              "hu_pal_1", "hu_pal_2",
-              "lmu_pal_1", "lmu_pal_2", "lmu_pal_3",
-              "mpg_pal",
+              "fu_0", "fu_1", "fu_2", "fu_3",
+              "hu_1", "hu_2",
+              "lmu_1", "lmu_2", "lmu_3",
+              "mpg",
               "uni_bonn_1", "uni_bonn_2",
               "uni_freiburg_0", "uni_freiburg_1", "uni_freiburg_2",
               "uni_freiburg_br", "uni_freiburg_blue", "uni_freiburg_grey", "uni_freiburg_info",
@@ -24,8 +24,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "princeton_0", "princeton_1", "princeton_2",
               "uni_regensburg_1", "uni_regensburg_2", "uni_regensburg_3",
               "uni_ulm_1", "uni_ulm_2",
-              "rpi_pal_1", "rpi_pal_2", "rpi_pal_3",
-              "rptu_pal",
+              "rpi_1", "rpi_2", "rpi_3",
+              "rptu",
               "asu_1 <-", "asu_2 <-", "asu_3 <-", 
               "berkeley_1 <-", "berkeley_2 <-", 
               "birmingham_1 <-", 
@@ -60,9 +60,9 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "mcgill_red <-", "mcgill_pastels <-", "mcgill_brights <-", "mcgill_muted <-", "mcgill_darks <-", "mcgill_grey <-", 
               "mcmaster_heritage <-", "mcmaster_brighterworld <-", 
               "michigan_1 <-", "michigan_2 <-", 
-              "msu_pal <-", 
+              "msu <-", 
               "minnesotatwin_1 <-", "minnesotatwin_2 <-", 
-              "mit_pal <-", 
+              "mit <-", 
               "monash_1 <-", "monash_2 <-", 
               "mun_1 <-", "mun_2 <-", 
               "northwestern_1 <-", "northwestern_2 <-", 

@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# cur_pals: "mit_pal"
+# cur_pals: "mit"
 # inst: "MIT"
 # inst_alt: "MIT, Massachusetts Institute of Technology"
 # country: USA
@@ -51,22 +51,22 @@ col_lightgray_PMS420 <- "#C2C0BF"
 # Color palette(s):
 
 
-# - mit_pal: Primary colors ------
+# - mit: Primary colors ------
 
 #' Primary colors of the MIT (Massachusetts Institute of Technology), USA
 #'
-#' \code{mit_pal} provides the three primary colors
+#' \code{mit} provides the three primary colors
 #' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA, 
 #' plus a secondary light gray color. 
 #'
 #' The three primary colors are
-#' \code{"black"}, 
-#' \code{"red"} (defined as PMS 201, RGB 163/31/52, HEX #A31F34), and 
-#' \code{"gray"} (defined as PMS 424, RGB 138/139/140, HEX #8A8B8C). 
+#' \code{"black"} (corresponding to RGB 0 0 0 and HEX #000000), 
+#' \code{"red"} (defined as PMS 201, RGB 163 31 52, HEX #A31F34), and 
+#' \code{"gray"} (defined as PMS 424, RGB 138 139 140, HEX #8A8B8C). 
 #'
 #' The secondary color 
-#' \code{"lightgray"} (defined as PMS 420, RGB 194/192/191, HEX #C2C0BF)
-#' is used for contrast reasons.
+#' \code{"lightgray"} (defined as PMS 420, RGB 194 192 191, HEX #C2C0BF)
+#' is used for contrast reasons. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -79,8 +79,8 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' \href{https://web.mit.edu/graphicidentity/colors.html}{Color manual (HTML)}.
 #'
 #' @examples
-#' mit_pal
-#' unikn::seecol(mit_pal, main = "MIT, Massachusetts Institute of Technology") # view color palette
+#' mit
+#' unikn::seecol(mit, main = "MIT, Massachusetts Institute of Technology") # view color palette
 #'
 #' @family university color palettes
 #'
@@ -93,12 +93,12 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #'
 #' @export
 
-mit_pal <- unikn::newpal(col = c("black", col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
-                         names = c("black", "MIT_red (PMS 201)", "MIT_gray (PMS 424)", "MIT_lightgray (PMS 420)"),
-                         as_df = FALSE)
+mit <- unikn::newpal(col = c("black", col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
+                     names = c("black", "MIT_red (PMS 201)", "MIT_gray (PMS 424)", "MIT_lightgray (PMS 420)"),
+                     as_df = FALSE)
 
 # # Check:
-# unikn::seecol(mit_pal, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
+# unikn::seecol(mit, main = "Primary colors of MIT, Massachusetts Institute of Technology", col_bg = "white")
 
 
 ## ToDo: -------- 

@@ -1,11 +1,11 @@
-## Michigan_State.R | 2023 07 21
+## Michigan_State.R | 2023 08 18
 ## Colors of Michigan State University, USA
 ## ----------------------------------------
 
 
 # Information: ----
 
-# cur_pals: "msu_pal"
+# cur_pals: "msu"
 # inst: "Michigan State University"
 # country: USA
 # URL: "https://msu.edu/"
@@ -17,14 +17,14 @@
 
 # Color palettes:
 
-# - msu_pal: 6 core colors ------
+# - msu: 6 core colors of Michigan State University ------
 
-# Colors of Michigan State University, USA
+#  Core colors of Michigan State University, USA
 #'
-#' \code{msu_pal} provides the six colors of 
+#' \code{msu} provides the six core colors of 
 #' \href{https://msu.edu/}{Michigan State University}, USA.
 #'
-#' The 6 colors are 
+#' The 6 core colors are 
 #' \code{"msu_spartan_green"} (defined as HEX #18453B),
 #' \code{"white"} (defined as HEX #FFFFFF),
 #' \code{"black"} (defined as HEX #000000),
@@ -32,7 +32,7 @@
 #' \code{"msu_lime_green"} (defined as HEX #7BBD00), and
 #' \code{"msu_excellence_green"} (defined as HEX #0B9A6D).
 #'
-#' \code{msu_pal} uses the HEX color definitions.
+#' \code{msu} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -45,8 +45,8 @@
 #' \href{https://brand.msu.edu/visual/color-palette}{MSU's brand guide}.
 #' 
 #' @examples 
-#' msu_pal
-#' unikn::seecol(msu_pal, main = "Michigan State University") # view color palette
+#' msu
+#' unikn::seecol(msu, main = "Michigan State University") # view color palette
 #' 
 #' @family university color palettes
 #' 
@@ -59,17 +59,17 @@
 #' 
 #' @export
 
-msu_pal <- unikn::newpal(col = c("#18453B", 
-                                 "#FFFFFF", "#000000", 
-                                 "#008208", "#7BBD00", "#0B9A6D"),
-                         names = c("msu_spartan_green", 
-                                   "white","black", 
-                                   "msu_kelly_green", "msu_lime_green","msu_excellence_green"), 
-                         as_df = FALSE)
+msu <- unikn::newpal(col = c("#18453B", 
+                             "#FFFFFF", "#000000", 
+                             "#008208", "#7BBD00", "#0B9A6D"),
+                     names = c("msu_spartan_green", 
+                               "white","black", 
+                               "msu_kelly_green", "msu_lime_green","msu_excellence_green"), 
+                     as_df = FALSE)
 
 
 ## Check:
-# unikn::seecol(msu_pal, main = "colors of the Michigan State University")
+# unikn::seecol(msu, main = "colors of the Michigan State University")
 
 
 # ToDo:-----

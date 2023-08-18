@@ -1,4 +1,4 @@
-## old_pals.R | 2023 08 17
+## old_pals.R | 2023 08 18
 ## Old color palettes (from unikn)
 ## -------------------------------
 
@@ -312,11 +312,11 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 
 # unikn::seecol(fu_col_1, main = "Primary colors of FU Berlin")
 
-# - fu_pal_0: Primary colors ----
+# - fu_0: Two primary colors of FU Berlin ----
 
 #' Primary colors of the Free University (FU) Berlin, Germany 
 #'
-#' \code{fu_pal_0} provides the two primary colors 
+#' \code{fu_0} provides the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
 #' The dark \code{"FU blue"} implies consistency, seriousness, and respect. 
@@ -327,7 +327,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' It is is defined as Pantone 381C 
 #' and approximated by CMYK 18.5/0/91/0, RGB 153/204/0, and HEX #99CC00. 
 #' 
-#' See \code{\link{fu_pal_1}} for a corresponding color gradient.
+#' See \code{\link{fu_1}} for a corresponding color gradient.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -340,16 +340,16 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
 #' 
 #' @examples
-#' fu_pal_0
-#' unikn::seecol(fu_pal_0, main = "Primary colors of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_pal_0, type = 1, main = "Primary colors of the FU Berlin")
+#' fu_0
+#' unikn::seecol(fu_0, main = "Primary colors of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_0, type = 1, main = "Primary colors of the FU Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_pal_1}} for a corresponding color gradient of the FU Berlin;
-#' \code{\link{fu_pal_2}} for secondary colors of the FU Berlin; 
-#' \code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_1}} for a corresponding color gradient of the FU Berlin;
+#' \code{\link{fu_2}} for secondary colors of the FU Berlin; 
+#' \code{\link{fu_3}} for a blue color gradient of the FU Berlin;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -358,7 +358,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' 
 #' @export
 
-fu_pal_0 <- fu_col_1
+fu_0 <- fu_col_1
 
 
 # Sekundärfarben
@@ -406,14 +406,14 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 # unikn::seecol(fu_greys, main = "Shades of grey colors of FU Berlin")
 
 
-# - fu_pal_2: Secondary and grey colors ----
+# - fu_2: Secondary and grey colors of the FU Berlin ----
 
 #' Secondary and grey colors of the Free University (FU) Berlin, Germany 
 #'
-#' \code{fu_pal_2} provides the three accent colors and seven grey colors  
+#' \code{fu_2} provides the three accent colors and seven grey colors  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
-#' The three accent colors support the two primary colors of \code{\link{fu_pal_0}} 
+#' The three accent colors support the two primary colors of \code{\link{fu_0}} 
 #' but should not dominate the overall impression. 
 #' 
 #' @return 
@@ -427,16 +427,16 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
 #' 
 #' @examples
-#' fu_pal_2
-#' unikn::seecol(fu_pal_2, main = "Secondary colors of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_pal_2, type = 5, main = "Accent and grey colors of the FU Berlin")
+#' fu_2
+#' unikn::seecol(fu_2, main = "Secondary colors of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_2, type = 5, main = "Accent and grey colors of the FU Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_pal_0}} for primary colors of the FU Berlin; 
-#' \code{\link{fu_pal_1}} for a corresponding color gradient of the FU Berlin;
-#' \code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_0}} for primary colors of the FU Berlin; 
+#' \code{\link{fu_1}} for a corresponding color gradient of the FU Berlin;
+#' \code{\link{fu_3}} for a blue color gradient of the FU Berlin;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -445,7 +445,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' 
 #' @export
 
-fu_pal_2 <- c(fu_accent, fu_greys)
+fu_2 <- c(fu_accent, fu_greys)
 
 
 # Abstufungen der Hauptfarbe Blau
@@ -474,14 +474,14 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 # unikn::seecol(fu_blues, main = "Shades of blue colors of FU Berlin")
 
 
-# - fu_pal_3: Blue color gradient ----
+# - fu_3: Blue color gradient of the FU Berlin ----
 
 #' Blue color gradient of the Free University (FU) Berlin, Germany 
 #'
-#' \code{fu_pal_3} provides a gradient of the blue primary color  
+#' \code{fu_3} provides a gradient of the blue primary color  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
-#' See \code{\link{fu_pal_0}} for the two primary colors and 
+#' See \code{\link{fu_0}} for the two primary colors and 
 #' the \code{\link{ac}} and \code{\link{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
@@ -496,16 +496,16 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
 #' 
 #' @examples
-#' fu_pal_3
-#' unikn::seecol(fu_pal_3, main = "Blue color gradient of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_pal_3, type = 3, main = "Blue color gradient of the FU Berlin")
+#' fu_3
+#' unikn::seecol(fu_3, main = "Blue color gradient of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_3, type = 3, main = "Blue color gradient of the FU Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_pal_0}} for primary colors of the FU Berlin;
-#' \code{\link{fu_pal_1}} for primary color gradient of the FU Berlin; 
-#' \code{\link{fu_pal_2}} for secondary colors of the FU Berlin; 
+#' \code{\link{fu_0}} for primary colors of the FU Berlin;
+#' \code{\link{fu_1}} for primary color gradient of the FU Berlin; 
+#' \code{\link{fu_2}} for secondary colors of the FU Berlin; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -514,7 +514,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' 
 #' @export
 
-fu_pal_3 <- fu_blues
+fu_3 <- fu_blues
 
 
 # Abmischungen der Hauptfarben Blau und Grün
@@ -538,14 +538,14 @@ fu_pal_3 <- fu_blues
 # unikn::seecol(fu_blue_green, main = "Gradient from blue to green colors of FU Berlin")
 
 
-# - fu_pal_1: Primary color gradient ----
+# - fu_1: Primary color gradient of the FU Berlin ----
 
 #' Primary color gradient of the Free University (FU) Berlin, Germany 
 #'
-#' \code{fu_pal_1} provides a gradient of the two primary colors 
+#' \code{fu_1} provides a gradient of the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
-#' See \code{\link{fu_pal_0}} for the two primary colors and 
+#' See \code{\link{fu_0}} for the two primary colors and 
 #' the \code{\link{ac}} or \code{\link{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
@@ -560,16 +560,16 @@ fu_pal_3 <- fu_blues
 #' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
 #' 
 #' @examples
-#' fu_pal_1
-#' unikn::seecol(fu_pal_1, main = "Primary color gradient of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_pal_1, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
+#' fu_1
+#' unikn::seecol(fu_1, main = "Primary color gradient of the FU Berlin")  # view color palette
+#' unikn::demopal(fu_1, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_pal_0}} for primary colors of the FU Berlin;
-#' \code{\link{fu_pal_2}} for secondary colors of the FU Berlin; 
-#' \code{\link{fu_pal_3}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_0}} for primary colors of the FU Berlin;
+#' \code{\link{fu_2}} for secondary colors of the FU Berlin; 
+#' \code{\link{fu_3}} for a blue color gradient of the FU Berlin;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -578,15 +578,15 @@ fu_pal_3 <- fu_blues
 #' 
 #' @export
 
-fu_pal_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
-                                  "#0F425B", "#1E5151", "#2D6047", 
-                                  "#3D703D", "#4C7F33", "#5B8E28", 
-                                  "#6B9E1E", "#7AAD14", "#89BC0A", 
-                                  "#99CC00"), # = fu_green
-                          names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
-                          as_df = FALSE)
+fu_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
+                              "#0F425B", "#1E5151", "#2D6047", 
+                              "#3D703D", "#4C7F33", "#5B8E28", 
+                              "#6B9E1E", "#7AAD14", "#89BC0A", 
+                              "#99CC00"), # = fu_green
+                      names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
+                      as_df = FALSE)
 
-# unikn::seecol(fu_pal_1, main = "Blue/green color gradient of the FU Berlin")
+# unikn::seecol(fu_1, main = "Blue/green color gradient of the FU Berlin")
 
 
 # HU Berlin / Humboldt University Berlin: ------
@@ -611,11 +611,11 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 # unikn::seecol(rev(shades_of(21, HU_0))[-1], main = "20 shades of HU blau")
 
 
-# - hu_pal_1: Primary colors ---- 
+# - hu_1: Primary colors of the HU Berlin ---- 
 
 #' Primary colors of the Humboldt University (HU) Berlin, Germany 
 #'
-#' \code{hu_pal_1} provides the three primary colors 
+#' \code{hu_1} provides the three primary colors 
 #' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
 #' 
 #' The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
@@ -634,14 +634,14 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}. 
 #' 
 #' @examples
-#' hu_pal_1
-#' # unikn::seecol(hu_pal_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
-#' unikn::demopal(hu_pal_1, type = 1, main = "Colors of Humboldt University Berlin")
+#' hu_1
+#' # unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
+#' unikn::demopal(hu_1, type = 1, main = "Colors of Humboldt University Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{hu_pal_2}} for secondary colors of the HU Berlin;  
+#' \code{\link{hu_2}} for secondary colors of the HU Berlin;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -650,11 +650,11 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' 
 #' @export
 
-hu_pal_1 <- unikn::newpal(col = c(HU_0, "white", "black"),
-                          names = c("HU blau", "weiss", "schwarz"), 
-                          as_df = FALSE)
+hu_1 <- unikn::newpal(col = c(HU_0, "white", "black"),
+                      names = c("HU blau", "weiss", "schwarz"), 
+                      as_df = FALSE)
 
-# unikn::seecol(hu_pal_1, n = 3)
+# unikn::seecol(hu_1, n = 3)
 
 
 # Farbklima
@@ -701,11 +701,11 @@ HU_4 <- rgb(209, 209, 194, names = "graugruen", maxColorValue = 255)
 HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 
 
-# - hu_pal_2: Secondary colors ---- 
+# - hu_2: Secondary colors of the HU Berlin ---- 
 
 #' Secondary colors of the Humboldt University (HU) Berlin, Germany 
 #'
-#' \code{hu_pal_2} provides the primary (blue) color with five corresponding colors 
+#' \code{hu_2} provides the primary (blue) color with five corresponding colors 
 #' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
 #' 
 #' The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
@@ -724,14 +724,14 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}. 
 #' 
 #' @examples
-#' hu_pal_2
-#' unikn::seecol(hu_pal_2, main = "The colors of HU Berlin")  # view color palette
-#' unikn::demopal(hu_pal_2, type = 3, main = "Colors of Humboldt University Berlin")
+#' hu_2
+#' unikn::seecol(hu_2, main = "The colors of HU Berlin")  # view color palette
+#' unikn::demopal(hu_2, type = 3, main = "Colors of Humboldt University Berlin")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{hu_pal_1}} for primary colors of the HU Berlin;  
+#' \code{\link{hu_1}} for primary colors of the HU Berlin;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -740,11 +740,11 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' 
 #' @export
 
-hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
-                          names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
-                          as_df = FALSE)
+hu_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
+                      names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
+                      as_df = FALSE)
 
-# unikn::seecol(hu_pal_2)
+# unikn::seecol(hu_2)
 
 
 
@@ -767,21 +767,21 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 # Pantone	348 C/U	  -	        -
 # HKS	    HKS 57
 
-# - lmu_pal_1: Primary colors ---- 
+# - lmu_1: Primary colors of LMU ---- 
 
 #' Primary colors of the LMU Munich, Germany 
 #'
-#' \code{lmu_pal_1} provides the three primary colors 
+#' \code{lmu_1} provides the three primary colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
 #' 
 #' The color \code{"LMU gruen"} is defined as Pantone	348 C/U, RGB 0.136.58, or HEX	\code{#00883A}.
 #' Other approximations include CMYK 100/0/95/15 or HKS 57. 
 #' 
 #' # Combining primary and secondary LMU colors:
-#' lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
+#' lmu_pal_bipolor <- c(lmu_1[-2], rev(lmu_2), lmu_1[2])
 #' unikn::demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 #' 
-#' lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
+#' lmu_pal_linear <- c(lmu_1[-3], lmu_2, lmu_1[3])
 #' unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 #' 
 #' @return 
@@ -795,15 +795,15 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' \href{https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designgrundsaetze/farben/index.html}{LMU brand guide}. 
 #' 
 #' @examples
-#' lmu_pal_1
-#' unikn::seecol(lmu_pal_1, main = "The primary colors of LMU München")  # view color palette 
-#' unikn::demopal(lmu_pal_1, type = 3, main = "Primary colors of LMU Munich")
+#' lmu_1
+#' unikn::seecol(lmu_1, main = "The primary colors of LMU München")  # view color palette 
+#' unikn::demopal(lmu_1, type = 3, main = "Primary colors of LMU Munich")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{lmu_pal_2}} for secondary colors of the LMU Munich; 
-#' \code{\link{lmu_pal_3}} for accent colors of the LMU Munich;  
+#' \code{\link{lmu_2}} for secondary colors of the LMU Munich; 
+#' \code{\link{lmu_3}} for accent colors of the LMU Munich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -812,14 +812,14 @@ hu_pal_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' 
 #' @export
 
-lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
-                           names = c("LMU gruen", "LMU schwarz", "weiss"),
-                           as_df = FALSE)
+lmu_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
+                       names = c("LMU gruen", "LMU schwarz", "weiss"),
+                       as_df = FALSE)
 
-# unikn::seecol(lmu_pal_1, main = "Primary colors of LMU")
+# unikn::seecol(lmu_1, main = "Primary colors of LMU")
 
 
-# - lmu_pal_2: Secondary colors ---- 
+# - lmu_2: Secondary colors of LMU ---- 
 
 # Sekundärfarben
 #
@@ -833,10 +833,10 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 
 #' Secondary colors of the LMU Munich, Germany 
 #'
-#' \code{lmu_pal_2} provides four secondary colors 
+#' \code{lmu_2} provides four secondary colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
 #' 
-#' The secondary colors of \code{lmu_pal_2} are used to support the primary colors of \code{\link{lmu_pal_1}}. 
+#' The secondary colors of \code{lmu_2} are used to support the primary colors of \code{\link{lmu_1}}. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -849,22 +849,22 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' \href{https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designgrundsaetze/farben/index.html}{LMU brand guide}. 
 #' 
 #' @examples
-#' lmu_pal_2
-#' unikn::seecol(lmu_pal_2, main = "The secondary/grey colors of the LMU München")
-#' unikn::demopal(lmu_pal_2, type = 5, main = "Secondary/gray colors of LMU Munich")
+#' lmu_2
+#' unikn::seecol(lmu_2, main = "The secondary/grey colors of the LMU München")
+#' unikn::demopal(lmu_2, type = 5, main = "Secondary/gray colors of LMU Munich")
 #'
 #' # Combining primary and secondary LMU colors:
-#' lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
+#' lmu_pal_bipolor <- c(lmu_1[-2], rev(lmu_2), lmu_1[2])
 #' unikn::demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 #' 
-#' lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
+#' lmu_pal_linear <- c(lmu_1[-3], lmu_2, lmu_1[3])
 #' unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 #' 
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{lmu_pal_1}} for primary colors of the LMU Munich; 
-#' \code{\link{lmu_pal_3}} for accent colors of the LMU Munich;  
+#' \code{\link{lmu_1}} for primary colors of the LMU Munich; 
+#' \code{\link{lmu_3}} for accent colors of the LMU Munich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -873,18 +873,18 @@ lmu_pal_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' 
 #' @export
 
-lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
-                           names = c("dunkelgrau", "mittelgrau", "hellgrau", "lichtgrau"),
-                           as_df = FALSE)
+lmu_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
+                       names = c("dunkelgrau", "mittelgrau", "hellgrau", "lichtgrau"),
+                       as_df = FALSE)
 
-# unikn::seecol(lmu_pal_2, main = "Secondary colors of LMU")
+# unikn::seecol(lmu_2, main = "Secondary colors of LMU")
 
 # Combinations:
 # 
-# lmu_pal_bipolor <- c(lmu_pal_1[-2], rev(lmu_pal_2), lmu_pal_1[2])
+# lmu_pal_bipolor <- c(lmu_1[-2], rev(lmu_2), lmu_1[2])
 # demopal(lmu_pal_bipolor, type = "mosaic", main = "Bipolar colors of LMU")
 # 
-# lmu_pal_linear <- c(lmu_pal_1[-3], lmu_pal_2, lmu_pal_1[3])
+# lmu_pal_linear <- c(lmu_1[-3], lmu_2, lmu_1[3])
 # demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 
 
@@ -904,16 +904,16 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 # RGB	  15.25.135	100.59.227	140.64.145	215.25.25	241.135.0
 # CMYK	100/75/0/20	100/0/0/0	55/85/0/0	5/100/100/0	0/55/100/0
 
-# - lmu_pal_3: Accent colors ---- 
+# - lmu_3: Accent colors ---- 
 
 #' Accent colors of the LMU Munich, Germany 
 #'
-#' \code{lmu_pal_3} provides five accent colors 
+#' \code{lmu_3} provides five accent colors 
 #' of the \href{https://www.lmu.de/en/index.html}{Ludwig-Maximilians-Universität München}, Germany. 
 #' 
-#' The accent colors of \code{lmu_pal_3} are used sparsely in combination with 
-#' the primary colors of \code{\link{lmu_pal_1}} and 
-#' the secondary colors of \code{\link{lmu_pal_2}}. 
+#' The accent colors of \code{lmu_3} are used sparsely in combination with 
+#' the primary colors of \code{\link{lmu_1}} and 
+#' the secondary colors of \code{\link{lmu_2}}. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -926,15 +926,15 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' \href{https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/kommunikation-und-presse/lmu-brand-guide/designgrundsaetze/farben/index.html}{LMU brand guide}. 
 #' 
 #' @examples
-#' lmu_pal_3
-#' unikn::seecol(lmu_pal_3, main = "Accent colors of the LMU München")  # view color palette 
-#' unikn::demopal(lmu_pal_3, type = 3, main = "Accent colors of LMU Munich")
+#' lmu_3
+#' unikn::seecol(lmu_3, main = "Accent colors of the LMU München")  # view color palette 
+#' unikn::demopal(lmu_3, type = 3, main = "Accent colors of LMU Munich")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{lmu_pal_1}} for primary colors of the LMU Munich; 
-#' \code{\link{lmu_pal_2}} for secondary colors of the LMU Munich;  
+#' \code{\link{lmu_1}} for primary colors of the LMU Munich; 
+#' \code{\link{lmu_2}} for secondary colors of the LMU Munich;  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -943,11 +943,11 @@ lmu_pal_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' 
 #' @export
 
-lmu_pal_3 <- unikn::newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "#F18700"),
-                           names = c("blau", "cyan", "violett", "rot", "orange"),
-                           as_df = FALSE)
+lmu_3 <- unikn::newpal(col = c("#0F1987", "#009FE3", "#8C4091", "#D71919", "#F18700"),
+                       names = c("blau", "cyan", "violett", "rot", "orange"),
+                       as_df = FALSE)
 
-# unikn::seecol(lmu_pal_3, main = "Accent colors of LMU")
+# unikn::seecol(lmu_3, main = "Accent colors of LMU")
 
 
 # Max Planck Society / Max-Planck-Gesellschaft (MPG): ------
@@ -974,20 +974,20 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 
 # unikn::seecol(c(mpg_green_2, "white", rev(mpg_grey_2)))
 
-# - mpg_pal: ---- 
+# - mpg: ---- 
 
 #' Default colors of the Max-Planck-Gesellschaft (MPG), Germany
 #'
-#' \code{mpg_pal} provides the default color palette 
+#' \code{mpg} provides the default color palette 
 #' of the \href{https://www.mpg.de/en}{Max Planck Society}, Germany. 
 #' 
-#' The two primary colors are at the extreme positions of \code{mpg_pal}: 
+#' The two primary colors are at the extreme positions of \code{mpg}: 
 #' \enumerate{
-#' \item \code{MPG green} (at \code{mpg_pal[1]}): Defined as \code{Pantone 328}, \code{CMYK 100/0/57/30}, or \code{RGB 17/102/86}.
-#' \item \code{MPG grey} (at \code{mpg_pal[5]}): Defined as \code{Pantone 427}, \code{CMYK 0/0/6/15}, or \code{RGB 221/222/214}.
+#' \item \code{MPG green} (at \code{mpg[1]}): Defined as \code{Pantone 328}, \code{CMYK 100/0/57/30}, or \code{RGB 17/102/86}.
+#' \item \code{MPG grey} (at \code{mpg[5]}): Defined as \code{Pantone 427}, \code{CMYK 0/0/6/15}, or \code{RGB 221/222/214}.
 #' }
 #' 
-#' At \code{mpg_pal[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
+#' At \code{mpg[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
 #' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
 #' for creating color gradients. 
 #' 
@@ -1002,13 +1002,13 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' \url{https://docplayer.org/2328711-Max-planck-institut-das-erscheinungsbild-der-max-planck-gesellschaft-4-ueberarbeitete-auflage.html}. 
 #' 
 #' @examples
-#' mpg_pal
-#' unikn::seecol(mpg_pal, main = "Colors of the Max Planck Society")  # view color palette 
-#' unikn::demopal(mpg_pal, type = 1, main = "Using the MPG colors")
+#' mpg
+#' unikn::seecol(mpg, main = "Colors of the Max Planck Society")  # view color palette 
+#' unikn::demopal(mpg, type = 1, main = "Using the MPG colors")
 #' 
 #' # Extended version:
-#' mpg_pal_11 <- unikn::usecol(c(mpg_pal, "black"), n = 11)
-#' unikn::demopal(mpg_pal_11, type = 4, seed = 1, main = "An extended MPG palette")
+#' mpg_11 <- unikn::usecol(c(mpg, "black"), n = 11)
+#' unikn::demopal(mpg_11, type = 4, seed = 1, main = "An extended MPG palette")
 #' 
 #' @family university color palettes
 #'
@@ -1021,9 +1021,9 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' 
 #' @export
 
-mpg_pal <- unikn::newpal(col = c(mpg_green_2, "white", rev(mpg_grey_2)), 
-                         names = c("MPG green", "MPG green 50%", "white", "MPG grey 50%", "MPG grey"),
-                         as_df = FALSE)
+mpg <- unikn::newpal(col = c(mpg_green_2, "white", rev(mpg_grey_2)), 
+                     names = c("MPG green", "MPG green 50%", "white", "MPG grey 50%", "MPG grey"),
+                     as_df = FALSE)
 
 
 # Uni Bonn: ------
@@ -1078,7 +1078,7 @@ ub_gelb_4 <- unikn::usecol(c(ub_gelb, "white"), n = 5)[1:4]
 ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 
 
-# - uni_bonn_1: Primary colors ----
+# - uni_bonn_1: Primary colors of Uni Bonn ----
 
 #' Primary colors of the University of Bonn, Germany 
 #'
@@ -1140,7 +1140,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 # unikn::seecol(uni_bonn_1, main = "Primary colors of Uni Bonn")
 
 
-# - uni_bonn_2: Gradients ----
+# - uni_bonn_2: Gradients of Uni Bonn ----
 
 #' Gradient colors of the University of Bonn, Germany 
 #'
@@ -3272,7 +3272,7 @@ uni_ulm_2 <- unikn::newpal(col = c(UU_blau, UU_rot, UU_gruen, UU_orange),
 # Source: <https://scer.rpi.edu/brand-in-action/colors>
 # 2022-12-01
 
-# - rpi_pal_1: Primary use colors of RPI ---- 
+# - rpi_1: Primary use colors of RPI ---- 
 
 # Primary Use Colors
 #
@@ -3317,12 +3317,12 @@ rpi_2 <- "#54585a"
 
 #' Primary colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
-#' \code{rpi_pal_1} provides the primary colors of the 
+#' \code{rpi_1} provides the primary colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
 #' 
 #' These colors represent the core colors and should provide the foundation for the palette used. 
-#' Their usage should dominate the use of the secondary colors of \code{\link{rpi_pal_2}} 
-#' and their tint variants of \code{\link{rpi_pal_3}}.
+#' Their usage should dominate the use of the secondary colors of \code{\link{rpi_2}} 
+#' and their tint variants of \code{\link{rpi_3}}.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -3335,15 +3335,15 @@ rpi_2 <- "#54585a"
 #' \url{https://scer.rpi.edu/brand-in-action/colors}. 
 #' 
 #' @examples
-#' rpi_pal_1
-#' unikn::seecol(rpi_pal_1, main = "The primary colors of RPI")  # view color palette
-#' unikn::demopal(rpi_pal_1, type = 3, main = "Primary colors of RPI")
+#' rpi_1
+#' unikn::seecol(rpi_1, main = "The primary colors of RPI")  # view color palette
+#' unikn::demopal(rpi_1, type = 3, main = "Primary colors of RPI")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{rpi_pal_2}} for secondary colors of RPI; 
-#' \code{\link{rpi_pal_3}} for tint colors of RPI; 
+#' \code{\link{rpi_2}} for secondary colors of RPI; 
+#' \code{\link{rpi_3}} for tint colors of RPI; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -3352,14 +3352,14 @@ rpi_2 <- "#54585a"
 #' 
 #' @export
 
-rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"), 
-                           names = c("RPI primary red", "RPI light gray", "RPI dark gray", "black", "white"), 
-                           as_df = FALSE)
+rpi_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"), 
+                       names = c("RPI primary red", "RPI light gray", "RPI dark gray", "black", "white"), 
+                       as_df = FALSE)
 
-# unikn::seecol(rpi_pal_1, main = "Primary Use Colors of RPI")
+# unikn::seecol(rpi_1, main = "Primary Use Colors of RPI")
 
 
-# - rpi_pal_2: Secondary use colors of RPI ---- 
+# - rpi_2: Secondary use colors of RPI ---- 
 
 # Secondary Use Colors
 #
@@ -3372,14 +3372,14 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 
 #' Secondary colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
-#' \code{rpi_pal_2} provides the secondary use colors of the 
+#' \code{rpi_2} provides the secondary use colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
 #' 
-#' The colors of \code{rpi_pal_2} should be used in combination with  
-#' the primary colors of \code{\link{rpi_pal_1}} to add color accents 
+#' The colors of \code{rpi_2} should be used in combination with  
+#' the primary colors of \code{\link{rpi_1}} to add color accents 
 #' to digital and print materials. 
 #' 
-#' \code{\link{rpi_pal_3}} provides tint variants of these colors. 
+#' \code{\link{rpi_3}} provides tint variants of these colors. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -3392,15 +3392,15 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' \url{https://scer.rpi.edu/brand-in-action/colors}. 
 #' 
 #' @examples
-#' rpi_pal_2
-#' unikn::seecol(rpi_pal_2, main = "The secondary colors of RPI")  # view color palette
-#' unikn::demopal(rpi_pal_2, type = 5, main = "Secondary colors of RPI")
+#' rpi_2
+#' unikn::seecol(rpi_2, main = "The secondary colors of RPI")  # view color palette
+#' unikn::demopal(rpi_2, type = 5, main = "Secondary colors of RPI")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{rpi_pal_1}} for primary colors of RPI; 
-#' \code{\link{rpi_pal_3}} for tint colors of RPI; 
+#' \code{\link{rpi_1}} for primary colors of RPI; 
+#' \code{\link{rpi_3}} for tint colors of RPI; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -3409,14 +3409,14 @@ rpi_pal_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' 
 #' @export
 
-rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"), 
-                           names = c("RPI dark red", "RPI dark blue", "RPI light blue"), 
-                           as_df = FALSE)
+rpi_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"), 
+                       names = c("RPI dark red", "RPI dark blue", "RPI light blue"), 
+                       as_df = FALSE)
 
-# unikn::seecol(rpi_pal_2, main = "Secondary Use Colors of RPI")
+# unikn::seecol(rpi_2, main = "Secondary Use Colors of RPI")
 
 
-# - rpi_pal_3: Tint use colors of RPI ---- 
+# - rpi_3: Tint use colors of RPI ---- 
 
 # Tint Colors
 
@@ -3437,12 +3437,12 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 
 #' Tint colors of RPI (Rensselaer Polytechnic Institute), USA 
 #'
-#' \code{rpi_pal_3} provides the tint colors of the 
+#' \code{rpi_3} provides the tint colors of the 
 #' \href{https://www.rpi.edu/}{Rensselaer Polytechnic Institute} (RPI), Troy, NY.
 #' 
-#' As variants of the secondary use colors of \code{\link{rpi_pal_2}}, 
-#' the tint colors of \code{rpi_pal_3} should be used in combination with  
-#' the primary colors of \code{\link{rpi_pal_1}} to add color accents 
+#' As variants of the secondary use colors of \code{\link{rpi_2}}, 
+#' the tint colors of \code{rpi_3} should be used in combination with  
+#' the primary colors of \code{\link{rpi_1}} to add color accents 
 #' to digital and print materials. 
 #' 
 #' @return 
@@ -3456,15 +3456,15 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' \url{https://scer.rpi.edu/brand-in-action/colors}. 
 #' 
 #' @examples
-#' rpi_pal_3
-#' unikn::seecol(rpi_pal_3, main = "Tint colors of RPI")  # view color palette
-#' unikn::demopal(rpi_pal_3, type = 4, seed = 2, main = "Tint colors of RPI")
+#' rpi_3
+#' unikn::seecol(rpi_3, main = "Tint colors of RPI")  # view color palette
+#' unikn::demopal(rpi_3, type = 4, seed = 2, main = "Tint colors of RPI")
 #'
 #' @family university color palettes
 #'
 #' @seealso 
-#' \code{\link{rpi_pal_1}} for primary colors of RPI; 
-#' \code{\link{rpi_pal_2}} for secondary colors of RPI; 
+#' \code{\link{rpi_1}} for primary colors of RPI; 
+#' \code{\link{rpi_2}} for secondary colors of RPI; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -3473,15 +3473,15 @@ rpi_pal_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' 
 #' @export
 
-rpi_pal_3 <- unikn::newpal(col = c("#ab2328", "#c35442", "#d58570", "#eabcad",
-                                   "#00205b", "#2b517f", "#667ba2", "#a5b0cb",
-                                   "#7fa9ae", "#94c0c6", "#b3d3d5", "#d4e6e8"), 
-                           names = c("RPI dark red", "dark red 75%", "dark red 50%", "dark red 25%", 
-                                     "RPI dark blue", "dark blue 75%", "dark blue 50%", "dark blue 25%", 
-                                     "RPI light blue", "light blue 75%", "light blue 50%", "light blue 25%"), 
-                           as_df = FALSE)
+rpi_3 <- unikn::newpal(col = c("#ab2328", "#c35442", "#d58570", "#eabcad",
+                               "#00205b", "#2b517f", "#667ba2", "#a5b0cb",
+                               "#7fa9ae", "#94c0c6", "#b3d3d5", "#d4e6e8"), 
+                       names = c("RPI dark red", "dark red 75%", "dark red 50%", "dark red 25%", 
+                                 "RPI dark blue", "dark blue 75%", "dark blue 50%", "dark blue 25%", 
+                                 "RPI light blue", "light blue 75%", "light blue 50%", "light blue 25%"), 
+                       as_df = FALSE)
 
-# unikn::seecol(rpi_pal_3, main = "Tint Colors of RPI")
+# unikn::seecol(rpi_3, main = "Tint Colors of RPI")
 
 
 
@@ -3628,13 +3628,13 @@ rptu_schwarz <- "black"
 
 rptu_weiss <- "white"
 
-# - rptu_pal: ----
+# - rptu: Colors of the RPTU Kaiserslautern-Landau, Germany ----
 
 # 10 colors in 5 pairs (+ 2 colors of 1 black/white pair):
 
-#' Color palette of the RPTU Kaiserslautern-Landau, Germany 
+#' Colors of the RPTU Kaiserslautern-Landau, Germany 
 #'
-#' \code{rptu_pal} provides the 12 colors (arranged in 6 pairs) 
+#' \code{rptu} provides the 12 colors (arranged in 6 pairs) 
 #' of the \href{https://rptu.de/}{RPTU} Kaiserslautern-Landau, Germany. 
 #' 
 #' The acronym "RPTU" denotes "Rheinland-Pfälzische Technische Universität", 
@@ -3655,15 +3655,15 @@ rptu_weiss <- "white"
 #' \url{https://www.startklar2023.de/brand-portal-rptu}. 
 #' 
 #' @examples
-#' rptu_pal
-#' unikn::seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
-#' unikn::demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
+#' rptu
+#' unikn::seecol(rptu, main = "The colors of RPTU")  # view color palette
+#' unikn::demopal(rptu, type = 1, main = "Using the colors of RPTU")
 #' 
 #' # Gradients:
-#' rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
+#' rptu_10 <- unikn::usecol(c(rptu[9], "white"), n = 11)[1:10]
 #' # unikn::seecol(rptu_10, main = "10 shades of a RPTU color")
 #' 
-#' rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
+#' rptu_21 <- unikn::usecol(c(rptu[1], "white", rptu[2]), n = 21)
 #' # unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 #' 
 #' @family university color palettes
@@ -3677,19 +3677,19 @@ rptu_weiss <- "white"
 #' 
 #' @export
 
-rptu_pal <- unikn::newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
-                                  rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
-                          names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
-                                    "violett", "pink", "rot", "orange", "schwarz", "weiss"),
-                          as_df = FALSE)
+rptu <- unikn::newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
+                              rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
+                      names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
+                                "violett", "pink", "rot", "orange", "schwarz", "weiss"),
+                      as_df = FALSE)
 
-# unikn::seecol(rptu_pal, main = "The colors of RPTU")
+# unikn::seecol(rptu, main = "The colors of RPTU")
 # 
 # # Gradients:
-# rptu_10 <- unikn::usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
+# rptu_10 <- unikn::usecol(c(rptu[9], "white"), n = 11)[1:10]
 # unikn::seecol(rptu_10, main = "10 shades of a RPTU color")
 # 
-# rptu_21 <- unikn::usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
+# rptu_21 <- unikn::usecol(c(rptu[1], "white", rptu[2]), n = 21)
 # unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 
 
@@ -3739,13 +3739,13 @@ rptu_pal <- unikn::newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau
 # RGB: 103/210/223
 # HEX: 67D2DF
 
-willamette_pal <- unikn::newpal(col = c("#BA0C2F", "#C6AA76", 
-                                        "#003B5C", "#9C0221", "#F19C49", "#67D2DF"),
-                                names = c("Cardinal", "Gold", 
-                                          "Midnight breakfast", "Waller brick", "Zena field", "Salem sky"),
-                                as_df = FALSE)
+willamette <- unikn::newpal(col = c("#BA0C2F", "#C6AA76", 
+                                    "#003B5C", "#9C0221", "#F19C49", "#67D2DF"),
+                            names = c("Cardinal", "Gold", 
+                                      "Midnight breakfast", "Waller brick", "Zena field", "Salem sky"),
+                            as_df = FALSE)
 
-# unikn::seecol(willamette_pal, main = "Primary and secondary colors of Willamette University")
+# unikn::seecol(willamette, main = "Primary and secondary colors of Willamette University")
 
 
 ## ToDo: -------- 
