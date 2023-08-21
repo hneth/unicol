@@ -1,4 +1,4 @@
-## Concordia.R | 2023 08 11
+## Concordia.R | 2023 08 21
 ## Colors of Concordia University, Canada
 ## --------------------------------------
 
@@ -51,9 +51,12 @@
 #' conc_1
 #' unikn::seecol(conc_1, main = "Concordia University") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
+#' \code{\link{conc_2}} for secondary colors of Concordia University;
+#' \code{\link{conc_3}} for background colors of Concordia University;
+#' \code{\link{conc_4}} for neutral colors of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -100,9 +103,12 @@ conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996",
 #' conc_2
 #' unikn::seecol(conc_2, main = "Concordia University") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
+#' \code{\link{conc_1}} for primary colors of Concordia University;
+#' \code{\link{conc_3}} for background colors of Concordia University;
+#' \code{\link{conc_4}} for neutral colors of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -153,9 +159,12 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' conc_3
 #' unikn::seecol(conc_3, main = "Concordia University") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
+#' \code{\link{conc_1}} for primary colors of Concordia University;
+#' \code{\link{conc_2}} for secondary colors of Concordia University;
+#' \code{\link{conc_4}} for neutral colors of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -204,9 +213,12 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 #' conc_4
 #' unikn::seecol(conc_4, main = "Concordia University") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
+#' \code{\link{conc_1}} for primary colors of Concordia University;
+#' \code{\link{conc_2}} for secondary colors of Concordia University;
+#' \code{\link{conc_3}} for background colors of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;

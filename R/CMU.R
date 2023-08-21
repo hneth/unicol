@@ -56,7 +56,7 @@
 #' CMU_1_core
 #' unikn::seecol(CMU_1_core, main = "Core colors CMU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{CMU_2_tartan}} for secondary colors of CMU, Carnegie Mellon University; 
@@ -114,7 +114,7 @@ CMU_1_core <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0",
 #' CMU_2_tartan
 #' unikn::seecol(CMU_2_tartan, main = "Secondary colors, Tartan palette CMU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 
@@ -170,7 +170,7 @@ CMU_2_tartan <- unikn::newpal(col = c("#EF3A47", "#FDB515",
 #' CMU_3_campus
 #' unikn::seecol(CMU_3_campus, main = "Secondary colors, Campus palette CMU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{CMU_1_core}} for core colors of CMU, Carnegie Mellon University; 

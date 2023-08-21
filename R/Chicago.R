@@ -54,7 +54,7 @@
 #' chicago_1
 #' unikn::seecol(chicago_1, main = "Primary colors Chicago Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{chicago_2}} for secondary, accent colors of University of Chicago;
@@ -124,7 +124,7 @@ chicago_1 <- unikn::newpal(col = c("#800000",
 #' chicago_2
 #' unikn::seecol(chicago_2, main = "Accent colors Chicago Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{chicago_1}} for primary colors of University of Chicago;

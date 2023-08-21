@@ -50,7 +50,7 @@
 #' berkeley_1
 #' unikn::seecol(berkeley_1, main = "Primary colors of Berkeley") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{berkeley_2}} for the secondary colors of Berkeley, University of California; 
@@ -110,7 +110,7 @@ berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
 #' berkeley_2
 #' unikn::seecol(berkeley_2, main = "Secondary colors Berkeley") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{berkeley_1}} for the primary colors of Berkeley, University of California; 

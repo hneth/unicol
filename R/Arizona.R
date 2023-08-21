@@ -46,7 +46,7 @@
 #' asu_1
 #' unikn::seecol(asu_1, main= "Arizona State University") #view color palette.
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{asu_2}} for ASU's secondary colors;
@@ -97,7 +97,7 @@ asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"),
 #' asu_2
 #' unikn::seecol(asu_2, main = "Arizona State University 2") # view color palette
 #' 
-#' @family university color palettes.
+#' @family U.S. university color palettes.
 #'
 #' @seealso 
 #' \code{\link{asu_1}} for ASU's primary colors;
@@ -152,7 +152,7 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
 #' asu_3
 #' unikn::seecol(asu_3, main = "Arizona State University") # view color palette
 #' 
-#' @family university color palettes.
+#' @family U.S. university color palettes.
 #'
 #' @seealso 
 #' \code{\link{asu_1}} for ASU's primary colors;

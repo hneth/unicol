@@ -46,7 +46,7 @@
 #' bu_1
 #' unikn::seecol(bu_1, main = "Primary colors of Boston University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

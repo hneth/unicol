@@ -99,7 +99,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 
 # - caltech_1: Primary and neutral colors ----
 
-#' Primary and neutral colors of Caltech
+#' Primary and neutral colors of Caltech, USA 
 #'
 #' \code{caltech_1} provides the primary and 7 neutral colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
@@ -127,7 +127,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' unikn::demopal(caltech_1, type = 4, seed = 1,  
 #'                main = "Using the primary and neutral colors of Caltech")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{caltech_2}} for Caltech's primary and deep colors; 
@@ -186,7 +186,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 
 # - caltech_2: Primary and deep colors ----
 
-#' Primary and deep colors of Caltech
+#' Primary and deep colors of Caltech, USA 
 #'
 #' \code{caltech_2} provides the primary and 4 deep colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
@@ -215,7 +215,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' unikn::demopal(caltech_2, type = 2, seed = 2,  
 #'                main = "Using the primary and deep colors of Caltech")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes 
 #'
 #' @seealso 
 #' \code{\link{caltech_1}} for Caltech's primary and neutral colors; 
@@ -296,7 +296,7 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 
 # - caltech_3: Primary and bright colors ----
 
-#' Primary and bright colors of Caltech
+#' Primary and bright colors of Caltech, USA 
 #'
 #' \code{caltech_3} provides the primary and 7 bright colors 
 #' of the \href{https://www.caltech.edu/}{California Institute of Technology}, CA, USA. 
@@ -327,7 +327,7 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' unikn::demopal(caltech_3, type = 3, seed = 1,  
 #'                main = "Using the primary and bright colors of Caltech")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes 
 #'
 #' @seealso 
 #' \code{\link{caltech_1}} for Caltech's primary and neutral colors; 

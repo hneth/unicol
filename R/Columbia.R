@@ -55,7 +55,7 @@
 #' columbia
 #' unikn::seecol(columbia, main = "Primary colors of Columbia University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

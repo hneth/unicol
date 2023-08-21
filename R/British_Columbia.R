@@ -38,7 +38,6 @@
 #' \code{"pms_297"}  (defined as RGB 110/196/232, HEX #6EC4E8), and 
 #' \code{"pms_2975"} (defined as RGB 151/212/233, HEX ##97D4E9). 
 #' 
-#'
 #' \code{ubc_1} uses the HEX color definitions. 
 #' For \code{"ubc_blue"} the RGB and HEX definitions differ numerically, 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
@@ -57,7 +56,7 @@
 #' ubc_1
 #' unikn::seecol(ubc_1, main = "University of British Columbia") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

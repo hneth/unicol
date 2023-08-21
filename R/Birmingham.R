@@ -1,6 +1,6 @@
 ## uni_palette_template.R | 2023 06 12
 ## colours of the University of Birmingham, UK 
-## -----------------------------------------------
+## -------------------------------------------
 
 # Information: ------
 
@@ -54,7 +54,7 @@
 #' birmingham_1
 #' unikn::seecol(birmingham_1, main = "University of Birmingham") # view colour palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;

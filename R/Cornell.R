@@ -22,7 +22,7 @@
 # Color palette(s):
 
 
-# - cornell_1: Primary colors ------
+# - cornell_1: Primary colors of Cornell ------
 
 #' Primary colors of Cornell University, USA 
 #'
@@ -50,7 +50,7 @@
 #' cornell_1
 #' unikn::seecol(cornell_1, main = "Primary colors Cornell Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{cornell_2}} for secondary colors of Cornell University;
@@ -72,7 +72,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 
 
 
-# - cornell_2: Secondary colors ------
+# - cornell_2: Secondary colors of Cornell ------
 
 #' Secondary colors of Cornell University, USA 
 #'
@@ -101,7 +101,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #' cornell_2
 #' unikn::seecol(cornell_2, main = "Secondary colors Cornell Uni") # view colors
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{cornell_1}} for primary colors of Cornell University;
@@ -123,7 +123,7 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 
 
 
-# - cornell_3_accent: Accent colors ------
+# - cornell_3_accent: Accent colors of Cornell ------
 
 #' Accent colors of Cornell University, USA 
 #'
@@ -159,7 +159,7 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' cornell_3_accent
 #' unikn::seecol(cornell_3_accent, main = "Accent colors Cornell Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{cornell_1}} for primary colors of Cornell University;

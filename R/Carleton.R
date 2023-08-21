@@ -49,7 +49,7 @@
 #' unikn::seecol(carleton_1, 
 #'               main = "Colors of the University of Carleton") # view color palette
 #'
-#' @family university color palettes
+#' @family Candadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

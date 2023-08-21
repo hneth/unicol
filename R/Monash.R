@@ -55,7 +55,7 @@
 #' monash_1
 #' unikn::seecol(monash_1, main = "Primary colors of Monash University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{monash_2}} for the secondary colors of Monash University; 
@@ -113,7 +113,7 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
 #' monash_2
 #' unikn::seecol(monash_2, main = "Secondary colors of Monash University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{monash_1}} for the primary colors of Monash University; 

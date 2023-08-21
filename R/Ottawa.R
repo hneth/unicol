@@ -55,7 +55,7 @@
 #' ottawa_1
 #' unikn::seecol(ottawa_1, main = "Colors of the University of Ottawa") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes 
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

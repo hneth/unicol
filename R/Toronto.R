@@ -85,7 +85,7 @@ col_4 <- "#F2F4F7"
 #' toronto_1
 #' unikn::seecol(toronto_1, main = "University of Toronto") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes 
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
