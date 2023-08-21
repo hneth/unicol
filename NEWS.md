@@ -54,6 +54,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-18.] 
+[File `NEWS.md` updated on 2023-08-21.] 
 
 <!-- eof. -->
