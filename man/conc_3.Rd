@@ -55,6 +55,7 @@ Other Canadian university color palettes:
 \code{\link{conc_1}},
 \code{\link{conc_2}},
 \code{\link{conc_4}},
+\code{\link{guelph}},
 \code{\link{mun_1}},
 \code{\link{mun_2}},
 \code{\link{ottawa_1}},

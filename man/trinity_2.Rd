@@ -96,17 +96,13 @@ unikn::seecol(trinity_2, main = "Trinity College Dublin 2") # view color palette
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes.: 
-\code{\link{dartmouth_2}},
-\code{\link{dartmouth_3}},
-\code{\link{limerick_2}},
-\code{\link{notredame_2}},
-\code{\link{uci_2}},
-\code{\link{uflorida_2}},
-\code{\link{vanderbilt_2}}
+Other Irish university color palettes: 
+\code{\link{galway_1}},
+\code{\link{galway_2}},
+\code{\link{trinity_1}}
 }
 \author{
 \strong{unicol}, 2023-07-07.
 }
-\concept{university color palettes.}
+\concept{Irish university color palettes}
 \keyword{datasets}

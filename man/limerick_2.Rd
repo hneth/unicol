@@ -57,12 +57,7 @@ unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palett
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes.: 
-\code{\link{dartmouth_2}},
-\code{\link{dartmouth_3}},
 \code{\link{notredame_2}},
-\code{\link{trinity_2}},
-\code{\link{uci_2}},
-\code{\link{uflorida_2}},
 \code{\link{vanderbilt_2}}
 }
 \author{

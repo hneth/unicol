@@ -44,12 +44,11 @@ unikn::seecol(glasgow_2, main = "University of Glasgow 2") # view color palette
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university of color palettes: 
-\code{\link{glasgow_1}},
-\code{\link{minnesotatwin_1}}
+Other Scottish university of color palettes: 
+\code{\link{glasgow_1}}
 }
 \author{
 \strong{unicol}, 2023-07-05.
 }
-\concept{university of color palettes}
+\concept{Scottish university of color palettes}
 \keyword{datasets}
