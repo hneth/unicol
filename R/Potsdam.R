@@ -49,7 +49,7 @@
 #' uni_potsdam
 #' unikn::seecol(uni_potsdam, main = "University of Potsdam") # view color palette.
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

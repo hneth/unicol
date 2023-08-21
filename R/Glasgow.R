@@ -1,14 +1,14 @@
-## Glasgow.R | 2023 07 05
+## Glasgow.R | 2023 08 21
 ## Colors of the University of Glasgow, Scotland
 ## ---------------------------------------------
 
 # Information: 
 
 
-# cur_pals: "glasgow_1", "pal_galsgow_2" (2)
+# cur_pals: "glasgow_1", "glasgow_2" (2)
 # inst: "University of Glasgow"
 # country: Scotland
-# URL: "https://www.gla.ac.uk/"
+# URL: "https://www.gla.ac.uk"
 
 
 # Color source:
@@ -18,7 +18,7 @@
 # Color palettes:
 
 
-# glasgow_1: Primary colors ----
+# glasgow_1: Primary colors of Glasgow ----
 
 
 #' Primary colors of the University of Glasgow, Scotland 
@@ -56,7 +56,7 @@
 #' glasgow_1
 #' unikn::seecol(glasgow_1, main = "University of Glasgow 1") # view color palette
 #'
-#' @family university of color palettes
+#' @family Scottish university of color palettes
 #'
 #' @seealso
 #' \code{\link{glasgow_2}} for secondary colors of the University of Glasgow;
@@ -109,7 +109,7 @@ glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94", "
 #' glasgow_2
 #' unikn::seecol(glasgow_2, main = "University of Glasgow 2") # view color palette
 #'
-#' @family university of color palettes
+#' @family Scottish university of color palettes
 #'
 #' @seealso
 #' \code{\link{glasgow_1}} for primary colors of the University of Glasgow;

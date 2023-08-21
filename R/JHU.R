@@ -50,7 +50,7 @@
 #' jhu_0
 #' unikn::seecol(jhu_0, main = "Identity colors of JHU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University;
@@ -103,7 +103,7 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #' jhu_1
 #' unikn::seecol(jhu_1, main = "Primary colors of JHU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University;
@@ -159,7 +159,7 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #' jhu_2
 #' unikn::seecol(jhu_2, main = "Accent colors of JHU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University;
@@ -224,7 +224,7 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #' jhu_3_accent
 #' unikn::seecol(jhu_3_accent, main = "Accent colors of JHU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University;
@@ -239,8 +239,12 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #'
 #' @export
 
-jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330", "#4F2C1D", "#E8927C", "#A6192E", "#51284F", "#A192B2", "#418FDE", "#86C8BC", "#286140", "#719949"),
-                              names = c("jhu_sand", "jhu_orange1", "jhu_orange2", "jhu_brown1", "jhu_brown2", "jhu_nude", "jhu_burgundy2", "jhu_purple2", "jhu_purple3", "jhu_blueberry", "jhu_green2", "jhu_green3", "jhu_green4"),
+jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330", "#4F2C1D", 
+                                      "#E8927C", "#A6192E", "#51284F", "#A192B2", "#418FDE", 
+                                      "#86C8BC", "#286140", "#719949"),
+                              names = c("jhu_sand", "jhu_orange1", "jhu_orange2", "jhu_brown1", "jhu_brown2", 
+                                        "jhu_nude", "jhu_burgundy2", "jhu_purple2", "jhu_purple3", "jhu_blueberry", 
+                                        "jhu_green2", "jhu_green3", "jhu_green4"),
                               as_df = FALSE)
 
 # # Check:
@@ -275,9 +279,9 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #'
 #' @examples
 #' jhu_4_gray
-#' unikn::seecol(jhu_4_gray, main = "Grey scale colors Hopkins Uni") # view color palette
+#' unikn::seecol(jhu_4_gray, main = "Gray scale colors of JHU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{jhu_0}} for identity colors of JHU, Johns Hopkins University;

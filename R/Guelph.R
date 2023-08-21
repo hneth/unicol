@@ -33,7 +33,6 @@
 #'
 #' \code{guelph} uses the HEX color definitions. 
 #' 
-#' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -48,7 +47,7 @@
 #' guelph
 #' unikn::seecol(guelph, main = "Colors of the University of Guelph") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

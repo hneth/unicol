@@ -42,7 +42,7 @@
 #' uflorida_1
 #' unikn::seecol(uflorida_1, main = "University of Florida 1") # view color palette.
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{uflorida_2}} for secondary colors of the University of Florida; 
@@ -90,8 +90,8 @@ uflorida_1 <- unikn::newpal(col = c("#FA4616", "#0021A5"),
 #' uflorida_2
 #' unikn::seecol(uflorida_2, main = "University of Florida 2") # view color palette
 #' 
-#' @family university color palettes.
-#'
+#' @family U.S. university color palettes
+#' 
 #' @seealso 
 #' \code{\link{uflorida_1}} for primary colors of the University of Florida;
 #' \code{\link{uflorida_3}} for neutral colors of the University of Florida; 
@@ -139,6 +139,8 @@ uflorida_2 <- unikn::newpal(col = c("#D32737","#F2A900","#22884C",
 #' @examples 
 #' uflorida_3
 #' unikn::seecol(uflorida_3, main = "University of Florida 3") # view color palette
+#' 
+#' @family U.S. university color palettes
 #' 
 #' @seealso 
 #' \code{\link{uflorida_1}} for primary colors of the University of Florida;

@@ -48,7 +48,7 @@
 #' harvard_1
 #' unikn::seecol(harvard_1, main = "Primary colors Harvard Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{harvard_2}} for secondary, accent colors of Harvard University;
@@ -97,7 +97,7 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #' harvard_2
 #' unikn::seecol(harvard_2, main = "Accent colors Harvard Uni") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{harvard_1}} for primary colors of Harvard University;
@@ -155,7 +155,7 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' harvard_3
 #' unikn::seecol(harvard_3, main = "Web colors Harvard University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{harvard_1}} for primary colors of Harvard University;
@@ -169,10 +169,10 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' @export
 
 harvard_3 <- unikn::newpal(col = c("#293352", "#4E84C4", "#52854C", "#C3D7A4", 
-                                          "#FFDB6D", "#D16103", "#C4961A", "#F4EDCA"),
-                                  names = c("indigo", "blue_bonnet", "ivy", "pear", 
-                                            "lemon", "saffron", "gold", "creme"),
-                                  as_df = FALSE)
+                                   "#FFDB6D", "#D16103", "#C4961A", "#F4EDCA"),
+                           names = c("indigo", "blue_bonnet", "ivy", "pear", 
+                                     "lemon", "saffron", "gold", "creme"),
+                           as_df = FALSE)
 
 # # Check:
 #  unikn::seecol(harvard_3, main = "Web colors Harvard University", col_bg = "lightgrey")

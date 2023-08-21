@@ -16,7 +16,7 @@
 # Color palettes:
 
 
-# - trinity_1: Primary colors ----
+# - trinity_1: Primary colors of Trinity College, IE ----
 
 #' Primary colors of the Trinity College Dublin, Ireland 
 #'
@@ -53,7 +53,7 @@
 #' trinity_1
 #' unikn::seecol(trinity_1, main = "Trinity College Dublin 1") # view color palette.
 #'
-#' @family university color palettes
+#' @family Irish university color palettes
 #'
 #' @seealso
 #' \code{\link{trinity_2}} for secondary colors of Trinity College Dublin; 
@@ -75,7 +75,7 @@ trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee", "#
 
 
 
-# - trinity_2: Secondary colors -----
+# - trinity_2: Secondary colors of Trinity College, IE ----
 
 
 #' Secondary colors of Trinity College Dublin, Ireland 
@@ -158,7 +158,7 @@ trinity_1 <- unikn::newpal(col = c("#0569b9", "#448fcb","#82b4dc", "#c1daee", "#
 #' trinity_2
 #' unikn::seecol(trinity_2, main = "Trinity College Dublin 2") # view color palette
 #' 
-#' @family university color palettes.
+#' @family Irish university color palettes
 #'
 #' @seealso 
 #' \code{\link{trinity_1}} for primary colors of Trinity College Dublin; 

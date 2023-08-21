@@ -46,7 +46,7 @@
 #' galway_1
 #' unikn::seecol(galway_1, main = "University of Galway 1") # view color palette.
 #'
-#' @family university color palettes
+#' @family Irish university color palettes
 #'
 #' @seealso
 #' \code{\link{galway_2}} for secondary colors of the University of Galway;
@@ -105,7 +105,7 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' galway_2
 #' unikn::seecol(galway_2, main = "University of Galway 2") # view color palette
 #' 
-#' @family university color palettes 
+#' @family Irish university color palettes 
 #'
 #' @seealso 
 #' \code{\link{galway_1}} for primary colors of the University of Galway; 

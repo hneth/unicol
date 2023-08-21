@@ -55,7 +55,7 @@
 #' unikn::seecol(edinburgh_1, main = "University of Edinburgh") 
 #' # view color palette
 #'
-#' @family university color palettes
+#' @family Scottish university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

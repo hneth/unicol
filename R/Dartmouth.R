@@ -41,7 +41,7 @@
 #' dartmouth_1
 #' unikn::seecol(dartmouth_1, main = "Dartmouth College 1") # view color palette.
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{dartmouth_2}} for the secondary colors of Dartmouth College; 
@@ -94,7 +94,7 @@ dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' dartmouth_2
 #' unikn::seecol(dartmouth_2, main = "Dartmouth College 2") # view color palette
 #' 
-#' @family university color palettes.
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{dartmouth_1}} for the primary color of Dartmouth College;
@@ -150,7 +150,7 @@ dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000",
 #' dartmouth_3
 #' unikn::seecol(dartmouth_3, main = "Dartmouth College 3") # view color palette
 #' 
-#' @family university color palettes.
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{dartmouth_1}} for the primary color of Dartmouth College; 

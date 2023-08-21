@@ -1,4 +1,4 @@
-## Irvine.R | 2023 08 17
+## Irvine.R | 2023 08 21
 ## Colors of the University of California, Irvine, USA
 ## ----------------------------------------------------
 
@@ -43,7 +43,7 @@
 #' uci_1
 #' unikn::seecol(uci_1, main= "University of California, Irvine") #view color palette.
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{uci_2}} for secondary colors of UC Irvine;
@@ -97,7 +97,7 @@ uci_1 <- unikn::newpal(col = c("#0064a4", "#ffd200"),
 #' uci_2
 #' unikn::seecol(uci_2, main = "University of California, Irvine") # view color palette
 #' 
-#' @family university color palettes.
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
@@ -151,6 +151,8 @@ uci_2 <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f78d2d",
 #' uci_3
 #' unikn::seecol(uci_3, main = "U of California, Irvine, 3") # view color palette
 #' 
+#' @family U.S. university color palettes
+#' 
 #' @seealso 
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
 #' \code{\link{uci_2}} for secondary colors of UC Irvine;
@@ -198,6 +200,8 @@ uci_3 <- unikn::newpal(col = c("#b71234","#7c109a","#00b0ca","#7ab800","#fecb00"
 #' @examples 
 #' uci_4
 #' unikn::seecol(uci_4, main = "U of California, Irvine (4: neutral)") # view color palette
+#' 
+#' @family U.S. university color palettes
 #' 
 #' @seealso 
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
