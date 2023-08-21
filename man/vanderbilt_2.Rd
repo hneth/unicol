@@ -45,8 +45,6 @@ unikn::seecol(vanderbilt_2, main = "Vanderbilt University 2 (neutral)") # view c
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes.: 
-\code{\link{asu_2}},
-\code{\link{asu_3}},
 \code{\link{dartmouth_2}},
 \code{\link{dartmouth_3}},
 \code{\link{limerick_2}},

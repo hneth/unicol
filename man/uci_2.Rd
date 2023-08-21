@@ -49,8 +49,6 @@ unikn::seecol(uci_2, main = "University of California, Irvine") # view color pal
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes.: 
-\code{\link{asu_2}},
-\code{\link{asu_3}},
 \code{\link{dartmouth_2}},
 \code{\link{dartmouth_3}},
 \code{\link{limerick_2}},
