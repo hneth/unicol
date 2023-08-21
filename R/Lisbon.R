@@ -1,4 +1,4 @@
-## Lisboa.R | 2023 08 18
+## Lisbon.R | 2023 08 21
 ## Colors of the University of Lisbon, Portugal 
 ## --------------------------------------------
 
@@ -31,10 +31,9 @@
 # Colors: ------ 
 
 # Defining individual colors (and names):
-
-uni_lisbon_black <- "black"  # OR: grDevices::rgb(0, 0, 0, maxColorValue = 255)
-uni_lisbon_white <- "white"  # OR: grDevices::rgb(255, 255,  255, maxColorValue = 255)
-
+# uni_lisbon_black <- "black"  # OR: grDevices::rgb(0, 0, 0, maxColorValue = 255)
+# uni_lisbon_white <- "white"  # OR: grDevices::rgb(255, 255,  255, maxColorValue = 255)
+# (no need to re-define bw)
 
 # Color palette(s):
 
@@ -64,7 +63,8 @@ uni_lisbon_white <- "white"  # OR: grDevices::rgb(255, 255,  255, maxColorValue 
 #'
 #' @examples
 #' uni_lisbon
-#' unikn::seecol(uni_lisbon, main = "Colors of the University of Lisbon") # view color palette
+#' unikn::seecol(uni_lisbon, col_bg = "lightgrey",  
+#'               main = "Colors of the University of Lisbon")  # view color palette
 #' unikn::demopal(uni_lisbon, main = "Universidade de Lisboa") # demo color palette 
 #' 
 #' @family university color palettes
@@ -78,7 +78,7 @@ uni_lisbon_white <- "white"  # OR: grDevices::rgb(255, 255,  255, maxColorValue 
 #'
 #' @export
 
-uni_lisbon <- unikn::newpal(col = c(uni_lisbon_black, uni_lisbon_white),
+uni_lisbon <- unikn::newpal(col = c("black", "white"), # c(uni_lisbon_black, uni_lisbon_white),
                             names = c("black", "white"), 
                             as_df = FALSE)
 
