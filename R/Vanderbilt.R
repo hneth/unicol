@@ -89,7 +89,7 @@ vanderbilt_1 <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
 #' vanderbilt_2
 #' unikn::seecol(vanderbilt_2, main = "Vanderbilt University 2 (neutral)") # view color palette
 #' 
-#' @family university color palettes.
+#' @family university color palettes
 #' 
 #' @seealso 
 #' \code{\link{vanderbilt_1}} for core colors of Vanderbilt University;

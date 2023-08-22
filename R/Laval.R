@@ -20,7 +20,7 @@
 # Color palette(s):
 
 
-# - laval: 2 primary and 4 secondary colors ------
+# - laval: 2 primary and 4 secondary colors of Laval University ------
 
 #' Colors of the Laval University, Canada 
 #'
@@ -53,7 +53,7 @@
 #' laval
 #' unikn::seecol(laval, main = "Colors of the Laval University") # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

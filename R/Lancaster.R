@@ -19,7 +19,7 @@
 # colour palette(s):
 
 
-# - lancaster_1: Primary colours ------
+# - lancaster_1: Primary colours of Lancaster University ------
 
 #' Primary colours of the Lancaster University, UK 
 #'
@@ -48,7 +48,7 @@
 #' unikn::seecol(lancaster_1, main = "Primary colours of Lancaster University", col_bg = "white") 
 #' # view colour palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{lancaster_2}} for secondary colours of Lancaster University;
@@ -69,7 +69,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 
 
 
-# - lancaster_2: Secondary colours ------
+# - lancaster_2: Secondary colours of Lancaster University ------
 
 #' Secondary colours of Lancaster University, UK 
 #'
@@ -121,7 +121,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 #' # view colour palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{lancaster_1}} for primary colours of Lancaster University;

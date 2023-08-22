@@ -95,7 +95,7 @@ notredame_1 <- unikn::newpal(col = c("#0c2340", "#ae9142"),
 #' notredame_2
 #' unikn::seecol(notredame_2, main = "University of Notre Dame") # view color palette
 #' 
-#' @family university color palettes.
+#' @family university color palettes
 #'
 #' @seealso 
 #' \code{\link{notredame_1}} for the primary colors of Notre Dame;

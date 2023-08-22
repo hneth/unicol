@@ -15,7 +15,7 @@
 
 # Colour palettes:
 
-# - limerick_1: Primary colors ----
+# - limerick_1: Primary colors of Limerick ----
 
 #' Primary colours of the University of Limerick, Ireland 
 #'
@@ -44,7 +44,7 @@
 #' limerick_1
 #' unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palette.
 #'
-#' @family university color palettes
+#' @family Irish university color palettes
 #'
 #' @seealso
 #' \code{\link{limerick_2}} for secondary colours of the University of Limerick;
@@ -62,7 +62,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 
 
 
-# - limerick_2: Secondary colors -----
+# - limerick_2: Secondary colors of Limerick -----
 
 #' Secondary colors of the University of Limerick, Ireland 
 #' 
@@ -96,7 +96,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' @author 
 #' \strong{unicol}, 2320-07-16.
 #' 
-#'@source
+#' @source
 #' Colour definitions are based on 
 #' \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
 #'
@@ -104,7 +104,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' limerick_2
 #' unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palette
 #' 
-#' @family university color palettes.
+#' @family Irish university color palettes 
 #'
 #' @seealso 
 #' \code{\link{limerick_2}} for primary colours of the University of Limerick; 
