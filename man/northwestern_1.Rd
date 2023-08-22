@@ -3,7 +3,7 @@
 \docType{data}
 \name{northwestern_1}
 \alias{northwestern_1}
-\title{Primary colors of Northwestern University}
+\title{Primary colors of Northwestern University, USA}
 \format{
 An object of class \code{character} of length 22.
 }
@@ -44,46 +44,69 @@ Primary colors are
 \code{"purple_30"} (defined as RGB 182/172/209, HEX #B6ACD1),
 \code{"purple_20"} (defined as RGB 204/196/223),
 \code{"purple_10"} (defined as RGB 228/224/238, HEX #E4E0EE),
-\code{"rich_black"} (defined as RGB //),
+\code{"rich_black"} (defined as RGB 0 0 0 or HEX #000000),
 \code{"rich_black_80"} (defined as HEX #342F2E),
 \code{"rich_black_50"} (defined as HEX #716C6B),
-\code{"rich_black_20"} (defined as HEX #BBB8B8) and
+\code{"rich_black_20"} (defined as HEX #BBB8B8), and
 \code{"rich_black_10"} (defined as HEX #D8D6D6).
+
+\code{northwestern_1} uses HEX and RGB color definitions.
 }
 \examples{
 northwestern_1
-unikn::seecol(northwestern_1, main = "Primary colors NW") # view color palette
+unikn::seecol(northwestern_1, main = "Primary colors of NW") # view color palette
 
 }
 \seealso{
-\code{\link{northwestern_2}} for secondary, secondary colors of Northwestern University;
+\code{\link{northwestern_2}} for secondary colors of Northwestern University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
-\code{\link{UCLA_1}},
-\code{\link{UCLA_2}},
-\code{\link{UCLA_3}},
-\code{\link{UCSD_1_core}},
-\code{\link{UCSD_2_accent}},
-\code{\link{UCSD_3_neutral}},
-\code{\link{eth_1}},
-\code{\link{eth_2}},
-\code{\link{eth_3}},
-\code{\link{example_1}},
-\code{\link{fu_0}},
-\code{\link{fu_1}},
-\code{\link{fu_2}},
-\code{\link{fu_3}},
-\code{\link{hu_1}},
-\code{\link{hu_2}},
-\code{\link{lmu_1}},
-\code{\link{lmu_2}},
-\code{\link{lmu_3}},
-\code{\link{mpg}},
+Other U.S. university color palettes: 
+\code{\link{CMU_1_core}},
+\code{\link{CMU_2_tartan}},
+\code{\link{CMU_3_campus}},
+\code{\link{asu_1}},
+\code{\link{asu_2}},
+\code{\link{asu_3}},
+\code{\link{berkeley_1}},
+\code{\link{berkeley_2}},
+\code{\link{brown_1}},
+\code{\link{brown_2}},
+\code{\link{bu_1}},
+\code{\link{caltech_1}},
+\code{\link{caltech_2}},
+\code{\link{caltech_3}},
+\code{\link{chicago_1}},
+\code{\link{chicago_2}},
+\code{\link{columbia}},
+\code{\link{cornell_1}},
+\code{\link{cornell_2}},
+\code{\link{cornell_3_accent}},
+\code{\link{dartmouth_1}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
+\code{\link{duke_1}},
+\code{\link{duke_2}},
+\code{\link{harvard_1}},
+\code{\link{harvard_2}},
+\code{\link{harvard_3}},
+\code{\link{jhu_0}},
+\code{\link{jhu_1}},
+\code{\link{jhu_2}},
+\code{\link{jhu_3_accent}},
+\code{\link{jhu_4_gray}},
+\code{\link{michigan_1}},
+\code{\link{michigan_2}},
+\code{\link{minnesotatwin_1}},
+\code{\link{minnesotatwin_2}},
+\code{\link{mit}},
+\code{\link{monash_1}},
+\code{\link{monash_2}},
+\code{\link{msu}},
 \code{\link{northwestern_2}},
 \code{\link{notredame_1}},
 \code{\link{notredame_2}},
@@ -91,92 +114,16 @@ Other university color palettes:
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
 \code{\link{nyu_neutral}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_error}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{princeton_0}},
-\code{\link{princeton_1}},
-\code{\link{princeton_2}},
-\code{\link{queens_1}},
-\code{\link{queens_2}},
-\code{\link{rpi_1}},
-\code{\link{rpi_2}},
-\code{\link{rpi_3}},
-\code{\link{rptu}},
-\code{\link{sfu_brand}},
-\code{\link{standrews_1}},
-\code{\link{standrews_2}},
-\code{\link{stanford_1}},
-\code{\link{stanford_2_accent}},
-\code{\link{stanford_3_web}},
-\code{\link{ucalgary_accent}},
-\code{\link{ucalgary_primary}},
-\code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}},
-\code{\link{umass_2}},
-\code{\link{umass_brand}},
-\code{\link{umass_neutrals}},
-\code{\link{uni_bonn_1}},
-\code{\link{uni_bonn_2}},
-\code{\link{uni_freiburg_0}},
-\code{\link{uni_freiburg_1}},
-\code{\link{uni_freiburg_2}},
-\code{\link{uni_freiburg_blue}},
-\code{\link{uni_freiburg_br}},
-\code{\link{uni_freiburg_grey}},
-\code{\link{uni_freiburg_info}},
-\code{\link{uni_goettingen_1}},
-\code{\link{uni_goettingen_2}},
-\code{\link{uni_goettingen_3}},
-\code{\link{uni_hamburg_1}},
-\code{\link{uni_hamburg_2}},
-\code{\link{uni_heidelberg_1}},
-\code{\link{uni_jena_1}},
-\code{\link{uni_jena_2}},
-\code{\link{uni_kiel_1}},
-\code{\link{uni_kiel_2}},
-\code{\link{uni_koeln_1}},
-\code{\link{uni_koeln_2}},
-\code{\link{uni_konstanz_1}},
-\code{\link{uni_konstanz_2}},
-\code{\link{uni_manchester_1}},
-\code{\link{uni_mannheim_1}},
-\code{\link{uni_mannheim_2}},
-\code{\link{uni_regensburg_1}},
-\code{\link{uni_regensburg_2}},
-\code{\link{uni_regensburg_3}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_2_print}},
-\code{\link{uni_ulm_1}},
-\code{\link{uni_ulm_2}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{uci_1}},
+\code{\link{uci_2}},
+\code{\link{uci_3}},
+\code{\link{uci_4}},
+\code{\link{uflorida_1}},
+\code{\link{uflorida_2}},
+\code{\link{uflorida_3}}
 }
 \author{
 \strong{unicol}, 2023-06-14.
 }
-\concept{university color palettes}
+\concept{U.S. university color palettes}
 \keyword{datasets}
