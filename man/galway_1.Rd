@@ -46,6 +46,8 @@ unikn::seecol(galway_1, main = "University of Galway 1") # view color palette.
 
 Other Irish university color palettes: 
 \code{\link{galway_2}},
+\code{\link{limerick_1}},
+\code{\link{limerick_2}},
 \code{\link{trinity_1}},
 \code{\link{trinity_2}}
 }

@@ -46,6 +46,12 @@ unikn::seecol(birmingham_1, main = "University of Birmingham") # view colour pal
 \code{\link{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
+
+Other U.K. university color palettes: 
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
+\code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}}
 }
 \author{
 \strong{unicol}, 2023-06-20.
