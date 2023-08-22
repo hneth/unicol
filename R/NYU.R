@@ -1,6 +1,6 @@
-## NYU.R | 2023 08 16
+## NYU.R | 2023 08 22
 ## Colors of NYU, New York University, USA
-## -----------------------------------------------
+## ---------------------------------------
 
 # Information: ------
 
@@ -22,7 +22,7 @@
 # Color palette(s):
 
 
-# - nyu_1: Primary colors ------
+# - nyu_1: Primary colors of NYU ------
 
 #' Primary colors of New York University (NYU), USA
 #'
@@ -47,7 +47,7 @@
 #' nyu_1
 #' unikn::seecol(nyu_1, main = "Primary colors NYU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{nyu_2}} for secondary colors of NYU, New York University;
@@ -62,8 +62,8 @@
 #' @export
 
 nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
-                           names = c("nyu_violet", "ultra_violet", "black"),
-                           as_df = FALSE)
+                       names = c("nyu_violet", "ultra_violet", "black"),
+                       as_df = FALSE)
 
 # # Check:
 # unikn::seecol(nyu_1, main = "Primary colors NYU, New York University", col_bg = "white")
@@ -71,7 +71,7 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 
 
 
-# - nyu_2: Secondary colors ------
+# - nyu_2: Secondary colors of NYU ------
 
 #' Secondary colors of New York University (NYU), USA
 #'
@@ -99,7 +99,7 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #' nyu_2
 #' unikn::seecol(nyu_2, main = "Secondary colors NYU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{nyu_1}} for primary colors of NYU, New York University;
@@ -114,15 +114,15 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #' @export
 
 nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee6f3"),
-                           names = c("deep_violet", "medium_violet1", "medium_violet2", "light_violet1", "light_violet2"),
-                           as_df = FALSE)
+                       names = c("deep_violet", "medium_violet1", "medium_violet2", "light_violet1", "light_violet2"),
+                       as_df = FALSE)
 
 # # Check:
 # unikn::seecol(nyu_2, main = "Secondary  colors NYU, New York University", col_bg = "white")
 
 
 
-# - nyu_neutral: Neutral colors ------
+# - nyu_neutral: Neutral colors of NYU ------
 
 #' Neutral colors of of New York University (NYU), USA 
 #'
@@ -151,7 +151,7 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #' nyu_neutral
 #' unikn::seecol(nyu_neutral, main = "Neutral colors NYU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{nyu_1}} for primary colors of NYU, New York University;
@@ -166,15 +166,15 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #' @export
 
 nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6", "#f2f2f2", "white"),
-                           names = c("dark_gray", "medium_gray1", "medium_gray2", "medium_gray3", "light_gray", "white"),
-                           as_df = FALSE)
+                             names = c("dark_gray", "medium_gray1", "medium_gray2", "medium_gray3", "light_gray", "white"),
+                             as_df = FALSE)
 
 # # Check:
 # unikn::seecol(nyu_neutral, main = "Neutral colors NYU, New York University", col_bg = "white")
 
 
 
-# - nyu_accent: Accent colors ------
+# - nyu_accent: Accent colors of NYU ------
 
 #' Accent colors of New York University (NYU), USA
 #'
@@ -204,7 +204,7 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #' nyu_accent
 #' unikn::seecol(nyu_accent, main = "Primary colors NYU") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes 
 #'
 #' @seealso
 #' \code{\link{nyu_1}} for primary colors of NYU, New York University;
@@ -219,8 +219,8 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #' @export
 
 nyu_accent <- unikn::newpal(col = c("#009b8a", "#fb0f78", "#59B2D1", "#f4ec51"),
-                           names = c("teal", "magenta", "blue", "yellow"),
-                           as_df = FALSE)
+                            names = c("teal", "magenta", "blue", "yellow"),
+                            as_df = FALSE)
 
 # # Check:
 # unikn::seecol(nyu_accent, main = "Primary colors NYU, New York University", col_bg = "white")
