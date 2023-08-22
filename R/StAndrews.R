@@ -1,13 +1,13 @@
-## St_Andrews.R | 2023 07 20
-## Colors of the University of St Andrews
-## ---------------------------------------
+## StAndrews.R | 2023 07 20
+## Colors of the University of St Andrews, Scotland
+## ------------------------------------------------
 
 # Information: ------
 
 # cur_pals: "standrews_1", "standrews_2 (2)
 # inst: "University of St Andrews"
 # country: UK
-# URL: "https://www.st-andrews.ac.uk/"
+# URL: "https://www.st-andrews.ac.uk"
 
 # Color source:
 # URL: "https://www.st-andrews.ac.uk/brand/design-guidelines/colours/"
@@ -19,10 +19,10 @@
 # - standrews_1: Primary colors: ------ 
 
 
-#' Primary colours of the University of St Andrews, UK 
+#' Primary colours of the University of St Andrews, Scotland 
 #' 
 #' \code{standrews_1} provides the four primary colours 
-#' of the \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{University of St Andrews}, UK. 
+#' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland. 
 #' 
 #' The 4 primary colors are 
 #' \code{"standrews_blue"} (defined as HEX #00539b), 
@@ -39,14 +39,14 @@
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source 
-#' Colour definitions are based on 
-#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews design guidelines}.
+#' Colour definitions are based on St. Andrews' 
+#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{design guidelines}.
 #'
 #' @examples
 #' standrews_1
 #' unikn::seecol(standrews_1, main = "University of St Andrews 1") # view color palette
 #'
-#' @family university color palettes
+#' @family Scottish university color palettes
 #'
 #' @seealso
 #' \code{\link{standrews_2}} for secondary colours of St. Andrews;
@@ -67,10 +67,10 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 # - standrews_2: Secondary colors ------ 
 
 
-#' Secondary colours of the University of St Andrews, UK 
+#' Secondary colours of the University of St Andrews, Scotland 
 #' 
 #' \code{standrews_2} provides the eight secondary colours 
-#' of the \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{University of St Andrews}, UK. 
+#' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland. 
 #' 
 #' The 8 secondary colours are 
 #' \code{"andrews_light_blue"} (defined as HEX #00aeef), 
@@ -98,7 +98,7 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #' standrews_2
 #' unikn::seecol(standrews_2, main = "University of St Andrews 2") # view color palette
 #'
-#' @family university color palettes
+#' @family Scottish university color palettes
 #'
 #' @seealso
 #' \code{\link{standrews_1}} for primary colours of St. Andrews; 
