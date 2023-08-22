@@ -19,7 +19,7 @@
 
 # Color palette(s):
 
-# - manitoba_1: Primary colors ------
+# - manitoba_1: Primary colors of Manitoba ------
 
 #' Primary colors of the University of Manitoba, Canada 
 #'
@@ -49,7 +49,7 @@
 #' unikn::seecol(manitoba_1, 
 #'               main = "Primary colors of the University of Manitoba") 
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{manitoba_2}} for the extended colors of the University of Manitoba; 
@@ -105,9 +105,9 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #' @examples
 #' manitoba_2
 #' unikn::seecol(manitoba_2, 
-#'               main = "Primary colors of the University of Manitoba") 
+#'               main = "Extended colors of the University of Manitoba") 
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{manitoba_1}} for the primary colors of the University of Manitoba; 

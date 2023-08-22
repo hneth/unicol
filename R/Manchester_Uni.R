@@ -1,4 +1,4 @@
-## Manchester_Uni.R | 2023 08 14
+## Manchester_Uni.R | 2023 08 22
 ## Colours of the Manchester University, England/UK
 ## ------------------------------------------------
 
@@ -24,7 +24,7 @@
 # Color palette(s):
 
 
-# - manchester_uni_1: Primary colours ------
+# - manchester_uni_1: Primary colours of Manchester University ------
 
 #' Primary colours of Manchester University, UK 
 #'
@@ -53,7 +53,7 @@
 #' unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University") 
 #' # view color palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{manchester_uni_accent}} for accent colours of Manchester University;
@@ -75,7 +75,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 
 
 
-# - manchester_uni_accent: Accent colours ------
+# - manchester_uni_accent: Accent colours of Manchester University ------
 
 #' Accent colours of Manchester University, UK 
 #'
@@ -106,7 +106,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 #' unikn::seecol(manchester_uni_accent, main = "Accent colors of Manchester University") 
 #' # view color palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{manchester_uni_1}} for primary colours of Manchester University;

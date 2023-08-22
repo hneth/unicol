@@ -1,4 +1,4 @@
-## McGill.R | 2023 06 20
+## McGill.R | 2023 08 22
 ## Colours of McGill University, Canada 
 ## ------------------------------------
 
@@ -30,13 +30,14 @@
 
 #' Primary colour of McGill University, Canada 
 #'
-#' \code{mcgill_red} provides the McGill Red 
+#' \code{mcgill_red} provides the primary color "McGill Red" (or \code{mcgill_red})
 #' of \href{https://www.mcgill.ca/}{McGill University}, Canada.
 #'
-#' The colour is
-#' \code{"mcgill_red"} (defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f).
+#' The colour is called 
+#' \code{"mcgill_red"} and defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f.
 #' 
-#' \code{mcgill_red} uses the HEX colour definition. 
+#' \code{mcgill_red} uses the HEX colour definition.
+#'  
 #' Note that the CMYK colour differs from the RGB and HEX definitions. 
 #' 
 #' @return 
@@ -51,9 +52,9 @@
 #'
 #' @examples
 #' mcgill_red
-#' unikn::seecol(mcgill_red, main = "McGill Red") # view colour palette
+#' unikn::seecol(mcgill_red, main = "McGill red") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_pastels}} for the pastel colours of McGill;
@@ -79,7 +80,7 @@ mcgill_red <- unikn::newpal(col = c("#ed1b2f"),
 
 
 
-# - mcgill_pastels: Pastel colours ------
+# - mcgill_pastels: Pastel colours of McGill ------
 
 #' Pastel colours of McGill University, Canada 
 #' 
@@ -114,7 +115,7 @@ mcgill_red <- unikn::newpal(col = c("#ed1b2f"),
 #' mcgill_pastels
 #' unikn::seecol(mcgill_pastels, main = "Pastel colours of McGill") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}} for the primary colour of McGill University;
@@ -140,7 +141,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
 
 
 
-# - mcgill_brights: Bright Colours ------
+# - mcgill_brights: Bright Colours of McGill ------
 
 #' Bright colours of McGill University, Canada 
 #'
@@ -175,7 +176,7 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
 #' mcgill_brights
 #' unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}} for the primary colour of McGill University;
@@ -200,7 +201,7 @@ mcgill_brights <- unikn::newpal(col = c("#F7941D", "#FFD400", "#27BDBE", "#44C8F
 
 
 
-# - mcgill_muted: Muted colours ------
+# - mcgill_muted: Muted colours of McGill ------
 
 #' Muted colours of McGill University, Canada 
 #'
@@ -218,9 +219,9 @@ mcgill_brights <- unikn::newpal(col = c("#F7941D", "#FFD400", "#27BDBE", "#44C8F
 #' \code{"muted_5"} (defined as CMYK 50/23/87/3, RGB 139/160/78, HEX #8BA04E), and
 #' \code{"muted_6"} (defined as CMYK 40/76/33/6, RGB 155/86/120, HEX #9B5678).
 #' 
+#' \code{mcgill_muted} uses the HEX colour definitions. 
 #' 
-#' \code{mcgill_muted} uses the HEX colour definition. 
-#' CMYK colour differs from RGB and HEX definition.
+#' Note that CMYK colour values differ from RGB and HEX definitions.
 #' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -236,7 +237,7 @@ mcgill_brights <- unikn::newpal(col = c("#F7941D", "#FFD400", "#27BDBE", "#44C8F
 #' mcgill_muted
 #' unikn::seecol(mcgill_muted, main = "Muted colours of McGill") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}} for the primary colour of McGill University;
@@ -261,7 +262,7 @@ mcgill_muted <- unikn::newpal(col = c("#D3674A", "#E8B92E", "#087F8C", "#0096C9"
 
 
 
-# - mcgill_darks: Dark colours ------
+# - mcgill_darks: Dark colours of McGill ------
 
 #' Dark colours of McGill University, Canada 
 #'
@@ -280,8 +281,9 @@ mcgill_muted <- unikn::newpal(col = c("#D3674A", "#E8B92E", "#087F8C", "#0096C9"
 #' \code{"dark_6"} (defined as CMYK 65/90/31/18, RGB 103/53/103, HEX #673567), and
 #' \code{"dark_7"} (defined as CMYK 0/100/90/40, RGB 158/9/24, HEX #9E0918).
 #' 
-#' \code{mcgill_darks} uses the HEX colour definition. 
-#' Note that the CMYK colours differ from RGB and HEX definitions.
+#' \code{mcgill_darks} uses the HEX colour definitions.
+#'  
+#' Note that the CMYK colour values differ from RGB and HEX definitions.
 #' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -297,7 +299,7 @@ mcgill_muted <- unikn::newpal(col = c("#D3674A", "#E8B92E", "#087F8C", "#0096C9"
 #' mcgill_darks
 #' unikn::seecol(mcgill_darks, main = "Dark colours of McGill") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}} for the primary colour of McGill University; 
@@ -322,7 +324,7 @@ mcgill_darks <- unikn::newpal(col = c("#AA4B31", "#B28C35", "#0A6266", "#024F6D"
 
 
 
-# - mcgill_grey: Cool grey ------
+# - mcgill_grey: Cool grey of McGill ------
 
 #' Grey colour of McGill University, Canada
 #'
@@ -352,7 +354,7 @@ mcgill_darks <- unikn::newpal(col = c("#AA4B31", "#B28C35", "#0A6266", "#024F6D"
 #' mcgill_grey
 #' unikn::seecol(mcgill_grey, main = "Cool Grey of McGill") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcgill_red}} for the primary colour of McGill University; 
@@ -379,9 +381,9 @@ mcgill_grey <- unikn::newpal(col = c("#5D6770"),
 
 ## ToDo: -------- 
 
-# McGill University hat noch zwei Paletten:
-#  -Black & Neutral Grey: diese enthält neben schwarz, noch schwarz screened to 60%, 30% und 15%
-#  -Cool Grey: diese enthält neben cool grey (siehe oben) noch cool grey screened to 70%, 40% und 20%
+# McGill University hat noch zwei weitere Paletten:
+#  - Black & Neutral Grey: diese enthält neben schwarz, noch schwarz screened to 60%, 30% und 15%
+#  - Cool Grey: diese enthält neben cool grey (siehe oben) noch cool grey screened to 70%, 40% und 20%
 
 # - etc.
 

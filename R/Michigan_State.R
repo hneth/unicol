@@ -48,7 +48,7 @@
 #' msu
 #' unikn::seecol(msu, main = "Michigan State University") # view color palette
 #' 
-#' @family university color palettes
+#' @family U.S. university color palettes
 #' 
 #' @seealso 
 #' \code{\link{seecol}} for viewing and comparing color palettes;

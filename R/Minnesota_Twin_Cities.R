@@ -1,4 +1,4 @@
-# Minnesota Twin Cities | 2023 08 15
+# Minnesota Twin Cities | 2023 08 22
 # Colors of the University of Minnesota, USA
 # -------------------------------------------
 
@@ -16,7 +16,7 @@
 
 # Color palettes:
 
-# minnesotatwin_1: Primary colors of UMN ------ 
+# - minnesotatwin_1: Primary colors of UMN ------ 
 
 #' Primary colors of the University of Minnesota Twin Cities, USA 
 #'
@@ -44,9 +44,8 @@
 #' unikn::seecol(minnesotatwin_1, 
 #'               main = "University of Minnesota Twin Cities") # view color palette
 #'
-#'
-#' @family university of color palettes
-#'
+#' @family U.S. university color palettes
+#' 
 #' @seealso
 #' \code{\link{minnesotatwin_2}} for the secondary colors of UMN;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -63,7 +62,7 @@ minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 
 
 
-# minnesotatwin_2: Secondary colors of UMN ------
+# - minnesotatwin_2: Secondary colors of UMN ------
 
 
 #' Secondary colors of the University of Minnesota Twin Cities, USA 
@@ -98,7 +97,7 @@ minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 #' unikn::seecol(minnesotatwin_2, 
 #'               main = "University of Minnesotatwin Twin Cities") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{minnesotatwin_1}} for the primary colors of UMN;

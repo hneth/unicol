@@ -1,4 +1,4 @@
-## MIT.R | 2023 08 15
+## MIT.R | 2023 08 22
 ## Colors of MIT, Massachusetts Institute of Technology, USA
 ## ---------------------------------------------------------
 
@@ -82,7 +82,7 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' mit
 #' unikn::seecol(mit, main = "MIT, Massachusetts Institute of Technology") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

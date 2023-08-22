@@ -24,7 +24,7 @@
 # Color palette(s):
 
 
-# - monash_1: Primary colors ------
+# - monash_1: Primary colors of Monash University ------
 
 #' Primary colors of Monash University, USA 
 #'
@@ -78,7 +78,7 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
 
 
 
-# - monash_2: Secondary colors ------
+# - monash_2: Secondary colors of Monash University ------
 
 #' Secondary colors of Monash University, USA 
 #'

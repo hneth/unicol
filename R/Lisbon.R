@@ -1,4 +1,4 @@
-## Lisbon.R | 2023 08 21
+## Lisbon.R | 2023 08 22
 ## Colors of the University of Lisbon, Portugal 
 ## --------------------------------------------
 
@@ -67,7 +67,7 @@
 #'               main = "Colors of the University of Lisbon")  # view color palette
 #' unikn::demopal(uni_lisbon, main = "Universidade de Lisboa") # demo color palette 
 #' 
-#' @family university color palettes
+#' @family Portuguese university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;

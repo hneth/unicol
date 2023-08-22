@@ -19,7 +19,7 @@
 
 # Colour palette(s):
 
-# - mcmaster_heritage: Heritage colours ------
+# - mcmaster_heritage: Heritage colours of McMaster University ------
 
 #' Heritage colours of McMaster University, Canada 
 #'
@@ -36,7 +36,7 @@
 #'
 #' The heritage colours are
 #' \code{"mcmaster_heritage_maroon"} (defined as HEX #7A003C),
-#' \code{"mcmaster_heritage_gold"} (defined as HEX #FDBF57) and
+#' \code{"mcmaster_heritage_gold"} (defined as HEX #FDBF57), and
 #' \code{"mcmaster_heritage_grey"} (defined as HEX #5E6A71).
 #'
 #' @return 
@@ -53,7 +53,7 @@
 #' mcmaster_heritage
 #' unikn::seecol(mcmaster_heritage, main = "McMaster Heritage Colours") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcmaster_brighterworld}} for the brighter world colours of McMaster University; 
@@ -75,7 +75,7 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 
 
 
-# - mcmaster_brighterworld: Brighter World Colours ------
+# - mcmaster_brighterworld: Brighter World colours of McMaster University ------
 
 #' Brighter World colours of McMaster University, Canada 
 #'
@@ -90,7 +90,7 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 #' The highlight colours of the Brighter World palette are used for highlights and backgrounds in the duotone images.
 #' The colours are
 #' \code{"brighter_world_yellow"} (defined as HEX #FFD100),
-#' \code{"brighter_world_lime"} (defined as HEX #D2D755) and
+#' \code{"brighter_world_lime"} (defined as HEX #D2D755), and
 #' \code{"brighter_world_sky_blue"} (defined as HEX #8BD3E6).
 #'
 #' The darker tones of the Brighter World Colours are
@@ -119,7 +119,7 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 #' mcmaster_brighterworld
 #' unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{mcmaster_heritage}} for the heritage colours of McMaster University;
