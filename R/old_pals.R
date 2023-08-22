@@ -1,277 +1,9 @@
-## old_pals.R | 2023 08 18
+## old_pals.R | 2023 08 22
 ## Old color palettes (from unikn)
 ## -------------------------------
 
 # Define colors and color palettes of various institutions.
 # (Export color palettes as vectors, rather than data frames.)
-
-
-
-# ETH Zurich / Eidgenössische Technische Hochschule, Zürich, CH: ------
-
-# Source: https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html
-# Last check: 2022-12-30
-
-# Colour definition:
-# Seven corporate design colours form the basis of our colour schemes, interactive elements and design elements. 
-# White text should always be used on coloured backgrounds to ensure readability/accessibility.
-
-# - eth_1: ---- 
-
-# ETH Blue: 
-#   RGB 33, 92, 175 
-#   "#215CAF"
-# 
-# ETH Petrol:
-#   RGB 0, 120, 148
-#   "#007894"
-# 
-# ETH Green:
-#   RGB 98, 115, 19
-#   "#627313"
-# 
-# ETH Bronze:
-#   RGB 142, 103, 19
-#   "#8E6713"
-# 
-# ETH Red:
-#   RGB 183, 53, 45
-#   "#B7352D"
-# 
-# ETH Purple:
-#   RGB 167, 17, 122
-#   "#A7117A"
-# 
-# ETH Grey:
-#   RGB 111, 111, 111
-#   "#6F6F6F"
-
-col_ETH <- c("#215CAF", "#007894", "#627313", "#8E6713", "#B7352D", "#A7117A", "#6F6F6F")
-nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ETH purple", "ETH grey")
-
-
-#' Default colors of the ETH Zurich, CH 
-#'
-#' \code{eth_1} provides the seven default colors  
-#' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
-#' 
-#' Lighter shades of the ETH Zurich colors are provided by \code{\link{eth_2}}. 
-#' 
-#' The Swiss abbreviation "ETH" stands for "Eidgenössische Technische Hochschule".
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unicol}, 2022-12-30.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
-#' 
-#' @examples
-#' eth_1
-#' unikn::seecol(eth_1, main = "Default colors of the ETH Zürich")  # view color palette
-#' unikn::demopal(eth_1, type = 3, main = "Using the default colors of ETH Zurich")
-#'
-#' @family university color palettes
-#'
-#' @seealso 
-#' \code{\link{eth_2}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-eth_1 <- unikn::newpal(col = col_ETH, 
-                       names = nam_ETH,
-                       as_df = FALSE)
-
-
-# - eth_2: ---- 
-
-# Lighter shades:
-# Light colours are also available and can be used to make certain elements (like text boxes) stand out. 
-# Black text must be used on light-coloured backgrounds for accessibility reasons.
-
-# ETH Blau 10%:
-#   RGB 233, 239, 247
-#   "#E9EFF7"
-#   
-# ETH Petrol 10%:
-#   RGB 321, 244, 247   # Note error in specification: R value should be 231.
-#   "#E7F4F7"
-# 
-# ETH Green 10%:
-#   RGB 239, 241, 231
-#   "#EFF1E7"
-# 
-# ETH Bronze 10%:
-#   RGB 244, 240, 231
-#   "#F4F0E7"
-# 
-# ETH Red 10%:
-#   RGB 248, 235, 234
-#   "#F8EBEA"
-# 
-# ETH Purple 10%:
-#   RGB 248, 232, 243
-#   "#F8E8F3"	
-# 
-# ETH Grey 10%:
-#   RGB 241, 241, 241
-#   "#F1F1F1"
-
-col_ETH_light <- c("#E9EFF7", "#E7F4F7", "#EFF1E7", "#F4F0E7", "#F8EBEA", "#F8E8F3", "#F1F1F1")
-nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze 10%", "red 10%", "purple 10%", "grey 10%"))
-
-
-#' Lighter shades of the colors of the ETH Zurich, CH 
-#'
-#' \code{eth_2} provides lighter shades of the default colors  
-#' of the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
-#' 
-#' The primary colors of the ETH Zurich are provided by \code{\link{eth_1}}. 
-#' 
-#' The Swiss abbreviation "ETH" stands for "Eidgenössische Technische Hochschule".
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unicol}, 2022-12-30.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
-#' 
-#' @examples
-#' eth_2
-#' unikn::seecol(eth_2, main = "Light shades of the ETH Zurich")  # view color palette
-#' unikn::demopal(eth_2, type = 4, main = "Light shades of ETH Zürich colors")
-#'
-#' @family university color palettes
-#'
-#' @seealso 
-#' \code{\link{eth_1}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-eth_2 <- unikn::newpal(col = col_ETH_light, 
-                       names = nam_ETH_light,
-                       as_df = FALSE)
-
-
-# - eth_3: ---- 
-
-# Using black and shades of grey:
-# Shades of grey can be used to visually structure content and delineate different elements. 
-
-# The following shades of gray are used on the ETH website:
-
-# - Black: ETH logo, text colour
-#   RGB 0, 0, 0,
-#   "#00000"
-
-eth_black <- "black"  # = unikn::usecol("#000000")
-
-# - Black light: black backgrounds such as meta-navigation and buttons
-#   RGB 34, 34, 34
-#   "#222222"
-
-eth_black_light <- unikn::usecol("#222222")
-
-# - Black, 60% opacity: standard interactive colour
-#   RGBA 0, 0, 0, 0.6
-#   "#00000" x 60%
-
-eth_black_60 <- unikn::usecol("black", alpha = .60)
-
-# - Black, 48% opacity, contrast 3:1: icon colour
-#   RGBA 34, 34, 34, 0.48
-#   "#222222" x 48%
-
-eth_black_48 <- unikn::usecol("#222222", alpha = .48)
-
-# - Black, 20% opacity, contrast 1.5:1: line colour
-#   RGBA 34, 34, 34, 0.20
-#   "#222222" x 20%
-
-eth_black_20 <- unikn::usecol("#222222", alpha = .20)
-
-# + ETH Grey 10%:
-#   RGB 241, 241, 241
-#   "#F1F1F1"
-
-eth_grey_10 <- unikn::usecol("#F1F1F1")
-
-# - ETH Grey 5%: standard background colour for flyout menus, related content (navigation), highlight container, table borders, keyword lists, etc.
-#   RGB 246, 246, 246
-#   "#F6F6F6"
-
-eth_grey_05 <- unikn::usecol("#F6F6F6")
-
-# - White: backgrounds, text colour on dark backgrounds
-# - Black, 80% opacity: hover colour for links
-
-col_eth_grey <- c(eth_black, eth_black_light, 
-                  eth_black_60, eth_black_48, eth_black_20, 
-                  eth_grey_10, eth_grey_05)
-
-nam_eth_grey <- c("black", paste0("ETH ", c("black light", 
-                                            "black 60%", "black 48%", "black 20%",
-                                            "grey 10%", "grey 5%")))
-
-
-#' Black and grey colors of the ETH Zurich, CH 
-#'
-#' \code{eth_3} provides the black and gray colors  
-#' used by the \href{https://ethz.ch/de.html/}{ETH Zürich}, Switzerland. 
-#' 
-#' The color \code{"black"} and six shades of gray can be used to visually structure content 
-#' and delineate different elements. 
-#' 
-#' Note that \code{eth_3} mixes colors of 
-#' varying opacity / transparency levels.
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unicol}, 2022-12-30.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://ethz.ch/de.html/staffnet/en/service/communication/corporate-design/digital-media/web-colours.html}. 
-#' 
-#' @examples
-#' eth_3
-#' unikn::seecol(eth_3, main = "Black and grey colors of the ETH Zurich")  # view color palette
-#' unikn::demopal(eth_3, type = 2, main = "Black and gray colors of ETH Zürich")
-#'
-#' @family university color palettes
-#'
-#' @seealso 
-#' \code{\link{eth_1}} and \code{\link{eth_2}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-eth_3 <- unikn::newpal(col = col_eth_grey, 
-                       names = nam_eth_grey,
-                       as_df = FALSE)
 
 
 
@@ -344,7 +76,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' unikn::seecol(fu_0, main = "Primary colors of the FU Berlin")  # view color palette
 #' unikn::demopal(fu_0, type = 1, main = "Primary colors of the FU Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{fu_1}} for a corresponding color gradient of the FU Berlin;
@@ -431,7 +163,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' unikn::seecol(fu_2, main = "Secondary colors of the FU Berlin")  # view color palette
 #' unikn::demopal(fu_2, type = 5, main = "Accent and grey colors of the FU Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{fu_0}} for primary colors of the FU Berlin; 
@@ -500,7 +232,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' unikn::seecol(fu_3, main = "Blue color gradient of the FU Berlin")  # view color palette
 #' unikn::demopal(fu_3, type = 3, main = "Blue color gradient of the FU Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{fu_0}} for primary colors of the FU Berlin;
@@ -564,7 +296,7 @@ fu_3 <- fu_blues
 #' unikn::seecol(fu_1, main = "Primary color gradient of the FU Berlin")  # view color palette
 #' unikn::demopal(fu_1, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{fu_0}} for primary colors of the FU Berlin;
@@ -638,7 +370,7 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' # unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
 #' unikn::demopal(hu_1, type = 1, main = "Colors of Humboldt University Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{hu_2}} for secondary colors of the HU Berlin;  
@@ -728,7 +460,7 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' unikn::seecol(hu_2, main = "The colors of HU Berlin")  # view color palette
 #' unikn::demopal(hu_2, type = 3, main = "Colors of Humboldt University Berlin")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{hu_1}} for primary colors of the HU Berlin;  
@@ -799,7 +531,7 @@ hu_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 #' unikn::seecol(lmu_1, main = "The primary colors of LMU München")  # view color palette 
 #' unikn::demopal(lmu_1, type = 3, main = "Primary colors of LMU Munich")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{lmu_2}} for secondary colors of the LMU Munich; 
@@ -860,7 +592,7 @@ lmu_1 <- unikn::newpal(col = c("#00883A", "#232323", "#FFFFFF"),
 #' lmu_pal_linear <- c(lmu_1[-3], lmu_2, lmu_1[3])
 #' unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors of LMU")
 #' 
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{lmu_1}} for primary colors of the LMU Munich; 
@@ -930,7 +662,7 @@ lmu_2 <- unikn::newpal(col = c("#626468", "#C0C1C3", "#E6E6E7", "#F5F5F5"),
 #' unikn::seecol(lmu_3, main = "Accent colors of the LMU München")  # view color palette 
 #' unikn::demopal(lmu_3, type = 3, main = "Accent colors of LMU Munich")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{lmu_1}} for primary colors of the LMU Munich; 
@@ -1010,7 +742,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' mpg_11 <- unikn::usecol(c(mpg, "black"), n = 11)
 #' unikn::demopal(mpg_11, type = 4, seed = 1, main = "An extended MPG palette")
 #' 
-#' @family university color palettes
+#' @family Research society color palettes
 #'
 #' @seealso 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -1121,7 +853,7 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' # unikn::seecol(uni_bonn_blau_gelb, main = "Divergent color gradient of Uni Bonn")
 #' unikn::demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gradient of Uni Bonn")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_bonn_2}} for gradient colors of the University of Bonn;  
@@ -1167,7 +899,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #' unikn::seecol(uni_bonn_2, main = "Gradient colors of the University of Bonn")  # view color palette 
 #' unikn::demopal(uni_bonn_2, type = 3, main = "Color shades of the University of Bonn")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_bonn_1}} for primary colors of the University of Bonn;  
@@ -1323,7 +1055,7 @@ names(frbg_rosa) <- "rosa"
 #'        main = "Basic colors of the University of Freiburg")  # view color palette
 #' unikn::demopal(uni_freiburg_0, type = 5, main = "Basic colors of Freiburg University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg;
@@ -1401,7 +1133,7 @@ frbg_sand_name <- c("sand")
 #' sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3] 
 #' # demopal(sand_gradient)
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
@@ -1458,7 +1190,7 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' col_gradient <- unikn::usecol(c(uni_freiburg_2[1], "white"), n = 6)[1:5]  # mix with "white"
 #' col_transparent <- unikn::ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40, .20))
 #' 
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
@@ -1511,7 +1243,7 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 #' unikn::seecol(uni_freiburg_br, main = "Colors of the University of Freiburg (2022)")
 #' unikn::demopal(uni_freiburg_br, type = 2, main = "Colors of the Freiburg University (2022)")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;  
@@ -1555,7 +1287,7 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 #' unikn::seecol(uni_freiburg_blue, main = "Blue colors of the University of Freiburg (2022)")
 #' unikn::demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg University (2022)")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
@@ -1600,7 +1332,7 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' unikn::seecol(uni_freiburg_grey, main = "Grey colors of the University of Freiburg (2022)")
 #' unikn::demopal(uni_freiburg_grey, type = 1, main = "Grey colors of Freiburg University (2022)")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
@@ -1647,7 +1379,7 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 #' unikn::seecol(uni_freiburg_info, main = "Info colors of the University of Freiburg (2022)")
 #' unikn::demopal(uni_freiburg_info, type = 3, main = "Info colors of Freiburg University (2022)")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
@@ -1741,7 +1473,7 @@ uni_freiburg_info <- unikn::newpal(col = c("#2a6ebb", "#a7c1e3", "#7b2927", "#de
 #' unikn::seecol(unikn::usecol(c(uni_hamburg_1[1], "white", uni_hamburg_1[2]), n = 7), 
 #'               main = "Divergent HHU")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_hamburg_2}} for visualization colors of the University of Hamburg;  
@@ -1809,7 +1541,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' unikn::seecol(uni_hamburg_2, main = "Visualization colors of the University of Hamburg")
 #' unikn::demopal(uni_hamburg_2, type = 1, main = "Secondary colors of the Uni Hamburg")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_hamburg_1}} for primary colors of the University of Hamburg;  
@@ -1905,7 +1637,7 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' jena_mix <- unikn::usecol(c(uni_jena_1[1], "white", uni_jena_1[2]), n = 7)
 #' unikn::seecol(jena_mix, main = "A gradient of the University of Jena")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_jena_2}} for departmental colors of the University of Jena;  
@@ -2019,7 +1751,7 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 #' unikn::seecol(uni_jena_2, main = "Departmental colors of the University of Jena")
 #' unikn::demopal(uni_jena_2, type = 5, main = "Faculty colors of Jena University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_jena_1}} for primary colors of the University of Jena;  
@@ -2113,7 +1845,7 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' kiel_mix <- unikn::usecol(uni_kiel_1, n = N)[c(-1, -N)]  # remove extremes
 #' unikn::seecol(kiel_mix, main = "A color gradient of Kiel University (CAU)")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_kiel_2}} for departmental colors of Kiel University;  
@@ -2219,7 +1951,7 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' uni_kiel_med <- unikn::usecol(c(uni_kiel_2["Medizin"], "black"), n = 5)
 #' unikn::seecol(uni_kiel_med, main = "5 shades of 'Medizin' of Uni Kiel")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_kiel_1}} for primary colors of Kiel University;  
@@ -2298,7 +2030,7 @@ koeln_si_1 <- rgb(175, 17, 29, maxColorValue = 255)
 #' unikn::demopal(uni_koeln_1, type = 4, 
 #'                main = "Primary colors at the University of Cologne")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_koeln_2}} for departmental colors of the University of Koeln;  
@@ -2374,7 +2106,7 @@ koeln_fa_7 <- rgb(145, 196, 234, maxColorValue = 255)
 #' unikn::demopal(uni_koeln_2, type = 3, 
 #'                main = "Department colors at the University of Cologne")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_koeln_1}} for primary colors of the University of Koeln;  
@@ -2431,7 +2163,7 @@ uni_koeln_2 <- unikn::newpal(col = c(koeln_fa_1, koeln_fa_2, koeln_fa_3, koeln_f
 #' unikn::seecol(uni_konstanz_1, main = "Default colors of the University of Konstanz")
 #' unikn::demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", seed = 1)
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_konstanz_2}} for the preferred colors of the University of Konstanz;  
@@ -2480,7 +2212,7 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 #' unikn::seecol(uni_konstanz_2, main = "Preferred colors of the University of Konstanz")  
 #' unikn::demopal(uni_konstanz_2, type = 3, main = "Preferred colors of the Uni Konstanz")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_konstanz_1}} for the default colors of the University of Konstanz;  
@@ -2581,7 +2313,7 @@ UM_petrol <- rgb(65, 137, 134, maxColorValue = 255)
 #' unikn::demopal(uni_mannheim_1, type = 1, 
 #'                main = "Main color gradient of Mannheim University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_mannheim_2}} provides the primary and accent colors of the University of Mannheim;  
@@ -2648,7 +2380,7 @@ uni_mannheim_1 <- unikn::newpal(col = UM_blau_v7,
 #' unikn::demopal(uni_mannheim_2, type = 4, seed = 7, 
 #'                main = "Main and department accent colors of Mannheim University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_mannheim_1}} provides a primary color gradient for the University of Mannheim;  
@@ -2704,7 +2436,7 @@ orange_black <- "#F58025"  # orange on black background
 #' unikn::seecol(princeton_0, main = "Basic colors of Princeton University")
 #' unikn::demopal(princeton_0, type = 1, main = "Colors of Princeton University")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
@@ -2752,7 +2484,7 @@ princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #'               main = "Colors of Princeton (on white backgrounds)")
 #' unikn::demopal(princeton_1, type = 4, seed = 1, main = "Princeton University colors")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{princeton_0}} for basic Princeton University colors; 
@@ -2803,7 +2535,7 @@ princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' unikn::demopal(princeton_2, type = 3, main = "Colors of Princeton University")
 #' par(opar)
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{princeton_0}} for basic Princeton University colors; 
@@ -2967,7 +2699,7 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' unikn::demopal(uni_regensburg_1, alpha = .70, type = 2, 
 #'                main = "General colors of Regensburg University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_regensburg_2}} and \code{\link{uni_regensburg_3}} for the faculty colors of the University of Regensburg;  
@@ -3027,7 +2759,7 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 #' unikn::seecol(uni_regensburg_2, main = "Departmental colors at the University of Regensburg")
 #' unikn::demopal(uni_regensburg_2, type = 3, main = "Department colors of Regensburg University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_3}} for alternative colors of the University of Regensburg;  
@@ -3100,7 +2832,7 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' unikn::demopal(uni_regensburg_3, type = 4, seed = 13, 
 #'                main = "Using the departmental colors at Regensburg University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_regensburg_1}} and \code{\link{uni_regensburg_2}} for alternative colors of the University of Regensburg;  
@@ -3191,7 +2923,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' # 5-color gradient:
 #' uni_ulm_5 <- unikn::usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_ulm_2}} for the departmental accent colors of the University of Ulm;  
@@ -3247,7 +2979,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #' # 5-color gradient:
 #' uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_ulm_1}} for the main colors of the University of Ulm;  
@@ -3339,7 +3071,7 @@ rpi_2 <- "#54585a"
 #' unikn::seecol(rpi_1, main = "The primary colors of RPI")  # view color palette
 #' unikn::demopal(rpi_1, type = 3, main = "Primary colors of RPI")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{rpi_2}} for secondary colors of RPI; 
@@ -3396,8 +3128,8 @@ rpi_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' unikn::seecol(rpi_2, main = "The secondary colors of RPI")  # view color palette
 #' unikn::demopal(rpi_2, type = 5, main = "Secondary colors of RPI")
 #'
-#' @family university color palettes
-#'
+#' @family U.S. university color palettes
+#' 
 #' @seealso 
 #' \code{\link{rpi_1}} for primary colors of RPI; 
 #' \code{\link{rpi_3}} for tint colors of RPI; 
@@ -3460,7 +3192,7 @@ rpi_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' unikn::seecol(rpi_3, main = "Tint colors of RPI")  # view color palette
 #' unikn::demopal(rpi_3, type = 4, seed = 2, main = "Tint colors of RPI")
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso 
 #' \code{\link{rpi_1}} for primary colors of RPI; 
@@ -3666,7 +3398,7 @@ rptu_weiss <- "white"
 #' rptu_21 <- unikn::usecol(c(rptu[1], "white", rptu[2]), n = 21)
 #' # unikn::seecol(rptu_21, main = "A gradient between a RPTU color pair")
 #' 
-#' @family university color palettes
+#' @family German university color palettes
 #' 
 #' @seealso 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
