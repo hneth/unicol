@@ -17,7 +17,8 @@
 
 
 # Colors: ------
-# Find colors directly defined in color palettes!
+
+# Colors are defined in color palettes (below). 
 
 
 # Color palette(s):
