@@ -74,8 +74,6 @@ Other university color palettes:
 \code{\link{pitt_2}},
 \code{\link{queens_1}},
 \code{\link{sfu_brand}},
-\code{\link{standrews_1}},
-\code{\link{standrews_2}},
 \code{\link{stanford_1}},
 \code{\link{stanford_2_accent}},
 \code{\link{stanford_3_web}},
