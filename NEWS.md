@@ -31,6 +31,8 @@ Changes since last release:
 
 ## Details 
 
+- improve code (keywords and structure)
+
 - add online documentation at <https://hneth.github.io/unicol/>
 
 - update DESCRIPTION and CITATION, and README after CRAN release
@@ -54,6 +56,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-21.] 
+[File `NEWS.md` updated on 2023-08-23.] 
 
 <!-- eof. -->
