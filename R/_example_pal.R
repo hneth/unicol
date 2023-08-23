@@ -1,4 +1,4 @@
-## example_pal.R | 2023 08 17
+## _example_pal.R | 2023 08 23
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
@@ -13,26 +13,26 @@
 # inst: "University of Example" (in English)
 # inst_alt: "Universit\u00E4t des Beispiels" (in source language)
 # inst_URL: "https://www.example.org" (URL of institution)
-# country: Germany
+# country: Balkonia
 
 # Color source:
 
-# color_URL: <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design>
-# Page 24 of PDF manual at
-# <https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf>
-# Last check: 2023-08-17
+# color_URL: <https://www.example.org>
+# Page NR of HTML page/PDF manual at <https://www.example.org>
+# Last check: 2023-08-23
 
 
 # Author information:
 
 # Name(s:    N.N
-# Email(s):  n.n@example.com
+# Email(s):  n.n@example.org
 
 
 # Colors: ------ 
 
 # Defining individual colors (and names):
 
+# Obj:   # HEX      # Color name:
 col_1 <- "#E0607E"  # "pinky pink"
 col_2 <- "#CCCCCC"  # "bright grey"
 col_3 <- "#4C4C4C"  # "dark gray"
@@ -64,11 +64,11 @@ col_4 <- "black"    # "too dark"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-08-17.
+#' \strong{unicol}, 2023-08-23.
 #'
 #' @source 
 #' Color definitions are based on the 
-#' \href{http://example.org/}{color source (HTML or PDF)}.
+#' \href{http://example.org}{color source (HTML or PDF)}.
 #'
 #' @examples
 #' example_1
