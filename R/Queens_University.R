@@ -1,4 +1,4 @@
-## QueensUniversity | 2023 06 28
+## Queens_University | 2023 08 23
 ## Colours of Queen's University, Canada 
 ## -------------------------------------
 
@@ -54,7 +54,7 @@
 #' queens_1
 #' unikn::seecol(queens_1, main = "Primary colours of Queen's University") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{queens_2}} for the secondary colours of Queen's University;
@@ -117,7 +117,7 @@ queens_1 <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #' unikn::seecol(queens_2, 
 #'               main = "Secondary colours of Queen's University") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{queens_1}} for the primary colours of Queen's University;
