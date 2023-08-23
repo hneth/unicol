@@ -3,13 +3,13 @@
 \docType{data}
 \name{sfu_brand}
 \alias{sfu_brand}
-\title{Brand colours of Simon Fraser University}
+\title{Brand colours of Simon Fraser University, Canada}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.sfu.ca/communicators-toolkit/guides/brand-guide/colours.html}{Brand Guide}.
+Colour definitions are based on SFU's 
+\href{https://www.sfu.ca/communicators-toolkit/guides/brand-guide/colours.html}{Brand guide}.
 }
 \usage{
 sfu_brand
@@ -24,7 +24,7 @@ of \href{https://www.sfu.ca/}{Simon Fraser University}, Canada.
 \details{
 The primary colour is 
 \code{"light_red"} (defined as HEX #CC0633 or RGB R204/G6/B51). 
-The secondary colours are 
+The 3 secondary colours are 
 \code{"dark_red"} (defined as HEX #A6192E or RGB R166/G25/B46),
 \code{"dark_grey"} (defined as HEX #54585A or RGB R84/G88/B90), and
 \code{"black"} (defined as HEX #000000 or RGB R0/G0/B0).
@@ -32,12 +32,13 @@ The secondary colours are
 SFU light red is our primary colour, to be used as the dominant colour in all applications. 
 It is supported by SFU dark red which is the colour used in the institutional logo. 
 These two reds are designed to work well together, creating a distinctive tone-on-tone effect. 
+
 SFU dark grey is simply used in the text portion of our academic unit and extension logos, 
 and can be applied to subheads and graphic elements. Black is used for body copy.
 }
 \examples{
 sfu_brand
-unikn::seecol(sfu_brand, main = "SFU Brand Colours") # view colour palette
+unikn::seecol(sfu_brand, main = "SFU brand colours") # view colour palette
 
 }
 \seealso{
@@ -47,64 +48,35 @@ unikn::seecol(sfu_brand, main = "SFU Brand Colours") # view colour palette
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other university color palettes: 
-\code{\link{UCLA_1}},
-\code{\link{UCLA_2}},
-\code{\link{UCLA_3}},
-\code{\link{UCSD_1_core}},
-\code{\link{UCSD_2_accent}},
-\code{\link{UCSD_3_neutral}},
-\code{\link{example_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_error}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
+Other Canadian university color palettes: 
+\code{\link{conc_1}},
+\code{\link{conc_2}},
+\code{\link{conc_3}},
+\code{\link{conc_4}},
+\code{\link{guelph}},
+\code{\link{laval}},
+\code{\link{manitoba_1}},
+\code{\link{manitoba_2}},
+\code{\link{mcgill_brights}},
+\code{\link{mcgill_darks}},
+\code{\link{mcgill_grey}},
+\code{\link{mcgill_muted}},
+\code{\link{mcgill_pastels}},
+\code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
+\code{\link{mun_1}},
+\code{\link{mun_2}},
+\code{\link{ottawa_1}},
 \code{\link{queens_1}},
 \code{\link{queens_2}},
-\code{\link{stanford_1}},
-\code{\link{stanford_2_accent}},
-\code{\link{stanford_3_web}},
-\code{\link{ucalgary_accent}},
-\code{\link{ucalgary_primary}},
-\code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}},
-\code{\link{umass_2}},
-\code{\link{umass_brand}},
-\code{\link{umass_neutrals}},
-\code{\link{uni_goettingen_1}},
-\code{\link{uni_goettingen_2}},
-\code{\link{uni_goettingen_3}},
-\code{\link{uni_heidelberg_1}},
-\code{\link{uni_manchester_1}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_2_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{toronto_1}},
+\code{\link{ubc_1}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}}
 }
 \author{
 \strong{unicol}, 2023-06-29.
 }
-\concept{university color palettes}
+\concept{Canadian university color palettes}
 \keyword{datasets}
