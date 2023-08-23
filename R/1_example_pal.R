@@ -1,4 +1,4 @@
-## _example_pal.R | 2023 08 23
+## example_pal.R | 2023 08 23
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
@@ -12,7 +12,7 @@
 
 # inst: "University of Example" (in English)
 # inst_alt: "Universit\u00E4t des Beispiels" (in source language)
-# inst_URL: "https://www.example.org" (URL of institution)
+# inst_URL: <https://www.example.org> (URL of institution)
 # country: Balkonia
 
 # Color source:
@@ -33,6 +33,7 @@
 # Defining individual colors (and names):
 
 # Obj:   # HEX      # Color name:
+
 col_1 <- "#E0607E"  # "pinky pink"
 col_2 <- "#CCCCCC"  # "bright grey"
 col_3 <- "#4C4C4C"  # "dark gray"
@@ -45,12 +46,14 @@ col_4 <- "black"    # "too dark"
 # Color palette(s):
 
 
-# - example_1: Primary example palette ------
 
-#' Primary colors of the University of Example, Country 
-#'
+# - example_1: Primary example pal ------
+
+
+#' Primary colors of the University of Example, Country
+#' 
 #' \code{example_1} provides the four primary colors 
-#' of the \href{https://example.org/}{University of Example}, Country.
+#' of the \href{https://example.org}{University of Example}, Country.
 #'
 #' The 4 primary colors are 
 #' \code{"pinky pink"} (defined as HEX \code{"#E0607E"}),
@@ -68,7 +71,7 @@ col_4 <- "black"    # "too dark"
 #'
 #' @source 
 #' Color definitions are based on the 
-#' \href{http://example.org}{color source (HTML or PDF)}.
+#' \href{https://example.org}{color source (HTML or PDF)}.
 #'
 #' @examples
 #' example_1

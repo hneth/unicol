@@ -2,6 +2,8 @@
 ## Colors of Institution, Country
 ## ------------------------------
 
+# This file provides a code frame for existing color palettes.
+
 # Information: ------
 
 # cur_pals: "x", "y" (2)

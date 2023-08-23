@@ -1,11 +1,12 @@
-## all_pals.R | 2022 08 18
+## all_pals.R | 2022 08 23
 ## An inventory of all color palettes
 ## ----------------------------------
 
-# Keep a record / registry of all color palettes
+# A record / registry of all color palettes
 # (and institutions and corresponding labels).
 
-# Meta-information on all color palettes: -----
+
+# Meta-information on all exported color palettes: -----
 
 uni_pals <- c("eth_1", "eth_2", "eth_3",
               "fu_0", "fu_1", "fu_2", "fu_3",
@@ -197,6 +198,7 @@ inst <- c(rep("ETH Zurich", 3),
           "University of Lisbon"
 )
 
+# Alternative name (e.g. in source language): 
 
 inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Freie Universit\u00E4t Berlin", 4),
@@ -289,6 +291,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Universidade de Lisboa"
 )
 
+# Valid URL: 
 
 url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.fu-berlin.de/en/index.html", 4),
@@ -443,6 +446,7 @@ unicol_data <- all_data
 
 ## ToDo: --------
 
-# - add a country field (or read from URL)?
+# - add a country field (or get/read from URL)?
+# - add a variable for number of colors (length)
 
 ## eof. ----------
