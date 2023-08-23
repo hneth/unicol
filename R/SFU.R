@@ -1,4 +1,4 @@
-## SFU.R | 2023 06 29
+## SFU.R | 2023 08 23
 ## Simon Fraser University, Canada 
 ## -------------------------------
 
@@ -8,7 +8,7 @@
 # inst: "SFU"
 # inst_alt: "Simon Fraser University"
 # country: Canada
-# URL: "https://www.sfu.ca/"
+# URL: "https://www.sfu.ca"
 
 # Colour source:
 
@@ -21,14 +21,14 @@
 
 # - sfu_brand: Brand colours ------
 
-#' Brand colours of Simon Fraser University
+#' Brand colours of Simon Fraser University, Canada 
 #'
 #' \code{sfu_brand} provides the brand colours 
 #' of \href{https://www.sfu.ca/}{Simon Fraser University}, Canada. 
 #'
 #' The primary colour is 
 #' \code{"light_red"} (defined as HEX #CC0633 or RGB R204/G6/B51). 
-#' The secondary colours are 
+#' The 3 secondary colours are 
 #' \code{"dark_red"} (defined as HEX #A6192E or RGB R166/G25/B46),
 #' \code{"dark_grey"} (defined as HEX #54585A or RGB R84/G88/B90), and
 #' \code{"black"} (defined as HEX #000000 or RGB R0/G0/B0).
@@ -36,6 +36,7 @@
 #' SFU light red is our primary colour, to be used as the dominant colour in all applications. 
 #' It is supported by SFU dark red which is the colour used in the institutional logo. 
 #' These two reds are designed to work well together, creating a distinctive tone-on-tone effect. 
+#' 
 #' SFU dark grey is simply used in the text portion of our academic unit and extension logos, 
 #' and can be applied to subheads and graphic elements. Black is used for body copy.
 #'
@@ -46,14 +47,14 @@
 #' \strong{unicol}, 2023-06-29.
 #'
 #' @source 
-#' Colour definitions are based on the
-#' \href{https://www.sfu.ca/communicators-toolkit/guides/brand-guide/colours.html}{Brand Guide}.
+#' Colour definitions are based on SFU's 
+#' \href{https://www.sfu.ca/communicators-toolkit/guides/brand-guide/colours.html}{Brand guide}. 
 #'
 #' @examples
 #' sfu_brand
-#' unikn::seecol(sfu_brand, main = "SFU Brand Colours") # view colour palette
+#' unikn::seecol(sfu_brand, main = "SFU brand colours") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;

@@ -1,4 +1,4 @@
-## university_of_Toronto.R | 2023 06 20
+## university_of_Toronto.R | 2023 08 23
 ## Colors of the University of Toronto, Canada
 ## -------------------------------------------
 

@@ -169,8 +169,6 @@ princeton_2 <- unikn::newpal(col = c(orange_black, "black", "white"),
 
 
 
-
-
 ## ToDo: -----
 
 # -etc. ----

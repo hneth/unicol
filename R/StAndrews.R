@@ -1,4 +1,4 @@
-## StAndrews.R | 2023 07 20
+## StAndrews.R | 2023 08 23
 ## Colors of the University of St Andrews, Scotland
 ## ------------------------------------------------
 
