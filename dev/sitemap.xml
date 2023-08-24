@@ -340,9 +340,6 @@
     <loc>https://hneth.github.io/unicol/dev/reference/nyu_neutral.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/ottawa_1.html</loc>
-  </url>
-  <url>
     <loc>https://hneth.github.io/unicol/dev/reference/oxford_blog.html</loc>
   </url>
   <url>
@@ -416,9 +413,6 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/stanford_3_web.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/toronto_1.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/trinity_1.html</loc>
@@ -514,7 +508,7 @@
     <loc>https://hneth.github.io/unicol/dev/reference/uni_hamburg_2.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/uni_heidelberg_1.html</loc>
+    <loc>https://hneth.github.io/unicol/dev/reference/uni_heidelberg.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uni_jena_1.html</loc>
@@ -547,7 +541,7 @@
     <loc>https://hneth.github.io/unicol/dev/reference/uni_lisbon.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/uni_manchester_1.html</loc>
+    <loc>https://hneth.github.io/unicol/dev/reference/uni_manchester.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uni_mannheim_1.html</loc>
@@ -571,7 +565,7 @@
     <loc>https://hneth.github.io/unicol/dev/reference/uni_stuttgart_1.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/uni_stuttgart_2_print.html</loc>
+    <loc>https://hneth.github.io/unicol/dev/reference/uni_stuttgart_print.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uni_ulm_1.html</loc>
@@ -586,10 +580,16 @@
     <loc>https://hneth.github.io/unicol/dev/reference/unicol_data.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/uottawa.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/dev/reference/upenn_1.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/upenn_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/utoronto.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uvic_complementary.html</loc>
