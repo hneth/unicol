@@ -3,13 +3,13 @@
 \docType{data}
 \name{umass_2}
 \alias{umass_2}
-\title{Secondary colors of the University of Massachusetts Amherst}
+\title{Secondary colors of the University of Massachusetts Amherst, USA}
 \format{
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the
-\href{https://www.umass.edu/brand/elements/color}{Manchester's marketing brand toolkit}.
+Color definitions are based on the UMass 
+\href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 }
 \usage{
 umass_2
@@ -22,89 +22,113 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 }
 \details{
-The twelve secondary colors are 
-\code{"PMS 123"} (defined as C0 M19 Y89 K0, R255 G199 B44, Hex ffc72c),
-\code{"PMS 1375"} (defined as C0 M45 Y94 K0, R255 G158 B27, Hex ff9e1b),
-\code{"PMS 7669"} (defined as C73 M66 Y0 K2, R97 G94 B155, Hex 615e9b),
-\code{"PMS 7743"} (defined as C71 M8 Y100 K50, R68 G105 B61, Hex 44693d),
-\code{"PMS 7519"} (defined as C24 M42 Y45 K68, R94 G75 B60, Hex 5e4b3c),
-\code{"PMS 655"} (defined as C100 M79 Y12 K59, R0 G37 B84, Hex 002554),
-\code{"PMS 3125"} (defined as C84 M0 Y18 K0, R0 G174 B199, Hex 00aec7),
-\code{"PMS 564"} (defined as C43 M0 Y23 K0, R134 G200 B188, Hex 86c8bc),
-\code{"PMS 7737"} (defined as C60 M0 Y98 K7, R107 G165 B57, Hex 6ba539),
-\code{"PMS 382"} (defined as C28 M0 Y100 K0, R196 G214 B0, Hex c4d600),
-\code{"PMS 159*"} (defined as C1 M72 Y100 K7, R203 G96 B21, Hex cb6015), and
-\code{"PMS Bright Red*"} (defined as C0 M90 Y95 K0, R254 G59 B31, Hex fe3b1f).
+The 23 secondary colors are 
+\code{"PMS 123"} (defined as C0 M19 Y89 K0, R255 G199 B44, HEX ffc72c),
+\code{"PMS 1375"} (defined as C0 M45 Y94 K0, R255 G158 B27, HEX ff9e1b),
+\code{"PMS 7669"} (defined as C73 M66 Y0 K2, R97 G94 B155, HEX 615e9b),
+\code{"PMS 7743"} (defined as C71 M8 Y100 K50, R68 G105 B61, HEX 44693d),
+\code{"PMS 7519"} (defined as C24 M42 Y45 K68, R94 G75 B60, HEX 5e4b3c),
+\code{"PMS 655"} (defined as C100 M79 Y12 K59, R0 G37 B84, HEX 002554),
+\code{"PMS 3125"} (defined as C84 M0 Y18 K0, R0 G174 B199, HEX 00aec7),
+\code{"PMS 564"} (defined as C43 M0 Y23 K0, R134 G200 B188, HEX 86c8bc),
+\code{"PMS 7737"} (defined as C60 M0 Y98 K7, R107 G165 B57, HEX 6ba539),
+\code{"PMS 382"} (defined as C28 M0 Y100 K0, R196 G214 B0, HEX c4d600),
+\code{"PMS 159"} (defined as C1 M72 Y100 K7, R203 G96 B21, HEX cb6015), and
+\code{"PMS bright red"} (defined as C0 M90 Y95 K0, R254 G59 B31, HEX fe3b1f).
 
-Secondary colors* must never overpower the brand colors.
+Note that secondary colors must never overpower the brand colors.
 
 \code{umass_2} uses the HEX color definitions.
 }
 \examples{
-manchester_uni_accent
-unikn::seecol(manchester_uni_accent, main = "Secondary colors of UMass") 
-# view color palette
+umass_2
+unikn::seecol(umass_2, main = "Secondary colors of UMass") # view color palette
 
 }
 \seealso{
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
+Other U.S. university color palettes: 
+\code{\link{CMU_1_core}},
+\code{\link{CMU_2_tartan}},
+\code{\link{CMU_3_campus}},
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
 \code{\link{UCSD_1_core}},
 \code{\link{UCSD_2_accent}},
 \code{\link{UCSD_3_neutral}},
-\code{\link{example_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_error}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{ucalgary_accent}},
-\code{\link{ucalgary_primary}},
-\code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}},
-\code{\link{umass_brand}},
-\code{\link{umass_neutrals}},
-\code{\link{uni_goettingen_1}},
-\code{\link{uni_goettingen_2}},
-\code{\link{uni_goettingen_3}},
-\code{\link{uni_heidelberg_1}},
-\code{\link{uni_manchester_1}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_2_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{asu_1}},
+\code{\link{asu_2}},
+\code{\link{asu_3}},
+\code{\link{berkeley_1}},
+\code{\link{berkeley_2}},
+\code{\link{brown_1}},
+\code{\link{brown_2}},
+\code{\link{bu_1}},
+\code{\link{caltech_1}},
+\code{\link{caltech_2}},
+\code{\link{caltech_3}},
+\code{\link{chicago_1}},
+\code{\link{chicago_2}},
+\code{\link{columbia}},
+\code{\link{cornell_1}},
+\code{\link{cornell_2}},
+\code{\link{cornell_3_accent}},
+\code{\link{dartmouth_1}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
+\code{\link{duke_1}},
+\code{\link{duke_2}},
+\code{\link{harvard_1}},
+\code{\link{harvard_2}},
+\code{\link{harvard_3}},
+\code{\link{jhu_0}},
+\code{\link{jhu_1}},
+\code{\link{jhu_2}},
+\code{\link{jhu_3_accent}},
+\code{\link{jhu_4_gray}},
+\code{\link{michigan_1}},
+\code{\link{michigan_2}},
+\code{\link{minnesotatwin_1}},
+\code{\link{minnesotatwin_2}},
+\code{\link{mit}},
+\code{\link{monash_1}},
+\code{\link{monash_2}},
+\code{\link{msu}},
+\code{\link{northwestern_1}},
+\code{\link{northwestern_2}},
+\code{\link{notredame_1}},
+\code{\link{notredame_2}},
+\code{\link{nyu_1}},
+\code{\link{nyu_2}},
+\code{\link{nyu_accent}},
+\code{\link{nyu_neutral}},
+\code{\link{princeton_0}},
+\code{\link{princeton_1}},
+\code{\link{princeton_2}},
+\code{\link{rpi_1}},
+\code{\link{rpi_2}},
+\code{\link{rpi_3}},
+\code{\link{stanford_1}},
+\code{\link{stanford_2_accent}},
+\code{\link{stanford_3_web}},
+\code{\link{uci_1}},
+\code{\link{uci_2}},
+\code{\link{uci_3}},
+\code{\link{uci_4}},
+\code{\link{uflorida_1}},
+\code{\link{uflorida_2}},
+\code{\link{uflorida_3}},
+\code{\link{umass_1}},
+\code{\link{umass_neutrals}}
 }
 \author{
 \strong{unicol}, 2023-06-27.
 }
-\concept{university color palettes}
+\concept{U.S. university color palettes}
 \keyword{datasets}

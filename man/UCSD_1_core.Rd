@@ -23,12 +23,15 @@ of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}
 }
 \details{
 Our core colors are the official colors of UC San Diego.
-Consistent use of these colors in all branding is essential to establishing our identity.
-Core colors are
+Consistent use of these colors in all branding is essential to establishing our identity. 
+
+The 4 core colors are
 \code{"ucsd_navy"} (defined as CMYK 100/86/42/42, RGB R24/43/73, HEX #182B49),
 \code{"ucsd_blue"} (defined as CMYK 100/35/3/21, RGB R0/98/155, HEX #00629B),
-\code{"ucsd_yellow"} (defined as CMYK 0/14/100/0, RGB R255/205/0, HEX #FFCD00) and
+\code{"ucsd_yellow"} (defined as CMYK 0/14/100/0, RGB R255/205/0, HEX #FFCD00), and
 \code{"ucsd_gold"} (defined as CMYK 6/35/99/18, RGB R198/146/20, HEX #C69214).
+
+\code{UCSD_1_core} uses the HEX color definitions.
 }
 \examples{
 UCSD_1_core
@@ -44,58 +47,83 @@ unikn::seecol(UCSD_1_core, main = "Core colors UCSD") # view color palette
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
+Other U.S. university color palettes: 
+\code{\link{CMU_1_core}},
+\code{\link{CMU_2_tartan}},
+\code{\link{CMU_3_campus}},
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
 \code{\link{UCSD_2_accent}},
 \code{\link{UCSD_3_neutral}},
-\code{\link{example_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_error}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{ucalgary_accent}},
-\code{\link{ucalgary_primary}},
-\code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}},
+\code{\link{asu_1}},
+\code{\link{asu_2}},
+\code{\link{asu_3}},
+\code{\link{berkeley_1}},
+\code{\link{berkeley_2}},
+\code{\link{brown_1}},
+\code{\link{brown_2}},
+\code{\link{bu_1}},
+\code{\link{caltech_1}},
+\code{\link{caltech_2}},
+\code{\link{caltech_3}},
+\code{\link{chicago_1}},
+\code{\link{chicago_2}},
+\code{\link{columbia}},
+\code{\link{cornell_1}},
+\code{\link{cornell_2}},
+\code{\link{cornell_3_accent}},
+\code{\link{dartmouth_1}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
+\code{\link{duke_1}},
+\code{\link{duke_2}},
+\code{\link{harvard_1}},
+\code{\link{harvard_2}},
+\code{\link{harvard_3}},
+\code{\link{jhu_0}},
+\code{\link{jhu_1}},
+\code{\link{jhu_2}},
+\code{\link{jhu_3_accent}},
+\code{\link{jhu_4_gray}},
+\code{\link{michigan_1}},
+\code{\link{michigan_2}},
+\code{\link{minnesotatwin_1}},
+\code{\link{minnesotatwin_2}},
+\code{\link{mit}},
+\code{\link{monash_1}},
+\code{\link{monash_2}},
+\code{\link{msu}},
+\code{\link{northwestern_1}},
+\code{\link{northwestern_2}},
+\code{\link{notredame_1}},
+\code{\link{notredame_2}},
+\code{\link{nyu_1}},
+\code{\link{nyu_2}},
+\code{\link{nyu_accent}},
+\code{\link{nyu_neutral}},
+\code{\link{princeton_0}},
+\code{\link{princeton_1}},
+\code{\link{princeton_2}},
+\code{\link{rpi_1}},
+\code{\link{rpi_2}},
+\code{\link{rpi_3}},
+\code{\link{stanford_1}},
+\code{\link{stanford_2_accent}},
+\code{\link{stanford_3_web}},
+\code{\link{uci_1}},
+\code{\link{uci_2}},
+\code{\link{uci_3}},
+\code{\link{uci_4}},
+\code{\link{uflorida_1}},
+\code{\link{uflorida_2}},
+\code{\link{uflorida_3}},
+\code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_brand}},
-\code{\link{umass_neutrals}},
-\code{\link{uni_goettingen_1}},
-\code{\link{uni_goettingen_2}},
-\code{\link{uni_goettingen_3}},
-\code{\link{uni_heidelberg_1}},
-\code{\link{uni_manchester_1}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_2_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{umass_neutrals}}
 }
 \author{
 \strong{unicol}, 2023-06-16.
 }
-\concept{university color palettes}
+\concept{U.S. university color palettes}
 \keyword{datasets}

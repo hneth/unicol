@@ -47,6 +47,12 @@ Other U.S. university color palettes:
 \code{\link{CMU_1_core}},
 \code{\link{CMU_2_tartan}},
 \code{\link{CMU_3_campus}},
+\code{\link{UCLA_1}},
+\code{\link{UCLA_2}},
+\code{\link{UCLA_3}},
+\code{\link{UCSD_1_core}},
+\code{\link{UCSD_2_accent}},
+\code{\link{UCSD_3_neutral}},
 \code{\link{asu_1}},
 \code{\link{asu_2}},
 \code{\link{asu_3}},
@@ -107,7 +113,10 @@ Other U.S. university color palettes:
 \code{\link{uci_4}},
 \code{\link{uflorida_1}},
 \code{\link{uflorida_2}},
-\code{\link{uflorida_3}}
+\code{\link{uflorida_3}},
+\code{\link{umass_1}},
+\code{\link{umass_2}},
+\code{\link{umass_neutrals}}
 }
 \author{
 \strong{unicol}, 2022-12-01.

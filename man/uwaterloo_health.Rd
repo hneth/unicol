@@ -46,12 +46,6 @@ unikn::seecol(uwaterloo_health, main = "health Faculty colors of UWaterloo")
 \code{\link{grepal}} for finding named colors.
 
 Other university color palettes: 
-\code{\link{UCLA_1}},
-\code{\link{UCLA_2}},
-\code{\link{UCLA_3}},
-\code{\link{UCSD_1_core}},
-\code{\link{UCSD_2_accent}},
-\code{\link{UCSD_3_neutral}},
 \code{\link{example_1}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
@@ -63,13 +57,6 @@ Other university color palettes:
 \code{\link{oxford_socialmedia}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
-\code{\link{ucalgary_accent}},
-\code{\link{ucalgary_primary}},
-\code{\link{ucalgary_secondary}},
-\code{\link{ucalgary_warmgreys}},
-\code{\link{umass_2}},
-\code{\link{umass_brand}},
-\code{\link{umass_neutrals}},
 \code{\link{uni_goettingen_1}},
 \code{\link{uni_goettingen_2}},
 \code{\link{uni_goettingen_3}},
