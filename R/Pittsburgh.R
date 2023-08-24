@@ -1,4 +1,4 @@
-## Pittsburgh.R | 2023-07-21
+## Pittsburgh.R | 2023 08 24
 ## Colors of the University of Pittsburgh, USA
 ## -------------------------------------------
 
@@ -11,16 +11,16 @@
 # country: USA
 # URL: "https://www.pitt.edu/"
 
-
 # Color source
-# URL: https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette
+# color_URL: https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette
+# Last check: 2023-07-01 
+
+# Colors: ------
+
+# Color palette(s):
 
 
-
-# Color palettes
-
-
-# - pitt_1: Contemporary colors ------ 
+# - pitt_1: Contemporary colors of the University of Pittsburgh ------ 
 
 #' Contemporary colors of the University of Pittsburgh, USA 
 #'
@@ -45,7 +45,7 @@
 #' pitt_1
 #' unikn::seecol(pitt_1, main = "Pitt's contemporary colors") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{pitt_2}} for the University of Pittsburgh's legacy colors; 
@@ -67,7 +67,7 @@ pitt_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 
 
 
-# - pitt_2: Legacy colors ------
+# - pitt_2: Legacy colors of the University of Pittsburgh ------
 
 
 #' Legacy colors of the University of Pittsburgh, USA 
@@ -94,7 +94,7 @@ pitt_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 #' pitt_2
 #' unikn::seecol(pitt_2, main = "Pitt's legacy colors") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{pitt_1}} for the University of Pittsburgh's contemporary colors;

@@ -412,7 +412,7 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 
 
 
-# - oxford_link: Link colours ------
+# - oxford_link: Link colours of Oxford University ------
 
 #' Link colours of University of Oxford, UK
 #'
@@ -476,7 +476,7 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 
 
 
-# - oxford_shades: Shades ------
+# - oxford_shades: Shades of Oxford University ------
 
 #' Shade colours of University of Oxford, UK
 #'
@@ -536,7 +536,7 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 
 
 
-# - oxford_blog: Custom blog colours ------
+# - oxford_blog: Custom blog colours of Oxford University ------
 
 #' Custom blog colours of University of Oxford, UK
 #'
@@ -594,7 +594,7 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 
 
 
-# - oxford_graduate: Graduate country page colours ------
+# - oxford_graduate: Graduate country page colours of Oxford University ------
 
 #' Graduate country page colours of University of Oxford, UK
 #'
@@ -662,7 +662,7 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 
 
 
-# - oxford_error: Error colours ------
+# - oxford_error: Error colours of Oxford University ------
 
 #' Error colours of University of Oxford, UK 
 #'
@@ -689,7 +689,7 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 #' oxford_error
 #' unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour palette
 #'
-#' @family university color palettes
+#' @family U.K. university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -716,7 +716,7 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 
 
 
-# - oxford_socialmedia: Social Media Colours ------
+# - oxford_socialmedia: Social media colours of Oxford University------
 
 #' Social Media colours of University of Oxford, UK
 #'
