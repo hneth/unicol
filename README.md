@@ -143,7 +143,7 @@ Here are some some additional examples how the color palettes from
 
 ``` r
 # Viewing a color palette:
-unikn::seecol(yale_1, main = "The primary colors of Yale University")
+unikn::seecol(yale, main = "The primary colors of Yale University")
 ```
 
 <img src="man/figures/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;" />

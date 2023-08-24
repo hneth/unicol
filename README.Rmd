@@ -242,7 +242,7 @@ Here are some some additional examples how the color palettes from **unicol** ca
 
 ```{r examples-unicol, message = FALSE}
 # Viewing a color palette:
-unikn::seecol(yale_1, main = "The primary colors of Yale University")
+unikn::seecol(yale, main = "The primary colors of Yale University")
 # Demo plots:
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
