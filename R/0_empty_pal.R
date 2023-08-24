@@ -1,4 +1,4 @@
-## _.R | 2023 08 23
+## _.R | 2023 08 24
 ## Colors of Institution, Country
 ## ------------------------------
 
@@ -18,8 +18,9 @@
 
 # Colors: ------
 
-# Color palettes:
+# Color definitions: 
 
+# Color palette(s):
 
 
 

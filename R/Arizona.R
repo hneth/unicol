@@ -16,6 +16,8 @@
 
 # Colors: ------
 
+# Color definitions: 
+
 # Color palette(s):
 
 
