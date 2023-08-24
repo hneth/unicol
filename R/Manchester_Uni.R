@@ -1,18 +1,22 @@
-## Manchester_Uni.R | 2023 08 22
-## Colours of the Manchester University, England/UK
-## ------------------------------------------------
+## Manchester_Uni.R | 2023 08 24
+## Colours of the Manchester University, IN, USA
+## ---------------------------------------------
 
 # Information: ------
 
 # cur_pals: "manchester_uni_1", "manchester_uni_accent (2)
 # inst: "Manchester University"
-# England
+# country: IN, USA
 # URL: "https://www.manchester.edu"
 
 # Color source:
-
-# URL: <https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette#:~:text=Manchester%20gold%2C%20black%2C%20and%20gray%20are%20our%20primary%20brand%20colors>
+# color_URL: <https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette#:~:text=Manchester%20gold%2C%20black%2C%20and%20gray%20are%20our%20primary%20brand%20colors>
 # Last check: 2023-06-27
+
+# Colors: ------
+
+# Color definitions: 
+
 
 # Primary
 # "Manchester gold, black, and gray are our primary brand colors. They should be the predominant colors used in University communications, at about a 3:1 ratio versus the accent color palette."
@@ -24,39 +28,43 @@
 # Color palette(s):
 
 
-# - manchester_uni_1: Primary colours of Manchester University ------
+# - manchester_uni_1: Primary colors of Manchester University ------
 
-#' Primary colours of Manchester University, UK 
+#' Primary colors of Manchester University, USA 
 #'
-#' \code{manchester_uni_1} provides the three primary colours 
-#' of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
+#' \code{manchester_uni_1} provides the three primary colors 
+#' of the \href{https://www.manchester.edu}{Manchester University}, Indiana, USA.
 #'
-#' The three primary colours are
+#' The three primary colors are 
 #' \code{"Manchester gold"} (defined as C=0 M=28 Y=100 K=6, R=238 G=177 B=17, #EEB111),
 #' \code{"Manchester black"} (defined as C=30 M=30 Y=30 K=100, R=10 G=2 B=3, #0A0203), and
 #' \code{"Manchester gray"} (defined as C=31 M=25 Y=31 K=6, R=150 G=152 B=147, #969893).
 #'
-#' \code{manchester_uni_1} uses the HEX colour definitions. 
+#' \code{manchester_uni_1} uses the HEX color definitions. 
+#' 
+#' Note that \href{https://www.manchester.edu}{Manchester University} is located in Indiana, USA, 
+#' and not to be confused with \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK. 
 #'
 #' @return 
-#' A named vector of colours (HEX/HTML codes of type character).
+#' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
 #' \strong{unicol}, 2023-06-27.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{Manchester's marketing brand toolkit}.
+#' Color definitions are based on Manchester University's 
+#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}.
 #'
 #' @examples
 #' manchester_uni_1
-#' unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University") 
+#' unikn::seecol(manchester_uni_1, main = "Primary colors of Manchester University") 
 #' # view color palette
 #'
-#' @family U.K. university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{manchester_uni_accent}} for accent colours of Manchester University;
+#' \code{\link{manchester_uni_accent}} for accent colours of Manchester University, IN, USA;
+#' \code{\link{uni_manchester}} for colors of the University of Manchester, England/UK;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -70,51 +78,55 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
                                   as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(manchester_uni_1, main = "Primary colours of Manchester University", col_bg = "white")
+# unikn::seecol(manchester_uni_1, main = "Primary colors of Manchester University, USA")
 
 
 
 
-# - manchester_uni_accent: Accent colours of Manchester University ------
+# - manchester_uni_accent: Accent colors of Manchester University, USA ------
 
-#' Accent colours of Manchester University, UK 
+#' Accent colours of Manchester University, USA 
 #'
 #' \code{manchester_uni_accent} provides the three accent primary colours and 
 #' white as suggested to use in minority ratio (3:1) against the primary colors on a canvas
-#' of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
+#' of the \href{https://www.manchester.edu}{Manchester University}, Indiana, USA.
 #'
-#' The three accent colours are 
+#' The three accent colors are 
 #' \code{"Manchester sunrise"} (defined as C=0 M=71 Y=100 K=0, R=255 G=108 B=12, #FF6C0C),
 #' \code{"Manchester blue"} (defined as C=54 M=4 Y=9 K=0, R=107 G=196 B=222, #6BC4DE),
 #' \code{"Manchester green"} (defined as C=55 M=3 Y=100 K=0, R=130 G=188 B=0, #82BC00), and
 #' \code{"white"}.
 #' 
 #' \code{manchester_uni_accent} uses the HEX color definitions. 
+#' 
+#' Note that \href{https://www.manchester.edu}{Manchester University} is located in Indiana, USA, 
+#' and not to be confused with \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK. 
 #'
 #' @return 
-#' A named vector of colours (HEX/HTML codes of type character).
+#' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
 #' \strong{unicol}, 2023-06-27.
 #' 
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{Manchester's marketing brand toolkit}. 
+#' Color definitions are based on Manchester University's 
+#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}. 
 #'
 #' @examples
 #' manchester_uni_accent
 #' unikn::seecol(manchester_uni_accent, main = "Accent colors of Manchester University") 
 #' # view color palette
 #'
-#' @family U.K. university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{manchester_uni_1}} for primary colours of Manchester University;
+#' \code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA;
+#' \code{\link{uni_manchester}} for colors of the University of Manchester, England/UK;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -123,8 +135,8 @@ manchester_uni_accent <- unikn::newpal(col = c("#FF6C0C", "#6BC4DE", "#82BC00", 
                                        as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(manchester_uni_1, main = "Primary colours of the Manchester University", col_bg = "white")
-# unikn::seecol(manchester_uni_accent, main = "Accent colours of the Manchester University", col_bg = "lightgray")
+# unikn::seecol(manchester_uni_1, main = "Primary colors of Manchester University, USA")
+# unikn::seecol(manchester_uni_accent, main = "Accent colors of Manchester University, USA", col_bg = "lightgray")
 
 
 
