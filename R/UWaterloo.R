@@ -27,11 +27,10 @@
 #' \code{uwaterloo_main} provides the nine main colors 
 #' of the \href{https://uwaterloo.ca}{University of Waterloo}, Canada.
 #'
-#' The 9 main colors are gold/yellow, black/grey and white at 4 levels:  
-#' 
+#' The 9 main colors are gold/yellow, black/grey and white at 4 levels: 
 #' \code{"Gold/Yellow Level 1"} (defined as CMYK: 2 0 45 0, RGB: 255 255 170, HEX: #FFFFAA), 
 #' \code{"Gold/Yellow Level 2"} (defined as CMYK: 0 1 100 0, RGB:	255 234 41, HEX: #FFEA3D), 
-#' \code{"Gold/Yellow Level 3"} (primary)"} (defined as CMYK: 0 14 80 0, RGB:	255 213 79, HEX: #FDD54F), 
+#' \code{"Gold/Yellow Level 3"} (primary) (defined as CMYK: 0 14 80 0, RGB:	255 213 79, HEX: #FDD54F), 
 #' \code{"Gold/Yellow Level 4"} (defined as CMYK: 0 27 100 0, RGB: 228 180 41, HEX: #E4B429), 
 #' \code{"Black/Grey Level 1"} (defined as CMYK: 0 0 0 15, RGB: 223 223 223, HEX:	#DFDFDF), 
 #' \code{"Black/Grey Level 2"} (defined as CMYK: 0 0 0 35, RGB: 162 162 162, HEX:	#A2A2A2) 
@@ -204,7 +203,7 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' Use the color Green to identify content and communications from the Faculty of Environment.
 #'
 #' The 4 green colors are 
-#' \code{"Green Level 1"} (digital)"} (defined as RGB: 218 245 130, HEX:	#DAF582),
+#' \code{"Green Level 1"} (digital) (defined as RGB: 218 245 130, HEX:	#DAF582),
 #' \code{"Green Level 2"} (defined as CMYK: 23 0 89 0, RGB:	190 213 0, HEX:	#BED500),
 #' \code{"Green Level 3"} (print primary color) (defined as CMYK: 24 0 98 8, RGB:	180 190 0, HEX:	#B4BE00), and
 #' \code{"Green Level 4"} (digital primary color) (defined as RGB: 96 112 0, HEX:	#607000).
