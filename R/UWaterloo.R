@@ -9,9 +9,8 @@
 # Canada
 # URL: "https://uwaterloo.ca"
 
-# Color source:
-
-# URL: <https://uwaterloo.ca/brand/how-express-our-brand/colour#unipaletter>
+# Color source: 
+# color_URL: <https://uwaterloo.ca/brand/how-express-our-brand/colour#unipaletter>
 # Last check: 2023-06-29
 
 

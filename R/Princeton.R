@@ -17,7 +17,7 @@
 # Colors: ------
 
 
-# Color palettes:
+# Color palette(s): 
 
 
 # 3 shades of orange: 
