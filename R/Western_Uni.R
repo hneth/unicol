@@ -1,10 +1,10 @@
-## Western_Uni.R | 2023 06 27
-## colours of the Western University, Canada 
-## -----------------------------------------------
+## Western_Uni.R | 2023 08 24
+## Colours of the Western University, Canada 
+## -----------------------------------------
 
 # Information: ------
 
-# cur_pals: "Western_uni_1"
+# cur_pals: "western_uni"
 # inst: "Western University"
 # Canada
 # URL: "https://www.uwo.ca"
@@ -19,11 +19,11 @@
 # Color palette(s):
 
 
-# - western_uni_1: Official colours ------
+# - western_uni: Official colours of Western University ------
 
-#' Official colours of Western University
+#' Official colours of Western University, Canada 
 #'
-#' \code{western_uni_1} provides the three official colours 
+#' \code{western_uni} provides the three official colours 
 #' of the \href{https://www.uwo.ca}{Western University}, Canada.
 #'
 #' The three primary colours are
@@ -31,7 +31,7 @@
 #' \code{"Grey (Silver)"} (defined as R:128 G:127 B:131, Hex: #807F83), and
 #' \code{"white"} (not defined).
 #'
-#' \code{western_uni_1} uses the HEX color definitions. 
+#' \code{western_uni} uses the HEX color definitions. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -44,11 +44,11 @@
 #' \href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{Western's colour toolkit}.
 #'
 #' @examples
-#' western_uni_1
-#' unikn::seecol(western_uni_1, main = "Official colours of Western University") 
+#' western_uni
+#' unikn::seecol(western_uni, main = "Official colours of Western University") 
 #' # view color palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -59,12 +59,12 @@
 #'
 #' @export
 
-western_uni_1 <- unikn::newpal(col = c("#4F2683", "#807F83", "white"),
-                                  names = c("Purple", "Grey (silver)", "White"),
-                                  as_df = FALSE)
+western_uni <- unikn::newpal(col = c("#4F2683", "#807F83", "white"),
+                               names = c("Purple", "Grey (silver)", "White"),
+                               as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(western_uni_1, main = "Official colours of the Western University", col_bg = "lightgray")
+# unikn::seecol(western_uni, main = "Official colours of the Western University", col_bg = "lightgray")
 
 
 
