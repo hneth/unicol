@@ -28,6 +28,8 @@ Secondary color are
 \code{"medium_violet2"} (defined as CMYK 60/75/0/0, RGB 123/90/166, HEX #7B5AA6),
 \code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5), and
 \code{"light_violet2"} (defined as CMYK 5/9/0/0, RGB 238/230/243, HEX #EEE6F3).
+
+\code{nyu_2} uses the HEX color definitions.
 }
 \examples{
 nyu_2
@@ -117,7 +119,12 @@ Other U.S. university color palettes:
 \code{\link{uflorida_3}},
 \code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_neutrals}}
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}}
 }
 \author{
 \strong{unicol}, 2023-06-14.

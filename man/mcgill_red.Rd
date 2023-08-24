@@ -75,7 +75,15 @@ Other Canadian university color palettes:
 \code{\link{uottawa}},
 \code{\link{utoronto}},
 \code{\link{uvic_complementary}},
-\code{\link{uvic_core}}
+\code{\link{uvic_core}},
+\code{\link{uwaterloo_arts}},
+\code{\link{uwaterloo_engineering}},
+\code{\link{uwaterloo_environment}},
+\code{\link{uwaterloo_health}},
+\code{\link{uwaterloo_main}},
+\code{\link{uwaterloo_math}},
+\code{\link{uwaterloo_science}},
+\code{\link{western_uni}}
 }
 \author{
 \strong{unicol}, 2023-06-20.

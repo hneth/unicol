@@ -3,7 +3,7 @@
 \docType{data}
 \name{uwaterloo_math}
 \alias{uwaterloo_math}
-\title{Faculty of Math colors of the University of Waterloo, CA}
+\title{Faculty of Math colors of the University of Waterloo, Canada}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -18,24 +18,24 @@ uwaterloo_math
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uwaterloo_math} provides the pink color levels
-of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
+\code{uwaterloo_math} provides the four pink color levels
+of the \href{https://uwaterloo.ca}{University of Waterloo}, Canada.
 }
 \details{
-Use the colour pink to identify content and communications from the Faculty of Math.
+Use the color Pink to identify content and communications from the Faculty of Math.
 
-The four pink colors are 
+The 4 pink colors are 
 \code{"Pink Level 1"} (defined as CMYK: 3 29 0 0, RGB:	255 190 239, HEX:	#FFBEEF),
-\code{"Pink Level 2"} (defined as CMYK: 0 30 99 0, RGB:	251 175 0, HEX:	#FBAF00),
-\code{"Pink Level 3 (print primary color)"} (defined as CMYK: 0 68 0 0, RGB: 	255 99 170, HEX:	#FF63AA), and
-\code{"Pink Level 4 (digital primary color)"} (defined as CMYK: 18 100 4 17, RGB:	198 0 120, HEX:	#C60078).
+\code{"Pink Level 2"} (defined as CMYK: 0 30 99 0, RGB: 251 175 0, HEX: #FBAF00),
+\code{"Pink Level 3"} (print primary color) (defined as CMYK: 0 68 0 0, RGB: 255 99 170, HEX: #FF63AA), and
+\code{"Pink Level 4"} (digital primary color) (defined as CMYK: 18 100 4 17, RGB:	198 0 120, HEX:	#C60078).
 
 
 \code{uwaterloo_math} uses the HEX color definitions.
 }
 \examples{
 uwaterloo_math
-unikn::seecol(uwaterloo_math, main = "Math Faculty colors of UWaterloo") 
+unikn::seecol(uwaterloo_math, main = "Math faculty colors of UWaterloo") 
 # view color palette
 
 }
@@ -46,34 +46,47 @@ unikn::seecol(uwaterloo_math, main = "Math Faculty colors of UWaterloo")
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
-\code{\link{example_1}},
-\code{\link{oxford_error}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
+Other Canadian university color palettes: 
+\code{\link{conc_1}},
+\code{\link{conc_2}},
+\code{\link{conc_3}},
+\code{\link{conc_4}},
+\code{\link{guelph}},
+\code{\link{laval}},
+\code{\link{manitoba_1}},
+\code{\link{manitoba_2}},
+\code{\link{mcgill_brights}},
+\code{\link{mcgill_darks}},
+\code{\link{mcgill_grey}},
+\code{\link{mcgill_muted}},
+\code{\link{mcgill_pastels}},
+\code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
+\code{\link{mun_1}},
+\code{\link{mun_2}},
+\code{\link{queens_1}},
+\code{\link{queens_2}},
+\code{\link{sfu_brand}},
+\code{\link{ubc_1}},
+\code{\link{ucalgary_1}},
+\code{\link{ucalgary_2}},
+\code{\link{ucalgary_accent}},
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uottawa}},
+\code{\link{utoronto}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}},
 \code{\link{uwaterloo_arts}},
 \code{\link{uwaterloo_engineering}},
 \code{\link{uwaterloo_environment}},
 \code{\link{uwaterloo_health}},
 \code{\link{uwaterloo_main}},
 \code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{western_uni}}
 }
 \author{
 \strong{unicol}, 2023-06-29.
 }
-\concept{university color palettes}
+\concept{Canadian university color palettes}
 \keyword{datasets}

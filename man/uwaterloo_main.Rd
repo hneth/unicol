@@ -3,7 +3,7 @@
 \docType{data}
 \name{uwaterloo_main}
 \alias{uwaterloo_main}
-\title{Main colors of the University of Waterloo, CA}
+\title{Main colors of the University of Waterloo, Canada}
 \format{
 An object of class \code{character} of length 9.
 }
@@ -18,27 +18,26 @@ uwaterloo_main
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uwaterloo_main} provides the main University colors 
-of the \href{https://uwaterloo.ca/}{University of Waterloo}, Canada.
+\code{uwaterloo_main} provides the nine main colors 
+of the \href{https://uwaterloo.ca}{University of Waterloo}, Canada.
 }
 \details{
-The main colors are gold/yellow, black/ grey and white at 4 Levels.
-\code{"Gold/Yellow Level 1"} (defined as CMYK: 2 0 45 0, RGB: 255 255 170, HEX:	#FFFFAA), 
-\code{"Gold/Yellow Level 2"} (defined as CMYK: 0 1 100 0, RGB:	255 234 41, HEX:	#FFEA3D), 
-\code{"Gold/Yellow Level 3 (primary)"} (defined as CMYK: 0 14 80 0, RGB:	255 213 79, HEX:	#FDD54F), 
-\code{"Gold/Yellow Level 4"} (defined as CMYK: 0 27 100 0, RGB:	228 180 41, HEX:	#E4B429), 
-\code{"Black/Grey Level 1"} (defined as CMYK: 0 0 0 15, RGB:	223 223 223, HEX:	#DFDFDF), 
-\code{"Black/Grey Level 2"} (defined as CMYK:0 0 0 35, RGB:	162 162 162, HEX:	#A2A2A2) 
-\code{"Black/Grey Level 3"} (defined as CMYK:0 0 0 50, RGB:	120 120 120, HEX:	#787878), 
-\code{"Black/Grey Level 4"} (defined as CMYK:0 0 0 100, RGB:	0 0 0, HEX:	#000000), and
-\code{"White"} (defined as CMYK:0 0 0 0, RGB:	255 255 255, HEX:	#FFFFFF).
-
+The 9 main colors are gold/yellow, black/grey and white at 4 levels: 
+\code{"Gold/Yellow Level 1"} (defined as CMYK: 2 0 45 0, RGB: 255 255 170, HEX: #FFFFAA), 
+\code{"Gold/Yellow Level 2"} (defined as CMYK: 0 1 100 0, RGB:	255 234 41, HEX: #FFEA3D), 
+\code{"Gold/Yellow Level 3"} (primary) (defined as CMYK: 0 14 80 0, RGB:	255 213 79, HEX: #FDD54F), 
+\code{"Gold/Yellow Level 4"} (defined as CMYK: 0 27 100 0, RGB: 228 180 41, HEX: #E4B429), 
+\code{"Black/Grey Level 1"} (defined as CMYK: 0 0 0 15, RGB: 223 223 223, HEX:	#DFDFDF), 
+\code{"Black/Grey Level 2"} (defined as CMYK: 0 0 0 35, RGB: 162 162 162, HEX:	#A2A2A2) 
+\code{"Black/Grey Level 3"} (defined as CMYK: 0 0 0 50, RGB: 120 120 120, HEX:	#787878), 
+\code{"Black/Grey Level 4"} (defined as CMYK: 0 0 0 100, RGB:	0 0 0, HEX:	#000000), and
+\code{"white"} (defined as CMYK: 0 0 0 0, RGB: 255 255 255, HEX:	#FFFFFF).
 
 \code{uwaterloo_main} uses the HEX color definitions.
 }
 \examples{
 uwaterloo_main
-unikn::seecol(uwaterloo_main, main = "Main colors of the University of Waterloo") 
+unikn::seecol(uwaterloo_main, main = "University of Waterloo main colors") 
 # view color palette
 
 }
@@ -49,34 +48,47 @@ unikn::seecol(uwaterloo_main, main = "Main colors of the University of Waterloo"
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
-\code{\link{example_1}},
-\code{\link{oxford_error}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
+Other Canadian university color palettes: 
+\code{\link{conc_1}},
+\code{\link{conc_2}},
+\code{\link{conc_3}},
+\code{\link{conc_4}},
+\code{\link{guelph}},
+\code{\link{laval}},
+\code{\link{manitoba_1}},
+\code{\link{manitoba_2}},
+\code{\link{mcgill_brights}},
+\code{\link{mcgill_darks}},
+\code{\link{mcgill_grey}},
+\code{\link{mcgill_muted}},
+\code{\link{mcgill_pastels}},
+\code{\link{mcgill_red}},
+\code{\link{mcmaster_brighterworld}},
+\code{\link{mcmaster_heritage}},
+\code{\link{mun_1}},
+\code{\link{mun_2}},
+\code{\link{queens_1}},
+\code{\link{queens_2}},
+\code{\link{sfu_brand}},
+\code{\link{ubc_1}},
+\code{\link{ucalgary_1}},
+\code{\link{ucalgary_2}},
+\code{\link{ucalgary_accent}},
+\code{\link{ucalgary_warmgreys}},
+\code{\link{uottawa}},
+\code{\link{utoronto}},
+\code{\link{uvic_complementary}},
+\code{\link{uvic_core}},
 \code{\link{uwaterloo_arts}},
 \code{\link{uwaterloo_engineering}},
 \code{\link{uwaterloo_environment}},
 \code{\link{uwaterloo_health}},
 \code{\link{uwaterloo_math}},
 \code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{western_uni}}
 }
 \author{
 \strong{unicol}, 2023-06-29.
 }
-\concept{university color palettes}
+\concept{Canadian university color palettes}
 \keyword{datasets}

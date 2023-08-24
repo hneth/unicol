@@ -118,7 +118,12 @@ Other U.S. university color palettes:
 \code{\link{uflorida_3}},
 \code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_neutrals}}
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}}
 }
 \author{
 \strong{unicol}, 2022-10-28.

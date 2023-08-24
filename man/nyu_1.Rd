@@ -25,6 +25,8 @@ of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 Primary color are
 \code{"ultra_violet"} (defined as CMYK Refer/to/note, RGB 137/0/225, HEX #8900E1) and
 \code{"black"} (defined as CMYK 0/0/0/100, RGB 0/0/0, HEX #000000).
+
+\code{nyu_1} uses the HEX color definitions.
 }
 \examples{
 nyu_1
@@ -114,7 +116,12 @@ Other U.S. university color palettes:
 \code{\link{uflorida_3}},
 \code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_neutrals}}
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}}
 }
 \author{
 \strong{unicol}, 2023-06-14.

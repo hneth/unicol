@@ -30,6 +30,8 @@ Accent color are
 \code{"magenta"} (defined as CMYK 06/100/19/00, RGB 224/015/120, HEX #FB0F78),
 \code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1), and
 \code{"yellow"} (defined as CMYK 07/00/81/00, RGB 244/236/081, HEX #F4EC51).
+
+\code{nyu_accent} uses the HEX color definitions.
 }
 \examples{
 nyu_accent
@@ -119,7 +121,12 @@ Other U.S. university color palettes:
 \code{\link{uflorida_3}},
 \code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_neutrals}}
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}}
 }
 \author{
 \strong{unicol}, 2023-06-14.

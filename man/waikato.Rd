@@ -8,8 +8,8 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on 
-\href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{Waikato's brand standards}.
+Color definitions are based on Waikato's 
+\href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{brand standards}.
 }
 \usage{
 waikato
@@ -18,7 +18,7 @@ waikato
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{waikato} provides the 8 official web colors 
+\code{waikato} provides the eight official web colors 
 of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
 }
 \details{
@@ -36,7 +36,7 @@ The 8 official web colors are
 }
 \examples{
 waikato
-unikn::seecol(waikato, main = "University of Waikato") # view color palettes
+unikn::seecol(waikato, main = "Colors of the University of Waikato") # view color palettes
 
 }
 \seealso{
@@ -45,35 +45,9 @@ unikn::seecol(waikato, main = "University of Waikato") # view color palettes
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
-
-Other university color palettes: 
-\code{\link{example_1}},
-\code{\link{oxford_error}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
 }
 \author{
 \strong{unicol}, 2023-07-05.
 }
-\concept{university color palettes}
+\concept{New Zealand university color palettes}
 \keyword{datasets}

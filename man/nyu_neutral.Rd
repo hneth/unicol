@@ -25,10 +25,12 @@ of the \href{https://www.nyu.edu}{NYU, New York University}, USA.
 Neutral color are
 \code{"dark_gray"} (defined as CMYK 68/61/60/47, RGB 64/64/64, HEX #404040),
 \code{"medium_gray1"} (defined as CMYK 58/49/49/16, RGB 109/109/109, HEX #6D6D6D),
-\code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #B8B8B8),
-\code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #D6D6D6),
+\code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #b8b8b8),
+\code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #d6d6d6),
 \code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2), and
 \code{"white"} (defined as CMYK /0/0/0/0, RGB 255/255/255, HEX #FFFFFF).
+
+\code{nyu_neutral} uses the HEX color definitions.
 }
 \examples{
 nyu_neutral
@@ -118,7 +120,12 @@ Other U.S. university color palettes:
 \code{\link{uflorida_3}},
 \code{\link{umass_1}},
 \code{\link{umass_2}},
-\code{\link{umass_neutrals}}
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}}
 }
 \author{
 \strong{unicol}, 2023-06-14.
