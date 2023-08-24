@@ -18,14 +18,14 @@ oxford_error
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-\code{oxford_error} provides the error colours 
+\code{oxford_error} provides the four error colours 
 of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
-The colours are
+The 4 error colours are
 \code{"status"} (defined as HEX #7dbc23),
 \code{"warning"} (defined as HEX #bc9a23),
-\code{"error"} (defined as HEX #be0f34) and
+\code{"error"} (defined as HEX #be0f34), and
 \code{"error_light"} (defined as HEX #fff0f3),
 }
 \examples{
@@ -49,13 +49,6 @@ unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour pal
 
 Other university color palettes: 
 \code{\link{example_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
 \code{\link{uni_manchester}},

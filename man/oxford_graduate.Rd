@@ -18,11 +18,11 @@ oxford_graduate
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-\code{oxford_graduate} provides the graduate country page colours 
+\code{oxford_graduate} provides the twelve graduate country page colours 
 of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
-The colours are
+The 23 graduate country page colours are
 \code{"graduate_light_blue"} (defined as HEX #9eceeb),
 \code{"graduate_blue"} (defined as HEX #5f9baf),
 \code{"graduate_navy_blue"} (defined as HEX #44687d),
@@ -33,7 +33,7 @@ The colours are
 \code{"graduate_yellow"} (defined as HEX #f5cf47),
 \code{"graduate_dark_red"} (defined as HEX #872434),
 \code{"graduate_red"} (defined as HEX #be0f34),
-\code{"graduate_pink"} (defined as HEX #ebc4cb) and
+\code{"graduate_pink"} (defined as HEX #ebc4cb), and
 \code{"graduate_grey"} (defined as HEX #a79d96).
 }
 \examples{
@@ -56,41 +56,21 @@ unikn::seecol(oxford_graduate,
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other university color palettes: 
-\code{\link{example_1}},
+Other U.K. university color palettes: 
+\code{\link{birmingham_1}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
+\code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
-\code{\link{oxford_error}},
 \code{\link{oxford_general}},
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{oxford_socialmedia}}
 }
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{university color palettes}
+\concept{U.K. university color palettes}
 \keyword{datasets}

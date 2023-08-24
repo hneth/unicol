@@ -67,15 +67,15 @@ Other Canadian university color palettes:
 \code{\link{mcmaster_heritage}},
 \code{\link{mun_1}},
 \code{\link{mun_2}},
-\code{\link{ottawa_1}},
 \code{\link{queens_1}},
 \code{\link{queens_2}},
-\code{\link{toronto_1}},
 \code{\link{ubc_1}},
 \code{\link{ucalgary_1}},
 \code{\link{ucalgary_2}},
 \code{\link{ucalgary_accent}},
 \code{\link{ucalgary_warmgreys}},
+\code{\link{uottawa}},
+\code{\link{utoronto}},
 \code{\link{uvic_complementary}},
 \code{\link{uvic_core}}
 }

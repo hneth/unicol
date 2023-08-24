@@ -18,11 +18,11 @@ oxford_blog
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-\code{oxford_blog} provides the custom blog colours 
+\code{oxford_blog} provides the six custom blog colours 
 of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
 }
 \details{
-The colours are
+The 6 custom blog colours are
 \code{"science_blog"} (defined as HEX #0f7361),
 \code{"science_blog_button"} (defined as HEX #09332b),
 \code{"arts_blog"} (defined as HEX #721627),
@@ -49,41 +49,21 @@ unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colou
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other university color palettes: 
-\code{\link{example_1}},
+Other U.K. university color palettes: 
+\code{\link{birmingham_1}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
+\code{\link{manchester_uni_1}},
+\code{\link{manchester_uni_accent}},
 \code{\link{oxford_brand}},
-\code{\link{oxford_error}},
 \code{\link{oxford_general}},
 \code{\link{oxford_graduate}},
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{upenn_1}},
-\code{\link{upenn_2}},
-\code{\link{uwaterloo_arts}},
-\code{\link{uwaterloo_engineering}},
-\code{\link{uwaterloo_environment}},
-\code{\link{uwaterloo_health}},
-\code{\link{uwaterloo_main}},
-\code{\link{uwaterloo_math}},
-\code{\link{uwaterloo_science}},
-\code{\link{vanderbilt_1}},
-\code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}},
-\code{\link{waikato}},
-\code{\link{western_uni_1}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{oxford_socialmedia}}
 }
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{university color palettes}
+\concept{U.K. university color palettes}
 \keyword{datasets}

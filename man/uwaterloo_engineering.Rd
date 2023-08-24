@@ -47,14 +47,7 @@ unikn::seecol(uwaterloo_engineering, main = "Engineering Faculty colors of UWate
 
 Other university color palettes: 
 \code{\link{example_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
 \code{\link{oxford_error}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
 \code{\link{uni_manchester}},
