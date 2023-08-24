@@ -1,4 +1,4 @@
-## Uni_Stuttgart.R | 2023 06 09
+## Uni_Stuttgart.R | 2023 08 24
 ## Colors of the University of Stuttgart, Germany
 ## ----------------------------------------------
 
@@ -126,7 +126,7 @@ col_hellBlau <- "#00BEFF"
 #' uni_stuttgart_1
 #' unikn::seecol(uni_stuttgart_1, main = "Primary colors Uni Stuttgart") # view color palette
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso
 #' \code{\link{uni_stuttgart_print}} for Stuttgart's primary colors with alternative printing colors for more contrast;
@@ -185,7 +185,7 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #' uni_stuttgart_print
 #' unikn::seecol(uni_stuttgart_print, main = "Printing colors Uni Stuttgart") # view color palette
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso
 #' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors without printing colors;
