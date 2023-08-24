@@ -1,4 +1,4 @@
-## UCLA.R | 2023 06 18
+## UCLA.R | 2023 08 24
 ## Colors of UCLA, University of California, USA
 ## ---------------------------------------------
 
@@ -25,16 +25,19 @@
 
 # - UCLA_1: Primary colors ------
 
-#' Primary colors of UCLA, University of California
+#' Primary colors of UCLA, University of California, Los Angeles, USA
 #'
 #' \code{UCLA_1} provides three primary colors.
-#' of the \href{https://www.ucla.edu}{UCLA, University of California}, USA.
+#' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #'
-#' Over the years the blue color has always been more important than the gold. A field of blue with a gold accent says “UCLA.”
-#' A field of gold with a blue accent does not. Lavish use of white in layouts enhances the brilliance of the colors.
-#' Primary colors are
+#' Over the years the blue color has always been more important than the gold. 
+#' A field of blue with a gold accent says "UCLA".
+#' A field of gold with a blue accent does not. 
+#' Lavish use of white in layouts enhances the brilliance of the colors.
+#' 
+#' The primary colors are 
 #' \code{"UCLA_blue"} (defined as CMYK 83/40/3/6, RGB 39/116/174, HEX #2774AE),
-#' \code{"UCLA_gold"} (defined as CMYK 0/9/100/0, RGB 255/209/0, HEX #FFD100) and
+#' \code{"UCLA_gold"} (defined as CMYK 0/9/100/0, RGB 255/209/0, HEX #FFD100), and
 #' \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #FFFFFF).
 #'
 #' @return
@@ -51,7 +54,7 @@
 #' UCLA_1
 #' unikn::seecol(UCLA_1, main = "Primary colors UCLA") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{UCLA_2}} for secondary colors of UCLA, University of California; 
@@ -75,10 +78,10 @@ UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 
 # - UCLA_2: Secondary colors ------
 
-#' Secondary colors of UCLA, University of California
+#' Secondary colors of UCLA, University of California, Los Angeles, USA
 #'
 #' \code{UCLA_2} provides six secondary colors
-#' of the \href{https://www.ucla.edu}{UCLA, University of California}, USA.
+#' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #'
 #' A secondary palette has been developed to respect and complement the tradition of blue and gold while adding an additional level of brightness or darkness to the palette.
 #' Secondary colors are
@@ -103,7 +106,7 @@ UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 #' UCLA_2
 #' unikn::seecol(UCLA_2, main = "Secondary colors UCLA") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
@@ -129,10 +132,10 @@ UCLA_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE",
 
 # - UCLA_3: Tertiary colors ------
 
-#' Tertiary colors of UCLA, University of California
+#' Tertiary colors of UCLA, University of California, Los Angeles, USA 
 #'
 #' \code{UCLA_3} provides six tertiary colors
-#' of the \href{https://www.ucla.edu}{UCLA, University of California}, USA.
+#' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #'
 #' A tertiary palette has been developed for use as an accent to the primary and secondary colors.
 #'
@@ -163,7 +166,7 @@ UCLA_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE",
 #' UCLA_3
 #' unikn::seecol(UCLA_3, main = "Tertiary colors UCLA") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
