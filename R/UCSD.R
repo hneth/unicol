@@ -1,4 +1,4 @@
-## UCSD.R | 2023 06 16
+## UCSD.R | 2023 08 24
 ## Colors of UCSD, UC San Diego, University of California, USA
 ## -----------------------------------------------------------
 
@@ -77,7 +77,7 @@ UCSD_1_core <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214")
 
 
 
-# - UCSD_2_accent: accent colors ------
+# - UCSD_2_accent: Accent colors of UC San Diego ------
 
 #' Accent colors of the University of California San Diego (UCSD), USA 
 #'
@@ -134,7 +134,7 @@ UCSD_2_accent <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500
 
 
 
-# - UCSD_3_neutral: Neutral colors ------
+# - UCSD_3_neutral: Neutral colors of UC San Diego ------
 
 #' Neutral colors of the University of California San Diego (UCSD), USA 
 #'
