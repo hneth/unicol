@@ -52,6 +52,7 @@ unikn::seecol(conc_3, main = "Concordia University") # view color palette
 \code{\link{grepal}} for finding named colors.
 
 Other Canadian university color palettes: 
+\code{\link{carleton}},
 \code{\link{conc_1}},
 \code{\link{conc_2}},
 \code{\link{conc_4}},

@@ -47,6 +47,7 @@ unikn::seecol(uwaterloo_math, main = "Math faculty colors of UWaterloo")
 \code{\link{grepal}} for finding named colors.
 
 Other Canadian university color palettes: 
+\code{\link{carleton}},
 \code{\link{conc_1}},
 \code{\link{conc_2}},
 \code{\link{conc_3}},

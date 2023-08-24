@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{guelph} provides the two primary colors and the two secondary colors
-of the \href{https://www.uoguelph.ca/}{University of Guelph}, Canada.
+of the \href{https://www.uoguelph.ca}{University of Guelph}, Canada.
 }
 \details{
 The two primary colors are
@@ -45,6 +45,7 @@ unikn::seecol(guelph, main = "Colors of the University of Guelph") # view color 
 \code{\link{grepal}} for finding named colors.
 
 Other Canadian university color palettes: 
+\code{\link{carleton}},
 \code{\link{conc_1}},
 \code{\link{conc_2}},
 \code{\link{conc_3}},

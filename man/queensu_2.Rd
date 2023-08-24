@@ -55,6 +55,7 @@ unikn::seecol(queensu_2,
 \code{\link{grepal}} for finding named colours.
 
 Other Canadian university color palettes: 
+\code{\link{carleton}},
 \code{\link{conc_1}},
 \code{\link{conc_2}},
 \code{\link{conc_3}},
