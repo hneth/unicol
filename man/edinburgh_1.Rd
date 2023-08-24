@@ -22,7 +22,7 @@ A named vector of colours (HEX/HTML codes of type character).
 of the \href{https://www.ed.ac.uk}{University of Edinburgh}, Scotland.
 }
 \details{
-The eleven primary colours are
+The 11 primary colours are
 \code{"University Red"} (defined as Hex: D50032, RGB: 213, 0, 50),
 \code{"University Blue"} (defined as Hex: 041E42, RGB: 4, 30, 66), 
 \code{"Bright Blue"} (defined as Hex: 007288, RGB: 0, 114, 136),
@@ -39,8 +39,7 @@ The eleven primary colours are
 }
 \examples{
 edinburgh_1
-unikn::seecol(edinburgh_1, main = "University of Edinburgh") 
-# view color palette
+unikn::seecol(edinburgh_1, main = "Colors of the University of Edinburgh") # view color palette
 
 }
 \seealso{
