@@ -1,4 +1,4 @@
-## Vanderbilt.R | 2023 07 21
+## Vanderbilt.R | 2023 08 24
 ## Colors of the University of Vanderbilt, USA
 ## --------------------------------------------
 
@@ -9,19 +9,28 @@
 # country: USA
 # URL: https://www.vanderbilt.edu/
 
-# Color source:
+# Color source: 
+# Color definitions are based on Vanderbilt's brand style guide: 
+# color_URL: <https://brand.vanderbilt.edu/color/>
+# Last check: 2023-07-21
 
-# - vanderbilt_1: Core colors ----
 
-#' Colors of the Vanderbilt University
+# Colors: ------
+
+
+# Color palette(s):
+
+# - vanderbilt_1: Core colors of Vanderbilt University ------
+
+#' Core colors of Vanderbilt University, USA
 #' 
-#' \code{vanderbilt_1} provides the 4 core colors
+#' \code{vanderbilt_1} provides the four core colors
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 #' 
 #' The 4 core colors are
 #' \code{"vanderbilt_metallic_gold"} (defined as HEX #FEEEB6),
-#' \code{"vanderbilt_falt_gold"} (defined as HEX #CFAE70),
-#' \code{"black"} (defined as HEX #1C1C1C) and 
+#' \code{"vanderbilt_flat_gold"} (defined as HEX #CFAE70),
+#' \code{"vanderbilt_black"} (defined as HEX #1C1C1C), and 
 #' \code{"white"} (defined as HEX #FFFFFF).
 #' 
 #' \code{vanderbilt_1} uses the HEX color definitions.
@@ -33,14 +42,14 @@
 #' \strong{unicol}, 2023-07-12.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \href{https://brand.vanderbilt.edu/color/}{Vanderbilt's brand style guide}.
+#' Color definitions are based on Vanderbilt's 
+#' \href{https://brand.vanderbilt.edu/color/}{brand style guide}.
 #' 
 #' @examples 
 #' vanderbilt_1
 #' unikn::seecol(vanderbilt_1, main = "Vanderbilt University 1 (core colors)") # view color palette
 #' 
-#' @family university color palettes
+#' @family U.S. university color palettes
 #' 
 #' @seealso 
 #' \code{\link{vanderbilt_2}} for neutral colors of Vanderbilt University;
@@ -55,22 +64,24 @@
 
 vanderbilt_1 <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
                                       "#1C1C1C", "#FFFFFF"), 
-                              names = c("vanderbilt_matallic gold", "vanderbilt_flat_gold",
-                                        "black", "white"), 
+                              names = c("vanderbilt_metallic gold", "vanderbilt_flat_gold",
+                                        "vanderbilt_black", "white"), 
                               as_df = FALSE)
 
 
-# - vanderbilt_2: Neutral colors: -----
+
+# - vanderbilt_2: Neutral colors of Vanderbilt University -------
+
 
 #' Neutral colors of Vanderbilt University, USA 
 #' 
-#' \code{vanderbilt_2} provides the 4 neutral colors
+#' \code{vanderbilt_2} provides the four neutral colors
 #' of the \href{https://www.vanderbilt.edu/}{Vanderbilt University}, USA.
 #' 
 #' The 4 neutral colors are
 #' \code{"vanderbilt_dark_grey"} (defined as HEX #777777),
 #' \code{"vanderbilt_light_gery"} (defined as HEX #E4E4E4),
-#' \code{"vanderbilt_sand"} (defined as HEX #E0D5C0) and 
+#' \code{"vanderbilt_sand"} (defined as HEX #E0D5C0), and 
 #' \code{"vanderbilt_cream"} (defined as HEX #F5F3EF).
 #' 
 #' \code{vanderbilt_2} uses the HEX color definitions.
@@ -89,7 +100,7 @@ vanderbilt_1 <- unikn::newpal(col = c("#FEEEB6", "#CFAE70",
 #' vanderbilt_2
 #' unikn::seecol(vanderbilt_2, main = "Vanderbilt University 2 (neutral)") # view color palette
 #' 
-#' @family university color palettes
+#' @family U.S. university color palettes
 #' 
 #' @seealso 
 #' \code{\link{vanderbilt_1}} for core colors of Vanderbilt University;
@@ -107,7 +118,9 @@ vanderbilt_2 <- unikn::newpal(col = c("#777777", "#E4E4E4", "#E0D5C0", "#F5F3EF"
                               as_df = FALSE) 
 
 
-# - vanderbilt_3: Saturated colors ------
+
+# - vanderbilt_3: Saturated colors of Vanderbilt University ------
+
 
 #' Saturated colors of the Vanderbilt University, USA 
 #' 
@@ -136,7 +149,7 @@ vanderbilt_2 <- unikn::newpal(col = c("#777777", "#E4E4E4", "#E0D5C0", "#F5F3EF"
 #' vanderbilt_3
 #' unikn::seecol(vanderbilt_3, main = "Vanderbilt University 3 (saturated)") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{vanderbilt_1}} for core colors of Vanderbilt University;
