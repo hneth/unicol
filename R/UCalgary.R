@@ -1,14 +1,14 @@
-## UCalgary.R | 2023 07 13
+## UCalgary.R | 2023 08 24
 ## Colours of the University of Calgary, Canada 
 ## --------------------------------------------
 
 # Information: ------
 
-# cur_pals: "ucalgary_primary", "ucalgary_secondary", "ucalgary_warmgreys", "ucalgary_accent" (4)
+# cur_pals: "ucalgary_1", "ucalgary_2", "ucalgary_warmgreys", "ucalgary_accent" (4)
 # inst: "UCalgary"
 # inst_alt: "University of Calgary"
 # country: Canada
-# URL: "https://www.ucalgary.ca/"
+# URL: "https://www.ucalgary.ca"
 
 # Colour source:
 
@@ -19,11 +19,11 @@
 
 # Colour palette(s):
 
-# - ucalgary_primary: Primary Colours ------
+# - ucalgary_1: Primary colours of Calgary ------
 
-#' Primary colours of the University of Calgary
+#' Primary colours of the University of Calgary, Canada 
 #'
-#' \code{ucalgary_primary} provides the two primary colours 
+#' \code{ucalgary_1} provides the two primary colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
 #'
 #' The two primary colours are
@@ -37,17 +37,17 @@
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on UCalgary's 
 #' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
 #'
 #' @examples
-#' ucalgary_primary
-#' unikn::seecol(ucalgary_primary, main = "Primary colours UCalgary") # view colour palette
+#' ucalgary_1
+#' unikn::seecol(ucalgary_1, main = "Primary colours UCalgary") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_2}} for the secondary colours of the University of Calgary;
 #' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
 #' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
@@ -58,21 +58,21 @@
 #'
 #' @export
 
-ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
-                                  names = c("red", "gold"),
-                                  as_df = FALSE)
+ucalgary_1 <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
+                            names = c("red", "gold"),
+                            as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ucalgary_primary, main = "Primary colours of University of Calgary")
+# unikn::seecol(ucalgary_1, main = "Primary colours of University of Calgary")
 
 
 
 
-# - ucalgary_secondary: Secondary colours ------
+# - ucalgary_2: Secondary colours of Calgary ------
 
-#' Secondary colours of the University of Calgary
+#' Secondary colours of the University of Calgary, Canada 
 #'
-#' \code{ucalgary_secondary} provides the four secondary colours 
+#' \code{ucalgary_2} provides the four secondary colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
 #'
 #' The secondary colours are
@@ -88,17 +88,17 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on UCalgary's 
 #' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
 #'
 #' @examples
-#' ucalgary_secondary
-#' unikn::seecol(ucalgary_secondary, main = "Secondary colours UCalgary") # view colour palette
+#' ucalgary_2
+#' unikn::seecol(ucalgary_2, main = "Secondary colours UCalgary") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_1}} for the primary colours of the University of Calgary;
 #' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
 #' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
@@ -109,20 +109,20 @@ ucalgary_primary <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #'
 #' @export
 
-ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
-                                    names = c("light_orange", "dark_orange", "berry", "brown"),
-                                    as_df = FALSE)
+ucalgary_2 <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
+                            names = c("light_orange", "dark_orange", "berry", "brown"),
+                            as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ucalgary_secondary, main = "Secondary colours of the University of Calgary", col_bg = "lightgrey")
+# unikn::seecol(ucalgary_2, main = "Secondary colours of the University of Calgary", col_bg = "lightgrey")
 
 
 
 
 
-# - ucalgary_warmgreys: Warm grey colours ------
+# - ucalgary_warmgreys: Warm grey colours of Calgary ------
 
-#' Warm grey colours of the University of Calgary
+#' Warm grey colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_warmgreys} provides the warm greys 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -138,18 +138,18 @@ ucalgary_secondary <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on UCalgary's 
 #' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
 #'
 #' @examples
-#' ucalgary_secondary
+#' ucalgary_2
 #' unikn::seecol(ucalgary_warmgreys, main = "Warm greys UCalgary") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
-#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_1}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_2}} for the secondary colours of the University of Calgary;
 #' \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
@@ -169,9 +169,9 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 
 
 
-# - ucalgary_accent: Accent colours ------
+# - ucalgary_accent: Accent colours of Calgary ------
 
-#' Accent colours of the University of Calgary
+#' Accent colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_accent} provides the accent colours 
 #' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
@@ -189,7 +189,7 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on UCalgary's 
 #' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
 #'
 #' @examples
@@ -197,11 +197,11 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' unikn::seecol(ucalgary_accent, 
 #'               main = "Accent colours UCalgary", col_bg = "lightgrey") # view colour palette
 #'
-#' @family university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
-#' \code{\link{ucalgary_primary}} for the primary colours of the University of Calgary;
-#' \code{\link{ucalgary_secondary}} for the secondary colours of the University of Calgary;
+#' \code{\link{ucalgary_1}} for the primary colours of the University of Calgary;
+#' \code{\link{ucalgary_2}} for the secondary colours of the University of Calgary;
 #' \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
