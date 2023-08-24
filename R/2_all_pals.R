@@ -91,10 +91,10 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uwaterloo_main <-", "uwaterloo_arts <-", "uwaterloo_engineering <-", "uwaterloo_environment <-", "uwaterloo_health <-", "uwaterloo_math <-", "uwaterloo_science <-", 
               "vanderbilt_1 <-", "vanderbilt_2 <-", "vanderbilt_3 <-", 
               "waikato <-", 
-              "western_uni_1 <-", 
-              "yale_1 <-", 
+              "western_uni <-", 
+              "yale <-", 
               "yeshiva <-", 
-              "york_1 <-", "york_2 <-",
+              "yorku_1 <-", "yorku_2 <-",
               # Contributed color palettes: 
               "groningen_1", "groningen_2",
               "uni_lisbon"
