@@ -65,8 +65,8 @@ Other Canadian university color palettes:
 \code{\link{mcmaster_heritage}},
 \code{\link{mun_1}},
 \code{\link{mun_2}},
-\code{\link{queens_1}},
-\code{\link{queens_2}},
+\code{\link{queensu_1}},
+\code{\link{queensu_2}},
 \code{\link{sfu_brand}},
 \code{\link{ubc_1}},
 \code{\link{ucalgary_1}},
@@ -83,7 +83,9 @@ Other Canadian university color palettes:
 \code{\link{uwaterloo_health}},
 \code{\link{uwaterloo_main}},
 \code{\link{uwaterloo_science}},
-\code{\link{western_uni}}
+\code{\link{western_uni}},
+\code{\link{yorku_1}},
+\code{\link{yorku_2}}
 }
 \author{
 \strong{unicol}, 2023-06-29.

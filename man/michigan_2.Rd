@@ -138,7 +138,9 @@ Other U.S. university color palettes:
 \code{\link{upenn_2}},
 \code{\link{vanderbilt_1}},
 \code{\link{vanderbilt_2}},
-\code{\link{vanderbilt_3}}
+\code{\link{vanderbilt_3}},
+\code{\link{yale}},
+\code{\link{yeshiva}}
 }
 \author{
 \strong{unicol}, 2023-06-14.

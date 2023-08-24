@@ -45,11 +45,7 @@ Other university color palettes:
 \code{\link{pitt_2}},
 \code{\link{uni_manchester}},
 \code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}},
-\code{\link{yale_1}},
-\code{\link{yeshiva}},
-\code{\link{york_1}},
-\code{\link{york_2}}
+\code{\link{uni_stuttgart_print}}
 }
 \author{
 \strong{unicol}, 2023-07-01.
