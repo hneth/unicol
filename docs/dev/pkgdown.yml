@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   color_pals: color_pals.html
   using_pals: using_pals.html
-last_built: 2023-08-18T06:58Z
+last_built: 2023-08-24T15:29Z
 urls:
   reference: https://hneth.github.io/unicol/reference
   article: https://hneth.github.io/unicol/articles
