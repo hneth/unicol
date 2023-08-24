@@ -1,14 +1,14 @@
-## Carleton.R | 2023 08 10
+## Carleton.R | 2023 08 24
 ## Colors of the University of Carleton, Canada 
 ## --------------------------------------------
 
 # Information: ------ 
 
-# cur_pals: "carleton_1" (1)
+# cur_pals: "carleton" (1)
 # inst: "University of Carleton" (in English)
 # inst_alt: "University of Carleton"
 # country: Canada
-# URL: "https://carleton.ca/"
+# URL: "https://carleton.ca"
 
 # Color source:
 
@@ -16,23 +16,26 @@
 # Last check: 2023-07-12
 
 
-# Color palette:
+# Colors: ------
 
 
-# - carleton_1: All colors ------
+# Color palette(s):
+
+
+# - carleton: All colors ------
 
 #' Colors of the University of Carleton, Canada 
 #'
-#' \code{carleton_1} provides the two official colors 
+#' \code{carleton} provides the two official colors 
 #' of the \href{https://carleton.ca/}{University of Carleton}, Canada.
 #'
-#' The two official colors are
+#' The 2 official colors are
 #' \code{maize} (defined as Pantone 122, 
 #' and approximated by RGB 255/223/79, or HEX #FFDF4F), and
 #' \code{blue_carleton} (defined as Pantone 294, 
 #' and approximated by RGB 0/48/105, or HEX #003069).
 #'
-#' \code{carleton_1} uses the HEX color definitions. 
+#' \code{carleton} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -45,11 +48,11 @@
 #' \href{https://www.carleton.edu/communications/resources/college-wordmark-identity-graphics/college-colors/}{University of Carleton's website}.
 #'
 #' @examples
-#' carleton_1
-#' unikn::seecol(carleton_1, 
+#' carleton
+#' unikn::seecol(carleton, 
 #'               main = "Colors of the University of Carleton") # view color palette
 #'
-#' @family Candadian university color palettes
+#' @family Canadian university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -60,12 +63,12 @@
 #'
 #' @export
 
-carleton_1 <- unikn::newpal(col = c("#FFDF4F", "#003069"),
-                            names = c("maize", "blue_carleton"),
-                            as_df = FALSE)
+carleton <- unikn::newpal(col = c("#FFDF4F", "#003069"),
+                          names = c("maize", "blue_carleton"),
+                          as_df = FALSE)
 
 # # Check: 
-## unikn::seecol(carleton_1, main = "Official colors of the University of Carleton", col_bg = "white")
+## unikn::seecol(carleton, main = "Official colors of the University of Carleton", col_bg = "white")
 
 
 
