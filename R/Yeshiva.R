@@ -1,4 +1,4 @@
-## Yeshiva.R | 2023 07 24
+## Yeshiva.R | 2023 08 24
 ## Colors of Yeshiva University, USA
 ## ---------------------------------
 
@@ -14,13 +14,16 @@
 # URL: https://www.yu.edu/marketing/branding
 
 
+# Colors: ------
+
 # Color palettes:
+
 
 # - yeshiva: Colors of Yeshiva University ------ 
 
 #' Colors of Yeshiva University, USA 
 #'
-#' \code{yeshiva} provides the 3 colors 
+#' \code{yeshiva} provides the three colors 
 #' of the \href{https://www.yu.edu/}{Yeshiva University}, USA.
 #'
 #' The 3 colors of the Yeshiva University are
@@ -42,9 +45,9 @@
 #'
 #' @examples
 #' yeshiva
-#' unikn::seecol(yeshiva, main = "Yeshiva University") # view color palette
+#' unikn::seecol(yeshiva, main = "Colors of Yeshiva University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
