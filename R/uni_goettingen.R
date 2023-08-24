@@ -1,6 +1,6 @@
-## Uni_Goettingen.R | 2023 08 12
-## Colors of the University of Goettingen, Germany
-## -----------------------------------------------
+## Uni_Goettingen.R | 2023 08 24
+## Colors of the University of Göttingen, Germany
+## ----------------------------------------------
 
 # Information: ------
 
@@ -33,7 +33,7 @@
 # sowie Grau, Schwarz, Weiss und Chamois zur Verfuegung.
 
 
-# - uni_goettingen_1: Primary colors: ---- 
+# - uni_goettingen_1: Primary colors of Uni Göttingen ---- 
 
 col_goe_primary <- c("#153268", "#005f9b", "#0091c8", "#50a5d2")
 nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
@@ -65,7 +65,7 @@ nam_goe_primary <- c("uniblau", "logoblau", "logomittelblau", "logohellblau")
 #' unikn::seecol(uni_goettingen_1, main = "The primary colors of Uni Göttingen")  # view color palette
 #' unikn::demopal(uni_goettingen_1, type = 1, main = "Primary colors of the University of Goettingen")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_goettingen_2}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;  
@@ -85,7 +85,7 @@ uni_goettingen_1 <- unikn::newpal(col = col_goe_primary,
 
 
 
-# - uni_goettingen_2: Secondary colors ----
+# - uni_goettingen_2: Secondary colors of Uni Göttingen ----
 
 # Error in definition: 
 # Chamois and Altweiss have identical, but non-corresponding RGB and HEX values.
@@ -131,7 +131,7 @@ nam_goe_secondary <- c("schwarz", "weiss", "chamois", "altweiss",
 #' unikn::seecol(uni_goettingen_2, main = "Secondary colors of the University of Göttingen")
 #' unikn::demopal(uni_goettingen_2, type = 3, main = "Secondary colors of Uni Goettingen")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_goettingen_1}} and \code{\link{uni_goettingen_3}} for alternative colors of the University of Goettingen;  
@@ -151,7 +151,7 @@ uni_goettingen_2 <- unikn::newpal(col = col_goe_secondary,
 
 
 
-# - uni_goettingen_3: Departments / faculties ----
+# - uni_goettingen_3: Departments / faculties of Uni Göttingen ----
 
 # Souce: <https://www.uni-goettingen.de/de/589412.html>
 # 2022-11-20
@@ -214,7 +214,7 @@ nam_goe_fac <- c("Agrarwissenschaften", "Biologie und Psychologie", "Chemie", "F
 #' unikn::seecol(uni_goettingen_3, main = "Department colors at the University of Göttingen")  
 #' unikn::demopal(uni_goettingen_3, type = 3, main = "Departmental colors of Goettingen University")
 #'
-#' @family university color palettes
+#' @family German university color palettes
 #'
 #' @seealso 
 #' \code{\link{uni_goettingen_1}} and \code{\link{uni_goettingen_2}} for alternative colors of the University of Goettingen;  

@@ -1,12 +1,12 @@
-## Uni_Manchester.R | 2023 06 27
-## colours of the University of Manchester, England 
-## -----------------------------------------------
+## Uni_Manchester.R | 2023 08 24
+## Colours of the University of Manchester, England/UK
+## ---------------------------------------------------
 
 # Information: ------
 
-# cur_pals: "uni_manchester_1" (1)
+# cur_pals: "uni_manchester" (1)
 # inst: "University of Manchester"
-# England
+# country: England/UK 
 # URL: "https://www.manchester.ac.uk"
 
 # Color source:
@@ -20,11 +20,11 @@
 # Color palette(s):
 
 
-# - uni_manchester_1: Primary colours ------
+# - uni_manchester: Primary colours ------
 
 #' Primary colours of the University of Manchester
 #'
-#' \code{uni_manchester_1} provides the three primary colours 
+#' \code{uni_manchester} provides the three primary colours 
 #' of the \href{https://www.manchester.ac.uk}{University of Manchester}, England.
 #'
 #' The three primary colours are
@@ -34,7 +34,7 @@
 #' 
 #' The purple should be used as a main colour with the grey and yellow to complement it. 
 #' 
-#' \code{uni_manchester_1} uses the HEX color definitions. 
+#' \code{uni_manchester} uses the HEX color definitions. 
 #' #' RGB color values differ from HEX definition.
 #' For \code{"Purple"} and \code{"Grey"} the RGB and HEX definitions differ numerically, 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
@@ -50,8 +50,8 @@
 #' \href{https://www.staffnet.manchester.ac.uk/brand/visual-identity/colour/}{Manchester's visual identity}.
 #'
 #' @examples
-#' uni_manchester_1
-#' unikn::seecol(uni_manchester_1, main = "Primary colours of the University of Manchester") 
+#' uni_manchester
+#' unikn::seecol(uni_manchester, main = "Primary colours of the University of Manchester") 
 #' # view color palette
 #'
 #' @family university color palettes
@@ -65,12 +65,12 @@
 #'
 #' @export
 
-uni_manchester_1 <- unikn::newpal(col = c("#660099", "#FFCC33", "#999999"),
+uni_manchester <- unikn::newpal(col = c("#660099", "#FFCC33", "#999999"),
                                   names = c("Purple", "Yellow", "Gray"),
                                   as_df = FALSE)
 
 # # Check: 
-#unikn::seecol(uni_manchester_1, main = "Primary colours of the University of Manchester", col_bg = "white")
+#unikn::seecol(uni_manchester, main = "Primary colours of the University of Manchester", col_bg = "white")
 
 
 
