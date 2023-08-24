@@ -59,14 +59,14 @@ Other U.K. university color palettes:
 \code{\link{birmingham_1}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
-\code{\link{manchester_uni_1}},
-\code{\link{manchester_uni_accent}},
 \code{\link{oxford_blog}},
+\code{\link{oxford_error}},
 \code{\link{oxford_general}},
 \code{\link{oxford_graduate}},
 \code{\link{oxford_link}},
 \code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}}
+\code{\link{oxford_socialmedia}},
+\code{\link{uni_manchester}}
 }
 \author{
 \strong{unicol}, 2023-06-15.

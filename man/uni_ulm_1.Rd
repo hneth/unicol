@@ -93,6 +93,8 @@ Other German university color palettes:
 \code{\link{uni_regensburg_1}},
 \code{\link{uni_regensburg_2}},
 \code{\link{uni_regensburg_3}},
+\code{\link{uni_stuttgart_1}},
+\code{\link{uni_stuttgart_print}},
 \code{\link{uni_ulm_2}}
 }
 \author{

@@ -3,33 +3,36 @@
 \docType{data}
 \name{manchester_uni_accent}
 \alias{manchester_uni_accent}
-\title{Accent colours of Manchester University, UK}
+\title{Accent colours of Manchester University, USA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{Manchester's marketing brand toolkit}.
+Color definitions are based on Manchester University's 
+\href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}.
 }
 \usage{
 manchester_uni_accent
 }
 \value{
-A named vector of colours (HEX/HTML codes of type character).
+A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{manchester_uni_accent} provides the three accent primary colours and 
 white as suggested to use in minority ratio (3:1) against the primary colors on a canvas
-of the \href{https://www.manchester.edu}{Manchester University}, England/UK.
+of the \href{https://www.manchester.edu}{Manchester University}, Indiana, USA.
 }
 \details{
-The three accent colours are 
+The three accent colors are 
 \code{"Manchester sunrise"} (defined as C=0 M=71 Y=100 K=0, R=255 G=108 B=12, #FF6C0C),
 \code{"Manchester blue"} (defined as C=54 M=4 Y=9 K=0, R=107 G=196 B=222, #6BC4DE),
 \code{"Manchester green"} (defined as C=55 M=3 Y=100 K=0, R=130 G=188 B=0, #82BC00), and
 \code{"white"}.
 
-\code{manchester_uni_accent} uses the HEX color definitions.
+\code{manchester_uni_accent} uses the HEX color definitions. 
+
+Note that \href{https://www.manchester.edu}{Manchester University} is located in Indiana, USA, 
+and not to be confused with \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK.
 }
 \examples{
 manchester_uni_accent
@@ -38,28 +41,102 @@ unikn::seecol(manchester_uni_accent, main = "Accent colors of Manchester Univers
 
 }
 \seealso{
-\code{\link{manchester_uni_1}} for primary colours of Manchester University;
+\code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA;
+\code{\link{uni_manchester}} for colors of the University of Manchester, England/UK;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link{grepal}} for finding named colors.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
-\code{\link{lancaster_1}},
-\code{\link{lancaster_2}},
+Other U.S. university color palettes: 
+\code{\link{CMU_1_core}},
+\code{\link{CMU_2_tartan}},
+\code{\link{CMU_3_campus}},
+\code{\link{UCLA_1}},
+\code{\link{UCLA_2}},
+\code{\link{UCLA_3}},
+\code{\link{UCSD_1_core}},
+\code{\link{UCSD_2_accent}},
+\code{\link{UCSD_3_neutral}},
+\code{\link{asu_1}},
+\code{\link{asu_2}},
+\code{\link{asu_3}},
+\code{\link{berkeley_1}},
+\code{\link{berkeley_2}},
+\code{\link{brown_1}},
+\code{\link{brown_2}},
+\code{\link{bu}},
+\code{\link{caltech_1}},
+\code{\link{caltech_2}},
+\code{\link{caltech_3}},
+\code{\link{chicago_1}},
+\code{\link{chicago_2}},
+\code{\link{columbia}},
+\code{\link{cornell_1}},
+\code{\link{cornell_2}},
+\code{\link{cornell_3_accent}},
+\code{\link{dartmouth_1}},
+\code{\link{dartmouth_2}},
+\code{\link{dartmouth_3}},
+\code{\link{duke_1}},
+\code{\link{duke_2}},
+\code{\link{harvard_1}},
+\code{\link{harvard_2}},
+\code{\link{harvard_3}},
+\code{\link{jhu_0}},
+\code{\link{jhu_1}},
+\code{\link{jhu_2}},
+\code{\link{jhu_3_accent}},
+\code{\link{jhu_4_gray}},
 \code{\link{manchester_uni_1}},
-\code{\link{oxford_blog}},
-\code{\link{oxford_brand}},
-\code{\link{oxford_general}},
-\code{\link{oxford_graduate}},
-\code{\link{oxford_link}},
-\code{\link{oxford_shades}},
-\code{\link{oxford_socialmedia}}
+\code{\link{michigan_1}},
+\code{\link{michigan_2}},
+\code{\link{minnesotatwin_1}},
+\code{\link{minnesotatwin_2}},
+\code{\link{mit}},
+\code{\link{monash_1}},
+\code{\link{monash_2}},
+\code{\link{msu}},
+\code{\link{northwestern_1}},
+\code{\link{northwestern_2}},
+\code{\link{notredame_1}},
+\code{\link{notredame_2}},
+\code{\link{nyu_1}},
+\code{\link{nyu_2}},
+\code{\link{nyu_accent}},
+\code{\link{nyu_neutral}},
+\code{\link{pitt_1}},
+\code{\link{pitt_2}},
+\code{\link{princeton_0}},
+\code{\link{princeton_1}},
+\code{\link{princeton_2}},
+\code{\link{rpi_1}},
+\code{\link{rpi_2}},
+\code{\link{rpi_3}},
+\code{\link{stanford_1}},
+\code{\link{stanford_2_accent}},
+\code{\link{stanford_3_web}},
+\code{\link{uci_1}},
+\code{\link{uci_2}},
+\code{\link{uci_3}},
+\code{\link{uci_4}},
+\code{\link{uflorida_1}},
+\code{\link{uflorida_2}},
+\code{\link{uflorida_3}},
+\code{\link{umass_1}},
+\code{\link{umass_2}},
+\code{\link{umass_neutrals}},
+\code{\link{upenn_1}},
+\code{\link{upenn_2}},
+\code{\link{vanderbilt_1}},
+\code{\link{vanderbilt_2}},
+\code{\link{vanderbilt_3}},
+\code{\link{yale}},
+\code{\link{yeshiva}}
 }
 \author{
 \strong{unicol}, 2023-06-27.
 }
-\concept{U.K. university color palettes}
+\concept{U.S. university color palettes}
 \keyword{datasets}

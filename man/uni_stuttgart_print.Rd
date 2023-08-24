@@ -53,16 +53,53 @@ unikn::seecol(uni_stuttgart_print, main = "Printing colors Uni Stuttgart") # vie
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
 
-Other university color palettes: 
-\code{\link{example_1}},
-\code{\link{oxford_error}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}}
+Other German university color palettes: 
+\code{\link{fu_0}},
+\code{\link{fu_1}},
+\code{\link{fu_2}},
+\code{\link{fu_3}},
+\code{\link{hu_1}},
+\code{\link{hu_2}},
+\code{\link{lmu_1}},
+\code{\link{lmu_2}},
+\code{\link{lmu_3}},
+\code{\link{rptu}},
+\code{\link{uni_bonn_1}},
+\code{\link{uni_bonn_2}},
+\code{\link{uni_freiburg_0}},
+\code{\link{uni_freiburg_1}},
+\code{\link{uni_freiburg_2}},
+\code{\link{uni_freiburg_blue}},
+\code{\link{uni_freiburg_br}},
+\code{\link{uni_freiburg_grey}},
+\code{\link{uni_freiburg_info}},
+\code{\link{uni_goettingen_1}},
+\code{\link{uni_goettingen_2}},
+\code{\link{uni_goettingen_3}},
+\code{\link{uni_hamburg_1}},
+\code{\link{uni_hamburg_2}},
+\code{\link{uni_heidelberg}},
+\code{\link{uni_jena_1}},
+\code{\link{uni_jena_2}},
+\code{\link{uni_kassel}},
+\code{\link{uni_kiel_1}},
+\code{\link{uni_kiel_2}},
+\code{\link{uni_koeln_1}},
+\code{\link{uni_koeln_2}},
+\code{\link{uni_konstanz_1}},
+\code{\link{uni_konstanz_2}},
+\code{\link{uni_mannheim_1}},
+\code{\link{uni_mannheim_2}},
+\code{\link{uni_potsdam}},
+\code{\link{uni_regensburg_1}},
+\code{\link{uni_regensburg_2}},
+\code{\link{uni_regensburg_3}},
+\code{\link{uni_stuttgart_1}},
+\code{\link{uni_ulm_1}},
+\code{\link{uni_ulm_2}}
 }
 \author{
 \strong{unicol}, 2023-05-31.
 }
-\concept{university color palettes}
+\concept{German university color palettes}
 \keyword{datasets}

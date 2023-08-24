@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_manchester}
 \alias{uni_manchester}
-\title{Primary colours of the University of Manchester}
+\title{Primary colours of the University of Manchester, UK}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_manchester} provides the three primary colours 
-of the \href{https://www.manchester.ac.uk}{University of Manchester}, England.
+of the \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK.
 }
 \details{
 The three primary colours are
@@ -33,30 +33,39 @@ The purple should be used as a main colour with the grey and yellow to complemen
 #' RGB color values differ from HEX definition.
 For \code{"Purple"} and \code{"Grey"} the RGB and HEX definitions differ numerically, 
 yet are visually indistinguishable. Our color palette is based on the HEX definition.
+
+Note that the \href{https://www.manchester.ac.uk}{University of Manchester} is located in England / UK. 
+and not to be confused with \href{https://www.manchester.edu}{Manchester University}, located in Indiana, USA.
 }
 \examples{
 uni_manchester
-unikn::seecol(uni_manchester, main = "Primary colours of the University of Manchester") 
-# view color palette
+unikn::seecol(uni_manchester, main = "Colours of the University of Manchester, UK") # view color palette
 
 }
 \seealso{
+\code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA; 
+\code{\link{manchester_uni_accent}} for accent colours of Manchester University, IN, USA; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other university color palettes: 
-\code{\link{example_1}},
+Other U.K. university color palettes: 
+\code{\link{birmingham_1}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
+\code{\link{oxford_blog}},
+\code{\link{oxford_brand}},
 \code{\link{oxford_error}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}}
+\code{\link{oxford_general}},
+\code{\link{oxford_graduate}},
+\code{\link{oxford_link}},
+\code{\link{oxford_shades}},
+\code{\link{oxford_socialmedia}}
 }
 \author{
 \strong{unicol}, 2023-06-27.
 }
-\concept{university color palettes}
+\concept{U.K. university color palettes}
 \keyword{datasets}

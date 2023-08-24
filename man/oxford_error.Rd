@@ -47,16 +47,21 @@ unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour pal
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other university color palettes: 
-\code{\link{example_1}},
-\code{\link{pitt_1}},
-\code{\link{pitt_2}},
-\code{\link{uni_manchester}},
-\code{\link{uni_stuttgart_1}},
-\code{\link{uni_stuttgart_print}}
+Other U.K. university color palettes: 
+\code{\link{birmingham_1}},
+\code{\link{lancaster_1}},
+\code{\link{lancaster_2}},
+\code{\link{oxford_blog}},
+\code{\link{oxford_brand}},
+\code{\link{oxford_general}},
+\code{\link{oxford_graduate}},
+\code{\link{oxford_link}},
+\code{\link{oxford_shades}},
+\code{\link{oxford_socialmedia}},
+\code{\link{uni_manchester}}
 }
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{university color palettes}
+\concept{U.K. university color palettes}
 \keyword{datasets}
