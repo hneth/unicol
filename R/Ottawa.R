@@ -2,9 +2,9 @@
 ## Colors of the University of Ottawa, Canada
 ## ------------------------------------------
 
-# Information: ------------------------------
+# Information: ------
 
-# cur_pals: "ottawa_1" (1)
+# cur_pals: "uottawa" (1)
 # inst: "University of Ottawa" (in English)
 # inst_alt: "University of Ottawa"
 # country: Canada
@@ -16,15 +16,16 @@
 # Last check: 2023-07-04
 
 
+# Colors: ------ 
 
 # Color palette(s):
 
 
-# - ottawa_1: All colors ------
+# - uottawa: All colors of UOttawa ------
 
-#' Colors of the University of Ottawa
+#' Colors of the University of Ottawa, Canada 
 #'
-#' \code{ottawa_1} provides the two primary colors and the six secondary colors
+#' \code{uottawa} provides the two primary colors and the six secondary colors
 #' of the \href{https://www.uottawa.ca/en}{University of Ottawa}, Canada.
 #'
 #' The two primary colors are
@@ -39,7 +40,7 @@
 #' \code{"light_grey_ottawa"} (defined as RGB 172/163/154, HEX #ACA39A), and
 #' \code{"cool_grey"} (defined as RGB 200/201/199, HEX #C8C9C7). 
 #' 
-#' \code{ottawa_1} uses the HEX color definitions. 
+#' \code{uottawa} uses the HEX color definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -52,8 +53,8 @@
 #' \href{https://www.uottawa.ca/about-us/administration-services/brand}{brand specifications}.
 #'
 #' @examples
-#' ottawa_1
-#' unikn::seecol(ottawa_1, main = "Colors of the University of Ottawa") # view color palette
+#' uottawa
+#' unikn::seecol(uottawa, main = "Colors of UOttawa") # view color palette
 #'
 #' @family Canadian university color palettes 
 #'
@@ -66,14 +67,14 @@
 #'
 #' @export
 
-ottawa_1 <- unikn::newpal(col = c("#8F001A", "#80746C","#2D2D2C", "#636d77", 
-                                  "#67796C", "#F2F2F2", "#ACA39A", "#C8C9C7"),
-                          names = c("garnet", "grey_ottawa", "charcoal", "grey_blue", 
-                                    "green_ottawa", "polar_grey", "light_grey_ottawa", "cool_grey"),
-                          as_df = FALSE)
+uottawa <- unikn::newpal(col = c("#8F001A", "#80746C","#2D2D2C", "#636d77", 
+                                 "#67796C", "#F2F2F2", "#ACA39A", "#C8C9C7"),
+                         names = c("garnet", "grey_ottawa", "charcoal", "grey_blue", 
+                                   "green_ottawa", "polar_grey", "light_grey_ottawa", "cool_grey"),
+                         as_df = FALSE)
 
 # # Check: 
-## unikn::seecol(ottawa_1, main = "Colors of the University of Ottawa", col_bg = "white")
+## unikn::seecol(uottawa, main = "Colors of the University of Ottawa", col_bg = "white")
 
 
 
