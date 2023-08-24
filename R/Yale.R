@@ -1,10 +1,10 @@
-## Yale.R | 2023 08 07
+## Yale.R | 2023 08 24
 ## Colors of Yale University, USA
 ## ------------------------------
 
 # Information: ------
 
-# cur_pals: "yale_1" (1)
+# cur_pals: "yale" (1)
 # inst: "Yale University"
 # country: USA
 # URL: "https://www.yale.edu"
@@ -16,17 +16,18 @@
 
 
 # Colors: ------
+
 # Find colors directly defined in color palettes!
 
 
 # Color palette(s):
 
 
-# - yale_1: Primary colors ------
+# - yale: Primary colors ------
 
 #' Primary colors of Yale University, USA 
 #'
-#' \code{yale_1} provides the ten primary colors
+#' \code{yale} provides the ten primary colors
 #' of the \href{https://www.yale.edu}{Yale University}, USA.
 #'
 #' Yale Blue is the university’s identifying color, and has the hex value #00356b. 
@@ -44,10 +45,10 @@
 #' \href{https://yaleidentity.yale.edu/colors}{Yale identity website}. 
 #'
 #' @examples
-#' yale_1
-#' unikn::seecol(yale_1, main = "Primary colors Yale University") # view color palette
+#' yale
+#' unikn::seecol(yale, main = "Primary colors Yale University") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -58,16 +59,16 @@
 #'
 #' @export
 
-yale_1 <- unikn::newpal(col = c("#00356b", "#286dc0", "#63aaff", 
-                                "#222222", "#4a4a4a", "#978d85", "#dddddd", "#f9f9f9", 
-                                "#5f712d", "#bd5319"),
-                           names = c("yale_blue", "yale_blue_shade1", "yale_blue_shade2", 
-                                     "yale_gray1", "yale_gray2", "yale_gray3", "yale_gray4", "yale_gray5", 
-                                     "yale_green_accent", "yale_orange_accent"),
-                           as_df = FALSE)
+yale <- unikn::newpal(col = c("#00356b", "#286dc0", "#63aaff", 
+                              "#222222", "#4a4a4a", "#978d85", "#dddddd", "#f9f9f9", 
+                              "#5f712d", "#bd5319"),
+                      names = c("yale_blue", "yale_blue_shade1", "yale_blue_shade2", 
+                                "yale_gray1", "yale_gray2", "yale_gray3", "yale_gray4", "yale_gray5", 
+                                "yale_green_accent", "yale_orange_accent"),
+                      as_df = FALSE)
 
 # # Check:
-# unikn::seecol(yale_1, main = "Primary colors Yale University", col_bg = "lightgrey")
+# unikn::seecol(yale, main = "Primary colors Yale University", col_bg = "lightgrey")
 
 
 
