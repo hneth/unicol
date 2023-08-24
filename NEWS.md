@@ -3,8 +3,9 @@
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
-<!-- Log of changes: --> 
+This version mostly improves consistency, simplicity, and fixes some bugs. 
 
+<!-- Log of changes: --> 
 
 Changes since last release: 
 
@@ -22,16 +23,17 @@ Changes since last release:
 
 ## Minor changes 
 
-- rename color palettes (e.g., removing redundant `_pal` parts)
+- rename palettes (for improve simplicity, reduce redundancy)
 
-- bug fixes (e.g., in documentation of color palettes)
-
+- classify palettes by country/region 
 
 <!-- Details:  --> 
 
 ## Details 
 
-- improve code (keywords and structure)
+- fix bugs (e.g., in documentation)
+
+- improve code structure 
 
 - add online documentation at <https://hneth.github.io/unicol/>
 
