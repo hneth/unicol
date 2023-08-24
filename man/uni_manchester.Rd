@@ -39,7 +39,7 @@ and not to be confused with \href{https://www.manchester.edu}{Manchester Univers
 }
 \examples{
 uni_manchester
-unikn::seecol(uni_manchester, main = "Colours of the University of Manchester, UK") # view color palette
+unikn::seecol(uni_manchester, main = "University of Manchester, UK") # view color palette
 
 }
 \seealso{
