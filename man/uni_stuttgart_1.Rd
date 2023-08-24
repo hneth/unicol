@@ -42,7 +42,7 @@ unikn::seecol(uni_stuttgart_1, main = "Primary colors Uni Stuttgart") # view col
 
 }
 \seealso{
-\code{\link{uni_stuttgart_2_print}} for Stuttgart's primary colors with alternative printing colors for more contrast;
+\code{\link{uni_stuttgart_print}} for Stuttgart's primary colors with alternative printing colors for more contrast;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -61,12 +61,8 @@ Other university color palettes:
 \code{\link{oxford_socialmedia}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
-\code{\link{uni_goettingen_1}},
-\code{\link{uni_goettingen_2}},
-\code{\link{uni_goettingen_3}},
-\code{\link{uni_heidelberg_1}},
-\code{\link{uni_manchester_1}},
-\code{\link{uni_stuttgart_2_print}},
+\code{\link{uni_manchester}},
+\code{\link{uni_stuttgart_print}},
 \code{\link{upenn_1}},
 \code{\link{upenn_2}},
 \code{\link{uwaterloo_arts}},
