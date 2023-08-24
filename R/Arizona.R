@@ -16,7 +16,7 @@
 
 # Colors: ------
 
-# Color palettes:
+# Color palette(s):
 
 
 # - asu_1: Primary colors of ASU ----

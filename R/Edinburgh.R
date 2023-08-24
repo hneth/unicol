@@ -1,6 +1,6 @@
-## edinburgh.R | 2023 06 20
-## colours of the University of Edinburgh, Scotland 
-## -----------------------------------------------
+## edinburgh.R | 2023 08 24
+## Colours of the University of Edinburgh, Scotland 
+## ------------------------------------------------
 
 # Information: ------
 
@@ -15,17 +15,19 @@
 # Last check: 2023-06-20
 
 
+# Colors: ------
+
 # Color palette(s):
 
 
-# - edinburgh_1: Primary colours ------
+# - edinburgh_1: Primary colours of the University of Edinburgh ------
 
 #' Primary colours of the University of Edinburgh, Scotland/UK 
 #'
 #' \code{edinburgh_1} provides the eleven primary colours 
 #' of the \href{https://www.ed.ac.uk}{University of Edinburgh}, Scotland.
 #'
-#' The eleven primary colours are
+#' The 11 primary colours are
 #' \code{"University Red"} (defined as Hex: D50032, RGB: 213, 0, 50),
 #' \code{"University Blue"} (defined as Hex: 041E42, RGB: 4, 30, 66), 
 #' \code{"Bright Blue"} (defined as Hex: 007288, RGB: 0, 114, 136),
@@ -52,8 +54,7 @@
 #'
 #' @examples
 #' edinburgh_1
-#' unikn::seecol(edinburgh_1, main = "University of Edinburgh") 
-#' # view color palette
+#' unikn::seecol(edinburgh_1, main = "Colors of the University of Edinburgh") # view color palette
 #'
 #' @family Scottish university color palettes
 #'
@@ -68,8 +69,8 @@
 
 edinburgh_1 <- unikn::newpal(col = c("#D50032", "#041E42", "#007288", "#D0006F", "#830065", "#A50034", 
                                      "#154734", "#487A7B", "#004F71", "#6D4F47", "#333F48"),
-                             names = c("UniversityRed", "UniversityBlue", "BrighBlue", "BrightPink", "Purple", "Burgundy", 
-                                       "DarkGreen", "Jade", "MutedBlue", "MutedBrown", "SpruceGrey"),
+                             names = c("University Red", "University Blue", "Brigh Blue", "Bright Pink", "Purple", "Burgundy", 
+                                       "Dark Green", "Jade", "Muted Blue", "Muted Brown", "Spruce Grey"),
                              as_df = FALSE)
 
 # # Check: 
