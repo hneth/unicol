@@ -1,10 +1,10 @@
-## Boston_University.R | 2023 08 10
+## Boston_University.R | 2023 08 24
 ## Colors of Boston University, USA 
 ## --------------------------------
 
 # Information: ------
 
-# cur_pals: "bu_1" (1)
+# cur_pals: "bu" (1)
 # inst: "Boston University"
 # country: USA
 # URL: "https://www.bu.edu"
@@ -19,18 +19,18 @@
 # Color palette(s):
 
 
-# - bu_1: Primary colors ------
+# - bu: Primary colors ------
 
 #' Primary colors of Boston University, USA 
 #'
-#' \code{bu_1} provides the two primary colors 
-#' of the \href{https://www.bu.edu}{Boston University}, USA. 
+#' \code{bu} provides the two primary colors 
+#' of \href{https://www.bu.edu}{Boston University}, USA. 
 #'
 #' BU's two primary colors are 
 #' \code{"BU red"} (defined as RGB 204 0 0, CMYK 0 100 75 4, HEX CC0000) and
 #' \code{"BU black"} (defined as RGB 45 41 38, CMYK 63 62 59 94, HEX 2D2926).
 #' 
-#' \code{bu_1} uses the HEX color definition. 
+#' \code{bu} uses the HEX color definition. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -43,8 +43,8 @@
 #' \href{https://www.bu.edu/brand/guidelines/design/colors/}{brand guidelines}. 
 #'
 #' @examples
-#' bu_1
-#' unikn::seecol(bu_1, main = "Primary colors of Boston University") # view color palette
+#' bu
+#' unikn::seecol(bu, main = "Primary colors of Boston University") # view color palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -57,12 +57,12 @@
 #'
 #' @export
 
-bu_1 <- unikn::newpal(col = c("#CC0000", "#2D2926"),
+bu <- unikn::newpal(col = c("#CC0000", "#2D2926"),
                       names = c("BU red", "BU black"),
                       as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(bu_1, main = "Primary colors of Boston University", col_bg = "white")
+# unikn::seecol(bu, main = "Primary colors of Boston University", col_bg = "white")
 
 
 
