@@ -32,6 +32,8 @@
 #' Primary color are
 #' \code{"ultra_violet"} (defined as CMYK Refer/to/note, RGB 137/0/225, HEX #8900E1) and
 #' \code{"black"} (defined as CMYK 0/0/0/100, RGB 0/0/0, HEX #000000).
+#' 
+#' \code{nyu_1} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -61,7 +63,7 @@
 #'
 #' @export
 
-nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
+nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "#000000"),
                        names = c("nyu_violet", "ultra_violet", "black"),
                        as_df = FALSE)
 
@@ -84,6 +86,8 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #' \code{"medium_violet2"} (defined as CMYK 60/75/0/0, RGB 123/90/166, HEX #7B5AA6),
 #' \code{"light_violet1"} (defined as CMYK 34/54/0/0, RGB 171/130/197, HEX #AB82C5), and
 #' \code{"light_violet2"} (defined as CMYK 5/9/0/0, RGB 238/230/243, HEX #EEE6F3).
+#'
+#' \code{nyu_2} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -113,7 +117,7 @@ nyu_1 <- unikn::newpal(col = c("#57068c", "#8900e1", "black"),
 #'
 #' @export
 
-nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee6f3"),
+nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7B5AA6", "#AB82C5", "#EEE6F3"),
                        names = c("deep_violet", "medium_violet1", "medium_violet2", "light_violet1", "light_violet2"),
                        as_df = FALSE)
 
@@ -132,10 +136,12 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #' Neutral color are
 #' \code{"dark_gray"} (defined as CMYK 68/61/60/47, RGB 64/64/64, HEX #404040),
 #' \code{"medium_gray1"} (defined as CMYK 58/49/49/16, RGB 109/109/109, HEX #6D6D6D),
-#' \code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #B8B8B8),
-#' \code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #D6D6D6),
+#' \code{"medium_gray2"} (defined as CMYK 28/22/23/0, RGB 184/184/184, HEX #b8b8b8),
+#' \code{"medium_gray3"} (defined as CMYK 15/11/12/0, RGB 214/214/214, HEX #d6d6d6),
 #' \code{"light_gray"} (defined as CMYK 4/2/2/0, RGB 242/242/242, HEX #F2F2F2), and
 #' \code{"white"} (defined as CMYK /0/0/0/0, RGB 255/255/255, HEX #FFFFFF).
+#' 
+#' \code{nyu_neutral} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -165,7 +171,7 @@ nyu_2 <- unikn::newpal(col = c("#330662", "#702b9d", "#7b5aa6", "#ab82c5", "#eee
 #'
 #' @export
 
-nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6", "#f2f2f2", "white"),
+nyu_neutral <- unikn::newpal(col = c("#404040", "#6D6D6D", "#b8b8b8", "#d6d6d6", "#F2F2F2", "#FFFFFF"),
                              names = c("dark_gray", "medium_gray1", "medium_gray2", "medium_gray3", "light_gray", "white"),
                              as_df = FALSE)
 
@@ -189,6 +195,8 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #' \code{"magenta"} (defined as CMYK 06/100/19/00, RGB 224/015/120, HEX #FB0F78),
 #' \code{"blue"} (defined as CMYK 62/13/11/00, RGB 89/178/21209, HEX #59B2D1), and
 #' \code{"yellow"} (defined as CMYK 07/00/81/00, RGB 244/236/081, HEX #F4EC51).
+#' 
+#' \code{nyu_accent} uses the HEX color definitions.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -218,7 +226,7 @@ nyu_neutral <- unikn::newpal(col = c("#404040", "#6d6d6d", "#b8b8b8", "#d6d6d6",
 #'
 #' @export
 
-nyu_accent <- unikn::newpal(col = c("#009b8a", "#fb0f78", "#59B2D1", "#f4ec51"),
+nyu_accent <- unikn::newpal(col = c("#009B8A", "#FB0F78", "#59B2D1", "#F4EC51"),
                             names = c("teal", "magenta", "blue", "yellow"),
                             as_df = FALSE)
 
