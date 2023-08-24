@@ -1,4 +1,4 @@
-## Guelph.R | 2023 07 12
+## Guelph.R | 2023 08 24
 ## Colors of the University of Guelph, Canada 
 ## ------------------------------------------
 
@@ -8,20 +8,25 @@
 # inst: "University of Guelph" (in English)
 # inst_alt: "University of Guelph"
 # country: Canada
-# URL: "https://www.uoguelph.ca/"
+# URL: "https://www.uoguelph.ca"
 
 # Color source:
 
-# URL: <https://news.uoguelph.ca/guides/brand-guide/colour-palette/>
+# color_URL: <https://news.uoguelph.ca/guides/brand-guide/colour-palette/>
 # Last check: 2023-07-12
 
 
-# - guelph: All colors ------
+# Colors: ------ 
+
+# Color palette(s):
+
+
+# - guelph: All colors of the University of Guelph ------
 
 #' Colors of the University of Guelph, Canada 
 #'
 #' \code{guelph} provides the two primary colors and the two secondary colors
-#' of the \href{https://www.uoguelph.ca/}{University of Guelph}, Canada.
+#' of the \href{https://www.uoguelph.ca}{University of Guelph}, Canada.
 #'
 #' The two primary colors are
 #' \code{"PMS_200"} (defined as RGB 194/4/48, HEX #C20430) and

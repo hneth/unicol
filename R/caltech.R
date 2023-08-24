@@ -1,4 +1,4 @@
-## Caltech.R | 2023 06 16
+## Caltech.R | 2023 08 24
 ## Colors of Caltech, CA, USA
 ## --------------------------
 
@@ -21,8 +21,9 @@
 # a primary color, a neutral palette, a deep palette, and a bright palette.
 
 
-
 # Colors: ------ 
+
+# Color definitions:
 
 # Primary Color
 #

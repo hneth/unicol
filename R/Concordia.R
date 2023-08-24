@@ -11,9 +11,11 @@
 # URL: "https://www.concordia.ca/"
 
 # Color source:
+# color_URL: <https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html>
+# Last check: ???
 
-# URL: <https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html>
 
+# Colors: ------ 
 
 # Color palette(s):
 
