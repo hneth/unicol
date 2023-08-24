@@ -1,14 +1,14 @@
-## university_of_Toronto.R | 2023 08 23
+## Toronto.R | 2023 08 24
 ## Colors of the University of Toronto, Canada
 ## -------------------------------------------
 
 # Information: ------
 
-# cur_pals: "toronto_1" (1)
+# cur_pals: "utoronto" (1)
 # inst: "University of Toronto" (in English)
 # inst_alt: "University of Toronto"
 # country: Canada
-# URL: "https://www.utoronto.ca/"
+# URL: "https://www.utoronto.ca"
 
 # Color source:
 
@@ -55,11 +55,11 @@ col_4 <- "#F2F4F7"
 # Color palette(s):
 
 
-# - toronto_1: palette of the university of Toronto  ------
+# - utoronto: palette of the university of Toronto  ------
 
 #' Colors of the University of Toronto, Canada 
 #'
-#' \code{toronto_1} provides the four colors of the University of Toronto
+#' \code{utoronto} provides the four colors of the University of Toronto
 #' of the \href{https://www.utoronto.ca/}{University of Toronto}, Canada.
 #'
 #' The four colors are
@@ -82,8 +82,8 @@ col_4 <- "#F2F4F7"
 #' \href{https://new.brand.utoronto.ca/principles-and-fundamentals/colour/}{U of T's Brand Portal}. 
 #'
 #' @examples
-#' toronto_1
-#' unikn::seecol(toronto_1, main = "University of Toronto") # view color palette
+#' utoronto
+#' unikn::seecol(utoronto, main = "University of Toronto") # view color palette
 #'
 #' @family Canadian university color palettes 
 #'
@@ -96,12 +96,12 @@ col_4 <- "#F2F4F7"
 #'
 #' @export
 
-toronto_1 <- unikn::newpal(col = c(col_1, col_2, col_3, col_4),
-                           names = c("u_of_t_blue", "boundless_blue", "black", "light_grey"),
-                           as_df = FALSE)
+utoronto <- unikn::newpal(col = c(col_1, col_2, col_3, col_4),
+                          names = c("u_of_t_blue", "boundless_blue", "black", "light_grey"),
+                          as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(toronto_1, main = "Primary colors of the University of Toronto", col_bg = "grey")
+# unikn::seecol(utoronto, main = "Primary colors of the University of Toronto", col_bg = "grey")
 
 
 
