@@ -10,17 +10,21 @@
 # country: UK
 # URL: "https://www.birmingham.ac.uk/index.aspx"
 
-# colour source:
+# Colour source:
 
 # PDF manual at
-# URL: <https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf>
+# color_URL: <https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf>
 # Last check: 2023-06-20
 
 
-# colour palette(s):
+# Colors: ------
+
+# Color palettes(s):
+
+# Colour palette(s):
 
 
-# - : All colours ------
+# - birmingham_1: All colours of the University of Birmingham ------
 
 #' Colours of the University of Birmingham, UK 
 #'
