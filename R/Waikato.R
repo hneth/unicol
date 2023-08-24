@@ -1,4 +1,4 @@
-## Waikato.R | 2023 07 24
+## Waikato.R | 2023 08 24
 ## Colors of the University of Waikato, New Zealand
 ## ------------------------------------------------
 
@@ -11,16 +11,21 @@
 
 
 # Color source:
-# URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
+# color_URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours
+# Last check: 2023-07-05 
 
 
-# Color palettes
 
-# - waikato_web: 8 official web colors ------
+# Colors: ------
+
+
+# Color palette(s):
+
+# - waikato_web: 8 official web colors of Waikato ------
 
 #' Colors of the University of Waikato, NZ 
 #'
-#' \code{waikato} provides the 8 official web colors 
+#' \code{waikato} provides the eight official web colors 
 #' of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
 #'
 #' The 8 official web colors are
@@ -42,14 +47,14 @@
 #' \strong{unicol}, 2023-07-05.
 #'
 #' @source
-#' Color definitions are based on 
-#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{Waikato's brand standards}.
+#' Color definitions are based on Waikato's 
+#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours}{brand standards}.
 #'
 #' @examples
 #' waikato
-#' unikn::seecol(waikato, main = "University of Waikato") # view color palettes
+#' unikn::seecol(waikato, main = "Colors of the University of Waikato") # view color palettes
 #'
-#' @family university color palettes
+#' @family New Zealand university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -74,6 +79,6 @@ waikato <- unikn::newpal(col = c("#D40100", "#BE0403", "#AA0000",
 
 ## ToDo:------
 
-#-etc.
+# -etc.
 
 ## eof.-------
