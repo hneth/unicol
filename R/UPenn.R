@@ -1,4 +1,4 @@
-## UPenn.R | 2023 06 16
+## UPenn.R | 2023 08 24
 ## Colors of UPenn, University of Pennsylvania, USA
 ## ------------------------------------------------
 
@@ -24,16 +24,20 @@
 # Color palette(s):
 
 
-# - upenn_1: Logo colors ------
+# - upenn_1: Logo colors of the University of Pennsylvania ------
 
 #' Logo colors of Penn, University of Pennsylvania, USA 
 #'
 #' \code{upenn_1} provides the two logo colors
 #' of the \href{https://www.upenn.edu/}{Penn, University of Pennsylvania}, USA.
 #'
+#' The 2 logo colors 
 #' \code{"penn_red"} (defined as RGB 153/0/0, HEX #990000) and 
-#' \code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B) are the traditional colors for the University of Pennsylvania.
+#' \code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B) 
+#' are the traditional colors for the University of Pennsylvania. 
 #' They are as important to the identification program as the logo forms and typography.
+#'
+#' \code{upenn_1} uses the HEX color definitions. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -47,9 +51,9 @@
 #'
 #' @examples
 #' upenn_1
-#' unikn::seecol(upenn_1, main = "Logo colors Pennsylvania Uni") # view color palette
+#' unikn::seecol(upenn_1, main = "Logo colors UPenn") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{upenn_2}} for web colors of University of Pennsylvania;
@@ -70,14 +74,14 @@ upenn_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 
 
 
-# - upenn_2: Web colors ------
+# - upenn_2: Web colors of the University of Pennsylvania ------
 
 #' Web colors of University of Pennsylvania, USA 
 #'
-#' \code{upenn_2} provides the 12 web colors
+#' \code{upenn_2} provides the twelve web colors
 #' of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.
 #'
-#' These web colors are 
+#' These 12 web colors are 
 #' \code{"penn_blue"} (defined as HEX #011F5B),
 #' \code{"penn_red"} (defined as HEX #990000),
 #' \code{"penn_blue2"} (defined as HEX #82AFD3),
@@ -88,8 +92,10 @@ upenn_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #' \code{"penn_grey1"} (defined as HEX #F2F2F2),
 #' \code{"penn_grey2"} (defined as HEX #F7F7F7),
 #' \code{"penn_grey3"} (defined as HEX #CCCCCC),
-#' \code{"penn_grey4"} (defined as HEX #999999) and
+#' \code{"penn_grey4"} (defined as HEX #999999), and
 #' \code{"penn_black"} (defined as HEX #333333).
+#' 
+#' \code{upenn_2} uses the HEX color definitions. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -103,9 +109,9 @@ upenn_1 <- unikn::newpal(col = c("#011F5B", "#990000"),
 #'
 #' @examples
 #' upenn_2
-#' unikn::seecol(upenn_2, main = "Web colors Pennsylvania Uni") # view color palette
+#' unikn::seecol(upenn_2, main = "Web colors of UPenn") # view color palette
 #'
-#' @family university color palettes
+#' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{upenn_1}} for logo colors of University of Pennsylvania;
