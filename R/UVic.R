@@ -1,4 +1,4 @@
-## UVic.R | 2023 08 21
+## UVic.R | 2023 08 24
 ## University of Victoria, Canada 
 ## ------------------------------
 
@@ -8,7 +8,12 @@
 # inst: "UVic"
 # inst_alt: "University of Victoria"
 # country: Canada
-# URL: "https://www.uvic.ca/"
+# URL: "https://www.uvic.ca"
+
+
+
+# Colors: ------
+
 
 # Colour source:
 
@@ -139,11 +144,6 @@ uvic_complementary <- unikn::newpal(col = c("#0171BC", "#F08415", "#00894C", "#0
 
 # # Check: 
 # unikn::seecol(uvic_complementary, main = "UVic complementary colours")
-
-
-
-
-
 
 
 ## ToDo: -------- 
