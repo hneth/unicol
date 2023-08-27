@@ -1,5 +1,5 @@
 
-# unicol 0.1.0.9003
+# unicol 0.1.0.9004
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
@@ -16,7 +16,8 @@ Changes since last release:
 
 - New color palettes: 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2`
-    - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon`  
+    - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
+    - [Willamette University](https://willamette.edu): `willamette` 
 
 
 <!-- Minor changes: --> 
