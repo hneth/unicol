@@ -98,7 +98,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               # Contributed color palettes: 
               "groningen_1", "groningen_2",
               "uni_lisbon",
-              "willamette"
+              "willamette",
+              "ohio_uni_1", "ohio_uni_2"
 )
 
 
@@ -197,7 +198,8 @@ inst <- c(rep("ETH Zurich", 3),
           # Contributed color palettes: 
           rep("University of Groningen", 2),
           "University of Lisbon",
-          "Willamette University"
+          "Willamette University",
+          rep("Ohio University", 2)
 )
 
 # Alternative name (e.g. in source language): 
@@ -291,7 +293,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               # Contributed color palettes: 
               rep("Rijksuniversiteit Groningen", 2),
               "Universidade de Lisboa",
-              "Willamette University"
+              "Willamette University",
+              rep("Ohio University", 2)
 )
 
 # Valid URL: 
@@ -385,7 +388,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          # Contributed color palettes: 
          rep("https://www.rug.nl", 2),
          "https://www.ulisboa.pt",
-         "https://willamette.edu"
+         "https://willamette.edu",
+         rep("https://www.ohio.edu", 2)
 )
 
 
@@ -393,7 +397,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 206 4  2023-08-27
+# dim(all_data)  # 208 4  2023-08-28
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -406,7 +410,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
 # length(all_data$pal)  # 202 color palettes (on 2023-08-04)
-# length(unique(all_data$inst)) # 86 institutions (2023-08-04)
+# length(unique(all_data$inst)) # 90 institutions (2023-08-28)
 
 
 
