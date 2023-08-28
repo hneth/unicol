@@ -104,6 +104,8 @@ Other U.S. university color palettes:
 \code{\link{nyu_1}},
 \code{\link{nyu_2}},
 \code{\link{nyu_accent}},
+\code{\link{ohio_uni_1}},
+\code{\link{ohio_uni_2}},
 \code{\link{pitt_1}},
 \code{\link{pitt_2}},
 \code{\link{princeton_0}},
