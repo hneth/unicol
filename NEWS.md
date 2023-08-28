@@ -1,5 +1,5 @@
 
-# unicol 0.1.0.9004
+# unicol 0.1.0.9005
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
@@ -15,6 +15,7 @@ Changes since last release:
 ## Major changes 
 
 - New color palettes: 
+    - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2`
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
     - [Willamette University](https://willamette.edu): `willamette` 
@@ -59,6 +60,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-27.] 
+[File `NEWS.md` updated on 2023-08-28.] 
 
 <!-- eof. -->
