@@ -59,7 +59,7 @@ OU_2 <- "#024230"
 # CMYK: 0, 0, 0, 0
 # HEX: #FFFFFF
 # RGB: 255, 255, 255
-
+# 
 # == "white"
 
 
@@ -127,8 +127,9 @@ OU_2 <- "#024230"
 # CMYK: 60, 50, 50, 100
 # HEX: #000000
 # RGB: 0, 0, 0
-
+# 
 # == "black"
+
 
 # Notes on <https://www.ohio.edu/ucm/ohio-brand/colors>
 #   
@@ -185,8 +186,9 @@ OU_2 <- "#024230"
 #' @examples
 #' ohio_uni_1
 #' unikn::seecol(ohio_uni_1, col_bg = "lightgray", 
-#'               main = "Primary colors of Ohio University") # view color palette
-#' unikn::demopal(ohio_uni_1, main = "Primary colors of Ohio University", type = 2) # demo color palette 
+#'               main = "Primary colors of Ohio University")  # view color palette
+#' unikn::demopal(ohio_uni_1, main = "Primary colors of Ohio University", 
+#'                type = 2, seed = 1)  # demo color palette 
 #' 
 #' @family U.S. university color palettes
 #'
