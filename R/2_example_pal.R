@@ -1,10 +1,8 @@
-## example_pal.R | 2023 08 24
+## example_pal.R | 2023 08 28
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
-
-# NOTE: This is a template file for defining new color palettes.
-
+# NOTE: This is an example / template for defining new color palettes.
 
 # Information: ------
 

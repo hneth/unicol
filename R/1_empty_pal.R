@@ -1,8 +1,8 @@
-## _.R | 2023 08 27
+## _.R | 2023 08 28
 ## Colors of Institution, Country
 ## ------------------------------
 
-# This file provides a code frame for existing color palettes.
+# This file provides a code frame for existing/old color palettes.
 
 # Information: ------
 
