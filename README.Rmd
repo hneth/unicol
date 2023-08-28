@@ -44,7 +44,6 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-
 # unicol `r packageVersion('unicol')` <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" /> 
 
 <!-- unicol pkg logo and link: -->
