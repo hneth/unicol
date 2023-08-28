@@ -37,7 +37,7 @@ creating scientific visualizations.
 
 Our primary goal is to make it simple to create beautiful visualizations
 that are in accordance with institutional regulations and style guides.
-Assuming that you have some R code for creating an image, the **unicol**
+Assuming that you have some R code for creating an image, **unicol**
 allows you to directly use the color palette of your institution.
 
 ## Installation
@@ -315,6 +315,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-08-27.\]
+\[File `README.Rmd` updated on 2023-08-28.\]
 
 <!-- eof. -->

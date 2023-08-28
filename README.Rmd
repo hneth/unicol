@@ -66,7 +66,7 @@ We collect and provide a diverse range of color palettes for creating scientific
 <!-- Goal / Objectives: -->
 
 Our primary goal is to make it simple to create beautiful visualizations that are in accordance with institutional regulations and style guides. 
-Assuming that you have some R\ code for creating an image, the **unicol** allows you to directly use the color palette of your institution. 
+Assuming that you have some R\ code for creating an image, **unicol** allows you to directly use the color palette of your institution. 
 
 
 ## Installation
