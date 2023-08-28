@@ -39,8 +39,9 @@ Black and white are accent colors that can be used sparingly across all color pa
 \examples{
 ohio_uni_1
 unikn::seecol(ohio_uni_1, col_bg = "lightgray", 
-              main = "Primary colors of Ohio University") # view color palette
-unikn::demopal(ohio_uni_1, main = "Primary colors of Ohio University", type = 2) # demo color palette 
+              main = "Primary colors of Ohio University")  # view color palette
+unikn::demopal(ohio_uni_1, main = "Primary colors of Ohio University", 
+               type = 2, seed = 1)  # demo color palette 
 
 }
 \seealso{
