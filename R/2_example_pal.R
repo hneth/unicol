@@ -1,8 +1,8 @@
-## example_pal.R | 2023 08 28
+## example_pal.R | 2023 08 30
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
-# NOTE: This is an example / template for defining new color palettes.
+
 
 # Information: ------
 
@@ -11,19 +11,16 @@
 # inst: "University of Example" (in English)
 # inst_alt: "Universit\u00E4t des Beispiels" (in source language)
 # inst_URL: <https://www.example.org> (URL of institution)
-# country: Balkonia
+# country: USA 
 
 # Color source:
 
-# color_URL: <https://www.example.org>
-# Page NR of HTML page/PDF manual at <https://www.example.org>
-# Last check: 2023-08-24
-
+# color_URL: Visual identity and brand guidelines at 
+# <https://example.org>
+# Last check: 2023-08-30
 
 # Author information:
-
-# Name(s:    N.N
-# Email(s):  n.n@example.org
+# unicol, 2023-08-30
 
 
 # Colors: ------
@@ -38,13 +35,9 @@ col_3 <- "#4C4C4C"  # "dark gray"
 col_4 <- "black"    # "too dark"
 # etc.
 
-
-
 # Color palette(s):
 
-
 # - example: Primary example pal ------
-
 
 #' Primary colors of the University of Example, Country
 #' 
@@ -63,7 +56,7 @@ col_4 <- "black"    # "too dark"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-08-24.
+#' \strong{unicol}, 2023-08-30.
 #'
 #' @source 
 #' Color definitions are based on the 
