@@ -139,6 +139,9 @@ Other U.S. university color palettes:
 \code{\link{vanderbilt_2}},
 \code{\link{vanderbilt_3}},
 \code{\link{willamette}},
+\code{\link{wm_1}},
+\code{\link{wm_2}},
+\code{\link{wm_3}},
 \code{\link{yale}},
 \code{\link{yeshiva}}
 }
