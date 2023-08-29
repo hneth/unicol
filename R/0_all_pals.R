@@ -1,4 +1,4 @@
-## all_pals.R | 2022 08 28
+## all_pals.R | 2022 08 29
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -99,7 +99,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "groningen_1", "groningen_2",
               "uni_lisbon",
               "willamette",
-              "ohio_uni_1", "ohio_uni_2"
+              "ohio_uni_1", "ohio_uni_2", 
+              "wm_1", "wm_2", "wm_3"
 )
 
 
@@ -199,7 +200,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Groningen", 2),
           "University of Lisbon",
           "Willamette University",
-          rep("Ohio University", 2)
+          rep("Ohio University", 2),
+          rep("William & Mary", 3)
 )
 
 # Alternative name (e.g. in source language): 
@@ -294,7 +296,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Rijksuniversiteit Groningen", 2),
               "Universidade de Lisboa",
               "Willamette University",
-              rep("Ohio University", 2)
+              rep("Ohio University", 2),
+              rep("W&M", 3)
 )
 
 # Valid URL: 
@@ -389,7 +392,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.rug.nl", 2),
          "https://www.ulisboa.pt",
          "https://willamette.edu",
-         rep("https://www.ohio.edu", 2)
+         rep("https://www.ohio.edu", 2),
+         rep("https://www.wm.edu", 3)
 )
 
 
@@ -397,7 +401,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 208 4  2023-08-28
+# dim(all_data)  # 211 4  2023-08-29
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -409,8 +413,8 @@ row.names(all_data) <- 1:nrow(all_data)
 # # Descriptive stats:
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(all_data$pal)  # 202 color palettes (on 2023-08-04)
-# length(unique(all_data$inst)) # 90 institutions (2023-08-28)
+# length(all_data$pal)  # 211 color palettes (on 2023-08-29)
+# length(unique(all_data$inst)) # 91 institutions (2023-08-29)
 
 
 
