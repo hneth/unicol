@@ -62,7 +62,7 @@ HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)
 #' 
 #' @examples
 #' hu_1
-#' # unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
+#' unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
 #' unikn::demopal(hu_1, type = 1, main = "Colors of Humboldt University Berlin")
 #'
 #' @family German university color palettes
@@ -175,10 +175,8 @@ hu_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
 
 
 
-
-
 ## ToDo: -----
 
-# -etc. ----
+# - Check updates in 2023 (at <https://www.hu-berlin.de/de/service/design/basiselemente/farbe>).
 
 ## eof. ----
