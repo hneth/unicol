@@ -1,4 +1,4 @@
-## HU_Berlin.R | 2023 08 25
+## HU_Berlin.R | 2023 08 30
 ## Colors of the HU Berlin / Humboldt University Berlin, Germany
 ## -------------------------------------------------------------
 
@@ -16,6 +16,102 @@
 
 
 # Colors: ------
+
+# NEW color definitions: 
+# source_URL: <https://www.hu-berlin.de/de/service/design/basiselemente/farbe>
+# Last check: 2023-08-30
+
+# Primärfarben
+# 
+# Die Hausfarbe der HU ist das charakteristische HU-Blau. Weitere Primärfarben sind HU-Digitalblau, das nur in digitalen Anwendungen genutzt werden kann sowie HU-Schwarz zur Nutzung in der grafischen Gestaltung von Flächen oder großer Typografie. Die Primärfarben sind unveränderbar und müssen in den angegebenen Farbwerten eingesetzt werden.
+# 
+# Die Primärfarben der HU sind:
+#   
+# Hausfarbe: HU-Blau
+# HU-Schwarz ist ein Schwarz mit hohem Blauanteil. 
+# 
+# Einsatz: bei der grafischen Gestaltung von Flächen oder großer Typografie
+# 
+# HU-Digitalblau darf nur in digitalen Medien verwendet werden 
+# (wie Websites, PPT-Präsentationen oder Screens) und nicht für Printprodukte, 
+# da die Farbe nicht in CMYK wiedergeben werden kann.
+# 
+# HU-Blau I
+# CMYK 100 62 0 46
+# RGB 0 55 108
+# HEX "#00376c"
+# 
+# HU-Digitalblau (nicht für Print):
+# CMYK – nicht geeignet für Print
+# RGB 0 0 255
+# HEX "#0000ff"
+# 
+# HU-Schwarz:
+# CMYK 70 30 30 90
+# RGB 10 10 25
+# HEX "#0a0a19"
+
+hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
+                      names = c("HU blau", "HU schwarz"), 
+                      as_df = FALSE)
+
+
+# Sekundärfarben
+# 
+# Die Sekundärfarben sind Varianten des HU-Blau, HU-Schwarz sowie Sandtöne zum Einsatz als Hintergrundfarben. 
+# Die Sekundärfarben sind unveränderbar und müssen in den angegebenen Farbwerten eingesetzt werden.
+# 
+# HU-Blau II
+# CMYK 100 60 0 20
+# RGB 0 76 144
+# HEX "#004c90"
+# 
+# HU-Blau III
+# CMYK 60 25 0 25
+# RGB 91 137 176
+# HEX "#5b89b0"
+# 
+# HU-Blau IV
+# CMYK 15 7 7 5
+# RGB 215 221 225
+# HEX "#d7dde1"
+# 
+# 
+# HU-Schwarz II
+# CMYK 50 41 31 28
+# RGB 116 116 126
+# HEX "#74747e"
+# 
+# HU-Schwarz III
+# CMYK 21 15 15 3
+# RGB 207 207 209
+# HEX "#cfcfd1"
+# 
+# 
+# Hintergrund I
+# CMYK 3 2 5 0
+# RGB 250 250 245
+# HEX "#fafaf5"
+# 
+# Hintergrund II
+# CMYK 7 5 9 0
+# RGB 240 240 235
+# HEX "#f0f0eb"
+# 
+# Hintergrund III
+# CMYK 12 8 12 0
+# RGB 230 230 225
+# HEX "#e6e6e1"
+
+hu_2 <- unikn::newpal(col = c("#004c90", "#5b89b0", "#d7dde1",
+                              "#74747e", "#cfcfd1", 
+                              "#fafaf5", "#f0f0eb", "#e6e6e1"),
+                      names = c("HU blau II", "HU blau III", "HU blau IV",
+                                "HU schwarz II", "HU schwarz III",
+                                "Hintergrund I", "Hintergrund II", "Hintergrund III"), 
+                      as_df = FALSE)
+
+
 
 # Color definitions (see below). 
 
