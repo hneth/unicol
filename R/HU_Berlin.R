@@ -1,30 +1,36 @@
-## HU_Berlin.R | 2023 08 30
+## HU_Berlin.R | 2023 08 31
 ## Colors of the HU Berlin / Humboldt University Berlin, Germany
 ## -------------------------------------------------------------
 
 # Information: ------
 
-# cur_pals: "hu_1", "hu_2" (2)
+# cur_pals: "hu_1", "hu_1_digital", "hu_2", 
+#           "hu_1_2022", "hu_2_2022" (5)
 
 # inst: "Humboldt University Berlin" 
 # country: Germany 
 # inst_URL: <https://www.hu-berlin.de>
 
-# Color source: HTML at  
+# NEW color definitions: 
+# source_URL: <https://www.hu-berlin.de/de/service/design/basiselemente/farbe>
+# Last check: 2023-08-31
+
+# OLDER color source: HTML at  
 # color_URL: <https://www.hu-berlin.de/de/service/design/basiselemente/farbe>
 # Last check: 2022-11-30
 
 
 # Colors: ------
 
-# NEW color definitions: 
-# source_URL: <https://www.hu-berlin.de/de/service/design/basiselemente/farbe>
-# Last check: 2023-08-30
+
 
 # Primärfarben
 # 
-# Die Hausfarbe der HU ist das charakteristische HU-Blau. Weitere Primärfarben sind HU-Digitalblau, das nur in digitalen Anwendungen genutzt werden kann sowie HU-Schwarz zur Nutzung in der grafischen Gestaltung von Flächen oder großer Typografie. Die Primärfarben sind unveränderbar und müssen in den angegebenen Farbwerten eingesetzt werden.
-# 
+# Die Hausfarbe der HU ist das charakteristische HU-Blau.
+# Weitere Primärfarben sind HU-Digitalblau, das nur in digitalen Anwendungen genutzt werden kann,
+# sowie HU-Schwarz zur Nutzung in der grafischen Gestaltung von Flächen oder großer Typografie.
+# Die Primärfarben sind unveränderbar und müssen in den angegebenen Farbwerten eingesetzt werden.
+
 # Die Primärfarben der HU sind:
 #   
 # Hausfarbe: HU-Blau
@@ -51,14 +57,13 @@
 # RGB 10 10 25
 # HEX "#0a0a19"
 
-hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
-                      names = c("HU blau", "HU schwarz"), 
-                      as_df = FALSE)
+
 
 
 # Sekundärfarben
 # 
 # Die Sekundärfarben sind Varianten des HU-Blau, HU-Schwarz sowie Sandtöne zum Einsatz als Hintergrundfarben. 
+# 
 # Die Sekundärfarben sind unveränderbar und müssen in den angegebenen Farbwerten eingesetzt werden.
 # 
 # HU-Blau II
@@ -103,19 +108,12 @@ hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
 # RGB 230 230 225
 # HEX "#e6e6e1"
 
-hu_2 <- unikn::newpal(col = c("#004c90", "#5b89b0", "#d7dde1",
-                              "#74747e", "#cfcfd1", 
-                              "#fafaf5", "#f0f0eb", "#e6e6e1"),
-                      names = c("HU blau II", "HU blau III", "HU blau IV",
-                                "HU schwarz II", "HU schwarz III",
-                                "Hintergrund I", "Hintergrund II", "Hintergrund III"), 
-                      as_df = FALSE)
 
 
 
-# Color definitions (see below). 
 
-# Color palette(s):
+
+# OLDER color definitions (in 2022):
 
 # Hausfarben der Humboldt-Universität
 #
@@ -132,52 +130,6 @@ HU_0 <- rgb(0, 55, 108, names = "HU blau", maxColorValue = 255)  # RGB of Panton
 HU_0_web <- rgb(0, 51, 102, names = "HU blau web", maxColorValue = 255)  
 
 # unikn::seecol(rev(shades_of(21, HU_0))[-1], main = "20 shades of HU blau")
-
-
-# - hu_1: Primary colors of the HU Berlin ---- 
-
-#' Primary colors of the Humboldt University (HU) Berlin, Germany 
-#'
-#' \code{hu_1} provides the three primary colors 
-#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
-#' 
-#' The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
-#' Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
-#' 
-#' See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
-#' 
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unicol}, 2022-11-30.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}. 
-#' 
-#' @examples
-#' hu_1
-#' unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
-#' unikn::demopal(hu_1, type = 1, main = "Colors of Humboldt University Berlin")
-#'
-#' @family German university color palettes
-#'
-#' @seealso 
-#' \code{\link{hu_2}} for secondary colors of the HU Berlin;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
-
-hu_1 <- unikn::newpal(col = c(HU_0, "white", "black"),
-                      names = c("HU blau", "weiss", "schwarz"), 
-                      as_df = FALSE)
-
-# unikn::seecol(hu_1, n = 3)
 
 
 # Farbklima
@@ -224,12 +176,228 @@ HU_4 <- rgb(209, 209, 194, names = "graugruen", maxColorValue = 255)
 HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 
 
-# - hu_2: Secondary colors of the HU Berlin ---- 
+# Color palette(s): 
+
+
+
+# - hu_1: Primary colors of the HU Berlin (updated in 2023) ------ 
+
+#' Primary colors of the Humboldt University (HU) Berlin, Germany 
+#'
+#' \code{hu_1} provides the two primary colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' updated in 2023.  
+#' 
+#' The 2 primary colors of HU Berlin are 
+#' \code{HU blau} (defined as CMYK 100 62 0 46, RGB 0 55 108, or HEX \code{"#00376c"}), and 
+#' \code{HU schwarz} (defined as CMYK 70 30 30 90, RGB 10 10 25, or HEX \code{"#0a0a19"}). 
+#' 
+#' An alternative blue color 
+#' \code{HU digitalblau} (NOT defined as CMYK, but as RGB 0 0 255 or HEX \code{"#0000ff"}) 
+#' is reserved for digital applications (e.g., online or slide presentations).
+#' 
+#' \code{hu_1} uses the HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2023-08-31.
+#' 
+#' @source 
+#' Color definitions are based on HU's 
+#' \href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide}. 
+#' 
+#' @examples
+#' hu_1
+#' unikn::seecol(hu_1, main = "Primary colors of the HU Berlin")  # view color palette
+#' unikn::demopal(hu_1, type = 1, main = "Primary colors of Humboldt University Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+#' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
+#' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
+                      names = c("HU blau", "HU schwarz"), 
+                      as_df = FALSE)
+
+
+
+# - hu_1_digital: Digital colors of the HU Berlin (updated in 2023) ------ 
+
+#' Digital colors of the Humboldt University (HU) Berlin, Germany 
+#'
+#' \code{hu_1_digital} provides the two digital colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' updated in 2023.  
+#' 
+#' The 2 primary colors of HU Berlin are 
+#' \code{HU blau} (defined as CMYK 100 62 0 46, RGB 0 55 108, or HEX \code{"#00376c"}), and 
+#' \code{HU schwarz} (defined as CMYK 70 30 30 90, RGB 10 10 25, or HEX \code{"#0a0a19"}). 
+#' 
+#' The alternative blue color 
+#' \code{HU digitalblau} (NOT defined as CMYK, but as RGB 0 0 255 or HEX \code{"#0000ff"}) 
+#' is reserved for digital applications (e.g., online or slide presentations).
+#' 
+#' \code{hu_1_digital} uses the HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2023-08-31.
+#' 
+#' @source 
+#' Color definitions are based on HU's 
+#' \href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide}. 
+#' 
+#' @examples
+#' hu_1_digital
+#' unikn::seecol(hu_1_digital, n = 5, main = "5 digital shades of HU Berlin")  # view color palette
+#' unikn::demopal(hu_1_digital, type = 1, 
+#'                main = "Digital colors of Humboldt University Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{hu_1}} for primary colors of the HU Berlin;
+#' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+#' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
+#' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+hu_1_digital <- unikn::newpal(col = c("#0000ff", "#0a0a19"),
+                              names = c("HU digitalblau", "HU schwarz"), 
+                              as_df = FALSE)
+
+
+# - hu_2: Secondary colors of the HU Berlin (updated in 2023) ------ 
 
 #' Secondary colors of the Humboldt University (HU) Berlin, Germany 
 #'
-#' \code{hu_2} provides the primary (blue) color with five corresponding colors 
-#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany. 
+#' \code{hu_2} provides the eight secondary colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' updated in 2023. 
+#' 
+#' The secondary colors provide 5 variants of the primary colors of \code{\link{hu_1}} 
+#' and 3 background colors. 
+#' See \code{hu_2} and HU's 
+#' \href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide}. 
+#' for definitions and details. 
+#' 
+#' \code{hu_2} uses the HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2023-08-31.
+#' 
+#' @source 
+#' Color definitions are based on HU's 
+#' \href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide}. 
+#' 
+#' @examples
+#' hu_2
+#' unikn::seecol(hu_2, main = "Secondary colors of HU Berlin")  # view color palette
+#' unikn::demopal(hu_2, type = 1, main = "Secondary colors of Humboldt University Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{hu_1}} for primary colors of the HU Berlin; 
+#' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
+#' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+hu_2 <- unikn::newpal(col = c("#004c90", "#5b89b0", "#d7dde1",
+                              "#74747e", "#cfcfd1", 
+                              "#fafaf5", "#f0f0eb", "#e6e6e1"),
+                      names = c("HU blau II", "HU blau III", "HU blau IV",
+                                "HU schwarz II", "HU schwarz III",
+                                "Hintergrund I", "Hintergrund II", "Hintergrund III"), 
+                      as_df = FALSE)
+
+
+
+# - hu_1_2022: Primary colors of the HU Berlin (2022) ------ 
+
+#' Primary colors of the Humboldt University (HU) Berlin, Germany (2022) 
+#'
+#' \code{hu_1_2022} provides the three primary colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' up to 2022.  
+#' 
+#' The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
+#' Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
+#' 
+#' See the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' of the \strong{unikn} package for creating color gradients.
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2022-11-30.
+#' 
+#' @source 
+#' Color definitions are based on 
+#' \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}. 
+#' 
+#' @examples
+#' hu_1_2022
+#' unikn::seecol(hu_1_2022, n = 5, main = "5 shades of HU Berlin")  # view color palette
+#' unikn::demopal(hu_1_2022, type = 1, main = "Colors of Humboldt University Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+hu_1_2022 <- unikn::newpal(col = c(HU_0, "white", "black"),
+                           names = c("HU blau", "weiss", "schwarz"), 
+                           as_df = FALSE)
+
+# unikn::seecol(hu_1_2022, n = 3)
+
+
+
+# - hu_2_2022: Secondary colors of the HU Berlin (2022) ------ 
+
+#' Secondary colors of the Humboldt University (HU) Berlin, Germany, 2022 
+#'
+#' \code{hu_2_2022} provides the primary (blue) color with five corresponding colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' up to 2022. 
 #' 
 #' The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
 #' Other approximations include CMYK 100/60/0/20, RGB 0/51/102 (reduced web scale), and RAL 270 3040.
@@ -247,14 +415,14 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' \url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}. 
 #' 
 #' @examples
-#' hu_2
-#' unikn::seecol(hu_2, main = "The colors of HU Berlin")  # view color palette
-#' unikn::demopal(hu_2, type = 3, main = "Colors of Humboldt University Berlin")
+#' hu_2_2022
+#' unikn::seecol(hu_2_2022, main = "The colors of HU Berlin")  # view color palette
+#' unikn::demopal(hu_2_2022, type = 3, main = "Colors of Humboldt University Berlin")
 #'
 #' @family German university color palettes
 #'
 #' @seealso 
-#' \code{\link{hu_1}} for primary colors of the HU Berlin;  
+#' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022);  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -263,11 +431,11 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' 
 #' @export
 
-hu_2 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
-                      names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
-                      as_df = FALSE)
+hu_2_2022 <- unikn::newpal(col = c(HU_0, HU_1, HU_2, HU_3, HU_4, HU_5),
+                           names = paste0("HU ", c("blau", "rot", "gruen", "sand", "graugruen", "blaugrau")), 
+                           as_df = FALSE)
 
-# unikn::seecol(hu_2)
+# unikn::seecol(hu_2_2022)
 
 
 
