@@ -51,6 +51,7 @@ Other German university color palettes:
 \code{\link{hu_1}},
 \code{\link{hu_2_2022}},
 \code{\link{hu_2}},
+\code{\link{hu_3_accent}},
 \code{\link{lmu_1}},
 \code{\link{lmu_2}},
 \code{\link{rptu}},

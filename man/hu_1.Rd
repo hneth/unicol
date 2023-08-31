@@ -40,7 +40,9 @@ unikn::demopal(hu_1, type = 1, main = "Primary colors of Humboldt University Ber
 
 }
 \seealso{
+\code{\link{hu_1_digital}} for digital colors of the HU Berlin; 
 \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+\code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -58,6 +60,7 @@ Other German university color palettes:
 \code{\link{hu_1_digital}},
 \code{\link{hu_2_2022}},
 \code{\link{hu_2}},
+\code{\link{hu_3_accent}},
 \code{\link{lmu_1}},
 \code{\link{lmu_2}},
 \code{\link{lmu_3}},

@@ -5,7 +5,7 @@
 \alias{unicol_data}
 \title{The color palettes of the \strong{unicol} package}
 \format{
-An object of class \code{data.frame} with 214 rows and 4 columns.
+An object of class \code{data.frame} with 215 rows and 4 columns.
 }
 \usage{
 unicol_data

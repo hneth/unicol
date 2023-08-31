@@ -29,7 +29,8 @@ The 2 primary colors of HU Berlin are
 
 The alternative blue color 
 \code{HU digitalblau} (NOT defined as CMYK, but as RGB 0 0 255 or HEX \code{"#0000ff"}) 
-is reserved for digital applications (e.g., online or slide presentations).
+is reserved for digital applications (e.g., online or slide presentations) 
+and is combined here with plain \code{"black"} (\code{"schwarz"} or HEX \code{"#000000"}).
 
 \code{hu_1_digital} uses the HEX color definitions.
 }
@@ -43,6 +44,7 @@ unikn::demopal(hu_1_digital, type = 1,
 \seealso{
 \code{\link{hu_1}} for primary colors of the HU Berlin;
 \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+\code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -60,6 +62,7 @@ Other German university color palettes:
 \code{\link{hu_1}},
 \code{\link{hu_2_2022}},
 \code{\link{hu_2}},
+\code{\link{hu_3_accent}},
 \code{\link{lmu_1}},
 \code{\link{lmu_2}},
 \code{\link{lmu_3}},
