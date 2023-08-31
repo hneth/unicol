@@ -109,8 +109,50 @@
 # HEX "#e6e6e1"
 
 
-
-
+# Mögliche Akzentfarben
+# 
+# Source: Corporate Design Manual (p. 21)
+# 
+# Akzentfarben können – sparsam und spezifisch eingesetzt – die Primär- und Sekundärfarben
+# der HU ergänzen. 
+# Akzentfarben umfassen das gesamte Spektrum kräftiger, fröhlicher Farben.
+# Es gibt Ausnahmen, die unter „nicht erlaubte Farben“ beschrieben werden.
+# 
+# CMYK 0 100 0 0
+# HEX e5007c
+# RGB 229 0 125
+# 
+# CMYK 0 100 75 0
+# HEX e30031
+# RGB 228 0 49
+# 
+# CMYK 0 83 100 0
+# HEX e74306
+# RGB 231 68 6
+# 
+# CMYK 0 15 100 0
+# HEX ffd400
+# RGB 255 212 0
+# 
+# CMYK 80 0 100 10
+# HEX 059931
+# RGB 6 154 50
+# 
+# CMYK 60 0 30 50
+# HEX 3a7775
+# RGB 58 119 117
+# 
+# CMYK 100 0 0 0
+# HEX 009ee3
+# RGB 0 158 227
+# 
+# CMYK 60 100 20 0
+# HEX 821f71
+# RGB 130 32 113
+# 
+# CMYK 60 60 20 0
+# HEX 7c6c98
+# RGB 125 109 153
 
 
 # OLDER color definitions (in 2022):
@@ -216,7 +258,9 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' @family German university color palettes
 #'
 #' @seealso 
+#' \code{\link{hu_1_digital}} for digital colors of the HU Berlin; 
 #' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+#' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -247,7 +291,8 @@ hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
 #' 
 #' The alternative blue color 
 #' \code{HU digitalblau} (NOT defined as CMYK, but as RGB 0 0 255 or HEX \code{"#0000ff"}) 
-#' is reserved for digital applications (e.g., online or slide presentations).
+#' is reserved for digital applications (e.g., online or slide presentations) 
+#' and is combined here with plain \code{"black"} (\code{"schwarz"} or HEX \code{"#000000"}).
 #' 
 #' \code{hu_1_digital} uses the HEX color definitions.
 #' 
@@ -272,6 +317,7 @@ hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
 #' @seealso 
 #' \code{\link{hu_1}} for primary colors of the HU Berlin;
 #' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+#' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -282,8 +328,8 @@ hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
 #' 
 #' @export
 
-hu_1_digital <- unikn::newpal(col = c("#0000ff", "#0a0a19"),
-                              names = c("HU digitalblau", "HU schwarz"), 
+hu_1_digital <- unikn::newpal(col = c("#0000ff", "#000000"),
+                              names = c("HU digitalblau", "schwarz"), 
                               as_df = FALSE)
 
 
@@ -322,6 +368,8 @@ hu_1_digital <- unikn::newpal(col = c("#0000ff", "#0a0a19"),
 #'
 #' @seealso 
 #' \code{\link{hu_1}} for primary colors of the HU Berlin; 
+#' \code{\link{hu_1_digital}} for digital colors of the HU Berlin;  
+#' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin; 
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
@@ -340,6 +388,63 @@ hu_2 <- unikn::newpal(col = c("#004c90", "#5b89b0", "#d7dde1",
                                 "Hintergrund I", "Hintergrund II", "Hintergrund III"), 
                       as_df = FALSE)
 
+
+# - hu_3_accent: Possible accent colors of the HU Berlin (updated in 2023) ------
+
+#' Possible accent colors of the Humboldt University (HU) Berlin, Germany 
+#'
+#' \code{hu_3_accent} provides nine possible accent colors 
+#' of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+#' updated in 2023. 
+#' 
+#' Accent colors are meant to be bright and friendly and can 
+#' -- provided that they are used sparingly and specifically -- 
+#' complement the primary and secondary colors. 
+#' 
+#' Note that the HU corporate design manual prohibits the use of 
+#' earthy, swampy, and pastel colors, and the colors of other Berlin institutions. 
+#' 
+#' \code{hu_3_accent} uses HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2023-08-31.
+#' 
+#' @source 
+#' Color definitions are based on HU's 
+#' \href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide} 
+#' (see p. 21 of the PDF manual). 
+#' 
+#' @examples
+#' hu_3_accent
+#' unikn::seecol(hu_3_accent, main = "Accent colors of HU Berlin")  # view color palette
+#' unikn::demopal(hu_3_accent, type = 1, main = "Accent colors of Humboldt University Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{hu_1}} for primary colors of the HU Berlin; 
+#' \code{\link{hu_1_digital}} for digital colors of the HU Berlin;  
+#' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
+#' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
+#' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+hu_3_accent <- unikn::newpal(col = c("#e5007c", "#e30031", "#e74306", 
+                                     "#ffd400", "#059931", "#3a7775", 
+                                     "#009ee3", "#821f71", "#7c6c98"),
+                             names = c("HU accent 1", "HU accent 2", "HU accent 3", 
+                                       "HU accent 4", "HU accent 5", "HU accent 6", 
+                                       "HU accent 7", "HU accent 8", "HU accent 9"), 
+                             as_df = FALSE)
 
 
 # - hu_1_2022: Primary colors of the HU Berlin (2022) ------ 

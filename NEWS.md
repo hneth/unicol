@@ -21,7 +21,7 @@ Changes since last release:
     - [Willamette University](https://willamette.edu): `willamette` 
 
 - Updated color palettes: 
-    - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
+    - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
 
 
 <!-- Minor changes: --> 
