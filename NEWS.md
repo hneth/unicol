@@ -1,5 +1,5 @@
 
-# unicol 0.1.0.9005
+# unicol 0.1.0.9007
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
@@ -20,6 +20,9 @@ Changes since last release:
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
     - [Willamette University](https://willamette.edu): `willamette` 
 
+- Updated color palettes: 
+    - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
+
 
 <!-- Minor changes: --> 
 
@@ -29,17 +32,14 @@ Changes since last release:
 
 - classify palettes by country/region 
 
+
 <!-- Details:  --> 
 
 ## Details 
 
-- fix bugs (e.g., in documentation)
+- fixed bugs and re-structured code
 
-- improve code structure 
-
-- add online documentation at <https://hneth.github.io/unicol/>
-
-- update DESCRIPTION and CITATION, and README after CRAN release
+- updated meta-data and online documentation
 
 
 <!-- Development version:  --> 
@@ -60,6 +60,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-28.] 
+[File `NEWS.md` updated on 2023-08-31.] 
 
 <!-- eof. -->
