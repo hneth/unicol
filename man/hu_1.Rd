@@ -5,11 +5,11 @@
 \alias{hu_1}
 \title{Primary colors of the Humboldt University (HU) Berlin, Germany}
 \format{
-An object of class \code{character} of length 3.
+An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on 
-\url{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}.
+Color definitions are based on HU's 
+\href{https://www.hu-berlin.de/de/service/design/basiselemente/farbe}{Corporate Design guide}.
 }
 \usage{
 hu_1
@@ -18,23 +18,31 @@ hu_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{hu_1} provides the three primary colors 
-of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany.
+\code{hu_1} provides the two primary colors 
+of the \href{https://www.hu-berlin.de/en}{Humboldt University Berlin}, Germany, 
+updated in 2023.
 }
 \details{
-The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
-Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
+The 2 primary colors of HU Berlin are 
+\code{HU blau} (defined as CMYK 100 62 0 46, RGB 0 55 108, or HEX \code{"#00376c"}), and 
+\code{HU schwarz} (defined as CMYK 70 30 30 90, RGB 10 10 25, or HEX \code{"#0a0a19"}). 
 
-See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+An alternative blue color 
+\code{HU digitalblau} (NOT defined as CMYK, but as RGB 0 0 255 or HEX \code{"#0000ff"}) 
+is reserved for digital applications (e.g., online or slide presentations).
+
+\code{hu_1} uses the HEX color definitions.
 }
 \examples{
 hu_1
-# unikn::seecol(hu_1, n = 5, main = "5 shades of HU Berlin")  # view color palette
-unikn::demopal(hu_1, type = 1, main = "Colors of Humboldt University Berlin")
+unikn::seecol(hu_1, main = "Primary colors of the HU Berlin")  # view color palette
+unikn::demopal(hu_1, type = 1, main = "Primary colors of Humboldt University Berlin")
 
 }
 \seealso{
-\code{\link{hu_2}} for secondary colors of the HU Berlin;  
+\code{\link{hu_2}} for secondary colors of the HU Berlin; 
+\code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
+\code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
 \code{\link{seecol}} for viewing and comparing color palettes; 
 \code{\link{usecol}} for using color palettes; 
 \code{\link{simcol}} for finding similar colors; 
@@ -46,6 +54,9 @@ Other German university color palettes:
 \code{\link{fu_1}},
 \code{\link{fu_2}},
 \code{\link{fu_3}},
+\code{\link{hu_1_2022}},
+\code{\link{hu_1_digital}},
+\code{\link{hu_2_2022}},
 \code{\link{hu_2}},
 \code{\link{lmu_1}},
 \code{\link{lmu_2}},
@@ -87,7 +98,7 @@ Other German university color palettes:
 \code{\link{uni_ulm_2}}
 }
 \author{
-\strong{unicol}, 2022-11-30.
+\strong{unicol}, 2023-08-31.
 }
 \concept{German university color palettes}
 \keyword{datasets}
