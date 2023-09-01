@@ -1,4 +1,4 @@
-## all_pals.R | 2022 08 31
+## all_pals.R | 2022 09 01
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -396,6 +396,10 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.wm.edu", 3)
 )
 
+# 
+
+
+
 
 # Collect all_data (as data frame): ------
 
@@ -410,16 +414,40 @@ all_data <- all_data[order(all_data$inst, all_data$pal), ]
 row.names(all_data) <- 1:nrow(all_data)
 
 
-# # Descriptive stats:
+# # Getting pal from pal names: ---- 
+
+# # eval(str2expression(all_data$pal[1]))
+# # eval(str2lang(all_data$pal[1]))
+# 
+# all_pals <- all_data$pal
+# 
+# # Number of colors (from pal names):
+# 
+# # Evaluating an object by its name:
+# # length(eval(str2expression(all_pals[1])))
+# # length(eval(str2lang(all_pals[1])))
+# 
+# # Number of pals and colors:
+# n_pals <- length(all_pals)
+# n_cols <- rep(NA, n_pals)
+# 
+# for (i in 1:n_pals){
+#   n_cols[i] <- length(eval(str2expression(all_pals[i])))
+# }
+# # n_cols
+# 
+# # +++ here now +++
+
+
+# # Descriptive stats: ----
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(all_data$pal)  # 215 color palettes (on 2023-08-31)
-# length(unique(all_data$inst)) # 91 institutions (2023-08-31)
-
+# length(all_data$pal)          #  215 color palettes (on 2023-09-01)
+# length(unique(all_data$inst)) #   91 institutions (2023-09-01)
+# sum(n_cols)                   # 1369 colors (2023-09-01)
 
 
 # Export as unicol_data (as data frame): ------
-
 
 #' The color palettes of the \strong{unicol} package
 #' 
