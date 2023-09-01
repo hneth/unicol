@@ -140,6 +140,21 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 # Parameters:
 N <- length(unicol_data$pal)
 n <- 50 # N
+
+
+# # Number of colors (from pal names):
+
+# all_pals <- unicol_data$pal
+# 
+# # Number of pals and colors:
+# n_pals <- length(all_pals)
+# n_cols <- rep(NA, n_pals)
+# 
+# for (i in 1:n_pals){
+#   n_cols[i] <- length(eval(str2expression(all_pals[i])))
+# }
+# 
+# # n_cols
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
