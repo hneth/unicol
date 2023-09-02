@@ -48,7 +48,7 @@ Other Scottish university color palettes:
 \code{\link{dundee_block}},
 \code{\link{dundee_core}},
 \code{\link{dundee_highlight}},
-\code{\link{edinburgh_1}},
+\code{\link{edinburgh}},
 \code{\link{standrews_2}}
 }
 \author{
