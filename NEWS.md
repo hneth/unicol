@@ -1,5 +1,5 @@
 
-# unicol 0.1.0.9007
+# unicol 0.1.0.9008
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
@@ -28,7 +28,7 @@ Changes since last release:
 
 ## Minor changes 
 
-- rename palettes (for improve simplicity, reduce redundancy)
+- rename many color palettes (to improve simplicity, reduce redundancy)
 
 - classify palettes by country/region 
 
@@ -60,6 +60,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-08-31.] 
+[File `NEWS.md` updated on 2023-09-02.] 
 
 <!-- eof. -->
