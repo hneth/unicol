@@ -31,16 +31,19 @@
 #' \code{monash_1} provides the six primary colors
 #' of \href{https://www.monash.edu/}{Monash University}, USA.
 #'
-#' The primary color palette is preferred. 
-#' The use of grays (tints of black) are welcomed.
-#' Primary colors are
+#' The 6 primary colors are
 #' \code{"white"} (defined as HEX #FFFFFF),
-#' \code{"monash_blue"} (defined as HEX #006DAE),
+#' \code{"Monash blue"} (defined as HEX #006DAE),
 #' \code{"black"} (defined as HEX #000000),
-#' \code{"dark_grey"} (defined as HEX #3c3c3c),
+#' \code{"dark grey"} (defined as HEX #3c3c3c),
 #' \code{"grey"} (defined as HEX #505050), and
-#' \code{"light_grey"} (defined as HEX #F6F6F6).
-#'
+#' \code{"light grey"} (defined as HEX #F6F6F6).
+#' 
+#' \code{monash_1} uses HEX color definitions. 
+#' 
+#' The primary color palette is preferred; 
+#' the use of grays (tints of black) is welcome.
+#' 
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -69,8 +72,8 @@
 
 monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE", 
                                   "#000000", "#3c3c3c", "#505050", "#F6F6F6"),
-                          names = c("white", "monash_blue", 
-                                    "black", "dark_grey", "grey", "light_grey"),
+                          names = c("white", "Monash blue", 
+                                    "black", "dark grey", "grey", "light grey"),
                           as_df = FALSE)
 
 # # Check:
@@ -85,10 +88,7 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
 #' \code{monash_2} provides the nine secondary colors
 #' of \href{https://www.monash.edu/}{Monash University}, USA.
 #'
-#' In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
-#' the secondary colors have been approved for online use with white text overlay.
-#' 
-#' Secondary colors are 
+#' The 9 secondary colors are 
 #' \code{"blue"} (defined as HEX #00739d),
 #' \code{"purple"} (defined as HEX #6f64a9),
 #' \code{"fuchsia"} (defined as HEX #c90095),
@@ -98,6 +98,11 @@ monash_1 <- unikn::newpal(col = c("#FFFFFF", "#006DAE",
 #' \code{"umber"} (defined as HEX #795548),
 #' \code{"olive"} (defined as HEX #616d3a), and
 #' \code{"green"} (defined as HEX #006f29).
+#' 
+#' \code{monash_2} uses HEX color definitions. 
+#'
+#' In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
+#' the secondary colors have been approved for online use with white text overlay.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -135,5 +140,8 @@ monash_2 <- unikn::newpal(col = c("#00739d", "#6f64a9", "#c90095", "#c800d9", "#
 # unikn::seecol(monash_2, main = "Accent colors Monash University", col_bg = "lightgrey")
 
 
+# ToDo:-----
 
-## eof. ----------
+# -etc.
+
+### eof. -------
