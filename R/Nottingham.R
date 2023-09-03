@@ -52,6 +52,17 @@
 #   05%: "#F3F4F5"
 
 
+# University of Nottingham (Primary): ---- 
+
+color_nottingham_1 <- c("#10263B", 
+                        "#405162", "#707D89", "#9FA8B1", "#CFD4D8", "#F3F4F5")
+names_nottingham_1 <- c("Nottingham blue", 
+                        "Nottingham blue 80", "Nottingham blue 60", "Nottingham blue 40", "Nottingham blue 20", "Nottingham blue 5")
+
+# nottingham_1 <- unikn::newpal(color_nottingham_1, names_nottingham_1, as_df = FALSE)
+# unikn::seecol(nottingham_1, main = "University of Nottingham 1")
+
+
 # # 2: 
 # Supporting palette
 #    
@@ -80,58 +91,35 @@
 # RGB: R185, G28, B46   RGB: R249, G129, B9   RGB: R222, G180, B6
 # HEX: "#B91C2E"        HEX: "#F98109"        HEX: "#DEB406"
 # 
-# 
 # Jubilee Red	Tints:
-#   
 #   80%: #C74958
 #   60%: #D57782
 #   40%: #E3A4AB
 #   20%: #F1D2D5
 #   05%: #FCF4F5
-
+# 
+#   Mandarin Orange Tints:
+#   80%: #FA9A3A
+#   60%: #FBB36B
+#   40%: #FDCD9D
+#   20%: #FEE6CE
+#   05%: #FFF9F3
+#   
+#   Rebel’s Gold Tints:
+#   80%: #E5C338
+#   60%: #EBD26A
+#   40% :#F2E19B
+#   20%: #F8F0CD
+#   05%: #FDFBF3
+# 
+# Pioneering Pink 	   Civic Purple	         Forest Green
+# CMYK: 9, 91, 31, 0   CMYK: 65, 94, 2, 0    CMYK: 91, 35, 90, 31 
+# RGB: R215, G51, B108 RGB: R121, G45, B133  RGB: R0, G95, B54 
+# HEX: #D7336C         HEX: #792D85          HEX: #005F36 
 # 
 # +++ here now +++ 
-#   
-#   
-#   Tints:
-#   
-#   80%: #FA9A3A
-#   
-#   60%: #FBB36B
-#   
-#   40%: #FDCD9D
-#   
-#   20%: #FEE6CE
-#   
-#   5%: #FFF9F3
-#   
-#   
-#   Tints:
-#   
-#   80%: #E5C338
-#   
-#   60%: #EBD26A
-#   
-#   40% :#F2E19B
-#   
-#   20%: #F8F0CD
-#   
-#   5%: #FDFBF3
 # 
-# 
-# Pioneering Pink 	  Civic Purple	      Forest Green
-# 
-# CMYK: 9, 91, 31, 0  CMYK: 65, 94, 2, 0  CMYK: 91, 35, 90, 31
-# 
-# RGB: R215, G51, B108
-# RGB: R121, G45, B133
-# RGB: R0, G95, B54
-# 
-# HEX: #D7336C
-# HEX: #792D85
-# HEX: #005F36
-#   
-#   Tints:
+#   Pioneering Pink Tints:
 #   
 #   80%: #DF5C89
 #   
@@ -261,6 +249,26 @@
 # Color palette(s):
 
 
+
+# University of Nottingham (Supporting Colors)
+color_nottingham_2 <- c("#B91C2E", "#C74958", "#D57782", "#E3A4AB", "#F1D2D5", "#FCF4F5", 
+                        "#F98109", "#FA9A3A", "#FBB36B", "#FDCD9D", "#FEE6CE", "#FFF9F3", 
+                        "#DEB406", "#E5C338", "#EBD26A", "#F2E19B", "#F8F0CD", "#FDFBF3", 
+                        "#D7336C", "#DF5C89", "#E785A7", "#EFADC4", "#F7D6E2", "#FDF5F8", 
+                        "#792D85", "#94579D", "#AF81B6", "#C9ABCE", "#E4D5E7", "#F8F5F9", 
+                        "#005F36", "#337F5E", "#669F86", "#99BFAF", "#CCDFD7", "#F2F7F5", 
+                        "#93D500", "#A9DD33", "#BEE666", "#D4EE99", "#E9F7CC", "#FAFDF2", 
+                        "#37B4B0", "#5FC3C0", "#87D2D0", "#AFE1DF", "#D7F0EF", "#F5FBFB", 
+                        "#009BC1", "#33AFCD", "#66C3DA", "#99D7E6", "#CCEBF3", "#F2FAFC")
+names_nottingham_2 <- c("Jubilee_Red_100", "Jubilee_Red_80", "Jubilee_Red_60", "Jubilee_Red_40", "Jubilee_Red_20", "Jubilee_Red_5", "Mandarin_Orange_100", "Mandarin_Orange_80", "Mandarin_Orange_60", "Mandarin_Orange_40", "Mandarin_Orange_20", "Mandarin_Orange_5", "Rebels_Gold_100", "Rebels_Gold_80", "Rebels_Gold_60", "Rebels_Gold_40",  "Rebels_Gold_20", "Rebels_Gold_5", "Pionieering_Pink_100", "Pionieering_Pink_80", "Pionieering_Pink_60", "Pionieering_Pink_40", "Pionieering_Pink_20", "Pionieering_Pink_5", "Civic_Purple_100", "Civic_Purple_80", "Civic_Purple_60", "Civic_Purple_40", "Civic_Purple_20", "Civic_Purple_5", "Forest_Green_100", "Forest_Green_80", "Forest_Green_60", "Forest_Green_40", "Forest_Green_20", "Forest_Green_5", "Bramely_Apple_100", "Bramely_Apple_80", "Bramely_Apple_60", "Bramely_Apple_40", "Bramely_Apple_20", "Bramely_Apple_5", "Trent_Turqouise_100", "Trent_Turqouise_80", "Trent_Turqouise_60", "Trent_Turqouise_40", "Trent_Turqouise_20", "Trent_Turqouise_5", "Malaysia_Sky_Blue_100", "Malaysia_Sky_Blue_80", "Malaysia_Sky_Blue_60", "Malaysia_Sky_Blue_40", "Malaysia_Sky_Blue_20", "Malaysia_Sky_Blue_5")
+pal_nottingham_2 <- newpal(color_nottingham_2, names_nottingham_2)
+seecol(pal_nottingham_2, main = "University of Nottingham Supporting Colors")
+
+# University of Nottingham (Neutral Palette)
+color_nottingham_3 <- c("#FAF6EF", "#FDFBF9", "#FFFFFF")
+names_nottingham_3 <- c("Portland_Stone_100", "Portland_Stone_40", "White")
+pal_nottingham_3 <- newpal(color_nottingham_3, names_nottingham_3)
+seecol(pal_nottingham_3, main = "University of Nottingham Neutral Palette")
 
 # - pal_1: Primary pal ------ 
 
