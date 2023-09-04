@@ -22,10 +22,7 @@ A named vector of colors (HEX/HTML codes of type character).
 of \href{https://www.monash.edu/}{Monash University}, USA.
 }
 \details{
-In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
-the secondary colors have been approved for online use with white text overlay.
-
-Secondary colors are 
+The 9 secondary colors are 
 \code{"blue"} (defined as HEX #00739d),
 \code{"purple"} (defined as HEX #6f64a9),
 \code{"fuchsia"} (defined as HEX #c90095),
@@ -35,6 +32,11 @@ Secondary colors are
 \code{"umber"} (defined as HEX #795548),
 \code{"olive"} (defined as HEX #616d3a), and
 \code{"green"} (defined as HEX #006f29).
+
+\code{monash_2} uses HEX color definitions. 
+
+In accordance with the Web Content Accessibility Guide (WCAG) AA standards, 
+the secondary colors have been approved for online use with white text overlay.
 }
 \examples{
 monash_2

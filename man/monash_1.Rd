@@ -22,15 +22,18 @@ A named vector of colors (HEX/HTML codes of type character).
 of \href{https://www.monash.edu/}{Monash University}, USA.
 }
 \details{
-The primary color palette is preferred. 
-The use of grays (tints of black) are welcomed.
-Primary colors are
+The 6 primary colors are
 \code{"white"} (defined as HEX #FFFFFF),
-\code{"monash_blue"} (defined as HEX #006DAE),
+\code{"Monash blue"} (defined as HEX #006DAE),
 \code{"black"} (defined as HEX #000000),
-\code{"dark_grey"} (defined as HEX #3c3c3c),
+\code{"dark grey"} (defined as HEX #3c3c3c),
 \code{"grey"} (defined as HEX #505050), and
-\code{"light_grey"} (defined as HEX #F6F6F6).
+\code{"light grey"} (defined as HEX #F6F6F6).
+
+\code{monash_1} uses HEX color definitions. 
+
+The primary color palette is preferred; 
+the use of grays (tints of black) is welcome.
 }
 \examples{
 monash_1
