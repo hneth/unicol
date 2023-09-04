@@ -1,4 +1,4 @@
-## Nottingham.R | 2023 09 03
+## Nottingham.R | 2023 09 04
 ## Colors of the University of Nottingham, England/UK
 ## --------------------------------------------------
 
@@ -6,7 +6,7 @@
 
 # Information: ------
 
-# cur_pals: "nottingham_1", "y" (?)
+# cur_pals: "nottingham_1", "nottingham_2", "nottingham_3" (3)
 
 # inst: "University of Nottingham" 
 # country: England / UK
@@ -191,29 +191,30 @@ names_nottingham_2 <- c("Jubilee red", "Jubilee red 80", "Jubilee red 60", "Jubi
 
 # Neutral palette
 # 
-# To accompany Nottingham Blue and the supporting palette, 
+# To accompany Nottingham Blue and the supporting palette,
 # a small neutral palette can be used. This is made up of a light/warm grey and white.
 # 
-# These can be used on all designs where appropriate, and do not count towards the maximum two supporting colours per design and 
+# These can be used on all designs where appropriate, and do not count towards the maximum two supporting colours per design and
 # are permitted to make up over half of the designed asset, as these would be best used for text (white only) or backgrounds.
 # 
-# Portland Stone has a 40% tint available to create more accessible designs, 
+# Portland Stone has a 40% tint available to create more accessible designs,
 # more information on this can be found within the ‘digital backgrounds’ section.
 # 
 # Portland stone:
 #  CMYK: 3, 3, 8, 0
 #  RGB: R250, G246, B239
-#  HEX: #FAF6EF 
-#   
+#  HEX: #FAF6EF
+# 
 #  40% tint: #FDFBF9
-#   
+# 
 # White:
-# CMYK: 0, 0, 0, 0 
+# CMYK: 0, 0, 0, 0
 # RGB: R255, G255, B255
 # HEX: #FFFFFF
 
 color_nottingham_3 <- c("#FAF6EF", "#FDFBF9", "#FFFFFF")
 names_nottingham_3 <- c("Portland stone", "Portland stone 40", "white")
+
 
 # 4: Digital backgrounds ----
 
@@ -239,6 +240,7 @@ names_nottingham_3 <- c("Portland stone", "Portland stone 40", "white")
 #' It is defined as \code{CMYK: 100, 79, 47, 56}, \code{PMS: 539 C}, 
 #' \code{RGB: R16, G38, B59}, or \code{HEX: "#10263B"}. 
 #' 
+#' @details 
 #' The deep, rich colour helps the university to be recognisable and 
 #' it’s also associated with trust and respect. 
 #' The colour "black" is no longer part of the Nottingham palette and 
@@ -251,7 +253,9 @@ names_nottingham_3 <- c("Portland stone", "Portland stone 40", "white")
 #' Users must choose the correct colour output (RGB for digital and CMYK for print) 
 #' for the asset and its usage.
 #' 
-#' #' @return 
+#' \code{nottingham_1} uses the HEX color definitions.
+#' 
+#' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
 #'
 #' @author 
@@ -268,7 +272,8 @@ names_nottingham_3 <- c("Portland stone", "Portland stone 40", "white")
 #' @family UK university color palettes
 #'
 #' @seealso
-#' \code{\link{nottingham_1}} for primary colours of the University of Nottingham;
+#' \code{\link{nottingham_2}} for supporting colours of the University of Nottingham;
+#' \code{\link{nottingham_3}} for neutral colours of the University of Nottingham;
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
 #' \code{\link{usecol}} for using colour palettes;
 #' \code{\link{simcol}} for finding similar colours;
@@ -285,21 +290,142 @@ nottingham_1 <- unikn::newpal(col = color_nottingham_1,
 # unikn::seecol(nottingham_1, main = "University of Nottingham 1")
 
 
+
 # - Accent/supporting colours) of the University of Nottingham ------ 
 
+#' Supporting colours of the University of Nottingham, England/UK  
+#'
+#' \code{nottingham_2} provides the nine supporting colours and five corresponding tints 
+#' (per colour) of the \href{https://www.nottingham.ac.uk}{University of Nottingham}, England/UK.
+#'
+#' The supporting colours are accents. They add warmth and vibrancy and can elevate designs.
+#' 
+#' @details 
+#' Inspired by the \href{https://www.nottingham.ac.uk}{University of Nottingham} campus, 
+#' key brand messages and the city of Nottingham, nine colours build up 
+#' the palette to complement the primary \code{Nottingham blue} (see \code{\link{nottingham_1}}).
+#' 
+#' The supporting palette should be used sparingly,
+#' with a maximum of two supporting colours in any one asset.
+#' 
+#' Where colour is used within an asset, \code{Nottingham blue} needs to be visually dominant and
+#' the supporting palette should be less than half of the make-up of colour within the asset.
+#' 
+#' Supporting colours can and should be used for campaigns and initiatives, 
+#' to help audience recognition and aid navigation.
+#' 
+#' Users must choose the correct colour output for the asset and its usage
+#' (RGB for digital and CMYK for print), as values have been created 
+#' to keep the most vibrancy in print and the best colour representation across digital channels.
+#' 
+#' Each colour has five tints that can also be used for variety and to assist legibility. 
+#' HEX codes have been provided for each tint, and these should be used when 
+#' creating digital artwork, rather than using opacity.
+#' 
+#' \code{nottingham_2} uses the HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colours (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-09-04.
+#'
+#' @source 
+#' Colour definitions are based on the UoN's 
+#' \href{https://www.nottingham.ac.uk/brand/visual/colour.aspx}{Colour guidelines}.
+#'
+#' @examples
+#' nottingham_2
+#' main_cols <- seq(1, 49, by = 6)
+#' unikn::seecol(nottingham_2[main_cols], main = "Main supporting colors of UoN")
+#'
+#' @family UK university color palettes
+#'
+#' @seealso
+#' \code{\link{nottingham_1}} for primary colours of the University of Nottingham;
+#' \code{\link{nottingham_3}} for neutral colours of the University of Nottingham;
+#' \code{\link{seecol}} for viewing and comparing colour palettes;
+#' \code{\link{usecol}} for using colour palettes;
+#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link{grepal}} for finding named colours.
+#'
+#' @export
 
 nottingham_2 <- unikn::newpal(col = color_nottingham_2, 
                               names = names_nottingham_2, 
                               as_df = FALSE)
 
-# Check:
-# seecol(pal_nottingham_2, main = "University of Nottingham Supporting Colors")
+# # Check:
+# unikn::seecol(nottingham_2, main = "University of Nottingham 2: Supporting Colors")
+# main_cols <- seq(1, 54, by = 6)
+# unikn::seecol(nottingham_2[main_cols], main = "Main supporting colors of UoN 2")
+
 
 
 # - Neutral colours of the University of Nottingham ------ 
 
 
-pal_nottingham_3 <- newpal(color_nottingham_3, names_nottingham_3)
+#' Neutral colours of the University of Nottingham, England/UK  
+#'
+#' \code{nottingham_3} provides three neutral colours  
+#' of the \href{https://www.nottingham.ac.uk}{University of Nottingham}, England/UK.
+#'
+#' To accompany the primary \code{Nottingham blue} (see \code{\link{nottingham_1}}) 
+#' and the supporting palette (see \code{\link{nottingham_2}})
+#' a small neutral palette can be used. 
+#' This is made up of a light/warm grey and \code{"white"}.
+#'  
+#' @details 
+#' The neutral colours of \code{nottingham_3} can be used on all designs 
+#' where appropriate, do not count towards the maximum two supporting colours per design and 
+#' are permitted to make up over half of the designed asset, 
+#' as these would be best used for text (white only) or backgrounds.
+#' 
+#' The neutral color \code{Portland stone} is defined as 
+#' \code{CMYK: 3, 3, 8, 0}, \code{RGB: R250, G246, B239}, or \code{HEX: "#FAF6EF"}. 
+#' 
+#' \code{Portland stone} has a 40% tint available (defined as \code{HEX: "#FDFBF9"}) 
+#' to create more accessible designs. 
+#' 
+#' More information on accessibility and permissible combinations can be found in  
+#' the ‘digital backgrounds’ section of UoN's 
+#' \href{https://www.nottingham.ac.uk/brand/visual/colour.aspx}{Colour guidelines}.
+#' 
+#' \code{nottingham_2} uses the HEX color definitions.
+#' 
+#' @return 
+#' A named vector of colours (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-09-04.
+#'
+#' @source 
+#' Colour definitions are based on the UoN's 
+#' \href{https://www.nottingham.ac.uk/brand/visual/colour.aspx}{Colour guidelines}.
+#'
+#' @examples
+#' nottingham_3
+#' unikn::seecol(nottingham_3, col_bg = "lightgrey",  
+#'               main = "Neutral colors of University of Nottingham 3")
+#'
+#' @family UK university color palettes
+#'
+#' @seealso
+#' \code{\link{nottingham_1}} for primary colours of the University of Nottingham;
+#' \code{\link{nottingham_2}} for supporting colours of the University of Nottingham; 
+#' \code{\link{seecol}} for viewing and comparing colour palettes;
+#' \code{\link{usecol}} for using colour palettes;
+#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link{grepal}} for finding named colours.
+#'
+#' @export
+
+nottingham_3 <- newpal(col = color_nottingham_3, 
+                       names = names_nottingham_3,
+                       as_df = FALSE)
+
 
 # Check:
 # seecol(pal_nottingham_3, main = "University of Nottingham Neutral Palette")
