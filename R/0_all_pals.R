@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 02
+## all_pals.R | 2022 09 04
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -100,7 +100,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uni_lisbon",
               "willamette",
               "ohio_uni_1", "ohio_uni_2", 
-              "wm_1", "wm_2", "wm_3"
+              "wm_1", "wm_2", "wm_3",
+              "nottingham_1", "nottingham_2", "nottingham_3"
 )
 
 
@@ -201,7 +202,8 @@ inst <- c(rep("ETH Zurich", 3),
           "University of Lisbon",
           "Willamette University",
           rep("Ohio University", 2),
-          rep("William & Mary", 3)
+          rep("William & Mary", 3),
+          rep("University of Nottingham", 3)
 )
 
 # Alternative name (e.g. in source language): 
@@ -297,7 +299,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Universidade de Lisboa",
               "Willamette University",
               rep("Ohio University", 2),
-              rep("W&M", 3)
+              rep("W&M", 3),
+              rep("Nottingham University", 3)
 )
 
 # Valid URL: 
@@ -393,7 +396,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.ulisboa.pt",
          "https://willamette.edu",
          rep("https://www.ohio.edu", 2),
-         rep("https://www.wm.edu", 3)
+         rep("https://www.wm.edu", 3),
+         rep("https://www.nottingham.ac.uk", 3)
 )
 
 # 
