@@ -101,7 +101,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "willamette",
               "ohio_uni_1", "ohio_uni_2", 
               "wm_1", "wm_2", "wm_3",
-              "nottingham_1", "nottingham_2", "nottingham_3"
+              "nottingham_1", "nottingham_2", "nottingham_3",
+              "ANU_1", "ANU_2"
 )
 
 
@@ -203,7 +204,8 @@ inst <- c(rep("ETH Zurich", 3),
           "Willamette University",
           rep("Ohio University", 2),
           rep("William & Mary", 3),
-          rep("University of Nottingham", 3)
+          rep("University of Nottingham", 3),
+          rep("Australian National University", 2)
 )
 
 # Alternative name (e.g. in source language): 
@@ -300,7 +302,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Willamette University",
               rep("Ohio University", 2),
               rep("W&M", 3),
-              rep("Nottingham University", 3)
+              rep("Nottingham University", 3),
+              rep("ANU", 2)
 )
 
 # Valid URL: 
@@ -397,10 +400,9 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://willamette.edu",
          rep("https://www.ohio.edu", 2),
          rep("https://www.wm.edu", 3),
-         rep("https://www.nottingham.ac.uk", 3)
+         rep("https://www.nottingham.ac.uk", 3),
+         rep("https://www.anu.edu.au", 2)
 )
-
-# 
 
 
 
@@ -409,7 +411,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 218 4  2023-09-04
+# dim(all_data)  # 220 4  2023-09-04
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -422,6 +424,9 @@ row.names(all_data) <- 1:nrow(all_data)
 
 # # eval(str2expression(all_data$pal[1]))
 # # eval(str2lang(all_data$pal[1]))
+
+# # IFF pals are loaded:
+# # +++ here now +++ 
 # 
 # all_pals <- all_data$pal
 # 
@@ -440,14 +445,12 @@ row.names(all_data) <- 1:nrow(all_data)
 # }
 # n_cols
 
-# +++ here now +++
-
 # # Descriptive stats: ----
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(all_data$pal)          #  218 color palettes (on 2023-09-04)
-# length(unique(all_data$inst)) #   92 institutions (2023-09-04)
-# sum(n_cols)                   # 1432 colors (2023-09-04)
+# length(all_data$pal)          #  220 color palettes (on 2023-09-04)
+# length(unique(all_data$inst)) #   93 institutions (2023-09-04)
+# sum(n_cols)                   # 1440 colors (2023-09-04)
 
 
 # Export as unicol_data (as data frame): ------
