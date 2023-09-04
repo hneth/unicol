@@ -16,8 +16,9 @@ Changes since last release:
 
 - New color palettes: 
     - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
-    - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2`
+    - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
+    - [University of Nottingham](https://www.nottingham.ac.uk): `nottingham_1`, `nottingham_2`, `nottingham_3` 
     - [Willamette University](https://willamette.edu): `willamette` 
 
 - Updated color palettes: 
@@ -60,6 +61,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-02.] 
+[File `NEWS.md` updated on 2023-09-04.] 
 
 <!-- eof. -->
