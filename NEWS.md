@@ -3,7 +3,9 @@
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
-This version mostly improves consistency, simplicity, and fixes some bugs. 
+This version adds and updates some color palettes, but also improves consistency, simplicity, and fixes some bugs. 
+
+The **unicol** package currently provides **222\ color palettes** from **94\ institutions**. 
 
 <!-- Log of changes: --> 
 
@@ -15,6 +17,7 @@ Changes since last release:
 ## Major changes 
 
 - New color palettes: 
+    - [Macquarie University](https://www.mq.edu.au): `mq_1`, `mq_2`
     - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 

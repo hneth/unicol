@@ -415,7 +415,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 220 4  2023-09-04
+# dim(all_data)  # 222 4  2023-09-05
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -430,7 +430,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # # eval(str2lang(all_data$pal[1]))
 
 # # IFF pals are loaded:
-# # +++ here now +++ 
+# # +++ here now +++
 # 
 # all_pals <- all_data$pal
 # 
@@ -448,13 +448,13 @@ row.names(all_data) <- 1:nrow(all_data)
 #   n_cols[i] <- length(eval(str2expression(all_pals[i])))
 # }
 # n_cols
-
+# 
 # # Descriptive stats: ----
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(all_data$pal)          #  220 color palettes (on 2023-09-04)
-# length(unique(all_data$inst)) #   93 institutions (2023-09-04)
-# sum(n_cols)                   # 1440 colors (2023-09-04)
+# length(all_data$pal)          #  222 color palettes (on 2023-09-05)
+# length(unique(all_data$inst)) #   94 institutions (2023-09-05)
+# sum(n_cols)                   # 1498 colors (2023-09-05)
 
 
 # Export as unicol_data (as data frame): ------
