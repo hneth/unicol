@@ -1,4 +1,4 @@
-## example_pal.R | 2023 09 04
+## example_pal.R | 2023 09 05
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
@@ -17,10 +17,10 @@
 
 # color_URL: Visual identity and brand guidelines at 
 # <https://example.org>
-# Last check: 2023-09-04
+# Last check: 2023-09-05
 
 # Author information:
-# unicol, 2023-09-04
+# unicol, 2023-09-05
 
 
 # Colors: ------
