@@ -3,13 +3,13 @@
 \docType{data}
 \name{trinity_1}
 \alias{trinity_1}
-\title{Primary colors of the Trinity College Dublin, Ireland}
+\title{Primary colours of the Trinity College Dublin, Ireland}
 \format{
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on 
-\href{https://www.tcd.ie/identity/colour-palette/}{TCD's website}.
+Color definitions are based on TCD's 
+\href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
 }
 \usage{
 trinity_1
@@ -18,25 +18,34 @@ trinity_1
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{trinity_1} provides the 12 primary colors
-of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
+\code{trinity_1} provides the twelve primary colours
+of \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 }
 \details{
-The 12 primary colors are
-\code{"trinity_blue_100"} (defined as HEX #0569b9), 
-\code{"trinity_blue_75"} (defined as HEX #448fcb), 
-\code{"trinity_blue_50"} (defined as HEX #82b4dc), 
-\code{"trinity_blue_25"} (defined as HEX #cidaee), 
-\code{"trinity_blue_10"} (defined as HEX #e6f0f8), 
-\code{"grey_100"} (defined as HEX #50555a), 
-\code{"grey_75"} (defined as HEX #7c8083), 
-\code{"grey_50"} (defined as HEX #a8aaad), 
-\code{"grey_25"} (defined as HEX #d3d5d6), 
-\code{"grey_10"} (defined as HEX #eeeeef), 
+The 12 primary colors are 
+\code{"Trinity blue"} (defined as HEX #0569b9), 
+\code{"Trinity blue 75"} (defined as HEX #448fcb), 
+\code{"Trinity blue 50"} (defined as HEX #82b4dc), 
+\code{"Trinity blue 25"} (defined as HEX #cidaee), 
+\code{"Trinity blue 10"} (defined as HEX #e6f0f8), 
+\code{"grey 100"} (defined as HEX #50555a), 
+\code{"grey 75"} (defined as HEX #7c8083), 
+\code{"grey 50"} (defined as HEX #a8aaad), 
+\code{"grey 25"} (defined as HEX #d3d5d6), 
+\code{"grey 10"} (defined as HEX #eeeeef), 
 \code{"white"} (defined as HEX #ffffff), and 
 \code{"black"} (defined as HEX #000000).
 
 \code{trinity_1} uses the HEX color definitions.
+
+
+Colour provides a strong visual link to Trinity's visual identity across a wide range of applications. 
+
+Trinity has a strong association with \code{Trinity blue} as the primary colour of its shield.
+
+The colours of \code{trinity_1} (i.e., blue, grey and considered use of white space) are a crucial part of Trinity's visual identity. 
+
+Applied consistently they provide an immediate and strong visual link throughout all communications.
 }
 \examples{
 trinity_1

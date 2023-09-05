@@ -3,13 +3,13 @@
 \docType{data}
 \name{trinity_2}
 \alias{trinity_2}
-\title{Secondary colors of Trinity College Dublin, Ireland}
+\title{Secondary colours of Trinity College Dublin, Ireland}
 \format{
-An object of class \code{character} of length 8.
+An object of class \code{character} of length 55.
 }
 \source{
-Color definitions are based on 
-\href{https://www.tcd.ie/identity/colour-palette/}{TCD's website}.
+Color definitions are based on TCD's 
+\href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
 }
 \usage{
 trinity_2
@@ -18,74 +18,29 @@ trinity_2
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{trinity_2} provides the 57 secondary colors 
-of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
+\code{trinity_2} provides the secondary colour palette  
+of \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 }
 \details{
-The 57 secondary colors are 
-\code{"pms_312_100"} (defined as HEX #12312b),
-\code{"pms_312_75"} (defined as HEX #0D1E1C),
-\code{"pms_312_50"} (defined as HEX #ffffff),
-\code{"pms_312_25"} (defined as HEX #000000), 
-\code{"pms_312_10"} (defined as HEX #f7f7f7), 
-\code{"pms_326_100"} (defined as HEX #e2e2e2), 
-\code{"pms_326_75"} (defined as HEX #707070), 
-\code{"pms_326_50"} (defined as HEX #424141), 
-\code{"pms_326_25"} (defined as HEX #12312b),
-\code{"pms_326_10"} (defined as HEX #0D1E1C),
-\code{"pms_360_100"} (defined as HEX #ffffff),
-\code{"pms_360_75"} (defined as HEX #000000), 
-\code{"pms_360_50"} (defined as HEX #f7f7f7), 
-\code{"pms_360_25"} (defined as HEX #e2e2e2), 
-\code{"pms_360_10"} (defined as HEX #707070), 
-\code{"pms_375_100"} (defined as HEX #424141),
-\code{"pms_375_100"} (defined as HEX #12312b),
-\code{"pms_375_75"} (defined as HEX #0D1E1C),
-\code{"pms_375_50"} (defined as HEX #ffffff),
-\code{"pms_375_25"} (defined as HEX #000000), 
-\code{"pms_375_10"} (defined as HEX #f7f7f7), 
-\code{"web_gray_2"} (defined as HEX #e2e2e2), 
-\code{"web_gray_3"} (defined as HEX #707070), 
-\code{"granite_gray"} (defined as HEX #424141), 
-\code{"forest_green"} (defined as HEX #12312b),
-\code{"rich_forest_green"} (defined as HEX #0D1E1C),
-\code{"snow_white"} (defined as HEX #ffffff),
-\code{"midnight_black"} (defined as HEX #000000), 
-\code{"web_gray_1"} (defined as HEX #f7f7f7), 
-\code{"web_gray_2"} (defined as HEX #e2e2e2), 
-\code{"web_gray_3"} (defined as HEX #707070), 
-\code{"granite_gray"} (defined as HEX #424141), 
-\code{"forest_green"} (defined as HEX #12312b),
-\code{"rich_forest_green"} (defined as HEX #0D1E1C),
-\code{"snow_white"} (defined as HEX #ffffff),
-\code{"midnight_black"} (defined as HEX #000000), 
-\code{"web_gray_1"} (defined as HEX #f7f7f7), 
-\code{"web_gray_2"} (defined as HEX #e2e2e2), 
-\code{"web_gray_3"} (defined as HEX #707070), 
-\code{"granite_gray"} (defined as HEX #424141), 
-\code{"forest_green"} (defined as HEX #12312b),
-\code{"rich_forest_green"} (defined as HEX #0D1E1C),
-\code{"snow_white"} (defined as HEX #ffffff),
-\code{"midnight_black"} (defined as HEX #000000), 
-\code{"web_gray_1"} (defined as HEX #f7f7f7), 
-\code{"web_gray_2"} (defined as HEX #e2e2e2), 
-\code{"web_gray_3"} (defined as HEX #707070), 
-\code{"granite_gray"} (defined as HEX #424141), 
-\code{"forest_green"} (defined as HEX #12312b),
-\code{"rich_forest_green"} (defined as HEX #0D1E1C),
-\code{"snow_white"} (defined as HEX #ffffff),
-\code{"midnight_black"} (defined as HEX #000000), 
-\code{"web_gray_1"} (defined as HEX #f7f7f7), 
-\code{"web_gray_2"} (defined as HEX #e2e2e2), 
-\code{"web_gray_3"} (defined as HEX #707070), 
-\code{"granite_gray"} (defined as HEX #424141), and 
-\code{"granite_gray"} (defined as HEX #424141).
-
 \code{trinity_2} uses the HEX color definitions.
+
+
+The secondary colour palette supports the primary colours of \code{\link{trinity_1}}. 
+
+It is used for graphic elements within communications 
+(e.g., in illustrations, charts, diagrams and iconography). 
+It can also be used to add colour to items where a photographic image is unsuitable or unavailable 
+(e.g., posters, slides or backdrops). 
+
+It is important to remember that these are supporting colours only; 
+they should not predominate or overwhelm the 
+primary blue, grey, and white colours (of \code{\link{trinity_1}}).
 }
 \examples{
 trinity_2
-unikn::seecol(trinity_2, main = "Trinity College Dublin 2") # view color palette
+main_cols <- seq(1, 51, by = 5)
+unikn::seecol(trinity_2[main_cols], 
+              main = "Main secondary colours of Trinity College Dublin 2") # view color palette
 
 }
 \seealso{
@@ -104,7 +59,7 @@ Other Irish university color palettes:
 \code{\link{trinity_1}}
 }
 \author{
-\strong{unicol}, 2023-07-07.
+\strong{unicol}, 2023-09-05.
 }
 \concept{Irish university color palettes}
 \keyword{datasets}
