@@ -6,14 +6,20 @@ output: github_document
 
 ```{r setup, include = FALSE}
 # Set default chunk options: 
-knitr::opts_chunk$set(collapse = TRUE,
-                      comment = "#>",
+knitr::opts_chunk$set(collapse = FALSE, 
+                      comment = "#>", 
+                      prompt = FALSE,
+                      tidy = FALSE,
+                      echo = TRUE, 
                       message = FALSE,
-                      warning = FALSE, 
+                      warning = FALSE,
                       # Default figure options:
-                      fig.align = "center", 
                       fig.path = "man/figures/README-",
-                      out.width = "600")
+                      fig.align = 'center',  # ignored                 
+                      dpi = 100,
+                      fig.height = 5.0,
+                      fig.width  = 7.0,
+                      out.width = "600px")
 
 library(unicol)  # load package
 
@@ -222,7 +228,7 @@ knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 
 **Figure\ 1** illustrates `r n` random color palettes (with `r col_count`\ colors): 
 
-```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, fig.width = 8, out.width = "90%", fig.align = 'center', fig.asp = 1.5, fig.cap = fig_caption}
+```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, fig.asp = 1.5, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
               pal_names = pal_names,         

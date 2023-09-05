@@ -15,7 +15,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9007 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.1.0.9008 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -79,8 +79,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **215 color palettes** from
-**91 institutions**.
+The **unicol** package currently provides **220 color palettes** from
+**93 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
@@ -92,18 +92,18 @@ palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **215\ color palettes** from **91\ institutions**.  -->
+<!-- The **unicol** package currently contains **220\ color palettes** from **93\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 253 colors):
+**Figure 1** illustrates 50 random color palettes (with 246 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 253 colors)." width="90%" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 246 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 253 colors).
+Figure 1: A sample of 50 unicol palettes (containing 246 colors).
 </p>
 
 </div>
@@ -122,7 +122,7 @@ barplot(height = 1:10,
         main = "Using the MIT colors")
 ```
 
-<img src="man/figures/README-example-base-r-1-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-example-base-r-1-1.png" width="600px" style="display: block; margin: auto;" />
 
 To modify a color palette (e.g., by resizing the palette or adding
 transparency), we use the `usecol()` function of the
@@ -134,7 +134,7 @@ barplot(height = 1/sqrt(1:16),
         main = "A color gradient of MIT colors")
 ```
 
-<img src="man/figures/README-example-base-r-2-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-example-base-r-2-1.png" width="600px" style="display: block; margin: auto;" />
 
 <!-- More examples: -->
 
@@ -146,20 +146,20 @@ Here are some some additional examples how the color palettes from
 unikn::seecol(yale, main = "The primary colors of Yale University")
 ```
 
-<img src="man/figures/README-examples-unicol-1.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-1.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
 # Demo plots:
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 ```
 
-<img src="man/figures/README-examples-unicol-2.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-2.png" width="600px" style="display: block; margin: auto;" />
 
 ``` r
 unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
 
-<img src="man/figures/README-examples-unicol-3.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
 
 <!-- ## Adding color palettes -->
 <!-- Collecting contributed color palettes (in unicol): -->
@@ -315,6 +315,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-01.\]
+\[File `README.Rmd` updated on 2023-09-05.\]
 
 <!-- eof. -->
