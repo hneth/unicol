@@ -47,7 +47,9 @@ unikn::seecol(ANU_2, main = "Font colours of Australian National University")
 \code{\link{grepal}} for finding named colors.
 
 Other Australian university color palettes: 
-\code{\link{ANU_1}}
+\code{\link{ANU_1}},
+\code{\link{mq_1}},
+\code{\link{mq_2}}
 }
 \author{
 \strong{unicol}, 2023-09-04.
