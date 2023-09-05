@@ -95,14 +95,15 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "yale <-", 
               "yeshiva <-", 
               "yorku_1 <-", "yorku_2 <-",
-              # Contributed color palettes: 
+              # NEW after v0.1.0: 
               "groningen_1", "groningen_2",
               "uni_lisbon",
               "willamette",
               "ohio_uni_1", "ohio_uni_2", 
               "wm_1", "wm_2", "wm_3",
               "nottingham_1", "nottingham_2", "nottingham_3",
-              "ANU_1", "ANU_2"
+              "ANU_1", "ANU_2",
+              "mq_1", "mq_2"
 )
 
 
@@ -198,14 +199,15 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Yale University", 1),
           rep("Yeshiva University", 1),
           rep("York University", 2), 
-          # Contributed color palettes: 
+          # NEW after v0.1.0: 
           rep("University of Groningen", 2),
           "University of Lisbon",
           "Willamette University",
           rep("Ohio University", 2),
           rep("William & Mary", 3),
           rep("University of Nottingham", 3),
-          rep("Australian National University", 2)
+          rep("Australian National University", 2),
+          rep("Macquarie University", 2)
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -296,14 +298,15 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Yale", 1),
               rep("YU", 1),
               rep("Yorku", 2),
-              # Contributed color palettes: 
+              # NEW after v0.1.0: 
               rep("Rijksuniversiteit Groningen", 2),
               "Universidade de Lisboa",
               "Willamette",
               rep("Ohio University", 2),
               rep("W&M", 3),
               rep("Nottingham University", 3),
-              rep("ANU", 2)
+              rep("ANU", 2), 
+              rep("Macquarie, MQ", 2)
 )
 
 # Valid URL: 
@@ -394,14 +397,15 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.yale.edu", 1),
          rep("https://www.yu.edu", 1),
          rep("https://www.yorku.ca", 2),
-         # Contributed color palettes: 
+         # NEW after v0.1.0: 
          rep("https://www.rug.nl", 2),
          "https://www.ulisboa.pt",
          "https://willamette.edu",
          rep("https://www.ohio.edu", 2),
          rep("https://www.wm.edu", 3),
          rep("https://www.nottingham.ac.uk", 3),
-         rep("https://www.anu.edu.au", 2)
+         rep("https://www.anu.edu.au", 2),
+         rep("https://www.mq.edu.au", 2)
 )
 
 
