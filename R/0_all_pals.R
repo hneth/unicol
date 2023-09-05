@@ -436,19 +436,26 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # # Number of colors (from pal names):
 # 
-# # Evaluating an object by its name:
-# # length(eval(str2expression(all_pals[1])))
-# # length(eval(str2lang(all_pals[1])))
+# # 3 ways of evaluating an object by its name:
+# pal_name <- all_pals[1]
+# length(eval(parse(text = pal_name)))
+# length(eval(str2expression(pal_name)))
+# length(eval(str2lang(pal_name)))
 # 
-# # Number of pals and colors:
+# Number of pals and colors:
 # n_pals <- length(all_pals)
 # n_cols <- rep(NA, n_pals)
+# # my_space <- loadNamespace("unicol")
 # 
 # for (i in 1:n_pals){
-#   n_cols[i] <- length(eval(str2expression(all_pals[i])))
-# }
-# n_cols
 # 
+#   n_cols[i] <- length(eval(str2expression(all_pals[i])))
+#   # n_cols[i] <- length(eval(str2expression(all_pals[i]), envir = my_space))
+# 
+# }
+# 
+# n_cols
+
 # # Descriptive stats: ----
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
