@@ -3,7 +3,7 @@
 \docType{data}
 \name{waikato}
 \alias{waikato}
-\title{Colors of the University of Waikato, NZ}
+\title{Colours of the University of Waikato, NZ}
 \format{
 An object of class \code{character} of length 8.
 }
@@ -18,25 +18,25 @@ waikato
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{waikato} provides the eight official web colors 
+\code{waikato} provides the eight official web colours 
 of the \href{https://www.waikato.ac.nz/}{University of Waikato}, New Zealand.
 }
 \details{
-The 8 official web colors are
-\code{"waikato_light_red"} (defined as HEX #D40100),
-\code{"waikato_medium_red"} (defined as HEX #BE0403),
-\code{"waikato_dark_red"} (defined as HEX #AA0000),
-\code{"waikato_light_yellow"} (defined as HEX #FAA61A),
-\code{"waikato_darker_yellow"} (defined as HEX #E79000),
-\code{"waikato_dark_grey"} (defined as HEX #353535),
-\code{"waikato_blue_grey"} (defined as HEX #32373D), and
-\code{"waikato_light_grey"} (defined as HEX #F2F2F2).
+The 8 official web colours are
+\code{"Waikato light red"} (defined as HEX #D40100),
+\code{"Waikato medium red"} (defined as HEX #BE0403),
+\code{"Waikato dark red"} (defined as HEX #AA0000),
+\code{"Waikato light yellow"} (defined as HEX #FAA61A),
+\code{"Waikato darker yellow"} (defined as HEX #E79000),
+\code{"Waikato dark grey"} (defined as HEX #353535),
+\code{"Waikato blue grey"} (defined as HEX #32373D), and
+\code{"Waikato light grey"} (defined as HEX #F2F2F2).
 
 \code{waikato} uses the HEX color definitions.
 }
 \examples{
 waikato
-unikn::seecol(waikato, main = "Colors of the University of Waikato") # view color palettes
+unikn::seecol(waikato, main = "Colors of the University of Waikato") # view colour palettes
 
 }
 \seealso{
