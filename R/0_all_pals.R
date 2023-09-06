@@ -445,7 +445,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # length(eval(str2expression(pal_name)))
 # length(eval(str2lang(pal_name)))
 # 
-# Number of pals and colors:
+# # Number of pals and colors:
 # n_pals <- length(all_pals)
 # n_cols <- rep(NA, n_pals)
 # # my_space <- loadNamespace("unicol")
@@ -458,13 +458,15 @@ row.names(all_data) <- 1:nrow(all_data)
 # }
 # 
 # n_cols
-
+# 
 # # Descriptive stats: ----
+# 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# length(all_data$pal)          #  222 color palettes (on 2023-09-05)
-# length(unique(all_data$inst)) #   94 institutions (2023-09-05)
-# sum(n_cols)                   # 1498 colors (2023-09-05)
+# # On 2023-09-06:
+# length(all_data$pal)          #  224 color palettes
+# length(unique(all_data$inst)) #   95 institutions
+# sum(n_cols)                   # 1504 colors 
 
 
 # Export as unicol_data (as data frame): ------

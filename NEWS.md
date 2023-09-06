@@ -1,11 +1,11 @@
 
-# unicol 0.1.0.9009
+# unicol 0.1.0.9010
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
 This version adds and updates some color palettes, but also improves consistency, simplicity, and fixes some bugs. 
 
-The **unicol** package currently provides **222\ color palettes** from **94\ institutions**. 
+The **unicol** package currently provides **224\ color palettes** from **95\ institutions**. 
 
 <!-- Log of changes: --> 
 
@@ -21,15 +21,14 @@ Changes since last release:
     - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
-    - [University of Nottingham](https://www.nottingham.ac.uk): `nottingham_1`, `nottingham_2`, `nottingham_3` 
+    - [University of Nottingham](https://www.nottingham.ac.uk): `nottingham_1`, `nottingham_2`, `nottingham_3`
+    - [University of Wollongong](https://www.uow.edu.au): `wollongong_1`, `wollongong_2` 
     - [Willamette University](https://willamette.edu): `willamette` 
 
 - Corrected or updated color palettes: 
     - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
     - [Trinity College Dublin](https://www.tcd.ie): `trinity_2` has been corrected 
     
-
-
 
 <!-- Minor changes: --> 
 
@@ -67,6 +66,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-05.] 
+[File `NEWS.md` updated on 2023-09-06.] 
 
 <!-- eof. -->
