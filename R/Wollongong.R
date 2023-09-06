@@ -29,7 +29,7 @@
 # 
 # Our colours are modern, bold and progressive. They reflect our brand personality and brand values. The strong, credible palette can be used across all areas of communication and reflect a positive and progressive place to learn.
 # 
-# Our colour palette is ‘open’ meaning that we do not colour code by unit, division or faculty. This flexibility means greater choice, expression and diversity.
+# Our colour palette is 'open' meaning that we do not colour code by unit, division or faculty. This flexibility means greater choice, expression and diversity.
 # 
 # Refer to this page for official breakdowns and accessibility guidance.
 
@@ -132,7 +132,7 @@ names_wollongong_2 <- c("black", "Light grey")
 #' The UOW colours are modern, bold and progressive, and reflect brand personality and brand values. 
 #' The strong, credible palette can be used across all areas of communication and projects a positive and progressive place to learn.
 #' 
-#' The UOW colour palette is ‘open’ meaning that it does not colour code by unit, division or faculty. 
+#' The UOW colour palette is 'open' meaning that it does not colour code by unit, division or faculty. 
 #' This flexibility means greater choice, expression and diversity.
 #' 
 #' Refer to the \href{https://www.uow.edu.au/brand/brand-system/colour/}{colour guide} 
