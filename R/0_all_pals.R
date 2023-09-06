@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 05
+## all_pals.R | 2022 09 06
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -103,7 +103,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "wm_1", "wm_2", "wm_3",
               "nottingham_1", "nottingham_2", "nottingham_3",
               "ANU_1", "ANU_2",
-              "mq_1", "mq_2"
+              "mq_1", "mq_2",
+              "wollongong_1", "wollongong_2"
 )
 
 
@@ -207,7 +208,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("William & Mary", 3),
           rep("University of Nottingham", 3),
           rep("Australian National University", 2),
-          rep("Macquarie University", 2)
+          rep("Macquarie University", 2),
+          rep("University of Wollongong", 2)
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -306,7 +308,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("W&M", 3),
               rep("Nottingham University", 3),
               rep("ANU", 2), 
-              rep("Macquarie, MQ", 2)
+              rep("Macquarie, MQ", 2),
+              rep("Wollongong, UOW", 2)
 )
 
 # Valid URL: 
@@ -405,9 +408,9 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.wm.edu", 3),
          rep("https://www.nottingham.ac.uk", 3),
          rep("https://www.anu.edu.au", 2),
-         rep("https://www.mq.edu.au", 2)
+         rep("https://www.mq.edu.au", 2),
+         rep("https://www.uow.edu.au", 2)
 )
-
 
 
 
