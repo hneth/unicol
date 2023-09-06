@@ -47,7 +47,9 @@ unikn::seecol(ANU_1, main = "Background colours of Australian National Universit
 Other Australian university color palettes: 
 \code{\link{ANU_2}},
 \code{\link{mq_1}},
-\code{\link{mq_2}}
+\code{\link{mq_2}},
+\code{\link{wollongong_1}},
+\code{\link{wollongong_2}}
 }
 \author{
 \strong{unicol}, 2023-09-04.

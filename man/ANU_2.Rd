@@ -49,7 +49,9 @@ unikn::seecol(ANU_2, main = "Font colours of Australian National University")
 Other Australian university color palettes: 
 \code{\link{ANU_1}},
 \code{\link{mq_1}},
-\code{\link{mq_2}}
+\code{\link{mq_2}},
+\code{\link{wollongong_1}},
+\code{\link{wollongong_2}}
 }
 \author{
 \strong{unicol}, 2023-09-04.

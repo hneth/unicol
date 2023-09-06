@@ -44,7 +44,9 @@ unikn::seecol(mq_2, main = "Faculty colours of Macquarie University") # view col
 Other Australian university color palettes: 
 \code{\link{ANU_1}},
 \code{\link{ANU_2}},
-\code{\link{mq_1}}
+\code{\link{mq_1}},
+\code{\link{wollongong_1}},
+\code{\link{wollongong_2}}
 }
 \author{
 \strong{unicol}, 2023-09-05.
