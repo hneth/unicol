@@ -64,7 +64,7 @@ color_auckland_2 <- c("#EAAB00", "#D2492A", "#A71930", "#4F2D7F", "#0039A6",
                       "#005B82", "#00877C", "#A8B400", "#780032", "#C42130")
 names_auckland_2 <- c("Education", "NICAI", "Arts", "Engineering", "Science", 
                       "Law", "Medical and Health Sciences", "Business School", 
-                      "Tāmaki Innovation Campus", "NZ Asia Institute")
+                      "Tamaki Innovation Campus", "NZ Asia Institute")
 
 
 # Color palette(s):
