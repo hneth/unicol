@@ -1,4 +1,4 @@
-## Galway.R | 2023 07 23
+## Galway.R | 2023 09 07
 ## Colors of the University of Galway, Ireland
 ## -------------------------------------------
 
@@ -24,9 +24,9 @@
 #' of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 #'
 #' The 5 primary colors are
-#' \code{"maroon"} (defined as HEX #a80050), 
-#' \code{"deep_maroon"} (defined as HEX #84003d), 
-#' \code{"magenta"} (defined as HEX #e6007e), 
+#' \code{"Galway maroon"} (defined as HEX #a80050), 
+#' \code{"Galway deep maroon"} (defined as HEX #84003d), 
+#' \code{"Galway magenta"} (defined as HEX #e6007e), 
 #' \code{"black"} (defined as HEX #000000), and 
 #' \code{"white"} (defined as HEX #ffffff). 
 #'
@@ -44,7 +44,7 @@
 #'
 #' @examples
 #' galway_1
-#' unikn::seecol(galway_1, main = "University of Galway 1") # view color palette.
+#' unikn::seecol(galway_1, main = "University of Galway 1", col_bg = "lightgrey") # view palette
 #'
 #' @family Irish university color palettes
 #'
@@ -60,7 +60,7 @@
 
 galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e", 
                                   "#000000", "#ffffff"), 
-                          names = c("galway_maroon", "galway_deep_maroon", "galway_magenta", 
+                          names = c("Galway maroon", "Galway deep maroon", "Galway magenta", 
                                     "black", "white"), 
                           as_df = FALSE)
 
@@ -74,18 +74,18 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 #' 
 #' The 14 secondary colors are
-#' \code{"aqua_marine"} (defined as HEX #00b1ba),
-#' \code{"ocean_blue"} (defined as HEX #0080a3),
-#' \code{"spring_green"} (defined as HEX #00bf6f),
-#' \code{"lime_green"} (defined as HEX #c5e86c), 
+#' \code{"aqua marine"} (defined as HEX #00b1ba),
+#' \code{"ocean blue"} (defined as HEX #0080a3),
+#' \code{"spring green"} (defined as HEX #00bf6f),
+#' \code{"lime green"} (defined as HEX #c5e86c), 
 #' \code{"orange"} (defined as HEX #f58e2f), 
 #' \code{"rose"} (defined as HEX #e30044), 
 #' \code{"yellow"} (defined as HEX #ffc72b), 
-#' \code{"deep_orchid"} (defined as HEX #c4299b), 
-#' \code{"lavender_pink"} (defined as HEX #e66eb2), 
+#' \code{"deep orchid"} (defined as HEX #c4299b), 
+#' \code{"lavender pink"} (defined as HEX #e66eb2), 
 #' \code{"violet"} (defined as HEX #753abd), 
 #' \code{"ash"} (defined as HEX #5e514d), 
-#' \code{"warm_stone"} (defined as HEX #94795d), 
+#' \code{"warm stone"} (defined as HEX #94795d), 
 #' \code{"sandstone"} (defined as HEX #c4c0b7), and 
 #' \code{"black"} (defined as HEX #000000). 
 #' 
@@ -119,8 +119,8 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 
 galway_2 <- unikn::newpal(col = c("#00b1ba", "#0080a3", "#00bf6f", "#c5e86c", "#f58e2f", "#e30044", "#ffc72b", 
                                   "#c4299b", "#e66eb2", "#753abd", "#5e514d", "#94795d", "#c4c0b7", "#000000"), 
-                          names = c("aqua_marine", "ocean_blue","spring_green", "lime_green", "orange", "rose", "yellow", 
-                                    "deep_orchid", "lavender_pink", "violet", "ash", "warm_stone", "sandstone", "black"), 
+                          names = c("aqua marine", "ocean blue","spring green", "lime green", "orange", "rose", "yellow", 
+                                    "deep orchid", "lavender pink", "violet", "ash", "warm stone", "sandstone", "black"), 
                           as_df = FALSE)
 
 ## ToDo: ------

@@ -1,4 +1,4 @@
-## Limerick.R | 2023 08 14
+## Limerick.R | 2023 09 07
 ## Colours of the University of Limerick, Ireland
 # -----------------------------------------------
 
@@ -23,9 +23,9 @@
 #' of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 #'
 #' The 4 primary colours are
-#' \code{"ul_green"} (defined as HEX #005335), 
-#' \code{"ul_modern_green"} (defined as HEX #00B140), 
-#' \code{"ul_heritage_green"} (defined as HEX #003726), 
+#' \code{"UL green"} (defined as HEX #005335), 
+#' \code{"UL modern green"} (defined as HEX #00B140), 
+#' \code{"UL heritage green"} (defined as HEX #003726), 
 #' \code{"white"} (defined as HEX #FFFFFF). 
 #'
 #'\code{limerick_1} uses the HEX colour definitions.
@@ -57,7 +57,7 @@
 #' @export
 
 limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"), 
-                            names = c("ul_green", "ul_modern_green", "ul_heritage_green", "white"), 
+                            names = c("UL green", "UL modern green", "UL heritage green", "white"), 
                             as_df = FALSE)
 
 
@@ -79,7 +79,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' \code{"pumpkin"} (defined as HEX #D45D00), 
 #' \code{"munster"} (defined as HEX #CB333B), 
 #' \code{"salmon"} (defined as HEX #E31C79), 
-#' \code{"autumnal_leaf"} (defined as HEX #6F263D), 
+#' \code{"autumnal leaf"} (defined as HEX #6F263D), 
 #' \code{"copper"} (defined as HEX #89532F), 
 #' \code{"bronze"} (defined as HEX #7e5c4d), 
 #' \code{"white"} (defined as HEX #FFFFFF), 
@@ -121,7 +121,7 @@ limerick_2 <- unikn::newpal(col = c("#00A3E0", "#007DBA", "#2D5980", "#13294B", 
                                     "#89532F", "#7e5c4d", "#FFFFFF", "#919D9D", "#707372", 
                                     "#505759", "#373A36"), 
                             names = c("shannon", "sky", "stone", "marine", "marigold", 
-                                      "golden_leaf", "pumpkin", "munster", "salmon", "autumnal_leaf", 
+                                      "golden_leaf", "pumpkin", "munster", "salmon", "autumnal leaf", 
                                       "copper", "bronze", "white", "limestone", "pebble", 
                                       "granite", "slate"), 
                             as_df = FALSE)
