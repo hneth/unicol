@@ -45,6 +45,10 @@ unikn::seecol(waikato, main = "Colors of the University of Waikato") # view colo
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
+
+Other New Zealand university color palettes: 
+\code{\link{auckland_1}},
+\code{\link{auckland_2}}
 }
 \author{
 \strong{unicol}, 2023-07-05.
