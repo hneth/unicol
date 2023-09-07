@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 06
+## all_pals.R | 2022 09 07
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -104,7 +104,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "nottingham_1", "nottingham_2", "nottingham_3",
               "ANU_1", "ANU_2",
               "mq_1", "mq_2",
-              "wollongong_1", "wollongong_2"
+              "wollongong_1", "wollongong_2",
+              "auckland_1", "auckland_2"
 )
 
 
@@ -209,7 +210,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Nottingham", 3),
           rep("Australian National University", 2),
           rep("Macquarie University", 2),
-          rep("University of Wollongong", 2)
+          rep("University of Wollongong", 2),
+          rep("University of Auckland", 2)
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -309,7 +311,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Nottingham University", 3),
               rep("ANU", 2), 
               rep("Macquarie, MQ", 2),
-              rep("Wollongong, UOW", 2)
+              rep("Wollongong, UOW", 2),
+              rep("Waipapa Taumata Rau / UOA", 2)
 )
 
 # Valid URL: 
@@ -409,7 +412,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.nottingham.ac.uk", 3),
          rep("https://www.anu.edu.au", 2),
          rep("https://www.mq.edu.au", 2),
-         rep("https://www.uow.edu.au", 2)
+         rep("https://www.uow.edu.au", 2),
+         rep("https://www.auckland.ac.nz", 2)
 )
 
 
@@ -418,7 +422,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 222 4  2023-09-05
+# dim(all_data)  # 226 4  2023-09-07
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -463,10 +467,10 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-06:
-# length(all_data$pal)          #  224 color palettes
-# length(unique(all_data$inst)) #   95 institutions
-# sum(n_cols)                   # 1504 colors 
+# # On 2023-09-07:
+# length(all_data$pal)           #  226 color palettes
+# length(unique(all_data$inst))  #   96 institutions
+# sum(n_cols)                    # 1519 colors
 
 
 # Export as unicol_data (as data frame): ------
