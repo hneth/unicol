@@ -1,11 +1,11 @@
 
-# unicol 0.1.0.9010
+# unicol 0.1.0.9011
 
 This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
 
 This version adds and updates some color palettes, but also improves consistency, simplicity, and fixes some bugs. 
 
-The **unicol** package currently provides **226\ color palettes** from **96\ institutions**. 
+The **unicol** package currently provides **227\ color palettes** from **97\ institutions**. 
 
 <!-- Log of changes: --> 
 
@@ -22,6 +22,7 @@ Changes since last release:
     - [University of Auckland](https://www.auckland.ac.nz): `auckland_1`, `auckland_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
+    - [University of Otago](https://www.otago.ac.nz): `otago` 
     - [University of Nottingham](https://www.nottingham.ac.uk): `nottingham_1`, `nottingham_2`, `nottingham_3`
     - [University of Wollongong](https://www.uow.edu.au): `wollongong_1`, `wollongong_2` 
     - [Willamette University](https://willamette.edu): `willamette` 
@@ -67,6 +68,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-07.] 
+[File `NEWS.md` updated on 2023-09-08.] 
 
 <!-- eof. -->
