@@ -425,8 +425,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 # Collect all_data (as data frame): ------
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
-# dim(all_data)  # 202 4  2023-08-15
-# dim(all_data)  # 226 4  2023-09-07
+# dim(all_data)  # 202 4  2023-08-16
+# dim(all_data)  # 227 4  2023-09-07
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -471,10 +471,10 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-07:
-# length(all_data$pal)           #  226 color palettes
-# length(unique(all_data$inst))  #   96 institutions
-# sum(n_cols)                    # 1519 colors
+# # On 2023-09-08:
+# length(all_data$pal)           #  227 color palettes
+# length(unique(all_data$inst))  #   97 institutions
+# sum(n_cols)                    # 1523 colors
 
 
 # Export as unicol_data (as data frame): ------
