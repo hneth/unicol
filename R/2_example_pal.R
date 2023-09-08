@@ -1,4 +1,4 @@
-## example_pal.R | 2023 09 07
+## example_pal.R | 2023 09 08
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
@@ -8,19 +8,19 @@
 
 # cur_pals: "example" (1)
 
-# inst: "University of Example" (in English)
-# inst_alt: "Universit\u00E4t des Beispiels" (in source language)
-# inst_URL: <https://www.example.org> (URL of institution)
-# country: USA 
+# inst: "University of Example" (en)
+# inst_alt: "Universit\u00E4t des Beispiels" (source language / abbr)
+# inst_URL: <https://www.example.org> (URL)
+# country: ABBR
 
 # Color source:
 
 # color_URL: Visual identity and brand guidelines at 
 # <https://example.org>
-# Last check: 2023-09-07
+# Last check: 2023-09-08
 
 # Author information:
-# unicol, 2023-09-07
+# unicol, 2023-09-08
 
 
 # Colors: ------
@@ -56,16 +56,16 @@ col_4 <- "black"    # "too dark"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-09-07.
+#' \strong{unicol}, 2023-09-08.
 #'
 #' @source 
 #' Color definitions are based on the 
-#' \href{https://example.org}{color source (HTML or PDF)}.
+#' \href{https://example.org}{doc title (HTML or PDF)}.
 #'
 #' @examples
 #' example
-#' unikn::seecol(example, main = "Colors of the University of Example 1") # view color palette
-#' unikn::demopal(example, main = "Illustrating the colors of Example 1") # demo color palette 
+#' unikn::seecol(example, main = "Colors of the University of Example #") # view color palette
+#' unikn::demopal(example, main = "Illustrating the colors of Example #") # demo color palette 
 #' 
 #' @family university color palettes
 #'
