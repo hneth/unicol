@@ -23,9 +23,9 @@ of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 }
 \details{
 The 5 primary colors are
-\code{"maroon"} (defined as HEX #a80050), 
-\code{"deep_maroon"} (defined as HEX #84003d), 
-\code{"magenta"} (defined as HEX #e6007e), 
+\code{"Galway maroon"} (defined as HEX #a80050), 
+\code{"Galway deep maroon"} (defined as HEX #84003d), 
+\code{"Galway magenta"} (defined as HEX #e6007e), 
 \code{"black"} (defined as HEX #000000), and 
 \code{"white"} (defined as HEX #ffffff). 
 
@@ -33,7 +33,7 @@ The 5 primary colors are
 }
 \examples{
 galway_1
-unikn::seecol(galway_1, main = "University of Galway 1") # view color palette.
+unikn::seecol(galway_1, main = "University of Galway 1", col_bg = "lightgrey") # view palette
 
 }
 \seealso{

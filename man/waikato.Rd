@@ -48,7 +48,8 @@ unikn::seecol(waikato, main = "Colors of the University of Waikato") # view colo
 
 Other New Zealand university color palettes: 
 \code{\link{auckland_1}},
-\code{\link{auckland_2}}
+\code{\link{auckland_2}},
+\code{\link{otago}}
 }
 \author{
 \strong{unicol}, 2023-07-05.

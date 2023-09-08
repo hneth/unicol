@@ -44,6 +44,7 @@ unikn::seecol(auckland_1, main = "Web colour range of the University of Auckland
 
 Other New Zealand university color palettes: 
 \code{\link{auckland_2}},
+\code{\link{otago}},
 \code{\link{waikato}}
 }
 \author{

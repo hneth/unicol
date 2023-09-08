@@ -23,9 +23,9 @@ of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 }
 \details{
 The 4 primary colours are
-\code{"ul_green"} (defined as HEX #005335), 
-\code{"ul_modern_green"} (defined as HEX #00B140), 
-\code{"ul_heritage_green"} (defined as HEX #003726), 
+\code{"UL green"} (defined as HEX #005335), 
+\code{"UL modern green"} (defined as HEX #00B140), 
+\code{"UL heritage green"} (defined as HEX #003726), 
 \code{"white"} (defined as HEX #FFFFFF). 
 
 \code{limerick_1} uses the HEX colour definitions.

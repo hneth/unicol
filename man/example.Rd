@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the 
-\href{https://example.org}{color source (HTML or PDF)}.
+\href{https://example.org}{doc title (HTML or PDF)}.
 }
 \usage{
 example
@@ -32,8 +32,8 @@ The 4 primary colors of the University of Example are
 }
 \examples{
 example
-unikn::seecol(example, main = "Colors of the University of Example 1") # view color palette
-unikn::demopal(example, main = "Illustrating the colors of Example 1") # demo color palette 
+unikn::seecol(example, main = "Colors of the University of Example #") # view color palette
+unikn::demopal(example, main = "Illustrating the colors of Example #") # demo color palette 
 
 }
 \seealso{
@@ -44,7 +44,7 @@ unikn::demopal(example, main = "Illustrating the colors of Example 1") # demo co
 \code{\link{grepal}} for finding named colors.
 }
 \author{
-\strong{unicol}, 2023-09-07.
+\strong{unicol}, 2023-09-08.
 }
 \concept{university color palettes}
 \keyword{datasets}

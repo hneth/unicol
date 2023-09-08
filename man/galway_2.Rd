@@ -23,18 +23,18 @@ of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 }
 \details{
 The 14 secondary colors are
-\code{"aqua_marine"} (defined as HEX #00b1ba),
-\code{"ocean_blue"} (defined as HEX #0080a3),
-\code{"spring_green"} (defined as HEX #00bf6f),
-\code{"lime_green"} (defined as HEX #c5e86c), 
+\code{"aqua marine"} (defined as HEX #00b1ba),
+\code{"ocean blue"} (defined as HEX #0080a3),
+\code{"spring green"} (defined as HEX #00bf6f),
+\code{"lime green"} (defined as HEX #c5e86c), 
 \code{"orange"} (defined as HEX #f58e2f), 
 \code{"rose"} (defined as HEX #e30044), 
 \code{"yellow"} (defined as HEX #ffc72b), 
-\code{"deep_orchid"} (defined as HEX #c4299b), 
-\code{"lavender_pink"} (defined as HEX #e66eb2), 
+\code{"deep orchid"} (defined as HEX #c4299b), 
+\code{"lavender pink"} (defined as HEX #e66eb2), 
 \code{"violet"} (defined as HEX #753abd), 
 \code{"ash"} (defined as HEX #5e514d), 
-\code{"warm_stone"} (defined as HEX #94795d), 
+\code{"warm stone"} (defined as HEX #94795d), 
 \code{"sandstone"} (defined as HEX #c4c0b7), and 
 \code{"black"} (defined as HEX #000000). 
 

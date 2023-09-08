@@ -32,7 +32,7 @@ The 12 secondary colors are
 \code{"pumpkin"} (defined as HEX #D45D00), 
 \code{"munster"} (defined as HEX #CB333B), 
 \code{"salmon"} (defined as HEX #E31C79), 
-\code{"autumnal_leaf"} (defined as HEX #6F263D), 
+\code{"autumnal leaf"} (defined as HEX #6F263D), 
 \code{"copper"} (defined as HEX #89532F), 
 \code{"bronze"} (defined as HEX #7e5c4d), 
 \code{"white"} (defined as HEX #FFFFFF), 
