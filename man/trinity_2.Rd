@@ -52,6 +52,8 @@ unikn::seecol(trinity_2[main_cols],
 \code{\link{grepal}} for finding named colors.
 
 Other Irish university color palettes: 
+\code{\link{UCC_1}},
+\code{\link{UCC_2}},
 \code{\link{galway_1}},
 \code{\link{galway_2}},
 \code{\link{limerick_1}},

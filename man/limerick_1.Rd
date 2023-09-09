@@ -44,6 +44,8 @@ unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palett
 \code{\link{grepal}} for finding named colors.
 
 Other Irish university color palettes: 
+\code{\link{UCC_1}},
+\code{\link{UCC_2}},
 \code{\link{galway_1}},
 \code{\link{galway_2}},
 \code{\link{limerick_2}},
