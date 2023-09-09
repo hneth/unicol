@@ -15,7 +15,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9012 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.1.0.9013 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -79,8 +79,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **228 color palettes** from
-**98 institutions**.
+The **unicol** package currently provides **230 color palettes** from
+**99 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
@@ -92,18 +92,18 @@ palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **228\ color palettes** from **98\ institutions**.  -->
+<!-- The **unicol** package currently contains **230\ color palettes** from **99\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 256 colors):
+**Figure 1** illustrates 50 random color palettes (with 244 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 256 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 244 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 256 colors).
+Figure 1: A sample of 50 unicol palettes (containing 244 colors).
 </p>
 
 </div>
