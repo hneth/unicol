@@ -60,6 +60,7 @@ Other Irish university color palettes:
 \code{\link{galway_1}},
 \code{\link{galway_2}},
 \code{\link{limerick_1}},
+\code{\link{maynooth}},
 \code{\link{trinity_1}},
 \code{\link{trinity_2}}
 }
