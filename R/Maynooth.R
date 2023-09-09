@@ -22,7 +22,7 @@
 # unicol, 2023-09-09
 
 
-# Colors: ------
+# Colors: ------ 
 
 # Color definitions: 
 
@@ -59,7 +59,7 @@ color_maynooth <- c("#003771", "#F0AB00", "#006778", "#822327")
 names_maynooth <- c("Pantone 294", "Pantone 130", "Pantone 3145", "Pantone 202")
 
 
-# Color palette(s):
+# Color palette(s): 
 
 # - maynooth: Primary example pal ------
 
@@ -72,13 +72,13 @@ names_maynooth <- c("Pantone 294", "Pantone 130", "Pantone 3145", "Pantone 202")
 #' \code{PANTONE 294}, defined as CMYK 100.65.0.31, RGB 0.55.113, or HEX "#003771", 
 #' \code{PANTONE 130}, defined as CMYK 0.30.100.6, RGB 240.171.0, or HEX "#F0AB00", 
 #' \code{PANTONE 3145}, defined as CMYK 100.0.30.31, RGB 0.103.120, or HEX "#006778", and 
-#' \code{PANTONE 202}, defined as CMYK 10.100.61.50, RGB: 130.35.39, or HEX: "#822327".
+#' \code{PANTONE 202}, defined as CMYK 10.100.61.50, RGB 130.35.39, or HEX "#822327".
 #'
 #' \code{maynooth} uses the HEX color definitions. 
 #'
 #' @details
-#' A set of colours have been selected for the \href{https://www.maynoothuniversity.ie}{Maynooth University} logo. 
-#' These colours must be used when reproducing the logo in colour.
+#' A set of colours have been selected for the \href{https://www.maynoothuniversity.ie}{Maynooth University} logo 
+#' and must be used when reproducing the logo in colour.
 #' 
 #' These colours and tints of these colours may be used on \href{https://www.maynoothuniversity.ie}{Maynooth University} applications.
 #'
@@ -89,8 +89,8 @@ names_maynooth <- c("Pantone 294", "Pantone 130", "Pantone 3145", "Pantone 202")
 #' \strong{unicol}, 2023-09-09.
 #'
 #' @source 
-#' Colour definitions are based on p. 25 of \href{https://www.maynoothuniversity.ie}{MU's} 
-#' \href{https://www.maynoothuniversity.ie/sites/default/files/assets/document/M12454%20MU%20Brand%20Guidelines%202021%20AW.pdf}{Identity guidelines (2021)}.
+#' Colour definitions are based on 
+#' \href{https://www.maynoothuniversity.ie}{MU}'s Brand identity guide (2021, PDF, p. 25).
 #'
 #' @examples
 #' maynooth
