@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 08
+## all_pals.R | 2022 09 09
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -106,7 +106,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "mq_1", "mq_2",
               "wollongong_1", "wollongong_2",
               "auckland_1", "auckland_2",
-              "otago"
+              "otago",
+              "maynooth"
 )
 
 
@@ -213,7 +214,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Macquarie University", 2),
           rep("University of Wollongong", 2),
           rep("University of Auckland", 2),
-          "University of Otago"
+          "University of Otago",
+          "National University of Ireland Maynooth"
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -315,7 +317,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Macquarie, MQ", 2),
               rep("Wollongong, UOW", 2),
               rep("Waipapa Taumata Rau / UOA", 2),
-              "Te Whare Wananga o Otakou"
+              "Te Whare Wananga o Otakou",
+              "Ollscoil Mha Nuad / Maynooth University / MU"
 )
 
 # Valid URL: 
@@ -417,7 +420,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.mq.edu.au", 2),
          rep("https://www.uow.edu.au", 2),
          rep("https://www.auckland.ac.nz", 2),
-         "https://www.otago.ac.nz"
+         "https://www.otago.ac.nz",
+         "https://www.maynoothuniversity.ie"
 )
 
 
