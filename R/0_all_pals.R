@@ -107,7 +107,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "wollongong_1", "wollongong_2",
               "auckland_1", "auckland_2",
               "otago",
-              "maynooth"
+              "maynooth",
+              "UCC_1", "UCC_2"
 )
 
 
@@ -215,7 +216,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Wollongong", 2),
           rep("University of Auckland", 2),
           "University of Otago",
-          "National University of Ireland Maynooth"
+          "National University of Ireland Maynooth",
+          rep("University College Cork", 2)
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -318,7 +320,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Wollongong, UOW", 2),
               rep("Waipapa Taumata Rau / UOA", 2),
               "Te Whare Wananga o Otakou",
-              "Ollscoil Mha Nuad / Maynooth University / MU"
+              "Ollscoil Mha Nuad / Maynooth University / MU",
+              rep("Colaiste na hOllscoile Corcaigh / UCC", 2)
 )
 
 # Valid URL: 
@@ -421,7 +424,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.uow.edu.au", 2),
          rep("https://www.auckland.ac.nz", 2),
          "https://www.otago.ac.nz",
-         "https://www.maynoothuniversity.ie"
+         "https://www.maynoothuniversity.ie",
+         rep("https://www.ucc.ie", 2)
 )
 
 
