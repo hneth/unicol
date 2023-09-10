@@ -1,10 +1,10 @@
-## Cork.R | 2023 09 09
+## Cork.R | 2023 09 10
 ## Colours of the University College Cork, Ireland
 ## -----------------------------------------------
 
 # Information: ------
 
-# cur_pals: "example" (1)
+# cur_pals: "UCC_1", "UCC_2" (2)
 
 # inst: "University College Cork"
 # inst_alt: "Coláiste na hOllscoile Corcaigh / UCC"
