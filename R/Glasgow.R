@@ -1,15 +1,13 @@
-## Glasgow.R | 2023 08 21
-## Colors of the University of Glasgow, Scotland
-## ---------------------------------------------
+## Glasgow.R | 2023 09 11
+## Colours of the University of Glasgow, Scotland
+## ----------------------------------------------
 
 # Information: 
-
 
 # cur_pals: "glasgow_1", "glasgow_2" (2)
 # inst: "University of Glasgow"
 # country: Scotland
 # URL: "https://www.gla.ac.uk"
-
 
 # Color source:
 # URL: https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/
@@ -17,28 +15,27 @@
 
 # Color palettes:
 
+# glasgow_1: Primary colours of Glasgow ----
 
-# glasgow_1: Primary colors of Glasgow ----
 
-
-#' Primary colors of the University of Glasgow, Scotland 
+#' Primary colours of the University of Glasgow, Scotland 
 #'
-#' \code{glasgow_1} provides the 12 primary colors 
-#' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
+#' \code{glasgow_1} provides the 12 primary colours 
+#' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland, UK.
 #'
-#' The 12 primary colors are
-#' \code{"glasgow_university_blue"} (defined as HEX #003865),
-#' \code{"glasgow_burgundy"} (defined as HEX #7D2239),
-#' \code{"glasgow_cobalt"} (defined as HEX #005C8A),
-#' \code{"glasgow_lavender"} (defined as HEX #5B4D94),
-#' \code{"glasgow_leaf"} (defined as HEX #006630),
-#' \code{"glasgow_moss"} (defined as HEX #385A4F),
-#' \code{"glasgow_pillarbox"} (defined as HEX #B30C00),
-#' \code{"glasgow_rust"} (defined as HEX #9A3A06),
-#' \code{"glasgow_sandstone"} (defined as HEX #52473B),
-#' \code{"glasgow_sky_blue"} (defined as HEX #005398),
-#' \code{"glasgow_slate"} (defined as HEX #4F5961), and
-#' \code{"glasgow_thistle"} (defined as HEX #951272).
+#' The 12 primary colours are
+#' \code{"Glasgow University blue"} (defined as HEX #003865),
+#' \code{"Glasgow burgundy"} (defined as HEX #7D2239),
+#' \code{"Glasgow cobalt"} (defined as HEX #005C8A),
+#' \code{"Glasgow lavender"} (defined as HEX #5B4D94),
+#' \code{"Glasgow leaf"} (defined as HEX #006630),
+#' \code{"Glasgow moss"} (defined as HEX #385A4F),
+#' \code{"Glasgow pillarbox"} (defined as HEX #B30C00),
+#' \code{"Glasgow rust"} (defined as HEX #9A3A06),
+#' \code{"Glasgow sandstone"} (defined as HEX #52473B),
+#' \code{"Glasgow sky blue"} (defined as HEX #005398),
+#' \code{"Glasgow slate"} (defined as HEX #4F5961), and
+#' \code{"Glasgow thistle"} (defined as HEX #951272).
 #'
 #' \code{glasgow_1} uses the HEX color definitions.
 #'
@@ -49,7 +46,7 @@
 #' \strong{unicol}, 2023-07-05.
 #'
 #' @source
-#' Color definitions are based on 
+#' Colour definitions are based on 
 #' \href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}. 
 #'
 #' @examples  
@@ -59,7 +56,7 @@
 #' @family Scottish university of color palettes
 #'
 #' @seealso
-#' \code{\link{glasgow_2}} for secondary colors of the University of Glasgow;
+#' \code{\link{glasgow_2}} for secondary colours of the University of Glasgow;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -70,30 +67,30 @@
 
 glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94", "#006630", "#385A4F",
                                    "#B30C00", "#9A3A06", "#52473B", "#005398", "#4F5961", "#951272"), 
-                           names = c("glasgow_university_blue", "glasgow_burgundy", "glasgow_cobalt", 
-                                     "glasgow_lavender", "glasgow_leaf", "glasgow_moss",
-                                     "glasgow_pillarbox", "glasgow_rust", "glasgow_sandstone", 
-                                     "glasgow_sky_blue", "glasgow_slate", "glasgow_thistle"), 
+                           names = c("Glasgow University blue", "Glasgow burgundy", "Glasgow cobalt", 
+                                     "Glasgow lavender", "Glasgow leaf", "Glasgow moss",
+                                     "Glasgow pillarbox", "Glasgow rust", "Glasgow sandstone", 
+                                     "Glasgow sky blue", "Glasgow slate", "Glasgow thistle"), 
                            as_df = FALSE)
 
 
 
-# glasgow_2: Secondary colors ----
+# glasgow_2: Secondary colours ----
 
 
-#' Secondary colors of the University of Glasgow, Scotland
+#' Secondary colours of the University of Glasgow, Scotland
 #'
-#' \code{glasgow_2} provides the 5 secondary colors 
-#' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland. 
+#' \code{glasgow_2} provides the five secondary colours 
+#' of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland, UK. 
 #'
-#' The 5 secondary colors are 
-#' \code{"glasgow_turquoise"} (defined as R0 G181 B209),
-#' \code{"glasgow_rose"} (defined as R176 G108 B150),
-#' \code{"glasgow_pumpkin"} (defined as R255 G185 B72),
-#' \code{"glasgow_sunshine"} (defined as R255 G220 B54), and
-#' \code{"glasgow_mocha"} (defined as R170 G128 B102).
+#' The 5 secondary colours are 
+#' \code{"Glasgow turquoise"} (defined as R0 G181 B209),
+#' \code{"Glasgow rose"} (defined as R176 G108 B150),
+#' \code{"Glasgow pumpkin"} (defined as R255 G185 B72),
+#' \code{"Glasgow sunshine"} (defined as R255 G220 B54), and
+#' \code{"Glasgow mocha"} (defined as R170 G128 B102).
 #'
-#' \code{glasgow_2} uses the RGB color definition.
+#' \code{glasgow_2} uses the RGB colour definitions.
 #'
 #' @return
 #' A named vector of colors (RGB/HTML codes of type character).
@@ -112,7 +109,7 @@ glasgow_1 <- unikn::newpal(col = c("#003865", "#7D2239", "#005C8A", "#5B4D94", "
 #' @family Scottish university of color palettes
 #'
 #' @seealso
-#' \code{\link{glasgow_1}} for primary colors of the University of Glasgow;
+#' \code{\link{glasgow_1}} for primary colours of the University of Glasgow;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -126,11 +123,11 @@ glasgow_2 <- unikn::newpal(col = c(rgb(  0, 181, 209, maxColorValue = 255),
                                    rgb(255, 185,  72, maxColorValue = 255), 
                                    rgb(255, 220,  54, maxColorValue = 255), 
                                    rgb(170, 128, 102, maxColorValue = 255)), 
-                           names = c("glasgow_turquoise", 
-                                     "glasgow_rose",
-                                     "glasgow_pumpkin", 
-                                     "glasgow_sunshine", 
-                                     "glasgow_mocha"), 
+                           names = c("Glasgow turquoise", 
+                                     "Glasgow rose",
+                                     "Glasgow pumpkin", 
+                                     "Glasgow sunshine", 
+                                     "Glasgow mocha"), 
                            as_df = FALSE)
 
 ## Check:
