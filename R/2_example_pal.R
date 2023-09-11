@@ -1,4 +1,4 @@
-## .R | 2023 09 10
+## .R | 2023 09 11
 ## Colors of the University of Example, Country 
 ## --------------------------------------------
 
@@ -20,7 +20,7 @@
 # Last check: 2023-09-10
 
 # Author information:
-# unicol, 2023-09-10
+# unicol, 2023-09-11
 
 
 # Colors: ------
@@ -56,7 +56,7 @@ col_4 <- "black"    # "too dark"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-09-10.
+#' \strong{unicol}, 2023-09-11.
 #'
 #' @source 
 #' Color definitions are based on the 
