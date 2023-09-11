@@ -56,6 +56,8 @@ unikn::seecol(cardiff_1, main = "Primary colours of Cardiff University (w/8 tint
 \code{\link{grepal}} for finding named colors.
 
 Other Welsh university color palettes: 
+\code{\link{aberystwyth_1}},
+\code{\link{aberystwyth_2}},
 \code{\link{cardiff_2}}
 }
 \author{
