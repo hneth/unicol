@@ -27,7 +27,7 @@
 
 # Corporate Colours 
 
-# Aberystwyth University’s primary colour pallete retains the historical ethos of Aberystwyth which is important to the brand.
+# Aberystwyth University's primary colour pallete retains the historical ethos of Aberystwyth which is important to the brand.
 
 # The colours are confident and strong and help Aberystwyth retain its image as a reputable, 
 # internationally-recognised research-based university.
@@ -101,7 +101,7 @@ names_aberystwyth_1 <- c("Yellow", "Navy")
 
 color_aberystwyth_2 <- c("#3c747a", "#575756", "#77b1ce", 
                          "#ee7633", "#c12936", "#2e945d") 
-names_aberystwyth_2 <- c("Teal", "Grey", "Light_Blue", 
+names_aberystwyth_2 <- c("Teal", "Grey", "Light blue", 
                          "Orange", "Red", "Green")
 
 
@@ -123,7 +123,7 @@ names_aberystwyth_2 <- c("Teal", "Grey", "Light_Blue",
 #' \code{aberystwyth_1} uses the HEX color definitions. 
 #' 
 #' @details
-#' \href{https://www.aber.ac.uk}{Aberystwyth University}’s primary colour palette 
+#' \href{https://www.aber.ac.uk}{Aberystwyth University}'s primary colour palette 
 #' retains the historical ethos of Aberystwyth which is important to the brand.
 #' 
 #' The colours are confident and strong and help Aberystwyth retain its image 

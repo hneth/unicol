@@ -31,7 +31,7 @@ RGB 36 39 83, or HEX "#242753".
 \code{aberystwyth_1} uses the HEX color definitions.
 
 
-\href{https://www.aber.ac.uk}{Aberystwyth University}’s primary colour palette 
+\href{https://www.aber.ac.uk}{Aberystwyth University}'s primary colour palette 
 retains the historical ethos of Aberystwyth which is important to the brand.
 
 The colours are confident and strong and help Aberystwyth retain its image 
