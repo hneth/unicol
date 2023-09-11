@@ -3,7 +3,7 @@
 \docType{data}
 \name{glasgow_2}
 \alias{glasgow_2}
-\title{Secondary colors of the University of Glasgow, Scotland}
+\title{Secondary colours of the University of Glasgow, Scotland}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -18,18 +18,18 @@ glasgow_2
 A named vector of colors (RGB/HTML codes of type character).
 }
 \description{
-\code{glasgow_2} provides the 5 secondary colors 
-of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
+\code{glasgow_2} provides the five secondary colours 
+of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland, UK.
 }
 \details{
-The 5 secondary colors are 
-\code{"glasgow_turquoise"} (defined as R0 G181 B209),
-\code{"glasgow_rose"} (defined as R176 G108 B150),
-\code{"glasgow_pumpkin"} (defined as R255 G185 B72),
-\code{"glasgow_sunshine"} (defined as R255 G220 B54), and
-\code{"glasgow_mocha"} (defined as R170 G128 B102).
+The 5 secondary colours are 
+\code{"Glasgow turquoise"} (defined as R0 G181 B209),
+\code{"Glasgow rose"} (defined as R176 G108 B150),
+\code{"Glasgow pumpkin"} (defined as R255 G185 B72),
+\code{"Glasgow sunshine"} (defined as R255 G220 B54), and
+\code{"Glasgow mocha"} (defined as R170 G128 B102).
 
-\code{glasgow_2} uses the RGB color definition.
+\code{glasgow_2} uses the RGB colour definitions.
 }
 \examples{
 glasgow_2
@@ -37,7 +37,7 @@ unikn::seecol(glasgow_2, main = "University of Glasgow 2") # view color palette
 
 }
 \seealso{
-\code{\link{glasgow_1}} for primary colors of the University of Glasgow;
+\code{\link{glasgow_1}} for primary colours of the University of Glasgow;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

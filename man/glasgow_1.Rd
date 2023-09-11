@@ -3,12 +3,12 @@
 \docType{data}
 \name{glasgow_1}
 \alias{glasgow_1}
-\title{Primary colors of the University of Glasgow, Scotland}
+\title{Primary colours of the University of Glasgow, Scotland}
 \format{
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on 
+Colour definitions are based on 
 \href{https://www.gla.ac.uk/myglasgow/staff/brandtoolkit/brandelements/colours/}{UGlasgow's website}.
 }
 \usage{
@@ -18,23 +18,23 @@ glasgow_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{glasgow_1} provides the 12 primary colors 
-of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland.
+\code{glasgow_1} provides the 12 primary colours 
+of the \href{https://www.gla.ac.uk/}{University of Glasgow}, Scotland, UK.
 }
 \details{
-The 12 primary colors are
-\code{"glasgow_university_blue"} (defined as HEX #003865),
-\code{"glasgow_burgundy"} (defined as HEX #7D2239),
-\code{"glasgow_cobalt"} (defined as HEX #005C8A),
-\code{"glasgow_lavender"} (defined as HEX #5B4D94),
-\code{"glasgow_leaf"} (defined as HEX #006630),
-\code{"glasgow_moss"} (defined as HEX #385A4F),
-\code{"glasgow_pillarbox"} (defined as HEX #B30C00),
-\code{"glasgow_rust"} (defined as HEX #9A3A06),
-\code{"glasgow_sandstone"} (defined as HEX #52473B),
-\code{"glasgow_sky_blue"} (defined as HEX #005398),
-\code{"glasgow_slate"} (defined as HEX #4F5961), and
-\code{"glasgow_thistle"} (defined as HEX #951272).
+The 12 primary colours are
+\code{"Glasgow University blue"} (defined as HEX #003865),
+\code{"Glasgow burgundy"} (defined as HEX #7D2239),
+\code{"Glasgow cobalt"} (defined as HEX #005C8A),
+\code{"Glasgow lavender"} (defined as HEX #5B4D94),
+\code{"Glasgow leaf"} (defined as HEX #006630),
+\code{"Glasgow moss"} (defined as HEX #385A4F),
+\code{"Glasgow pillarbox"} (defined as HEX #B30C00),
+\code{"Glasgow rust"} (defined as HEX #9A3A06),
+\code{"Glasgow sandstone"} (defined as HEX #52473B),
+\code{"Glasgow sky blue"} (defined as HEX #005398),
+\code{"Glasgow slate"} (defined as HEX #4F5961), and
+\code{"Glasgow thistle"} (defined as HEX #951272).
 
 \code{glasgow_1} uses the HEX color definitions.
 }
@@ -45,7 +45,7 @@ unikn::seecol(glasgow_1, main = "University of Glasgow 1") # view color palette
 
 }
 \seealso{
-\code{\link{glasgow_2}} for secondary colors of the University of Glasgow;
+\code{\link{glasgow_2}} for secondary colours of the University of Glasgow;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
