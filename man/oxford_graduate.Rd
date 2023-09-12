@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_graduate}
 \alias{oxford_graduate}
-\title{Graduate country page colours of University of Oxford, UK}
+\title{Graduate country page colours of University of Oxford, England, UK}
 \format{
 An object of class \code{character} of length 12.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_graduate} provides the twelve graduate country page colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 }
 \details{
 The 23 graduate country page colours are
@@ -56,8 +56,8 @@ unikn::seecol(oxford_graduate,
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
 \code{\link{oxford_blog}},
@@ -72,5 +72,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}

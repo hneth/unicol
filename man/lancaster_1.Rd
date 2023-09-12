@@ -3,7 +3,7 @@
 \docType{data}
 \name{lancaster_1}
 \alias{lancaster_1}
-\title{Primary colours of the Lancaster University, UK}
+\title{Primary colours of the Lancaster University, England, UK}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{lancaster_1} provides the three Primary colours 
-of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
+of \href{https://www.lancaster.ac.uk}{Lancaster University}, England, UK.
 }
 \details{
 The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster University} are
@@ -43,8 +43,8 @@ unikn::seecol(lancaster_1, main = "Primary colours of Lancaster University", col
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_2}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
@@ -59,5 +59,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-07-04.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}

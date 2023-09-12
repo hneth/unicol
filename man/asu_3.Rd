@@ -23,15 +23,15 @@ of the \href{https://www.asu.edu}{Arizona State University}, USA.
 }
 \details{
 The 9 grayscale colors are 
-\code{"asu_black"} (defined as HEX #000000),
-\code{"gray1"} (defined as HEX #191919),
-\code{"gray2"} (defined as HEX #484848),
-\code{"asu_gray"} (defined as HEX #747474), 
-\code{"gray4"} (defined as HEX #BFBFBF), 
-\code{"gray5"} (defined as HEX #D0D0D0), 
-\code{"gray6"} (defined as HEX #E8E8E8), 
-\code{"gray7"} (defined as HEX #FAFAFA), and 
-\code{"asu_white"} (defined as HEX #FFFFFF). 
+\code{"black"} (defined as HEX #000000),
+\code{"gray 1"} (defined as HEX #191919),
+\code{"gray 2"} (defined as HEX #484848),
+\code{"ASU gray"} (defined as HEX #747474), 
+\code{"gray 4"} (defined as HEX #BFBFBF), 
+\code{"gray 5"} (defined as HEX #D0D0D0), 
+\code{"gray 6"} (defined as HEX #E8E8E8), 
+\code{"gray 7"} (defined as HEX #FAFAFA), and 
+\code{"white"} (defined as HEX #FFFFFF). 
 
 \code{asu_3} uses the HEX color definitions.
 }

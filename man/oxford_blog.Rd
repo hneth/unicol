@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_blog}
 \alias{oxford_blog}
-\title{Custom blog colours of University of Oxford, UK}
+\title{Custom blog colours of University of Oxford, England, UK}
 \format{
 An object of class \code{character} of length 6.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_blog} provides the six custom blog colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 }
 \details{
 The 6 custom blog colours are
@@ -49,8 +49,8 @@ unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colou
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
 \code{\link{oxford_brand}},
@@ -65,5 +65,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}

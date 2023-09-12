@@ -3,7 +3,7 @@
 \docType{data}
 \name{oxford_brand}
 \alias{oxford_brand}
-\title{Brand colours of University of Oxford, UK}
+\title{Brand colours of University of Oxford, England, UK}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{oxford_brand} provides the four brand colours 
-of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 }
 \details{
 The (dark) Oxford blue is used primarily in general page furniture 
@@ -55,8 +55,8 @@ unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour pal
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
 \code{\link{oxford_blog}},
@@ -71,5 +71,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-06-15.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}

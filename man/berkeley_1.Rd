@@ -3,7 +3,7 @@
 \docType{data}
 \name{berkeley_1}
 \alias{berkeley_1}
-\title{Primary colors of Berkeley, University of California}
+\title{Primary colors of Berkeley, University of California, USA}
 \format{
 An object of class \code{character} of length 4.
 }
@@ -24,9 +24,9 @@ of the \href{https://www.berkeley.edu}{Berkeley, University of California}, USA.
 \details{
 The primary palette is broken into heritage and alternate heritage colors.
 Primary colors are
-\code{"berkeley_blue"} (defined as HEX #003262, CMYK 100/71/10/47, Pantone 282),
-\code{"california_gold"} (defined as HEX #FDB515, CMYK 0/32/100/0, Pantone 123),
-\code{"founders_rock"} (defined as HEX #3B7EA1, CMYK 76/34/21/0, Pantone 7697) and
+\code{"Berkeley blue"} (defined as HEX #003262, CMYK 100/71/10/47, Pantone 282),
+\code{"California gold"} (defined as HEX #FDB515, CMYK 0/32/100/0, Pantone 123),
+\code{"founders rock"} (defined as HEX #3B7EA1, CMYK 76/34/21/0, Pantone 7697), and
 \code{"medalist"} (defined as HEX #C4820E, CMYK 0/34/98/12, Pantone 7550).
 }
 \examples{

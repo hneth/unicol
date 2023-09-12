@@ -3,7 +3,7 @@
 \docType{data}
 \name{berkeley_2}
 \alias{berkeley_2}
-\title{Secondary colors of Berkeley, University of California}
+\title{Secondary colors of Berkeley, University of California, USA}
 \format{
 An object of class \code{character} of length 12.
 }
@@ -28,17 +28,17 @@ The following pages break down each column into individual colors and show ways 
 
 Secondary colors are
 \code{"neutrals"} (defined as HEX #D9661F, CMYK 0/69/98/12, Pantone 7416),
-\code{"bay_fog"} (defined as HEX #DDD5C7, CMYK 5/11/8/12, Pantone 434),
-\code{"sather_gate"} (defined as HEX #B9D3B6, CMYK 25/2/30/4, Pantone 558),
-\code{"rose_garden"} (defined as HEX #EE1F60, CMYK 0/98/46/0, Pantone 1925),
+\code{"bay fog"} (defined as HEX #DDD5C7, CMYK 5/11/8/12, Pantone 434),
+\code{"sather gate"} (defined as HEX #B9D3B6, CMYK 25/2/30/4, Pantone 558),
+\code{"rose garden"} (defined as HEX #EE1F60, CMYK 0/98/46/0, Pantone 1925),
 \code{"lawrence"} (defined as HEX #00B0DA, CMYK 79/0/6/5, Pantone 306),
 \code{"ion"} (defined as HEX #CFDD45, CMYK 23/0/89/0, Pantone 381),
-\code{"golden_gate"} (defined as HEX #ED4E33, CMYK 1/85/88/0, Pantone 7417),
-\code{"lap_lane"} (defined as HEX #00A598, CMYK 81/0/39/0, Pantone 326),
+\code{"golden gate"} (defined as HEX #ED4E33, CMYK 1/85/88/0, Pantone 7417),
+\code{"lap lane"} (defined as HEX #00A598, CMYK 81/0/39/0, Pantone 326),
 \code{"soybean"} (defined as HEX #859438, CMYK 17/0/88/39, Pantone 7746),
-\code{"south_hall"} (defined as HEX #6C3302, CMYK 11/68/95/62, Pantone 7602),
-\code{"pacific"} (defined as HEX #46535E, CMYK 45/25/16/59, Pantone 431) and
-\code{"stone_pine"} (defined as HEX #584F29, CMYK 40/40/80/55, Pantone 450).
+\code{"south hall"} (defined as HEX #6C3302, CMYK 11/68/95/62, Pantone 7602),
+\code{"pacific"} (defined as HEX #46535E, CMYK 45/25/16/59, Pantone 431), and
+\code{"stone pine"} (defined as HEX #584F29, CMYK 40/40/80/55, Pantone 450).
 }
 \examples{
 berkeley_2

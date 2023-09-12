@@ -23,10 +23,10 @@ of the \href{https://www.asu.edu}{Arizona State University}, USA.
 }
 \details{
 The 4 primary colors are
-\code{"asu_maroon"} (defined as HEX #8C1D40)
-\code{"asu_gold"} (defined as HEX #FFC627)
-\code{"asu_rich_black"} (defined as HEX #000000)
-\code{"asu_white"} (defined as HEX #FFFFFF)
+\code{"ASU maroon"} (defined as HEX #8C1D40), 
+\code{"ASU gold"} (defined as HEX #FFC627), 
+\code{"black"} (defined as HEX #000000), and 
+\code{"white"} (defined as HEX #FFFFFF). 
 
 \code{asu_1} uses the HEX color definitions.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{uni_manchester}
 \alias{uni_manchester}
-\title{Primary colours of the University of Manchester, UK}
+\title{Primary colours of the University of Manchester, England, UK}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_manchester} provides the three primary colours 
-of the \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK.
+of the \href{https://www.manchester.ac.uk}{University of Manchester}, England, UK.
 }
 \details{
 The three primary colours are
@@ -51,8 +51,8 @@ unikn::seecol(uni_manchester, main = "University of Manchester, UK") # view colo
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_1}},
 \code{\link{lancaster_2}},
 \code{\link{oxford_blog}},
@@ -67,5 +67,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-06-27.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{lancaster_2}
 \alias{lancaster_2}
-\title{Secondary colours of Lancaster University, UK}
+\title{Secondary colours of Lancaster University, England, UK}
 \format{
 An object of class \code{character} of length 19.
 }
@@ -18,14 +18,10 @@ lancaster_2
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
-certain applications. They too must be used carefully to compliment and 
-enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}.
+\code{lancaster_2} provides 19 secondary colours to complement the signature primary colours
+of the \href{https://www.lancaster.ac.uk}{Lancaster University}, England, UK.
 }
 \details{
-\code{lancaster_2} provides the twelve secondary colours to complement the signature Primary colours
-of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
-
 The 19 secondary colours are 
 \code{"Pantone 5555"} (defined as Hex:557869),
 \code{"Pantone 327"} (defined as Hex: 008375),
@@ -51,6 +47,12 @@ The 19 secondary colours are
 \code{"Pantone 7654"} (defined as Hex: A4769A).
 
 \code{lancaster_2} uses the HEX colour definitions.
+
+
+This palette can be used in combination with the primary colour palette 
+(see \code{\link{lancaster_1}}) to introduce subtlety and variety to 
+certain applications. They must be used carefully to compliment and 
+enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}.
 }
 \examples{
 lancaster_2
@@ -66,8 +68,8 @@ unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University")
 \code{\link{newpal}} for defining new colour palettes;
 \code{\link{grepal}} for finding named colours.
 
-Other U.K. university color palettes: 
-\code{\link{birmingham_1}},
+Other English university color palettes: 
+\code{\link{birmingham}},
 \code{\link{lancaster_1}},
 \code{\link{oxford_blog}},
 \code{\link{oxford_brand}},
@@ -82,5 +84,5 @@ Other U.K. university color palettes:
 \author{
 \strong{unicol}, 2023-06-27.
 }
-\concept{U.K. university color palettes}
+\concept{English university color palettes}
 \keyword{datasets}
