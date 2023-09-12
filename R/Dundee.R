@@ -1,4 +1,4 @@
-## Dundee.R | 2023 06 27
+## Dundee.R | 2023 09 12
 ## Colours of the University of Dundee, Scotland 
 ## ---------------------------------------------
 
@@ -21,20 +21,22 @@
 
 # - dundee_core: Core colour ------
 
-#' Core colours of University of Dundee, Scotland/UK 
+#' Core colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_core} provides the core colour 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
-#' 
-#' The central blue core colour is at the heart of our identity. 
-#' The University shield and wordmark can be reproduced in the core colour 
-#' and it can also be applied to icons and typography.
+#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK. 
 #'
 #' The core colour is 
-#' \code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
-#' \code{dundee_core} uses the HEX colour definition. 
+#' \code{Dundee core} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
+#' \code{Dundee core} uses the HEX colour definition. 
 #' Note that Pantone and CMYK colours differ from the RGB and HEX definition.
-#'
+#' 
+#' @details
+#' The central blue core colour is at the heart of \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+#' 
+#' The University shield and wordmark can be reproduced in the core colour 
+#' and it can also be applied to icons and typography.
+#' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
 #'
@@ -64,7 +66,7 @@
 #' @export
 
 dundee_core <- unikn::newpal(col = "#4365e2",
-                             names = "core",
+                             names = "Dundee core",
                              as_df = FALSE)
 
 # # Check: 
@@ -74,13 +76,10 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 
 # - dundee_highlight: Highlight colours ------
 
-#' Highlight colours of University of Dundee, Scotland/UK 
+#' Highlight colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_highlight} provides the highlight colours 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
-#' 
-#' Three complementary highlight colours have been specified to add vibrancy to the identity. 
-#' These colours can only be used for typography, icons or delicate line work.
+#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK. 
 #'
 #' The highlight colours are 
 #' \code{"highlight_1"} (defined as PANTONE 710C, CMYK 0/85/52/0, RGB 255/98/100, HEX #ff6264),
@@ -89,6 +88,10 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #'
 #' \code{dundee_highlight} uses the HEX colour definition. 
 #' Pantone and CMYK colours differ from RGB and HEX definition.
+#'
+#' @details
+#' Three complementary highlight colours have been specified to add vibrancy to the identity. 
+#' These colours can only be used for typography, icons or delicate line work.
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -127,13 +130,12 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 
 
 
-
 # - dundee_block: Block colours ------
 
-#' Block colours of University of Dundee, Scotland/UK 
+#' Block colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_block} provides the block colours 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
 #' 
 #' The block colours are intended for colouring larger flat spaces. 
 #' They are subtle and can be used behind photography without overpowering the images. 
@@ -147,7 +149,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' \code{"block_1"} (defined as PANTONE 427C, CMYK 8/4/9/10, RGB 221/217/214, HEX #ddd9d6),
 #' \code{"block_2"} (defined as PANTONE 7520C, CMYK 1/26/21/0, RGB 244/206/195, HEX #f4cec3),
 #' \code{"block_3"} (defined as PANTONE 7506C, CMYK 3/11/30/0, RGB 255/236/210, HEX #ffecd2),
-#' \code{"block_4"} (defined as PANTONE 2707C, CMYK 20/6/0/0, RGB 209/226/242, HEX #d1e2f2) and
+#' \code{"block_4"} (defined as PANTONE 2707C, CMYK 20/6/0/0, RGB 209/226/242, HEX #d1e2f2), and
 #' \code{"block_5"} (defined as PANTONE 2253C, CMYK 29/0/27/0, RGB 196/235/208, HEX #c4ebd0).
 #'
 #' \code{dundee_block} uses the HEX colour definition. 
@@ -223,7 +225,7 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #'
 #' @examples
 #' dundee_background
-#' unikn::seecol(dundee_background, main = "Dundee background colour") # view colour palette
+#' unikn::seecol(dundee_background, main = "Background colour of Dundee") # view colour palette
 #'
 #' @family Scottish university color palettes
 #'
@@ -244,7 +246,7 @@ dundee_background <- unikn::newpal(col = "#fffaf4",
                                    as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(dundee_background, main = "Dundee Background Colours", col_bg = "lightgrey")
+# unikn::seecol(dundee_background, main = "Dundee background colour", col_bg = "lightgrey")
 
 
 ## ToDo: -------- 

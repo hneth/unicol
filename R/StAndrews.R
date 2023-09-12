@@ -1,6 +1,6 @@
-## StAndrews.R | 2023 08 23
-## Colors of the University of St Andrews, Scotland
-## ------------------------------------------------
+## StAndrews.R | 2023 09 12
+## Colours of the University of St Andrews, Scotland
+## -------------------------------------------------
 
 # Information: ------
 
@@ -22,13 +22,13 @@
 #' Primary colours of the University of St Andrews, Scotland 
 #' 
 #' \code{standrews_1} provides the four primary colours 
-#' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland. 
+#' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland, UK. 
 #' 
 #' The 4 primary colors are 
-#' \code{"standrews_blue"} (defined as HEX #00539b), 
-#' \code{"standrews_red"} (defined as HEX #ee312a), 
-#' \code{"standrews_yellow"} (defined as HEX #ffdf00), and 
-#' \code{"standrews_black"} (defined as HEX #231f20). 
+#' \code{"StAndrews blue"} (defined as HEX #00539b), 
+#' \code{"StAndrews red"} (defined as HEX #ee312a), 
+#' \code{"StAndrews yellow"} (defined as HEX #ffdf00), and 
+#' \code{"StAndrews black"} (defined as HEX #231f20). 
 #'
 #' \code{standrews_1} uses the HEX colour definitions.
 #' 
@@ -59,7 +59,7 @@
 #' @export
 
 standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20"), 
-                             names = c("standrews_blue", "standrews_red", "standrews_yellow", "standrews_black"), 
+                             names = c("StAndrews blue", "StAndrews red", "StAndrews yellow", "StAndrews black"), 
                              as_df = FALSE)
 
 
@@ -73,14 +73,14 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland. 
 #' 
 #' The 8 secondary colours are 
-#' \code{"andrews_light_blue"} (defined as HEX #00aeef), 
-#' \code{"andrews_mid_blue"} (defined as HEX #007dc5),
-#' \code{"andrews_burgundy"} (defined as HEX #c60c46),
-#' \code{"andrews_purple"} (defined as HEX #7b439a)
-#' \code{"andrews_orange"} (defined as HEX #f5842b),
-#' \code{"andrews_green"} (defined as HEX #54b948), 
-#' \code{"andrews_mid_green"} (defined as HEX #00853f), and 
-#' \code{"andrews_dark_green"} (defined as HEX #005953).
+#' \code{"StAndrews light blue"} (defined as HEX #00aeef), 
+#' \code{"StAndrews mid blue"} (defined as HEX #007dc5),
+#' \code{"StAndrews burgundy"} (defined as HEX #c60c46),
+#' \code{"StAndrews purple"} (defined as HEX #7b439a)
+#' \code{"StAndrews orange"} (defined as HEX #f5842b),
+#' \code{"StAndrews green"} (defined as HEX #54b948), 
+#' \code{"StAndrews mid green"} (defined as HEX #00853f), and 
+#' \code{"StAndrews dark green"} (defined as HEX #005953).
 #' 
 #' \code{standrews_2} uses the HEX colour definitions. 
 #' 
@@ -112,8 +112,8 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 
 standrews_2 <- unikn::newpal(col = c("#00aeef", "#007dc5", "#c60c46", "#7b439a", 
                                      "#f5842b", "#54b948", "#00853f", "#005953"), 
-                             names = c("standrews_light_blue", "standrews_mid_blue", "standrews_burgundy", "standrews_purple", 
-                                       "standrews_orange", "standrews_green", "standrews_mid_green","standrews_dark_green"), 
+                             names = c("StAndrews light blue", "StAndrews mid blue", "StAndrews burgundy", "StAndrews purple", 
+                                       "StAndrews orange", "StAndrews green", "StAndrews mid green","StAndrews dark green"), 
                              as_df = FALSE)
 
 ## Check: 
