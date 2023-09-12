@@ -29,10 +29,10 @@
 
 # - uni_manchester: Primary colours of the University of Manchester, UK ------
 
-#' Primary colours of the University of Manchester, UK
+#' Primary colours of the University of Manchester, England, UK
 #'
 #' \code{uni_manchester} provides the three primary colours 
-#' of the \href{https://www.manchester.ac.uk}{University of Manchester}, England/UK.
+#' of the \href{https://www.manchester.ac.uk}{University of Manchester}, England, UK.
 #'
 #' The three primary colours are
 #' \code{"Purple"} (defined as C72 M100 Y0 K0, R109 G0 B157, HEX #660099),
@@ -63,7 +63,7 @@
 #' uni_manchester
 #' unikn::seecol(uni_manchester, main = "University of Manchester, UK") # view color palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA; 

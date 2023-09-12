@@ -21,10 +21,10 @@
 
 # - lancaster_1: Primary colours of Lancaster University ------
 
-#' Primary colours of the Lancaster University, UK 
+#' Primary colours of the Lancaster University, England, UK 
 #'
 #' \code{lancaster_1} provides the three Primary colours 
-#' of \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
+#' of \href{https://www.lancaster.ac.uk}{Lancaster University}, England, UK.
 #'
 #' The three primary colours of \href{https://www.lancaster.ac.uk}{Lancaster University} are
 #' \code{"Pantone 1807"} (defined as HEX: #b5121b)
@@ -48,7 +48,7 @@
 #' unikn::seecol(lancaster_1, main = "Primary colours of Lancaster University", col_bg = "white") 
 #' # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{lancaster_2}} for secondary colours of Lancaster University;
@@ -71,14 +71,10 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 
 # - lancaster_2: Secondary colours of Lancaster University ------
 
-#' Secondary colours of Lancaster University, UK 
+#' Secondary colours of Lancaster University, England, UK 
 #'
-#' This palette can be used in combination with the primary colour palette to introduce subtlety and variety to 
-#' certain applications. They too must be used carefully to compliment and 
-#' enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}. 
-#'
-#' \code{lancaster_2} provides the twelve secondary colours to complement the signature Primary colours
-#' of the \href{https://www.lancaster.ac.uk}{Lancaster University}, UK.
+#' \code{lancaster_2} provides 19 secondary colours to complement the signature primary colours
+#' of the \href{https://www.lancaster.ac.uk}{Lancaster University}, England, UK.
 #'
 #' The 19 secondary colours are 
 #' \code{"Pantone 5555"} (defined as Hex:557869),
@@ -105,7 +101,13 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' \code{"Pantone 7654"} (defined as Hex: A4769A).
 #' 
 #' \code{lancaster_2} uses the HEX colour definitions. 
-#'
+#' 
+#' @details
+#' This palette can be used in combination with the primary colour palette 
+#' (see \code{\link{lancaster_1}}) to introduce subtlety and variety to 
+#' certain applications. They must be used carefully to compliment and 
+#' enrich the identity and image of \href{https://www.lancaster.ac.uk}{Lancaster University}. 
+#' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
 #'
@@ -121,7 +123,7 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #' unikn::seecol(lancaster_2, main = "Secondary colours of Lancaster University") 
 #' # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{lancaster_1}} for primary colours of Lancaster University;

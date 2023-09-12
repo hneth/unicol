@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# cur_pals: "birmingham_1" (1)
+# cur_pals: "birmingham" (1)
 # inst: "University of Birmingham"
 # inst_alt: "University of Birmingham"
 # country: UK
@@ -24,13 +24,13 @@
 # Colour palette(s):
 
 
-# - birmingham_1: All colours of the University of Birmingham ------
+# - birmingham: All colours of the University of Birmingham ------
 
-#' Colours of the University of Birmingham, UK 
+#' Colours of the University of Birmingham, England, UK 
 #'
-#' \code{birmingham_1} provides the three primary colours 
+#' \code{birmingham} provides the three primary colours 
 #' and two secondary colours 
-#' of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, UK.
+#' of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, England, UK.
 #'
 #' The three primary colours are
 #' \code{"Undergraduate"} (defined as HEX #c1d82f),
@@ -42,7 +42,7 @@
 #' \code{"Secondary colour 1"} (defined as HEX #bfb6ad), and
 #' \code{"Secondary colour 2"} (defined as HEX #757477).
 #'
-#' \code{birmingham_1} uses the HEX colour definition. 
+#' \code{birmingham} uses the HEX colour definition. 
 #'
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -51,14 +51,15 @@
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' colour definitions are based on the
-#' \href{https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf}{CD manual (PDF)}.
+#' Colour definitions are based on \href{https://www.birmingham.ac.uk/index.aspx}{UBirmingham}'s 
+#' \href{https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf}{brand guidelines} 
+#' (PDF, revised 2016-02).
 #'
 #' @examples
-#' birmingham_1
-#' unikn::seecol(birmingham_1, main = "University of Birmingham") # view colour palette
+#' birmingham
+#' unikn::seecol(birmingham, main = "University of Birmingham") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{seecol}} for viewing and comparing colour palettes;
@@ -69,15 +70,15 @@
 #'
 #' @export
 
-birmingham_1 <- unikn::newpal(col = c("#c1d82f", "#00bbe4", "#7D0049", "#605270", 
-                                      "#bfb6ad", "#757477"),
-                              names = c("Undergraduate", "Postgraduate", "MBA", "Research/Business", 
-                                        "Secondary colour 1", "Secondary colour 2" ),
-                              as_df = FALSE)
+birmingham <- unikn::newpal(col = c("#c1d82f", "#00bbe4", "#7D0049", "#605270", 
+                                    "#bfb6ad", "#757477"),
+                            names = c("Undergraduate", "Postgraduate", "MBA", "Research/Business", 
+                                      "Secondary colour 1", "Secondary colour 2" ),
+                            as_df = FALSE)
 
 
 # # Check: 
-# unikn::seecol(birmingham_1, main = "Primary colours of the University of Birmingham", col_bg = "white")
+# unikn::seecol(birmingham, main = "Primary colours of the University of Birmingham", col_bg = "white")
 
 
 ## ToDo: -------- 

@@ -287,10 +287,10 @@ name_socialmedia_11 <- "instagram"
 
 # - oxford_brand: Brand colours of Oxford University ------
 
-#' Brand colours of University of Oxford, UK 
+#' Brand colours of University of Oxford, England, UK 
 #'
 #' \code{oxford_brand} provides the four brand colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #' 
 #' The (dark) Oxford blue is used primarily in general page furniture 
 #' such as the backgrounds on the header and footer.
@@ -320,7 +320,7 @@ name_socialmedia_11 <- "instagram"
 #' oxford_brand
 #' unikn::seecol(oxford_brand, main = "Uni Oxford brand colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_general}} for the general colours of University of Oxford;
@@ -349,10 +349,10 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 
 # - oxford_general: General/Secondary colours of Oxford University ------
 
-#' General colours of University of Oxford, UK 
+#' General colours of University of Oxford, England, UK 
 #'
 #' \code{oxford_general} provides the general/ secondary colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #' 
 #' The wide secondary palette is used to add visual distinction and texture 
 #' to design elements as well as signifying page links, 
@@ -385,7 +385,7 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 #' oxford_general
 #' unikn::seecol(oxford_general, main = "Uni Oxford general colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -414,10 +414,10 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 
 # - oxford_link: Link colours of Oxford University ------
 
-#' Link colours of University of Oxford, UK
+#' Link colours of University of Oxford, England, UK
 #'
 #' \code{oxford_link} provides the link colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #' 
 #' Light blue is used to indicate general actions (links and buttons). 
 #' Hence, it is also used in various navigational elements such as the block rollover effect 
@@ -448,7 +448,7 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 #' oxford_link
 #' unikn::seecol(oxford_link, main = "Uni Oxford link colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -478,10 +478,10 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 
 # - oxford_shades: Shades of Oxford University ------
 
-#' Shade colours of University of Oxford, UK
+#' Shade colours of University of Oxford, England, UK
 #'
 #' \code{oxford_shades} provides the seven shade colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #'
 #' The 7 shade colours are
 #' \code{"black"} (defined as HEX #000000),
@@ -506,7 +506,7 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #' oxford_shades
 #' unikn::seecol(oxford_shades, main = "Uni Oxford shade colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -538,10 +538,10 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 
 # - oxford_blog: Custom blog colours of Oxford University ------
 
-#' Custom blog colours of University of Oxford, UK
+#' Custom blog colours of University of Oxford, England, UK
 #'
 #' \code{oxford_blog} provides the six custom blog colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #'
 #' The 6 custom blog colours are
 #' \code{"science_blog"} (defined as HEX #0f7361),
@@ -565,7 +565,7 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 #' oxford_blog
 #' unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -596,10 +596,10 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 
 # - oxford_graduate: Graduate country page colours of Oxford University ------
 
-#' Graduate country page colours of University of Oxford, UK
+#' Graduate country page colours of University of Oxford, England, UK
 #'
 #' \code{oxford_graduate} provides the twelve graduate country page colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #'
 #' The 23 graduate country page colours are
 #' \code{"graduate_light_blue"} (defined as HEX #9eceeb),
@@ -630,7 +630,7 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #' unikn::seecol(oxford_graduate, 
 #'               main = "Uni Oxford graduate country page colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -664,10 +664,10 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 
 # - oxford_error: Error colours of Oxford University ------
 
-#' Error colours of University of Oxford, UK 
+#' Error colours of University of Oxford, England, UK 
 #'
 #' \code{oxford_error} provides the four error colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #'
 #' The 4 error colours are
 #' \code{"status"} (defined as HEX #7dbc23),
@@ -689,7 +689,7 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 #' oxford_error
 #' unikn::seecol(oxford_error, main = "Uni Oxford error colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;
@@ -718,10 +718,10 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 
 # - oxford_socialmedia: Social media colours of Oxford University------
 
-#' Social Media colours of University of Oxford, UK
+#' Social Media colours of University of Oxford, England, UK
 #'
 #' \code{oxford_socialmedia} provides the eleven social media colours 
-#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England/UK.
+#' of the \href{https://www.ox.ac.uk/}{University of Oxford}, England, UK.
 #'
 #' The 11 social media colours are
 #' \code{"cherry"} (defined as HEX #be0f34),
@@ -750,7 +750,7 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 #' oxford_socialmedia
 #' unikn::seecol(oxford_socialmedia, main = "Uni Oxford social media colours") # view colour palette
 #'
-#' @family U.K. university color palettes
+#' @family English university color palettes
 #'
 #' @seealso
 #' \code{\link{oxford_brand}} for the brand colours of University of Oxford;

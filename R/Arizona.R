@@ -1,4 +1,4 @@
-## Arizona.R | 2023 08 22
+## Arizona.R | 2023 09 12
 ## Colors of the Arizona State University, USA
 ## -------------------------------------------
 
@@ -29,10 +29,10 @@
 #' of the \href{https://www.asu.edu}{Arizona State University}, USA.
 #'
 #' The 4 primary colors are
-#' \code{"asu_maroon"} (defined as HEX #8C1D40)
-#' \code{"asu_gold"} (defined as HEX #FFC627)
-#' \code{"asu_rich_black"} (defined as HEX #000000)
-#' \code{"asu_white"} (defined as HEX #FFFFFF)
+#' \code{"ASU maroon"} (defined as HEX #8C1D40), 
+#' \code{"ASU gold"} (defined as HEX #FFC627), 
+#' \code{"black"} (defined as HEX #000000), and 
+#' \code{"white"} (defined as HEX #FFFFFF). 
 #'
 #' \code{asu_1} uses the HEX color definitions.
 #'
@@ -64,7 +64,7 @@
 #' @export
 
 asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"), 
-                       names = c("asu_maroon", "asu_gold", "black", "white"), 
+                       names = c("ASU maroon", "ASU gold", "black", "white"), 
                        as_df = FALSE)
 
 
@@ -77,13 +77,13 @@ asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"),
 #' of the \href{https://www.asu.edu}{Arizona State University}, USA.
 #' 
 #' The 7 secondary colors are
-#' \code{"asu_green"} (defined as HEX #78BE20),
-#' \code{"asu_blue"} (defined as HEX #00A3E0),
-#' \code{"asu_orange"} (defined as HEX #FF7F32),
-#' \code{"asu_gray"} (defined as HEX #747474), 
-#' \code{"asu_copper"} (defined as HEX #Af674B), 
-#' \code{"asu_turquoise"} (defined as HEX #4AB7C4), and 
-#' \code{"asu_pink"} (defined as HEX #E74973). 
+#' \code{"ASU green"} (defined as HEX #78BE20),
+#' \code{"ASU blue"} (defined as HEX #00A3E0),
+#' \code{"ASU orange"} (defined as HEX #FF7F32),
+#' \code{"ASU gray"} (defined as HEX #747474), 
+#' \code{"ASU copper"} (defined as HEX #Af674B), 
+#' \code{"ASU turquoise"} (defined as HEX #4AB7C4), and 
+#' \code{"ASU pink"} (defined as HEX #E74973). 
 #' 
 #' \code{asu_2} uses the HEX color definitions.
 #' 
@@ -116,13 +116,13 @@ asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"),
 
 asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474", 
                                "#Af674B", "#4AB7C4", "#E74973"), 
-                       names = c("asu_green", "asu_blue","asu_orange", "asu_gray", 
-                                 "asu_copper", "asu_turquoise", "asu_pink"), 
+                       names = c("ASU green", "ASU blue","ASU orange", "ASU gray", 
+                                 "ASU copper", "ASU turquoise", "ASU pink"), 
                        as_df = FALSE)
 
 
 
-# - asu_3: grayscale colors of ASU -----
+# - asu_3: Grayscale colors of ASU -----
 
 #' Grayscale colors of the Arizona State University, USA 
 #' 
@@ -130,15 +130,15 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
 #' of the \href{https://www.asu.edu}{Arizona State University}, USA.
 #' 
 #' The 9 grayscale colors are 
-#' \code{"asu_black"} (defined as HEX #000000),
-#' \code{"gray1"} (defined as HEX #191919),
-#' \code{"gray2"} (defined as HEX #484848),
-#' \code{"asu_gray"} (defined as HEX #747474), 
-#' \code{"gray4"} (defined as HEX #BFBFBF), 
-#' \code{"gray5"} (defined as HEX #D0D0D0), 
-#' \code{"gray6"} (defined as HEX #E8E8E8), 
-#' \code{"gray7"} (defined as HEX #FAFAFA), and 
-#' \code{"asu_white"} (defined as HEX #FFFFFF). 
+#' \code{"black"} (defined as HEX #000000),
+#' \code{"gray 1"} (defined as HEX #191919),
+#' \code{"gray 2"} (defined as HEX #484848),
+#' \code{"ASU gray"} (defined as HEX #747474), 
+#' \code{"gray 4"} (defined as HEX #BFBFBF), 
+#' \code{"gray 5"} (defined as HEX #D0D0D0), 
+#' \code{"gray 6"} (defined as HEX #E8E8E8), 
+#' \code{"gray 7"} (defined as HEX #FAFAFA), and 
+#' \code{"white"} (defined as HEX #FFFFFF). 
 #' 
 #' \code{asu_3} uses the HEX color definitions.
 #' 
@@ -169,11 +169,17 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
 #' 
 #' @export
 
-asu_3 <- unikn::newpal(col = c("#000000", "#191919", "#484848", "#747474", 
-                               "#BFBFBF", "#D0D0D0", "#E8E8E8", "#FAFAFA", 
+asu_3 <- unikn::newpal(col = c("#000000", 
+                               "#191919", "#484848", 
+                               "#747474", 
+                               "#BFBFBF", "#D0D0D0", 
+                               "#E8E8E8", "#FAFAFA", 
                                "#FFFFFF"), 
-                       names = c("black","gray_1", "gray_2","gray_3", 
-                                 "gray_4", "gray_5", "gray_6", "gray_7", 
+                       names = c("black",
+                                 "gray 1", "gray 2",
+                                 "ASU gray", 
+                                 "gray 4", "gray 5", 
+                                 "gray 6", "gray 7", 
                                  "white"), 
                        as_df = FALSE)
 
