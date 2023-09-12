@@ -36,7 +36,7 @@ CMYK colours differ from RGB and HEX definition.
 }
 \examples{
 dundee_background
-unikn::seecol(dundee_background, main = "Dundee background colour") # view colour palette
+unikn::seecol(dundee_background, main = "Background colour of Dundee") # view colour palette
 
 }
 \seealso{

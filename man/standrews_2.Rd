@@ -23,14 +23,14 @@ of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland.
 }
 \details{
 The 8 secondary colours are 
-\code{"andrews_light_blue"} (defined as HEX #00aeef), 
-\code{"andrews_mid_blue"} (defined as HEX #007dc5),
-\code{"andrews_burgundy"} (defined as HEX #c60c46),
-\code{"andrews_purple"} (defined as HEX #7b439a)
-\code{"andrews_orange"} (defined as HEX #f5842b),
-\code{"andrews_green"} (defined as HEX #54b948), 
-\code{"andrews_mid_green"} (defined as HEX #00853f), and 
-\code{"andrews_dark_green"} (defined as HEX #005953).
+\code{"StAndrews light blue"} (defined as HEX #00aeef), 
+\code{"StAndrews mid blue"} (defined as HEX #007dc5),
+\code{"StAndrews burgundy"} (defined as HEX #c60c46),
+\code{"StAndrews purple"} (defined as HEX #7b439a)
+\code{"StAndrews orange"} (defined as HEX #f5842b),
+\code{"StAndrews green"} (defined as HEX #54b948), 
+\code{"StAndrews mid green"} (defined as HEX #00853f), and 
+\code{"StAndrews dark green"} (defined as HEX #005953).
 
 \code{standrews_2} uses the HEX colour definitions.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_block}
 \alias{dundee_block}
-\title{Block colours of University of Dundee, Scotland/UK}
+\title{Block colours of University of Dundee, Scotland}
 \format{
 An object of class \code{character} of length 5.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_block} provides the block colours 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
 }
 \details{
 The block colours are intended for colouring larger flat spaces. 
@@ -34,7 +34,7 @@ The block colours are
 \code{"block_1"} (defined as PANTONE 427C, CMYK 8/4/9/10, RGB 221/217/214, HEX #ddd9d6),
 \code{"block_2"} (defined as PANTONE 7520C, CMYK 1/26/21/0, RGB 244/206/195, HEX #f4cec3),
 \code{"block_3"} (defined as PANTONE 7506C, CMYK 3/11/30/0, RGB 255/236/210, HEX #ffecd2),
-\code{"block_4"} (defined as PANTONE 2707C, CMYK 20/6/0/0, RGB 209/226/242, HEX #d1e2f2) and
+\code{"block_4"} (defined as PANTONE 2707C, CMYK 20/6/0/0, RGB 209/226/242, HEX #d1e2f2), and
 \code{"block_5"} (defined as PANTONE 2253C, CMYK 29/0/27/0, RGB 196/235/208, HEX #c4ebd0).
 
 \code{dundee_block} uses the HEX colour definition. 

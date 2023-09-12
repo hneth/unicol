@@ -19,14 +19,14 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{standrews_1} provides the four primary colours 
-of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland.
+of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland, UK.
 }
 \details{
 The 4 primary colors are 
-\code{"standrews_blue"} (defined as HEX #00539b), 
-\code{"standrews_red"} (defined as HEX #ee312a), 
-\code{"standrews_yellow"} (defined as HEX #ffdf00), and 
-\code{"standrews_black"} (defined as HEX #231f20). 
+\code{"StAndrews blue"} (defined as HEX #00539b), 
+\code{"StAndrews red"} (defined as HEX #ee312a), 
+\code{"StAndrews yellow"} (defined as HEX #ffdf00), and 
+\code{"StAndrews black"} (defined as HEX #231f20). 
 
 \code{standrews_1} uses the HEX colour definitions.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_core}
 \alias{dundee_core}
-\title{Core colours of University of Dundee, Scotland/UK}
+\title{Core colours of University of Dundee, Scotland}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -19,17 +19,19 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_core} provides the core colour 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
 }
 \details{
-The central blue core colour is at the heart of our identity. 
+The core colour is 
+\code{Dundee core} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
+\code{Dundee core} uses the HEX colour definition. 
+Note that Pantone and CMYK colours differ from the RGB and HEX definition.
+
+
+The central blue core colour is at the heart of \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+
 The University shield and wordmark can be reproduced in the core colour 
 and it can also be applied to icons and typography.
-
-The core colour is 
-\code{"core"} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
-\code{dundee_core} uses the HEX colour definition. 
-Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 }
 \examples{
 dundee_core

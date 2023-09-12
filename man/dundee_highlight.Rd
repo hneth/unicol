@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_highlight}
 \alias{dundee_highlight}
-\title{Highlight colours of University of Dundee, Scotland/UK}
+\title{Highlight colours of University of Dundee, Scotland}
 \format{
 An object of class \code{character} of length 3.
 }
@@ -19,12 +19,9 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_highlight} provides the highlight colours 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
 }
 \details{
-Three complementary highlight colours have been specified to add vibrancy to the identity. 
-These colours can only be used for typography, icons or delicate line work.
-
 The highlight colours are 
 \code{"highlight_1"} (defined as PANTONE 710C, CMYK 0/85/52/0, RGB 255/98/100, HEX #ff6264),
 \code{"highlight_2"} (defined as PANTONE 7480C, CMYK 82/0/72/0, RGB 1/209/124, HEX #01d17c) and
@@ -32,6 +29,10 @@ The highlight colours are
 
 \code{dundee_highlight} uses the HEX colour definition. 
 Pantone and CMYK colours differ from RGB and HEX definition.
+
+
+Three complementary highlight colours have been specified to add vibrancy to the identity. 
+These colours can only be used for typography, icons or delicate line work.
 }
 \examples{
 dundee_highlight
