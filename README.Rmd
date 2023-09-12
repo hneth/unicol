@@ -165,7 +165,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(99) # reproducible randomness
+set.seed(18) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -192,7 +192,12 @@ for (i in 1:n){
   cur_name  <- my_pals[i]
   cur_pal   <- get(cur_name)
   cur_count <- length(cur_pal)
-    
+  
+  # if (cur_count > 13){
+  #   message("Use different seed.")
+  #   break
+  #   }
+  
   pal_list[[i]] <- cur_pal
   pal_names[i]  <- cur_name
   col_count     <- col_count + cur_count

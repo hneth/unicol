@@ -97,13 +97,13 @@ palettes and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 237 colors):
+**Figure 1** illustrates 50 random color palettes (with 239 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 237 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 239 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 237 colors).
+Figure 1: A sample of 50 unicol palettes (containing 239 colors).
 </p>
 
 </div>
@@ -315,6 +315,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-11.\]
+\[File `README.Rmd` updated on 2023-09-12.\]
 
 <!-- eof. -->
