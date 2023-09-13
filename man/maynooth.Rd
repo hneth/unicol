@@ -51,6 +51,7 @@ unikn::seecol(maynooth, main = "Colours of Maynooth University, IE") # view colo
 Other Irish university color palettes: 
 \code{\link{UCC_1}},
 \code{\link{UCC_2}},
+\code{\link{UCD}},
 \code{\link{galway_1}},
 \code{\link{galway_2}},
 \code{\link{limerick_1}},
