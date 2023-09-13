@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{UCC_2} provides the eight secondary colours 
-of the \href{https://www.ucc.ie}{University College Cork}, Ireland, UK.
+of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 }
 \details{
 See \code{UCC_2} for names and values, based on HEX color definitions.

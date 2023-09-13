@@ -3,14 +3,15 @@
 \docType{data}
 \name{UCD}
 \alias{UCD}
-\title{Primary colours of University College Dublin, Ireland}
+\title{Colours of University College Dublin, Ireland}
 \format{
-An object of class \code{character} of length 5.
+An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
+Colour definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
 \href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
-(PDF, Version 3, 2006).
+(PDF, Version 3, 2006) and 
+\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specifications.
 }
 \usage{
 UCD
@@ -19,15 +20,28 @@ UCD
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{UCD} provides the five primary colours 
-of the \href{https://www.ucd.ie}{University College Dublin}, Ireland, UK.
+\code{UCD} provides seven colours of the 
+\href{https://www.ucd.ie}{University College Dublin}, Ireland.
 }
 \details{
-\code{UCD} is based on (approximated) HEX color values
+The five primary colours 
+\code{UCD blue}, \code{UCD navy}, \code{UCD gold}, \code{UCD rich green}, and \code{UCD bright green}, 
+are defined in \href{https://www.ucd.ie}{UCD}'s 
+\href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
+(PDF, Version 3, 2006).
+
+Two additional colours 
+\code{UCD navy dark} and \code{UCD gold light} 
+are defined in \href{https://www.ucd.ie}{UCD}'s  
+\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} 
+specifications (v0.0.1)
+
+\code{UCD} is based on the HEX colour values of the  
+\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specs.
 }
 \examples{
 UCD
-unikn::seecol(UCD, main = "Colours of the University College Dublin")  # view color palette
+unikn::seecol(UCD, main = "Colours of the University College Dublin")  # view colour palette
 
 }
 \seealso{

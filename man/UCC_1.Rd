@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{UCC_1} provides the six primary colours 
-of the \href{https://www.ucc.ie}{University College Cork}, Ireland, UK.
+of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 }
 \details{
 The 6 primary colours are 
