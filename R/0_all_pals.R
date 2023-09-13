@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 11
+## all_pals.R | 2022 09 13
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -491,10 +491,10 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-12:
-# length(all_data$pal)           #  234 color palettes
-# length(unique(all_data$inst))  #  101 institutions
-# sum(n_cols)                    # 1570 colors
+# # On 2023-09-13:
+# length(all_data$pal)           #  235 color palettes
+# length(unique(all_data$inst))  #  102 institutions
+# sum(n_cols)                    # 1575 colors
 
 
 # Export as unicol_data (as data frame): ------
