@@ -1,4 +1,4 @@
-## Cork.R | 2023 09 10
+## Cork.R | 2023 09 13
 ## Colours of the University College Cork, Ireland
 ## -----------------------------------------------
 
@@ -9,7 +9,7 @@
 # inst: "University College Cork"
 # inst_alt: "Coláiste na hOllscoile Corcaigh / UCC"
 # inst_URL: <https://www.ucc.ie>
-# country: Ireland, IE / UK
+# country: Ireland, IE
 
 # Color source:
 
@@ -163,7 +163,7 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' Primary colours of the University College Cork, Ireland 
 #' 
 #' \code{UCC_1} provides the six primary colours 
-#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland, UK.
+#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 #'
 #' The 6 primary colours are 
 #' \code{Crest yellow}, defined as Pantone 7549C, C0 M20 Y100 K0, R255 G181 B0, or HEX "#FFB500", 
@@ -231,7 +231,7 @@ UCC_1 <- unikn::newpal(col = color_UCC_1,
 #' Secondary colours of the University College Cork, Ireland 
 #' 
 #' \code{UCC_2} provides the eight secondary colours 
-#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland, UK.
+#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 #' 
 #' See \code{UCC_2} for names and values, based on HEX color definitions. 
 #' 

@@ -1,4 +1,4 @@
-## Galway.R | 2023 09 07
+## Galway.R | 2023 09 13
 ## Colors of the University of Galway, Ireland
 ## -------------------------------------------
 
@@ -6,7 +6,7 @@
 
 # cur_pals: "galway_1", "galway_2" (2)
 # inst: "University of Galway" 
-# country: Ireland
+# country: Ireland, IE
 # URL: "https://www.universityofgalway.ie"
 
 # Color source:
@@ -39,8 +39,8 @@
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source
-#' Color definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
+#' Colour definitions are based on 
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
 #'
 #' @examples
 #' galway_1
@@ -98,8 +98,8 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' \strong{unicol}, 2320-07-16.
 #' 
 #' @source
-#' Color definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines (PDF)}.
+#' Colour definitions are based on 
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
 #'
 #' @examples 
 #' galway_2
