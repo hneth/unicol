@@ -1,6 +1,6 @@
 ## UCDublin.R | 2023 09 13
-## Colors of the University College Dublin, Ireland 
-## ------------------------------------------------
+## Colours of the University College Dublin, Ireland 
+## -------------------------------------------------
 
 
 # Information: ------
@@ -10,7 +10,7 @@
 # inst: "University College Dublin"
 # inst_alt: "An Coláiste Ollscoile, Baile Átha Cliath / UCD"
 # inst_URL: <https://www.ucd.ie>
-# country: Ireland, UK
+# country: Ireland, IE 
 
 # Color source:
 
@@ -80,16 +80,42 @@ UCD_brightGreen <- "#6dc248"
 UCD_richGreen   <- "#009c48"
 
 
+# HEX values in CSS definition at 
+# <https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1>:
+
+UCD_blue        <- "#007db8"
+UCD_navy        <- "#004377"
+UCD_navy_dark   <- "#002542"
+UCD_gold        <- "#fad239"
+UCD_gold_light  <- "#ffdd54"
+UCD_richGreen   <- "#03884a"
+UCD_brightGreen <- "#6bbe51"
+
+
 # Colour palette(s):
 
-# - UCD: Primary colours of University College Dublin ------
+# - UCD: Colours of University College Dublin ------
 
-#' Primary colours of University College Dublin, Ireland
+#' Colours of University College Dublin, Ireland
 #' 
-#' \code{UCD} provides the five primary colours 
-#' of the \href{https://www.ucd.ie}{University College Dublin}, Ireland, UK.
+#' \code{UCD} provides seven colours of the 
+#' \href{https://www.ucd.ie}{University College Dublin}, Ireland.
 #'
-#' \code{UCD} is based on (approximated) HEX color values 
+#' @details 
+#' The five primary colours 
+#' \code{UCD blue}, \code{UCD navy}, \code{UCD gold}, \code{UCD rich green}, and \code{UCD bright green}, 
+#' are defined in \href{https://www.ucd.ie}{UCD}'s 
+#' \href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
+#' (PDF, Version 3, 2006).
+#' 
+#' Two additional colours 
+#' \code{UCD navy dark} and \code{UCD gold light} 
+#' are defined in \href{https://www.ucd.ie}{UCD}'s  
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} 
+#' specifications (v0.0.1)
+#'
+#' \code{UCD} is based on the HEX colour values of the  
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specs. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -98,13 +124,14 @@ UCD_richGreen   <- "#009c48"
 #' Contributed to \strong{unicol} by EPH, 2023-09-13.
 #'
 #' @source 
-#' Color definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
+#' Colour definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
 #' \href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
-#' (PDF, Version 3, 2006).
+#' (PDF, Version 3, 2006) and 
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specifications.
 #'
 #' @examples
 #' UCD
-#' unikn::seecol(UCD, main = "Colours of the University College Dublin")  # view color palette
+#' unikn::seecol(UCD, main = "Colours of the University College Dublin")  # view colour palette
 #' 
 #' @family Irish university color palettes
 #'
@@ -117,8 +144,8 @@ UCD_richGreen   <- "#009c48"
 #'
 #' @export
 
-UCD <- unikn::newpal(col = c(UCD_blue, UCD_navy, UCD_gold, UCD_brightGreen, UCD_richGreen),
-                     names = c("UCD blue", "UCD navy","UCD gold", "UCD bright green", "UCD rich green"), 
+UCD <- unikn::newpal(col = c(UCD_blue, UCD_navy, UCD_navy_dark, UCD_gold, UCD_gold_light, UCD_richGreen, UCD_brightGreen),
+                     names = c("UCD blue", "UCD navy", "UCD navy dark", "UCD gold", "UCD gold light", "UCD rich green", "UCD bright green"), 
                      as_df = FALSE)
 
 # # Check: 
