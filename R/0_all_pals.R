@@ -110,7 +110,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "maynooth",
               "UCC_1", "UCC_2",
               "cardiff_1", "cardiff_2", 
-              "aberystwyth_1", "aberystwyth_2"
+              "aberystwyth_1", "aberystwyth_2",
+              "UCD"
 )
 
 
@@ -221,7 +222,8 @@ inst <- c(rep("ETH Zurich", 3),
           "National University of Ireland Maynooth",
           rep("University College Cork", 2),
           rep("Cardiff University", 2),
-          rep("Aberystwyth University", 2)
+          rep("Aberystwyth University", 2),
+          "University College Dublin"
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -327,7 +329,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Ollscoil Mha Nuad / Maynooth University / MU",
               rep("Colaiste na hOllscoile Corcaigh / UCC", 2),
               rep("Prifysgol Caerdydd", 2),
-              rep("Prifysgol Aberystwyth", 2)
+              rep("Prifysgol Aberystwyth", 2),
+              "An Colaiste Ollscoile, Baile Atha Cliath / UCD"
 )
 
 # Valid URL: 
@@ -433,7 +436,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.maynoothuniversity.ie",
          rep("https://www.ucc.ie", 2),
          rep("https://www.cardiff.ac.uk", 2),
-         rep("https://www.aber.ac.uk", 2)
+         rep("https://www.aber.ac.uk", 2),
+         "https://www.ucd.ie"
 )
 
 
@@ -442,7 +446,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 234 4  2023-09-12
+# dim(all_data)  # 235 4  2023-09-13
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
