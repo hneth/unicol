@@ -1,9 +1,9 @@
 
-# unicol 0.1.0.9016
+# unicol 0.2.0
 
-This is the current development version of **unicol** at <https://github.com/hneth/unicol/>. 
+This release of **unicol** (v0.2.0) was published [on CRAN](https://CRAN.R-project.org/package=unicol). [2023-09-15] 
 
-This version adds and updates some color palettes, but also improves consistency, simplicity, and fixes some bugs. 
+This version adds and updates color palettes, but also improves consistency, simplicity, and fixes some bugs. 
 
 The **unicol** package currently provides **235\ color palettes** from **102\ institutions**. 
 
@@ -72,6 +72,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-13.] 
+[File `NEWS.md` updated on 2023-09-14.] 
 
 <!-- eof. -->
