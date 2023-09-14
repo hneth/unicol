@@ -14,7 +14,7 @@ included in the unicol package
     
     <a class="navbar-brand me-2" href="../index.html">unicol</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.1.0.9002</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.2.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@ included in the unicol package
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>The color palettes of the <strong>unicol</strong> package</h1>
-      <small class="dont-index">Source: <a href="https://github.com/hneth/unicol/blob/HEAD/R/all_pals.R" class="external-link"><code>R/all_pals.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/hneth/unicol/blob/HEAD/R/0_all_pals.R" class="external-link"><code>R/0_all_pals.R</code></a></small>
       <div class="d-none name"><code>unicol_data.Rd</code></div>
     </div>
 
@@ -69,13 +69,13 @@ included in the <strong>unicol</strong> package
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>data.frame</code> with 202 rows and 4 columns.</p>
+    <p>An object of class <code>data.frame</code> with 236 rows and 4 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     
 
-<p>A data frame summarizing the unicol color palettes.</p>
+<p>A data frame summarizing the <strong>unicol</strong> color palettes.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
@@ -89,28 +89,28 @@ included in the <strong>unicol</strong> package
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 202   4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 236   4</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                                 inst                           inst_alt</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1           Arizona State University           Arizona State University</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2           Arizona State University           Arizona State University</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3           Arizona State University           Arizona State University</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4 Berkeley, University of California Berkeley, University of California</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5 Berkeley, University of California Berkeley, University of California</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6                  Boston University                  Boston University</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                        url        pal</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1      https://www.asu.edu      asu_1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2      https://www.asu.edu      asu_2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3      https://www.asu.edu      asu_3</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4 https://www.berkeley.edu berkeley_1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5 https://www.berkeley.edu berkeley_2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6       https://www.bu.edu       bu_1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                             inst                 inst_alt</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1         Aberystwyth University    Prifysgol Aberystwyth</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2         Aberystwyth University    Prifysgol Aberystwyth</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3       Arizona State University Arizona State University</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4       Arizona State University Arizona State University</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5       Arizona State University Arizona State University</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6 Australian National University                      ANU</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                      url           pal</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 https://aber.ac.uk/en/ aberystwyth_1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2 https://aber.ac.uk/en/ aberystwyth_2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3    https://www.asu.edu         asu_1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4    https://www.asu.edu         asu_2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5    https://www.asu.edu         asu_3</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6 https://www.anu.edu.au         ANU_1</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Descriptives: </span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">$</span><span class="va">pal</span><span class="op">)</span><span class="op">)</span>   <span class="co"># number of color palettes</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 202</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 236</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">$</span><span class="va">inst</span><span class="op">)</span><span class="op">)</span>  <span class="co"># number of institutions</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 86</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 102</span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
