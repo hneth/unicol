@@ -15,11 +15,11 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
 
-# unicol 0.1.0.9016 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "165px" alt="" />
+# unicol 0.2.0 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
-<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/> -->
+<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
 
@@ -108,6 +108,8 @@ Figure 1: A sample of 50 unicol palettes (containing 220 colors).
 
 </div>
 
+<!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
+
 ### Using color palettes
 
 As the **unicol** palettes are provided as vectors of R colors, they can
@@ -192,7 +194,7 @@ following information:
 <!-- ToDo: -->
 
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
 </a>
 
 1.  your code (e.g., the `newpal()` command creating your color
@@ -273,18 +275,18 @@ functionality from it.
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://CRAN.R-project.org/package=unicol">
-<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "165px" style = "width: 165px; float: right; border:0;"/>
+<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
 </a>
 
 To support our efforts, please cite the **unicol** package in your
-derivations or publications.
+derivations or publications:
 
 <!-- Citation / reference (in APA format): -->
 
 - Neth, H. et al. (2023). unicol: The colors of your university.  
   Social Psychology and Decision Sciences, University of Konstanz,
   Germany.  
-  Computer software (R package version 0.1.0, August 16, 2023).  
+  Computer software (R package version 0.2.0, September 15, 2023).  
   Retrieved from <https://CRAN.R-project.org/package=unicol>.  
   doi [10.5281/zenodo.8252106](https://doi.org/10.5281/zenodo.8252106)
 
@@ -298,7 +300,7 @@ A BibTeX entry for LaTeX users is:
       year = {2023},
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
-      note = {R package (version 0.1.0, August 16, 2023)},
+      note = {R package (version 0.2.0, September 15, 2023)},
       url = {https://CRAN.R-project.org/package=unicol},
       doi = {10.5281/zenodo.8252106},
     }
@@ -315,6 +317,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-13.\]
+\[File `README.Rmd` updated on 2023-09-14.\]
 
 <!-- eof. -->
