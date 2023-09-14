@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on William & Mary’s 
-\href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines}.
+\href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines}.
 }
 \usage{
 wm_1
@@ -24,7 +24,7 @@ of \href{https://wm.edu}{William & Mary}, Virginia, USA.
 \details{
 The primary university colors are \code{W&M green} and \code{W&M gold} 
 (see palette and William & Mary’s 
-\href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines} 
+\href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines} 
 for definitions and details).
 
 \code{wm_1} uses the HEX color definitions. 

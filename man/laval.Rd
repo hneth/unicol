@@ -8,8 +8,8 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on the
-\href{https://www.ulaval.ca/notre-universite/identite-visuelle}{Laval Color Website}.
+Color definitions are based on \href{https://www.ulaval.ca}{Laval}'s 
+\href{https://www.ulaval.ca/identite-visuelle}{visual identity} site.
 }
 \usage{
 laval
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{laval} provides the two primary colors and the four secondary colors
-of the \href{https://www.ulaval.ca/}{Laval University}, Canada.
+of the \href{https://www.ulaval.ca}{Laval University}, Canada.
 }
 \details{
 The two primary colors are
@@ -27,16 +27,16 @@ The two primary colors are
 \code{"yellow_laval"} (defined as RGB 255/193/3, HEX #ffc103).
 
 The four secondary colors are
-\code{"light_grey_laval"} (defined as RGB 217/217/217, HEX #d9d9d9),
-\code{"medium_grey_laval"} (defined as RGB 127/127/127, HEX #7f7f7f), 
-\code{"dark_grey_laval"} (defined as RGB 81/81/81, HEX #515151), and 
+\code{"Laval light grey"} (defined as RGB 217/217/217, HEX #d9d9d9),
+\code{"Laval medium grey"} (defined as RGB 127/127/127, HEX #7f7f7f), 
+\code{"Laval dark grey"} (defined as RGB 81/81/81, HEX #515151), and 
 \code{"black"} (defined as RGB 0/0/0, HEX #000000).
 
 \code{laval} uses the HEX color definitions.
 }
 \examples{
 laval
-unikn::seecol(laval, main = "Colors of the Laval University") # view color palette
+unikn::seecol(laval, main = "Les couleurs de Laval University")  # view color palette
 
 }
 \seealso{
