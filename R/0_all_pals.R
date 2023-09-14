@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 14
+## all_pals.R | 2022 09 15
 ## An inventory of all color palettes
 ## ----------------------------------
 

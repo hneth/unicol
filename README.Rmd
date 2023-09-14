@@ -44,13 +44,11 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Devel badges end. -->
 
-
 <!-- Release badges start: -->
 [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
 [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Release badges end. -->
-
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -317,7 +315,6 @@ To enable us to verify and provide credit to your contributions, please send us 
 3. your name and some valid contact information (e.g., an Email address).  
   
 We're looking forward to **your inputs and contributions** (at [this GitHub issue](https://github.com/hneth/unicol/issues/30))! 
-
 
 <!-- +++ here now +++  -->
 
