@@ -11,7 +11,7 @@ An object of class \code{data.frame} with 236 rows and 4 columns.
 unicol_data
 }
 \value{
-A data frame summarizing the unicol color palettes.
+A data frame summarizing the \strong{unicol} color palettes.
 }
 \description{
 \code{unicol_data} summarizes the color palettes 
