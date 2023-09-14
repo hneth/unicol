@@ -14,7 +14,7 @@
 # Color source:
 
 # color_URL: William & Mary’s visual identity and brand guidelines at 
-# <https://brand.wm.edu/index.php/university-colors>
+# <https://brand.wm.edu/index.php/university-colors/>
 # Last check: 2023-08-29
 
 
@@ -68,7 +68,7 @@
 #' 
 #' The primary university colors are \code{W&M green} and \code{W&M gold} 
 #' (see palette and William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines} 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines} 
 #' for definitions and details).
 #'
 #' \code{wm_1} uses the HEX color definitions. 
@@ -84,7 +84,7 @@
 #'
 #' @source 
 #' Color definitions are based on William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines}. 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines}. 
 #'
 #' @examples
 #' wm_1
@@ -141,7 +141,7 @@ wm_1 <- unikn::newpal(col = c("#115740", "#B9975B"),
 #' 
 #' The secondary university colors are \code{Spirit gold} and \code{W&M silver} 
 #' (see palette and William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines} 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines} 
 #' for definitions and details).
 #'
 #' \code{wm_2} uses the HEX color definitions. 
@@ -163,7 +163,7 @@ wm_1 <- unikn::newpal(col = c("#115740", "#B9975B"),
 #'
 #' @source 
 #' Color definitions are based on William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines}. 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines}. 
 #'
 #' @examples
 #' wm_2
@@ -269,7 +269,7 @@ wm_2 <- unikn::newpal(col = c("#F0B323", "#D0D3D4"),
 #' of \href{https://wm.edu}{William & Mary}, Virginia, USA.
 #' 
 #' See the palette and William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines} 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines} 
 #' for definitions and details.
 #'
 #' \code{wm_3} uses the HEX color definitions.
@@ -292,7 +292,7 @@ wm_2 <- unikn::newpal(col = c("#F0B323", "#D0D3D4"),
 #'
 #' @source 
 #' Color definitions are based on William & Mary’s 
-#' \href{https://brand.wm.edu/index.php/university-colors}{visual identity and brand guidelines}. 
+#' \href{https://brand.wm.edu/index.php/university-colors/}{visual identity and brand guidelines}. 
 #'
 #' @examples
 #' wm_3
