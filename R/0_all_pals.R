@@ -497,6 +497,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # sum(n_cols)                    # 1580 colors
 
 
+
 # Export as unicol_data (as data frame): ------
 
 #' The color palettes of the \strong{unicol} package
@@ -506,7 +507,7 @@ row.names(all_data) <- 1:nrow(all_data)
 #' (as a data frame). 
 #' 
 #' @return 
-#' A data frame summarizing the unicol color palettes. 
+#' A data frame summarizing the \strong{unicol} color palettes. 
 #'
 #' @examples 
 #' dim(unicol_data)
