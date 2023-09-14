@@ -1,4 +1,4 @@
-## UCDublin.R | 2023 09 13
+## UCDublin.R | 2023 09 14
 ## Colours of the University College Dublin, Ireland 
 ## -------------------------------------------------
 
@@ -20,7 +20,7 @@
 # Last check: 2023-09-13
 
 # Author information:
-#  EPH, 2023-09-13
+# Enda Patrick Hargaden, 2023-09-13
 
 # Colors: ------
 
@@ -121,7 +121,7 @@ UCD_brightGreen <- "#6bbe51"
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' Contributed to \strong{unicol} by EPH, 2023-09-13.
+#' Contributed to \strong{unicol} by Enda Patrick Hargaden, 2023-09-13.
 #'
 #' @source 
 #' Colour definitions are based on the \href{https://www.ucd.ie}{UCD}'s 

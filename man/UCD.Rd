@@ -63,7 +63,7 @@ Other Irish university color palettes:
 \code{\link{trinity_2}}
 }
 \author{
-Contributed to \strong{unicol} by EPH, 2023-09-13.
+Contributed to \strong{unicol} by Enda Patrick Hargaden, 2023-09-13.
 }
 \concept{Irish university color palettes}
 \keyword{datasets}
