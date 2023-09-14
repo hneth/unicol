@@ -1,4 +1,4 @@
-## Auckland.R | 2023 09 07
+## Auckland.R | 2023 09 14
 ## Colors of the University of Auckland, NZ 
 ## ----------------------------------------
 
@@ -8,7 +8,7 @@
 
 # inst: "University of Auckland"
 # inst_alt: "Waipapa Taumata Rau / UOA"
-# inst_URL: <https://www.auckland.ac.nz>
+# inst_URL: <https://www.auckland.ac.nz/en.html>
 # country: New Zealand, NZ
 
 # Color source:
@@ -74,7 +74,7 @@ names_auckland_2 <- c("Education", "NICAI", "Arts", "Engineering", "Science",
 #' University web colours of the University of Auckland, NZ
 #' 
 #' \code{auckland_1} provides the university web colour range 
-#' of the \href{https://www.auckland.ac.nz}{University of Auckland}, New Zealand.
+#' of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}, New Zealand.
 #'
 #' The University web colours are used for all areas of the 
 #' central and service division website.
@@ -90,7 +90,7 @@ names_auckland_2 <- c("Education", "NICAI", "Arts", "Engineering", "Science",
 #' \strong{unicol}, 2023-09-07.
 #'
 #' @source 
-#' Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz}{University of Auckland}'s 
+#' Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}'s 
 #' \href{https://cdn.auckland.ac.nz/assets/central/about/the-university/how-the-university-works/policy-and-administration/web-style-guide.pdf}{Web Style Guide (PDF)}. 
 #'
 #' @examples
@@ -122,7 +122,7 @@ auckland_1 <- unikn::newpal(col = color_auckland_1,
 #' Faculty web colours of the University of Auckland, NZ
 #' 
 #' \code{auckland_1} provides the university web colour styles  
-#' of the \href{https://www.auckland.ac.nz}{University of Auckland}, New Zealand.
+#' of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}, New Zealand.
 #'
 #' The spectrum provides each faculty with the opportunity to have a unique visual identity. 
 #' It has been specifically designed to be web-friendly and match the faculty’s printed collateral  
@@ -148,7 +148,7 @@ auckland_1 <- unikn::newpal(col = color_auckland_1,
 #' \strong{unicol}, 2023-09-07.
 #'
 #' @source 
-#' Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz}{University of Auckland}'s 
+#' Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}'s 
 #' \href{https://cdn.auckland.ac.nz/assets/central/about/the-university/how-the-university-works/policy-and-administration/web-style-guide.pdf}{Web Style Guide (PDF)}. 
 #'
 #' @examples

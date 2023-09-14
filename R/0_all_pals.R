@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 13
+## all_pals.R | 2022 09 14
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -431,12 +431,12 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.anu.edu.au", 2),
          rep("https://www.mq.edu.au", 2),
          rep("https://www.uow.edu.au", 2),
-         rep("https://www.auckland.ac.nz", 2),
+         rep("https://www.auckland.ac.nz/en.html", 2),
          "https://www.otago.ac.nz",
          "https://www.maynoothuniversity.ie",
          rep("https://www.ucc.ie", 2),
          rep("https://www.cardiff.ac.uk", 2),
-         rep("https://www.aber.ac.uk", 2),
+         rep("https://aber.ac.uk/en/", 2),
          "https://www.ucd.ie"
 )
 
@@ -446,7 +446,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 235 4  2023-09-13
+# dim(all_data)  # 235 4  2023-09-14
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -491,10 +491,10 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-13:
+# # On 2023-09-14:
 # length(all_data$pal)           #  235 color palettes
 # length(unique(all_data$inst))  #  102 institutions
-# sum(n_cols)                    # 1575 colors
+# sum(n_cols)                    # 1577 colors
 
 
 # Export as unicol_data (as data frame): ------

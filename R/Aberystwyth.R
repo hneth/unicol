@@ -1,4 +1,4 @@
-## Aberystwyth.R | 2023 09 11
+## Aberystwyth.R | 2023 09 14
 ## Colors of Aberystwyth University, Wales, UK 
 ## -------------------------------------------
 
@@ -8,7 +8,7 @@
 
 # inst: "Aberystwyth University"
 # inst_alt: "Prifysgol Aberystwyth"
-# inst_URL: <https://www.aber.ac.uk>
+# inst_URL: <https://aber.ac.uk/en/>
 # country: Wales, UK
 
 # Color source:
@@ -112,9 +112,9 @@ names_aberystwyth_2 <- c("Teal", "Grey", "Light blue",
 #' Primary corporate colors of Aberystwyth University, Wales 
 #' 
 #' \code{aberystwyth_1} provides the two primary corporate colours 
-#' of \href{https://www.aber.ac.uk}{Aberystwyth University}, Wales, UK.
+#' of \href{https://aber.ac.uk/en/}{Aberystwyth University}, Wales, UK.
 #'
-#' The 2 primary colours of \href{https://www.aber.ac.uk}{Aberystwyth University} are 
+#' The 2 primary colours of \href{https://aber.ac.uk/en/}{Aberystwyth University} are 
 #' \code{Yellow}, defined as CMYK 0% 20% 100% 0%, Pantone 123C, 
 #' RGB 255 205 00, or HEX "#ffcc00", and 
 #' \code{Navy}, defined as CMYK 100% 95% 35% 30%, Pantone 2766C, 
@@ -123,7 +123,7 @@ names_aberystwyth_2 <- c("Teal", "Grey", "Light blue",
 #' \code{aberystwyth_1} uses the HEX color definitions. 
 #' 
 #' @details
-#' \href{https://www.aber.ac.uk}{Aberystwyth University}'s primary colour palette 
+#' \href{https://aber.ac.uk/en/}{Aberystwyth University}'s primary colour palette 
 #' retains the historical ethos of Aberystwyth which is important to the brand.
 #' 
 #' The colours are confident and strong and help Aberystwyth retain its image 
@@ -136,7 +136,7 @@ names_aberystwyth_2 <- c("Teal", "Grey", "Light blue",
 #' \strong{unicol}, 2023-09-11.
 #'
 #' @source 
-#' \href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+#' \href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 #' \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colours}. 
 #'
 #' @examples
@@ -168,16 +168,16 @@ aberystwyth_1 <- unikn::newpal(col = color_aberystwyth_1,
 #' Secondary corporate colors of Aberystwyth University, Wales 
 #' 
 #' \code{aberystwyth_2} provides the six secondary corporate colours 
-#' of \href{https://www.aber.ac.uk}{Aberystwyth University}, Wales, UK.
+#' of \href{https://aber.ac.uk/en/}{Aberystwyth University}, Wales, UK.
 #'
 #' \code{aberystwyth_2} uses the HEX color definitions 
-#' (see \href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+#' (see \href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 #' \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colour page} 
 #' for details and alternative definitions).
 #' 
 #' @details
 #' To support the primary colours, the secondary colours of  
-#' \href{https://www.aber.ac.uk}{Aberystwyth University} 
+#' \href{https://aber.ac.uk/en/}{Aberystwyth University} 
 #' are alternatives providing flexibility and freedom for the design team.
 #' 
 #' Careful consideration and permission is required for use of any 
@@ -190,7 +190,7 @@ aberystwyth_1 <- unikn::newpal(col = color_aberystwyth_1,
 #' \strong{unicol}, 2023-09-11.
 #'
 #' @source 
-#' \href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+#' \href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 #' \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colours}. 
 #'
 #' @examples
