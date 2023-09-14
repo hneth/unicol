@@ -8,8 +8,8 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on the
-\href{https://visualidentity.columbia.edu/content/colors-1}{Color manual}.
+Color definitions are based on \href{http://www.columbia.edu}{Columbia}'s 
+\href{https://visualidentity.columbia.edu/branding}{Brand guide}.
 }
 \usage{
 columbia
@@ -18,19 +18,19 @@ columbia
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{columbia} provides one primary blue and four secondary blue colors
-of the \href{http://www.columbia.edu}{Columbia University}, USA.
+\code{columbia} provides one primary blue and four secondary blue colors 
+of \href{http://www.columbia.edu}{Columbia University}, USA.
 }
 \details{
 The official and primary blue color is 
-\code{"columbia_blue"} (PMS 290C, RGB 185/217/235, CMYK 23/0/1/0).
+\code{"Columbia blue"} (PMS 290C, RGB 185/217/235, CMYK 23/0/1/0).
 It is based on the color of the Philolexian Society, Columbia’s oldest student organization, founded in 1802.
 
-The Columbia University trademark can also be rendered in these approved blues:
-\code{"sec_blue1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
-\code{"sec_blue2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
-\code{"sec_blue3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
-\code{"sec_blue4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
+The Columbia University trademark can also be rendered in these approved blues: 
+\code{"Blue 1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
+\code{"Blue 2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
+\code{"Blue 3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
+\code{"Blue 4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
 
 \code{columbia} uses the RGB color definitions.
 }
