@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-\href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+\href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colours}.
 }
 \usage{
@@ -19,10 +19,10 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{aberystwyth_1} provides the two primary corporate colours 
-of \href{https://www.aber.ac.uk}{Aberystwyth University}, Wales, UK.
+of \href{https://aber.ac.uk/en/}{Aberystwyth University}, Wales, UK.
 }
 \details{
-The 2 primary colours of \href{https://www.aber.ac.uk}{Aberystwyth University} are 
+The 2 primary colours of \href{https://aber.ac.uk/en/}{Aberystwyth University} are 
 \code{Yellow}, defined as CMYK 0% 20% 100% 0%, Pantone 123C, 
 RGB 255 205 00, or HEX "#ffcc00", and 
 \code{Navy}, defined as CMYK 100% 95% 35% 30%, Pantone 2766C, 
@@ -31,7 +31,7 @@ RGB 36 39 83, or HEX "#242753".
 \code{aberystwyth_1} uses the HEX color definitions.
 
 
-\href{https://www.aber.ac.uk}{Aberystwyth University}'s primary colour palette 
+\href{https://aber.ac.uk/en/}{Aberystwyth University}'s primary colour palette 
 retains the historical ethos of Aberystwyth which is important to the brand.
 
 The colours are confident and strong and help Aberystwyth retain its image 

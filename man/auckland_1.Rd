@@ -8,7 +8,7 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz}{University of Auckland}'s 
+Color definitions are based on Version 12 of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}'s 
 \href{https://cdn.auckland.ac.nz/assets/central/about/the-university/how-the-university-works/policy-and-administration/web-style-guide.pdf}{Web Style Guide (PDF)}.
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{auckland_1} provides the university web colour range 
-of the \href{https://www.auckland.ac.nz}{University of Auckland}, New Zealand.
+of the \href{https://www.auckland.ac.nz/en.html}{University of Auckland}, New Zealand.
 }
 \details{
 The University web colours are used for all areas of the 

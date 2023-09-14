@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-\href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+\href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colours}.
 }
 \usage{
@@ -19,17 +19,17 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{aberystwyth_2} provides the six secondary corporate colours 
-of \href{https://www.aber.ac.uk}{Aberystwyth University}, Wales, UK.
+of \href{https://aber.ac.uk/en/}{Aberystwyth University}, Wales, UK.
 }
 \details{
 \code{aberystwyth_2} uses the HEX color definitions 
-(see \href{https://www.aber.ac.uk}{Aberystwyth University}'s 
+(see \href{https://aber.ac.uk/en/}{Aberystwyth University}'s 
 \href{https://www.aber.ac.uk/en/gmsr/brand/colours-fonts/}{Corporate colour page} 
 for details and alternative definitions).
 
 
 To support the primary colours, the secondary colours of  
-\href{https://www.aber.ac.uk}{Aberystwyth University} 
+\href{https://aber.ac.uk/en/}{Aberystwyth University} 
 are alternatives providing flexibility and freedom for the design team.
 
 Careful consideration and permission is required for use of any 
