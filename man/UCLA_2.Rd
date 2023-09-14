@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.ucla.edu}{UCLA}'s 
 \href{https://brand.ucla.edu/identity/colors}{Color manual}.
 }
 \usage{
@@ -22,23 +22,29 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 }
 \details{
-A secondary palette has been developed to respect and complement the tradition of blue and gold while adding an additional level of brightness or darkness to the palette.
 Secondary colors are
-\code{"darkest_blue"} (defined as  CMYK 100/48/12/58, RGB 0/59/92, HEX #003B5C),
-\code{"darker_blue"} (defined as CMYK 100/45/0/45, RGB 0/85/135, HEX #005587),
-\code{"lighter_blue"} (defined as CMYK 45/14/9/9, RGB 139/184/232, HEX #8BB8E8),
-\code{"lightest_blue"} (defined as CMYK 20/6/0/0, RGB 218/235/254, HEX #DAEBFE),
-\code{"darkest_gold"} (defined as CMYK 0/31/98/0, RGB 255/184/28, HEX #FFB81C) and
-\code{"darker_gold"} (defined as CMYK 0/19/89/0, RGB 255/199/44, HEX #FFC72C).
+\code{"darkest blue"} (defined as  CMYK 100/48/12/58, RGB 0/59/92, HEX #003B5C),
+\code{"darker blue"} (defined as CMYK 100/45/0/45, RGB 0/85/135, HEX #005587),
+\code{"lighter blue"} (defined as CMYK 45/14/9/9, RGB 139/184/232, HEX #8BB8E8),
+\code{"lightest blue"} (defined as CMYK 20/6/0/0, RGB 218/235/254, HEX #DAEBFE),
+\code{"darkest gold"} (defined as CMYK 0/31/98/0, RGB 255/184/28, HEX #FFB81C), and
+\code{"darker gold"} (defined as CMYK 0/19/89/0, RGB 255/199/44, HEX #FFC72C).
+
+\code{UCLA_2} uses the HEX color definitions.
+
+
+A secondary palette has been developed to respect and complement the tradition of blue and gold, 
+while adding an additional level of brightness or darkness to the palette.
 }
 \examples{
 UCLA_2
-unikn::seecol(UCLA_2, main = "Secondary colors UCLA") # view color palette
+unikn::seecol(UCLA_2, main = "The secondary colors UCLA") # view color palette
 
 }
 \seealso{
 \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
 \code{\link{UCLA_3}} for tertiary colors of UCLA, University of California; 
+\code{\link{UCLA_4}} for blue gradient colors of UCLA, University of California; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -51,6 +57,7 @@ Other U.S. university color palettes:
 \code{\link{CMU_3_campus}},
 \code{\link{UCLA_1}},
 \code{\link{UCLA_3}},
+\code{\link{UCLA_4}},
 \code{\link{UCSD_1}},
 \code{\link{UCSD_2}},
 \code{\link{UCSD_3}},

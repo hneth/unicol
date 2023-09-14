@@ -22,20 +22,21 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 }
 \details{
-Our core colors are the official colors of UC San Diego.
-Consistent use of these colors in all branding is essential to establishing our identity. 
-
 The 4 core colors are
-\code{"ucsd_navy"} (defined as CMYK 100/86/42/42, RGB R24/43/73, HEX #182B49),
-\code{"ucsd_blue"} (defined as CMYK 100/35/3/21, RGB R0/98/155, HEX #00629B),
-\code{"ucsd_yellow"} (defined as CMYK 0/14/100/0, RGB R255/205/0, HEX #FFCD00), and
-\code{"ucsd_gold"} (defined as CMYK 6/35/99/18, RGB R198/146/20, HEX #C69214).
+\code{"UCSD navy"} (defined as CMYK 100/86/42/42, RGB R24/43/73, HEX #182B49),
+\code{"UCSD blue"} (defined as CMYK 100/35/3/21, RGB R0/98/155, HEX #00629B),
+\code{"UCSD yellow"} (defined as CMYK 0/14/100/0, RGB R255/205/0, HEX #FFCD00), and
+\code{"UCSD gold"} (defined as CMYK 6/35/99/18, RGB R198/146/20, HEX #C69214).
 
 \code{UCSD_1} uses the HEX color definitions.
+
+
+\href{https://www.UCSD.edu}{UCSD}'s core colors are the official colors of UC San Diego. 
+Consistent use of these colors in all branding is essential to establishing our identity.
 }
 \examples{
 UCSD_1
-unikn::seecol(UCSD_1, main = "Core colors UCSD") # view color palette
+unikn::seecol(UCSD_1, main = "The core colors UCSD")  # view color palette
 
 }
 \seealso{
@@ -54,6 +55,7 @@ Other U.S. university color palettes:
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
+\code{\link{UCLA_4}},
 \code{\link{UCSD_2}},
 \code{\link{UCSD_3}},
 \code{\link{asu_1}},

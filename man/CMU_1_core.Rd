@@ -54,6 +54,7 @@ Other U.S. university color palettes:
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
+\code{\link{UCLA_4}},
 \code{\link{UCSD_1}},
 \code{\link{UCSD_2}},
 \code{\link{UCSD_3}},

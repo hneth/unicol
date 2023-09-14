@@ -22,10 +22,6 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.UCSD.edu}{UCSD, UC San Diego, University of California}, USA.
 }
 \details{
-Our palette of accent colors have been developed to add energy and amplify the UC San Diego brand.
-Inspired by our vibrant natural surroundings, accent colors can be used in conjunction with our core
-colors to create materials that push boundaries while still recognizable as UC San Diego.
-
 The 6 accent colors are
 \code{"turquoise"} (defined as CMYK 70/0/16/0, RGB R0/198/215, HEX #00C6D7),
 \code{"magenta"} (defined as CMYK 13/83/0/0, RGB R212/98/173, HEX #D462AD),
@@ -35,6 +31,13 @@ The 6 accent colors are
 \code{"green"} (defined as CMYK 60/23/92/5, RGB R110/150/59, HEX #6E963B).
 
 \code{UCSD_2} uses the HEX color definitions.
+
+
+\href{https://www.UCSD.edu}{UCSD}'s palette of accent colors have been developed 
+to add energy to and amplify the UC San Diego brand.
+
+Inspired by our vibrant natural surroundings, accent colors can be used in conjunction with our core
+colors to create materials that push boundaries while still recognizable as UC San Diego.
 }
 \examples{
 UCSD_2
@@ -57,6 +60,7 @@ Other U.S. university color palettes:
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
+\code{\link{UCLA_4}},
 \code{\link{UCSD_1}},
 \code{\link{UCSD_3}},
 \code{\link{asu_1}},
