@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the \href{https://www.otago.ac.nz}{University of Otago}'s 
-\href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/otago017269.html}{Brand guide (HTML or PDF)}.
+Color definitions are based on the \href{https://www.otago.ac.nz}{UOtago}'s 
+\href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide}{Brand guide}.
 }
 \usage{
 otago
@@ -32,7 +32,7 @@ The four screen colours are
 }
 \examples{
 otago
-unikn::seecol(otago, main = "Colours of the University of Otago") # view color palette
+unikn::seecol(otago, main = "Colours of the University of Otago, NZ")  # view color palette
 
 }
 \seealso{
