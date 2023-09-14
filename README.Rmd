@@ -44,11 +44,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
 [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -101,7 +103,7 @@ devtools::install_github('hneth/unicol')
 
 <!-- Note: unicol is based on unikn -->
 
-The **unicol** package is based on the R\ package **[unikn](`r url_unikn_cran`)** and loads key functionality from it. 
+The **unicol** package is based on the R\ package **[unikn](`r url_unikn_cran`)** and requires it for key functionality. 
 
 
 ## Usage
@@ -136,7 +138,7 @@ tab_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst,
 knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
-(See the vignette on **Color palettes** for an overview of all color palettes and institutions.) 
+(See the vignette on **[Color palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for an overview of included color palettes and institutions.) 
 
 <!-- ## Examples  -->
 
@@ -171,7 +173,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(24) # reproducible randomness
+set.seed(123) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -199,10 +201,10 @@ for (i in 1:n){
   cur_pal   <- get(cur_name)
   cur_count <- length(cur_pal)
   
-  # if (cur_count > 13){
-  #   message("Use different seed.")
-  #   break
-  #   }
+  if (cur_count > 13){
+    message("Use different seed.")
+    break
+    }
   
   pal_list[[i]] <- cur_pal
   pal_names[i]  <- cur_name
@@ -344,11 +346,11 @@ B. Online documentation:   | [Release version](https://hneth.github.io/unicol/) 
 <img src = "./man/figures/logo_unikn.png" alt = "uni.kn" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
 </a>
 
-The **unicol** package originated as a collaborative project by the following course:
+The **unicol** package originated as a collaborative project of the following course:
 
 * **Open Source Software Development in R** (ADILT applications, PSY-18040), at the **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
-* Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426** 
-* Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
+<!-- * Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426**  -->
+* By **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
 
 
 ### License

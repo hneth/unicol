@@ -5,7 +5,7 @@ This release of **unicol** (v0.2.0) was published [on CRAN](https://CRAN.R-proje
 
 This version adds and updates color palettes, but also improves consistency, simplicity, and fixes some bugs. 
 
-The **unicol** package currently provides **235\ color palettes** from **102\ institutions**. 
+The **unicol** package currently provides **236\ color palettes** from **102\ institutions**. 
 
 <!-- Log of changes: --> 
 

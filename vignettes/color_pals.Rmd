@@ -134,11 +134,11 @@ my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, 
 
 ```{r unicol-pals-example-stats, echo = FALSE, eval = FALSE}
 # Stats (for n <- N):
-n_pals  # number of color palettes: 202 on 2023-04-08. 
-n_inst  # number of institutions: 86 on 2023-08-03.
-# Colors:
-length(unlist(pal_list))          # number of colors: 1327 on 2023-04-08. 
-length(unique(unlist(pal_list)))  # number of unique colors: 1130 on 2023-04-08. 
+n_pals  # number of color palettes: 236 on 2023-09-14. 
+n_inst  # number of institutions:   102 on 2023-09-14.
+# Colors (in current set):
+length(unlist(pal_list))          # number of colors: 253 on 2023-09-14. 
+length(unique(unlist(pal_list)))  # number of unique colors: 222 on 2023-09-14. 
 ```
 
 

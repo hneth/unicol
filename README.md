@@ -70,8 +70,8 @@ devtools::install_github('hneth/unicol')
 <!-- Note: unicol is based on unikn -->
 
 The **unicol** package is based on the R package
-**[unikn](https://CRAN.R-project.org/package=unikn)** and loads key
-functionality from it.
+**[unikn](https://CRAN.R-project.org/package=unikn)** and requires it
+for key functionality.
 
 ## Usage
 
@@ -86,31 +86,32 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **235 color palettes** from
+The **unicol** package currently provides **236 color palettes** from
 **102 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
-(See the vignette on **Color palettes** for an overview of all color
-palettes and institutions.)
+(See the vignette on **[Color
+palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for
+an overview of included color palettes and institutions.)
 
 <!-- ## Examples  -->
 <!-- Goal: Show some color palettes and how they can be used: -->
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **235\ color palettes** from **102\ institutions**.  -->
+<!-- The **unicol** package currently contains **236\ color palettes** from **102\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 220 colors):
+**Figure 1** illustrates 50 random color palettes (with 242 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 220 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 242 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 220 colors).
+Figure 1: A sample of 50 unicol palettes (containing 242 colors).
 </p>
 
 </div>
@@ -238,14 +239,14 @@ available:
 <img src = "./man/figures/logo_unikn.png" alt = "uni.kn" align = "right" width = "300px" style = "width: 300px; float: right; border:0;"/>
 </a>
 
-The **unicol** package originated as a collaborative project by the
+The **unicol** package originated as a collaborative project of the
 following course:
 
 - **Open Source Software Development in R** (ADILT applications,
   PSY-18040), at the **[University of
   Konstanz](https://www.uni-konstanz.de/en/)**  
-- Spring/Summer 2023: **Tuesdays**, **13:30—15:00**; in **C426**
-- Taught by **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
+  <!-- * Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426**  -->
+- By **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
   [SPDS](https://www.spds.uni-konstanz.de/), [University of
   Konstanz](https://www.uni-konstanz.de/en/))
 

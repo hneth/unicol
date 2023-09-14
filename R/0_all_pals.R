@@ -80,7 +80,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "utoronto <-", 
               "ucalgary_1 <-", "ucalgary_2 <-", "ucalgary_warmgreys <-", "ucalgary_accent <-", 
               "UCLA_1 <-", "UCLA_2 <-", "UCLA_3 <-", "UCLA_4 <-", 
-              "UCSD_1_core <-", "UCSD_2_accent <-", "UCSD_3_neutral <-", 
+              "UCSD_1 <-", "UCSD_2 <-", "UCSD_3 <-", 
               "umass_1 <-", "umass_2 <-", "umass_neutrals <-", 
               "uni_goettingen_1 <-", "uni_goettingen_2 <-", "uni_goettingen_3 <-", 
               "uni_heidelberg <-", 
@@ -446,7 +446,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 235 4  2023-09-14
+# dim(all_data)  # 236 4  2023-09-14
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -492,9 +492,9 @@ row.names(all_data) <- 1:nrow(all_data)
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
 # # On 2023-09-14:
-# length(all_data$pal)           #  235 color palettes
+# length(all_data$pal)           #  236 color palettes
 # length(unique(all_data$inst))  #  102 institutions
-# sum(n_cols)                    # 1577 colors
+# sum(n_cols)                    # 1580 colors
 
 
 # Export as unicol_data (as data frame): ------
