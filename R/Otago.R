@@ -1,6 +1,6 @@
-## Otago.R | 2023 09 08
+## Otago.R | 2023 09 14
 ## Colors of the University of Otago, NZ 
-## --------------------------------------------
+## -------------------------------------
 
 
 
@@ -23,7 +23,7 @@
 
 
 # Source: University of Otago Brand guide at 
-# <https://www.otago.ac.nz/administration/service_divisions/external-engagement/otago017269.html>
+# <https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide>
 # 2023-09-08
 
 
@@ -97,12 +97,12 @@ names_otago <- c("Otago blue", "Otago bold", "Otago red", "Otago black")
 #' \strong{unicol}, 2023-09-08.
 #'
 #' @source 
-#' Color definitions are based on the \href{https://www.otago.ac.nz}{University of Otago}'s 
-#' \href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/otago017269.html}{Brand guide (HTML or PDF)}.
+#' Color definitions are based on the \href{https://www.otago.ac.nz}{UOtago}'s 
+#' \href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide}{Brand guide}.
 #'
 #' @examples
 #' otago
-#' unikn::seecol(otago, main = "Colours of the University of Otago") # view color palette
+#' unikn::seecol(otago, main = "Colours of the University of Otago, NZ")  # view color palette
 #' 
 #' @family New Zealand university color palettes
 #'
