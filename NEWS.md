@@ -16,14 +16,14 @@ Changes since last release:
 ## Major changes 
 
 - New color palettes: 
-    - [Aberystwyth University](https://www.aber.ac.uk): `aberystwyth_1`, `aberystwyth_2`  
+    - [Aberystwyth University](https://aber.ac.uk/en/): `aberystwyth_1`, `aberystwyth_2`  
     - [Cardiff University](https://www.cardiff.ac.uk): `cardiff_1`, `cardiff_2`
     - [Macquarie University](https://www.mq.edu.au): `mq_1`, `mq_2`
     - [Maynooth University](https://www.maynoothuniversity.ie): `maynooth`
     - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
     - [University College Cork](https://www.ucc.ie): `ICC_1`, `ICC_2`
     - [University College Dublin](https://www.ucd.ie): `UCD` 
-    - [University of Auckland](https://www.auckland.ac.nz): `auckland_1`, `auckland_2` 
+    - [University of Auckland](https://www.auckland.ac.nz/en.html): `auckland_1`, `auckland_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
     - [University of Otago](https://www.otago.ac.nz): `otago` 
@@ -72,6 +72,6 @@ The **unicol** package initially provides **202\ color palettes** from **86\ ins
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-14.] 
+[File `NEWS.md` updated on 2023-09-15.] 
 
 <!-- eof. -->
