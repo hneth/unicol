@@ -50,6 +50,7 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Release badges end. -->
 
+
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
@@ -301,8 +302,7 @@ The vignette on [Institutional colors](https://hneth.github.io/unikn/articles/co
 
 - Are you using the **unikn** functions to create **your own color palettes**? 
 
-If you do, **please let us know** (e.g., on this [GitHub issue](https://github.com/hneth/unicol/issues/30)) 
-so that we can include it in future versions of the **unicol** package. 
+If you do, **please let us know** (e.g., on this [GitHub issue](https://github.com/hneth/unicol/issues/30)) so that we can include it in future versions of the **unicol** package. 
 To enable us to verify and provide credit to your contributions, please send us the following information:  
 
 <!-- ToDo: -->
@@ -323,13 +323,12 @@ We're looking forward to **your inputs and contributions** (at [this GitHub issu
 
 The following versions of **unicol** and corresponding resources are available: 
 
-Type:                         | Version:        | URL:                           |         
+Type:                         | Version:        | URL:                           | 
 :-----------------------------|:----------------|:-------------------------------| 
-A. **unicol** (R package): | [Release version](https://CRAN.R-project.org/package=unicol)  | <https://CRAN.R-project.org/package=unicol> |
-    &nbsp;                 | [Development version](https://github.com/hneth/unicol/)       | <https://github.com/hneth/unicol/> | 
-B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)            | <https://hneth.github.io/unicol/> | 
-    &nbsp;                 | [Development version](https://hneth.github.io/unicol/dev/)    | <https://hneth.github.io/unicol/dev/> | 
-
+A. **unicol** (R package): | [Release version](https://CRAN.R-project.org/package=unicol) | <https://CRAN.R-project.org/package=unicol> |
+    &nbsp;                 | [Development version](https://github.com/hneth/unicol/)      | <https://github.com/hneth/unicol/> | 
+B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)           | <https://hneth.github.io/unicol/> | 
+    &nbsp;                 | [Development version](https://hneth.github.io/unicol/dev/)   | <https://hneth.github.io/unicol/dev/> | 
 
 
 ## References 
@@ -346,7 +345,7 @@ B. Online documentation:   | [Release version](https://hneth.github.io/unicol/) 
 The **unicol** package originated as a collaborative project of the following course:
 
 * **Open Source Software Development in R** (ADILT applications, PSY-18040), at the **[University of Konstanz](https://www.uni-konstanz.de/en/)**   
-<!-- * Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426**  -->
+* Spring/Summer\ 2023: **Tuesdays**, **13:30—15:00**; in **C426** 
 * By **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>, [SPDS](https://www.spds.uni-konstanz.de/), [University of Konstanz](https://www.uni-konstanz.de/en/))
 
 
