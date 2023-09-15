@@ -1,4 +1,22 @@
 
+# unicol 0.2.0.9001
+
+<!-- Development version:  --> 
+
+This is the development version of **unicol**, available at <https://github.com/hneth/unicol/>.
+
+
+<!-- Log of changes: --> 
+
+Changes since last release: 
+
+- none yet 
+
+
+<!-- Published versions: --> 
+
+------ 
+
 # unicol 0.2.0
 
 **unicol** (v0.2.0) was published [on CRAN](https://CRAN.R-project.org/package=unicol). [2023-09-15] 
