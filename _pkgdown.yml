@@ -4,7 +4,7 @@
 url: https://hneth.github.io/unicol/
 
 development:
-  mode: release # devel OR release
+  mode: devel # devel OR release
 
 template:
   bootstrap: 5
