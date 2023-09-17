@@ -5,13 +5,33 @@
 
 This is the development version of **unicol**, available at <https://github.com/hneth/unicol/>.
 
-
 <!-- Log of changes: --> 
 
 Changes since last release: 
 
-- none yet 
+<!-- Major changes: --> 
 
+## Major changes 
+
+- New color palettes: 
+    - [University of Stirling](https://www.stir.ac.uk): `stirling_1`, `stirling_2`, `stirling_3`  
+
+
+<!-- Minor changes: --> 
+
+## Minor changes 
+
+- none yet
+
+<!-- Details:  --> 
+
+## Details 
+
+- none yet
+
+<!-- Development version:  --> 
+
+The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
 
 <!-- Published versions: --> 
 
@@ -73,11 +93,6 @@ Changes since last release:
 - updated meta-data and online documentation
 
 
-<!-- Development version:  --> 
-
-The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
-
-
 ------ 
 
 # unicol 0.1.0
@@ -91,6 +106,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-15.] 
+[File `NEWS.md` updated on 2023-09-17.] 
 
 <!-- eof. -->

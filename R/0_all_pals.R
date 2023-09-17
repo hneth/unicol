@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 15
+## all_pals.R | 2022 09 17
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -95,7 +95,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "yale <-", 
               "yeshiva <-", 
               "yorku_1 <-", "yorku_2 <-",
-              # NEW after v0.1.0: 
+              # NEW in v0.2.0: 
               "groningen_1", "groningen_2",
               "uni_lisbon",
               "willamette",
@@ -111,7 +111,9 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "UCC_1", "UCC_2",
               "cardiff_1", "cardiff_2", 
               "aberystwyth_1", "aberystwyth_2",
-              "UCD"
+              "UCD",
+              # NEW after v0.2.0:
+              "stirling_1", "stirling_2", "stirling_3" 
 )
 
 
@@ -207,7 +209,7 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Yale University", 1),
           rep("Yeshiva University", 1),
           rep("York University", 2), 
-          # NEW after v0.1.0: 
+          # NEW in v0.2.0: 
           rep("University of Groningen", 2),
           "University of Lisbon",
           "Willamette University",
@@ -223,7 +225,9 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University College Cork", 2),
           rep("Cardiff University", 2),
           rep("Aberystwyth University", 2),
-          "University College Dublin"
+          "University College Dublin", 
+          # NEW after v0.2.0: 
+          rep("University of Stirling", 3)
 )
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -314,7 +318,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Yale", 1),
               rep("YU", 1),
               rep("Yorku", 2),
-              # NEW after v0.1.0: 
+              # NEW in v0.2.0: 
               rep("Rijksuniversiteit Groningen", 2),
               "Universidade de Lisboa",
               "Willamette",
@@ -330,7 +334,9 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Colaiste na hOllscoile Corcaigh / UCC", 2),
               rep("Prifysgol Caerdydd", 2),
               rep("Prifysgol Aberystwyth", 2),
-              "An Colaiste Ollscoile, Baile Atha Cliath / UCD"
+              "An Colaiste Ollscoile, Baile Atha Cliath / UCD",
+              # NEW after v0.2.0: 
+              rep("Stirling University / UStirling", 3)
 )
 
 # Valid URL: 
@@ -421,7 +427,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.yale.edu", 1),
          rep("https://www.yu.edu", 1),
          rep("https://www.yorku.ca", 2),
-         # NEW after v0.1.0: 
+         # NEW in v0.2.0: 
          rep("https://www.rug.nl", 2),
          "https://www.ulisboa.pt",
          "https://willamette.edu",
@@ -437,7 +443,9 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.ucc.ie", 2),
          rep("https://www.cardiff.ac.uk", 2),
          rep("https://aber.ac.uk/en/", 2),
-         "https://www.ucd.ie"
+         "https://www.ucd.ie",
+         # NEW after v0.2.0: 
+         rep("https://www.stir.ac.uk", 3)
 )
 
 
@@ -446,7 +454,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 236 4  2023-09-14
+# dim(all_data)  # 239 4  2023-09-17
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
