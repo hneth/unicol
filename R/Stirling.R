@@ -1,4 +1,4 @@
-## Stirling.R | 2023 09 16
+## Stirling.R | 2023 09 17
 ## Colors of the University of Stirling, Scotland 
 ## ----------------------------------------------
 
@@ -14,7 +14,7 @@
 
 # Color source:
 
-# color_URL: VBrand guide at 
+# color_URL: Brand guide at 
 # <https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/>
 # Last check: 2023-09-10
 
@@ -37,13 +37,13 @@
 # 
 # Green is our primary colour (Energy Pantone 368 and Heritage Pantone 349).
 # 
-# Heritage:
+# Heritage green:
 #   HEX "#006938"
 #   RGB  0, 105, 56
 #   CMYK 90, 32, 93, 24
 #   PMS  Pantone 349
 # 
-# Energy:
+# Energy green:
 #   HEX "#77BF22"
 #   RGB 119, 191, 34
 #   CMYK 60, 0, 100, 0
@@ -53,8 +53,8 @@
 # 
 # Our tertiary colours should be used for body text and some messaging.
 # 
-# The primary and secondary colour palettes are made up of colour pairings: 
-#   ‘Energy colours’ and ‘Heritage colours’. 
+# The primary and secondary colour palettes are made up of colour pairings:
+#   ‘Energy colours’ and ‘Heritage colours’.
 # These can be used separately, mixed or as the pairings suggested.
 # 
 # You can use tints (70%, 50%, 30%) of your chosen colour. Using tints gives more flexibility.
@@ -72,8 +72,7 @@
 # University of Stirling (primary)
 
 color_stirling_1 <- c("#006938", "#77BF22")
-names_stirling_1 <- c("Heritage", "Energy")
-
+names_stirling_1 <- c("Heritage green", "Energy green")
 
 
 # 2: Secondary colour palette ----
@@ -199,8 +198,8 @@ names_stirling_1 <- c("Heritage", "Energy")
 
 color_stirling_2 <- c("#005e63", "#ecaa00", "#e14504", "#385dae", "#14315e", "#9d1e65", "#31006f", 
                       "#008996", "#00A5AC", "#f4c400", "#FF6D00", "#5fb4e5", "#3d7dca", "#E80068", "#592c82")
-names_stirling_2 <- c("Heritage Teal", "Heritage Yellow", "Heritage Orange", "Heritage Blue", "Heritage Navy", "Heritage Berry", "Heritage Purple", 
-                      "Energy Teal", "Energy Turq", "Energy Yellow", "Energy Orange", "Energy Sky", "Energy Blue", "Energy Pink", "Energy Purple")
+names_stirling_2 <- c("Heritage teal", "Heritage yellow", "Heritage orange", "Heritage blue", "Heritage navy", "Heritage berry", "Heritage purple", 
+                      "Energy teal", "Energy turq", "Energy yellow", "Energy orange", "Energy sky", "Energy blue", "Energy pink", "Energy purple")
 
 
 # 3: Tertiary colours ----
@@ -231,10 +230,7 @@ names_stirling_2 <- c("Heritage Teal", "Heritage Yellow", "Heritage Orange", "He
 # University of Stirling (tertiary): 
 
 color_stirling_3 <- c("#c5bfb7", "#827f77", "#3a3c39")
-names_stirling_3 <- c("Light_Grey", "Grey", "Dark_Grey")
-
-
-
+names_stirling_3 <- c("Light grey", "Grey", "Dark grey")
 
 
 
@@ -244,16 +240,31 @@ names_stirling_3 <- c("Light_Grey", "Grey", "Dark_Grey")
 
 #' Primary colours of the University of Stirling, Scotland
 #' 
-#' \code{stirling_1} provides the four primary colors 
-#' of the \href{https://example.org}{University of Example}, Country.
-#'
-#' The 4 primary colors of the University of Example are 
-#' \code{"pinky pink"} (defined as HEX \code{"#E0607E"}),
-#' \code{"bright grey"} (defined as HEX \code{"#CCCCCC"}), 
-#' \code{"dark grey"} (defined as HEX \code{"#4C4C4C"}), and
-#' \code{"dark"} (defined as R color \code{"black"} or HEX \code{"#000000"}).
-#'
-#' \code{example} uses the HEX color definitions. 
+#' \code{stirling_1} provides the two primary colours 
+#' of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
+#' 
+#' The 2 primary colours are 
+#' \code{Heritage green}, defined as PMS Pantone 349, RGB 0 105 56, CMYK 90 32 93 24, or HEX "#006938", and 
+#' \code{Energy green}, defined as PMS Pantone 368, RGB 119 191 34, CMYK 60 0 100 0, or HEX "#77BF22".
+#' 
+#' \code{stirling_1} uses the HEX color definitions. 
+#' 
+#' 
+#' @details
+#' The \href{https://www.stir.ac.uk}{University of Stirling}'s colour palette 
+#' plays a vital role in delivering a visibly consistent look to all communications. 
+#' 
+#' Our primary colour palette has been carefully chosen to identify and differentiate us. 
+#' The green primary colour reflects the natural beauty of \href{https://www.stir.ac.uk}{Stirling}'s campus. 
+#' 
+#' The primary colours are supported by the secondary palette (see \code{\link{stirling_2}}) and 
+#' tertiary colours (\code{\link{stirling_3}}) for body text and messaging.
+#' 
+#' The primary and secondary colour palettes are made up of colour pairings: 
+#' ‘Energy colours’ and ‘Heritage colours’. 
+#' These can be used separately, mixed, or as the pairings suggested.
+#' 
+#' To add flexibility, users can use tints (70%, 50%, 30%) of a chosen colour.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -262,17 +273,18 @@ names_stirling_3 <- c("Light_Grey", "Grey", "Dark_Grey")
 #' \strong{unicol}, 2023-09-16.
 #'
 #' @source 
-#' Color definitions are based on the 
-#' \href{https://example.org}{doc title (HTML or PDF)}.
+#' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
+#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
 #'
 #' @examples
-#' example
-#' unikn::seecol(example, main = "Colors of the University of Example #") # view color palette
-#' unikn::demopal(example, main = "Illustrating the colors of Example #") # demo color palette 
+#' stirling_1
+#' unikn::seecol(stirling_1, main = "Primary colours of the University of Stirling") # view palette
 #' 
-#' @family university color palettes
+#' @family Scottish university color palettes
 #'
 #' @seealso
+#' \code{\link{stirling_2}} for secondary colours of the University of Stirling; 
+#' \code{\link{stirling_3}} for tertiary colours of the University of Stirling; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -280,8 +292,6 @@ names_stirling_3 <- c("Light_Grey", "Grey", "Dark_Grey")
 #' \code{\link{grepal}} for finding named colors.
 #'
 #' @export
-
-
 
 stirling_1 <- unikn::newpal(col = color_stirling_1, 
                             names = names_stirling_1, 
