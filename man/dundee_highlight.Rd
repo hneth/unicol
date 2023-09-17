@@ -55,7 +55,10 @@ Other Scottish university color palettes:
 \code{\link{dundee_core}},
 \code{\link{edinburgh}},
 \code{\link{standrews_1}},
-\code{\link{standrews_2}}
+\code{\link{standrews_2}},
+\code{\link{stirling_1}},
+\code{\link{stirling_2}},
+\code{\link{stirling_3}}
 }
 \author{
 \strong{unicol}, 2023-06-22.
