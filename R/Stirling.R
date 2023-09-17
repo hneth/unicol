@@ -1,4 +1,4 @@
-## Stirling.R | 2023 09 17
+## Stirling.R | 2023 09 16
 ## Colors of the University of Stirling, Scotland 
 ## ----------------------------------------------
 
@@ -205,7 +205,7 @@ names_stirling_2 <- c("Heritage teal", "Heritage yellow", "Heritage orange", "He
 # 3: Tertiary colours ----
 
 # Our tertiary colours should be used for body text and some messaging.
-# 
+#
 # You can use tints (70%, 50%, 30%) of your chosen colour. Using tints gives more flexibility.
 # 
 # Tertiary colour 1:
@@ -230,7 +230,7 @@ names_stirling_2 <- c("Heritage teal", "Heritage yellow", "Heritage orange", "He
 # University of Stirling (tertiary): 
 
 color_stirling_3 <- c("#c5bfb7", "#827f77", "#3a3c39")
-names_stirling_3 <- c("Light grey", "Grey", "Dark grey")
+names_stirling_3 <- c("Light grey", "Mid grey", "Dark grey")
 
 
 
@@ -248,7 +248,6 @@ names_stirling_3 <- c("Light grey", "Grey", "Dark grey")
 #' \code{Energy green}, defined as PMS Pantone 368, RGB 119 191 34, CMYK 60 0 100 0, or HEX "#77BF22".
 #' 
 #' \code{stirling_1} uses the HEX color definitions. 
-#' 
 #' 
 #' @details
 #' The \href{https://www.stir.ac.uk}{University of Stirling}'s colour palette 
@@ -303,6 +302,65 @@ stirling_1 <- unikn::newpal(col = color_stirling_1,
 
 # - stirling_2: Secondary colours of the University of Stirling ------ 
 
+#' Secondary colours of the University of Stirling, Scotland
+#' 
+#' \code{stirling_2} provides 15 secondary colours 
+#' of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
+#' 
+#' See \href{https://www.stir.ac.uk}{Stirling}'s 
+#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+#' for definitions and details.
+#' 
+#' \code{stirling_2} uses the HEX color definitions. 
+#' 
+#' @details
+#' The \href{https://www.stir.ac.uk}{University of Stirling}'s secondary colour palette 
+#' has been developed to create rhythm, pace and variety. 
+#' It should be used to support the primary colours (\code{\link{stirling_1}}) and 
+#' tertiary colours (\code{\link{stirling_3}}) with a 90% colour weighting.
+#' 
+#' The primary and secondary colour palettes are made up of colour pairings: 
+#' ‘Energy colours’ and ‘Heritage colours’. 
+#' These can be used separately, mixed, or as the pairings suggested.
+#' 
+#' An additional colour \code{Heritage gold}, defined as Pantone 871 or CMYK 30, 35, 75, 22, 
+#' should only used for printed materials. 
+#' 
+#' Although an extensive colour palette provides with you many potential colour combinations, 
+#' you must ensure that text is clearly legible and accessible so please select colours carefully. 
+#' For instance, white text on a \code{Heritage green} background works well, 
+#' whereas \code{Heritage berry} text on a \code{Heritage green} background is very difficult to read 
+#' (see \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide example}). 
+#' 
+#' To add flexibility, users can use tints (70%, 50%, 30%) of a chosen colour.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-09-16.
+#'
+#' @source 
+#' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
+#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+#'
+#' @examples
+#' stirling_2
+#' unikn::seecol(stirling_2, main = "Secondary colours of the University of Stirling") # view palette
+#' 
+#' @family Scottish university color palettes
+#'
+#' @seealso
+#' \code{\link{stirling_1}} for primary colours of the University of Stirling; 
+#' \code{\link{stirling_3}} for tertiary colours of the University of Stirling; 
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
 stirling_2 <- unikn::newpal(col = color_stirling_2, 
                             names = names_stirling_2, 
                             as_df = FALSE)
@@ -315,6 +373,51 @@ stirling_2 <- unikn::newpal(col = color_stirling_2,
 
 # - stirling_3: Tertiary colours of the University of Stirling ------ 
 
+#' Tertiary colours of the University of Stirling, Scotland
+#' 
+#' \code{stirling_3} provides three tertiary (grey) colours 
+#' of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
+#' 
+#' The tertiary colours are 3 shades of \code{grey} 
+#' (see \href{https://www.stir.ac.uk}{Stirling}'s 
+#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+#' for definitions and details).
+#' 
+#' \code{stirling_3} uses the HEX color definitions. 
+#' 
+#' @details
+#' The \href{https://www.stir.ac.uk}{University of Stirling}'s 
+#' tertiary colours should be used for body text and some messaging.
+#' 
+#' To add flexibility, users can use tints (70%, 50%, 30%) of a chosen colour.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-09-16.
+#'
+#' @source 
+#' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
+#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+#'
+#' @examples
+#' stirling_3
+#' unikn::seecol(stirling_3, main = "Tertiary colours of the University of Stirling")  # view palette
+#' 
+#' @family Scottish university color palettes
+#'
+#' @seealso
+#' \code{\link{stirling_1}} for primary colours of the University of Stirling; 
+#' \code{\link{stirling_2}} for secondary colours of the University of Stirling; 
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
 stirling_3 <- unikn::newpal(col = color_stirling_3, 
                             names = names_stirling_3, 
                             as_df = FALSE)
@@ -322,7 +425,6 @@ stirling_3 <- unikn::newpal(col = color_stirling_3,
 
 # # Check:
 # unikn::seecol(stirling_3, main = "University of Stirling: Tertiary Colours")
-
 
 
 ## ToDo: -------- 
