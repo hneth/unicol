@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9001
+# unicol 0.2.0.9002
 
 <!-- Development version:  --> 
 
@@ -21,13 +21,15 @@ Changes since last release:
 
 ## Minor changes 
 
-- none yet
+- rename some color palettes (for consistency and simplicity)
+
 
 <!-- Details:  --> 
 
 ## Details 
 
-- none yet
+- add documentation
+
 
 <!-- Development version:  --> 
 
@@ -106,6 +108,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-17.] 
+[File `NEWS.md` updated on 2023-09-18.]
 
 <!-- eof. -->
