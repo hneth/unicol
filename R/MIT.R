@@ -1,4 +1,4 @@
-## MIT.R | 2023 08 22
+## MIT.R | 2023 09 18
 ## Colors of MIT, Massachusetts Institute of Technology, USA
 ## ---------------------------------------------------------
 
@@ -53,19 +53,19 @@ col_lightgray_PMS420 <- "#C2C0BF"
 
 # - mit: Primary colors ------
 
-#' Primary colors of the MIT (Massachusetts Institute of Technology), USA
+#' Colors of the MIT (Massachusetts Institute of Technology), USA
 #'
-#' \code{mit} provides the three primary colors
+#' \code{mit} provides three primary colors
 #' of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA, 
 #' plus a secondary light gray color. 
 #'
 #' The three primary colors are
 #' \code{"black"} (corresponding to RGB 0 0 0 and HEX #000000), 
-#' \code{"red"} (defined as PMS 201, RGB 163 31 52, HEX #A31F34), and 
-#' \code{"gray"} (defined as PMS 424, RGB 138 139 140, HEX #8A8B8C). 
+#' \code{"MIT red"} (defined as PMS 201, RGB 163 31 52, HEX #A31F34), and 
+#' \code{"MIT gray"} (defined as PMS 424, RGB 138 139 140, HEX #8A8B8C). 
 #'
 #' The secondary color 
-#' \code{"lightgray"} (defined as PMS 420, RGB 194 192 191, HEX #C2C0BF)
+#' \code{"MIT light gray"} (defined as PMS 420, RGB 194 192 191, HEX #C2C0BF)
 #' is used for contrast reasons. 
 #'
 #' @return
@@ -75,8 +75,8 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' \strong{unicol}, 2023-06-11.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://web.mit.edu/graphicidentity/colors.html}{Color manual (HTML)}.
+#' Color definitions are based on \href{https://web.mit.edu}{MIT}'s 
+#' \href{https://web.mit.edu/graphicidentity/colors.html}{Color manual}. 
 #'
 #' @examples
 #' mit
@@ -94,7 +94,7 @@ col_lightgray_PMS420 <- "#C2C0BF"
 #' @export
 
 mit <- unikn::newpal(col = c("black", col_red_PMS201, col_gray_PMS424, col_lightgray_PMS420),
-                     names = c("black", "MIT_red (PMS 201)", "MIT_gray (PMS 424)", "MIT_lightgray (PMS 420)"),
+                     names = c("black", "MIT red", "MIT gray", "MIT light gray"),
                      as_df = FALSE)
 
 # # Check:

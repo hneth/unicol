@@ -1,4 +1,4 @@
-## Yeshiva.R | 2023 08 24
+## Yeshiva.R | 2023 09 18
 ## Colors of Yeshiva University, USA
 ## ---------------------------------
 
@@ -7,11 +7,13 @@
 # cur_pals: "yeshiva"
 # inst: "Yeshiva University"
 # country: USA
-# URL: "https://www.yu.edu/"
+# URL: "https://www.yu.edu"
+
 
 # Color source:
 
 # URL: https://www.yu.edu/marketing/branding
+# Last check: 2023-07-13
 
 
 # Colors: ------
@@ -24,12 +26,12 @@
 #' Colors of Yeshiva University, USA 
 #'
 #' \code{yeshiva} provides the three colors 
-#' of the \href{https://www.yu.edu/}{Yeshiva University}, USA.
+#' of the \href{https://www.yu.edu}{Yeshiva University}, USA.
 #'
-#' The 3 colors of the Yeshiva University are
-#' \code{"yeshiva_blue"} (defined as HEX #325A89), 
-#' \code{"yeshiva_black"} (defined as HEX #000000), and
-#' \code{"yeshiva_gray"} (defined as HEX #85878A). 
+#' The 3 colors of Yeshiva University are
+#' \code{"Yeshiva blue"} (defined as HEX #325A89), 
+#' \code{"black"} (defined as HEX #000000), and
+#' \code{"Yeshiva gray"} (defined as HEX #85878A). 
 #'
 #' \code{yeshiva} uses the HEX color definitions.
 #'
@@ -40,8 +42,8 @@
 #' \strong{unicol}, 2023-07-13.
 #'
 #' @source
-#' Color definitions are based on 
-#' \href{https://www.yu.edu/marketing/branding}{YU's website}. 
+#' Color definitions are based on \href{https://www.yu.edu}{YU}'s 
+#' \href{https://www.yu.edu/marketing/branding}{branding site}. 
 #'
 #' @examples
 #' yeshiva
@@ -59,7 +61,7 @@
 #' @export
 
 yeshiva <- unikn::newpal(col = c("#325A89","#000000","#85878A"), 
-                         names = c("yeshiva_blue", "yeshiva_black", "yeshiva_gray"), 
+                         names = c("Yeshiva blue", "black", "Yeshiva gray"), 
                          as_df = FALSE)
 
 
