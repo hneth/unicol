@@ -1,4 +1,4 @@
-## Stirling.R | 2023 09 16
+## Stirling.R | 2023 09 18
 ## Colors of the University of Stirling, Scotland 
 ## ----------------------------------------------
 
@@ -31,7 +31,7 @@
 # Our colour palette plays a vital role in delivering a visibly consistent look to all of our communications. Green is our primary colour as it reflects the natural beauty of our green campus.
 
 
-# 1: Primary colour palette ---- 
+# 1: Primary colours ---- 
 
 # Our primary colour palette has been carefully chosen to identify and differentiate us.
 # 
@@ -75,7 +75,7 @@ color_stirling_1 <- c("#006938", "#77BF22")
 names_stirling_1 <- c("Heritage green", "Energy green")
 
 
-# 2: Secondary colour palette ----
+# 2: Secondary colours ----
 
 # To create rhythm, pace and variety we have developed a secondary colour palette. 
 # It should be used to support our primary and tertiary palettes with a 90% colour weighting.
