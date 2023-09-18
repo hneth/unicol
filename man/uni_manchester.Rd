@@ -44,7 +44,7 @@ unikn::seecol(uni_manchester, main = "University of Manchester, UK") # view colo
 }
 \seealso{
 \code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA; 
-\code{\link{manchester_uni_accent}} for accent colours of Manchester University, IN, USA; 
+\code{\link{manchester_uni_2}} for accent colours of Manchester University, IN, USA; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colours;
