@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on 
-\href{https://www.yu.edu/marketing/branding}{YU's website}.
+Color definitions are based on \href{https://www.yu.edu}{YU}'s 
+\href{https://www.yu.edu/marketing/branding}{branding site}.
 }
 \usage{
 yeshiva
@@ -19,13 +19,13 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{yeshiva} provides the three colors 
-of the \href{https://www.yu.edu/}{Yeshiva University}, USA.
+of the \href{https://www.yu.edu}{Yeshiva University}, USA.
 }
 \details{
-The 3 colors of the Yeshiva University are
-\code{"yeshiva_blue"} (defined as HEX #325A89), 
-\code{"yeshiva_black"} (defined as HEX #000000), and
-\code{"yeshiva_gray"} (defined as HEX #85878A). 
+The 3 colors of Yeshiva University are
+\code{"Yeshiva blue"} (defined as HEX #325A89), 
+\code{"black"} (defined as HEX #000000), and
+\code{"Yeshiva gray"} (defined as HEX #85878A). 
 
 \code{yeshiva} uses the HEX color definitions.
 }

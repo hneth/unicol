@@ -3,13 +3,13 @@
 \docType{data}
 \name{mit}
 \alias{mit}
-\title{Primary colors of the MIT (Massachusetts Institute of Technology), USA}
+\title{Colors of the MIT (Massachusetts Institute of Technology), USA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
-\href{https://web.mit.edu/graphicidentity/colors.html}{Color manual (HTML)}.
+Color definitions are based on \href{https://web.mit.edu}{MIT}'s 
+\href{https://web.mit.edu/graphicidentity/colors.html}{Color manual}.
 }
 \usage{
 mit
@@ -18,18 +18,18 @@ mit
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{mit} provides the three primary colors
+\code{mit} provides three primary colors
 of the \href{https://web.mit.edu}{Massachusetts Institute of Technology}, USA, 
 plus a secondary light gray color.
 }
 \details{
 The three primary colors are
 \code{"black"} (corresponding to RGB 0 0 0 and HEX #000000), 
-\code{"red"} (defined as PMS 201, RGB 163 31 52, HEX #A31F34), and 
-\code{"gray"} (defined as PMS 424, RGB 138 139 140, HEX #8A8B8C). 
+\code{"MIT red"} (defined as PMS 201, RGB 163 31 52, HEX #A31F34), and 
+\code{"MIT gray"} (defined as PMS 424, RGB 138 139 140, HEX #8A8B8C). 
 
 The secondary color 
-\code{"lightgray"} (defined as PMS 420, RGB 194 192 191, HEX #C2C0BF)
+\code{"MIT light gray"} (defined as PMS 420, RGB 194 192 191, HEX #C2C0BF)
 is used for contrast reasons.
 }
 \examples{

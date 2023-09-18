@@ -8,8 +8,8 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on 
-\href{https://onmessage.nd.edu/university-branding/colors/}{ND's website}.
+Color definitions are based on \href{https://www.nd.edu}{Notre Dame}'s
+\href{https://onmessage.nd.edu/university-branding/colors/}{branding site}.
 }
 \usage{
 notredame_1
@@ -23,8 +23,8 @@ of the \href{https://www.nd.edu}{University of Notre Dame}, USA.
 }
 \details{
 The 2 primary colors are
-\code{"nd_blue"} (defined as HEX #0c2340) and 
-\code{"nd_metallic_gold"} (defined as HEX #ae9142). 
+\code{"ND blue"} (defined as HEX #0c2340) and 
+\code{"ND metallic gold"} (defined as HEX #ae9142). 
 
 \code{notredame_1} uses the HEX color definitions.
 }
