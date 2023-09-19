@@ -1,4 +1,4 @@
-## Yale.R | 2023 08 24
+## Yale.R | 2023 09 19
 ## Colors of Yale University, USA
 ## ------------------------------
 
@@ -27,11 +27,11 @@
 
 #' Primary colors of Yale University, USA 
 #'
-#' \code{yale} provides the ten primary colors
-#' of the \href{https://www.yale.edu}{Yale University}, USA.
+#' \code{yale} provides the ten primary colors 
+#' of the \href{https://www.yale.edu}{Yale University}, USA. 
 #'
-#' Yale Blue is the university’s identifying color, and has the hex value #00356b. 
-#' The standard range of blue tints is shown in the primary color palette below along with the standard range of grays and two accent colors. 
+#' \code{Yale blue} is the university’s identifying color, and has the HEX value "#00356b". 
+#' The standard range of blue tints is shown in the primary color palette, along with the standard range of grays and two accent colors. 
 #' Additional colors may be used as long as they complement, rather than clash with, the colors in the primary color palette.
 #'
 #' @return
@@ -41,12 +41,12 @@
 #' \strong{unicol}, 2023-08-07.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://yaleidentity.yale.edu/colors}{Yale identity website}. 
+#' Color definitions are based on \href{https://www.yale.edu}{Yale}'s 
+#' \href{https://yaleidentity.yale.edu/colors}{identity} site. 
 #'
 #' @examples
 #' yale
-#' unikn::seecol(yale, main = "Primary colors Yale University") # view color palette
+#' unikn::seecol(yale, main = "The colors of Yale University") # view color palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -62,9 +62,9 @@
 yale <- unikn::newpal(col = c("#00356b", "#286dc0", "#63aaff", 
                               "#222222", "#4a4a4a", "#978d85", "#dddddd", "#f9f9f9", 
                               "#5f712d", "#bd5319"),
-                      names = c("yale_blue", "yale_blue_shade1", "yale_blue_shade2", 
-                                "yale_gray1", "yale_gray2", "yale_gray3", "yale_gray4", "yale_gray5", 
-                                "yale_green_accent", "yale_orange_accent"),
+                      names = c("Yale blue", "Yale blue shade 1", "Yale blue shade 2", 
+                                "Yale gray 1", "Yale gray 2", "Yale gray 3", "Yale gray 4", "Yale gray 5", 
+                                "Yale green accent", "Yale orange accent"),
                       as_df = FALSE)
 
 # # Check:
