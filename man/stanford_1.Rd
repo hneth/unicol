@@ -8,7 +8,7 @@
 An object of class \code{character} of length 15.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.stanford.edu}{Stanford}'s 
 \href{https://identity.stanford.edu/design-elements/color/}{Color manual}.
 }
 \usage{
@@ -19,26 +19,29 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{stanford_1} provides the 15 primary colors
-of the \href{https://www.stanford.edu/}{Stanford University}, USA.
+of \href{https://www.stanford.edu/}{Stanford University}, USA.
 }
 \details{
-Primary color palette consists of Cardinal red, white, black and cool grey.
-The layouts lean heavily on these colors, which are
-\code{"cardinal_red"} (defined as HEX #8C1515),
-\code{"cardinal_red_light"} (defined as HEX #B83A4B),
-\code{"cardinal_red_dark"} (defined as HEX #820000),
+\href{https://www.stanford.edu/}{UStanford}'s 
+primary color palette consists of 
+\code{Cardinal red}, \code{white}, \code{black} and \code{cool grey}.
+
+The layouts lean heavily on these colors, which are 
+\code{"Cardinal red"} (defined as HEX #8C1515),
+\code{"Cardinal red light"} (defined as HEX #B83A4B),
+\code{"Cardinal red dark"} (defined as HEX #820000),
 \code{"white"} (defined as HEX #FFFFFF),
 \code{"black"} (defined as HEX #2E2D29),
-\code{"black_90"} (defined as HEX #43423E),
-\code{"black_80"} (defined as HEX #585754),
-\code{"black_70"} (defined as HEX #6D6C69),
-\code{"black_60"} (defined as HEX #767674),
-\code{"black_50"} (defined as HEX #979694),
-\code{"black_40"} (defined as HEX #ABABA9),
-\code{"black_30"} (defined as HEX #C0C0BF),
-\code{"black_20"} (defined as HEX #D5D5D4),
-\code{"black_10"} (defined as HEX #EAEAEA) and 
-\code{"cool_grey"} (defined as HEX #53565A).
+\code{"black 90"} (defined as HEX #43423E),
+\code{"black 80"} (defined as HEX #585754),
+\code{"black 70"} (defined as HEX #6D6C69),
+\code{"black 60"} (defined as HEX #767674),
+\code{"black 50"} (defined as HEX #979694),
+\code{"black 40"} (defined as HEX #ABABA9),
+\code{"black 30"} (defined as HEX #C0C0BF),
+\code{"black 20"} (defined as HEX #D5D5D4),
+\code{"black 10"} (defined as HEX #EAEAEA), and 
+\code{"cool grey"} (defined as HEX #53565A).
 }
 \examples{
 stanford_1

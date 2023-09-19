@@ -8,7 +8,7 @@
 An object of class \code{character} of length 42.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.stanford.edu}{Stanford}'s 
 \href{https://identity.stanford.edu/design-elements/color/}{Color manual}.
 }
 \usage{
@@ -19,55 +19,58 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{stanford_2_accent} provides the 42 accent colors
-of the \href{https://www.stanford.edu/}{Stanford University}, USA.
+of \href{https://www.stanford.edu}{Stanford University}, USA.
 }
 \details{
-Although our primary palette should drive most Stanford communications materials, other colors can be added as appropriate.
-For those circumstances, we have developed this accent palette.
-
-These colors are intended to compliment our Stanford primary colors: 
-\code{"palo_alto"} (defined as HEX #175E54),
-\code{"palo_alto_light"} (defined as HEX #2D716F),
-\code{"palo_alto_dark"} (defined as HEX #014240),
-\code{"palo_verde"} (defined as HEX #279989),
-\code{"palo_verde_light"} (defined as HEX #59B3A9),
-\code{"palo_verde_dark"} (defined as HEX #017E7C),
+The following colors are intended to compliment the primary colors: 
+\code{"palo alto"} (defined as HEX #175E54),
+\code{"palo alto light"} (defined as HEX #2D716F),
+\code{"palo alto dark"} (defined as HEX #014240),
+\code{"palo verde"} (defined as HEX #279989),
+\code{"palo verde light"} (defined as HEX #59B3A9),
+\code{"palo verde dark"} (defined as HEX #017E7C),
 \code{"olive"} (defined as HEX #8F993E),
-\code{"olive_light"} (defined as HEX #A6B168),
-\code{"olive_dark"} (defined as HEX #7A863B),
+\code{"olive light"} (defined as HEX #A6B168),
+\code{"olive dark"} (defined as HEX #7A863B),
 \code{"bay"} (defined as HEX #6FA287),
-\code{"bay_light"} (defined as HEX #8AB8A7),
-\code{"bay_dark"} (defined as HEX #417865),
+\code{"bay light"} (defined as HEX #8AB8A7),
+\code{"bay dark"} (defined as HEX #417865),
 \code{"sky"} (defined as HEX #4298B5),
-\code{"sky_light"} (defined as HEX #67AFD2),
-\code{"sky_dark"} (defined as HEX #016895),
+\code{"sky light"} (defined as HEX #67AFD2),
+\code{"sky dark"} (defined as HEX #016895),
 \code{"lagunita"} (defined as HEX #007C92),
-\code{"lagunita_light"} (defined as HEX #009AB4),
-\code{"lagunita_dark"} (defined as HEX #006B81),
+\code{"lagunita light"} (defined as HEX #009AB4),
+\code{"lagunita dark"} (defined as HEX #006B81),
 \code{"poppy"} (defined as HEX #E98300),
-\code{"poppy_light"} (defined as HEX #F9A44A),
-\code{"poppy_dark"} (defined as HEX #D1660F),
+\code{"poppy light"} (defined as HEX #F9A44A),
+\code{"poppy dark"} (defined as HEX #D1660F),
 \code{"spirited"} (defined as HEX #E04F39),
-\code{"spirited_light"} (defined as HEX #F4795B),
-\code{"spirited_dark"} (defined as HEX #C74632),
+\code{"spirited light"} (defined as HEX #F4795B),
+\code{"spirited dark"} (defined as HEX #C74632),
 \code{"illuminating"} (defined as HEX #FEDD5C),
-\code{"illuminating_light"} (defined as HEX #FFE781),
-\code{"illuminating_dark"} (defined as HEX #FEC51D),
+\code{"illuminating light"} (defined as HEX #FFE781),
+\code{"illuminating dark"} (defined as HEX #FEC51D),
 \code{"plum"} (defined as HEX #620059),
-\code{"plum_light"} (defined as HEX #734675),
-\code{"plum_dark"} (defined as HEX #350D36),
+\code{"plum light"} (defined as HEX #734675),
+\code{"plum dark"} (defined as HEX #350D36),
 \code{"brick"} (defined as HEX #651C32),
-\code{"brick_light"} (defined as HEX #7F2D48),
-\code{"brick_dark"} (defined as HEX #42081B),
+\code{"brick light"} (defined as HEX #7F2D48),
+\code{"brick dark"} (defined as HEX #42081B),
 \code{"archway"} (defined as HEX #5D4B3C),
-\code{"archway_light"} (defined as HEX #766253),
-\code{"archway_dark"} (defined as HEX #2F2424),
+\code{"archway light"} (defined as HEX #766253),
+\code{"archway dark"} (defined as HEX #2F2424),
 \code{"stone"} (defined as HEX #7F7776),
-\code{"stone_light"} (defined as HEX #D4D1D1),
-\code{"stone_dark"} (defined as HEX #544948),
+\code{"stone light"} (defined as HEX #D4D1D1),
+\code{"stone dark"} (defined as HEX #544948),
 \code{"fog"} (defined as HEX #DAD7CB),
-\code{"fog_light"} (defined as HEX #F4F4F4) and
-\code{"fog_dark"} (defined as HEX #B6B1A9)
+\code{"fog light"} (defined as HEX #F4F4F4), and
+\code{"fog dark"} (defined as HEX #B6B1A9).
+
+
+Although the primary palette (see \code{\link{stanford_1}}) should drive most 
+\href{https://www.stanford.edu}{Stanford} communication materials, 
+other colors can be added as appropriate. 
+For those circumstances, we have developed this accent palette.
 }
 \examples{
 stanford_2_accent

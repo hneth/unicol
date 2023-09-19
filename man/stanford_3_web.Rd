@@ -8,7 +8,7 @@
 An object of class \code{character} of length 9.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.stanford.edu}{Stanford}'s 
 \href{https://identity.stanford.edu/design-elements/color/}{Color manual}.
 }
 \usage{
@@ -19,30 +19,32 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{stanford_3_web} provides the nine web colors
-of the \href{https://www.stanford.edu/}{Stanford University}, USA.
+of \href{https://www.stanford.edu}{Stanford University}, USA.
 }
 \details{
-\code{"digital_red"} is not a replacement for Cardinal red—it can be used as an accent color on digital communications to add energy and emphasis.
-\code{"digital_red_light"} can be used for interactive elements over dark backgrounds for contrast. 
-\code{"digital_red_dark"} can be used for smaller text over light backgrounds.
-Use \code{"digital_blue"} for links over light backgrounds, 
-\code{"digital_blue_dark"} for link hover/focus states, and 
-\code{"digital_blue_light"} for links over dark backgrounds. 
-Do not use these shades of blue in contexts other than links.
-Use \code{"digital_green"} for things such as form validation, 
-\code{"digital_green_dark"} for link hover/focus states, and 
-\code{"digital_green_light"} for links over dark backgrounds.
-
 These nine web colors are
-\code{"digital_red"} (defined as HEX #B1040E),
-\code{"digital_red_light"} (defined as HEX #E50808),
-\code{"digital_red_dark"} (defined as HEX #820000),
-\code{"digital_blue"} (defined as HEX #006CB8),
-\code{"digital_blue_light"} (defined as HEX #6FC3FF),
-\code{"digital_blue_dark"} (defined as HEX #00548f),
-\code{"digital_green"} (defined as HEX #008566),
-\code{"digital_green_light"} (defined as HEX #1AECBA) and
-\code{"digital_green_dark"} (defined as HEX #006F54).
+\code{"digital red"} (defined as HEX #B1040E),
+\code{"digital red light"} (defined as HEX #E50808),
+\code{"digital red dark"} (defined as HEX #820000),
+\code{"digital blue"} (defined as HEX #006CB8),
+\code{"digital blue light"} (defined as HEX #6FC3FF),
+\code{"digital blue dark"} (defined as HEX #00548f),
+\code{"digital green"} (defined as HEX #008566),
+\code{"digital green light"} (defined as HEX #1AECBA), and
+\code{"digital green dark"} (defined as HEX #006F54).
+
+
+\code{"digital red"} is not a replacement for Cardinal red; 
+it can be used as an accent color on digital communications to add energy and emphasis.
+\code{"digital red light"} can be used for interactive elements over dark backgrounds for contrast. 
+\code{"digital red dark"} can be used for smaller text over light backgrounds.
+Use \code{"digital blue"} for links over light backgrounds, 
+\code{"digital blue dark"} for link hover/focus states, and 
+\code{"digital blue light"} for links over dark backgrounds. 
+Do not use these shades of blue in contexts other than links.
+Use \code{"digital green"} for things such as form validation, 
+\code{"digital green dark"} for link hover/focus states, and 
+\code{"digital green light"} for links over dark backgrounds.
 }
 \examples{
 stanford_3_web

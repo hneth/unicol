@@ -19,16 +19,18 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{harvard_1} provides the two primary colors
-of the \href{https://www.harvard.edu/}{Harvard University}, USA.
+of \href{https://www.harvard.edu}{Harvard University}, USA.
 }
 \details{
 Within our color palette, we have two primary colors that are used:
-Harvard \code{"crimson"} (defined as RGB 165/28/48, HEX #A51C30) and
-\code{"black"} (defined as RGB 30/30/30, HEX #1E1E1E).
+\code{"Harvard crimson"} (defined as RGB 165/28/48, HEX #A51C30) and
+\code{"Harvard black"} (defined as RGB 30/30/30, HEX #1E1E1E).
+
+\code{harvard_1} uses the HEX color definitions.
 }
 \examples{
 harvard_1
-unikn::seecol(harvard_1, main = "Primary colors Harvard Uni") # view color palette
+unikn::seecol(harvard_1, main = "Primary colors of Harvard University")  # view color palette
 
 }
 \seealso{

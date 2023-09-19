@@ -19,18 +19,20 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{harvard_2} provides the four accent colors
-of the \href{https://www.harvard.edu/}{Harvard University}, USA.
+of \href{https://www.harvard.edu}{Harvard University}, USA.
 }
 \details{
 The secondary palette provides a neutral field against which the primary colors can live:
 \code{"mortar"} (defined as RGB 140/129/121, HEX #8C8179),
 \code{"parchment"} (defined as RGB 243/243/241, HEX #F3F3F1),
-\code{"slate"} (defined as RGB 137/150/160 , HEX #8996A0) and
+\code{"slate"} (defined as RGB 137/150/160 , HEX #8996A0), and
 \code{"shade"} (defined as RGB 186/197/198, HEX #BAC5C6).
+
+\code{harvard_2} uses the HEX color definitions.
 }
 \examples{
 harvard_2
-unikn::seecol(harvard_2, main = "Accent colors Harvard Uni") # view color palette
+unikn::seecol(harvard_2, main = "Accent colors of Harvard University") # view color palette
 
 }
 \seealso{
