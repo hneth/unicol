@@ -21,7 +21,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- ALL badges end. -->
 
-# unicol 0.2.0.9001 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
+# unicol 0.2.0.9002 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -85,8 +85,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **236 color palettes** from
-**102 institutions**.
+The **unicol** package currently provides **239 color palettes** from
+**103 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
@@ -99,18 +99,18 @@ an overview of included color palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **236\ color palettes** from **102\ institutions**.  -->
+<!-- The **unicol** package currently contains **239\ color palettes** from **103\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 242 colors):
+**Figure 1** illustrates 50 random color palettes (with 243 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 242 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 243 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 242 colors).
+Figure 1: A sample of 50 unicol palettes (containing 243 colors).
 </p>
 
 </div>
@@ -324,6 +324,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-15.\]
+\[File `README.Rmd` updated on 2023-09-19.\]
 
 <!-- eof. -->
