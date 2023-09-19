@@ -3,13 +3,13 @@
 \docType{data}
 \name{upenn_2}
 \alias{upenn_2}
-\title{Web colors of University of Pennsylvania, USA}
+\title{Web colors of the University of Pennsylvania (UPenn), USA}
 \format{
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the
-\href{https://branding.web-resources.upenn.edu/web-identity}{Color manual}.
+Color definitions are based on \href{https://www.upenn.edu}{UPenn}'s 
+\href{https://branding.web-resources.upenn.edu/logos-and-branding/elements-penn-logo}{Color manual}.
 }
 \usage{
 upenn_2
@@ -19,28 +19,28 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{upenn_2} provides the twelve web colors
-of the \href{https://www.upenn.edu/}{University of Pennsylvania}, USA.
+of the \href{https://www.upenn.edu}{University of Pennsylvania} (UPenn), USA.
 }
 \details{
 These 12 web colors are 
-\code{"penn_blue"} (defined as HEX #011F5B),
-\code{"penn_red"} (defined as HEX #990000),
-\code{"penn_blue2"} (defined as HEX #82AFD3),
-\code{"penn_orange"} (defined as HEX #C35A00),
-\code{"penn_green"} (defined as HEX #008e00),
-\code{"penn_yellow"} (defined as HEX #F2C100),
-\code{"penn_purple"} (defined as HEX #4A0042),
-\code{"penn_grey1"} (defined as HEX #F2F2F2),
-\code{"penn_grey2"} (defined as HEX #F7F7F7),
-\code{"penn_grey3"} (defined as HEX #CCCCCC),
-\code{"penn_grey4"} (defined as HEX #999999), and
-\code{"penn_black"} (defined as HEX #333333).
+\code{"UPenn blue"} (defined as HEX #011F5B),
+\code{"UPenn red"} (defined as HEX #990000),
+\code{"UPenn blue2"} (defined as HEX #82AFD3),
+\code{"UPenn orange"} (defined as HEX #C35A00),
+\code{"UPenn green"} (defined as HEX #008e00),
+\code{"UPenn yellow"} (defined as HEX #F2C100),
+\code{"UPenn purple"} (defined as HEX #4A0042),
+\code{"UPenn grey1"} (defined as HEX #F2F2F2),
+\code{"UPenn grey2"} (defined as HEX #F7F7F7),
+\code{"UPenn grey3"} (defined as HEX #CCCCCC),
+\code{"UPenn grey4"} (defined as HEX #999999), and
+\code{"UPenn black"} (defined as HEX #333333).
 
 \code{upenn_2} uses the HEX color definitions.
 }
 \examples{
 upenn_2
-unikn::seecol(upenn_2, main = "Web colors of UPenn") # view color palette
+unikn::seecol(upenn_2, main = "Web colors of UPenn")  # view color palette
 
 }
 \seealso{

@@ -8,8 +8,8 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on the
-\href{https://yaleidentity.yale.edu/colors}{Yale identity website}.
+Color definitions are based on \href{https://www.yale.edu}{Yale}'s 
+\href{https://yaleidentity.yale.edu/colors}{identity} site.
 }
 \usage{
 yale
@@ -18,17 +18,17 @@ yale
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{yale} provides the ten primary colors
+\code{yale} provides the ten primary colors 
 of the \href{https://www.yale.edu}{Yale University}, USA.
 }
 \details{
-Yale Blue is the university’s identifying color, and has the hex value #00356b. 
-The standard range of blue tints is shown in the primary color palette below along with the standard range of grays and two accent colors. 
+\code{Yale blue} is the university’s identifying color, and has the HEX value "#00356b". 
+The standard range of blue tints is shown in the primary color palette, along with the standard range of grays and two accent colors. 
 Additional colors may be used as long as they complement, rather than clash with, the colors in the primary color palette.
 }
 \examples{
 yale
-unikn::seecol(yale, main = "Primary colors Yale University") # view color palette
+unikn::seecol(yale, main = "The colors of Yale University") # view color palette
 
 }
 \seealso{

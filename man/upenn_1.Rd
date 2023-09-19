@@ -3,12 +3,12 @@
 \docType{data}
 \name{upenn_1}
 \alias{upenn_1}
-\title{Logo colors of Penn, University of Pennsylvania, USA}
+\title{Logo colors of the University of Pennsylvania (UPenn), USA}
 \format{
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.upenn.edu}{UPenn}'s 
 \href{https://branding.web-resources.upenn.edu/logos-and-branding/elements-penn-logo}{Color manual}.
 }
 \usage{
@@ -19,12 +19,12 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{upenn_1} provides the two logo colors
-of the \href{https://www.upenn.edu/}{Penn, University of Pennsylvania}, USA.
+of the \href{https://www.upenn.edu}{University of Pennsylvania} (UPenn), USA.
 }
 \details{
 The 2 logo colors 
-\code{"penn_red"} (defined as RGB 153/0/0, HEX #990000) and 
-\code{"penn_blue"} (defined as RGB 1/31/91, HEX #011F5B) 
+\code{"UPenn red"} (defined as RGB 153/0/0, HEX #990000) and 
+\code{"UPenn blue"} (defined as RGB 1/31/91, HEX #011F5B) 
 are the traditional colors for the University of Pennsylvania. 
 They are as important to the identification program as the logo forms and typography.
 
