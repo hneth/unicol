@@ -1,4 +1,4 @@
-## Toronto.R | 2023 08 24
+## Toronto.R | 2023 09 19
 ## Colors of the University of Toronto, Canada
 ## -------------------------------------------
 
@@ -60,14 +60,13 @@ col_4 <- "#F2F4F7"
 #' Colors of the University of Toronto, Canada 
 #'
 #' \code{utoronto} provides the four colors of the University of Toronto
-#' of the \href{https://www.utoronto.ca/}{University of Toronto}, Canada.
+#' of the \href{https://www.utoronto.ca}{University of Toronto}, Canada.
 #'
 #' The four colors are
-#' \code{"u_of_t_blue"}, (defined as RGB 37/53/90, HEX #25355A)
-#' \code{"boundless_blue"} (defined as RGB 0/127/163, HEX #007FA3), 
+#' \code{"UoT blue"}, (defined as RGB 37/53/90, HEX #25355A)
+#' \code{"boundless blue"} (defined as RGB 0/127/163, HEX #007FA3), 
 #' \code{"black"} (defined as RGB 0/0/0, HEX #000000), and
-#' \code{"light_grey"} (defined as RGB 242/244/247, HEX #F2F4F7).
-#'
+#' \code{"light grey"} (defined as RGB 242/244/247, HEX #F2F4F7).
 #'
 #' \code{uni_pal_1} uses the HEX color definitions. 
 #'
@@ -78,12 +77,12 @@ col_4 <- "#F2F4F7"
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source
-#' Color definitions are based on the   
-#' \href{https://new.brand.utoronto.ca/principles-and-fundamentals/colour/}{U of T's Brand Portal}. 
+#' Color definitions are based on \href{https://www.utoronto.ca}{U of Toronto}'s 
+#' \href{https://new.brand.utoronto.ca/principles-and-fundamentals/colour/}{Brand portal}. 
 #'
 #' @examples
 #' utoronto
-#' unikn::seecol(utoronto, main = "University of Toronto") # view color palette
+#' unikn::seecol(utoronto, main = "University of Toronto")  # view color palette
 #'
 #' @family Canadian university color palettes 
 #'
@@ -97,7 +96,7 @@ col_4 <- "#F2F4F7"
 #' @export
 
 utoronto <- unikn::newpal(col = c(col_1, col_2, col_3, col_4),
-                          names = c("u_of_t_blue", "boundless_blue", "black", "light_grey"),
+                          names = c("UoT blue", "boundless blue", "black", "light grey"),
                           as_df = FALSE)
 
 # # Check: 
