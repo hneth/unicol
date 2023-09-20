@@ -32,7 +32,8 @@ The 4 primary colors are
 }
 \examples{
 asu_1
-unikn::seecol(asu_1, main= "Arizona State University") #view color palette.
+unikn::seecol(asu_1, col_bg = "gray90", 
+              main = "Arizona State University")  # view color palette.
 
 }
 \seealso{

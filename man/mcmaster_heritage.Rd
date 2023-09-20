@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Colour definitions are based on the
-\href{https://brand.mcmaster.ca/app/uploads/2019/04/digital-guidelines.pdf}{Digital Brand Standards Manual}.
+Colour definitions are based on \href{https://www.mcmaster.ca}{McMaster}'s 
+\href{https://brand.mcmaster.ca/app/uploads/2019/04/digital-guidelines.pdf}{Digital brand manual} (PDF).
 }
 \usage{
 mcmaster_heritage
@@ -19,21 +19,24 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{mcmaster_heritage} provides the three heritage colours 
-of \href{https://www.mcmaster.ca/}{McMaster University}, Canada. 
-The heritage colours are used in association with all McMaster materials.
+of \href{https://www.mcmaster.ca}{McMaster University}, Canada.
 }
 \details{
+The heritage colours are
+\code{"McMaster heritage maroon"} (defined as HEX #7A003C),
+\code{"McMaster heritage gold"} (defined as HEX #FDBF57), and
+\code{"McMaster heritage grey"} (defined as HEX #5E6A71).
+
+
+The heritage colours are used in association with all 
+\href{https://www.mcmaster.ca}{McMaster} materials.
+
 Strengthen the McMaster brand by consistently using the McMaster colour palette 
 across all digital communications. The rich hues suggest tradition and solidity. 
 These colours are all reflected in the McMaster logo, an essential element of our brand identity. 
-McMaster Heritage Maroon is a key brand colour. 
+\code{McMaster heritage maroon} is a key brand colour. 
 Continue to use this Heritage colour for all digital applications where appropriate. 
 The Brighter World colours are to be used in all brand communications in addition to the Heritage colours.
-
-The heritage colours are
-\code{"mcmaster_heritage_maroon"} (defined as HEX #7A003C),
-\code{"mcmaster_heritage_gold"} (defined as HEX #FDBF57), and
-\code{"mcmaster_heritage_grey"} (defined as HEX #5E6A71).
 }
 \examples{
 mcmaster_heritage

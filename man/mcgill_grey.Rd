@@ -8,8 +8,8 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{Visual Identity Guide}.
+Colour definitions are based on \href{https://www.mcgill.ca}{McGill}'s 
+\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{visual identity guide}.
 }
 \usage{
 mcgill_grey
@@ -18,22 +18,25 @@ mcgill_grey
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
-They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
+\code{mcgill_grey} provides the cool grey 
+of \href{https://www.mcgill.ca}{McGill University}, Canada.
 }
 \details{
-\code{mcgill_grey} provides the cool grey 
-of \href{https://www.mcgill.ca/}{McGill University}, Canada.
-
 The colour is 
-\code{"cool_grey"} (defined as CMYK 66/52/44/17, RGB 93/103/113, HEX #5D6770).
+\code{"cool grey"} (defined as CMYK 66/52/44/17, RGB 93/103/113, HEX #5D6770).
 
-\code{mcgill_grey} uses the HEX colour definition. 
+\code{mcgill_grey} uses the HEX colour definition.
+
+
+\href{https://www.mcgill.ca}{McGill}'s secondary colours are not official, 
+but rather suggested colours that cover a larger spectrum to complement the primary \code{"McGill red"}. 
+They can be used to add variety and contrast for headings, bullets, background and other graphic elements. 
+
 Note that the CMYK colour differs from RGB and HEX definition.
 }
 \examples{
 mcgill_grey
-unikn::seecol(mcgill_grey, main = "Cool Grey of McGill") # view colour palette
+unikn::seecol(mcgill_grey, main = "Cool grey of McGill") # view colour palette
 
 }
 \seealso{

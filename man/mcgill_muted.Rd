@@ -8,8 +8,8 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{Visual Identity Guide}.
+Colour definitions are based on \href{https://www.mcgill.ca}{McGill}'s 
+\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{visual identity guide}.
 }
 \usage{
 mcgill_muted
@@ -18,22 +18,24 @@ mcgill_muted
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
-They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
+\code{mcgill_muted} provides the muted colours 
+of \href{https://www.mcgill.ca}{McGill University}, Canada.
 }
 \details{
-\code{mcgill_muted} provides the muted colours 
-of \href{https://www.mcgill.ca/}{McGill University}, Canada.
-
 The muted colours are 
-\code{"muted_1"} (defined as CMYK 13/72/76/2, RGB 211/103/74, HEX #D3674A),
-\code{"muted_2"} (defined as CMYK 0/20/90/10, RGB 232/185/46, HEX #E8B92E),
-\code{"muted_3"} (defined as CMYK 86/35/40/6, RGB 8/127/140, HEX #087F8C),
-\code{"muted_4"} (defined as CMYK 80/10/0/15, RGB 0/150/201, HEX #0096C9),
-\code{"muted_5"} (defined as CMYK 50/23/87/3, RGB 139/160/78, HEX #8BA04E), and
-\code{"muted_6"} (defined as CMYK 40/76/33/6, RGB 155/86/120, HEX #9B5678).
+\code{"muted 1"} (defined as CMYK 13/72/76/2, RGB 211/103/74, HEX #D3674A),
+\code{"muted 2"} (defined as CMYK 0/20/90/10, RGB 232/185/46, HEX #E8B92E),
+\code{"muted 3"} (defined as CMYK 86/35/40/6, RGB 8/127/140, HEX #087F8C),
+\code{"muted 4"} (defined as CMYK 80/10/0/15, RGB 0/150/201, HEX #0096C9),
+\code{"muted 5"} (defined as CMYK 50/23/87/3, RGB 139/160/78, HEX #8BA04E), and
+\code{"muted 6"} (defined as CMYK 40/76/33/6, RGB 155/86/120, HEX #9B5678).
 
-\code{mcgill_muted} uses the HEX colour definitions. 
+\code{mcgill_muted} uses the HEX colour definitions.
+
+
+\href{https://www.mcgill.ca}{McGill}'s secondary colours are not official, 
+but rather suggested colours that cover a larger spectrum to complement the primary \code{"McGill red"}. 
+They can be used to add variety and contrast for headings, bullets, background and other graphic elements. 
 
 Note that CMYK colour values differ from RGB and HEX definitions.
 }

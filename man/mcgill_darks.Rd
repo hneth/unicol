@@ -8,8 +8,8 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{Visual Identity Guide}.
+Colour definitions are based on \href{https://www.mcgill.ca}{McGill}'s 
+\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{visual identity guide}.
 }
 \usage{
 mcgill_darks
@@ -18,23 +18,25 @@ mcgill_darks
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
-They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
+\code{mcgill_darks} provides the dark colours 
+of \href{https://www.mcgill.ca}{McGill University}, Canada.
 }
 \details{
-\code{mcgill_darks} provides the dark colours 
-of \href{https://www.mcgill.ca/}{McGill University}, Canada.
-
 The muted colours are 
-\code{"dark_1"} (defined as CMYK 0/72/75/35, RGB 170/75/49, HEX #AA4B31),
-\code{"dark_2"} (defined as CMYK 35/45/100/0, RGB 178/140/53, HEX #B28C35),
-\code{"dark_3"} (defined as CMYK 90/45/53/23, RGB 10/98/102, HEX #0A6266),
-\code{"dark_4"} (defined as CMYK 97/66/38/20, RGB 2/79/109, HEX #024F6D),
-\code{"dark_5"} (defined as CMYK 78/42/86/40, RGB 48/85/52, HEX #305534),
-\code{"dark_6"} (defined as CMYK 65/90/31/18, RGB 103/53/103, HEX #673567), and
-\code{"dark_7"} (defined as CMYK 0/100/90/40, RGB 158/9/24, HEX #9E0918).
+\code{"dark 1"} (defined as CMYK 0/72/75/35, RGB 170/75/49, HEX #AA4B31),
+\code{"dark 2"} (defined as CMYK 35/45/100/0, RGB 178/140/53, HEX #B28C35),
+\code{"dark 3"} (defined as CMYK 90/45/53/23, RGB 10/98/102, HEX #0A6266),
+\code{"dark 4"} (defined as CMYK 97/66/38/20, RGB 2/79/109, HEX #024F6D),
+\code{"dark 5"} (defined as CMYK 78/42/86/40, RGB 48/85/52, HEX #305534),
+\code{"dark 6"} (defined as CMYK 65/90/31/18, RGB 103/53/103, HEX #673567), and
+\code{"dark 7"} (defined as CMYK 0/100/90/40, RGB 158/9/24, HEX #9E0918).
 
 \code{mcgill_darks} uses the HEX colour definitions.
+
+
+\href{https://www.mcgill.ca}{McGill}'s secondary colours are not official, 
+but rather suggested colours that cover a larger spectrum to complement the primary \code{"McGill red"}. 
+They can be used to add variety and contrast for headings, bullets, background and other graphic elements. 
  
 Note that the CMYK colour values differ from RGB and HEX definitions.
 }

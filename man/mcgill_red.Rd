@@ -8,8 +8,8 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{Visual Identity Guide}.
+Colour definitions are based on \href{https://www.mcgill.ca}{McGill}'s 
+\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{visual identity guide}.
 }
 \usage{
 mcgill_red
@@ -19,11 +19,11 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{mcgill_red} provides the primary color "McGill Red" (or \code{mcgill_red})
-of \href{https://www.mcgill.ca/}{McGill University}, Canada.
+of \href{https://www.mcgill.ca}{McGill University}, Canada.
 }
 \details{
-The colour is called 
-\code{"mcgill_red"} and defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f.
+The primary colour is called 
+\code{"McGill red"} and defined as CMYK 0/100/90/0, RGB 237/27/47, HEX #ed1b2f.
 
 \code{mcgill_red} uses the HEX colour definition.
  

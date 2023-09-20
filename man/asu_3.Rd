@@ -37,7 +37,8 @@ The 9 grayscale colors are
 }
 \examples{
 asu_3
-unikn::seecol(asu_3, main = "Arizona State University") # view color palette
+unikn::seecol(asu_3, col_bg = "gray95",
+              main = "Arizona State University") # view color palette
 
 }
 \seealso{

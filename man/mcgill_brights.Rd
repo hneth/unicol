@@ -8,8 +8,8 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{Visual Identity Guide}.
+Colour definitions are based on \href{https://www.mcgill.ca}{McGill}'s 
+\href{https://www.mcgill.ca/visual-identity/visual-identity-guide}{visual identity guide}.
 }
 \usage{
 mcgill_brights
@@ -18,22 +18,25 @@ mcgill_brights
 A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
-McGill’s secondary colours, are not official but rather suggested colours that cover a larger spectrum to complement the McGill red.
-They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
+\code{mcgill_brights} provides the bright colours 
+of \href{https://www.mcgill.ca}{McGill University}, Canada.
 }
 \details{
-\code{mcgill_brights} provides the bright colours 
-of \href{https://www.mcgill.ca/}{McGill University}, Canada.
-
 The bright colours are 
-\code{"bright_1"} (defined as CMYK 0/50/100/0, RGB 247/148/29, HEX #F7941D),
-\code{"bright_2"} (defined as CMYK 0/15/100/0, RGB 255/212/0, HEX #FFD400),
-\code{"bright_3"} (defined as CMYK 70/0/30/0, RGB 39/189/190, HEX #27BDBE),
-\code{"bright_4"} (defined as CMYK 60/0/0/0, RGB 68/200/245, HEX #44C8F5),
-\code{"bright_5"} (defined as CMYK 35/0/100/0, RGB 178/210/53, HEX #B2D235), and
-\code{"bright_6"} (defined as CMYK 20/72/0/0, RGB 199/104/169, HEX #C768A9).
+\code{"bright 1"} (defined as CMYK 0/50/100/0, RGB 247/148/29, HEX #F7941D),
+\code{"bright 2"} (defined as CMYK 0/15/100/0, RGB 255/212/0, HEX #FFD400),
+\code{"bright 3"} (defined as CMYK 70/0/30/0, RGB 39/189/190, HEX #27BDBE),
+\code{"bright 4"} (defined as CMYK 60/0/0/0, RGB 68/200/245, HEX #44C8F5),
+\code{"bright 5"} (defined as CMYK 35/0/100/0, RGB 178/210/53, HEX #B2D235), and
+\code{"bright 6"} (defined as CMYK 20/72/0/0, RGB 199/104/169, HEX #C768A9).
 
-\code{mcgill_brights} uses the HEX colour definition. 
+\code{mcgill_brights} uses the HEX colour definition.
+
+
+\href{https://www.mcgill.ca}{McGill}'s secondary colours are not official, 
+but rather suggested colours that cover a larger spectrum to complement the primary \code{"McGill red"}. 
+They can be used to add variety and contrast for headings, bullets, background and other graphic elements.
+
 CMYK colour differs from RGB and HEX definition.
 }
 \examples{
