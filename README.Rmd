@@ -44,11 +44,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -249,6 +251,42 @@ unikn::seecol(pal = pal_list,
 ```
 
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
+
+
+<!-- Example 2:  Clusters / relations / similar sets -->
+
+```{r example-similar-sets, echo = FALSE, eval = FALSE}
+bg_col <- "grey85"
+
+# Red and grey:
+seecol(list(bu, harvard_1, cornell_1, 
+            lancaster_1, yorku_1, groningen_1, 
+            mit, uchicago_1, 
+            mun_1, CMU_1_core, rpi_1, cardiff_1, stanford_1), 
+       main = "Red and grey university colors", col_bg = bg_col)
+
+# Note: 
+seecol(list(groningen_1, yorku_1), main = "Spot the difference...", col_bg = bg_col)
+
+# Blues:
+seecol(list(duke_1, jhu_1, monash_1, uni_goettingen_1, hu_2, uni_mannheim_1, 
+            # uni_koeln_1, uni_hamburg_1, 
+            auckland_1, 
+            uni_stuttgart_1, uni_konstanz_1,
+            ubc_1, trinity_1),
+       main = "Mostly blue and white university colors", col_bg = bg_col)
+
+# Greens:
+seecol(list(ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1), 
+       main = "Mostly green university colors", col_bg = bg_col)
+
+
+# Yellow and blue:
+seecol(list(UCLA_1, uci_1, pitt_1), 
+       main = "Yellow and blue university colors", col_bg = bg_col)
+```
+
+
 
 ### Using color palettes
 

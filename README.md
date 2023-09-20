@@ -104,18 +104,19 @@ an overview of included color palettes and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 243 colors):
+**Figure 1** illustrates 50 random color palettes (with 242 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 243 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 242 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 243 colors).
+Figure 1: A sample of 50 unicol palettes (containing 242 colors).
 </p>
 
 </div>
 
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
+<!-- Example 2:  Clusters / relations / similar sets -->
 
 ### Using color palettes
 
@@ -324,6 +325,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-19.\]
+\[File `README.Rmd` updated on 2023-09-20.\]
 
 <!-- eof. -->
