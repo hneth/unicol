@@ -1,4 +1,4 @@
-## all_pals.R | 2022 09 19
+## all_pals.R | 2022 09 20
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -87,7 +87,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uni_manchester <-", 
               "uni_stuttgart_1 <-", "uni_stuttgart_print <-", 
               "upenn_1 <-", "upenn_2 <-", 
-              "uvic_core <-", "uvic_complementary <-", 
+              "uvic_1 <-", "uvic_2 <-", 
               "uwaterloo_main <-", "uwaterloo_arts <-", "uwaterloo_engineering <-", "uwaterloo_environment <-", "uwaterloo_health <-", "uwaterloo_math <-", "uwaterloo_science <-", 
               "vanderbilt_1 <-", "vanderbilt_2 <-", "vanderbilt_3 <-", 
               "waikato <-", 
@@ -150,7 +150,7 @@ inst <- c(rep("ETH Zurich", 3),
           rep("California Institute of Technology", 3), 
           rep("University of Carleton", 1),
           rep("University of Chicago", 2),
-          rep("CMU, Carnegie Mellon University", 3),
+          rep("Carnegie Mellon University", 3),
           rep("Columbia University", 1),
           rep("Concordia University", 4),
           rep("Cornell University", 3),
@@ -201,7 +201,7 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Manchester", 1),
           rep("University of Stuttgart", 2),
           rep("University of Pennsylvania", 2),
-          rep("UVic", 2),
+          rep("University of Victoria", 2),
           rep("University of Waterloo", 7),
           rep("Vanderbilt University", 3),
           rep("University of Waikato", 1),
@@ -259,7 +259,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Caltech", 3),
               rep("University of Carleton", 1),
               rep("Chicago University / UChicago", 2),
-              rep("CMU, Carnegie Mellon University", 3),
+              rep("CMU / Carnegie Mellon", 3),
               rep("Columbia University", 1),
               rep("Concordia University", 4),
               rep("Cornell University", 3),
@@ -310,7 +310,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("University of Manchester", 1),
               rep("Universit\u00E4t Stuttgart", 2),
               rep("UPenn, U of Pennsylvania", 2),
-              rep("Victoria", 2),
+              rep("Victoria / UVic", 2),
               rep("UWaterloo", 7),
               rep("Vanderbilt", 3),
               rep("Waikato", 1),
@@ -454,7 +454,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 239 4  2023-09-17
+# dim(all_data)  # 239 4  2023-09-20
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -540,6 +540,65 @@ unicol_data <- all_data
 
 # # Check:
 # unicol_data
+# names(unicol_data)
+
+
+# Utility functions: ------ 
+
+
+# get_inst: Look up inst from pal name (as character): ---- 
+
+get_inst <- function(pal){
+  
+  # positions of pal:
+  pos <- match(pal, unicol_data$pal)
+  
+  # lookup corresponding inst:
+  unicol_data$inst[pos]
+  
+} # get_inst().
+
+# # Check:
+# get_inst(pal = c("cardiff_1", "not there", "princeton_1"))
+
+
+
+# get_url: Look up url from pal name (as character): ---- 
+
+get_url <- function(pal){
+  
+  # positions of pal:
+  pos <- match(pal, unicol_data$pal)
+  
+  # lookup corresponding url:
+  unicol_data$url[pos]
+  
+} # get_url().
+
+# # Check:
+# get_url(pal = c("cardiff_1", "not there", "princeton_1"))
+
+
+
+# get_inst_link: Create a link to inst url from pal name (as character): ---- 
+
+get_inst_link <- function(pal){
+  
+  # positions of pal:
+  pos <- match(pal, unicol_data$pal)
+  
+  # lookup corresponding inst and url:
+  inst <- unicol_data$inst[pos]  
+  url  <- unicol_data$url[pos]
+  
+  paste0("[", inst, "](", url, ")")
+  
+} # get_inst_link().
+
+# # Check:
+# get_inst_link(pal = c("cardiff_1", "not there", "princeton_1"))
+# get_inst_link(unicol_data$pal)
+
 
 
 
