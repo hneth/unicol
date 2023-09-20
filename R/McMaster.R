@@ -126,7 +126,8 @@ mcmaster_heritage <- unikn::newpal(col = c("#7A003C", "#FDBF57", "#5E6A71"),
 #'
 #' @examples
 #' mcmaster_brighterworld
-#' unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World colours")  # view colour palette
+#' unikn::seecol(mcmaster_brighterworld, 
+#'               main = "McMaster's Brighter World colours")  # view colour palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -148,7 +149,7 @@ mcmaster_brighterworld <- unikn::newpal(col = c("#FFD100", "#D2D755", "#8BD3E6",
                                         as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World Colours")
+# unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World colours")
 
 
 
