@@ -76,7 +76,7 @@ Other Canadian university color palettes:
 \code{\link{mun_2}},
 \code{\link{queensu_1}},
 \code{\link{sfu_brand}},
-\code{\link{ubc_1}},
+\code{\link{ubc}},
 \code{\link{ucalgary_1}},
 \code{\link{ucalgary_2}},
 \code{\link{ucalgary_accent}},

@@ -229,8 +229,10 @@ link_inst <- function(pal){
 
 link_github_doc <- function(pal){
   
-  base_url <- "https://hneth.github.io/unicol/reference/"      # in release
+  base_url <- "https://hneth.github.io/unicol/reference/"      # release version
   base_url <- "https://hneth.github.io/unicol/dev/reference/"  # dev version
+  
+  # base_url <- "../reference/"  # relative link
   
   # # look up inst and url corresponding to pal:  
   # inst_names <- look_up(pal, unicol_data, "pal", "inst")
