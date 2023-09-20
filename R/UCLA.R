@@ -1,4 +1,4 @@
-## UCLA.R | 2023 09 14
+## UCLA.R | 2023 09 19
 ## Colors of UCLA, University of California, USA
 ## ---------------------------------------------
 
@@ -6,7 +6,8 @@
 
 # cur_pals: "UCLA_1", "UCLA_2", "UCLA_3" "UCLA_4" (4)
 
-# inst: "University of California, Los Angeles / UCLA"
+# inst: "University of California, Los Angeles"
+# alt: "UCLA / UC Los Angeles"
 # country: USA
 # URL: "https://www.ucla.edu"
 

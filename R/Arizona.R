@@ -1,4 +1,4 @@
-## Arizona.R | 2023 09 12
+## Arizona.R | 2023 09 20
 ## Colors of the Arizona State University, USA
 ## -------------------------------------------
 
@@ -48,7 +48,8 @@
 #'
 #' @examples
 #' asu_1
-#' unikn::seecol(asu_1, main= "Arizona State University") #view color palette.
+#' unikn::seecol(asu_1, col_bg = "gray90", 
+#'               main = "Arizona State University")  # view color palette.
 #'
 #' @family U.S. university color palettes
 #'
@@ -154,7 +155,8 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
 #'
 #' @examples 
 #' asu_3
-#' unikn::seecol(asu_3, main = "Arizona State University") # view color palette
+#' unikn::seecol(asu_3, col_bg = "gray95",
+#'               main = "Arizona State University") # view color palette
 #' 
 #' @family U.S. university color palettes
 #'

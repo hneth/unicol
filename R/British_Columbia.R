@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# cur_pals: "ubc_1" (1)
+# cur_pals: "ubc" (1)
 # inst: "University of British Columbia" (in English)
 # inst_alt: "University of British Columbia"
 # country: Canada 
@@ -20,11 +20,11 @@
 # Color palette(s):
 
 
-# - ubc_1: Primary colors ------
+# - ubc: Primary colors ------
 
 #' Colors of the University of British Columbia, Canada 
 #'
-#' \code{ubc_1} provides the two primary colors and the five secondary colors
+#' \code{ubc} provides the two primary colors and the five secondary colors
 #' of the \href{https://www.ubc.ca/}{University of British Columbia}, Canada.
 #'
 #' The two primary colors are
@@ -38,7 +38,7 @@
 #' \code{"pms_297"}  (defined as RGB 110/196/232, HEX #6EC4E8), and 
 #' \code{"pms_2975"} (defined as RGB 151/212/233, HEX ##97D4E9). 
 #' 
-#' \code{ubc_1} uses the HEX color definitions. 
+#' \code{ubc} uses the HEX color definitions. 
 #' For \code{"ubc_blue"} the RGB and HEX definitions differ numerically, 
 #' yet are visually indistinguishable. Our color palette is based on the HEX definition.
 #'
@@ -53,8 +53,8 @@
 #' \href{https://brand.ubc.ca/guidelines/downloads/ubc-colour-and-fonts/}{UBC Colour and Fonts} guidelines. 
 #'
 #' @examples
-#' ubc_1
-#' unikn::seecol(ubc_1, main = "University of British Columbia") # view color palette
+#' ubc
+#' unikn::seecol(ubc, main = "University of British Columbia") # view color palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -67,14 +67,14 @@
 #'
 #' @export
 
-ubc_1 <- unikn::newpal(col = c( "#002145", "#FFFFFF", 
+ubc <- unikn::newpal(col = c( "#002145", "#FFFFFF", 
                                 "#0055B7", "#00A7E1", "#40B4E5", "#6EC4E8", "#97D4E9"),
                        names = c("ubc_blue", "white", 
                                  "pms_2935", "pms_2995", "pms_298", "pms_297", "pms_2975"),
                        as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(ubc_1, main = "Primary colors of the University of British Columbia", col_bg = "lightgrey")
+# unikn::seecol(ubc, main = "Primary colors of the University of British Columbia", col_bg = "lightgrey")
 
 
 
