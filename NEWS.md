@@ -28,7 +28,7 @@ Changes since last release:
 
 ## Details 
 
-- maintenance: improve documentation
+- maintenance: improve documentation 
 
 
 <!-- Development version:  --> 
