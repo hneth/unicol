@@ -21,14 +21,14 @@ Changes since last release:
 
 ## Minor changes 
 
-- rename some color palettes (for consistency and simplicity)
+- rename colors and color palettes (for consistency and simplicity)
 
 
 <!-- Details:  --> 
 
 ## Details 
 
-- add documentation
+- maintenance: improve documentation
 
 
 <!-- Development version:  --> 
@@ -108,6 +108,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-18.]
+[File `NEWS.md` updated on 2023-09-20.]
 
 <!-- eof. -->
