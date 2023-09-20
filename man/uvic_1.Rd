@@ -3,13 +3,13 @@
 \docType{data}
 \name{uvic_1}
 \alias{uvic_1}
-\title{Core colours of University of Victoria, Canada}
+\title{Core colours of the University of Victoria, Canada}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.uvic.ca/brand/look-feel/colour/palette/}{Core Palette}.
+Colour definitions are based on \href{https://www.uvic.ca}{UVic}'s 
+\href{https://www.uvic.ca/brand/look-feel/colour/palette/}{brand information}.
 }
 \usage{
 uvic_1
@@ -19,29 +19,32 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{uvic_1} provides four core colours 
-of \href{https://www.uvic.ca/}{University of Victoria}, Canada.
+of the \href{https://www.uvic.ca}{University of Victoria}, Canada.
 }
 \details{
-The 4 core UVic colours can be used in various combinations 
-depending on audience and medium. The dominant colours are blue and yellow, 
-with red used as an accent colour. Dark blue works well as a background and 
-type colour. The core colours have to be present on all external communications 
-and marketing materials to establish and build recognition by association.
-
 The 4 core colours are 
-\code{"uvic_blue"} (defined as HEX #005493 or RGB 0/94/184), 
-\code{"uvic_yellow"} (defined as HEX #F5AA1C or RGB 234/170/0),
-\code{"uvic_red"} (defined as HEX #C63527 or RGB 210/38/48), and
-\code{"uvic_dark_blue"} (defined as HEX #002754 or RGB 0/46/93).
-
-HEX colour definitions are used for web, 
-RGB colour definitions are used for electronic displays.
+\code{"UVic blue"} (defined as HEX #005493 or RGB 0/94/184), 
+\code{"UVic yellow"} (defined as HEX #F5AA1C or RGB 234/170/0),
+\code{"UVic red"} (defined as HEX #C63527 or RGB 210/38/48), and
+\code{"UVic dark blue"} (defined as HEX #002754 or RGB 0/46/93).
 
 \code{uvic_1} is based on the HEX colour definitions.
+
+
+The 4 core \href{https://www.uvic.ca}{UVic} colours can be used in various combinations 
+depending on audience and medium. The dominant colours are blue and yellow, 
+with red used as an accent colour. 
+Dark blue works well as a background and type colour. 
+
+The core colours have to be present on all external communications 
+and marketing materials to establish and build recognition by association.
+
+HEX colour definitions are used for web,  
+RGB colour definitions are used for electronic displays.
 }
 \examples{
 uvic_1
-unikn::seecol(uvic_1, main = "UVic core palette") # view colour palette
+unikn::seecol(uvic_1, main = "Core colours of the University of Victoria")  # view palette
 
 }
 \seealso{

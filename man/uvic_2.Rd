@@ -8,8 +8,8 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Colour definitions are based on the
-\href{https://www.uvic.ca/brand/look-feel/colour/faculty/}{Complementary faculty colours}.
+Colour definitions are based on \href{https://www.uvic.ca}{UVic}'s 
+\href{https://www.uvic.ca/brand/look-feel/colour/faculty/}{brand information}.
 }
 \usage{
 uvic_2
@@ -19,31 +19,33 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{uvic_2} provides the eight complementary colours 
-of \href{https://www.uvic.ca/}{University of Victoria}, Canada.
+of the \href{https://www.uvic.ca}{University of Victoria}, Canada.
 }
 \details{
+The 8 complementary colours are 
+\code{"Education"} (defined as HEX #0171BC or RGB 0/113/188), 
+\code{"Engineering"} (defined as HEX #F08415 or RGB 255/117/0),
+\code{"Fine arts"} (defined as HEX #00894C or RGB 0/135/62), 
+\code{"Human and social development"} (defined as HEX #00AAD5 or RGB 0/181/226), and
+\code{"Humanities"} (defined as HEX #D64500 or RGB 225/6/0), 
+\code{"Law"} (defined as HEX #523E7C or RGB 104/71/141), 
+\code{"Science"} (defined as HEX #009C90 or RGB 0/179/152), and
+\code{"Social sciences"} (defined as HEX #69A81D or RGB 120/190/32).
+
+\code{uvic_2} is based on the HEX colour definitions.
+
+
 The 8 complementary colours are a way for faculties to distinguish themselves 
 from each other and for the university to have a strong visual organization system. 
-They're used in faculty materials to support and complement the core colours. 
-
-The 8 complementary colours are 
-\code{"education"} (defined as HEX #0171BC or RGB 0/113/188), 
-\code{"engineering"} (defined as HEX #F08415 or RGB 255/117/0),
-\code{"fine_arts"} (defined as HEX #00894C or RGB 0/135/62), 
-\code{"human_and_social_development"} (defined as HEX #00AAD5 or RGB 0/181/226), and
-\code{"humanities"} (defined as HEX #D64500 or RGB 225/6/0), 
-\code{"law"} (defined as HEX #523E7C or RGB 104/71/141), 
-\code{"science"} (defined as HEX #009C90 or RGB 0/179/152), and
-\code{"social_sciences"} (defined as HEX #69A81D or RGB 120/190/32).
+They're used in faculty materials to support and complement the core colours 
+(of \code{\link{uvic_1}}). 
 
 HEX colour definitions are used for web, 
 RGB colour definitions are used for electronic displays.
-
-\code{uvic_2} is based on the HEX colour definitions.
 }
 \examples{
 uvic_2
-unikn::seecol(uvic_2, main = "UVic complementary colour palette") # view colour palette
+unikn::seecol(uvic_2, main = "Faculty colours of the University of Victoria") # view palette
 
 }
 \seealso{
