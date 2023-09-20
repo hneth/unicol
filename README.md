@@ -104,13 +104,13 @@ an overview of included color palettes and institutions.)
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
 
-**Figure 1** illustrates 50 random color palettes (with 242 colors):
+**Figure 1** illustrates 50 random color palettes (with 216 colors):
 
 <div class="figure" style="text-align: center">
 
-<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 242 colors)." width="600px" />
+<img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 216 colors)." width="600px" />
 <p class="caption">
-Figure 1: A sample of 50 unicol palettes (containing 242 colors).
+Figure 1: A sample of 50 unicol palettes (containing 216 colors).
 </p>
 
 </div>

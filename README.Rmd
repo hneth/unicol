@@ -173,7 +173,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(123) # reproducible randomness
+set.seed(127) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -246,7 +246,7 @@ knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 ```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, dpi = 100, fig.width  = 7.5, out.width = "600px", fig.asp = 2.0, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
-              pal_names = pal_names,         
+              pal_names = pal_names,
               main = my_main)
 ```
 
@@ -265,15 +265,12 @@ seecol(list(bu, harvard_1, cornell_1,
             mun_1, CMU_1_core, rpi_1, cardiff_1, stanford_1), 
        main = "Red and grey university colors", col_bg = bg_col)
 
-# Note: 
-seecol(list(groningen_1, yorku_1), main = "Spot the difference...", col_bg = bg_col)
-
 # Blues:
 seecol(list(duke_1, jhu_1, monash_1, uni_goettingen_1, hu_2, uni_mannheim_1, 
             # uni_koeln_1, uni_hamburg_1, 
             auckland_1, 
             uni_stuttgart_1, uni_konstanz_1,
-            ubc_1, trinity_1),
+            ubc, trinity_1),
        main = "Mostly blue and white university colors", col_bg = bg_col)
 
 # Greens:
@@ -284,6 +281,11 @@ seecol(list(ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1),
 # Yellow and blue:
 seecol(list(UCLA_1, uci_1, pitt_1), 
        main = "Yellow and blue university colors", col_bg = bg_col)
+
+
+# Similar pairs:
+seecol(list(groningen_1, yorku_1), main = "Spot the difference: ", col_bg = bg_col)
+seecol(list(notredame_1, uni_jena_1), main = "Spot the difference: (2)", col_bg = bg_col)
 ```
 
 
