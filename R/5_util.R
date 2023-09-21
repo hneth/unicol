@@ -1,9 +1,8 @@
-## util.R | 2022 09 20
+## util.R | 2022 09 21
 ## Utility functions
 ## -------------------
 
-# Based on unicol_data: -----
-
+# Analyze and report unicol_data: -----
 
 # get_inst: Look up inst from pal name (as character): ---- 
 
@@ -53,7 +52,7 @@ look_up <- function(x, data, v_1 = 1, v_2 = 1){
   # use pos to index output:
   data_v_2[pos]
   
-}
+} # look_up(). 
 
 # # Check:
 # # (a) specific exemplars:
@@ -65,7 +64,7 @@ look_up <- function(x, data, v_1 = 1, v_2 = 1){
 
 
 
-# link_inst: Create a link to institution (given a vector of pal names): ----
+# link_inst: Create a link to inst (given a vector of pal names): ----
 
 link_inst <- function(pal){
 
@@ -87,7 +86,7 @@ link_inst <- function(pal){
 
 link_github_doc <- function(pal){
   
-  base_url <- "https://hneth.github.io/unicol/reference/"      # in release
+  # base_url <- "https://hneth.github.io/unicol/reference/"      # release version
   base_url <- "https://hneth.github.io/unicol/dev/reference/"  # dev version
   
   # # look up inst and url corresponding to pal:  
