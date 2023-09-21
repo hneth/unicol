@@ -106,6 +106,17 @@ link_github_doc <- function(pal){
 # link_github_doc(unicol_data$pal)
 
 
+# n_col: Get number of colors (for 1 loaded pal): ----
+
+n_col <- function(pal_name){
+  
+  length(eval(str2expression(pal_name)))
+  
+}
+
+# # Check:
+# n_col("uni_konstanz_1")
+# sapply(unicol_data$pal, FUN = n_col)
 
 
 ## ToDo: --------
