@@ -1,12 +1,12 @@
-## UCalgary.R | 2023 08 24
+## UCalgary.R | 2023 09 21
 ## Colours of the University of Calgary, Canada 
 ## --------------------------------------------
 
 # Information: ------
 
 # cur_pals: "ucalgary_1", "ucalgary_2", "ucalgary_warmgreys", "ucalgary_accent" (4)
-# inst: "UCalgary"
-# inst_alt: "University of Calgary"
+# inst: "University of Calgary" 
+# inst_alt: "UCalgary"
 # country: Canada
 # URL: "https://www.ucalgary.ca"
 
@@ -24,10 +24,10 @@
 #' Primary colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_1} provides the two primary colours 
-#' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+#' of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 #'
 #' The two primary colours are
-#' \code{"red"} (defined as HEX #cf0722) and
+#' \code{"red"} (defined as HEX #cf0722), and
 #' \code{"gold"} (defined as HEX #ffcd00).
 #'
 #' @return 
@@ -37,8 +37,8 @@
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on UCalgary's 
-#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+#' Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 #'
 #' @examples
 #' ucalgary_1
@@ -73,7 +73,7 @@ ucalgary_1 <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' Secondary colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_2} provides the four secondary colours 
-#' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+#' of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 #'
 #' The secondary colours are
 #' \code{"light_orange"} (defined as HEX #ffa300),
@@ -88,8 +88,8 @@ ucalgary_1 <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on UCalgary's 
-#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+#' Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 #'
 #' @examples
 #' ucalgary_2
@@ -125,7 +125,7 @@ ucalgary_2 <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
 #' Warm grey colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_warmgreys} provides the warm greys 
-#' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+#' of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 #'
 #' The colours are
 #' \code{"light_grey"} (defined as HEX #c4bfb6) and
@@ -138,8 +138,8 @@ ucalgary_2 <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on UCalgary's 
-#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+#' Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 #'
 #' @examples
 #' ucalgary_2
@@ -174,7 +174,7 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' Accent colours of the University of Calgary, Canada 
 #'
 #' \code{ucalgary_accent} provides the accent colours 
-#' of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+#' of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 #'
 #' The accent colours are
 #' \code{"black"} (defined as HEX #000000),
@@ -189,13 +189,13 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on UCalgary's 
-#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+#' Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+#' \href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 #'
 #' @examples
 #' ucalgary_accent
-#' unikn::seecol(ucalgary_accent, 
-#'               main = "Accent colours UCalgary", col_bg = "lightgrey") # view colour palette
+#' unikn::seecol(ucalgary_accent, col_bg = "grey90", 
+#'               main = "Accent colours of UCalgary")  # view colour palette
 #'
 #' @family Canadian university color palettes
 #'
