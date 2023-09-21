@@ -1,4 +1,4 @@
-## Cornell.R | 2023 08 07
+## Cornell.R | 2023 09 21
 ## Colors of Cornell University, USA
 ## ---------------------------------
 
@@ -27,14 +27,19 @@
 #' Primary colors of Cornell University, USA 
 #'
 #' \code{cornell_1} provides the two primary colors
-#' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
-#'
-#' Primary colors are the officially recognized color palette for the university.
-#' These colors are critical to leverage the Cornell brand and provide clear university consistency.
+#' of \href{https://www.cornell.edu}{Cornell University}, USA, 
+#' and a 3rd \code{"white"} color.
+#' 
 #' Logos may only be represented in 
-#' \code{"carnelian"} (defined as HEX #B31B1B),  
-#' \code{"dark_gray"} (defined as HEX #222222), or 
+#' \code{"Carnelian"} (defined as HEX #B31B1B),  
+#' \code{"dark gray"} (defined as HEX #222222), or 
 #' \code{"white"} (defined as HEX #FFFFFF). 
+#'
+#'
+#' @details
+#' Primary colors are the officially recognized color palette for the university.
+#' These colors are critical to leverage the 
+#' \href{https://www.cornell.edu}{Cornell} brand and provide clear university consistency.
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -43,7 +48,7 @@
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
+#' Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
 #' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 #'
 #' @examples
@@ -64,7 +69,7 @@
 #' @export
 
 cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
-                           names = c("carnelian", "dark_gray", "white"),
+                           names = c("Carnelian", "dark gray", "white"),
                            as_df = FALSE)
 
 # # Check:
@@ -72,20 +77,23 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 
 
 
+
 # - cornell_2: Secondary colors of Cornell ------
+
 
 #' Secondary colors of Cornell University, USA 
 #'
 #' \code{cornell_2} provides the three secondary colors
-#' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
+#' of \href{https://www.cornell.edu}{Cornell University}, USA. 
 #'
-#' These neutral hues pair perfectly with the primary palette.
-#' Use these as supplementary colors rather than driving colors in layout and communications.
+#' The 3 secondary colors are 
+#' \code{"light gray"} (defined as HEX #F7F7F7),
+#' \code{"dark warm gray"} (defined as HEX #A2998B), and
+#' \code{"sea gray"} (defined as HEX #9FAD9F).
 #'
-#' This secondary colors are 
-#' \code{"light_gray"} (defined as HEX #F7F7F7),
-#' \code{"dark_warm_gray"} (defined as HEX #A2998B), and
-#' \code{"sea_gray"} (defined as HEX #9FAD9F).
+#' @details
+#' The neutral hues pair perfectly with the primary palette (see \code{\link{cornell_1}}). 
+#' Use these as supplementary colors rather than driving colors in layout and communications. 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -94,8 +102,8 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
+#' Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
+#' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}. 
 #'
 #' @examples
 #' cornell_2
@@ -115,7 +123,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #' @export
 
 cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
-                           names = c("light_gray", "dark_warm_gray", "sea_gray"),
+                           names = c("light gray", "dark warm gray", "sea gray"),
                            as_df = FALSE)
 
 # # Check:
@@ -128,23 +136,27 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' Accent colors of Cornell University, USA 
 #'
 #' \code{cornell_3_accent} provides the nine primary colors
-#' of the \href{https://www.cornell.edu/}{Cornell University}, USA.
+#' of \href{https://www.cornell.edu}{Cornell University}, USA.
 #'
-#' Although our primary and secondary palettes should guide most layouts, in certain instances other colors may be needed.
-#' For those circumstances, refer to the accent palette.
+#' The 9 secondary colors are 
+#' \code{"Cornell blue"} (defined as HEX #006699),
+#' \code{"Cornell green graphics"} (defined as HEX #6EB43F),
+#' \code{"Cornell green text"} (defined as HEX #4B7B2B),
+#' \code{"Cornell green text big"} (defined as HEX #578E32),
+#' \code{"Cornell orange graphics"} (defined as HEX #F8981D),
+#' \code{"Cornell orange text"} (defined as HEX #D47500),
+#' \code{"Cornell red graphics"} (defined as HEX #EF4035),
+#' \code{"Cornell red text"} (defined as HEX #DF1E12), and
+#' \code{"Cornell navy"} (defined as HEX #073949).
+#'
+#' @details
+#' Although our primary and secondary palettes 
+#' (see \code{\link{cornell_1}} and \code{\link{cornell_2}}) 
+#' should guide most layouts, in certain instances other colors may be needed.
+#' 
+#' For those circumstances, refer to the accent palette. 
 #' These colors should not be used as full-color bleeds and should be used periodically and in moderation.
 #' 
-#' This secondary colors are 
-#' \code{"cornell_blue"} (defined as HEX #006699),
-#' \code{"cornell_green_graphic"} (defined as HEX #6EB43F),
-#' \code{"cornell_green_text"} (defined as HEX #4B7B2B),
-#' \code{"cornell_green_text_big"} (defined as HEX #578E32),
-#' \code{"cornell_orange_graphic"} (defined as HEX #F8981D),
-#' \code{"cornell_orange_text"} (defined as HEX #D47500),
-#' \code{"cornell_red_graphic"} (defined as HEX #EF4035),
-#' \code{"cornell_red_text"} (defined as HEX #DF1E12), and
-#' \code{"cornell_navy"} (defined as HEX #073949).
-#'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -152,8 +164,8 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
-#' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
+#' Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
+#' \href{https://brand.cornell.edu/design-center/colors/}{Color manual}. 
 #'
 #' @examples
 #' cornell_3_accent
@@ -177,11 +189,11 @@ cornell_3_accent <- unikn::newpal(col = c("#006699",
                                           "#F8981D", "#D47500", 
                                           "#EF4035", "#DF1E12", 
                                           "#073949"),
-                                  names = c("cornell_blue", 
-                                            "cornell_green_graphic", "cornell_green_text", "cornell_green_text_big", 
-                                            "cornell_orange_graphic", "cornell_orange_text", 
-                                            "cornell_red_graphic", "cornell_red_text", 
-                                            "cornell_navy"),
+                                  names = c("Cornell blue", 
+                                            "Cornell green graphics", "Cornell green text", "Cornell green text big", 
+                                            "Cornell orange graphics", "Cornell orange text", 
+                                            "Cornell red graphics", "Cornell red text", 
+                                            "Cornell navy"),
                                   as_df = FALSE)
 
 # # Check:
