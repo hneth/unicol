@@ -1,4 +1,4 @@
-## Western_Uni.R | 2023 08 24
+## Western_Uni.R | 2023 09 21
 ## Colours of the Western University, Canada 
 ## -----------------------------------------
 
@@ -6,7 +6,8 @@
 
 # cur_pals: "western_uni"
 # inst: "Western University"
-# Canada
+# inst_alt: "UWO / Western"
+# country: Canada
 # URL: "https://www.uwo.ca"
 
 # Color source:
@@ -27,9 +28,9 @@
 #' of the \href{https://www.uwo.ca}{Western University}, Canada.
 #'
 #' The three primary colours are
-#' \code{"Purple"} (defined as R:79 G:38 B:131, Hex: #4F2683),
-#' \code{"Grey (Silver)"} (defined as R:128 G:127 B:131, Hex: #807F83), and
-#' \code{"white"} (not defined).
+#' \code{"Purple"} (defined as R:79 G:38 B:131, HEX #4F2683),
+#' \code{"Grey (Silver)"} (defined as R:128 G:127 B:131, HEX #807F83), and
+#' \code{"white"} (defined as HEX #FFFFFF).
 #'
 #' \code{western_uni} uses the HEX color definitions. 
 #'
@@ -40,13 +41,13 @@
 #' \strong{unicol}, 2023-06-27.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{Western's colour toolkit}.
+#' Color definitions are based on \href{https://www.uwo.ca}{Western}'s 
+#' \href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{colour toolkit} (HTML).
 #'
 #' @examples
 #' western_uni
-#' unikn::seecol(western_uni, main = "Official colours of Western University") 
-#' # view color palette
+#' unikn::seecol(western_uni, col_bg = "grey90", 
+#'               main = "The colours of Western University, CA")  # view color palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -59,7 +60,7 @@
 #'
 #' @export
 
-western_uni <- unikn::newpal(col = c("#4F2683", "#807F83", "white"),
+western_uni <- unikn::newpal(col = c("#4F2683", "#807F83", "#FFFFFF"),
                                names = c("Purple", "Grey (silver)", "White"),
                                as_df = FALSE)
 
