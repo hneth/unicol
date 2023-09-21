@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 09 20
+## 0_all_pals.R | 2022 09 21
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -192,7 +192,7 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Stanford University", 3),
           rep("University of St Andrews", 2),
           rep("University of Toronto", 1),
-          rep("UCalgary", 4),
+          rep("University of Calgary", 4),
           rep("University of California, Los Angeles (UCLA)", 4),
           rep("University of California, San Diego (UCSD)", 3),
           rep("University of Massachusetts Amherst", 3),
@@ -301,7 +301,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Stanford University", 3),
               rep("University of St Andrews", 2),
               rep("University of Toronto", 1),
-              rep("University of Calgary", 4),
+              rep("UCalgary, Calgary University", 4),
               rep("UC Los Angeles, Los Angeles University", 4),
               rep("UC San Diego, San Diego University", 3),
               rep("Amherst University, U of Massachusetts Amherst", 3),
@@ -314,7 +314,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("UWaterloo", 7),
               rep("Vanderbilt", 3),
               rep("Waikato", 1),
-              rep("Western University", 1),
+              rep("Western / UWO", 1),
               rep("Yale", 1),
               rep("YU", 1),
               rep("Yorku", 2),
@@ -499,7 +499,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-14:
+# # On 2023-09-21:
 # length(all_data$pal)           #  239 color palettes
 # length(unique(all_data$inst))  #  103 institutions
 # sum(n_cols)                    # 1600 colors
