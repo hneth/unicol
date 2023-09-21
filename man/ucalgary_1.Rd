@@ -8,8 +8,8 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Colour definitions are based on UCalgary's 
-\href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+\href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 }
 \usage{
 ucalgary_1
@@ -19,11 +19,11 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{ucalgary_1} provides the two primary colours 
-of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 }
 \details{
 The two primary colours are
-\code{"red"} (defined as HEX #cf0722) and
+\code{"red"} (defined as HEX #cf0722), and
 \code{"gold"} (defined as HEX #ffcd00).
 }
 \examples{

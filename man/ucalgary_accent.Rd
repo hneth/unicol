@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on UCalgary's 
-\href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual Identity Standards}.
+Colour definitions are based on \href{https://www.ucalgary.ca}{UCalgary}'s  
+\href{https://www.ucalgary.ca/sites/default/files/teams/12/3.0-eyes-high-dec2018.pdf}{Visual identity standards} (PDF).
 }
 \usage{
 ucalgary_accent
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{ucalgary_accent} provides the accent colours 
-of \href{https://www.ucalgary.ca/}{University of Calgary}, Canada.
+of the \href{https://www.ucalgary.ca}{University of Calgary}, Canada.
 }
 \details{
 The accent colours are
@@ -30,8 +30,8 @@ The accent colours are
 }
 \examples{
 ucalgary_accent
-unikn::seecol(ucalgary_accent, 
-              main = "Accent colours UCalgary", col_bg = "lightgrey") # view colour palette
+unikn::seecol(ucalgary_accent, col_bg = "grey90", 
+              main = "Accent colours of UCalgary")  # view colour palette
 
 }
 \seealso{

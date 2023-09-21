@@ -52,7 +52,8 @@ The neutral support colour of the Brighter world colours is
 }
 \examples{
 mcmaster_brighterworld
-unikn::seecol(mcmaster_brighterworld, main = "McMaster Brighter World colours")  # view colour palette
+unikn::seecol(mcmaster_brighterworld, 
+              main = "McMaster's Brighter World colours")  # view colour palette
 
 }
 \seealso{

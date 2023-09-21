@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the
-\href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{Western's colour toolkit}.
+Color definitions are based on \href{https://www.uwo.ca}{Western}'s 
+\href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{colour toolkit} (HTML).
 }
 \usage{
 western_uni
@@ -23,16 +23,16 @@ of the \href{https://www.uwo.ca}{Western University}, Canada.
 }
 \details{
 The three primary colours are
-\code{"Purple"} (defined as R:79 G:38 B:131, Hex: #4F2683),
-\code{"Grey (Silver)"} (defined as R:128 G:127 B:131, Hex: #807F83), and
-\code{"white"} (not defined).
+\code{"Purple"} (defined as R:79 G:38 B:131, HEX #4F2683),
+\code{"Grey (Silver)"} (defined as R:128 G:127 B:131, HEX #807F83), and
+\code{"white"} (defined as HEX #FFFFFF).
 
 \code{western_uni} uses the HEX color definitions.
 }
 \examples{
 western_uni
-unikn::seecol(western_uni, main = "Official colours of Western University") 
-# view color palette
+unikn::seecol(western_uni, col_bg = "grey90", 
+              main = "The colours of Western University, CA")  # view color palette
 
 }
 \seealso{
