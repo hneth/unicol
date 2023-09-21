@@ -255,10 +255,12 @@ knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 
 **Figure\ 1** illustrates `r n` random color palettes (with `r col_count`\ colors): 
 
-```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, dpi = 100, fig.width  = 7.5, out.width = "600px", fig.asp = 2.0, fig.cap = fig_caption}
+```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, dpi = 100, fig.width = 8, out.width = "680px", fig.asp = 1.6, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
+              col_bg = "grey96",
               # n = 100, # continuous version
+              scale_x = TRUE,  # scale to fixed width 
               pal_names = pal_names,
               main = fig_main)
 ```
