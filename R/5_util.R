@@ -2,7 +2,7 @@
 ## Utility functions
 ## -------------------
 
-# Analyze and report unicol_data: -----
+# Analyze and report on unicol_data: -----
 
 # get_inst: Look up inst from pal name (as character): ---- 
 
@@ -38,39 +38,56 @@ get_url <- function(pal){
 
 
 
-# look_up: Generalization of get_fns (above): ---- 
+# lookup: Look-up / filtering operations within a df: ----
 
-look_up <- function(x, data, v_1 = 1, v_2 = 1){
+# A generalization of get_fns (above).
+
+lookup <- function(x, df, v_1 = 1, v_2 = 1){
   
-  # identify vectors:
-  data_v_1 <- data[[v_1]]  # input
-  data_v_2 <- data[[v_2]]  # output
+  # identify vectors in df:
+  df_v_1 <- df[[v_1]]  # input  / origin
+  df_v_2 <- df[[v_2]]  # output / target
   
-  # positions matching x in input:
-  pos <- match(x, data_v_1)
+  # # (1) FIRST match of x in input:
+  # match_pos <- match(x, df_v_1)  # yields numeric index
+  # 
+  # # index output:
+  # df_v_2[match_pos]
   
-  # use pos to index output:
-  data_v_2[pos]
+  # (2) Allowing for multiple matches:
+  match_log <- df_v_1 %in% x  # yields logical index
   
-} # look_up(). 
+  # index output:
+  df_v_2[match_log]
+  
+} # lookup(). 
+
 
 # # Check:
 # # (a) specific exemplars:
-# look_up(x = c("cardiff_1", "not there", "princeton_1"), data = unicol_data, v_1 = "pal", v_2 = "inst")
-# look_up(x = c("cardiff_1", "not there", "princeton_1"), data = unicol_data, v_1 = "pal", v_2 = "url")
+# lookup(x = c("cardiff_1", "not there", "princeton_1"), unicol_data, v_1 = "pal", v_2 = "inst")
+# lookup(x = c("cardiff_1", "not there", "princeton_1"), unicol_data, v_1 = "pal", v_2 = "url")
+# 
 # # (b) entire column:
-# look_up(x = unicol_data$pal, data = unicol_data, v_1 = "pal", v_2 = "inst")
-# look_up(x = unicol_data$pal, data = unicol_data, v_1 = "pal", v_2 = "url")
+# lookup(x = unicol_data$pal, unicol_data, v_1 = "pal", v_2 = "inst")
+# lookup(x = unicol_data$pal, unicol_data, v_1 = "pal", v_2 = "url")
+# 
+# # (c) 1 input with MANY outputs:
+# lookup(x = c("University of Waterloo", "nowhere", "McGill University"), unicol_data, v_1 = "inst", v_2 = "pal")
+# lookup(x = c("University of Waterloo", "nowhere", "McGill University"), unicol_data, v_1 = "inst", v_2 = "url")
+
+# # (d) Partial matches DO NOT work:
+# lookup(x = c("Waterloo", "nowhere", "McGill"), unicol_data, v_1 = "inst", v_2 = "url")
 
 
 
 # link_inst: Create a link to inst (given a vector of pal names): ----
 
 link_inst <- function(pal){
-
+  
   # look up inst and url corresponding to pal:  
-  inst_names <- look_up(pal, unicol_data, "pal", "inst")
-  inst_urls  <- look_up(pal, unicol_data, "pal", "url")  
+  inst_names <- lookup(pal, unicol_data, "pal", "inst")
+  inst_urls  <- lookup(pal, unicol_data, "pal", "url")  
   
   # create link:
   paste0("[", inst_names, "](", inst_urls, ")")
@@ -82,16 +99,17 @@ link_inst <- function(pal){
 # link_inst(unicol_data$pal)
 
 
+
 # link_doc: Create a link to online documentation (given a vector of pal names): ----
 
 link_github_doc <- function(pal){
   
-  # base_url <- "https://hneth.github.io/unicol/reference/"      # release version
+  # base_url <- "https://hneth.github.io/unicol/reference/"    # release version
   base_url <- "https://hneth.github.io/unicol/dev/reference/"  # dev version
   
   # # look up inst and url corresponding to pal:  
-  # inst_names <- look_up(pal, unicol_data, "pal", "inst")
-  # inst_urls  <- look_up(pal, unicol_data, "pal", "url")  
+  # inst_names <- lookup(pal, unicol_data, "pal", "inst")
+  # inst_urls  <- lookup(pal, unicol_data, "pal", "url")  
   
   prefix <- base_url
   suffix <- ".html"
@@ -106,20 +124,24 @@ link_github_doc <- function(pal){
 # link_github_doc(unicol_data$pal)
 
 
-# n_col: Get number of colors (for 1 loaded pal): ----
+
+# n_col: Get number of colors (for 1 loaded pal, given pal name): ----
 
 n_col <- function(pal_name){
   
   length(eval(str2expression(pal_name)))
   
-}
+} # n_col().
 
 # # Check:
 # n_col("uni_konstanz_1")
 # sapply(unicol_data$pal, FUN = n_col)
 
 
+
 ## ToDo: --------
+
+# - obtain country/region from URL, using lookup table
 
 # - create a more informative summary table
 # - add a country field (or get/read from URL)?
