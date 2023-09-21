@@ -1,4 +1,4 @@
-## _pkgdown.yml unicol | 2023 09 17
+## _pkgdown.yml unicol | 2023 09 21
 ## --------------------------------
 
 url: https://hneth.github.io/unicol/
@@ -18,4 +18,18 @@ navbar:
     left:  [intro, articles, reference, news]
     right: [search, github]
 
-# eof.
+
+## figure settings: ----------
+
+figures:
+  dev: grDevices::png
+  dpi: 96
+  dev.args: []
+  fig.ext: png
+  fig.width: 7.5  # default: 7.292
+  fig.height: ~
+  fig.asp: 0.85
+  fig.retina: 2
+
+
+## eof. ----------
