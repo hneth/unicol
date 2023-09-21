@@ -58,8 +58,8 @@
 #' @export
 
 bu <- unikn::newpal(col = c("#CC0000", "#2D2926"),
-                      names = c("BU red", "BU black"),
-                      as_df = FALSE)
+                    names = c("BU red", "BU black"),
+                    as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(bu, main = "Primary colors of Boston University", col_bg = "white")

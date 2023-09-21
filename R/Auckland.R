@@ -177,7 +177,6 @@ auckland_2 <- unikn::newpal(col = color_auckland_2,
 
 
 
-
 ## ToDo: -------- 
 
 # - etc.
