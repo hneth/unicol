@@ -44,13 +44,11 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
-
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
-
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -192,34 +190,48 @@ my_pals <- primary_pals[sample_n]
 # Initialize data structures:
 pal_list  <- vector(mode = "list", length = n)
 pal_names <- vector(mode = "character", length = n)
+pal_len   <- rep(NA, n)
 col_count <- 0
 
 # Loop: Iterate through n palettes:
 for (i in 1:n){
   
+  # determine values:  
   cur_name  <- my_pals[i]
   cur_pal   <- get(cur_name)
   cur_count <- length(cur_pal)
   
-  if (cur_count > 13){
-    message("Use different seed.")
-    break
-    }
-  
+  # collect values:
   pal_list[[i]] <- cur_pal
   pal_names[i]  <- cur_name
+  pal_len[i]    <- cur_count
   col_count     <- col_count + cur_count
+  
+  # check criteria:
+  if (cur_count > 12){
     
+    message("Use different seed.")
+    break
+    
+  }
+  
 } # for i loop end.
 
-# Check:
-# pal_list
+# # Add pal_names to pal_list:
+# names(pal_list) <- pal_names
+# 
+# # Check:
 # pal_names
+# pal_list
+# pal_len
+
+# ToDo: Sort by pal_len. +++ here now +++ 
+
 
 # Captions:
 tab_caption <- paste0("A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
 fig_caption <- paste0("Figure 1: A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
-my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors)")
+fig_main    <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, " colors)")
 ```
 
 ```{r unicol-pals-example-1-stats, echo = FALSE, eval = FALSE}
@@ -246,24 +258,26 @@ knitr::kable(unicol_data[sample_n, ], caption = tab_caption)
 ```{r unicol-pals-example-1-figure, echo = FALSE, eval = TRUE, dpi = 100, fig.width  = 7.5, out.width = "600px", fig.asp = 2.0, fig.cap = fig_caption}
 # Figure: Illustrate color palettes:
 unikn::seecol(pal = pal_list,
+              # n = 100, # continuous version
               pal_names = pal_names,
-              main = my_main)
+              main = fig_main)
 ```
 
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
 
 
-<!-- Example 2:  Clusters / relations / similar sets -->
+<!-- Example 2:  Insights into clusters / relations / similar sets -->
 
-```{r example-similar-sets, echo = FALSE, eval = FALSE}
+```{r example-insights, echo = FALSE, eval = FALSE}
 bg_col <- "grey85"
 
 # Red and grey:
 seecol(list(bu, harvard_1, cornell_1, 
             lancaster_1, yorku_1, groningen_1, 
             mit, uchicago_1, 
-            mun_1, CMU_1_core, rpi_1, cardiff_1, stanford_1), 
+            mun_1, CMU_1_core, rpi_1, cardiff_1, stanford_1),
        main = "Red and grey university colors", col_bg = bg_col)
+
 
 # Blues:
 seecol(list(duke_1, jhu_1, monash_1, uni_goettingen_1, hu_2, uni_mannheim_1, 
@@ -273,8 +287,9 @@ seecol(list(duke_1, jhu_1, monash_1, uni_goettingen_1, hu_2, uni_mannheim_1,
             ubc, trinity_1),
        main = "Mostly blue and white university colors", col_bg = bg_col)
 
+
 # Greens:
-seecol(list(ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1), 
+seecol(list(dartmouth_1, ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1), 
        main = "Mostly green university colors", col_bg = bg_col)
 
 
@@ -283,9 +298,14 @@ seecol(list(UCLA_1, uci_1, pitt_1),
        main = "Yellow and blue university colors", col_bg = bg_col)
 
 
-# Similar pairs:
+# Purple and grey:
+seecol(list(northwestern_1, western_uni), 
+       main = "Purple and grey university colors", col_bg = bg_col)
+
+
+# Color twins: Finding similar pairs:
 seecol(list(groningen_1, yorku_1), main = "Spot the difference: ", col_bg = bg_col)
-seecol(list(notredame_1, uni_jena_1), main = "Spot the difference: (2)", col_bg = bg_col)
+seecol(list(notredame_1, uni_jena_1), main = "Color twins?", col_bg = bg_col)
 ```
 
 

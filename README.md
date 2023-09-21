@@ -116,7 +116,7 @@ Figure 1: A sample of 50 unicol palettes (containing 216 colors).
 </div>
 
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
-<!-- Example 2:  Clusters / relations / similar sets -->
+<!-- Example 2:  Insights into clusters / relations / similar sets -->
 
 ### Using color palettes
 
@@ -325,6 +325,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-09-20.\]
+\[File `README.Rmd` updated on 2023-09-21.\]
 
 <!-- eof. -->
