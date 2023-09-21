@@ -239,6 +239,7 @@ knitr::kable(my_df, caption = df_caption, col.names = col_names, row.names = TRU
 ```
 
 
+
 ### Illustration 
 
 ```{r unicol-pals-example, echo = FALSE, eval = TRUE}
