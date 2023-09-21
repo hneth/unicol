@@ -8,7 +8,7 @@
 An object of class \code{character} of length 9.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
 \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 }
 \usage{
@@ -19,23 +19,27 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{cornell_3_accent} provides the nine primary colors
-of the \href{https://www.cornell.edu/}{Cornell University}, USA.
+of \href{https://www.cornell.edu}{Cornell University}, USA.
 }
 \details{
-Although our primary and secondary palettes should guide most layouts, in certain instances other colors may be needed.
-For those circumstances, refer to the accent palette.
-These colors should not be used as full-color bleeds and should be used periodically and in moderation.
+The 9 secondary colors are 
+\code{"Cornell blue"} (defined as HEX #006699),
+\code{"Cornell green graphics"} (defined as HEX #6EB43F),
+\code{"Cornell green text"} (defined as HEX #4B7B2B),
+\code{"Cornell green text big"} (defined as HEX #578E32),
+\code{"Cornell orange graphics"} (defined as HEX #F8981D),
+\code{"Cornell orange text"} (defined as HEX #D47500),
+\code{"Cornell red graphics"} (defined as HEX #EF4035),
+\code{"Cornell red text"} (defined as HEX #DF1E12), and
+\code{"Cornell navy"} (defined as HEX #073949).
 
-This secondary colors are 
-\code{"cornell_blue"} (defined as HEX #006699),
-\code{"cornell_green_graphic"} (defined as HEX #6EB43F),
-\code{"cornell_green_text"} (defined as HEX #4B7B2B),
-\code{"cornell_green_text_big"} (defined as HEX #578E32),
-\code{"cornell_orange_graphic"} (defined as HEX #F8981D),
-\code{"cornell_orange_text"} (defined as HEX #D47500),
-\code{"cornell_red_graphic"} (defined as HEX #EF4035),
-\code{"cornell_red_text"} (defined as HEX #DF1E12), and
-\code{"cornell_navy"} (defined as HEX #073949).
+
+Although our primary and secondary palettes 
+(see \code{\link{cornell_1}} and \code{\link{cornell_2}}) 
+should guide most layouts, in certain instances other colors may be needed.
+
+For those circumstances, refer to the accent palette. 
+These colors should not be used as full-color bleeds and should be used periodically and in moderation.
 }
 \examples{
 cornell_3_accent

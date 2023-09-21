@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
 \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 }
 \usage{
@@ -19,15 +19,19 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{cornell_1} provides the two primary colors
-of the \href{https://www.cornell.edu/}{Cornell University}, USA.
+of \href{https://www.cornell.edu}{Cornell University}, USA, 
+and a 3rd \code{"white"} color.
 }
 \details{
-Primary colors are the officially recognized color palette for the university.
-These colors are critical to leverage the Cornell brand and provide clear university consistency.
 Logos may only be represented in 
-\code{"carnelian"} (defined as HEX #B31B1B),  
-\code{"dark_gray"} (defined as HEX #222222), or 
+\code{"Carnelian"} (defined as HEX #B31B1B),  
+\code{"dark gray"} (defined as HEX #222222), or 
 \code{"white"} (defined as HEX #FFFFFF).
+
+
+Primary colors are the officially recognized color palette for the university.
+These colors are critical to leverage the 
+\href{https://www.cornell.edu}{Cornell} brand and provide clear university consistency.
 }
 \examples{
 cornell_1

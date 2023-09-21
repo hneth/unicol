@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.cornell.edu}{Cornell}'s 
 \href{https://brand.cornell.edu/design-center/colors/}{Color manual}.
 }
 \usage{
@@ -19,16 +19,17 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{cornell_2} provides the three secondary colors
-of the \href{https://www.cornell.edu/}{Cornell University}, USA.
+of \href{https://www.cornell.edu}{Cornell University}, USA.
 }
 \details{
-These neutral hues pair perfectly with the primary palette.
-Use these as supplementary colors rather than driving colors in layout and communications.
+The 3 secondary colors are 
+\code{"light gray"} (defined as HEX #F7F7F7),
+\code{"dark warm gray"} (defined as HEX #A2998B), and
+\code{"sea gray"} (defined as HEX #9FAD9F).
 
-This secondary colors are 
-\code{"light_gray"} (defined as HEX #F7F7F7),
-\code{"dark_warm_gray"} (defined as HEX #A2998B), and
-\code{"sea_gray"} (defined as HEX #9FAD9F).
+
+The neutral hues pair perfectly with the primary palette (see \code{\link{cornell_1}}). 
+Use these as supplementary colors rather than driving colors in layout and communications.
 }
 \examples{
 cornell_2
