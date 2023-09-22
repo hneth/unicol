@@ -28,7 +28,7 @@ figures:
   fig.ext: png
   fig.width: 7.5  # default: 7.292
   fig.height: ~
-  fig.asp: 0.85
+  fig.asp: 0.80
   fig.retina: 2
 
 
