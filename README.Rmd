@@ -271,19 +271,23 @@ unikn::seecol(pal = pal_list,
 <!-- Example 2:  Insights into clusters / relations / similar sets -->
 
 ```{r example-insights, echo = FALSE, eval = FALSE}
-bg_col <- "grey85"
+bg_col <- "grey95"
 
 # Red and grey:
 seecol(list(bu, harvard_1, cornell_1, 
-            lancaster_1, yorku_1, groningen_1, 
-            mit, uchicago_1, 
-            mun_1, CMU_1_core, rpi_1, cardiff_1, stanford_1),
+            yorku_1, groningen_1, 
+            lancaster_1, mit, uchicago_1, 
+            CMU_1_core, rpi_1, 
+            mun_1, 
+            cardiff_1, stanford_1),
+       scale_x = FALSE, 
        main = "Red and grey university colors", col_bg = bg_col)
 
 
 # Blues:
-seecol(list(duke_1, jhu_1, monash_1, uni_goettingen_1, hu_2, uni_mannheim_1, 
-            # uni_koeln_1, uni_hamburg_1, 
+seecol(list(duke_1, jhu_1, 
+            uni_goettingen_1, monash_1, hu_2, uni_mannheim_1, 
+            uni_koeln_1, uni_hamburg_1, 
             auckland_1, 
             uni_stuttgart_1, uni_konstanz_1,
             ubc, trinity_1),
@@ -306,7 +310,7 @@ seecol(list(northwestern_1, western_uni),
 
 
 # Color twins: Finding similar pairs:
-seecol(list(groningen_1, yorku_1), main = "Spot the difference: ", col_bg = bg_col)
+seecol(list(groningen_1, yorku_1, cornell_1, harvard_1), main = "Spot the differences ", col_bg = bg_col)
 seecol(list(notredame_1, uni_jena_1), main = "Color twins?", col_bg = bg_col)
 ```
 
