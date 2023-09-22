@@ -1,4 +1,4 @@
-## ANU.R | 2023 09 04
+## ANU.R | 2023 09 22
 ## Colors of Australian National University, Australia 
 ## ---------------------------------------------------
 
@@ -42,6 +42,7 @@
 # White: "#FFFFFF"
 
 # Australia National University (Background colours):
+
 color_anu_1 <- c("#BE830E", "#F5EDDE", "#000000", "#FFFFFF")
 names_anu_1 <- c("ANU gold", "ANU gold tint", "black", "white")
 
@@ -65,6 +66,7 @@ names_anu_1 <- c("ANU gold", "ANU gold tint", "black", "white")
 # Unigrey: "#333333"
 
 # Australian National University (Font colours):
+
 color_anu_2 <- c("#000000", "#FFFFFF", "#BE830E", "#333333")
 names_anu_2 <- c("black", "white", "ANU gold", "Uni grey")
 
@@ -95,11 +97,13 @@ names_anu_2 <- c("black", "white", "ANU gold", "Uni grey")
 #' \strong{unicol}, 2023-09-04.
 #'
 #' @source 
-#' ANU's \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.   
+#' \href{https://www.anu.edu.au}{ANU}'s 
+#' \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.    
 #'
 #' @examples
 #' ANU_1
-#' unikn::seecol(ANU_1, main = "Background colours of Australian National University")
+#' unikn::seecol(ANU_1, col_bg = "grey95",  
+#'               main = "Background colours of the Australian National University (ANU)")
 #' 
 #' @family Australian university color palettes
 #'
@@ -148,11 +152,13 @@ ANU_1 <- unikn::newpal(col = color_anu_1,
 #' \strong{unicol}, 2023-09-04.
 #'
 #' @source 
-#' ANU's \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.   
+#' \href{https://www.anu.edu.au}{ANU}'s 
+#' \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.   
 #'
 #' @examples
 #' ANU_2
-#' unikn::seecol(ANU_2, main = "Font colours of Australian National University")
+#' unikn::seecol(ANU_2, col_bg = "grey95", 
+#'               main = "Font colours of the Australian National University (ANU)")
 #' 
 #' @family Australian university color palettes
 #'

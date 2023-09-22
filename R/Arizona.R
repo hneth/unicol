@@ -1,4 +1,4 @@
-## Arizona.R | 2023 09 20
+## Arizona.R | 2023 09 22
 ## Colors of the Arizona State University, USA
 ## -------------------------------------------
 
@@ -42,14 +42,14 @@
 #' @author
 #' \strong{unicol}, 2023-07-13.
 #'
-#' @source
-#' Color definitions are based on 
-#' \href{https://brandguide.asu.edu/brand-elements/design/color}{ASU's brand guide}.
+#' @source 
+#' Color definitions are based on \href{https://www.asu.edu}{ASU}'s  
+#' \href{https://brandguide.asu.edu/brand-elements/design/color}{brand guide}.
 #'
 #' @examples
 #' asu_1
 #' unikn::seecol(asu_1, col_bg = "gray90", 
-#'               main = "Arizona State University")  # view color palette.
+#'               main = "The colors of Arizona State University (ASU)")
 #'
 #' @family U.S. university color palettes
 #'
@@ -95,12 +95,13 @@ asu_1 <- unikn::newpal(col = c("#8C1D40", "#FFC627", "#000000", "#FFFFFF"),
 #' \strong{unicol}, 2320-07-13.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \href{https://brandguide.asu.edu/brand-elements/design/color}{ASU's brand guide}.
+#' Color definitions are based on \href{https://www.asu.edu}{ASU}'s  
+#' \href{https://brandguide.asu.edu/brand-elements/design/color}{brand guide}.
 #'
 #' @examples 
 #' asu_2
-#' unikn::seecol(asu_2, main = "Arizona State University 2") # view color palette
+#' unikn::seecol(asu_2, 
+#'               main = "Secondary colors of Arizona State University (ASU)")
 #' 
 #' @family U.S. university color palettes
 #'
@@ -150,13 +151,13 @@ asu_2 <- unikn::newpal(col = c("#78BE20", "#00A3E0", "#FF7F32", "#747474",
 #' \strong{unicol}, 2320-07-13.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \href{https://brandguide.asu.edu/brand-elements/design/color}{ASU's brand guide}.
+#' Color definitions are based on \href{https://www.asu.edu}{ASU}'s  
+#' \href{https://brandguide.asu.edu/brand-elements/design/color}{brand guide}.
 #'
 #' @examples 
 #' asu_3
 #' unikn::seecol(asu_3, col_bg = "gray95",
-#'               main = "Arizona State University") # view color palette
+#'               main = "Grayscale colors of the Arizona State University (ASU)")
 #' 
 #' @family U.S. university color palettes
 #'
