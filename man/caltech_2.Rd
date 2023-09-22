@@ -32,7 +32,7 @@ and are used to provide depth and texture to communications materials.
 }
 \examples{
 caltech_2
-unikn::seecol(caltech_2, main = "Primary and deep colors of Caltech")
+unikn::seecol(caltech_2, main = "The primary and deep colors of Caltech")
 unikn::demopal(caltech_2, type = 2, seed = 2,  
                main = "Using the primary and deep colors of Caltech")
 

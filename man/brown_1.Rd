@@ -34,7 +34,7 @@ The two accent primary colors are
 }
 \examples{
 brown_1
-unikn::seecol(brown_1, main = "Brown University 1") # view color palette
+unikn::seecol(brown_1, main = "The primary colors of Brown University")
 
 }
 \seealso{

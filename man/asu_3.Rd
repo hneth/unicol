@@ -8,8 +8,8 @@
 An object of class \code{character} of length 9.
 }
 \source{
-Color definitions are based on 
-\href{https://brandguide.asu.edu/brand-elements/design/color}{ASU's brand guide}.
+Color definitions are based on \href{https://www.asu.edu}{ASU}'s  
+\href{https://brandguide.asu.edu/brand-elements/design/color}{brand guide}.
 }
 \usage{
 asu_3
@@ -38,7 +38,7 @@ The 9 grayscale colors are
 \examples{
 asu_3
 unikn::seecol(asu_3, col_bg = "gray95",
-              main = "Arizona State University") # view color palette
+              main = "Grayscale colors of the Arizona State University (ASU)")
 
 }
 \seealso{

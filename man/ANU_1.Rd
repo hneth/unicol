@@ -8,7 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-ANU's \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.
+\href{https://www.anu.edu.au}{ANU}'s 
+\href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.
 }
 \usage{
 ANU_1
@@ -33,7 +34,8 @@ The use of \code{ANU gold} should not cover more than 1/8 of the page/banner.
 }
 \examples{
 ANU_1
-unikn::seecol(ANU_1, main = "Background colours of Australian National University")
+unikn::seecol(ANU_1, col_bg = "grey95",  
+              main = "Background colours of the Australian National University (ANU)")
 
 }
 \seealso{

@@ -31,7 +31,7 @@ and allow to convey a serious, sober, and traditional impression.
 }
 \examples{
 caltech_1
-unikn::seecol(caltech_1, main = "Primary and neutral colors of Caltech")
+unikn::seecol(caltech_1, main = "The primary and neutral colors of Caltech")
 unikn::demopal(caltech_1, type = 4, seed = 1,  
                main = "Using the primary and neutral colors of Caltech")
 

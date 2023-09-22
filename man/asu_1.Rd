@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on 
-\href{https://brandguide.asu.edu/brand-elements/design/color}{ASU's brand guide}.
+Color definitions are based on \href{https://www.asu.edu}{ASU}'s  
+\href{https://brandguide.asu.edu/brand-elements/design/color}{brand guide}.
 }
 \usage{
 asu_1
@@ -33,7 +33,7 @@ The 4 primary colors are
 \examples{
 asu_1
 unikn::seecol(asu_1, col_bg = "gray90", 
-              main = "Arizona State University")  # view color palette.
+              main = "The colors of Arizona State University (ASU)")
 
 }
 \seealso{

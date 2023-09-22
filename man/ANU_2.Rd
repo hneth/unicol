@@ -8,7 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-ANU's \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.
+\href{https://www.anu.edu.au}{ANU}'s 
+\href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.
 }
 \usage{
 ANU_2
@@ -35,7 +36,8 @@ for approved colour combinations).
 }
 \examples{
 ANU_2
-unikn::seecol(ANU_2, main = "Font colours of Australian National University")
+unikn::seecol(ANU_2, col_bg = "grey95", 
+              main = "Font colours of the Australian National University (ANU)")
 
 }
 \seealso{

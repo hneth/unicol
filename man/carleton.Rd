@@ -25,7 +25,7 @@ of the \href{https://carleton.ca/}{University of Carleton}, Canada.
 The 2 official colors are
 \code{maize} (defined as Pantone 122, 
 and approximated by RGB 255/223/79, or HEX #FFDF4F), and
-\code{blue_carleton} (defined as Pantone 294, 
+\code{Carleton blue} (defined as Pantone 294, 
 and approximated by RGB 0/48/105, or HEX #003069).
 
 \code{carleton} uses the HEX color definitions.
@@ -33,7 +33,7 @@ and approximated by RGB 0/48/105, or HEX #003069).
 \examples{
 carleton
 unikn::seecol(carleton, 
-              main = "Colors of the University of Carleton") # view color palette
+              main = "The colors of the University of Carleton, CA") # view color palette
 
 }
 \seealso{

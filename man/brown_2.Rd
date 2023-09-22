@@ -34,7 +34,7 @@ The four secondary colors are
 \examples{
 brown_2
 unikn::seecol(brown_2, 
-              main = "Secondary colors of Brown University") # view color palette
+              main = "The secondary colors of Brown University") # view color palette
 
 }
 \seealso{
