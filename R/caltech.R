@@ -1,4 +1,4 @@
-## Caltech.R | 2023 08 24
+## Caltech.R | 2023 09 22
 ## Colors of Caltech, CA, USA
 ## --------------------------
 
@@ -124,7 +124,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' 
 #' @examples
 #' caltech_1
-#' unikn::seecol(caltech_1, main = "Primary and neutral colors of Caltech")
+#' unikn::seecol(caltech_1, main = "The primary and neutral colors of Caltech")
 #' unikn::demopal(caltech_1, type = 4, seed = 1,  
 #'                main = "Using the primary and neutral colors of Caltech")
 #'
@@ -143,7 +143,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 
 caltech_1 <- unikn::newpal(col = c(col_caltech_p,  col_caltech_n1, col_caltech_n2, col_caltech_n3,
                                    col_caltech_n4, col_caltech_n5, col_caltech_n6, col_caltech_n7),
-                           names = c("Caltech orange (PMS 1585c)", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
+                           names = c("Caltech orange / PMS 1585c", "PMS cool gray 9", "PMS cool grey 3c", "PMS 414",
                                      "PMS 5497c", "PMS 7494c", "PMS 451c", "PMS 7403c"), 
                            as_df = FALSE)
 
@@ -212,7 +212,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' 
 #' @examples
 #' caltech_2
-#' unikn::seecol(caltech_2, main = "Primary and deep colors of Caltech")
+#' unikn::seecol(caltech_2, main = "The primary and deep colors of Caltech")
 #' unikn::demopal(caltech_2, type = 2, seed = 2,  
 #'                main = "Using the primary and deep colors of Caltech")
 #'
@@ -232,7 +232,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 caltech_2 <- unikn::newpal(col = c(col_caltech_p,  
                                    col_caltech_d1, col_caltech_d2, 
                                    col_caltech_d3, col_caltech_d4),
-                           names = c("Caltech orange (PMS 1585c)", 
+                           names = c("Caltech orange / PMS 1585c", 
                                      "PMS 548c", "PMS 3292c", 
                                      "PMS 668c", "PMS 195c"), 
                            as_df = FALSE)

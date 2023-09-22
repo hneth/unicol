@@ -1,4 +1,4 @@
-## Brown.R | 2023 08 05
+## Brown.R | 2023 09 22
 ## Colors of the Brown University, USA 
 ## -----------------------------------
 
@@ -171,7 +171,7 @@ col_taupe <- "#B7B09C"
 #' 
 #' @examples
 #' brown_1
-#' unikn::seecol(brown_1, main = "Brown University 1") # view color palette
+#' unikn::seecol(brown_1, main = "The primary colors of Brown University")
 #'
 #' @family U.S. university color palettes
 #'
@@ -222,7 +222,7 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' @examples
 #' brown_2
 #' unikn::seecol(brown_2, 
-#'               main = "Secondary colors of Brown University") # view color palette
+#'               main = "The secondary colors of Brown University") # view color palette
 #'
 #' @family U.S. university color palettes 
 #'
