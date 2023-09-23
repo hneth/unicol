@@ -18,7 +18,7 @@ columbia_v0
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{columbia} provides one primary blue and four secondary blue colors 
+\code{columbia_v0} provides one primary blue and four secondary blue colors 
 of \href{https://www.columbia.edu}{Columbia University}, USA.
 }
 \details{
@@ -33,7 +33,7 @@ rendered in four approved tints of blue:
 \code{"Blue 3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
 \code{"Blue 4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
 
-\code{columbia} uses the RGB color definitions.
+\code{columbia_v0} uses the RGB color definitions.
 
 
 The official and primary \code{"Columbia blue"} color is based 
@@ -41,8 +41,8 @@ on the color of the Philolexian Society, Columbia’s oldest student organizatio
 founded in 1802.
 }
 \examples{
-columbia
-unikn::seecol(columbia, main = "The blue colors of Columbia University")  # view color palette
+columbia_v0
+unikn::seecol(columbia_v0, main = "Blue colors of Columbia University")  # view palette
 
 }
 \seealso{

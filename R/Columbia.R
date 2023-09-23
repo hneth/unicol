@@ -308,7 +308,7 @@ columbia_3 <- unikn::newpal(col = columbia_high_cols,
 
 #' The colors of Columbia University, USA 
 #'
-#' \code{columbia} provides one primary blue and four secondary blue colors 
+#' \code{columbia_v0} provides one primary blue and four secondary blue colors 
 #' of \href{https://www.columbia.edu}{Columbia University}, USA.
 #'
 #' The official and primary blue color is 
@@ -322,7 +322,7 @@ columbia_3 <- unikn::newpal(col = columbia_high_cols,
 #' \code{"Blue 3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
 #' \code{"Blue 4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
 #' 
-#' \code{columbia} uses the RGB color definitions. 
+#' \code{columbia_v0} uses the RGB color definitions. 
 #' 
 #' @details
 #' The official and primary \code{"Columbia blue"} color is based 
@@ -340,8 +340,8 @@ columbia_3 <- unikn::newpal(col = columbia_high_cols,
 #' \href{https://visualidentity.columbia.edu/branding}{Brand guide}.
 #'
 #' @examples
-#' columbia
-#' unikn::seecol(columbia, main = "The blue colors of Columbia University")  # view color palette
+#' columbia_v0
+#' unikn::seecol(columbia_v0, main = "Blue colors of Columbia University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -362,7 +362,7 @@ columbia_v0 <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255),
                              as_df = FALSE)
 
 # # Check:
-# unikn::seecol(columbia, main = "Primary colors of Columbia University", col_bg = "lightgrey")
+# unikn::seecol(columbia_v0, main = "Blue colors of Columbia University", col_bg = "lightgrey")
 
 
 
