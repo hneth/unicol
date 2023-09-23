@@ -306,52 +306,52 @@ columbia_3 <- unikn::newpal(col = columbia_high_cols,
 
 # - columbia_v0: Primary and secondary blue colors (up to unicol v0.2.0) ------
 
-#' The colors of Columbia University, USA 
-#'
-#' \code{columbia_v0} provides one primary blue and four secondary blue colors 
-#' of \href{https://www.columbia.edu}{Columbia University}, USA.
-#'
-#' The official and primary blue color is 
-#' \code{"Columbia blue"} (PMS 290C, RGB 185/217/235, 
-#' PMS 290C, RGB 185 217 235, CMYK 20 0 0 0, or HEX "#B9D9EB"
-#'
-#' The \href{https://www.columbia.edu}{Columbia University} trademark can also be 
-#' rendered in four approved tints of blue: 
-#' \code{"Blue 1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
-#' \code{"Blue 2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
-#' \code{"Blue 3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
-#' \code{"Blue 4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
-#' 
-#' \code{columbia_v0} uses the RGB color definitions. 
-#' 
-#' @details
-#' The official and primary \code{"Columbia blue"} color is based 
-#' on the color of the Philolexian Society, Columbia’s oldest student organization, 
-#' founded in 1802.
-#' 
-#' @return
-#' A named vector of colors (HEX/HTML codes of type character).
-#'
-#' @author
-#' \strong{unicol}, 2023-06-14.
-#'
-#' @source
-#' Color definitions are based on \href{https://www.columbia.edu}{Columbia}'s 
-#' \href{https://visualidentity.columbia.edu/branding}{Brand guide}.
-#'
-#' @examples
-#' columbia_v0
-#' unikn::seecol(columbia_v0, main = "Blue colors of Columbia University")  # view palette
-#'
-#' @family U.S. university color palettes
-#'
-#' @seealso
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
-#'
+# The colors of Columbia University, USA
+# 
+# \code{columbia_v0} provides one primary blue and four secondary blue colors
+# of \href{https://www.columbia.edu}{Columbia University}, USA.
+# 
+# The official and primary blue color is
+# \code{"Columbia blue"} (PMS 290C, RGB 185/217/235,
+# PMS 290C, RGB 185 217 235, CMYK 20 0 0 0, or HEX "#B9D9EB"
+# 
+# The \href{https://www.columbia.edu}{Columbia University} trademark can also be
+# rendered in four approved tints of blue:
+# \code{"Blue 1"} (defined as PMS 284C, RGB 108/172/228, CMYK 59/17/0/0),
+# \code{"Blue 2"} (defined as PMS 285C, RGB 0/114/206, CMYK 90/48/0/0),
+# \code{"Blue 3"} (defined as PMS 286C, RGB 0/51/160, CMYK 100/75/0/0), and
+# \code{"Blue 4"} (defined as PMS 280C, RGB 2/33/105, CMYK 100/85/5/22).
+# 
+# \code{columbia_v0} uses the RGB color definitions.
+# 
+# @details
+# The official and primary \code{"Columbia blue"} color is based
+# on the color of the Philolexian Society, Columbia’s oldest student organization,
+# founded in 1802.
+# 
+# @return
+# A named vector of colors (HEX/HTML codes of type character). 
+# 
+# @author
+# \strong{unicol}, 2023-06-14.
+#  
+# @source
+# Color definitions are based on \href{https://www.columbia.edu}{Columbia}'s
+# \href{https://visualidentity.columbia.edu/branding}{Brand guide}.
+# 
+# @examples
+# columbia_v0
+# unikn::seecol(columbia_v0, main = "Blue colors of Columbia University")  # view palette
+# 
+# @family U.S. university color palettes
+# 
+# @seealso
+# \code{\link{seecol}} for viewing and comparing color palettes;
+# \code{\link{usecol}} for using color palettes;
+# \code{\link{simcol}} for finding similar colors;
+# \code{\link{newpal}} for defining new color palettes;
+# \code{\link{grepal}} for finding named colors.
+
 
 columbia_v0 <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255), 
                                      rgb(108, 172, 228, maxColorValue = 255), 
