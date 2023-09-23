@@ -104,110 +104,13 @@ tab_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst,
 knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
-
-```{r unicol-pals-table-links, echo = FALSE}
+```{r source-util-funs, echo = FALSE}
 # 1. Utility functions: ------
 
-# lookup: Look-up / filtering operations within a df: ----
-#         (A generalization of get_fns in 5_util.R.)
+source("../R/5_util.R")
+```
 
-lookup <- function(x, df, v_1 = 1, v_2 = 1){
-  
-  # identify vectors in df:
-  df_v_1 <- df[[v_1]]  # input  / origin
-  df_v_2 <- df[[v_2]]  # output / target
-  
-  # # (1) FIRST match of x in input:
-  # match_pos <- match(x, df_v_1)  # yields numeric index
-  # 
-  # # index output:
-  # df_v_2[match_pos]
-  
-  # (2) Allowing for multiple matches:
-  match_log <- df_v_1 %in% x  # yields logical index
-  
-  # index output:
-  df_v_2[match_log]
-  
-} # lookup(). 
-
-
-# # Check:
-# # (a) specific exemplars:
-# lookup(x = c("cardiff_1", "not there", "princeton_1"), unicol_data, v_1 = "pal", v_2 = "inst")
-# lookup(x = c("cardiff_1", "not there", "princeton_1"), unicol_data, v_1 = "pal", v_2 = "url")
-# 
-# # (b) entire column:
-# lookup(x = unicol_data$pal, unicol_data, v_1 = "pal", v_2 = "inst")
-# lookup(x = unicol_data$pal, unicol_data, v_1 = "pal", v_2 = "url")
-# 
-# # (c) 1 input with MANY outputs:
-# lookup(x = c("University of Waterloo", "nowhere", "McGill University"), unicol_data, v_1 = "inst", v_2 = "pal")
-# lookup(x = c("University of Waterloo", "nowhere", "McGill University"), unicol_data, v_1 = "inst", v_2 = "url")
-
-# # (d) Partial matches DO NOT work:
-# lookup(x = c("Waterloo", "nowhere", "McGill"), unicol_data, v_1 = "inst", v_2 = "url")
-
-
-
-# link_inst: Create a link to institution (given a vector of pal names): ----
-
-link_inst <- function(pal){
-
-  # look up inst and url corresponding to pal:  
-  inst_names <- lookup(pal, unicol_data, "pal", "inst")
-  inst_urls  <- lookup(pal, unicol_data, "pal", "url")  
-  
-  # create link:
-  paste0("[", inst_names, "](", inst_urls, ")")
-  
-} # link_inst().
-
-# # Check:
-# link_inst(pal = c("cardiff_1", "not there", "princeton_1"))
-# link_inst(unicol_data$pal)
-
-
-
-# link_doc: Create a link to online documentation (given a vector of pal names): ----
-
-link_github_doc <- function(pal){
-
-  ref_url <- paste0(url_github_doc_dev, "reference/")  # reference of dev version
-  
-  # base_url <- "../reference/"  # relative link
-  
-  # # look up inst and url corresponding to pal:  
-  # inst_names <- lookup(pal, unicol_data, "pal", "inst")
-  # inst_urls  <- lookup(pal, unicol_data, "pal", "url")  
-  
-  prefix <- ref_url
-  suffix <- ".html"
-  
-  # create link:
-  paste0("[", pal, "](", prefix, pal, suffix, ")")
-  
-} # link_github_doc().
-
-# # Check:
-# link_github_doc(pal = c("cardiff_1", "not there", "princeton_1"))
-# link_github_doc(unicol_data$pal)
-
-
-
-# n_col: Get number of colors (for 1 loaded pal): ----
-
-n_col <- function(pal_name){
-  
-  length(eval(str2expression(pal_name)))
-  
-} # n_col(). 
-
-# # Check:
-# n_col("uni_konstanz_1")
-# sapply(unicol_data$pal, FUN = n_col)
-
-
+```{r unicol-data-table, echo = FALSE}
 
 # 2. Process unicol_data: ------
 
@@ -219,19 +122,25 @@ pal_inst_links <- link_inst(my_pals)
 pal_doc_links  <- link_github_doc(my_pals)
 pal_lengths    <- sapply(X = unicol_data$pal, FUN = n_col)
 
+# Determine countries from URLs:
+pal_countries <- url_2_country(pal_urls)
+
+# Create summary df:
 my_df <- data.frame(inst = pal_inst_links, 
                     # url = pal_urls, 
+                    country = pal_countries, 
                     pal = pal_doc_links,
                     n_col = pal_lengths)
 
 row.names(my_df) <- 1:nrow(my_df)
-col_names <- c("University", 
+col_names <- c("University / Institution", 
                # "URL", 
+               "Country", 
                "Color palette", 
-               "N colors")
+               "N of colors")
 
 
-# 3. Print table: ------
+# 3. Print df as table: ------
 
 df_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst, " institutions).")
 
