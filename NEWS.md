@@ -13,8 +13,16 @@ Changes since last release:
 
 ## Major changes 
 
+<!-- Additions: --> 
+
 - New color palettes: 
     - [University of Stirling](https://www.stir.ac.uk): `stirling_1`, `stirling_2`, `stirling_3`  
+
+
+<!-- Corrections and updates: --> 
+
+- Corrected or updated color palettes: 
+    - [Columbia University](https://www.columbia.edu) now has 3 color palettes: `columbia_1`, `columbia_2`, `columbia_3`   
 
 
 <!-- Minor changes: --> 
@@ -28,12 +36,13 @@ Changes since last release:
 
 ## Details 
 
-- maintenance: improve documentation 
+- maintenance: add documentation and examples
 
 
 <!-- Development version:  --> 
 
 The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
+
 
 <!-- Published versions: --> 
 
@@ -108,6 +117,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-20.]
+[File `NEWS.md` updated on 2023-09-23.]
 
 <!-- eof. -->
