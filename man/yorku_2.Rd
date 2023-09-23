@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{yorku_2} provides eight secondary colors 
-of the \href{https://www.yorku.ca/}{York University}, Canada.
+of the \href{https://www.yorku.ca}{York University}, Canada.
 }
 \details{
 The 8 secondary colors are: 
