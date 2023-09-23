@@ -171,7 +171,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(127) # reproducible randomness
+set.seed(137) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
