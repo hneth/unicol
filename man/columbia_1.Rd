@@ -38,7 +38,7 @@ also be rendered in the approved \code{Primary blue} color (PMS 7686c).
 }
 \examples{
 columbia_1
-unikn::seecol(columbia_1, main = "The primary blue colors of Columbia University")  # view color palette
+unikn::seecol(columbia_1, main = "The primary colors of Columbia University")  # view palette
 
 }
 \seealso{

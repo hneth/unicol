@@ -38,7 +38,7 @@ See \href{https://www.columbia.edu}{Columbia}'s
 }
 \examples{
 columbia_3
-unikn::seecol(columbia_3, main = "The highlight colors of Columbia University")  # view color palette
+unikn::seecol(columbia_3, main = "The highlight colors of Columbia University")  # view palette
 
 }
 \seealso{
