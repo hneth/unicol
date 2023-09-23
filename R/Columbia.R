@@ -174,7 +174,7 @@ columbia_high_names <- c("PMS 675C", "PMS 2013C", "PMS 1525C", "PMS 1945C", "PMS
 #'
 #' @examples
 #' columbia_1
-#' unikn::seecol(columbia_1, main = "The primary blue colors of Columbia University")  # view color palette
+#' unikn::seecol(columbia_1, main = "The primary colors of Columbia University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -229,7 +229,7 @@ columbia_1 <- unikn::newpal(col = columbia_1_cols,
 #'
 #' @examples
 #' columbia_2
-#' unikn::seecol(columbia_2, main = "The secondary colors of Columbia University")  # view color palette
+#' unikn::seecol(columbia_2, main = "The secondary colors of Columbia University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -283,7 +283,7 @@ columbia_2 <- unikn::newpal(col = columbia_2_cols,
 #'
 #' @examples
 #' columbia_3
-#' unikn::seecol(columbia_3, main = "The highlight colors of Columbia University")  # view color palette
+#' unikn::seecol(columbia_3, main = "The highlight colors of Columbia University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
