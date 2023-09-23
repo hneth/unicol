@@ -60,12 +60,14 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- </a> -->
 
 <!-- unicol pkg logo and link: -->
+
 <a href = "`r url_unicol_cran`">
 <img src = "../man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
 </a>
 
+
 This vignettes provides an overview of the **color palettes** provided by the **unicol** package. 
-(See the vignette on [Using color palettes](using_pals.html) for how to use the **unicol** color palettes.) 
+(See the [Using color palettes](using_pals.html) vignette for information on how to use the **unicol** color palettes.) 
 
 We install and load the **unicol** package to get started: 
 
