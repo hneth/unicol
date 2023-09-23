@@ -317,7 +317,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Western / UWO", 1),
               rep("Yale", 1),
               rep("YU", 1),
-              rep("Yorku", 2),
+              rep("YorkU, York", 2),
               # NEW in v0.2.0: 
               rep("Rijksuniversiteit Groningen", 2),
               "Universidade de Lisboa",
