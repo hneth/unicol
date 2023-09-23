@@ -1,10 +1,56 @@
-## util.R | 2022 09 21
+## util.R | 2022 09 23
 ## Utility functions
 ## -------------------
 
-# Analyze and report on unicol_data: -----
+# Goal: Analyze and report on unicol_data. 
 
-# get_inst: Look up inst from pal name (as character): ---- 
+
+
+
+# A: Color- or palette-related helpers ------
+
+
+# - n_col: Get number of colors (for 1 loaded pal, given pal name) ----
+
+n_col <- function(pal_name){
+  
+  length(eval(str2expression(pal_name)))
+  
+} # n_col().
+
+# # Check:
+# n_col("uni_konstanz_1")
+# sapply(unicol_data$pal, FUN = n_col)
+
+
+
+# B: Look-up functions and tables: ------
+
+
+# - country_codes_df: Link country codes with country info ---- 
+
+# Goal: Lookup table for correspondences of URL endings <> Countries <> Colors.
+
+country_codes_df <- data.frame(code = c("au", "ca", "ch", "de", 
+                                        "edu", "com", "org", "us", 
+                                        "es", "fr", "ie", "nl", 
+                                        "nz", "pt", "uk"),
+                               country = c("Australia", "Canada", "Switzerland", "Germany", 
+                                           "USA", "USA", "USA", "USA", 
+                                           "Spain", "France", "Ireland", "Netherlands", 
+                                           "New Zealand", "Portugal", "United Kingdom"),
+                               color = c("goldenrod", "forestgreen", "plum", "black", 
+                                         "blue3", "blue3", "blue3", "blue3", 
+                                         "skyblue", "blue1", "green3", "orange", 
+                                         "navy", "gold", "firebrick")
+)
+
+# # Check:
+# country_codes_df
+
+
+
+# - get_inst: Look up inst from pal name (as character) ---- 
 
 get_inst <- function(pal){
   
@@ -21,7 +67,7 @@ get_inst <- function(pal){
 
 
 
-# get_url: Look up url from pal name (as character): ---- 
+# - get_url: Look up url from pal name (as character) ---- 
 
 get_url <- function(pal){
   
@@ -38,9 +84,9 @@ get_url <- function(pal){
 
 
 
-# lookup: Look-up / filtering operations within a df: ----
+# - lookup: Look-up / filtering operations (within a df) ----
 
-# A generalization of get_fns (above).
+# Goal: A generalization of get_fns (above).
 
 lookup <- function(x, df, v_1 = 1, v_2 = 1){
   
@@ -91,7 +137,47 @@ lookup <- function(x, df, v_1 = 1, v_2 = 1){
 
 
 
-# link_inst: Create a link to inst (given a vector of pal names): ----
+
+# C: String manipulation helpers: ------
+
+# - extract_matches: A wrapper around regmatches(s, gregexpr(p, s)) ---- 
+
+extract_matches <- function(p, s){
+  
+  lst <- regmatches(s, gregexpr(p, s))
+  
+  unlist(lst)
+  
+} # extract_matches().
+
+
+# - str_rev: Reverse character strings ---- 
+
+# Goal: A rev() for character strings:
+
+str_rev <- function(x){
+  
+  splits <- strsplit(x, NULL)
+  
+  rev_chars <- lapply(splits, rev)
+  
+  sapply(rev_chars, paste, collapse = "")
+  
+} # str_rev(). 
+
+# # Note: The following uses UTF-8 conversions, 
+# #       but only works for individual strings x (not vectors):
+# x <- "A B C"
+# intToUtf8(rev(utf8ToInt(x)))
+
+# # Check:
+# str_rev(c("ABC", "x y z", "Hello there!"))
+
+
+
+# D: Process URLs: ------
+
+# - link_inst: Create a link to inst (given a vector of pal names) ----
 
 link_inst <- function(pal){
   
@@ -110,7 +196,7 @@ link_inst <- function(pal){
 
 
 
-# link_doc: Create a link to online documentation (given a vector of pal names): ----
+# - link_doc: Create a link to online documentation (given a vector of pal names) ----
 
 link_github_doc <- function(pal){
   
@@ -135,46 +221,96 @@ link_github_doc <- function(pal){
 
 
 
-# n_col: Get number of colors (for 1 loaded pal, given pal name): ----
+# - url_2_country: Determine country from URL (TLD-ending) ---- 
 
-n_col <- function(pal_name){
+# Goal: Determine country from URL ending (assuming url as text). 
+#
+# The following seems to work, but can be improved / simplified:
+#
+# Strategy (in multiple steps):
+# 
+# A: Get country code from URL: 
+#   1. remove leading "https://" or "http://"
+#   2. extract all until next "/" (or end)
+#   3. reverse string
+#   4. extract chars to first dot
+#   5. reverse again 
+# => final part of URL
+#
+# B: Lookup country code in df-table (or switch())
+
+# Note: 
+# basename("https://www.uni-konstanz.de/test.html")
+
+
+url_2_country <- function(url){
   
-  length(eval(str2expression(pal_name)))
+  # ToDo: Verify that 
+  # - url strings are all of type character 
+  # - url contains valid URLs
   
-} # n_col().
+  # Match & extract top-level URLs:
+  # # stringr:
+  # stringr::str_view(url_paths, "https?://[^/]*\\.([^/]+)", match = TRUE)
+  # urls <- stringr::str_extract(urls_paths, "https?://[^/]*\\.([^/]+)")
+  # # base R:
+  # urls <- regmatches(url_paths, gregexpr("https?://[^/]*\\.([^/]+)", url_paths))
+  # urls <- unlist(urls)
+  urls <- extract_matches(p = "https?://[^/]*\\.([^/]+)", s = url)
+  
+  # Reverse strings:
+  urls_rev <- str_rev(urls)
+  # urls_rev
+  
+  # Match/extract initial group of chars (until 1st "."):
+  # # stringr: 
+  # stringr::str_view(urls_rev, "^(.*?)\\.", match = TRUE)
+  # CC_rev_dot <- stringr::str_extract(urls_rev, "^(.*?)\\.")
+  # # base R:
+  # CC_rev_dot <- regmatches(urls_rev, gregexpr("^(.*?)\\.", urls_rev))
+  # CC_rev_dot <- unlist(CC_rev_dot)
+  CC_rev_dot <- extract_matches(p = "^(.*?)\\.", s = urls_rev)
+  
+  # As lowercase:
+  cc_rev_dot <- tolower(CC_rev_dot)
+  
+  # Remove final dot:
+  # stringr::str_view(cc_rev_dot, "^[a-z]+")
+  # cc_rev <- stringr::str_extract(cc_rev_dot, "^[a-z]+")
+  # cc_rev <- regmatches(cc_rev_dot, gregexpr("^[a-z]+", cc_rev_dot))
+  # cc_rev <- unlist(cc_rev)
+  cc_rev <- extract_matches(p = "^[a-z]+", s = cc_rev_dot)
+  
+  # Reverse again:
+  cc <- str_rev(cc_rev)
+  # cc
+  
+  # Look up in country_codes_df:
+  country_nr <- match(cc, country_codes_df$code)  # numeric indices
+  country_v  <- country_codes_df$country[country_nr]
+  
+  return(country_v)
+  
+} # url_2_country().
 
 # # Check:
-# n_col("uni_konstanz_1")
-# sapply(unicol_data$pal, FUN = n_col)
+# url_2_country("https://www.uni-konstanz.de/asdf/some_page/stuff_etc.")
+# 
+# # Multiple URLs:
+# url_data  <- unicol_data$url
+# url_paths <- paste0(url_data, "/ABC/xyz/etc:_...")  # add some stuff behind top-level URL
+# countries <- url_2_country(url_paths)
+# 
+# # # Overview:
+# tb <- table(countries)
+# tb
+# 
+# # Pie chart:
+# tb_country_color <- country_codes_df$color[match(names(tb), country_codes_df$country)]
+# pie(tb, labels = names(tb), col = unikn::usecol(tb_country_color, alpha = .75))
+# 
+# # +++ here now +++ 
 
-
-
-# country_url: Determine country from URL (assuming url as text) ----
-
-country_url <- function(url){
-  
-  # regmatches(x = url, gregexpr(pattern = "/^(https?://)?([^@/]+@)?[a-z0-9.]+\\.([a-z]{2,4})(:[0-9]+)?/?$/", text = url))
-  
-  regmatches(x = url, gregexpr(pattern = 'https?://[^/]*\\.([^/]+)', text = url))
-  
-  
-  # ToDo: Use multiple steps: +++ here now +++ 
-  
-  # A: Get country code from URL: 
-  # 1. remove leading "https://" or "http://"
-  # 2. find next "/" (or end)
-  # 3. get group before next "/" (or end)
-  
-  # B: Lookup country code in df-table (or switch())
-  
-  
-} # country_url().
-
-# Check:
-# country_url("https://www.uni-konstanz.de")
-
-# Note:
-# basename("https://www.uni-konstanz.de/test.html")
 
 
 
