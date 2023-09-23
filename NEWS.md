@@ -5,6 +5,9 @@
 
 This is the development version of **unicol**, available at <https://github.com/hneth/unicol/>.
 
+The **unicol** package currently provides **241\ color palettes** from **103\ institutions**. 
+
+
 <!-- Log of changes: --> 
 
 Changes since last release: 
@@ -22,7 +25,7 @@ Changes since last release:
 <!-- Corrections and updates: --> 
 
 - Corrected or updated color palettes: 
-    - [Columbia University](https://www.columbia.edu) now has 3 color palettes: `columbia_1`, `columbia_2`, `columbia_3`   
+    - [Columbia University](https://www.columbia.edu): 3 color palettes (`columbia_1`, `columbia_2`, `columbia_3`) replace the former `columbia` palette    
 
 
 <!-- Minor changes: --> 
