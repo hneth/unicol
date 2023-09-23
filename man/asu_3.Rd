@@ -74,7 +74,6 @@ Other U.S. university color palettes:
 \code{\link{columbia_1}},
 \code{\link{columbia_2}},
 \code{\link{columbia_3}},
-\code{\link{columbia_v0}},
 \code{\link{cornell_1}},
 \code{\link{cornell_2}},
 \code{\link{cornell_3_accent}},
