@@ -1,11 +1,11 @@
-## UCDublin.R | 2023 09 14
+## UCDublin.R | 2023 09 24
 ## Colours of the University College Dublin, Ireland 
 ## -------------------------------------------------
 
 
 # Information: ------
 
-# cur_pals: "UCD" (1)
+# cur_pals: "ucd" (1)
 
 # inst: "University College Dublin"
 # inst_alt: "An Coláiste Ollscoile, Baile Átha Cliath / UCD"
@@ -94,11 +94,11 @@ UCD_brightGreen <- "#6bbe51"
 
 # Colour palette(s):
 
-# - UCD: Colours of University College Dublin ------
+# - ucd: Colours of the University College Dublin ------
 
-#' Colours of University College Dublin, Ireland
+#' Colours of the University College Dublin, Ireland
 #' 
-#' \code{UCD} provides seven colours of the 
+#' \code{ucd} provides seven colours of the 
 #' \href{https://www.ucd.ie}{University College Dublin}, Ireland.
 #'
 #' @details 
@@ -114,7 +114,7 @@ UCD_brightGreen <- "#6bbe51"
 #' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} 
 #' specifications (v0.0.1)
 #'
-#' \code{UCD} is based on the HEX colour values of the  
+#' \code{ucd} is based on the HEX colour values of the  
 #' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specs. 
 #'
 #' @return 
@@ -130,8 +130,8 @@ UCD_brightGreen <- "#6bbe51"
 #' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specifications.
 #'
 #' @examples
-#' UCD
-#' unikn::seecol(UCD, main = "Colours of the University College Dublin")  # view colour palette
+#' ucd
+#' unikn::seecol(ucd, main = "Colours of the University College Dublin")  # view colour palette
 #' 
 #' @family Irish university color palettes
 #'
@@ -144,12 +144,12 @@ UCD_brightGreen <- "#6bbe51"
 #'
 #' @export
 
-UCD <- unikn::newpal(col = c(UCD_blue, UCD_navy, UCD_navy_dark, UCD_gold, UCD_gold_light, UCD_richGreen, UCD_brightGreen),
+ucd <- unikn::newpal(col = c(UCD_blue, UCD_navy, UCD_navy_dark, UCD_gold, UCD_gold_light, UCD_richGreen, UCD_brightGreen),
                      names = c("UCD blue", "UCD navy", "UCD navy dark", "UCD gold", "UCD gold light", "UCD rich green", "UCD bright green"), 
                      as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(UCD, main = "Colours of the University College Dublin")
+# unikn::seecol(ucd, main = "Colours of the University College Dublin")
 
 
 ## ToDo: -------- 

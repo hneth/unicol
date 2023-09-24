@@ -108,10 +108,10 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "auckland_1", "auckland_2",
               "otago",
               "maynooth",
-              "UCC_1", "UCC_2",
+              "ucc_1", "ucc_2",
               "cardiff_1", "cardiff_2", 
               "aberystwyth_1", "aberystwyth_2",
-              "UCD",
+              "ucd",
               # NEW after v0.2.0:
               "stirling_1", "stirling_2", "stirling_3" 
 )

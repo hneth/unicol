@@ -1,10 +1,10 @@
-## Cork.R | 2023 09 13
+## Cork.R | 2023 09 24
 ## Colours of the University College Cork, Ireland
 ## -----------------------------------------------
 
 # Information: ------
 
-# cur_pals: "UCC_1", "UCC_2" (2)
+# cur_pals: "ucc_1", "ucc_2" (2)
 
 # inst: "University College Cork"
 # inst_alt: "Coláiste na hOllscoile Corcaigh / UCC"
@@ -158,11 +158,11 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 
 # Color palette(s):
 
-# - UCC_1: Primary colour palette of UCC ------
+# - ucc_1: Primary colour palette of UCC ------
 
 #' Primary colours of the University College Cork, Ireland 
 #' 
-#' \code{UCC_1} provides the six primary colours 
+#' \code{ucc_1} provides the six primary colours 
 #' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 #'
 #' The 6 primary colours are 
@@ -173,7 +173,7 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' \code{Crest white}, defined as "white", C0 M0 Y0 K0, R255 G255 B255, or HEX "#FFFFFF", and  
 #' \code{Crest black tint}, defined as C0 M0 Y0 K6, R239 G239 B240, or HEX "#EFEFF0".
 #' 
-#' \code{UCC_1} uses the HEX color definitions. 
+#' \code{ucc_1} uses the HEX color definitions. 
 #' 
 #' @details
 #' These colours are to be used at a university level 
@@ -202,14 +202,14 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
 #'
 #' @examples
-#' UCC_1
-#' unikn::seecol(UCC_1, col_bg = "grey90", 
+#' ucc_1
+#' unikn::seecol(ucc_1, col_bg = "grey90", 
 #'               main = "Primary colours of the University College Cork") # view color palette
 #'               
 #' @family Irish university color palettes
 #'
 #' @seealso
-#' \code{\link{UCC_2}} for secondary colours of the University College Cork;
+#' \code{\link{ucc_2}} for secondary colours of the University College Cork;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -218,22 +218,22 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #'
 #' @export
 
-UCC_1 <- unikn::newpal(col = color_UCC_1, 
+ucc_1 <- unikn::newpal(col = color_UCC_1, 
                        names = names_UCC_1, 
                        as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(UCC_1, main = "UCC's primary colours", col_bg = "grey90")
+# unikn::seecol(ucc_1, main = "UCC's primary colours", col_bg = "grey90")
 
 
-# - UCC_2: Secondary colour palette of UCC ------
+# - ucc_2: Secondary colour palette of UCC ------
 
 #' Secondary colours of the University College Cork, Ireland 
 #' 
-#' \code{UCC_2} provides the eight secondary colours 
+#' \code{ucc_2} provides the eight secondary colours 
 #' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
 #' 
-#' See \code{UCC_2} for names and values, based on HEX color definitions. 
+#' See \code{ucc_2} for names and values, based on HEX color definitions. 
 #' 
 #' @details
 #' The secondary colour palette is made up of natural colours 
@@ -257,14 +257,14 @@ UCC_1 <- unikn::newpal(col = color_UCC_1,
 #' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
 #'
 #' @examples
-#' UCC_2
-#' unikn::seecol(UCC_2, col_bg = "grey90", 
+#' ucc_2
+#' unikn::seecol(ucc_2, col_bg = "grey90", 
 #'               main = "Secondary colours of the University College Cork") # view color palette
 #'               
 #' @family Irish university color palettes
 #'
 #' @seealso
-#' \code{\link{UCC_1}} for primary colours of the University College Cork;
+#' \code{\link{ucc_1}} for primary colours of the University College Cork;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -273,12 +273,12 @@ UCC_1 <- unikn::newpal(col = color_UCC_1,
 #'
 #' @export
 
-UCC_2 <- unikn::newpal(col = color_UCC_2, 
+ucc_2 <- unikn::newpal(col = color_UCC_2, 
                        names = names_UCC_2,
                        as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCC_2, main = "UCC's secondary colours", col_bg = "grey90")
+# unikn::seecol(ucc_2, main = "UCC's secondary colours", col_bg = "grey90")
 
 
 ## ToDo: -------- 
