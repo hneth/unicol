@@ -19,31 +19,31 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{dartmouth_3} provides the ten tertiary colors
-of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
+of \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
 The 10 tertiary colors are 
-\code{"autumn_brown"} (defined as HEX #643c20), 
-\code{"bonfire_red"} (defined as HEX #9d162e), 
-\code{"tuck_orange"} (defined as HEX #e32d1c), 
-\code{"summer_yellow"} (defined as HEX #f5dc96), 
-\code{"spring_green"} (defined as HEX #c4dd88), 
-\code{"rich_spring_green"} (defined as HEX #a5d75f), 
-\code{"river_navy"} (defined as HEX #003c73), 
-\code{"river_blue"} (defined as HEX #267aba), 
-\code{"web_violet"} (defined as HEX #8a6996), and 
-\code{"bonfire_orange"} (defined as HEX #ffa00f). 
+\code{"autumn brown"} (defined as HEX #643c20), 
+\code{"bonfire red"} (defined as HEX #9d162e), 
+\code{"tuck orange"} (defined as HEX #e32d1c), 
+\code{"summer yellow"} (defined as HEX #f5dc96), 
+\code{"spring green"} (defined as HEX #c4dd88), 
+\code{"rich spring green"} (defined as HEX #a5d75f), 
+\code{"river navy"} (defined as HEX #003c73), 
+\code{"river blue"} (defined as HEX #267aba), 
+\code{"web violet"} (defined as HEX #8a6996), and 
+\code{"bonfire orange"} (defined as HEX #ffa00f). 
 
 \code{dartmouth_3} uses the HEX color definitions.
 }
 \examples{
 dartmouth_3
-unikn::seecol(dartmouth_3, main = "Dartmouth College 3") # view color palette
+unikn::seecol(dartmouth_3, main = "Tertiary colors of Dartmouth College") # view palette
 
 }
 \seealso{
-\code{\link{dartmouth_1}} for the primary color of Dartmouth College; 
-\code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
+\code{\link{dartmouth_1}} for primary color of Dartmouth College; 
+\code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

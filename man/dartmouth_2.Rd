@@ -8,8 +8,8 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on 
-\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
+Color definitions are based on \href{https://home.dartmouth.edu}{Dartmouth}'s 
+\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{visual identity guide}.
 }
 \usage{
 dartmouth_2
@@ -19,29 +19,29 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{dartmouth_2} provides the eight secondary colors
-of the \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
+of \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
 The 8 secondary colors are 
-\code{"forest_green"} (defined as HEX #12312b),
-\code{"rich_forest_green"} (defined as HEX #0D1E1C),
-\code{"snow_white"} (defined as HEX #ffffff),
-\code{"midnight_black"} (defined as HEX #000000)
-\code{"web_gray_1"} (defined as HEX #f7f7f7)
-\code{"web_gray_2"} (defined as HEX #e2e2e2)
-\code{"web_gray_3"} (defined as HEX #707070)
-\code{"granite_gray"} (defined as HEX #424141)
+\code{"forest green"} (defined as HEX #12312b),
+\code{"rich forest green"} (defined as HEX #0D1E1C),
+\code{"snow white"} (identical to \code{"white"} and defined as HEX #ffffff),
+\code{"midnight black"} (defined as HEX #000000)
+\code{"web gray 1"} (defined as HEX #f7f7f7)
+\code{"web gray 2"} (defined as HEX #e2e2e2)
+\code{"web gray 3"} (defined as HEX #707070), and 
+\code{"granite gray"} (defined as HEX #424141). 
 
 \code{dartmouth_2} uses the HEX color definitions.
 }
 \examples{
 dartmouth_2
-unikn::seecol(dartmouth_2, main = "Dartmouth College 2") # view color palette
+unikn::seecol(dartmouth_2, main = "Secondary colors of Dartmouth College")  # view palette
 
 }
 \seealso{
-\code{\link{dartmouth_1}} for the primary color of Dartmouth College;
-\code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
+\code{\link{dartmouth_1}} for primary color of Dartmouth College;
+\code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

@@ -8,8 +8,8 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Color definitions are based on 
-\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
+Color definitions are based on \href{https://home.dartmouth.edu}{Dartmouth}'s 
+\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{visual identity guide}.
 }
 \usage{
 dartmouth_1
@@ -23,18 +23,18 @@ of \href{https://home.dartmouth.edu}{Dartmouth College}, USA.
 }
 \details{
 The primary color is
-\code{"dartmouth_green"} (defined as HEX #00693E). 
+\code{"Dartmouth green"} (defined as HEX #00693E). 
 
 \code{dartmouth_1} uses the HEX color definitions.
 }
 \examples{
 dartmouth_1
-unikn::seecol(dartmouth_1, main = "Dartmouth College 1") # view color palette.
+unikn::seecol(dartmouth_1, main = "Primary color of Dartmouth College") # view palette
 
 }
 \seealso{
-\code{\link{dartmouth_2}} for the secondary colors of Dartmouth College; 
-\code{\link{dartmouth_3}} for the tertiary colors of Dartmouth College; 
+\code{\link{dartmouth_2}} for secondary colors of Dartmouth College; 
+\code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
