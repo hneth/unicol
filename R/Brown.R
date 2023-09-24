@@ -1,4 +1,4 @@
-## Brown.R | 2023 09 22
+## Brown.R | 2023 09 24
 ## Colors of the Brown University, USA 
 ## -----------------------------------
 
@@ -144,18 +144,18 @@ col_taupe <- "#B7B09C"
 
 # - brown_1: Primary colors ------
 
-#' Primary colors of Brown University, USA 
+#' Primary and accent colors of Brown University, USA 
 #'
-#' \code{brown_1} provides 2 main and 2 accent colors 
-#' of the \href{https://www.brown.edu}{Brown University}, USA
+#' \code{brown_1} provides two main and two accent colors 
+#' of \href{https://www.brown.edu}{Brown University}, USA
 #'
-#' The two main primary colors are
-#' \code{"red"} (HEX: #ED1C24) and
-#' \code{"brown"} (HEX: #4E3629) .
+#' The 2 main primary colors are
+#' \code{"Red"} (defined as HEX #ED1C24) and
+#' \code{"Brown"} (defined as HEX #4E3629).
 #'
-#' The two accent primary colors are
-#' \code{"gold"} (HEX: #FFC72C) and
-#' \code{"gray"} (HEX: #98A4AE) .
+#' The 2 accent primary colors are 
+#' \code{"Gold"} (defined as HEX #FFC72C) and
+#' \code{"Gray"} (defined as HEX #98A4AE).
 #'
 #' \code{brown_1} uses the HEX color definitions. 
 #'
@@ -166,12 +166,12 @@ col_taupe <- "#B7B09C"
 #' \strong{unicol}, 2023-06-10.
 #'
 #' @source 
-#' Color definitions are based on 
-#' \href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}
+#' Color definitions are based on \href{https://www.brown.edu}{Brown}'s 
+#' \href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{CD manual} (PDF). 
 #' 
 #' @examples
 #' brown_1
-#' unikn::seecol(brown_1, main = "The primary colors of Brown University")
+#' unikn::seecol(brown_1, main = "Primary and accent colors of Brown University")
 #'
 #' @family U.S. university color palettes
 #'
@@ -186,7 +186,7 @@ col_taupe <- "#B7B09C"
 #' @export
 
 brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
-                         names = c("red", "brown", "gold", "gray"),
+                         names = c("Red", "Brown", "Gold", "Gray"),
                          as_df = FALSE)
 
 # # Check: 
@@ -198,16 +198,20 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' Secondary colors of Brown University, USA 
 #'
 #' \code{brown_2} provides four secondary colors that complement the primary color palette. 
-#' of the \href{https://www.brown.edu}{Brown University}, USA
-#' Composed of contemporary colors, the secondary color palette will be maintained as a flexible palette that may be updated as color trends shift over time.
+#' of \href{https://www.brown.edu}{Brown University}, USA.
 #' 
-#' The four secondary colors are
-#' \code{"skyblue"} (HEX: #59CBE8),
-#' \code{"emerald"} (HEX: #00B398),
-#' \code{"navy"} (HEX: #003C71), and
-#' \code{"taupe"} (HEX: #B7B09C) .
+#' The current 4 secondary colors are
+#' \code{"Skyblue"} (defined as HEX #59CBE8),
+#' \code{"Emerald"} (defined as HEX #00B398),
+#' \code{"Navy"} (defined as HEX #003C71), and
+#' \code{"Taupe"} (defined as HEX #B7B09C).
 #'
 #' \code{brown_2} uses the HEX color definitions. 
+#'
+#' @details 
+#' Composed of contemporary colors, the secondary color palette 
+#' is maintained as a flexible palette that may be updated,  
+#' as color trends shift over time.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -216,18 +220,17 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Color definitions are based on 
-#' \href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}. 
+#' Color definitions are based on \href{https://www.brown.edu}{Brown}'s 
+#' \href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{CD manual} (PDF). 
 #' 
 #' @examples
 #' brown_2
-#' unikn::seecol(brown_2, 
-#'               main = "The secondary colors of Brown University") # view color palette
+#' unikn::seecol(brown_2, main = "Secondary colors of Brown University")  # view palette
 #'
 #' @family U.S. university color palettes 
 #'
 #' @seealso
-#' \code{\link{brown_1}} for primary colors of Brown University; 
+#' \code{\link{brown_1}} for primary and accent colors of Brown University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -237,11 +240,11 @@ brown_1 <- unikn::newpal(col = c(col_red, col_brown, col_gold, col_gray),
 #' @export
 
 brown_2 <- unikn::newpal(col = c(col_skyblue, col_emerald, col_navy, col_taupe),
-                         names = c("skyblue", "emerald", "navy", "taupe"),
+                         names = c("Skyblue", "Emerald", "Navy", "Taupe"),
                          as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(brown_2, main = "Secondary colors of the Brown University", col_bg = "white")
+# unikn::seecol(brown_2, main = "Secondary colors of Brown University", col_bg = "white")
 
 
 
