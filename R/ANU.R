@@ -1,11 +1,11 @@
-## ANU.R | 2023 09 22
+## ANU.R | 2023 09 24
 ## Colors of Australian National University, Australia 
 ## ---------------------------------------------------
 
 
 # Information: ------
 
-# cur_pals: "ANU_1", "ANU_2" (2)
+# cur_pals: "anu_1", "anu_2" (2)
 
 # inst: "Australian National University"
 # inst_alt: "ANU" 
@@ -73,11 +73,11 @@ names_anu_2 <- c("black", "white", "ANU gold", "Uni grey")
 
 # Color palette(s):
 
-# - ANU_1: Background colours ------
+# - anu_1: Background colours ------
 
 #' Background colours of Australian National University, Australia
 #' 
-#' \code{ANU_1} provides the four background colors 
+#' \code{anu_1} provides the four background colors 
 #' of the \href{https://www.anu.edu.au}{Australian National University}, Canberra, Australia.
 #'
 #' ANU's primary colour is \code{ANU gold}, defined as HEX \code{"#BE830E"},  
@@ -101,14 +101,14 @@ names_anu_2 <- c("black", "white", "ANU gold", "Uni grey")
 #' \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.    
 #'
 #' @examples
-#' ANU_1
-#' unikn::seecol(ANU_1, col_bg = "grey95",  
+#' anu_1
+#' unikn::seecol(anu_1, col_bg = "grey95",  
 #'               main = "Background colours of the Australian National University (ANU)")
 #' 
 #' @family Australian university color palettes
 #'
 #' @seealso
-#' \code{\link{ANU_2}} for font colours of Australian National University;
+#' \code{\link{anu_2}} for font colours of Australian National University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -117,20 +117,20 @@ names_anu_2 <- c("black", "white", "ANU gold", "Uni grey")
 #'
 #' @export
 
-ANU_1 <- unikn::newpal(col = color_anu_1, 
+anu_1 <- unikn::newpal(col = color_anu_1, 
                        names = names_anu_1,
                        as_df = FALSE)
 
 # # Check:
-# unikn::seecol(ANU_1, col_bg = "lightgrey",
+# unikn::seecol(anu_1, col_bg = "lightgrey",
 #               main = "Australian National University: Background colours")
 
 
-# - ANU_2: Font colours ------
+# - anu_2: Font colours ------
 
 #' Font colours of Australian National University, Australia
 #' 
-#' \code{ANU_2} provides the four font colors 
+#' \code{anu_2} provides the four font colors 
 #' of the \href{https://www.anu.edu.au}{Australian National University}, Canberra, Australia.
 #'
 #' ANU's primary colour is \code{ANU gold}, defined as HEX \code{"#BE830E"}, 
@@ -156,14 +156,14 @@ ANU_1 <- unikn::newpal(col = color_anu_1,
 #' \href{https://webpublishing.anu.edu.au/web-style-guide/colours}{Web Style Guide: Colours}.   
 #'
 #' @examples
-#' ANU_2
-#' unikn::seecol(ANU_2, col_bg = "grey95", 
+#' anu_2
+#' unikn::seecol(anu_2, col_bg = "grey95", 
 #'               main = "Font colours of the Australian National University (ANU)")
 #' 
 #' @family Australian university color palettes
 #'
 #' @seealso
-#' \code{\link{ANU_1}} for background colours of Australian National University;
+#' \code{\link{anu_1}} for background colours of Australian National University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -172,12 +172,12 @@ ANU_1 <- unikn::newpal(col = color_anu_1,
 #'
 #' @export
 
-ANU_2 <- unikn::newpal(col = color_anu_2, 
+anu_2 <- unikn::newpal(col = color_anu_2, 
                        names = names_anu_2,
                        as_df = FALSE)
 
 # # Check:
-# unikn::seecol(ANU_2, col_bg = "lightgrey",
+# unikn::seecol(anu_2, col_bg = "lightgrey",
 #               main = "Australian National University: Font colours")
 
 
