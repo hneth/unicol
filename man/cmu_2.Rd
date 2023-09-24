@@ -23,12 +23,12 @@ of \href{https://www.cmu.edu}{Carnegie Mellon University (CMU)}, USA.
 }
 \details{
 The so-called Tartan palette contains 6 secondary colors:
-\code{"scots rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
+\code{"Scots rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
 \code{"gold thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 \code{"green thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
 \code{"teal thread"} (defined as CMYK 100/0/29/24, RGB R0/143/145, HEX #008F91),
 \code{"blue thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673), and 
-\code{"highlands sky blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
+\code{"Highlands sky blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
 
 \code{cmu_2} uses the HEX color definitions.
 

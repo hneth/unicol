@@ -27,7 +27,7 @@ The 5 core colors of Carnegie Mellon University, registered since the late 1920s
 \code{"iron gray"} (defined as CMYK 0/0/0/70, RGB 109/110/113, HEX #6D6E71),
 \code{"steel gray"} (defined as CMYK 0/0/0/30, RGB 224/224/224, HEX #E0E0E0),
 \code{"black"} (defined as CMYK 0/0/0/100, RGB 0/0/0, HEX #000000), and
-\code{"white"} (defined as HEX #FFFFFF). 
+\code{"white"} (defined as RGB 255/255/255 or HEX #FFFFFF). 
 
 \code{cmu_1} uses the HEX color definitions. 
 
@@ -36,7 +36,7 @@ Official university collateral, uniforms, vehicles, signs and other key identity
 }
 \examples{
 cmu_1
-unikn::seecol(cmu_1, col_bg = "grey90", 
+unikn::seecol(cmu_1, col_bg = "grey95", 
               main = "Core colors of Carnegie Mellon University (CMU)")  # view palette
 
 }

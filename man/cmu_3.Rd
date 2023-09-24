@@ -23,12 +23,12 @@ of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 }
 \details{
 The so-called Campus palette contains 6 colors: 
-\code{"machinery hall tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
-\code{"kittanning brick beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
-\code{"hornbostel teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
-\code{"palladian green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
-\code{"weaver blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
-\code{"skibo red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
+\code{"Machinery hall tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
+\code{"Kittanning brick beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
+\code{"Hornbostel teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
+\code{"Palladian green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
+\code{"Weaver blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
+\code{"Skibo red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
 
 \code{cmu_3} uses the HEX color definitions.
 }

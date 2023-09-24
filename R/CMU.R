@@ -36,7 +36,7 @@
 #' \code{"iron gray"} (defined as CMYK 0/0/0/70, RGB 109/110/113, HEX #6D6E71),
 #' \code{"steel gray"} (defined as CMYK 0/0/0/30, RGB 224/224/224, HEX #E0E0E0),
 #' \code{"black"} (defined as CMYK 0/0/0/100, RGB 0/0/0, HEX #000000), and
-#' \code{"white"} (defined as HEX #FFFFFF). 
+#' \code{"white"} (defined as RGB 255/255/255 or HEX #FFFFFF). 
 #' 
 #' \code{cmu_1} uses the HEX color definitions. 
 #'
@@ -55,7 +55,7 @@
 #'
 #' @examples
 #' cmu_1
-#' unikn::seecol(cmu_1, col_bg = "grey90", 
+#' unikn::seecol(cmu_1, col_bg = "grey95", 
 #'               main = "Core colors of Carnegie Mellon University (CMU)")  # view palette
 #'
 #' @family U.S. university color palettes
@@ -90,12 +90,12 @@ cmu_1 <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0",
 #' of \href{https://www.cmu.edu}{Carnegie Mellon University (CMU)}, USA.
 #' 
 #' The so-called Tartan palette contains 6 secondary colors:
-#' \code{"scots rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
+#' \code{"Scots rose"} (defined as CMYK 0/90/60/0, RGB R239/58/71, HEX #EF3A47),
 #' \code{"gold thread"} (defined as CMYK 0/32/100/0, RGB R253/181/21, HEX #FDB515),
 #' \code{"green thread"} (defined as CMYK 93/0/98/17, RGB R0/150/71, HEX #009647),
 #' \code{"teal thread"} (defined as CMYK 100/0/29/24, RGB R0/143/145, HEX #008F91),
 #' \code{"blue thread"} (defined as CMYK 100/75/6/24, RGB R4/54/115, HEX #043673), and 
-#' \code{"highlands sky blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
+#' \code{"Highlands sky blue"} (defined as CMYK 100/11/3/12, RGB R0/123/192, HEX #007BC0). 
 #' 
 #' \code{cmu_2} uses the HEX color definitions. 
 #'
@@ -136,9 +136,9 @@ cmu_1 <- unikn::newpal(col = c("#C41230", "#6D6E71", "#E0E0E0",
 cmu_2 <- unikn::newpal(col = c("#EF3A47", "#FDB515", 
                                "#009647", "#008F91", 
                                "#043673", "#007BC0"),
-                       names = c("scots rose", "gold thread", 
+                       names = c("Scots rose", "gold thread", 
                                  "green thread", "teal thread", 
-                                 "blue thread", "highlands sky blue"),
+                                 "blue thread", "Highlands sky blue"),
                        as_df = FALSE)
 
 # # Check:
@@ -153,12 +153,12 @@ cmu_2 <- unikn::newpal(col = c("#EF3A47", "#FDB515",
 #' of the \href{https://www.cmu.edu}{CMU, Carnegie Mellon University}, USA.
 #'
 #' The so-called Campus palette contains 6 colors: 
-#' \code{"machinery hall tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
-#' \code{"kittanning brick beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
-#' \code{"hornbostel teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
-#' \code{"palladian green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
-#' \code{"weaver blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
-#' \code{"skibo red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
+#' \code{"Machinery hall tan"} (defined as CMYK 15/15/30/15, RGB R188/180/158, HEX #BCB49E),
+#' \code{"Kittanning brick beige"} (defined as CMYK 4/4/13/8, RGB R228/218/196, HEX #E4DAC4),
+#' \code{"Hornbostel teal"} (defined as CMYK 90/18/32/54, RGB R31/76/76, HEX #1F4C4C),
+#' \code{"Palladian green"} (defined as CMYK 47/6/28/18, RGB R113/159/148, HEX #719F94),
+#' \code{"Weaver blue"} (defined as CMYK 100/62/12/62, RGB R25/44/75, HEX #182C4B), and 
+#' \code{"Skibo red"} (defined as CMYK 0/96/77/42, RGB R149/17/32, HEX #941120),
 #'
 #' \code{cmu_3} uses the HEX color definitions. 
 #'
@@ -192,9 +192,9 @@ cmu_2 <- unikn::newpal(col = c("#EF3A47", "#FDB515",
 cmu_3 <- unikn::newpal(col = c("#BCB49E", "#E4DAC4", 
                                "#1F4C4C", "#719F94", 
                                "#182C4B", "#941120"),
-                       names = c("machinery hall tan", "kittaning brick beige", 
-                                 "hornbostel teal", "palladian green", 
-                                 "weaver blue", "skibo red"),
+                       names = c("Machinery hall tan", "Kittaning brick beige", 
+                                 "Hornbostel teal", "Palladian green", 
+                                 "Weaver blue", "Skibo red"),
                        as_df = FALSE)
 
 # # Check:
