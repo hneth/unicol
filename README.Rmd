@@ -29,6 +29,9 @@ library(unicol)  # load package
 url_unicol_cran   <- "https://CRAN.R-project.org/package=unicol"
 url_unicol_github <- "https://github.com/hneth/unicol"
 
+url_github_doc_rel <- "https://hneth.github.io/unicol/"      # release version  
+url_github_doc_dev <- "https://hneth.github.io/unicol/dev/"  # dev version
+
 # unikn / Uni Konstanz:
 url_unikn <- "https://www.uni-konstanz.de"
 
@@ -44,11 +47,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -277,7 +282,7 @@ bg_col <- "grey95"
 seecol(list(bu, harvard_1, cornell_1, 
             yorku_1, groningen_1, 
             lancaster_1, mit, uchicago_1, 
-            CMU_1_core, rpi_1, 
+            cmu_1, rpi_1, 
             mun_1, 
             cardiff_1, stanford_1),
        scale_x = FALSE, 
@@ -285,12 +290,15 @@ seecol(list(bu, harvard_1, cornell_1,
 
 
 # Blues:
-seecol(list(duke_1, jhu_1, 
+seecol(list(duke_1, jhu_1, columbia_1, 
             uni_goettingen_1, monash_1, hu_2, uni_mannheim_1, 
-            uni_koeln_1, uni_hamburg_1, 
+            # uni_koeln_1, uni_hamburg_1, # with 1 red 
             auckland_1, 
-            uni_stuttgart_1, uni_konstanz_1,
-            ubc, trinity_1),
+            uni_stuttgart_1, 
+            # columbia_2, 
+            ubc, 
+            uni_konstanz_1,
+            trinity_1),
        main = "Mostly blue and white university colors", col_bg = bg_col)
 
 
@@ -309,7 +317,7 @@ seecol(list(northwestern_1, western_uni),
        main = "Purple and grey university colors", col_bg = bg_col)
 
 
-# Color twins: Finding similar pairs:
+# Task: Finding color twins / similar pairs:
 seecol(list(groningen_1, yorku_1, cornell_1, harvard_1), main = "Spot the differences ", col_bg = bg_col)
 seecol(list(notredame_1, uni_jena_1), main = "Color twins?", col_bg = bg_col)
 ```
