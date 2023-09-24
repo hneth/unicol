@@ -43,7 +43,7 @@ These colors should not be used as full-color bleeds and should be used periodic
 }
 \examples{
 cornell_3_accent
-unikn::seecol(cornell_3_accent, main = "Accent colors Cornell Uni") # view color palette
+unikn::seecol(cornell_3_accent, main = "Accent colors of Cornell University")  # view palette
 
 }
 \seealso{

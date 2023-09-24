@@ -35,7 +35,8 @@ These colors are critical to leverage the
 }
 \examples{
 cornell_1
-unikn::seecol(cornell_1, main = "Primary colors Cornell Uni") # view color palette
+unikn::seecol(cornell_1, col_bg = "grey90",  
+              main = "The primary colors of Cornell University")  # view palette
 
 }
 \seealso{

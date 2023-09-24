@@ -33,7 +33,7 @@ Use these as supplementary colors rather than driving colors in layout and commu
 }
 \examples{
 cornell_2
-unikn::seecol(cornell_2, main = "Secondary colors Cornell Uni") # view colors
+unikn::seecol(cornell_2, main = "Secondary colors of Cornell University")  # view palette
 
 }
 \seealso{
