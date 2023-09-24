@@ -41,7 +41,7 @@ unikn::seecol(conc_1, main = "Primary colours of Concordia University, CA")  # v
 }
 \seealso{
 \code{\link{conc_2}} for secondary colours of Concordia University;
-\code{\link{conc_3}} for background colours of Concordia University;
+\code{\link{conc_3}} for background tints of Concordia University;
 \code{\link{conc_4}} for neutral colours of Concordia University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;

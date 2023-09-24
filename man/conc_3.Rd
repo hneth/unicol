@@ -3,7 +3,7 @@
 \docType{data}
 \name{conc_3}
 \alias{conc_3}
-\title{Background colours of Concordia University, Canada}
+\title{Background tints of Concordia University, Canada}
 \format{
 An object of class \code{character} of length 9.
 }
@@ -18,11 +18,11 @@ conc_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{conc_3} provides the nine background colours 
+\code{conc_3} provides the nine background tints  
 of \href{https://www.concordia.ca}{Concordia University}, Canada.
 }
 \details{
-The 9 background colours are
+The 9 background tints are
 \code{"Burgundy 1"} (defined as HEX #E9D3D7),
 \code{"Magenta 1"} (defined as HEX #FACDE3), 
 \code{"Orange 1"} (defined as HEX #f9cdc3),
@@ -36,13 +36,13 @@ The 9 background colours are
 \code{conc_3} uses the HEX color definitions.
 
 
-The background colours of \code{conc_3} 
+The background tint colours of \code{conc_3} 
 can be used to create blocks of background colour on a web page 
 to seperate and draw attention to content.
 }
 \examples{
 conc_3
-unikn::seecol(conc_3, main = "Background colours of Concordia University")  # view palette
+unikn::seecol(conc_3, main = "Background tints of Concordia University")  # view palette
 
 }
 \seealso{
