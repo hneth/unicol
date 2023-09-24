@@ -87,9 +87,6 @@ unikn::seecol(stanford_2_accent, main = "Accent colors Stanford Uni") # view col
 \code{\link{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
-\code{\link{CMU_1_core}},
-\code{\link{CMU_2_tartan}},
-\code{\link{CMU_3_campus}},
 \code{\link{UCLA_1}},
 \code{\link{UCLA_2}},
 \code{\link{UCLA_3}},
@@ -108,6 +105,9 @@ Other U.S. university color palettes:
 \code{\link{caltech_1}},
 \code{\link{caltech_2}},
 \code{\link{caltech_3}},
+\code{\link{cmu_1}},
+\code{\link{cmu_2}},
+\code{\link{cmu_3}},
 \code{\link{columbia_1}},
 \code{\link{columbia_2}},
 \code{\link{columbia_3}},
