@@ -3,13 +3,13 @@
 \docType{data}
 \name{conc_3}
 \alias{conc_3}
-\title{Background colors of Concordia University, Canada}
+\title{Background colours of Concordia University, Canada}
 \format{
 An object of class \code{character} of length 9.
 }
 \source{
-Color definitions are based on 
-\href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
+Color definitions are based on \href{https://www.concordia.ca}{Concordia}'s 
+\href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{web colour palette}.
 }
 \usage{
 conc_3
@@ -18,33 +18,37 @@ conc_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_pal_1} provides the nine background colors 
-of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
+\code{conc_3} provides the nine background colours 
+of \href{https://www.concordia.ca}{Concordia University}, Canada.
 }
 \details{
-The nine background colors are
-\code{"burgundy1"}            (defined as HEX #E9D3D7),
-\code{"magenta1_concordia"}   (defined as HEX #FACDE3), 
-\code{"orange1_concordia"}    (defined as HEX #f9cdc3),
-\code{"mauve1_concordia"}     (defined as HEX #dcd6e8),
-\code{"dark_blue1"}           (defined as HEX #B2C5DA),
-\code{"blue1_concordia"}      (defined as HEX #d3e1e9),
-\code{"turquoise1_concordia"} (defined as HEX #CCE3E4),
-\code{"green1_concordia"}     (defined as HEX #dfeccf), and
-\code{"gold1_concordia"}      (defined as HEX #e9e3d3).
-
+The 9 background colours are
+\code{"Burgundy 1"} (defined as HEX #E9D3D7),
+\code{"Magenta 1"} (defined as HEX #FACDE3), 
+\code{"Orange 1"} (defined as HEX #f9cdc3),
+\code{"Mauve 1"} (defined as HEX #dcd6e8),
+\code{"Dark blue 1"} (defined as HEX #B2C5DA),
+\code{"Blue 1"} (defined as HEX #d3e1e9),
+\code{"Turquoise 1"} (defined as HEX #CCE3E4),
+\code{"Green 1"} (defined as HEX #dfeccf), and
+\code{"Gold 1"} (defined as HEX #e9e3d3).
 
 \code{conc_3} uses the HEX color definitions.
+
+
+The background colours of \code{conc_3} 
+can be used to create blocks of background colour on a web page 
+to seperate and draw attention to content.
 }
 \examples{
 conc_3
-unikn::seecol(conc_3, main = "Concordia University") # view color palette
+unikn::seecol(conc_3, main = "Background colours of Concordia University")  # view palette
 
 }
 \seealso{
-\code{\link{conc_1}} for primary colors of Concordia University;
-\code{\link{conc_2}} for secondary colors of Concordia University;
-\code{\link{conc_4}} for neutral colors of Concordia University;
+\code{\link{conc_1}} for primary colours of Concordia University;
+\code{\link{conc_2}} for secondary colours of Concordia University;
+\code{\link{conc_4}} for neutral colours of Concordia University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

@@ -3,13 +3,13 @@
 \docType{data}
 \name{conc_2}
 \alias{conc_2}
-\title{Secondary colors of Concordia University, Canada}
+\title{Secondary colours of Concordia University, Canada}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on 
-\href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{Concordia's NEW web colour palette}.
+Color definitions are based on \href{https://www.concordia.ca}{Concordia}'s 
+\href{https://www.concordia.ca/web/design/ui-kit-style-guide-accessibility/web-palette-new.html}{web colour palette}.
 }
 \usage{
 conc_2
@@ -18,27 +18,27 @@ conc_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{conc_2} provides the four secondary colors 
-of the \href{https://www.concordia.ca/}{Concordia University}, Canada.
+\code{conc_2} provides the four secondary colours 
+of \href{https://www.concordia.ca}{Concordia University}, Canada.
 }
 \details{
-The four secondary colors are
-\code{"yellow_concordia"} (defined as HEX #e5a712),
-\code{"gold_concordia"}  (defined as HEX #cbb576), 
-\code{"cyan_concordia"}  (defined as HEX #00adef), and
-\code{"lime"}            (defined as HEX #8cc63e).
+The 4 secondary colours are
+\code{"Yellow"} (defined as HEX #e5a712),
+\code{"Gold"} (defined as HEX #cbb576), 
+\code{"Cyan"} (defined as HEX #00adef), and
+\code{"Lime"} (defined as HEX #8cc63e).
 
 \code{conc_2} uses the HEX color definitions.
 }
 \examples{
 conc_2
-unikn::seecol(conc_2, main = "Concordia University") # view color palette
+unikn::seecol(conc_2, main = "Secondary colours of Concordia University")  # view palette
 
 }
 \seealso{
-\code{\link{conc_1}} for primary colors of Concordia University;
-\code{\link{conc_3}} for background colors of Concordia University;
-\code{\link{conc_4}} for neutral colors of Concordia University;
+\code{\link{conc_1}} for primary colours of Concordia University;
+\code{\link{conc_3}} for background colours of Concordia University;
+\code{\link{conc_4}} for neutral colours of Concordia University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
