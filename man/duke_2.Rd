@@ -8,7 +8,7 @@
 An object of class \code{character} of length 18.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://duke.edu}{Duke}'s 
 \href{https://brand.duke.edu/colors/}{Color manual}.
 }
 \usage{
@@ -19,35 +19,38 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{duke_2} provides the 18 secondary colors
-of the \href{https://duke.edu}{Duke University}, USA.
+of \href{https://duke.edu}{Duke University}, USA.
 }
 \details{
-The colors in Duke’s extended palette are intended for use as secondary and tertiary colors in design projects.
-They were selected to complement Duke Navy Blue and should be used for a range of elements including graphic accents,
-typography, backgrounds, call-to-action buttons and more.
-These colors are
-\code{"copper"} (defined as CMYK 0/76/100/0, RGB 200/78/0, HEX #C84E00),
-\code{"persimmon"} (defined as CMYK 0/45/95/0, RGB 232/153/35, HEX #E89923),
-\code{"dandelion"} (defined as CMYK 0/8/70/0, RGB 255/217/96, HEX #FFD960),
-\code{"piedmont"} (defined as CMYK 54/0/100/0, RGB 161/183/13, HEX #A1B70D),
-\code{"eno"} (defined as CMYK 81/0/39/0, RGB 51/152/152, HEX #339898),
-\code{"magnolia"} (defined as CMYK 96/16/42/57, RGB 29/99/99, HEX #1D6363),
-\code{"prussian_blue"} (defined as CMYK 100/45/0/45, RGB 0/85/135, HEX #005587),
-\code{"shale_blue"} (defined as CMYK 100/0/1/3, RGB 5/119/177, HEX #0577B1),
-\code{"ironweed"} (defined as CMYK 35/95/0/0, RGB 153/51/153, HEX #993399),
-\code{"hatteras"} (defined as CMYK 10/2/0/0, RGB 226/230/237, HEX #E2E6ED),
-\code{"whisper_gray"} (defined as CMYK 4/2/4/8, RGB 243/242/241, HEX #F3F2F1),
-\code{"ginger_beer"} (defined as CMYK 0/2/15/0, RGB 252/247/229, HEX #FCF7E5),
-\code{"dogwood"} (defined as CMYK 10/18/25/32, RGB 152/134/117, HEX #988675),
-\code{"shackleford"} (defined as CMYK 3/4/14/8, RGB 218/208/198, HEX #DAD0C6),
-\code{"cast_iron"} (defined as CMYK 67/44/67/95, RGB 38/38/38, HEX #262626),
-\code{"graphite"} (defined as CMYK 40/30/20/66, RGB 102/102/102, HEX #666666),
-\code{"granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5), and
-\code{"limestone"} (defined as CMYK 5/3/5/11, RGB 229/229/229, HEX #E5E5E5).
+These 18 colors are
+\code{"Copper"} (defined as CMYK 0/76/100/0, RGB 200/78/0, HEX #C84E00),
+\code{"Persimmon"} (defined as CMYK 0/45/95/0, RGB 232/153/35, HEX #E89923),
+\code{"Dandelion"} (defined as CMYK 0/8/70/0, RGB 255/217/96, HEX #FFD960),
+\code{"Piedmont"} (defined as CMYK 54/0/100/0, RGB 161/183/13, HEX #A1B70D),
+\code{"Eno"} (defined as CMYK 81/0/39/0, RGB 51/152/152, HEX #339898),
+\code{"Magnolia"} (defined as CMYK 96/16/42/57, RGB 29/99/99, HEX #1D6363),
+\code{"Prussian blue"} (defined as CMYK 100/45/0/45, RGB 0/85/135, HEX #005587),
+\code{"Shale blue"} (defined as CMYK 100/0/1/3, RGB 5/119/177, HEX #0577B1),
+\code{"Ironweed"} (defined as CMYK 35/95/0/0, RGB 153/51/153, HEX #993399),
+\code{"Hatteras"} (defined as CMYK 10/2/0/0, RGB 226/230/237, HEX #E2E6ED),
+\code{"Whisper gray"} (defined as CMYK 4/2/4/8, RGB 243/242/241, HEX #F3F2F1),
+\code{"Ginger beer"} (defined as CMYK 0/2/15/0, RGB 252/247/229, HEX #FCF7E5),
+\code{"Dogwood"} (defined as CMYK 10/18/25/32, RGB 152/134/117, HEX #988675),
+\code{"Shackleford"} (defined as CMYK 3/4/14/8, RGB 218/208/198, HEX #DAD0C6),
+\code{"Cast iron"} (defined as CMYK 67/44/67/95, RGB 38/38/38, HEX #262626),
+\code{"Graphite"} (defined as CMYK 40/30/20/66, RGB 102/102/102, HEX #666666),
+\code{"Granite"} (defined as CMYK 13/8/11/26, RGB 181/181/181, HEX #B5B5B5), and
+\code{"Limestone"} (defined as CMYK 5/3/5/11, RGB 229/229/229, HEX #E5E5E5).
+
+
+The colors in Duke’s extended palette are intended for use as secondary and tertiary colors in design projects. 
+
+They were selected to complement \code{Duke navy blue} and should be used  for a range of elements, 
+including graphic accents, typography, backgrounds, call-to-action buttons and more.
 }
 \examples{
 duke_2
-unikn::seecol(duke_2, main = "Secondary colors Duke University") # view color palette
+unikn::seecol(duke_2, main = "The secondary colors of Duke University") # view palette
 
 }
 \seealso{

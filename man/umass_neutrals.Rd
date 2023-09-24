@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the UMass 
+Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 }
 \usage{
@@ -18,7 +18,7 @@ umass_neutrals
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{umass_1} provides the three neutral colors 
+\code{umass_neutrals} provides the three neutral colors 
 of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 }
 \details{
@@ -31,10 +31,12 @@ The 3 neutral colors are
 }
 \examples{
 umass_neutrals
-unikn::seecol(umass_neutrals, main = "UMass neutral colors") # view color palette
+unikn::seecol(umass_neutrals, main = "Neutral colors of UMass")  # view palette
 
 }
 \seealso{
+\code{\link{umass_1}} for brand colors of UMass;
+\code{\link{umass_2}} for secondary colors of UMass;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

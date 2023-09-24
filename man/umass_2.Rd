@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on the UMass 
+Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 }
 \usage{
@@ -18,7 +18,7 @@ umass_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{umass_2} provides the twelve secondary colors to complement the signature brand colors
+\code{umass_2} provides the twelve secondary colors 
 of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 }
 \details{
@@ -36,16 +36,20 @@ The 23 secondary colors are
 \code{"PMS 159"} (defined as C1 M72 Y100 K7, R203 G96 B21, HEX cb6015), and
 \code{"PMS bright red"} (defined as C0 M90 Y95 K0, R254 G59 B31, HEX fe3b1f).
 
-Note that secondary colors must never overpower the brand colors.
-
 \code{umass_2} uses the HEX color definitions.
+
+
+Note that secondary colors must never overpower the brand colors 
+of \code{\link{umass_1}}.
 }
 \examples{
 umass_2
-unikn::seecol(umass_2, main = "Secondary colors of UMass") # view color palette
+unikn::seecol(umass_2, main = "Secondary colors of UMass")  # view palette
 
 }
 \seealso{
+\code{\link{umass_1}} for brand colors of UMass;
+\code{\link{umass_neutrals}} for neutral colors of UMass; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

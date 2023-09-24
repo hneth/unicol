@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Color definitions are based on the UMass 
+Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 }
 \usage{
@@ -23,20 +23,24 @@ of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 }
 \details{
 The brand color is
-\code{"UMass Maroon"} (defined as C9 M100 Y64 K48, R136 G28 B28, HEX \code{"#881c1c"})
- and should be implemented consistently across all media paired with the complementary colors  
-\code{"UMass black"} (defined as C67 M44 Y67 K95, R33 G39 B33, HEX \code{"#212721"}) and
-\code{"white"} (defined as \code{"white"} or HEX \code{"#FFFFFF"}).
+\code{"UMass maroon"} (defined as C9 M100 Y64 K48, R136 G28 B28, HEX \code{"#881c1c"})
+ and should be implemented consistently across all media, 
+ paired with the complementary color   
+\code{"UMass black"} (defined as C67 M44 Y67 K95, R33 G39 B33, HEX \code{"#212721"}), 
+and with 
+\code{"white"} (defined as HEX \code{"#FFFFFF"}).
 
 \code{umass_1} uses the HEX color definitions.
 }
 \examples{
 umass_1
-unikn::seecol(umass_1, main = "Brand colors of the University of Massachusetts Amherst") 
-# view color palette
+unikn::seecol(umass_1, col_bg = "gray90", 
+              main = "Brand colors of the University of Massachusetts, Amherst") # view palette
 
 }
 \seealso{
+\code{\link{umass_2}} for secondary colors of UMass;
+\code{\link{umass_neutrals}} for neutral colors of UMass; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

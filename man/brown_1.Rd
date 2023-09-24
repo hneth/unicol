@@ -3,13 +3,13 @@
 \docType{data}
 \name{brown_1}
 \alias{brown_1}
-\title{Primary colors of Brown University, USA}
+\title{Primary and accent colors of Brown University, USA}
 \format{
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on 
-\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}
+Color definitions are based on \href{https://www.brown.edu}{Brown}'s 
+\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{CD manual} (PDF).
 }
 \usage{
 brown_1
@@ -18,23 +18,23 @@ brown_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{brown_1} provides 2 main and 2 accent colors 
-of the \href{https://www.brown.edu}{Brown University}, USA
+\code{brown_1} provides two main and two accent colors 
+of \href{https://www.brown.edu}{Brown University}, USA
 }
 \details{
-The two main primary colors are
-\code{"red"} (HEX: #ED1C24) and
-\code{"brown"} (HEX: #4E3629) .
+The 2 main primary colors are
+\code{"Red"} (defined as HEX #ED1C24) and
+\code{"Brown"} (defined as HEX #4E3629).
 
-The two accent primary colors are
-\code{"gold"} (HEX: #FFC72C) and
-\code{"gray"} (HEX: #98A4AE) .
+The 2 accent primary colors are 
+\code{"Gold"} (defined as HEX #FFC72C) and
+\code{"Gray"} (defined as HEX #98A4AE).
 
 \code{brown_1} uses the HEX color definitions.
 }
 \examples{
 brown_1
-unikn::seecol(brown_1, main = "The primary colors of Brown University")
+unikn::seecol(brown_1, main = "Primary and accent colors of Brown University")
 
 }
 \seealso{

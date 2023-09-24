@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://duke.edu}{Duke}'s 
 \href{https://brand.duke.edu/colors/}{Color manual}.
 }
 \usage{
@@ -19,17 +19,19 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{duke_1} provides the two primary colors
-of the \href{https://duke.edu}{Duke University}, USA.
+of \href{https://duke.edu}{Duke University}, USA.
 }
 \details{
 The official Duke blue is a shade of navy blue that has been in use for decades. Called
-\code{"duke_navy_blue"} (defined as CMYK 100/85/5/22, RGB 1/33/105, HEX #012169) in our palette, it is sometimes referred to as “Academic Blue.”
-\code{"duke_royal_blue"} (defined as CMYK 100/53/2/16, RGB 0/83/155, HEX #00539B) is the other shade of blue in the
+\code{"Duke navy blue"} (defined as CMYK 100/85/5/22, RGB 1/33/105, HEX #012169) in our palette, 
+it is sometimes referred to as “Academic blue”. 
+\code{"Duke royal blue"} (defined as CMYK 100/53/2/16, RGB 0/83/155, HEX #00539B) 
+is the other shade of blue in the
 palette and has been in use since 2009 for athletics, apparel and promotional materials.
 }
 \examples{
 duke_1
-unikn::seecol(duke_1, main = "Primary colors Duke University") # view color palette
+unikn::seecol(duke_1, main = "The primary colors of Duke University")  # view palette
 
 }
 \seealso{

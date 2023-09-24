@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on 
-\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{Brown's CD manual (PDF)}.
+Color definitions are based on \href{https://www.brown.edu}{Brown}'s 
+\href{https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf}{CD manual} (PDF).
 }
 \usage{
 brown_2
@@ -19,26 +19,29 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{brown_2} provides four secondary colors that complement the primary color palette. 
-of the \href{https://www.brown.edu}{Brown University}, USA
-Composed of contemporary colors, the secondary color palette will be maintained as a flexible palette that may be updated as color trends shift over time.
+of \href{https://www.brown.edu}{Brown University}, USA.
 }
 \details{
-The four secondary colors are
-\code{"skyblue"} (HEX: #59CBE8),
-\code{"emerald"} (HEX: #00B398),
-\code{"navy"} (HEX: #003C71), and
-\code{"taupe"} (HEX: #B7B09C) .
+The current 4 secondary colors are
+\code{"Skyblue"} (defined as HEX #59CBE8),
+\code{"Emerald"} (defined as HEX #00B398),
+\code{"Navy"} (defined as HEX #003C71), and
+\code{"Taupe"} (defined as HEX #B7B09C).
 
 \code{brown_2} uses the HEX color definitions.
+
+
+Composed of contemporary colors, the secondary color palette 
+is maintained as a flexible palette that may be updated,  
+as color trends shift over time.
 }
 \examples{
 brown_2
-unikn::seecol(brown_2, 
-              main = "The secondary colors of Brown University") # view color palette
+unikn::seecol(brown_2, main = "Secondary colors of Brown University")  # view palette
 
 }
 \seealso{
-\code{\link{brown_1}} for primary colors of Brown University; 
+\code{\link{brown_1}} for primary and accent colors of Brown University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
