@@ -1,10 +1,10 @@
-## UCLA.R | 2023 09 19
+## UCLA.R | 2023 09 24
 ## Colors of UCLA, University of California, USA
 ## ---------------------------------------------
 
 # Information: ------
 
-# cur_pals: "UCLA_1", "UCLA_2", "UCLA_3" "UCLA_4" (4)
+# cur_pals: "ucla_1", "ucla_2", "ucla_3" "ucla_4" (4)
 
 # inst: "University of California, Los Angeles"
 # alt: "UCLA / UC Los Angeles"
@@ -25,11 +25,11 @@
 # Color palette(s):
 
 
-# - UCLA_1: Primary colors of UCLA ------
+# - ucla_1: Primary colors of UCLA ------
 
 #' Primary colors of UCLA, University of California, Los Angeles, USA
 #'
-#' \code{UCLA_1} provides three primary colors.
+#' \code{ucla_1} provides three primary colors.
 #' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #' 
 #' The 3 primary colors are 
@@ -37,7 +37,7 @@
 #' \code{"UCLA gold"} (defined as CMYK 0/9/100/0, RGB 255/209/0, HEX #FFD100), and
 #' \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #FFFFFF). 
 #' 
-#' \code{UCLA_1} uses the HEX color definitions. 
+#' \code{ucla_1} uses the HEX color definitions. 
 #' 
 #' @details
 #' Over the years the \code{"UCLA blue"} color has always been more important than \code{"UCLA gold"} 
@@ -57,16 +57,16 @@
 #' \href{https://brand.ucla.edu/identity/colors}{Color manual}.
 #'
 #' @examples
-#' UCLA_1
-#' unikn::seecol(UCLA_1, col_bg = "grey85", 
-#'               main = "The primary colors UCLA")  # view color palette
+#' ucla_1
+#' unikn::seecol(ucla_1, col_bg = "grey85", 
+#'               main = "The primary colors of UCLA")  # view color palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{UCLA_2}} for secondary colors of UCLA, University of California; 
-#' \code{\link{UCLA_3}} for tertiary colors of UCLA, University of California; 
-#' \code{\link{UCLA_4}} for blue gradient colors of UCLA, University of California; 
+#' \code{\link{ucla_2}} for secondary colors of UCLA,; 
+#' \code{\link{ucla_3}} for tertiary colors of UCLA,; 
+#' \code{\link{ucla_4}} for blue gradient colors of UCLA,; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -75,20 +75,20 @@
 #'
 #' @export
 
-UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
+ucla_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
                         names = c("UCLA blue", "UCLA gold", "white"),
                         as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCLA_1, main = "Primary colors UCLA, University of California", col_bg = "lightgrey")
+# unikn::seecol(ucla_1, main = "The primary colors of UCLA", col_bg = "lightgrey")
 
 
 
-# - UCLA_2: Secondary colors of UCLA ------
+# - ucla_2: Secondary colors of UCLA ------
 
 #' Secondary colors of UCLA, University of California, Los Angeles, USA
 #'
-#' \code{UCLA_2} provides six secondary colors
+#' \code{ucla_2} provides six secondary colors
 #' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #' 
 #' Secondary colors are
@@ -99,7 +99,7 @@ UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 #' \code{"darkest gold"} (defined as CMYK 0/31/98/0, RGB 255/184/28, HEX #FFB81C), and
 #' \code{"darker gold"} (defined as CMYK 0/19/89/0, RGB 255/199/44, HEX #FFC72C).
 #' 
-#' \code{UCLA_2} uses the HEX color definitions. 
+#' \code{ucla_2} uses the HEX color definitions. 
 #' 
 #' @details
 #' A secondary palette has been developed to respect and complement the tradition of blue and gold, 
@@ -116,15 +116,15 @@ UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 #' \href{https://brand.ucla.edu/identity/colors}{Color manual}.
 #'
 #' @examples
-#' UCLA_2
-#' unikn::seecol(UCLA_2, main = "The secondary colors UCLA") # view color palette
+#' ucla_2
+#' unikn::seecol(ucla_2, main = "The secondary colors of UCLA")  # view color palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
-#' \code{\link{UCLA_3}} for tertiary colors of UCLA, University of California; 
-#' \code{\link{UCLA_4}} for blue gradient colors of UCLA, University of California; 
+#' \code{\link{ucla_1}} for primary colors of UCLA,; 
+#' \code{\link{ucla_3}} for tertiary colors of UCLA,; 
+#' \code{\link{ucla_4}} for blue gradient colors of UCLA,; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -133,40 +133,42 @@ UCLA_1 <- unikn::newpal(col = c("#2774AE", "#FFD100", "#FFFFFF"),
 #'
 #' @export
 
-UCLA_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE", 
+ucla_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE", 
                                 "#FFB81C", "#FFC72C"),
                         names = c("darkest blue", "darker blue", "lighter blue", "lightest blue", 
                                   "darkest gold", "darker gold"),
                         as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCLA_2, main = "Secondary colors UCLA, University of California", col_bg = "lightgrey")
+# unikn::seecol(ucla_2, main = "Secondary colors of UCLA", col_bg = "lightgrey")
 
 
 
-# - UCLA_3: Tertiary colors of UCLA ------
+# - ucla_3: Tertiary colors of UCLA ------
 
 #' Tertiary colors of UCLA, University of California, Los Angeles, USA 
 #'
-#' \code{UCLA_3} provides six tertiary brand colors
+#' \code{ucla_3} provides six tertiary brand colors
 #' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #'
-#' The six tertiary colors have different definitions for print and screen uses. 
+#' The 6 tertiary colors have different definitions for print and screen uses. 
 #' See \href{https://www.ucla.edu}{UCLA}'s 
 #' \href{https://brand.ucla.edu/identity/colors}{Color manual} for definitions and details. 
 #' 
-#' \code{UCLA_3} uses the HEX color definitions. 
+#' \code{ucla_3} uses the HEX color definitions. 
 #' 
 #' @details
-#' A tertiary palette has been developed for use as an accent to the primary and secondary colors. 
+#' A tertiary palette has been developed for use as an accent to the 
+#' primary and secondary colors (of \code{\link{ucla_1}} and \code{\link{ucla_2}}). 
 #' 
-#' Please note that in order to maintain maximum vibrancy of these colors, they will appear slightly different between screen and print.
+#' Please note that in order to maintain maximum vibrancy of these colors, 
+#' they will appear slightly different between screen and print.
 #' Due to printing limitations, the CMYK values are slightly duller than ideal. 
 #' 
-#' If your budget allows, select one tertiary color from the palette to include in your project and print it as a spot to bring the vibrancy fully to life in print.
+#' If your budget allows, select one tertiary color from the palette to include 
+#' in your project and print it as a spot to bring the vibrancy fully to life in print.
 #' For the sake of accessibility, restrict use of tertiary colors to graphics only.
 #' 
-#'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -178,15 +180,15 @@ UCLA_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE",
 #' \href{https://brand.ucla.edu/identity/colors}{Color manual}.
 #'
 #' @examples
-#' UCLA_3
-#' unikn::seecol(UCLA_3, main = "Tertiary colors UCLA") # view color palette
+#' ucla_3
+#' unikn::seecol(ucla_3, main = "The tertiary colors of UCLA")  # view color palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
-#' \code{\link{UCLA_2}} for secondary colors of UCLA, University of California; 
-#' \code{\link{UCLA_4}} for blue gradient colors of UCLA, University of California; 
+#' \code{\link{ucla_1}} for primary colors of UCLA,; 
+#' \code{\link{ucla_2}} for secondary colors of UCLA,; 
+#' \code{\link{ucla_4}} for blue gradient colors of UCLA,; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -195,27 +197,27 @@ UCLA_2 <- unikn::newpal(col = c("#003B5C", "#005587", "#8BB8E8", "#DAEBFE",
 #'
 #' @export
 
-UCLA_3 <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#8237FF", "#000000"),
+ucla_3 <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#8237FF", "#000000"),
                         names = c("yellow", "green", "magenta", "cyan", "purple", "black"),
                         as_df = FALSE)
 
 # # Check:
-# unikn::seecol(UCLA_3, main = "Tertiary colors UCLA, University of California", col_bg = "white")
+# unikn::seecol(ucla_3, main = "Tertiary colors UCLA, University of California", col_bg = "white")
 
 
-# - UCLA_4: Blue brand gradient colors of UCLA -----
+# - ucla_4: Blue brand gradient colors of UCLA -----
 
 #' Blue brand gradient colors of UCLA, University of California, Los Angeles, USA 
 #'
-#' \code{UCLA_4} provides three blue brand gradient colors
+#' \code{ucla_4} provides three blue brand gradient colors
 #' of the \href{https://www.ucla.edu}{University of California, Los Angeles (UCLA)}, USA.
 #'
-#' The main gradient colors are 
-#' \code{Darker blue}, defined as CMYK 100 45 0 45, RGB 0 85 135, or HEX #005587, 
+#' The 3 gradient colors are 
+#' \code{darker blue}, defined as CMYK 100 45 0 45, RGB 0 85 135, or HEX #005587, 
 #' \code{UCLA blue}, defined as CMYK 83 40 3 6, RGB 39 116 174, or HEX #2774AE, and 
-#' \code{Lighter blue}, defined as CMYK 45 14 0 0, RGB 139 184 232, or HEX #8BB8E8. 
+#' \code{lighter blue}, defined as CMYK 45 14 0 0, RGB 139 184 232, or HEX #8BB8E8. 
 #' 
-#' \code{UCLA_4} uses the HEX color definitions. 
+#' \code{ucla_4} uses the HEX color definitions. 
 #' 
 #' @details
 #' A blue gradient can be used to enliven fields of color.  
@@ -238,18 +240,18 @@ UCLA_3 <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#82
 #' \href{https://brand.ucla.edu/identity/colors}{Color manual}.
 #'
 #' @examples
-#' UCLA_4
-#' unikn::seecol(UCLA_4, main = "UCLA blue gradient colors") # view color palette
+#' ucla_4
+#' unikn::seecol(ucla_4, main = "The blue gradient colors of UCLA")  # view color palette
 #' 
 #' # Gradient with n = 7 tints:
-#' unikn::seecol(unikn::usecol(UCLA_4, n = 7), main = "UCLA blue brand gradient")
+#' unikn::seecol(unikn::usecol(ucla_4, n = 7), main = "UCLA blue brand gradient")
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{UCLA_1}} for primary colors of UCLA, University of California; 
-#' \code{\link{UCLA_2}} for secondary colors of UCLA, University of California;
-#' \code{\link{UCLA_3}} for tertiary colors of UCLA, University of California; 
+#' \code{\link{ucla_1}} for primary colors of UCLA,; 
+#' \code{\link{ucla_2}} for secondary colors of UCLA,;
+#' \code{\link{ucla_3}} for tertiary colors of UCLA,; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -258,13 +260,13 @@ UCLA_3 <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#82
 #'
 #' @export
 
-UCLA_4 <- unikn::newpal(col = c("#005587", "#2774AE", "#8BB8E8"),
-                        names = c("Darker blue", "UCLA blue", "Lighter blue"),
+ucla_4 <- unikn::newpal(col = c("#005587", "#2774AE", "#8BB8E8"),
+                        names = c("darker blue", "UCLA blue", "lighter blue"),
                         as_df = FALSE)
 
 
 # # Check:
-# unikn::seecol(unikn::usecol(UCLA_4, n = 7), main = "UCLA blue brand gradient")
+# unikn::seecol(unikn::usecol(ucla_4, n = 7), main = "Blue brand gradient of UCLA")
 
 
 ## eof. ----------
