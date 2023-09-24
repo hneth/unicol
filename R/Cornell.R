@@ -1,4 +1,4 @@
-## Cornell.R | 2023 09 21
+## Cornell.R | 2023 09 24
 ## Colors of Cornell University, USA
 ## ---------------------------------
 
@@ -53,7 +53,8 @@
 #'
 #' @examples
 #' cornell_1
-#' unikn::seecol(cornell_1, main = "Primary colors Cornell Uni") # view color palette
+#' unikn::seecol(cornell_1, col_bg = "grey90",  
+#'               main = "The primary colors of Cornell University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -107,7 +108,7 @@ cornell_1 <- unikn::newpal(col = c("#B31B1B", "#222222", "#FFFFFF"),
 #'
 #' @examples
 #' cornell_2
-#' unikn::seecol(cornell_2, main = "Secondary colors Cornell Uni") # view colors
+#' unikn::seecol(cornell_2, main = "Secondary colors of Cornell University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -169,7 +170,7 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #'
 #' @examples
 #' cornell_3_accent
-#' unikn::seecol(cornell_3_accent, main = "Accent colors Cornell Uni") # view color palette
+#' unikn::seecol(cornell_3_accent, main = "Accent colors of Cornell University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -197,7 +198,7 @@ cornell_3_accent <- unikn::newpal(col = c("#006699",
                                   as_df = FALSE)
 
 # # Check:
-# unikn::seecol(cornell_3_accent, main = "Primary colors Cornell University", col_bg = "lightgrey")
+# unikn::seecol(cornell_3_accent, main = "Cornell University 3", col_bg = "lightgrey")
 
 
 ## eof. ----------
