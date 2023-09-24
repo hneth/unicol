@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 09 23
+## 0_all_pals.R | 2022 09 24
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -36,7 +36,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "caltech_1 <-", "caltech_2 <-", "caltech_3 <-", 
               "carleton <-", 
               "uchicago_1 <-", "uchicago_2 <-", 
-              "CMU_1_core <-", "CMU_2_tartan <-", "CMU_3_campus <-", 
+              "cmu_1 <-", "cmu_2 <-", "cmu_3 <-", 
               "columbia_1 <-", "columbia_2 <-", "columbia_3 <-",   
               "conc_1 <-", "conc_2 <-", "conc_3 <-", "conc_4 <-", 
               "cornell_1 <-", "cornell_2 <-", "cornell_3_accent <-", 
