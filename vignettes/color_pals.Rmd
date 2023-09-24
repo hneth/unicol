@@ -3,14 +3,11 @@ title: "Color palettes"
 author: "Hansjoerg Neth"
 date: "`r Sys.Date()`"
 output: 
-  rmarkdown::html_vignette: 
-    fig_caption: yes
+  rmarkdown::html_vignette
 vignette: > 
   %\VignetteIndexEntry{Color palettes}
-  %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
-editor_options: 
-  chunk_output_type: console
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include = FALSE}

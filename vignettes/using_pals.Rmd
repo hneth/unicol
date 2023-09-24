@@ -3,14 +3,11 @@ title: "Using color palettes"
 author: "Hansjoerg Neth"
 date: "`r Sys.Date()`"
 output: 
-  rmarkdown::html_vignette: 
-    fig_caption: yes
+  rmarkdown::html_vignette
 vignette: > 
   %\VignetteIndexEntry{Using color palettes}
-  %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
-editor_options: 
-  chunk_output_type: console
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include = FALSE}
@@ -37,6 +34,9 @@ knitr::opts_chunk$set(collapse = FALSE,
 # unicol package: 
 url_unicol_cran   <- "https://CRAN.R-project.org/package=unicol"
 url_unicol_github <- "https://github.com/hneth/unicol"
+
+url_github_doc_rel <- "https://hneth.github.io/unicol/"      # release version  
+url_github_doc_dev <- "https://hneth.github.io/unicol/dev/"  # dev version
 
 # unikn / Uni Konstanz:
 url_unikn <- "https://www.uni-konstanz.de"
