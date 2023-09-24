@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9003
+# unicol 0.2.0.9004
 
 <!-- Development version:  --> 
 
@@ -86,7 +86,7 @@ Changes since last release:
 - Corrected or updated color palettes: 
     - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
     - [Trinity College Dublin](https://www.tcd.ie): `trinity_2` has been corrected 
-    - [UCLA](https://www.ucla.edu): added `UCLA_4` for creating color gradients 
+    - [UCLA](https://www.ucla.edu): added `ucla_4` for creating color gradients 
     
 
 <!-- Minor changes: --> 
@@ -120,6 +120,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-09-23.]
+[File `NEWS.md` updated on 2023-09-24.]
 
 <!-- eof. -->
