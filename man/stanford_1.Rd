@@ -58,10 +58,6 @@ unikn::seecol(stanford_1, main = "Primary colors Stanford Uni") # view color pal
 \code{\link{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
-\code{\link{UCLA_1}},
-\code{\link{UCLA_2}},
-\code{\link{UCLA_3}},
-\code{\link{UCLA_4}},
 \code{\link{UCSD_1}},
 \code{\link{UCSD_2}},
 \code{\link{UCSD_3}},
@@ -134,6 +130,10 @@ Other U.S. university color palettes:
 \code{\link{uci_2}},
 \code{\link{uci_3}},
 \code{\link{uci_4}},
+\code{\link{ucla_1}},
+\code{\link{ucla_2}},
+\code{\link{ucla_3}},
+\code{\link{ucla_4}},
 \code{\link{uflorida_1}},
 \code{\link{uflorida_2}},
 \code{\link{uflorida_3}},
