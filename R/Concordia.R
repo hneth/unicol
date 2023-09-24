@@ -57,7 +57,7 @@
 #'
 #' @seealso
 #' \code{\link{conc_2}} for secondary colours of Concordia University;
-#' \code{\link{conc_3}} for background colours of Concordia University;
+#' \code{\link{conc_3}} for background tints of Concordia University;
 #' \code{\link{conc_4}} for neutral colours of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
@@ -109,7 +109,7 @@ conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996",
 #'
 #' @seealso
 #' \code{\link{conc_1}} for primary colours of Concordia University;
-#' \code{\link{conc_3}} for background colours of Concordia University;
+#' \code{\link{conc_3}} for background tints of Concordia University;
 #' \code{\link{conc_4}} for neutral colours of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
@@ -127,12 +127,12 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 
 # - conc_3: Background colours of Concordia ------
 
-#' Background colours of Concordia University, Canada 
+#' Background tints of Concordia University, Canada 
 #'
-#' \code{conc_3} provides the nine background colours 
+#' \code{conc_3} provides the nine background tints  
 #' of \href{https://www.concordia.ca}{Concordia University}, Canada.
 #'
-#' The 9 background colours are
+#' The 9 background tints are
 #' \code{"Burgundy 1"} (defined as HEX #E9D3D7),
 #' \code{"Magenta 1"} (defined as HEX #FACDE3), 
 #' \code{"Orange 1"} (defined as HEX #f9cdc3),
@@ -146,7 +146,7 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' \code{conc_3} uses the HEX color definitions. 
 #' 
 #' @details
-#' The background colours of \code{conc_3} 
+#' The background tint colours of \code{conc_3} 
 #' can be used to create blocks of background colour on a web page 
 #' to seperate and draw attention to content. 
 #' 
@@ -162,7 +162,7 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' 
 #' @examples
 #' conc_3
-#' unikn::seecol(conc_3, main = "Background colours of Concordia University")  # view palette
+#' unikn::seecol(conc_3, main = "Background tints of Concordia University")  # view palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -223,7 +223,7 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 #' @seealso
 #' \code{\link{conc_1}} for primary colours of Concordia University;
 #' \code{\link{conc_2}} for secondary colours of Concordia University;
-#' \code{\link{conc_3}} for background colours of Concordia University;
+#' \code{\link{conc_3}} for background tints of Concordia University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
