@@ -24,18 +24,18 @@
 
 #' Primary colours of Concordia University, Canada 
 #'
-#' \code{conc_1} provides the eight primary colors 
+#' \code{conc_1} provides the eight primary colours 
 #' of \href{https://www.concordia.ca}{Concordia University}, Canada.
 #'
-#' The 8 primary colors are
-#' \code{"burgundy"} (defined as HEX #912338), 
-#' \code{"magenta"} (defined as HEX #db0272), 
-#' \code{"orange"} (defined as HEX #da3a16),
-#' \code{"mauve"} (defined as HEX #573996),
-#' \code{"dark"} (defined as HEX #004085),
-#' \code{"blue"} (defined as HEX #0072a8),
-#' \code{"turquoise"} (defined as HEX #057d78), and
-#' \code{"grenn"} (defined as HEX #508212).
+#' The 8 primary colours are
+#' \code{"Burgundy"} (defined as HEX #912338), 
+#' \code{"Magenta"} (defined as HEX #db0272), 
+#' \code{"Orange"} (defined as HEX #da3a16),
+#' \code{"Mauve"} (defined as HEX #573996),
+#' \code{"Dark"} (defined as HEX #004085),
+#' \code{"Blue"} (defined as HEX #0072a8),
+#' \code{"Turquoise"} (defined as HEX #057d78), and
+#' \code{"Grenn"} (defined as HEX #508212).
 #'
 #' \code{conc_1} uses the HEX color definitions. 
 #' 
@@ -51,7 +51,7 @@
 #'
 #' @examples
 #' conc_1
-#' unikn::seecol(conc_1, main = "Concordia University") # view color palette
+#' unikn::seecol(conc_1, main = "Primary colours of Concordia University, CA")  # view palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -69,8 +69,8 @@
 
 conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996", 
                                 "#004085", "#0072a8", "#057d78", "#508212" ),
-                        names = c("burgundy", "magenta", "orange", "mauve", 
-                                  "dark_blue", "blue_condordia", "turquoise", "grenn"),
+                        names = c("Burgundy", "Magenta", "Orange", "Mauve", 
+                                  "Dark blue", "Blue", "Turquoise", "Grenn"),
                         as_df = FALSE)
 
 
@@ -84,10 +84,10 @@ conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996",
 #' of \href{https://www.concordia.ca}{Concordia University}, Canada.
 #'
 #' The 4 secondary colours are
-#' \code{"yellow"} (defined as HEX #e5a712),
-#' \code{"gold"} (defined as HEX #cbb576), 
-#' \code{"cyan"} (defined as HEX #00adef), and
-#' \code{"lime"} (defined as HEX #8cc63e).
+#' \code{"Yellow"} (defined as HEX #e5a712),
+#' \code{"Gold"} (defined as HEX #cbb576), 
+#' \code{"Cyan"} (defined as HEX #00adef), and
+#' \code{"Lime"} (defined as HEX #8cc63e).
 #'
 #' \code{conc_2} uses the HEX color definitions. 
 #' 
@@ -120,7 +120,7 @@ conc_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996",
 #' @export
 
 conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
-                        names = c("yellow", "gold", "cyan", "lime"),
+                        names = c("Yellow", "Gold", "Cyan", "Lime"),
                         as_df = FALSE)
 
 
@@ -129,21 +129,26 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 
 #' Background colours of Concordia University, Canada 
 #'
-#' \code{uni_pal_1} provides the nine background colours 
+#' \code{conc_3} provides the nine background colours 
 #' of \href{https://www.concordia.ca}{Concordia University}, Canada.
 #'
 #' The 9 background colours are
-#' \code{"burgundy 1"} (defined as HEX #E9D3D7),
-#' \code{"magenta 1"} (defined as HEX #FACDE3), 
-#' \code{"orange 1"} (defined as HEX #f9cdc3),
-#' \code{"mauve 1"} (defined as HEX #dcd6e8),
-#' \code{"dark blue 1"} (defined as HEX #B2C5DA),
-#' \code{"blue 1"} (defined as HEX #d3e1e9),
-#' \code{"turquoise 1"} (defined as HEX #CCE3E4),
-#' \code{"green 1"} (defined as HEX #dfeccf), and
-#' \code{"gold 1"} (defined as HEX #e9e3d3).
+#' \code{"Burgundy 1"} (defined as HEX #E9D3D7),
+#' \code{"Magenta 1"} (defined as HEX #FACDE3), 
+#' \code{"Orange 1"} (defined as HEX #f9cdc3),
+#' \code{"Mauve 1"} (defined as HEX #dcd6e8),
+#' \code{"Dark blue 1"} (defined as HEX #B2C5DA),
+#' \code{"Blue 1"} (defined as HEX #d3e1e9),
+#' \code{"Turquoise 1"} (defined as HEX #CCE3E4),
+#' \code{"Green 1"} (defined as HEX #dfeccf), and
+#' \code{"Gold 1"} (defined as HEX #e9e3d3).
 #'
 #' \code{conc_3} uses the HEX color definitions. 
+#' 
+#' @details
+#' The background colours of \code{conc_3} 
+#' can be used to create blocks of background colour on a web page 
+#' to seperate and draw attention to content. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -175,8 +180,8 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 
 conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2C5DA", 
                                 "#d3e1e9", "#CCE3E4", "#dfeccf", "#e9e3d3"),
-                        names = c("burgundy 1", "magenta 1", "orange 1", "mauve 1", "dark blue 1", 
-                                  "blue 1", "turquoise 1", "green 1", "gold 1"),
+                        names = c("Burgundy 1", "Magenta 1", "Orange 1", "Mauve 1", "Dark blue 1", 
+                                  "Blue 1", "Turquoise 1", "Green 1", "Gold 1"),
                         as_df = FALSE)
 
 
@@ -191,10 +196,10 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 #' of \href{https://www.concordia.ca}{Concordia University}, Canada.
 #'
 #' The 5 neutral colours are 
-#' \code{"light grey"} (defined as HEX #f0f0f0),
-#' \code{"medium grey"} (defined as HEX #c8c8c8), 
-#' \code{"dark grey"} (defined as HEX #6e6e6e),
-#' \code{"very dark grey"} (defined as HEX #2c2c2c), and
+#' \code{"Light grey"} (defined as HEX #f0f0f0),
+#' \code{"Medium grey"} (defined as HEX #c8c8c8), 
+#' \code{"Dark grey"} (defined as HEX #6e6e6e),
+#' \code{"Very dark grey"} (defined as HEX #2c2c2c), and
 #' \code{"black"} (defined as HEX #000000).
 #'
 #' \code{conc_4} uses the HEX color definitions. 
@@ -229,7 +234,7 @@ conc_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8", "#B2
 
 conc_4 <- unikn::newpal(col = c("#f0f0f0", "#c8c8c8", "#6e6e6e", "#2c2c2c", 
                                 "#000000"),
-                        names = c("light grey", "medium grey", "dark grey", "very dark grey", 
+                        names = c("Light grey", "Medium grey", "Dark grey", "Very dark grey", 
                                   "black"),
                         as_df = FALSE)
 
