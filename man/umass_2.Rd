@@ -53,9 +53,6 @@ unikn::seecol(umass_2, main = "Secondary colors of UMass") # view color palette
 \code{\link{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
-\code{\link{UCSD_1}},
-\code{\link{UCSD_2}},
-\code{\link{UCSD_3}},
 \code{\link{asu_1}},
 \code{\link{asu_2}},
 \code{\link{asu_3}},
@@ -130,6 +127,9 @@ Other U.S. university color palettes:
 \code{\link{ucla_2}},
 \code{\link{ucla_3}},
 \code{\link{ucla_4}},
+\code{\link{ucsd_1}},
+\code{\link{ucsd_2}},
+\code{\link{ucsd_3}},
 \code{\link{uflorida_1}},
 \code{\link{uflorida_2}},
 \code{\link{uflorida_3}},
