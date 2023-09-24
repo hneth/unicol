@@ -19,21 +19,6 @@
     <loc>https://hneth.github.io/unicol/dev/news/index.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/ANU_1.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/ANU_2.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/CMU_1_core.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/CMU_2_tartan.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/CMU_3_campus.html</loc>
-  </url>
-  <url>
     <loc>https://hneth.github.io/unicol/dev/reference/UCC_1.html</loc>
   </url>
   <url>
@@ -43,31 +28,16 @@
     <loc>https://hneth.github.io/unicol/dev/reference/UCD.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCLA_1.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCLA_2.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCLA_3.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCLA_4.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCSD_1.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCSD_2.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/dev/reference/UCSD_3.html</loc>
-  </url>
-  <url>
     <loc>https://hneth.github.io/unicol/dev/reference/aberystwyth_1.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/aberystwyth_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/anu_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/anu_2.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/asu_1.html</loc>
@@ -119,6 +89,15 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/carleton.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/cmu_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/cmu_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/cmu_3.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/columbia_1.html</loc>
@@ -536,6 +515,27 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uci_4.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucla_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucla_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucla_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucla_4.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucsd_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucsd_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/dev/reference/ucsd_3.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/dev/reference/uflorida_1.html</loc>

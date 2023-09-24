@@ -12,7 +12,7 @@ of the York University, Canada."><meta property="og:image" content="https://hnet
     
     <a class="navbar-brand me-2" href="../index.html">unicol</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">0.2.0.9003</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">0.2.0.9004</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@ of the York University, Canada."><meta property="og:image" content="https://hnet
 
     <div class="ref-description section level2">
     <p><code>yorku_1</code> provides the three primary colors 
-of the <a href="https://www.yorku.ca/" class="external-link">York University</a>, Canada.</p>
+of the <a href="https://www.yorku.ca" class="external-link">York University</a>, Canada.</p>
     </div>
 
     <div class="section level2">
@@ -70,8 +70,8 @@ of the <a href="https://www.yorku.ca/" class="external-link">York University</a>
     </div>
     <div class="section level2">
     <h2 id="source">Source<a class="anchor" aria-label="anchor" href="#source"></a></h2>
-    <p>Color definitions are based on the
-<a href="https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf" class="external-link">York Brand Standards (PDF)</a>.</p>
+    <p>Color definitions are based on <a href="https://www.yorku.ca" class="external-link">York</a>'s 
+<a href="https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf" class="external-link">Brand standards</a> (PDF).</p>
     </div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
@@ -82,7 +82,7 @@ of the <a href="https://www.yorku.ca/" class="external-link">York University</a>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>The 3 primary colors are
-<code>"york_red"</code> (defined as RGB 227/24/55, HEX #E31837),
+<code>"York red"</code> (defined as RGB 227/24/55, HEX #E31837),
 <code>"white"</code> (defined as RGB 255/255/255, HEX #FFFFFF), and
 <code>"black"</code> (defined as RGB 0/0/0, HEX #000000).</p>
 <p><code>yorku_1</code> uses the HEX color definitions.</p>
@@ -144,9 +144,10 @@ of the <a href="https://www.yorku.ca/" class="external-link">York University</a>
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">yorku_1</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>  york_red     white     black </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>  York red     white     black </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> "#E31837" "#FFFFFF" "#000000" </span>
-<span class="r-in"><span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/seecol.html" class="external-link">seecol</a></span><span class="op">(</span><span class="va">yorku_1</span>, main <span class="op">=</span> <span class="st">"Primary colors of York University"</span><span class="op">)</span> <span class="co"># view color palette</span></span></span>
+<span class="r-in"><span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/seecol.html" class="external-link">seecol</a></span><span class="op">(</span><span class="va">yorku_1</span>, col_bg <span class="op">=</span> <span class="st">"grey90"</span>, </span></span>
+<span class="r-in"><span>              main <span class="op">=</span> <span class="st">"The primary colors of York University, CA"</span><span class="op">)</span> <span class="co"># view palette</span></span></span>
 <span class="r-plt img"><img src="yorku_1-1.png" alt="" width="720" height="576"></span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
