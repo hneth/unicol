@@ -1,4 +1,4 @@
-## UMass.R | 2023 08 24
+## UMass.R | 2023 09 24
 ## Colours of the University of Massachusetts Amherst, USA 
 ## -------------------------------------------------------
 
@@ -6,6 +6,7 @@
 
 # cur_pals: "umass_1", "umass_2", "umass_neutrals" (3)
 # inst: "University of Massachusetts Amherst"
+# inst_alt: "UMass" 
 # USA
 # URL: "https://www.umass.edu"
 
@@ -27,10 +28,12 @@
 #' of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 #'
 #' The brand color is
-#' \code{"UMass Maroon"} (defined as C9 M100 Y64 K48, R136 G28 B28, HEX \code{"#881c1c"})
-#'  and should be implemented consistently across all media paired with the complementary colors  
-#' \code{"UMass black"} (defined as C67 M44 Y67 K95, R33 G39 B33, HEX \code{"#212721"}) and
-#' \code{"white"} (defined as \code{"white"} or HEX \code{"#FFFFFF"}).
+#' \code{"UMass maroon"} (defined as C9 M100 Y64 K48, R136 G28 B28, HEX \code{"#881c1c"})
+#'  and should be implemented consistently across all media, 
+#'  paired with the complementary color   
+#' \code{"UMass black"} (defined as C67 M44 Y67 K95, R33 G39 B33, HEX \code{"#212721"}), 
+#' and with 
+#' \code{"white"} (defined as HEX \code{"#FFFFFF"}).
 #' 
 #' \code{umass_1} uses the HEX color definitions. 
 #'
@@ -41,17 +44,19 @@
 #' \strong{unicol}, 2023-06-27.
 #'
 #' @source 
-#' Color definitions are based on the UMass 
+#' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 #' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 #'
 #' @examples
 #' umass_1
-#' unikn::seecol(umass_1, main = "Brand colors of the University of Massachusetts Amherst") 
-#' # view color palette
+#' unikn::seecol(umass_1, col_bg = "gray90", 
+#'               main = "Brand colors of the University of Massachusetts, Amherst") # view palette
 #'
 #' @family U.S. university color palettes
 #'
-#' @seealso
+#' @seealso 
+#' \code{\link{umass_2}} for secondary colors of UMass;
+#' \code{\link{umass_neutrals}} for neutral colors of UMass; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -65,7 +70,7 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
                          as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(umass_1, main = "Brand colors of the UMass", col_bg = "lightgray")
+# unikn::seecol(umass_1, main = "Brand colors of UMass", col_bg = "gray90")
 
 
 
@@ -73,7 +78,7 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
 
 #' Secondary colors of the University of Massachusetts Amherst, USA
 #'
-#' \code{umass_2} provides the twelve secondary colors to complement the signature brand colors
+#' \code{umass_2} provides the twelve secondary colors 
 #' of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 #'
 #' The 23 secondary colors are 
@@ -90,10 +95,12 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
 #' \code{"PMS 159"} (defined as C1 M72 Y100 K7, R203 G96 B21, HEX cb6015), and
 #' \code{"PMS bright red"} (defined as C0 M90 Y95 K0, R254 G59 B31, HEX fe3b1f).
 #' 
-#' Note that secondary colors must never overpower the brand colors.
-#' 
 #' \code{umass_2} uses the HEX color definitions. 
-#'
+#' 
+#' @details
+#' Note that secondary colors must never overpower the brand colors 
+#' of \code{\link{umass_1}}. 
+#' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
@@ -101,16 +108,18 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
 #' \strong{unicol}, 2023-06-27.
 #' 
 #' @source 
-#' Color definitions are based on the UMass 
+#' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 #' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 #' 
 #' @examples
 #' umass_2
-#' unikn::seecol(umass_2, main = "Secondary colors of UMass") # view color palette
+#' unikn::seecol(umass_2, main = "Secondary colors of UMass")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
+#' \code{\link{umass_1}} for brand colors of UMass;
+#' \code{\link{umass_neutrals}} for neutral colors of UMass; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -134,7 +143,7 @@ umass_2 <- unikn::newpal(col = c("#ffc72c", "#ff9e1b", "#615e9b", "#44693d", "#5
 
 #' Neutral colors of the University of Massachusetts Amherst, USA 
 #'
-#' \code{umass_1} provides the three neutral colors 
+#' \code{umass_neutrals} provides the three neutral colors 
 #' of the \href{https://www.umass.edu}{University of Massachusetts Amherst}, USA.
 #'
 #' The 3 neutral colors are
@@ -151,16 +160,18 @@ umass_2 <- unikn::newpal(col = c("#ffc72c", "#ff9e1b", "#615e9b", "#44693d", "#5
 #' \strong{unicol}, 2023-06-27.
 #'
 #' @source 
-#' Color definitions are based on the UMass 
+#' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
 #' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 #'
 #' @examples
 #' umass_neutrals
-#' unikn::seecol(umass_neutrals, main = "UMass neutral colors") # view color palette
+#' unikn::seecol(umass_neutrals, main = "Neutral colors of UMass")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
+#' \code{\link{umass_1}} for brand colors of UMass;
+#' \code{\link{umass_2}} for secondary colors of UMass;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
