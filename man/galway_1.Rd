@@ -45,15 +45,15 @@ unikn::seecol(galway_1, main = "University of Galway 1", col_bg = "lightgrey") #
 \code{\link{grepal}} for finding named colors.
 
 Other Irish university color palettes: 
-\code{\link{UCC_1}},
-\code{\link{UCC_2}},
-\code{\link{UCD}},
 \code{\link{galway_2}},
 \code{\link{limerick_1}},
 \code{\link{limerick_2}},
 \code{\link{maynooth}},
 \code{\link{trinity_1}},
-\code{\link{trinity_2}}
+\code{\link{trinity_2}},
+\code{\link{ucc_1}},
+\code{\link{ucc_2}},
+\code{\link{ucd}}
 }
 \author{
 \strong{unicol}, 2023-07-16.
