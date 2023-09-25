@@ -148,7 +148,7 @@ conc_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e"),
 #' @details
 #' The background tint colours of \code{conc_3} 
 #' can be used to create blocks of background colour on a web page 
-#' to seperate and draw attention to content. 
+#' to separate and draw attention to content. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
