@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.berkeley.edu}{Berkeley}'s 
 \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
 }
 \usage{
@@ -19,15 +19,31 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{berkeley_1} provides the four primary colors
-of the \href{https://www.berkeley.edu}{Berkeley, University of California}, USA.
+of \href{https://www.berkeley.edu}{Berkeley, University of California}, USA.
 }
 \details{
-The primary palette is broken into heritage and alternate heritage colors.
-Primary colors are
+The 4 primary colors are
 \code{"Berkeley blue"} (defined as HEX #003262, CMYK 100/71/10/47, Pantone 282),
 \code{"California gold"} (defined as HEX #FDB515, CMYK 0/32/100/0, Pantone 123),
-\code{"founders rock"} (defined as HEX #3B7EA1, CMYK 76/34/21/0, Pantone 7697), and
-\code{"medalist"} (defined as HEX #C4820E, CMYK 0/34/98/12, Pantone 7550).
+\code{"Founders rock"} (defined as HEX #3B7EA1, CMYK 76/34/21/0, Pantone 7697), and
+\code{"Medalist"} (defined as HEX #C4820E, CMYK 0/34/98/12, Pantone 7550).
+
+
+The primary palette is broken into heritage and alternate heritage colors. 
+
+The primary colors, called heritage colors, are \code{Berkeley blue} and \code{California gold}. 
+They represent \href{https://www.berkeley.edu}{Berkeley} at the highest level and should be present in all communications. 
+These colors look best as spot inks, and do not reproduce as richly in four-color process. 
+Never use screens or tints of heritage colors. 
+
+The alternate heritage colors were created to expand the primary palette. 
+They may be used to complement the primary heritage colors but should never completely replace them 
+as main representations of \href{https://www.berkeley.edu}{Berkeley}. 
+For example, \code{Medalist} may replace \code{California gold} in situations 
+where a darker gold is needed.
+
+See the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual} 
+for accessible and suitable combinations.
 }
 \examples{
 berkeley_1
@@ -35,7 +51,7 @@ unikn::seecol(berkeley_1, main = "Primary colors of Berkeley") # view color pale
 
 }
 \seealso{
-\code{\link{berkeley_2}} for the secondary colors of Berkeley, University of California; 
+\code{\link{berkeley_2}} for secondary colors of Berkeley, University of California; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;

@@ -70,7 +70,7 @@
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{berkeley_2}} for the secondary colors of Berkeley, University of California; 
+#' \code{\link{berkeley_2}} for secondary colors of Berkeley, University of California; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -147,7 +147,7 @@ berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{berkeley_1}} for the primary colors of Berkeley, University of California; 
+#' \code{\link{berkeley_1}} for primary colors of Berkeley, University of California; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
