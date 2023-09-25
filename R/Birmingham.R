@@ -1,14 +1,15 @@
-## uni_palette_template.R | 2023 06 12
-## colours of the University of Birmingham, UK 
+## Birmingham.R | 2023 09 25
+## Colours of the University of Birmingham, UK 
 ## -------------------------------------------
 
 # Information: ------
 
 # cur_pals: "birmingham" (1)
 # inst: "University of Birmingham"
-# inst_alt: "University of Birmingham"
+# inst_alt: "Birmingham University / UBirmingham"
 # country: UK
 # URL: "https://www.birmingham.ac.uk/index.aspx"
+
 
 # Colour source:
 
@@ -57,7 +58,8 @@
 #'
 #' @examples
 #' birmingham
-#' unikn::seecol(birmingham, main = "University of Birmingham") # view colour palette
+#' unikn::seecol(birmingham, 
+#'               main = "The colours of the University of Birmingham") # view palette
 #'
 #' @family English university color palettes
 #'
