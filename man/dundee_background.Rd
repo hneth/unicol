@@ -8,7 +8,7 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Colour definitions are based on the
+Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_background} provides the background colour 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland.
 }
 \details{
 A background colour has been developed to act 
@@ -36,7 +36,8 @@ CMYK colours differ from RGB and HEX definition.
 }
 \examples{
 dundee_background
-unikn::seecol(dundee_background, main = "Background colour of Dundee") # view colour palette
+unikn::seecol(dundee_background, col_bg = "grey80",  
+              main = "Background colour of Dundee")  # view colour
 
 }
 \seealso{

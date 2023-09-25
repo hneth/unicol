@@ -8,7 +8,7 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Colour definitions are based on the
+Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_core} provides the core colour 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
+of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 }
 \details{
 The core colour is 
@@ -28,14 +28,19 @@ The core colour is
 Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 
 
-The central blue core colour is at the heart of \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+The central blue core colour is at the heart of 
+\href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
 
 The University shield and wordmark can be reproduced in the core colour 
 and it can also be applied to icons and typography.
+
+See \code{\link{dundee_background}} for 
+\href{https://www.dundee.ac.uk/}{Dundee}'s background colour.
 }
 \examples{
 dundee_core
-unikn::seecol(dundee_core, main = "Dundee core colours") # view colour palette
+unikn::seecol(dundee_core, col_bg = unikn::usecol(dundee_background),  
+              main = "Core colour of Dundee, Scotland")  # view colour 
 
 }
 \seealso{

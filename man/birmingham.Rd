@@ -38,7 +38,8 @@ The two secondary colours are
 }
 \examples{
 birmingham
-unikn::seecol(birmingham, main = "University of Birmingham") # view colour palette
+unikn::seecol(birmingham, 
+              main = "The colours of the University of Birmingham") # view palette
 
 }
 \seealso{

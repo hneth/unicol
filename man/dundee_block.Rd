@@ -8,7 +8,7 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Colour definitions are based on the
+Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_block} provides the block colours 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
+of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 }
 \details{
 The block colours are intended for colouring larger flat spaces. 

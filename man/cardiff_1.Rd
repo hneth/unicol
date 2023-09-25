@@ -44,7 +44,8 @@ These can be used mainly as graphical backgrounds, button overstates etc.
 }
 \examples{
 cardiff_1
-unikn::seecol(cardiff_1, main = "Primary colours of Cardiff University (w/8 tints)")
+unikn::seecol(cardiff_1, col_bg = "grey96",  
+              main = "Primary colours of Cardiff University (w/8 tints)")
 
 }
 \seealso{

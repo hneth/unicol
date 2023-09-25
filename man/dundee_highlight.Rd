@@ -8,7 +8,7 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Colour definitions are based on the
+Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_highlight} provides the highlight colours 
-of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
+of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 }
 \details{
 The highlight colours are 
@@ -36,7 +36,7 @@ These colours can only be used for typography, icons or delicate line work.
 }
 \examples{
 dundee_highlight
-unikn::seecol(dundee_highlight, main = "Dundee highlight colours") # view colour palette
+unikn::seecol(dundee_highlight, main = "Highlight colours of Dundee") # view palette
 
 }
 \seealso{
