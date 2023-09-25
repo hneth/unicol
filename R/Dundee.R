@@ -1,4 +1,4 @@
-## Dundee.R | 2023 09 12
+## Dundee.R | 2023 09 25
 ## Colours of the University of Dundee, Scotland 
 ## ---------------------------------------------
 
@@ -24,7 +24,7 @@
 #' Core colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_core} provides the core colour 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK. 
+#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK. 
 #'
 #' The core colour is 
 #' \code{Dundee core} (defined as PANTONE 2726C, CMYK 83/67/0/0, RGB 67/101/226, HEX #4365e2). 
@@ -32,10 +32,14 @@
 #' Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 #' 
 #' @details
-#' The central blue core colour is at the heart of \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+#' The central blue core colour is at the heart of 
+#' \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
 #' 
 #' The University shield and wordmark can be reproduced in the core colour 
 #' and it can also be applied to icons and typography.
+#' 
+#' See \code{\link{dundee_background}} for 
+#' \href{https://www.dundee.ac.uk/}{Dundee}'s background colour. 
 #' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -44,12 +48,13 @@
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 #' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_core
-#' unikn::seecol(dundee_core, main = "Dundee core colours") # view colour palette
+#' unikn::seecol(dundee_core, col_bg = unikn::usecol(dundee_background),  
+#'               main = "Core colour of Dundee, Scotland")  # view colour 
 #'
 #' @family Scottish university color palettes
 #'
@@ -79,7 +84,7 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #' Highlight colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_highlight} provides the highlight colours 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK. 
+#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK. 
 #'
 #' The highlight colours are 
 #' \code{"highlight_1"} (defined as PANTONE 710C, CMYK 0/85/52/0, RGB 255/98/100, HEX #ff6264),
@@ -100,12 +105,12 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on the
+#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
 #' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_highlight
-#' unikn::seecol(dundee_highlight, main = "Dundee highlight colours") # view colour palette
+#' unikn::seecol(dundee_highlight, main = "Highlight colours of Dundee") # view palette
 #'
 #' @family Scottish university color palettes
 #'
@@ -135,7 +140,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' Block colours of University of Dundee, Scotland 
 #' 
 #' \code{dundee_block} provides the block colours 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland, UK.
+#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 #' 
 #' The block colours are intended for colouring larger flat spaces. 
 #' They are subtle and can be used behind photography without overpowering the images. 
@@ -162,8 +167,8 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on the
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
+#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_block
@@ -199,7 +204,7 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' Background colours of University of Dundee, Scotland/UK 
 #' 
 #' \code{dundee_background} provides the background colour 
-#' of \href{https://www.dundee.ac.uk/}{University of Dundee}, Scotland.
+#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland.
 #' 
 #' A background colour has been developed to act 
 #' as a warmer colour alternative to white for page backgrounds. 
@@ -220,12 +225,13 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on the
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
+#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_background
-#' unikn::seecol(dundee_background, main = "Background colour of Dundee") # view colour palette
+#' unikn::seecol(dundee_background, col_bg = "grey80",  
+#'               main = "Background colour of Dundee")  # view colour
 #'
 #' @family Scottish university color palettes
 #'

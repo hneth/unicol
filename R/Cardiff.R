@@ -1,4 +1,4 @@
-## Cardiff.R | 2023 09 10
+## Cardiff.R | 2023 09 25
 ## Colors of the Cardiff University, Wales, UK 
 ## -------------------------------------------
 
@@ -136,7 +136,8 @@ tints_3 <- unikn::shades_of(5, col_3)[3:1]
 #'
 #' @examples
 #' cardiff_1
-#' unikn::seecol(cardiff_1, main = "Primary colours of Cardiff University (w/8 tints)")
+#' unikn::seecol(cardiff_1, col_bg = "grey96",  
+#'               main = "Primary colours of Cardiff University (w/8 tints)")
 #' 
 #' @family Welsh university color palettes
 #'
