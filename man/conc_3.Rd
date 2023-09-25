@@ -38,7 +38,7 @@ The 9 background tints are
 
 The background tint colours of \code{conc_3} 
 can be used to create blocks of background colour on a web page 
-to seperate and draw attention to content.
+to separate and draw attention to content.
 }
 \examples{
 conc_3
