@@ -47,11 +47,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -306,7 +308,7 @@ seecol(list(dartmouth_1, ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1),
 
 
 # Yellow and blue:
-seecol(list(ucla_1, uci_1, pitt_1), 
+seecol(list(ucla_1, uci_1, pitt_1, carleton), 
        main = "Yellow and blue university colors", col_bg = bg_col)
 
 
