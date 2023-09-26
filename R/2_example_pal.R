@@ -75,14 +75,14 @@ col_4 <- "black"    # "too dark"
 #' \code{\link{newpal}} for defining new color palettes;
 #' \code{\link{grepal}} for finding named colors.
 #'
-# @export
+#' @export
 
 example <- unikn::newpal(col = c(col_1, col_2, col_3, col_4),
                          names = c("Uni pink", "bright grey", "dark gray", "black"),
                          as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(example, main = "Primary colors of the University of Example", col_bg = "lightgrey")
+# unikn::seecol(example, main = "Primary colors of the University of Example", col_bg = "grey90")
 
 
 
