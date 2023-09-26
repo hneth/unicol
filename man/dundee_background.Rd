@@ -3,7 +3,7 @@
 \docType{data}
 \name{dundee_background}
 \alias{dundee_background}
-\title{Background colours of University of Dundee, Scotland/UK}
+\title{Background colours of University of Dundee, Scotland}
 \format{
 An object of class \code{character} of length 1.
 }
@@ -19,7 +19,7 @@ A named vector of colours (HEX/HTML codes of type character).
 }
 \description{
 \code{dundee_background} provides the background colour 
-of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland.
+of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 }
 \details{
 A background colour has been developed to act 

@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the 
-\href{https://example.org}{doc title (HTML or PDF)}.
+\href{https://example.org}{doc title} (HTML or PDF).
 }
 \usage{
 example
@@ -23,17 +23,17 @@ of the \href{https://example.org}{University of Example}, Country.
 }
 \details{
 The 4 primary colors of the University of Example are 
-\code{"pinky pink"} (defined as HEX \code{"#E0607E"}),
+\code{"Uni pink"} (defined as HEX \code{"#E0607E"}),
 \code{"bright grey"} (defined as HEX \code{"#CCCCCC"}), 
-\code{"dark grey"} (defined as HEX \code{"#4C4C4C"}), and
-\code{"dark"} (defined as R color \code{"black"} or HEX \code{"#000000"}).
+\code{"dark gray"} (defined as HEX \code{"#4C4C4C"}), and
+\code{"black"} (defined as the R color \code{"black"} or HEX \code{"#000000"}).
 
 \code{example} uses the HEX color definitions.
 }
 \examples{
 example
-unikn::seecol(example, main = "Colors of the University of Example #") # view color palette
-unikn::demopal(example, main = "Illustrating the colors of Example #") # demo color palette 
+unikn::seecol(example, main = "Colors of the University of Example")  # view color palette
+unikn::demopal(example, main = "Illustrating the colors of Example")  # demo color palette 
 
 }
 \seealso{
@@ -44,7 +44,7 @@ unikn::demopal(example, main = "Illustrating the colors of Example #") # demo co
 \code{\link{grepal}} for finding named colors.
 }
 \author{
-\strong{unicol}, 2023-09-16.
+\strong{unicol}, 2023-09-26.
 }
 \concept{university color palettes}
 \keyword{datasets}

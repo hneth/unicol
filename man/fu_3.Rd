@@ -8,8 +8,8 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on 
-\url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}.
+Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+\href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page.
 }
 \usage{
 fu_3
