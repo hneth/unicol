@@ -56,7 +56,7 @@ of University of Dundee, Scotland, UK."><meta property="og:image" content="https
 
     <div class="ref-description section level2">
     <p><code>dundee_core</code> provides the core colour 
-of <a href="https://www.dundee.ac.uk/" class="external-link">University of Dundee</a>, Scotland, UK.</p>
+of <a href="https://www.dundee.ac.uk" class="external-link">University of Dundee</a>, Scotland, UK.</p>
     </div>
 
     <div class="section level2">
@@ -70,7 +70,7 @@ of <a href="https://www.dundee.ac.uk/" class="external-link">University of Dunde
     </div>
     <div class="section level2">
     <h2 id="source">Source<a class="anchor" aria-label="anchor" href="#source"></a></h2>
-    <p>Colour definitions are based on the
+    <p>Colour definitions are based on <a href="https://www.dundee.ac.uk/" class="external-link">Dundee</a>'s 
 <a href="https://www.dundee.ac.uk/brand/colour-palette" class="external-link">Brand colour palette</a>.</p>
     </div>
     <div class="section level2">
@@ -86,9 +86,12 @@ of <a href="https://www.dundee.ac.uk/" class="external-link">University of Dunde
 <code>Dundee core</code> uses the HEX colour definition. 
 Note that Pantone and CMYK colours differ from the RGB and HEX definition.</p>
 
-<p>The central blue core colour is at the heart of <a href="https://www.dundee.ac.uk/" class="external-link">Dundee</a>'s identity.</p>
+<p>The central blue core colour is at the heart of 
+<a href="https://www.dundee.ac.uk/" class="external-link">Dundee</a>'s identity.</p>
 <p>The University shield and wordmark can be reproduced in the core colour 
 and it can also be applied to icons and typography.</p>
+<p>See <code><a href="dundee_background.html">dundee_background</a></code> for 
+<a href="https://www.dundee.ac.uk/" class="external-link">Dundee</a>'s background colour.</p>
     </div>
     <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
@@ -121,7 +124,8 @@ and it can also be applied to icons and typography.</p>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">dundee_core</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Dundee core </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   "#4365e2" </span>
-<span class="r-in"><span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/seecol.html" class="external-link">seecol</a></span><span class="op">(</span><span class="va">dundee_core</span>, main <span class="op">=</span> <span class="st">"Dundee core colours"</span><span class="op">)</span> <span class="co"># view colour palette</span></span></span>
+<span class="r-in"><span><span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/seecol.html" class="external-link">seecol</a></span><span class="op">(</span><span class="va">dundee_core</span>, col_bg <span class="op">=</span> <span class="fu">unikn</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/unikn/man/usecol.html" class="external-link">usecol</a></span><span class="op">(</span><span class="va">dundee_background</span><span class="op">)</span>,  </span></span>
+<span class="r-in"><span>              main <span class="op">=</span> <span class="st">"Core colour of Dundee, Scotland"</span><span class="op">)</span>  <span class="co"># view colour </span></span></span>
 <span class="r-plt img"><img src="dundee_core-1.png" alt="" width="720" height="576"></span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
