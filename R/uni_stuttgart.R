@@ -199,8 +199,10 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #'
 #' @export
 
-uni_stuttgart_print <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, col_anthrazit_print_blackwhite, col_black_print_text),
-                                     names = c("weiss", "anthrazit", "mittelblau", "hellblau", "anthrazit dark", "black"),
+uni_stuttgart_print <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBlau, col_hellBlau, 
+                                             col_anthrazit_print_blackwhite, col_black_print_text),
+                                     names = c("weiss", "anthrazit", "mittelblau", "hellblau", 
+                                               "anthrazit dark", "black"),
                                      as_df = FALSE)
 
 
