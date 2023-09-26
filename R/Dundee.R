@@ -1,4 +1,4 @@
-## Dundee.R | 2023 09 25
+## Dundee.R | 2023 09 26
 ## Colours of the University of Dundee, Scotland 
 ## ---------------------------------------------
 
@@ -201,10 +201,10 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 
 # - dundee_background: Background colour ------
 
-#' Background colours of University of Dundee, Scotland/UK 
+#' Background colours of University of Dundee, Scotland
 #' 
 #' \code{dundee_background} provides the background colour 
-#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland.
+#' of \href{https://www.dundee.ac.uk}{University of Dundee}, Scotland, UK.
 #' 
 #' A background colour has been developed to act 
 #' as a warmer colour alternative to white for page backgrounds. 
