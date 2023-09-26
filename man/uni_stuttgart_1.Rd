@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on the \href{https://www.uni-stuttgart.de/en}{Uni Stuttgart}'s
 \href{https://www.beschaeftigte.uni-stuttgart.de/uni-services/oeffentlichkeitsarbeit/corporate-design/cd-dateien/Uni_Stuttgart_CD-Manual.pdf}{CD manual (PDF)}.
 }
 \usage{
@@ -38,7 +38,8 @@ yet are visually indistinguishable. Our color palette is based on the HEX defini
 }
 \examples{
 uni_stuttgart_1
-unikn::seecol(uni_stuttgart_1, main = "Primary colors Uni Stuttgart") # view color palette
+unikn::seecol(uni_stuttgart_1, col_bg = "grey90",  
+              main = "Primary colors of the University of Stuttgart")  # view palette
 
 }
 \seealso{
