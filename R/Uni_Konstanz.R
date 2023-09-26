@@ -1,4 +1,4 @@
-## Uni_Konstanz.R | 2023 08 25
+## Uni_Konstanz.R | 2023 09 26
 ## Colors of the Universität Konstanz / University of Konstanz, Germany
 ## --------------------------------------------------------------------
 
@@ -46,9 +46,9 @@
 #' retrieved from \url{https://CRAN.R-project.org/package=unikn},    
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
-#' Color definitions are based on 
-#' \url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}  
-#' \url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}
+#' Original color definitions are based on \href{https://www.uni-konstanz.de}{uni.kn}'s 
+#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}{Corporate design} and   
+#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}{Colours for complex graphics} pages. 
 #'
 #' @examples
 #' uni_konstanz_1
@@ -96,9 +96,9 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 #' retrieved from \url{https://CRAN.R-project.org/package=unikn},    
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
-#' Color definitions are based on 
-#' \url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}  
-#' \url{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}
+#' Original color definitions are based on \href{https://www.uni-konstanz.de}{uni.kn}'s 
+#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}{Corporate design} and   
+#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}{Colours for complex graphics} pages. 
 #'
 #' @examples
 #' uni_konstanz_2
@@ -128,6 +128,6 @@ uni_konstanz_2 <- unikn::newpal(col = unikn::pal_unikn_pref,
 
 ## ToDo: -----
 
-# - etc. ----
+# - Consider incorporating gradient palettes of unikn
 
 ## eof. ----
