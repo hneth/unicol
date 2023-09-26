@@ -1,4 +1,4 @@
-## FU_Berlin.R | 2023 08 25
+## FU_Berlin.R | 2023 09 26
 ## Colors of FU Berlin / Free University Berlin, Germany
 ## -----------------------------------------------------
 
@@ -52,7 +52,9 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
                           names = c("FU blue", "FU green"),
                           as_df = FALSE)
 
+
 # unikn::seecol(fu_col_1, main = "Primary colors of FU Berlin")
+
 
 # - fu_0: Two primary colors of the FU Berlin ----
 
@@ -78,8 +80,8 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
+#' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_0
@@ -165,8 +167,8 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
+#' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_2
@@ -234,8 +236,8 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
+#' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_3
@@ -298,8 +300,8 @@ fu_3 <- fu_blues
 #' \strong{unicol}, 2022-12-03.
 #' 
 #' @source 
-#' Color definitions are based on 
-#' \url{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}. 
+#' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page.  
 #' 
 #' @examples
 #' fu_1
@@ -334,6 +336,6 @@ fu_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
 
 ## ToDo: -----
 
-# -etc. ----
+# - See <https://www.fu-berlin.de/sites/corporate-design/cd-neu/index.html> for new design (in 2023).
 
 ## eof. ----
