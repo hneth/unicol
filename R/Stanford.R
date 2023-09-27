@@ -1,10 +1,10 @@
-## Stanford.R | 2023 09 19
+## Stanford.R | 2023 09 29
 ## Colors of Stanford University, USA
 ## ----------------------------------
 
 # Information: ------
 
-# cur_pals: "stanford_1", "stanford_2_accent", stanford_3_web (3)
+# cur_pals: "stanford_1", "stanford_2", stanford_3 (3)
 # inst: "Stanford University"
 # country: USA
 # URL: "https://www.stanford.edu"
@@ -22,16 +22,16 @@
 # Color palette(s):
 
 
-# - stanford_1: Primary colors ------
+# - stanford_1: Primary colors of Stanford ------
 
 #' Primary colors of Stanford University, USA 
 #'
 #' \code{stanford_1} provides the 15 primary colors
-#' of \href{https://www.stanford.edu/}{Stanford University}, USA.
+#' of \href{https://www.stanford.edu/}{Stanford University}, CA, USA.
 #'
 #' \href{https://www.stanford.edu/}{UStanford}'s 
 #' primary color palette consists of 
-#' \code{Cardinal red}, \code{white}, \code{black} and \code{cool grey}.
+#' \code{Cardinal red}, \code{white}, \code{black}, and \code{cool grey}.
 #' 
 #' The layouts lean heavily on these colors, which are 
 #' \code{"Cardinal red"} (defined as HEX #8C1515),
@@ -62,13 +62,14 @@
 #'
 #' @examples
 #' stanford_1
-#' unikn::seecol(stanford_1, main = "Primary colors Stanford Uni") # view color palette
+#' unikn::seecol(stanford_1, col_bg = "grey96",  
+#'               main = "The primary colors of Stanford University")  # view color palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
-#' \code{\link{stanford_2_accent}} for secondary, accent colors of Stanford University;
-#' \code{\link{stanford_3_web}} for web colors of Stanford University;
+#' \code{\link{stanford_2}} for secondary, accent colors of Stanford University;
+#' \code{\link{stanford_3}} for web colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -86,16 +87,16 @@ stanford_1 <- unikn::newpal(col = c("#8C1515", "#B83A4B", "#820000",
                             as_df = FALSE)
 
 # # Check:
-# unikn::seecol(stanford_1, main = "Primary colors Stanford University", col_bg = "lightgrey")
+# unikn::seecol(stanford_1, main = "Primary colors of Stanford University", col_bg = "lightgrey")
 
 
 
-# - stanford_2_accent: Accent colors ------
+# - stanford_2: Accent colors of Stanford ------
 
 #' Accent colors of Stanford University, USA 
 #'
-#' \code{stanford_2_accent} provides the 42 accent colors
-#' of \href{https://www.stanford.edu}{Stanford University}, USA.
+#' \code{stanford_2} provides the 42 accent colors
+#' of \href{https://www.stanford.edu}{Stanford University}, CA, USA.
 #'
 #' The following colors are intended to compliment the primary colors: 
 #' \code{"palo alto"} (defined as HEX #175E54),
@@ -158,14 +159,14 @@ stanford_1 <- unikn::newpal(col = c("#8C1515", "#B83A4B", "#820000",
 #' \href{https://identity.stanford.edu/design-elements/color/}{Color manual}.
 #'
 #' @examples
-#' stanford_2_accent
-#' unikn::seecol(stanford_2_accent, main = "Accent colors Stanford Uni") # view color palette
+#' stanford_2
+#' unikn::seecol(stanford_2, main = "Accent colors of Stanford Univeristy")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{stanford_1}} for primary colors of Stanford University;
-#' \code{\link{stanford_3_web}} for web colors of Stanford University;
+#' \code{\link{stanford_3}} for web colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -174,50 +175,50 @@ stanford_1 <- unikn::newpal(col = c("#8C1515", "#B83A4B", "#820000",
 #'
 #' @export 
 
-stanford_2_accent <- unikn::newpal(col = c("#175E54", "#2D716F", "#014240", 
-                                           "#279989", "#59B3A9", "#017E7C", 
-                                           "#8F993E", "#A6B168", "#7A863B", 
-                                           "#6FA287", "#8AB8A7", "#417865", 
-                                           "#4298B5", "#67AFD2", "#016895", 
-                                           "#007C92", "#009AB4", "#006B81", 
-                                           "#E98300", "#F9A44A", "#D1660F", 
-                                           "#E04F39", "#F4795B", "#C74632", 
-                                           "#FEDD5C", "#FFE781", "#FEC51D", 
-                                           "#620059", "#734675", "#350D36", 
-                                           "#651C32", "#7F2D48", "#42081B", 
-                                           "#5D4B3C", "#766253", "#2F2424", 
-                                           "#7F7776", "#D4D1D1", "#544948", 
-                                           "#DAD7CB", "#F4F4F4", "#B6B1A9"), 
-                                   names = c("palo alto", "palo alto light", "palo alto dark", 
-                                             "palo verde", "palo verde light", "palo verde dark", 
-                                             "olive", "olive light", "olive dark", 
-                                             "bay", "bay light", "bay dark", 
-                                             "sky", "sky light", "sky dark", 
-                                             "lagunita", "lagunita light", "lagunita dark", 
-                                             "poppy", "poppy light", "poppy dark", 
-                                             "spirited", "spirited light", "spirited dark", 
-                                             "illuminating", "illuminating light", "illuminating dark", 
-                                             "plum", "plum light", "plum dark", 
-                                             "brick", "brick light", "brick dark", 
-                                             "archway", "archway light", "archway dark", 
-                                             "stone", "stone light", "stone dark", 
-                                             "fog", "fog light", "fog dark"),
-                                   as_df = FALSE)
+stanford_2 <- unikn::newpal(col = c("#175E54", "#2D716F", "#014240", 
+                                    "#279989", "#59B3A9", "#017E7C", 
+                                    "#8F993E", "#A6B168", "#7A863B", 
+                                    "#6FA287", "#8AB8A7", "#417865", 
+                                    "#4298B5", "#67AFD2", "#016895", 
+                                    "#007C92", "#009AB4", "#006B81", 
+                                    "#E98300", "#F9A44A", "#D1660F", 
+                                    "#E04F39", "#F4795B", "#C74632", 
+                                    "#FEDD5C", "#FFE781", "#FEC51D", 
+                                    "#620059", "#734675", "#350D36", 
+                                    "#651C32", "#7F2D48", "#42081B", 
+                                    "#5D4B3C", "#766253", "#2F2424", 
+                                    "#7F7776", "#D4D1D1", "#544948", 
+                                    "#DAD7CB", "#F4F4F4", "#B6B1A9"), 
+                            names = c("palo alto", "palo alto light", "palo alto dark", 
+                                      "palo verde", "palo verde light", "palo verde dark", 
+                                      "olive", "olive light", "olive dark", 
+                                      "bay", "bay light", "bay dark", 
+                                      "sky", "sky light", "sky dark", 
+                                      "lagunita", "lagunita light", "lagunita dark", 
+                                      "poppy", "poppy light", "poppy dark", 
+                                      "spirited", "spirited light", "spirited dark", 
+                                      "illuminating", "illuminating light", "illuminating dark", 
+                                      "plum", "plum light", "plum dark", 
+                                      "brick", "brick light", "brick dark", 
+                                      "archway", "archway light", "archway dark", 
+                                      "stone", "stone light", "stone dark", 
+                                      "fog", "fog light", "fog dark"),
+                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(stanford_2_accent, main = "Accent colors Stanford University", col_bg = "lightgrey")
+# unikn::seecol(stanford_2, main = "Accent colors Stanford University", col_bg = "lightgrey")
 
 
 
-# - stanford_3_web: Web colors ------
+# - stanford_3: Web colors of Stanford ------
 
 
-#' Web colors of Stanford University
+#' Web colors of Stanford University, USA 
 #'
-#' \code{stanford_3_web} provides the nine web colors
-#' of \href{https://www.stanford.edu}{Stanford University}, USA. 
+#' \code{stanford_3} provides the nine web colors
+#' of \href{https://www.stanford.edu}{Stanford University}, CA, USA. 
 #'
-#' These nine web colors are
+#' These 9 web colors are
 #' \code{"digital red"} (defined as HEX #B1040E),
 #' \code{"digital red light"} (defined as HEX #E50808),
 #' \code{"digital red dark"} (defined as HEX #820000),
@@ -252,14 +253,14 @@ stanford_2_accent <- unikn::newpal(col = c("#175E54", "#2D716F", "#014240",
 #' \href{https://identity.stanford.edu/design-elements/color/}{Color manual}.
 #'
 #' @examples
-#' stanford_3_web
-#' unikn::seecol(stanford_3_web, main = "Web colors Stanford University") # view color palette
+#' stanford_3
+#' unikn::seecol(stanford_3, main = "Web colors of Stanford University") # view palette
 #'
 #' @family U.S. university color palettes
 #'
 #' @seealso
 #' \code{\link{stanford_1}} for primary colors of Stanford University;
-#' \code{\link{stanford_2_accent}} for accent colors of Stanford University;
+#' \code{\link{stanford_2}} for accent colors of Stanford University;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -268,16 +269,16 @@ stanford_2_accent <- unikn::newpal(col = c("#175E54", "#2D716F", "#014240",
 #'
 #' @export
 
-stanford_3_web <- unikn::newpal(col = c("#B1040E", "#E50808", "#820000", 
-                                        "#006CB8", "#6FC3FF", "#00548f", 
-                                        "#008566", "#1AECBA", "#006F54"),
-                                names = c("digital red", "digital red light", "digital red dark", 
-                                          "digital blue", "digital blue light", "digital blue dark", 
-                                          "digital green", "digital green light", "digital green dark"),
-                                as_df = FALSE)
+stanford_3 <- unikn::newpal(col = c("#B1040E", "#E50808", "#820000", 
+                                    "#006CB8", "#6FC3FF", "#00548f", 
+                                    "#008566", "#1AECBA", "#006F54"),
+                            names = c("digital red", "digital red light", "digital red dark", 
+                                      "digital blue", "digital blue light", "digital blue dark", 
+                                      "digital green", "digital green light", "digital green dark"),
+                            as_df = FALSE)
 
 # # Check:
-# unikn::seecol(stanford_3_web, main = "Web colors Stanford University", col_bg = "lightgrey")
+# unikn::seecol(stanford_3, main = "Web colors Stanford University", col_bg = "lightgrey")
 
 
 
