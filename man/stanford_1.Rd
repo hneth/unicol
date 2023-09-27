@@ -19,12 +19,12 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{stanford_1} provides the 15 primary colors
-of \href{https://www.stanford.edu/}{Stanford University}, USA.
+of \href{https://www.stanford.edu/}{Stanford University}, CA, USA.
 }
 \details{
 \href{https://www.stanford.edu/}{UStanford}'s 
 primary color palette consists of 
-\code{Cardinal red}, \code{white}, \code{black} and \code{cool grey}.
+\code{Cardinal red}, \code{white}, \code{black}, and \code{cool grey}.
 
 The layouts lean heavily on these colors, which are 
 \code{"Cardinal red"} (defined as HEX #8C1515),
@@ -45,7 +45,8 @@ The layouts lean heavily on these colors, which are
 }
 \examples{
 stanford_1
-unikn::seecol(stanford_1, main = "Primary colors Stanford Uni") # view color palette
+unikn::seecol(stanford_1, col_bg = "grey96",  
+              main = "The primary colors of Stanford University")  # view color palette
 
 }
 \seealso{
