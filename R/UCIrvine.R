@@ -1,4 +1,4 @@
-## Irvine.R | 2023 09 27
+## UCIrvine.R | 2023 09 27
 ## Colors of the University of California, Irvine, USA
 ## ----------------------------------------------------
 
