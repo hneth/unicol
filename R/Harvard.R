@@ -1,4 +1,4 @@
-## Harvard.R | 2023 09 19
+## Harvard.R | 2023 09 27
 ## Colors of Harvard University, USA
 ## ---------------------------------
 
@@ -29,9 +29,9 @@
 #'
 #' \code{harvard_1} provides the two primary colors
 #' of \href{https://www.harvard.edu}{Harvard University}, USA.
-#'
-#' Within our color palette, we have two primary colors that are used:
-#' \code{"Harvard crimson"} (defined as RGB 165/28/48, HEX #A51C30) and
+#' 
+#' The 2 primary colors are 
+#' \code{"Harvard crimson"} (defined as RGB 165/28/48, HEX #A51C30), and
 #' \code{"Harvard black"} (defined as RGB 30/30/30, HEX #1E1E1E).
 #' 
 #' \code{harvard_1} uses the HEX color definitions. 
@@ -43,7 +43,7 @@
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
+#' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 #' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
@@ -94,7 +94,7 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
+#' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 #' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
@@ -156,12 +156,12 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #' \strong{unicol}, 2023-06-14.
 #'
 #' @source
-#' Color definitions are based on the
+#' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 #' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 #'
 #' @examples
 #' harvard_3
-#' unikn::seecol(harvard_3, main = "Web colors of Harvard University") # view color palette
+#' unikn::seecol(harvard_3, main = "Web colors of Harvard University")  # view palette
 #'
 #' @family U.S. university color palettes
 #'
