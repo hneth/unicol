@@ -1,6 +1,6 @@
-## Laval.R | 2023 09 14
-## Colors of the Laval University, Canada 
-## --------------------------------------
+## Laval.R | 2023 09 27
+## Colours of the Laval University, Canada 
+## ---------------------------------------
 
 # Information: ------
 
@@ -22,22 +22,22 @@
 
 # - laval: 2 primary and 4 secondary colors of Laval University ------
 
-#' Colors of the Laval University, Canada 
+#' Colours of the Laval University, Canada 
 #'
-#' \code{laval} provides the two primary colors and the four secondary colors
-#' of the \href{https://www.ulaval.ca}{Laval University}, Canada.
+#' \code{laval} provides the two primary colours and the four secondary colours
+#' of \href{https://www.ulaval.ca}{Laval University}, Canada.
 #'
-#' The two primary colors are
-#' \code{"red_laval"} (defined as RGB 227/5/19, HEX #e30513) and
-#' \code{"yellow_laval"} (defined as RGB 255/193/3, HEX #ffc103).
+#' The 2 primary colours are
+#' \code{"Laval red"} (defined as RGB 227/5/19, or HEX #e30513),  and
+#' \code{"Laval yellow"} (defined as RGB 255/193/3, or HEX #ffc103).
 #' 
-#' The four secondary colors are
+#' The 4 secondary colours are
 #' \code{"Laval light grey"} (defined as RGB 217/217/217, HEX #d9d9d9),
 #' \code{"Laval medium grey"} (defined as RGB 127/127/127, HEX #7f7f7f), 
 #' \code{"Laval dark grey"} (defined as RGB 81/81/81, HEX #515151), and 
 #' \code{"black"} (defined as RGB 0/0/0, HEX #000000).
 #'
-#' \code{laval} uses the HEX color definitions.
+#' \code{laval} uses the HEX colour definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -46,12 +46,12 @@
 #' \strong{unicol}, 2023-07-04.
 #'
 #' @source 
-#' Color definitions are based on \href{https://www.ulaval.ca}{Laval}'s 
+#' Colour definitions are based on \href{https://www.ulaval.ca}{Laval}'s 
 #' \href{https://www.ulaval.ca/identite-visuelle}{visual identity} site. 
 #'
 #' @examples
 #' laval
-#' unikn::seecol(laval, main = "Les couleurs de Laval University")  # view color palette
+#' unikn::seecol(laval, main = "Les couleurs de Laval University, CA")  # view color palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -71,7 +71,7 @@ laval <- unikn::newpal(col = c("#e30513", "#ffc103",
                        as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(laval, main = "Colors of the Université Laval", col_bg = "white")
+# unikn::seecol(laval, main = "Colours of the Université Laval, CA", col_bg = "white")
 
 
 

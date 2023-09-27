@@ -1,4 +1,4 @@
-## Groningen.R | 2023 08 17
+## Groningen.R | 2023 09 27
 ## Colors of the University of Groningen, Netherlands 
 ## --------------------------------------------------
 
@@ -11,8 +11,8 @@
 
 # inst: "University of Groningen" (in English)
 # inst_alt: "Rijksuniversiteit Groningen" (in Dutch)
-# inst_URL: "https://www.rug.nl" (URL of institution)
-# country: Netherlands
+# inst_URL: "https://www.rug.nl"
+# country: Netherlands, NL 
 
 # Color source:
 
@@ -72,13 +72,15 @@ rug_yellow <- grDevices::rgb(255, 220, 100, maxColorValue = 255)
 #' P. M. Santos to \strong{unicol}, 2023-08-17.
 #'
 #' @source 
-#' Color definitions are based on the University of Groningen's 
-#' \href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style basics (HTML)}.
+#' Color definitions are based on \href{https://www.rug.nl}{UGroningen}'s 
+#' \href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style} 
+#' specifications.
 #'
 #' @examples
 #' groningen_1
-#' unikn::seecol(groningen_1, main = "Colors of the University of Groningen 1") # view color palette
-#' unikn::demopal(groningen_1, main = "Illustrating the colors of Groningen 1") # demo color palette 
+#' unikn::seecol(groningen_1, col_bg = "grey90",  
+#'               main = "Primary colors of the University of Groningen")  # view palette
+#' # unikn::demopal(groningen_1, main = "Illustrating the colors of Groningen")  # demo
 #' 
 #' @family Dutch university color palettes
 #'
@@ -125,13 +127,14 @@ groningen_1 <- unikn::newpal(col = c(rug_red, rug_white, rug_black),
 #' P. M. Santos to \strong{unicol}, 2023-08-17.
 #'
 #' @source 
-#' Color definitions are based on the University of Groningen's 
-#' \href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style basics (HTML)}.
+#' Color definitions are based on \href{https://www.rug.nl}{UGroningen}'s 
+#' \href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style} 
+#' specifications.
 #'
 #' @examples
 #' groningen_2
-#' unikn::seecol(groningen_2, main = "Colors of the University of Groningen 2") # view color palette
-#' unikn::demopal(groningen_2, main = "Illustrating the colors of Groningen 2") # demo color palette 
+#' unikn::seecol(groningen_2, main = "Secondary colors of the University of Groningen, NL")
+#' # unikn::demopal(groningen_2, main = "Illustrating the secondary colors of Groningen 2") # demo
 #' 
 #' @family Dutch university color palettes
 #'
