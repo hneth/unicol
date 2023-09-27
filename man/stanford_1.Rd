@@ -49,8 +49,8 @@ unikn::seecol(stanford_1, main = "Primary colors Stanford Uni") # view color pal
 
 }
 \seealso{
-\code{\link{stanford_2_accent}} for secondary, accent colors of Stanford University;
-\code{\link{stanford_3_web}} for web colors of Stanford University;
+\code{\link{stanford_2}} for secondary, accent colors of Stanford University;
+\code{\link{stanford_3}} for web colors of Stanford University;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -119,8 +119,8 @@ Other U.S. university color palettes:
 \code{\link{rpi_1}},
 \code{\link{rpi_2}},
 \code{\link{rpi_3}},
-\code{\link{stanford_2_accent}},
-\code{\link{stanford_3_web}},
+\code{\link{stanford_2}},
+\code{\link{stanford_3}},
 \code{\link{uchicago_1}},
 \code{\link{uchicago_2}},
 \code{\link{uci_1}},
