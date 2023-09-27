@@ -23,12 +23,12 @@ of \href{https://www.stanford.edu}{Stanford University}, CA, USA.
 }
 \details{
 The following colors are intended to compliment the primary colors: 
-\code{"palo alto"} (defined as HEX #175E54),
-\code{"palo alto light"} (defined as HEX #2D716F),
-\code{"palo alto dark"} (defined as HEX #014240),
-\code{"palo verde"} (defined as HEX #279989),
-\code{"palo verde light"} (defined as HEX #59B3A9),
-\code{"palo verde dark"} (defined as HEX #017E7C),
+\code{"Palo alto"} (defined as HEX #175E54),
+\code{"Palo alto light"} (defined as HEX #2D716F),
+\code{"Palo alto dark"} (defined as HEX #014240),
+\code{"Palo verde"} (defined as HEX #279989),
+\code{"Palo verde light"} (defined as HEX #59B3A9),
+\code{"Palo verde dark"} (defined as HEX #017E7C),
 \code{"olive"} (defined as HEX #8F993E),
 \code{"olive light"} (defined as HEX #A6B168),
 \code{"olive dark"} (defined as HEX #7A863B),
@@ -38,9 +38,9 @@ The following colors are intended to compliment the primary colors:
 \code{"sky"} (defined as HEX #4298B5),
 \code{"sky light"} (defined as HEX #67AFD2),
 \code{"sky dark"} (defined as HEX #016895),
-\code{"lagunita"} (defined as HEX #007C92),
-\code{"lagunita light"} (defined as HEX #009AB4),
-\code{"lagunita dark"} (defined as HEX #006B81),
+\code{"Lagunita"} (defined as HEX #007C92),
+\code{"Lagunita light"} (defined as HEX #009AB4),
+\code{"Lagunita dark"} (defined as HEX #006B81),
 \code{"poppy"} (defined as HEX #E98300),
 \code{"poppy light"} (defined as HEX #F9A44A),
 \code{"poppy dark"} (defined as HEX #D1660F),
@@ -74,7 +74,7 @@ For those circumstances, we have developed this accent palette.
 }
 \examples{
 stanford_2
-unikn::seecol(stanford_2, main = "Accent colors of Stanford Univeristy")  # view palette
+unikn::seecol(stanford_2, main = "Accent colors of Stanford University")  # view palette
 
 }
 \seealso{
