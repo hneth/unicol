@@ -8,8 +8,9 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on the University of Groningen's 
-\href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style basics (HTML)}.
+Color definitions are based on \href{https://www.rug.nl}{UGroningen}'s 
+\href{https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/kleuren}{House style} 
+specifications.
 }
 \usage{
 groningen_2
@@ -34,8 +35,8 @@ The 6 secondary colors are
 }
 \examples{
 groningen_2
-unikn::seecol(groningen_2, main = "Colors of the University of Groningen 2") # view color palette
-unikn::demopal(groningen_2, main = "Illustrating the colors of Groningen 2") # demo color palette 
+unikn::seecol(groningen_2, main = "Secondary colors of the University of Groningen, NL")
+# unikn::demopal(groningen_2, main = "Illustrating the secondary colors of Groningen 2") # demo
 
 }
 \seealso{
