@@ -8,8 +8,8 @@
 An object of class \code{character} of length 7.
 }
 \source{
-Color definitions are based on 
-\href{https://brand.uci.edu/master-branding/color-palette/}{UCI's brand guide}.
+Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
+\href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
 }
 \usage{
 uci_2
@@ -18,24 +18,30 @@ uci_2
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uci_2} provides the 7 secondary colors
+\code{uci_2} provides the seven secondary colors
 of the \href{https://www.uci.edu}{University of California, Irvine}, USA.
 }
 \details{
 The 7 secondary colors are
-\code{"light_blue"} (defined as HEX #6aa2b8),
-\code{"light_gray"} (defined as HEX #c6beb5),
-\code{"dark_blue"} (defined as HEX #1b3d6d),
+\code{"light blue"} (defined as HEX #6aa2b8),
+\code{"light gray"} (defined as HEX #c6beb5),
+\code{"dark blue"} (defined as HEX #1b3d6d),
 \code{"orange"} (defined as HEX #f78d2d), 
-\code{"light_yellow"} (defined as HEX #f7eb5f), 
-\code{"dark_gray"} (defined as HEX #555759), and 
-\code{"lime_green"} (defined as HEX #7ab800). 
+\code{"light yellow"} (defined as HEX #f7eb5f), 
+\code{"dark gray"} (defined as HEX #555759), and 
+\code{"lime green"} (defined as HEX #7ab800). 
 
 \code{uci_2} uses the HEX color definitions.
+
+
+Colors from the secondary color palette may be used as complements 
+to the primary palette (see \code{\link{uci_1}}). 
+
+To be used in all non-patient-facing material.
 }
 \examples{
 uci_2
-unikn::seecol(uci_2, main = "University of California, Irvine") # view color palette
+unikn::seecol(uci_2, main = "Secondary colors of UC Irvine")  # view palette
 
 }
 \seealso{

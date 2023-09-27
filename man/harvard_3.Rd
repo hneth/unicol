@@ -8,7 +8,7 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 }
 \usage{
@@ -43,7 +43,7 @@ For \code{"saffron"} the RGB and HEX definitions differ numerically.
 }
 \examples{
 harvard_3
-unikn::seecol(harvard_3, main = "Web colors of Harvard University") # view color palette
+unikn::seecol(harvard_3, main = "Web colors of Harvard University")  # view palette
 
 }
 \seealso{

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 }
 \usage{

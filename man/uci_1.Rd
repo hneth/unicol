@@ -8,8 +8,8 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on 
-\href{https://brand.uci.edu/master-branding/color-palette/}{UCI's brand guide}.
+Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
+\href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
 }
 \usage{
 uci_1
@@ -18,19 +18,28 @@ uci_1
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uci_1} provides the 2 primary colors
+\code{uci_1} provides the two primary colors
 of the \href{https://www.uci.edu}{University of California, Irvine}, USA.
 }
 \details{
 The 2 primary colors are
-\code{"uci_blue"} (defined as HEX #0064a4) and
-\code{"uci_gold"} (defined as HEX #ffd200).
+\code{"UCI blue"} (defined as PMS 7685, CMYK 93/73/11/1, RGB 0/100/164, or HEX #0064a4), and
+\code{"UCI gold"} (defined as PMS 109, CMYK 0/16/100/0, RGB 255/210/0, or HEX #ffd200). 
 
 \code{uci_1} uses the HEX color definitions.
+
+
+The primary color palette should be used on all design and marketing materials, 
+both internally and externally.
+
+PMS colors are purposefully different from their corresponding HEX values 
+for quality purposes. 
+Use the PMS/CMYK values for printed materials and use the 
+RGB/HEX values for any digital projects.
 }
 \examples{
 uci_1
-unikn::seecol(uci_1, main= "University of California, Irvine") #view color palette.
+unikn::seecol(uci_1, main = "Primary colors of the University of California, Irvine")
 
 }
 \seealso{

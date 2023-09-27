@@ -8,7 +8,7 @@
 An object of class \code{character} of length 2.
 }
 \source{
-Color definitions are based on the
+Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
 \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
 }
 \usage{
@@ -22,8 +22,8 @@ A named vector of colors (HEX/HTML codes of type character).
 of \href{https://www.harvard.edu}{Harvard University}, USA.
 }
 \details{
-Within our color palette, we have two primary colors that are used:
-\code{"Harvard crimson"} (defined as RGB 165/28/48, HEX #A51C30) and
+The 2 primary colors are 
+\code{"Harvard crimson"} (defined as RGB 165/28/48, HEX #A51C30), and
 \code{"Harvard black"} (defined as RGB 30/30/30, HEX #1E1E1E).
 
 \code{harvard_1} uses the HEX color definitions.

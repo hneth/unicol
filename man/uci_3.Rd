@@ -3,13 +3,13 @@
 \docType{data}
 \name{uci_3}
 \alias{uci_3}
-\title{Tertiary colors of the University of California, Irvine, USA}
+\title{Tertiary colors of UCI Health, Irvine, USA}
 \format{
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on 
-\href{https://brand.uci.edu/master-branding/color-palette/}{UCI's brand guide}.
+Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
+\href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
 }
 \usage{
 uci_3
@@ -18,22 +18,26 @@ uci_3
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uci_3} provides the 5 tertiary colors of the 
-of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
+\code{uci_3} provides five tertiary colors of the 
+of the \href{https://www.uci.edu}{University of California, Irvine}, USA, 
+that are used as the colors of \href{https://www.ucihealth.org}{UCI Health}.
 }
 \details{
 The 5 tertiary colors are
-\code{"dark_orange"} (defined as HEX #b71234),
-\code{"bright_purple"} (defined as HEX #7c109a),
+\code{"dark orange"} (defined as HEX #b71234),
+\code{"bright purple"} (defined as HEX #7c109a),
 \code{"turquoise"} (defined as HEX #00b0ca),
-\code{"lime_green"} (defined as HEX #7ab800), and 
+\code{"lime green"} (defined as HEX #7ab800), and 
 \code{"yellow"} (defined as HEX #fecb00).
 
 \code{uci_3} uses the HEX color definitions.
+
+
+Only to be used in patient-facing material.
 }
 \examples{
 uci_3
-unikn::seecol(uci_3, main = "U of California, Irvine, 3") # view color palette
+unikn::seecol(uci_3, main = "Tertiary colors of UCI Health") # view color palette
 
 }
 \seealso{

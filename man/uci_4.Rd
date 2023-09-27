@@ -3,13 +3,13 @@
 \docType{data}
 \name{uci_4}
 \alias{uci_4}
-\title{Neutral colors of the University of California, Irvine, USA}
+\title{Secondary colors of UCI Health, Irvine, USA}
 \format{
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on 
-\href{https://brand.uci.edu/master-branding/color-palette/}{UCI's brand guide}.
+Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
+\href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
 }
 \usage{
 uci_4
@@ -18,22 +18,26 @@ uci_4
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uci_4} provides the 5 neutral colors
-of the \href{https://www.uci.edu}{University of California Health, Irvine}, USA.
+\code{uci_4} provides 5 neutral colors
+of the \href{https://www.uci.edu}{University of California, Irvine}, USA, 
+that are used as the secondary colors of \href{https://www.ucihealth.org}{UCI Health}.
 }
 \details{
-The 5 neutral colors are 
-\code{"brick_red"} (defined as HEX #981e32),
+The 5 colors are 
+\code{"brick red"} (defined as HEX #981e32),
 \code{"purple"} (defined as HEX #631d76),
-\code{"teal_blue"} (defined as HEX #0083b3),
+\code{"teal blue"} (defined as HEX #0083b3),
 \code{"green"} (defined as HEX #3f9c35), and 
-\code{"dark_blue"} (defined as HEX #1b3d6d).
+\code{"dark blue"} (defined as HEX #1b3d6d).
 
 \code{uci_4} uses the HEX color definitions.
+
+
+Only to be used in patient-facing material.
 }
 \examples{
 uci_4
-unikn::seecol(uci_4, main = "U of California, Irvine (4: neutral)") # view color palette
+unikn::seecol(uci_4, main = "Secondary colors of UCI Health")  # view color palette
 
 }
 \seealso{
