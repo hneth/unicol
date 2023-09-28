@@ -1,4 +1,4 @@
-## Maynooth.R | 2023 09 09
+## Maynooth.R | 2023 09 29
 ## Colors of the National University of Ireland Maynooth, IE 
 ## ---------------------------------------------------------
 
@@ -94,7 +94,7 @@ names_maynooth <- c("Pantone 294", "Pantone 130", "Pantone 3145", "Pantone 202")
 #'
 #' @examples
 #' maynooth
-#' unikn::seecol(maynooth, main = "Colours of Maynooth University, IE") # view color palette
+#' unikn::seecol(maynooth, main = "The colours of Maynooth University, IE")  # view palette
 #' 
 #' @family Irish university color palettes
 #'
