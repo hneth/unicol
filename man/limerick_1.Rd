@@ -8,8 +8,8 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on 
-\href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
+Colour definitions are based on \href{https://www.ul.ie}{ULimerick}'s 
+\href{https://www.ul.ie/media/31805/download?inline}{brand guidelines} (PDF).
 }
 \usage{
 limerick_1
@@ -32,7 +32,8 @@ The 4 primary colours are
 }
 \examples{
 limerick_1
-unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palette.
+unikn::seecol(limerick_1, col_bg = "grey90", 
+              main= "Primary colours of the University of Limerick")  # view palette
 
 }
 \seealso{

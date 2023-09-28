@@ -8,8 +8,8 @@
 An object of class \code{character} of length 14.
 }
 \source{
-Colour definitions are based on 
-\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
+Colour definitions are based on \href{https://www.universityofgalway.ie}{UGalway}'s 
+\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{brand guidelines} (PDF).
 }
 \usage{
 galway_2
@@ -42,7 +42,7 @@ The 14 secondary colors are
 }
 \examples{
 galway_2
-unikn::seecol(galway_2, main = "University of Galway 2") # view color palette
+unikn::seecol(galway_2, main = "Secondary colours of the University of Galway") # view palette
 
 }
 \seealso{

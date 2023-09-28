@@ -38,7 +38,7 @@ These colours and tints of these colours may be used on \href{https://www.maynoo
 }
 \examples{
 maynooth
-unikn::seecol(maynooth, main = "Colours of Maynooth University, IE") # view color palette
+unikn::seecol(maynooth, main = "The colours of Maynooth University, IE")  # view palette
 
 }
 \seealso{

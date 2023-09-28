@@ -8,8 +8,8 @@
 An object of class \code{character} of length 17.
 }
 \source{
-Colour definitions are based on 
-\href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
+Colour definitions are based on \href{https://www.ul.ie}{ULimerick}'s 
+\href{https://www.ul.ie/media/31805/download?inline}{brand guidelines} (PDF).
 }
 \usage{
 limerick_2
@@ -18,7 +18,7 @@ limerick_2
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{limerick_2} provides the 12 secondary colors
+\code{limerick_2} provides the twelve secondary colors
 of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 }
 \details{
@@ -28,7 +28,7 @@ The 12 secondary colors are
 \code{"stone"} (defined as HEX #2D5980),
 \code{"marine"} (defined as HEX #13294B), 
 \code{"marigold"} (defined as HEX #FFC72C), 
-\code{"golden_leaf"} (defined as HEX #FFA300), 
+\code{"golden leaf"} (defined as HEX #FFA300), 
 \code{"pumpkin"} (defined as HEX #D45D00), 
 \code{"munster"} (defined as HEX #CB333B), 
 \code{"salmon"} (defined as HEX #E31C79), 
@@ -45,7 +45,8 @@ The 12 secondary colors are
 }
 \examples{
 limerick_2
-unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palette
+unikn::seecol(limerick_2, col_bg = "grey90",  
+              main = "Secondary colours of the University of Limerick") # view palette
 
 }
 \seealso{

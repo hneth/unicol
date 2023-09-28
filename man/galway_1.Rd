@@ -8,8 +8,8 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Colour definitions are based on 
-\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
+Colour definitions are based on \href{https://www.universityofgalway.ie}{UGalway}'s 
+\href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{brand guidelines} (PDF).
 }
 \usage{
 galway_1
@@ -18,7 +18,7 @@ galway_1
 A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{galway_1} provides the 5 primary colors
+\code{galway_1} provides the five primary colors
 of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 }
 \details{
@@ -33,7 +33,8 @@ The 5 primary colors are
 }
 \examples{
 galway_1
-unikn::seecol(galway_1, main = "University of Galway 1", col_bg = "lightgrey") # view palette
+unikn::seecol(galway_1, col_bg = "grey90", 
+              main = "Primary colors of the University of Galway")  # view palette
 
 }
 \seealso{
