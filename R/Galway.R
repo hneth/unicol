@@ -1,4 +1,4 @@
-## Galway.R | 2023 09 13
+## Galway.R | 2023 09 28
 ## Colors of the University of Galway, Ireland
 ## -------------------------------------------
 
@@ -15,12 +15,12 @@
 
 # Color palettes:
 
-# galway_1: Primary colors ------
+# galway_1: Primary colors of Galway ------
 
 
 #' Primary colors of the University of Galway, Ireland  
 #'
-#' \code{galway_1} provides the 5 primary colors
+#' \code{galway_1} provides the five primary colors
 #' of the \href{https://www.universityofgalway.ie}{University of Galway}, Ireland.
 #'
 #' The 5 primary colors are
@@ -39,12 +39,13 @@
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source
-#' Colour definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
+#' Colour definitions are based on \href{https://www.universityofgalway.ie}{UGalway}'s 
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{brand guidelines} (PDF).
 #'
 #' @examples
 #' galway_1
-#' unikn::seecol(galway_1, main = "University of Galway 1", col_bg = "lightgrey") # view palette
+#' unikn::seecol(galway_1, col_bg = "grey90", 
+#'               main = "Primary colors of the University of Galway")  # view palette
 #'
 #' @family Irish university color palettes
 #'
@@ -66,7 +67,7 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 
 
 
-# galway_2: Secondary colors -----
+# galway_2: Secondary colors of Galway -----
 
 #' Secondary colors of the University of Galway, Ireland  
 #' 
@@ -98,12 +99,12 @@ galway_1 <- unikn::newpal(col = c("#a80050", "#84003d", "#e6007e",
 #' \strong{unicol}, 2320-07-16.
 #' 
 #' @source
-#' Colour definitions are based on 
-#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{UGalway's brand guidelines} (PDF).
+#' Colour definitions are based on \href{https://www.universityofgalway.ie}{UGalway}'s 
+#' \href{https://www.universityofgalway.ie/media/brand/11901_University_of_Galway_Brand_Guidelines_v13.pdf}{brand guidelines} (PDF).
 #'
 #' @examples 
 #' galway_2
-#' unikn::seecol(galway_2, main = "University of Galway 2") # view color palette
+#' unikn::seecol(galway_2, main = "Secondary colours of the University of Galway") # view palette
 #' 
 #' @family Irish university color palettes 
 #'

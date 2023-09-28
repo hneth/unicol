@@ -1,4 +1,4 @@
-## Limerick.R | 2023 09 07
+## Limerick.R | 2023 09 28
 ## Colours of the University of Limerick, Ireland
 # -----------------------------------------------
 
@@ -28,21 +28,22 @@
 #' \code{"UL heritage green"} (defined as HEX #003726), 
 #' \code{"white"} (defined as HEX #FFFFFF). 
 #'
-#'\code{limerick_1} uses the HEX colour definitions.
+#' \code{limerick_1} uses the HEX colour definitions.
 #'
-#'@return
+#' @return
 #' A names vector of colours (HEX/HTML codes of type character). 
 #' 
-#'@author
-#'\strong{unicol}, 2023-07-16.
+#' @author
+#' \strong{unicol}, 2023-07-16.
 #'
-#'@source
-#' Colour definitions are based on 
-#' \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
+#' @source
+#' Colour definitions are based on \href{https://www.ul.ie}{ULimerick}'s 
+#' \href{https://www.ul.ie/media/31805/download?inline}{brand guidelines} (PDF).
 #'
-#'@examples
+#' @examples
 #' limerick_1
-#' unikn::seecol(limerick_1, main= "University of Limerick 1") # view colour palette.
+#' unikn::seecol(limerick_1, col_bg = "grey90", 
+#'               main= "Primary colours of the University of Limerick")  # view palette
 #'
 #' @family Irish university color palettes
 #'
@@ -66,7 +67,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 
 #' Secondary colors of the University of Limerick, Ireland 
 #' 
-#' \code{limerick_2} provides the 12 secondary colors
+#' \code{limerick_2} provides the twelve secondary colors
 #' of the \href{https://www.ul.ie}{University of Limerick}, Ireland.
 #' 
 #' The 12 secondary colors are
@@ -75,7 +76,7 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' \code{"stone"} (defined as HEX #2D5980),
 #' \code{"marine"} (defined as HEX #13294B), 
 #' \code{"marigold"} (defined as HEX #FFC72C), 
-#' \code{"golden_leaf"} (defined as HEX #FFA300), 
+#' \code{"golden leaf"} (defined as HEX #FFA300), 
 #' \code{"pumpkin"} (defined as HEX #D45D00), 
 #' \code{"munster"} (defined as HEX #CB333B), 
 #' \code{"salmon"} (defined as HEX #E31C79), 
@@ -97,12 +98,13 @@ limerick_1 <- unikn::newpal(col = c("#005335", "#00B140", "#003726", "#FFFFFF"),
 #' \strong{unicol}, 2320-07-16.
 #' 
 #' @source
-#' Colour definitions are based on 
-#' \href{https://www.ul.ie/media/31805/download?inline}{ULimerck's brand guidelines (PDF)}.
+#' Colour definitions are based on \href{https://www.ul.ie}{ULimerick}'s 
+#' \href{https://www.ul.ie/media/31805/download?inline}{brand guidelines} (PDF).
 #'
 #' @examples 
 #' limerick_2
-#' unikn::seecol(limerick_2, main = "University of Limerick 2") # view color palette
+#' unikn::seecol(limerick_2, col_bg = "grey90",  
+#'               main = "Secondary colours of the University of Limerick") # view palette
 #' 
 #' @family Irish university color palettes 
 #'
@@ -121,7 +123,7 @@ limerick_2 <- unikn::newpal(col = c("#00A3E0", "#007DBA", "#2D5980", "#13294B", 
                                     "#89532F", "#7e5c4d", "#FFFFFF", "#919D9D", "#707372", 
                                     "#505759", "#373A36"), 
                             names = c("shannon", "sky", "stone", "marine", "marigold", 
-                                      "golden_leaf", "pumpkin", "munster", "salmon", "autumnal leaf", 
+                                      "golden leaf", "pumpkin", "munster", "salmon", "autumnal leaf", 
                                       "copper", "bronze", "white", "limestone", "pebble", 
                                       "granite", "slate"), 
                             as_df = FALSE)
