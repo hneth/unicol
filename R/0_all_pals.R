@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 09 28
+## 0_all_pals.R | 2022 09 30
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -271,7 +271,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Florida University", 3),
               rep("Galway University", 2),
               rep("Glasgow University", 2),
-              rep("Guelph University", 1),
+              rep("Guelph University / U o Guelph", 1),
               rep("Harvard", 3),
               rep("UCIrvine / UCI Health / UCI", 4),
               rep("Johns Hopkins / JHU", 5),
