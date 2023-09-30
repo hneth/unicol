@@ -1,12 +1,12 @@
-## Guelph.R | 2023 08 24
+## Guelph.R | 2023 09 30
 ## Colors of the University of Guelph, Canada 
 ## ------------------------------------------
 
 # Information: ------ 
 
 # cur_pals: "guelph" (1)
-# inst: "University of Guelph" (in English)
-# inst_alt: "University of Guelph"
+# inst: "University of Guelph"
+# inst_alt: "U of Guelph"
 # country: Canada
 # URL: "https://www.uoguelph.ca"
 
@@ -21,20 +21,20 @@
 # Color palette(s):
 
 
-# - guelph: All colors of the University of Guelph ------
+# - guelph: Primary and secondary colours of the University of Guelph ------
 
-#' Colors of the University of Guelph, Canada 
+#' Colours of the University of Guelph, Canada 
 #'
-#' \code{guelph} provides the two primary colors and the two secondary colors
+#' \code{guelph} provides the two primary colours and the two secondary colors
 #' of the \href{https://www.uoguelph.ca}{University of Guelph}, Canada.
 #'
-#' The two primary colors are
-#' \code{"PMS_200"} (defined as RGB 194/4/48, HEX #C20430) and
-#' \code{"black"} (defined as RGB 0/0/0, HEX #000000).
+#' The 2 primary colours are 
+#' \code{"PMS 200"} (defined as RGB 194 4 48, CMYK 0 100 65 15,or HEX #C20430) and
+#' \code{"black"} (defined as RGB 0 0 0, CMYK 0 0 0 100, or HEX #000000).
 #'
-#' The two secondary color are
-#' \code{"PMS_123"} (defined as RGB 255/199/42, HEX #FFC72A) and
-#' \code{"PMS_549"} (defined as RGB 105/163/185, HEX ##69A3B9).
+#' The 2 secondary colours are
+#' \code{"PMS 123"} (defined as RGB 255 199 42, CMYK 0 30 95 0, or HEX #FFC72A) and
+#' \code{"PMS 549"} (defined as RGB 105 163 185, CMYK 52 6 0 25, or HEX ##69A3B9).
 #'
 #' \code{guelph} uses the HEX color definitions. 
 #' 
@@ -45,12 +45,12 @@
 #' \strong{unicol}, 2023-07-12.
 #'
 #' @source 
-#' Color definitions are based on the
-#' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{Website of the University of Guelph}.
+#' Color definitions are based on \href{https://www.uoguelph.ca}{U of G}'s 
+#' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{brand guide} (HTML). 
 #'
 #' @examples
 #' guelph
-#' unikn::seecol(guelph, main = "Colors of the University of Guelph") # view color palette
+#' unikn::seecol(guelph, main = "Colours of the University of Guelph, CA")  # view palette
 #'
 #' @family Canadian university color palettes
 #'
@@ -64,7 +64,7 @@
 #' @export
 
 guelph <- unikn::newpal(col = c("#C20430", "#000000", "#FFC72A", "#69A3B9"),
-                        names = c("PMS_200", "black", "PMS_123", "PMS_549"),
+                        names = c("PMS 200", "black", "PMS 123", "PMS 549"),
                         as_df = FALSE)
 
 # # Check: 
