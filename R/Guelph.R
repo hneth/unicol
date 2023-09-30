@@ -37,6 +37,9 @@
 #' \code{"PMS 549"} (defined as RGB 105 163 185, CMYK 52 6 0 25, or HEX ##69A3B9).
 #'
 #' \code{guelph} uses the HEX color definitions. 
+#'
+#' See \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette}{Brand guide: Colour} 
+#' for \emph{Do's and Don'ts} and \emph{Colour Usage and Proportions}. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
