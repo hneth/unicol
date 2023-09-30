@@ -1,26 +1,27 @@
-## Kassel.R | 2023 07 24
+## Kassel.R | 2023 09 30
 ## Colors of the University of Kassel, Germany
 ## -------------------------------------------
 
 # Information: ----
 
 # cur_pals: "uni_kassel" (1)
-# inst: "University of Kassel" 
+# inst: "University of Kassel"
+# inst alt: "Universit\u00E4t Kassel"
 # country: Germany
-# URL: "https://www.uni-kassel.de/uni//"
+# URL: "https://www.uni-kassel.de/uni/"
 
 # Color source:
-# URL: https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox/corporate-design-und-medienservice/gestaltungselemente
+# source_URL: <https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox-oeffentlichkeitsarbeit/corporate-design-und-medienservice>
 
 
 # Color palettes:
 
-# - uni_kassel: Primary colors ----
+# - uni_kassel: Primary colors of Uni Kassel ----
 
 #' Colors of the University of Kassel, Germany 
 #'
-#' \code{uni_kassel} provides the 11 primary colors
-#' of the \href{https://www.uni-kassel.de/uni//}{University of Kassel}, Germany.
+#' \code{uni_kassel} provides the eleven primary colors
+#' of the \href{https://www.uni-kassel.de/uni/}{University of Kassel}, Germany.
 #'
 #' The 11 primary colors are 
 #' \code{"k80"} (defined as HEX #575757), 
@@ -29,11 +30,11 @@
 #' \code{"hks28+k30"} (defined as HEX #9A0C46), 
 #' \code{"hks28"} (defined as HEX #C7105C), 
 #' \code{"hks28-20"} (defined as HEX #F3D8DD), 
-#' \code{"dark_green"} (defined as HEX #153824), 
-#' \code{"light_blue"} (defined as HEX #5095C8), 
-#' \code{"yellow_green"} (defined as HEX #C4D20F), 
-#' \code{"light_green"} (defined as HEX #4AAC96), and 
-#' \code{"dark_gold"} (defined as HEX #EAC372).
+#' \code{"dunkelgruen"} (defined as HEX #153824), 
+#' \code{"hellblau"} (defined as HEX #5095C8), 
+#' \code{"gelbgruen"} (defined as HEX #C4D20F), 
+#' \code{"hellgruen"} (defined as HEX #4AAC96), and 
+#' \code{"goldgelb"} (defined as HEX #EAC372).
 #'
 #' \code{uni_kassel} uses the HEX color definitions.
 #'
@@ -44,12 +45,12 @@
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source
-#' Color definitions are based on the 
-#' \href{https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox/corporate-design-und-medienservice/gestaltungselemente}{Uni Kassel's website}.
+#' Color definitions are based on the \href{https://www.uni-kassel.de/uni/}{Uni Kassel}'s 
+#' \href{https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox-oeffentlichkeitsarbeit/corporate-design-und-medienservice}{CD und Medienservice} page.
 #'
 #' @examples
 #' uni_kassel
-#' unikn::seecol(uni_kassel, main = "University of Kassel") # view color palette.
+#' unikn::seecol(uni_kassel, main = "Colors of the University of Kassel, Germany")  # view palette
 #'
 #' @family German university color palettes
 #'
@@ -68,8 +69,8 @@ uni_kassel <- unikn::newpal(col = c("#575757", "#9D9D9D", "#DADADA",
                                     "#4AAC96", "#EAC372"), 
                             names = c("k80", "k50", "k20", 
                                       "hks28+k30", "hks28", "hks28-20", 
-                                      "dark_green", "light_blue", "yellow_green", 
-                                      "light_green", "dark_gold"), 
+                                      "dunkelgruen", "hellblau", "gelbgruen", 
+                                      "hellgruen", "goldgelb"), 
                             as_df = FALSE)
 
 
