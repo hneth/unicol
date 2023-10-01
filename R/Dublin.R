@@ -1,4 +1,4 @@
-## Dublin.R | 2023 09 05
+## Dublin.R | 2023 10 01
 ## Colours of the Trinity College Dublin, Ireland
 ## ----------------------------------------------
 
@@ -6,6 +6,7 @@
 
 # cur_pals: "trinity_1", "trinity_2" (2)
 # inst: "Trinity College Dublin" 
+# inst_alt: "Trinity / TCD"
 # country: Ireland
 # URL: "https://www.tcd.ie"
 
@@ -73,9 +74,9 @@ names_trinity_2 <- c("PMS 312 100", "PMS 312 75", "PMS 312 50", "PMS 312 25", "P
 #' Primary colours of the Trinity College Dublin, Ireland 
 #'
 #' \code{trinity_1} provides the twelve primary colours
-#' of \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
+#' of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 #'
-#' The 12 primary colors are 
+#' The 12 primary colours are 
 #' \code{"Trinity blue"} (defined as HEX #0569b9), 
 #' \code{"Trinity blue 75"} (defined as HEX #448fcb), 
 #' \code{"Trinity blue 50"} (defined as HEX #82b4dc), 
@@ -107,12 +108,13 @@ names_trinity_2 <- c("PMS 312 100", "PMS 312 75", "PMS 312 50", "PMS 312 25", "P
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source
-#' Color definitions are based on TCD's 
+#' Color definitions are based on \href{https://www.tcd.ie}{TCD}'s 
 #' \href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
 #'
 #' @examples
 #' trinity_1
-#' unikn::seecol(trinity_1, main = "Trinity College Dublin 1") # view color palette.
+#' unikn::seecol(trinity_1, col_bg = "grey90",  
+#'               main = "Primary colours of the Trinity College Dublin")  # view palette
 #'
 #' @family Irish university color palettes
 #'
@@ -163,15 +165,15 @@ trinity_1 <- unikn::newpal(col = color_trinity_1,
 #' @author 
 #' \strong{unicol}, 2023-09-05.
 #' 
-#' @source 
-#' Color definitions are based on TCD's 
-#' \href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
+#' @source
+#' Color definitions are based on \href{https://www.tcd.ie}{TCD}'s 
+#' \href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}. 
 #'
 #' @examples 
 #' trinity_2
 #' main_cols <- seq(1, 51, by = 5)
 #' unikn::seecol(trinity_2[main_cols], 
-#'               main = "Main secondary colours of Trinity College Dublin 2") # view color palette
+#'               main = "Main secondary colours of the Trinity College Dublin")  # view palette
 #' 
 #' @family Irish university color palettes
 #'
