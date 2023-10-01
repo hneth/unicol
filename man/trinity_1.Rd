@@ -8,7 +8,7 @@
 An object of class \code{character} of length 12.
 }
 \source{
-Color definitions are based on TCD's 
+Color definitions are based on \href{https://www.tcd.ie}{TCD}'s 
 \href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
 }
 \usage{
@@ -19,10 +19,10 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{trinity_1} provides the twelve primary colours
-of \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
+of the \href{https://www.tcd.ie}{Trinity College Dublin}, Ireland.
 }
 \details{
-The 12 primary colors are 
+The 12 primary colours are 
 \code{"Trinity blue"} (defined as HEX #0569b9), 
 \code{"Trinity blue 75"} (defined as HEX #448fcb), 
 \code{"Trinity blue 50"} (defined as HEX #82b4dc), 
@@ -49,7 +49,8 @@ Applied consistently they provide an immediate and strong visual link throughout
 }
 \examples{
 trinity_1
-unikn::seecol(trinity_1, main = "Trinity College Dublin 1") # view color palette.
+unikn::seecol(trinity_1, col_bg = "grey90",  
+              main = "Primary colours of the Trinity College Dublin")  # view palette
 
 }
 \seealso{

@@ -8,7 +8,7 @@
 An object of class \code{character} of length 55.
 }
 \source{
-Color definitions are based on TCD's 
+Color definitions are based on \href{https://www.tcd.ie}{TCD}'s 
 \href{https://www.tcd.ie/identity/colour-palette/}{visual identity guidelines}.
 }
 \usage{
@@ -40,7 +40,7 @@ primary blue, grey, and white colours (of \code{\link{trinity_1}}).
 trinity_2
 main_cols <- seq(1, 51, by = 5)
 unikn::seecol(trinity_2[main_cols], 
-              main = "Main secondary colours of Trinity College Dublin 2") # view color palette
+              main = "Main secondary colours of the Trinity College Dublin")  # view palette
 
 }
 \seealso{
