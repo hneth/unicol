@@ -1,4 +1,4 @@
-## Dublin.R | 2023 10 01
+## Trinity_College_Dublin.R | 2023 10 01
 ## Colours of the Trinity College Dublin, Ireland
 ## ----------------------------------------------
 
@@ -6,7 +6,7 @@
 
 # cur_pals: "trinity_1", "trinity_2" (2)
 # inst: "Trinity College Dublin" 
-# inst_alt: "Trinity / TCD"
+# inst_alt: "Trinity Dublin / TCD"
 # country: Ireland
 # URL: "https://www.tcd.ie"
 
