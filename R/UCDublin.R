@@ -94,7 +94,7 @@ UCD_brightGreen <- "#6bbe51"
 
 # Colour palette(s):
 
-# - ucd: Colours of the University College Dublin ------
+# - ucd: Colours of the University College Dublin, IE ------
 
 #' Colours of the University College Dublin, Ireland
 #' 
