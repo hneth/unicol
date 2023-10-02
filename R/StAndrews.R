@@ -16,7 +16,7 @@
 
 # Color palette(s):
 
-# - standrews_1: Primary colors: ------ 
+# - standrews_1: Primary colours of St Andrews ------ 
 
 
 #' Primary colours of the University of St Andrews, Scotland 
@@ -25,12 +25,12 @@
 #' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland, UK. 
 #' 
 #' The 4 primary colors are 
-#' \code{"StAndrews blue"} (defined as HEX #00539b), 
-#' \code{"StAndrews red"} (defined as HEX #ee312a), 
-#' \code{"StAndrews yellow"} (defined as HEX #ffdf00), and 
-#' \code{"StAndrews black"} (defined as HEX #231f20). 
+#' \code{"St Andrews blue"} (defined as HEX #00539b), 
+#' \code{"St Andrews red"} (defined as HEX #ee312a), 
+#' \code{"St Andrews yellow"} (defined as HEX #ffdf00), and 
+#' \code{"St Andrews black"} (defined as HEX #231f20). 
 #'
-#' \code{standrews_1} uses the HEX colour definitions.
+#' \code{standrews_1} uses these HEX colour definitions.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character). 
@@ -39,12 +39,13 @@
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source 
-#' Colour definitions are based on St. Andrews' 
+#' Colour definitions are based on \href{https://www.st-andrews.ac.uk}{St Andrews}' 
 #' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{design guidelines}.
 #'
 #' @examples
 #' standrews_1
-#' unikn::seecol(standrews_1, main = "University of St Andrews 1") # view color palette
+#' unikn::seecol(standrews_1, col_bg = "grey96", 
+#'               main = "Primary colours of the University of St Andrews") # view palette
 #'
 #' @family Scottish university color palettes
 #'
@@ -59,12 +60,12 @@
 #' @export
 
 standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20"), 
-                             names = c("StAndrews blue", "StAndrews red", "StAndrews yellow", "StAndrews black"), 
+                             names = c("St Andrews blue", "St Andrews red", "St Andrews yellow", "StAndrews black"), 
                              as_df = FALSE)
 
 
 
-# - standrews_2: Secondary colors ------ 
+# - standrews_2: Secondary colours of St Andrews ------ 
 
 
 #' Secondary colours of the University of St Andrews, Scotland 
@@ -73,16 +74,16 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #' of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland. 
 #' 
 #' The 8 secondary colours are 
-#' \code{"StAndrews light blue"} (defined as HEX #00aeef), 
-#' \code{"StAndrews mid blue"} (defined as HEX #007dc5),
-#' \code{"StAndrews burgundy"} (defined as HEX #c60c46),
-#' \code{"StAndrews purple"} (defined as HEX #7b439a)
-#' \code{"StAndrews orange"} (defined as HEX #f5842b),
-#' \code{"StAndrews green"} (defined as HEX #54b948), 
-#' \code{"StAndrews mid green"} (defined as HEX #00853f), and 
-#' \code{"StAndrews dark green"} (defined as HEX #005953).
+#' \code{"light blue"} (defined as HEX #00aeef), 
+#' \code{"mid blue"} (defined as HEX #007dc5),
+#' \code{"burgundy"} (defined as HEX #c60c46),
+#' \code{"purple"} (defined as HEX #7b439a)
+#' \code{"orange"} (defined as HEX #f5842b),
+#' \code{"green"} (defined as HEX #54b948), 
+#' \code{"mid green"} (defined as HEX #00853f), and 
+#' \code{"dark green"} (defined as HEX #005953).
 #' 
-#' \code{standrews_2} uses the HEX colour definitions. 
+#' \code{standrews_2} uses these HEX colour definitions. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -91,12 +92,12 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 #' \strong{unicol}, 2023-07-16.
 #'
 #' @source 
-#' Colour definitions are based on 
-#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews design guidelines}.
-#'
+#' Colour definitions are based on \href{https://www.st-andrews.ac.uk}{St Andrews}' 
+#' \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{design guidelines}.
+#' 
 #' @examples
 #' standrews_2
-#' unikn::seecol(standrews_2, main = "University of St Andrews 2") # view color palette
+#' unikn::seecol(standrews_2, main = "Secondary colours of St Andrews") # view palette
 #'
 #' @family Scottish university color palettes
 #'
@@ -112,8 +113,8 @@ standrews_1 <- unikn::newpal(col = c("#00539b", "#ee312a", "#ffdf00", "#231f20")
 
 standrews_2 <- unikn::newpal(col = c("#00aeef", "#007dc5", "#c60c46", "#7b439a", 
                                      "#f5842b", "#54b948", "#00853f", "#005953"), 
-                             names = c("StAndrews light blue", "StAndrews mid blue", "StAndrews burgundy", "StAndrews purple", 
-                                       "StAndrews orange", "StAndrews green", "StAndrews mid green","StAndrews dark green"), 
+                             names = c("light blue", "mid blue", "burgundy", "purple", 
+                                       "orange", "green", "mid green","dark green"), 
                              as_df = FALSE)
 
 ## Check: 
