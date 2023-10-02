@@ -8,8 +8,8 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Colour definitions are based on 
-\href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{St. Andrews design guidelines}.
+Colour definitions are based on \href{https://www.st-andrews.ac.uk}{St Andrews}' 
+\href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{design guidelines}.
 }
 \usage{
 standrews_2
@@ -23,20 +23,20 @@ of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland.
 }
 \details{
 The 8 secondary colours are 
-\code{"StAndrews light blue"} (defined as HEX #00aeef), 
-\code{"StAndrews mid blue"} (defined as HEX #007dc5),
-\code{"StAndrews burgundy"} (defined as HEX #c60c46),
-\code{"StAndrews purple"} (defined as HEX #7b439a)
-\code{"StAndrews orange"} (defined as HEX #f5842b),
-\code{"StAndrews green"} (defined as HEX #54b948), 
-\code{"StAndrews mid green"} (defined as HEX #00853f), and 
-\code{"StAndrews dark green"} (defined as HEX #005953).
+\code{"light blue"} (defined as HEX #00aeef), 
+\code{"mid blue"} (defined as HEX #007dc5),
+\code{"burgundy"} (defined as HEX #c60c46),
+\code{"purple"} (defined as HEX #7b439a)
+\code{"orange"} (defined as HEX #f5842b),
+\code{"green"} (defined as HEX #54b948), 
+\code{"mid green"} (defined as HEX #00853f), and 
+\code{"dark green"} (defined as HEX #005953).
 
-\code{standrews_2} uses the HEX colour definitions.
+\code{standrews_2} uses these HEX colour definitions.
 }
 \examples{
 standrews_2
-unikn::seecol(standrews_2, main = "University of St Andrews 2") # view color palette
+unikn::seecol(standrews_2, main = "Secondary colours of St Andrews") # view palette
 
 }
 \seealso{

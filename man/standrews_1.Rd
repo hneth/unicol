@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on St. Andrews' 
+Colour definitions are based on \href{https://www.st-andrews.ac.uk}{St Andrews}' 
 \href{https://www.st-andrews.ac.uk/brand/design-guidelines/colours/}{design guidelines}.
 }
 \usage{
@@ -23,16 +23,17 @@ of the \href{https://www.st-andrews.ac.uk}{University of St Andrews}, Scotland, 
 }
 \details{
 The 4 primary colors are 
-\code{"StAndrews blue"} (defined as HEX #00539b), 
-\code{"StAndrews red"} (defined as HEX #ee312a), 
-\code{"StAndrews yellow"} (defined as HEX #ffdf00), and 
-\code{"StAndrews black"} (defined as HEX #231f20). 
+\code{"St Andrews blue"} (defined as HEX #00539b), 
+\code{"St Andrews red"} (defined as HEX #ee312a), 
+\code{"St Andrews yellow"} (defined as HEX #ffdf00), and 
+\code{"St Andrews black"} (defined as HEX #231f20). 
 
-\code{standrews_1} uses the HEX colour definitions.
+\code{standrews_1} uses these HEX colour definitions.
 }
 \examples{
 standrews_1
-unikn::seecol(standrews_1, main = "University of St Andrews 1") # view color palette
+unikn::seecol(standrews_1, col_bg = "grey96", 
+              main = "Primary colours of the University of St Andrews") # view palette
 
 }
 \seealso{
