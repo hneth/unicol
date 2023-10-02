@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 01
+## 0_all_pals.R | 2022 10 02
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -6,7 +6,7 @@
 #       A record / registry of all color palettes
 #       (and institutions and corresponding labels).
 
-# Meta-information on all exported color palettes: -----
+# A. Meta-information on all exported color palettes: ------ 
 
 uni_pals <- c("eth_1", "eth_2", "eth_3",
               "fu_0", "fu_1", "fu_2", "fu_3",
@@ -228,7 +228,7 @@ inst <- c(rep("ETH Zurich", 3),
           "University College Dublin", 
           # NEW after v0.2.0: 
           rep("University of Stirling", 3)
-)
+) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
 
@@ -299,8 +299,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Queen\u0027s University", 2),
               rep("Simon Fraser University", 1),
               rep("Stanford Uni / Uni Stanford", 3),
-              rep("University of St Andrews", 2),
-              rep("University of Toronto", 1),
+              rep("St-Andrews / StAndrews", 2),
+              rep("Toronto University", 1),
               rep("UCalgary, Calgary University", 4),
               rep("UC Los Angeles, Los Angeles University", 4),
               rep("UC San Diego, San Diego University", 3),
@@ -337,7 +337,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "An Colaiste Ollscoile, Baile Atha Cliath / UCD",
               # NEW after v0.2.0: 
               rep("Stirling University / UStirling", 3)
-)
+) # inst_alt. 
 
 # Valid URL: 
 
@@ -446,11 +446,11 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.ucd.ie",
          # NEW after v0.2.0: 
          rep("https://www.stir.ac.uk", 3)
-)
+) # url. 
 
 
 
-# Collect all_data (as data frame): ------
+# B. Collect all_data (as data frame): ------ 
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
@@ -463,23 +463,25 @@ all_data <- all_data[order(all_data$inst, all_data$pal), ]
 row.names(all_data) <- 1:nrow(all_data)
 
 
-# # Getting pal from pal names: ---- 
+# - Getting pal from pal names: ---- 
 
-# # eval(str2expression(all_data$pal[1]))
-# # eval(str2lang(all_data$pal[1]))
-
-# # IFF pals are loaded:
-# # +++ here now +++
-# 
-# all_pals <- all_data$pal
-# 
-# # Number of colors (from pal names):
+# eval(str2expression(all_data$pal[1]))
+# eval(str2lang(all_data$pal[1]))
 # 
 # # 3 ways of evaluating an object by its name:
 # pal_name <- all_pals[1]
 # length(eval(parse(text = pal_name)))
 # length(eval(str2expression(pal_name)))
 # length(eval(str2lang(pal_name)))
+
+
+# - Descriptive stats: ----
+
+# # IFF pals are loaded:
+# 
+# all_pals <- all_data$pal
+# 
+# # Number of colors (from pal names):
 # 
 # # Number of pals and colors:
 # n_pals <- length(all_pals)
@@ -495,18 +497,18 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # n_cols
 # 
-# # Descriptive stats: ----
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-09-21:
+# # On 2023-10-02:
 # length(all_data$pal)           #  241 color palettes
 # length(unique(all_data$inst))  #  103 institutions
 # sum(n_cols)                    # 1608 colors
 
+# +++ here now +++
 
 
-# Export as unicol_data (as data frame): ------
+# C. Export as unicol_data (as data frame): ------ 
 
 #' The color palettes of the \strong{unicol} package
 #' 
