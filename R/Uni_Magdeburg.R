@@ -1,4 +1,4 @@
-## Uni_Magdeburg.R | 2023 10 03
+## Uni_Magdeburg.R | 2023 10 04
 ## Colors of the University of Magdeburg, Germany
 ## ----------------------------------------------
 
@@ -15,17 +15,17 @@
 
 # color_URL: Visual identity and brand guidelines at 
 # <https://www.cd.ovgu.de/Logo_+Farbe_+Schrift-p-22.html>
-# Last check: 2023-10-03
+# Last check: 2023-10-04
 
 # Author information:
-# unicol, 2023-10-03
+# unicol, 2023-10-04
 
 
 # Colors: ------
 
 # Color definitions: 
 
-# 1: Primary colors: ----
+# 1: Primary colors of OVGU Magdeburg ----
 
 # <https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html>
 #   
@@ -68,7 +68,7 @@ ovgu_gr_3 <- "black"  # defined as RGB 0 0 0
 
 
 
-# 2: Faculty colors ---- 
+# 2: Faculty colors of OVGU Magdeburg ---- 
 
 # Farben
 # 
@@ -136,29 +136,39 @@ ovgu_hum_3 <- grDevices::rgb(254, 246, 235, maxColorValue = 255)
 
 # seecol(ovgu_hum_1)  # HEX = "#f39100" qed.
 
-# +++ here now +++ 
+
+# 2f: Elektrotechnik und Informationstechnik / Electrical Engineering and Information Technology ---- 
+#     https://www.cd.ovgu.de/Fakult%C3%A4ten/Elektrotechnik+und+Informationstechnik.html 
+
+ovgu_eit_1 <- grDevices::rgb(148, 193,  45, maxColorValue = 255)  # == "#94c12d"
+ovgu_eit_2 <- grDevices::rgb(201, 224, 150, maxColorValue = 255)
+ovgu_eit_3 <- grDevices::rgb(247, 250, 239, maxColorValue = 255)
+
+# seecol(ovgu_eit_1)  # HEX = "#94c12d" qed.
 
 
-uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
-                                         ovgu_inf_1, ovgu_inf_2, ovgu_inf_3, 
-                                         ovgu_pse_1, ovgu_pse_2, ovgu_pse_3, 
-                                         ovgu_mat_1, ovgu_mat_2, ovgu_mat_3, 
-                                         ovgu_hum_1, ovgu_hum_2, ovgu_hum_3, 
-                                         ovgu_gr_1, ovgu_gr_2, ovgu_gr_3),
-                                 names = c("Maschinenbau 1", "MB 2", "MB 3",
-                                           "Informatik", "Inf 2", "Inf 3", 
-                                           "Verfahrens- und Systemtechnik", "VST 2", "VST 3", 
-                                           "Mathematik", "Mat 2", "Mat 3",
-                                           "Humanwissenschaften", "Hum 2", "Hum 3",                                           
-                                           "weiss", "grau", "schwarz"),
-                                 as_df = FALSE)
+# 2g: Naturwissenschaften / Natural Sciences ----
+#     https://www.cd.ovgu.de/Fakult%C3%A4ten/Naturwissenschaften.html 
 
-# # Check: 
-# unikn::seecol(uni_magdeburg_2, col_bg = "grey90", 
-#               main = "Faculty colors of the Uni Magdeburg (OVGU)")
+ovgu_nwi_1 <- grDevices::rgb(  5, 165,  53, maxColorValue = 255)  # == "#05a535"
+ovgu_nwi_2 <- grDevices::rgb(130, 210, 154, maxColorValue = 255)
+ovgu_nwi_3 <- grDevices::rgb(235, 248, 239, maxColorValue = 255)
+
+# seecol(ovgu_nwi_1)  # HEX = "#05a535" qed.
 
 
-# 3: Medizin
+# 2h: Wirtschaftswissenschaft / Economics and Management ----
+#     https://www.cd.ovgu.de/Fakult%C3%A4ten/Wirtschaftswissenschaft.html 
+
+ovgu_wiw_1 <- grDevices::rgb( 93, 142, 166, maxColorValue = 255)  # == "#5d8ea6"
+ovgu_wiw_2 <- grDevices::rgb(174, 198, 210, maxColorValue = 255)
+ovgu_wiw_3 <- grDevices::rgb(242, 246, 248, maxColorValue = 255)
+
+# seecol(ovgu_wiw_1)  # HEX = "#5d8ea6" qed.
+
+
+
+# 3: Medical faculty and University hospital of OVGU Magdeburg ------ 
 # PDF at <http://www.cdmed.ovgu.de/unimagdeburg_mm/Downloads/Corporate+Design/UMMD_CD_Handbuch-p-21676.pdf>
 # Version of 20.04.2018, p. 8:
 
@@ -203,13 +213,13 @@ ovgu_med_1c <- "black"
 # damit ein visuell einheitlicher Auftritt mit maximalem
 # Wiedererkennungswert gewährleistet wird.
 
-ovgu_med_2a <- "#9698cc" # Flieder
-ovgu_med_2b <- "#a5ced8" # Türkis
-ovgu_med_2c <- "#84c597" # Grün
-ovgu_med_2d <- "#e8817a" # Apricot
-ovgu_med_2e <- "#e3a8c4" # Rosa
-ovgu_med_2f <- "#caa371" # Gold
-ovgu_med_2g <- "#777877" # Grau 
+ovgu_med_2a <- "#9698cc"  # Flieder
+ovgu_med_2b <- "#a5ced8"  # Türkis
+ovgu_med_2c <- "#84c597"  # Grün
+ovgu_med_2d <- "#e8817a"  # Apricot
+ovgu_med_2e <- "#e3a8c4"  # Rosa
+ovgu_med_2f <- "#caa371"  # Gold
+ovgu_med_2g <- "#777877"  # Grau 
 
 
 
@@ -263,12 +273,61 @@ ovgu_med_2g <- "#777877" # Grau
 
 uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3, 
                                          ovgu_gr_1, ovgu_gr_2, ovgu_gr_3),
-                                 names = c("OVGU rot", "rot 2", "rot 3",
-                                           "weiss", "grau", "schwarz"),
+                                 names = c("OVGU rot", "OVGU rot 2", "OVGU rot 3",
+                                           "Weiss", "Grau", "Schwarz"),
                                  as_df = FALSE)
 
 # # Check: 
 # unikn::seecol(uni_magdeburg_1, main = "Primary colors of the Uni Magdeburg (OVGU)", col_bg = "grey90")
+
+
+
+# - uni_magdeburg_2: Faculty colors of Uni Magdeburg ------
+
+# +++ here now +++ 
+
+uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
+                                         ovgu_inf_1, ovgu_inf_2, ovgu_inf_3,
+                                         ovgu_pse_1, ovgu_pse_2, ovgu_pse_3,
+                                         ovgu_mat_1, ovgu_mat_2, ovgu_mat_3,
+                                         ovgu_hum_1, ovgu_hum_2, ovgu_hum_3,
+                                         ovgu_eit_1, ovgu_eit_2, ovgu_eit_3,
+                                         ovgu_nwi_1, ovgu_nwi_2, ovgu_nwi_3,
+                                         ovgu_wiw_1, ovgu_wiw_2, ovgu_wiw_3,
+                                         ovgu_gr_1, ovgu_gr_2, ovgu_gr_3),
+                                 names = c("Maschinenbau 1", "MB 2", "MB 3",
+                                           "Informatik", "Inf 2", "Inf 3", 
+                                           "Verfahrens- und Systemtechnik", "VST 2", "VST 3", 
+                                           "Mathematik", "Mat 2", "Mat 3",
+                                           "Humanwissenschaften", "Hum 2", "Hum 3",
+                                           "Elektro- und Informationstechnik", "EIT 2", "EIT 3",
+                                           "Naturwissenschaften", "NW 2", "NW 3",
+                                           "Wirtschaftswissenschaft", "WW 2", "WW 3",
+                                           "Weiss", "Grau", "Schwarz"),
+                                 as_df = FALSE)
+
+
+# # Check: 
+# unikn::seecol(uni_magdeburg_2, col_bg = "grey90", main = "Faculty colors of the Uni Magdeburg (OVGU)")
+
+
+
+# - uni_magdeburg_3: Colors of the Medical Faculty and University Hospital Magdeburg ------
+
+uni_magdeburg_3 <- unikn::newpal(col = c(ovgu_med_1a, ovgu_med_1b, ovgu_med_1c,
+                                         ovgu_med_2a, ovgu_med_2b, ovgu_med_2c,
+                                         ovgu_med_2d, ovgu_med_2e, ovgu_med_2f,
+                                         ovgu_med_2g),
+                                 names = c("Dunkelblau", "Weiss", "Schwarz",
+                                           "Flieder", "Tuerkis", "Gruen", 
+                                           "Apricot", "Rosa", "Gold",
+                                           "Grau"), 
+                                 as_df = FALSE)
+
+
+# # Check: 
+# unikn::seecol(uni_magdeburg_3, col_bg = "grey90", 
+#               main = "Colors of the Medical Faculty and University Hospital Magdeburg (OVGU)")
 
 
 
