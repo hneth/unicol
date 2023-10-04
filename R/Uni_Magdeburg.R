@@ -1,4 +1,4 @@
-## Uni_Magdeburg.R | 2023 10 04
+## Uni_Magdeburg.R | 2023 10 03
 ## Colors of the University of Magdeburg, Germany
 ## ----------------------------------------------
 
@@ -15,10 +15,10 @@
 
 # color_URL: Visual identity and brand guidelines at 
 # <https://www.cd.ovgu.de/Logo_+Farbe_+Schrift-p-22.html>
-# Last check: 2023-10-04
+# Last check: 2023-10-03
 
 # Author information:
-# unicol, 2023-10-04
+# unicol, 2023-10-03
 
 
 # Colors: ------
@@ -31,9 +31,9 @@
 #   
 # Farbe
 # 
-# Die Hausfarbe der Universität Magdeburg ist ein dunkles Rot mit den im Folgenden 
+# Die Hausfarbe der Universität Magdeburg ist ein dunkles Rot mit den im Folgenden
 # definierten Farbwerten:
-#   
+# 
 # CMYK-Farbe: 0-100-0-60 	      Anwendung im Offset- und Digital-Druck
 # 100% Vollton: Pantone 228 C 	Anwendung im Offset-Druck z.B. bei weniger als vierfarbigen Drucken
 # RGB-Farbe: 122-0-63 	        Anwendung in Office-Anwendungen
@@ -55,7 +55,7 @@ ovgu_rot <- grDevices::rgb(122,   0,  63, maxColorValue = 255)  # == HEX "#7a003
 # edel und sorgt für ein ästhetisches Layout. Gezielt eingesetzt, setzt er Akzente und navigiert den Leser
 # durch das Medium. Des Weiteren kann mit Grauwerten sowie mit Fotos, Grafiken und Illustrationen
 # gestalterisch gearbeitet werden.
-
+# 
 # Variants on <https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html>:
 
 ovgu_rot_1 <- grDevices::rgb(122,   0,  63, maxColorValue = 255) # == ovgu_rot == HEX "#7a003f"
@@ -174,16 +174,16 @@ ovgu_wiw_3 <- grDevices::rgb(242, 246, 248, maxColorValue = 255)
 
 # 1.3.1 Primärfarben
 # 
-# Die Farben Blau, Schwarz und Weiß sind ein wesentlicher, 
-# identitätsstiftender Bestandteil des Erscheinungsbildes der 
+# Die Farben Blau, Schwarz und Weiß sind ein wesentlicher,
+# identitätsstiftender Bestandteil des Erscheinungsbildes der
 # Medizinischen Fakultät und des Universitätsklinikums Magdeburg.
 # 
 # Gemeinsam wirken sie seriös, aber auch fortschrittlich und bilden
 # somit das farbliche Äquivalent der Unternehmensphilosophie.
 # Der Dreiklang findet nicht nur im Logo Anwendung, sondern
-# auch in vielen weiteren Gestaltungselementen (s. Print-Publikationen). 
+# auch in vielen weiteren Gestaltungselementen (s. Print-Publikationen).
 # 
-# Die Primärfarben sind obligatorischer Bestandteil jeder Publikation und 
+# Die Primärfarben sind obligatorischer Bestandteil jeder Publikation und
 # können ggf. um Sekundärfarben ergänzt werden.
 
 ovgu_med_1a <- "#002d5c" 
@@ -222,12 +222,6 @@ ovgu_med_2f <- "#caa371"  # Gold
 ovgu_med_2g <- "#777877"  # Grau 
 
 
-
-
-
-
-
-
 # Color palette(s):
 
 # - uni_magdeburg_1: Primary colors of Uni Magdeburg ------
@@ -235,15 +229,27 @@ ovgu_med_2g <- "#777877"  # Grau
 #' Primary colors of the University of Magdeburg, Germany
 #' 
 #' \code{uni_magdeburg_1} provides the primary colors 
-#' of the \href{https://ovgu.de}{Otto von Guericke University of Magdeburg} (OVGU), Germany.
+#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 #'
-#' The 4 primary colors of the University of Example are 
-#' \code{"Uni pink"} (defined as HEX \code{"#E0607E"}),
-#' \code{"bright grey"} (defined as HEX \code{"#CCCCCC"}), 
-#' \code{"dark gray"} (defined as HEX \code{"#4C4C4C"}), and
-#' \code{"black"} (defined as the R color \code{"black"} or HEX \code{"#000000"}).
+#' The primary dark red of the \href{https://ovgu.de}{OVGU Magdeburg} is  
+#' \code{OVGU rot}, defined as CMYK 0 100 0 60, Pantone 228 C, RAL 3004, RGB 122 0 63, or HEX #7a003f.
 #'
-#' \code{uni_magdeburg_1} uses the RGB color definitions. 
+#' \code{uni_magdeburg_1} is based on RGB color definitions. 
+#' 
+#' @details 
+#' The primary \code{OVGU rot} should be used next to the logo for emphasis purposes.
+#' Large areas of the dark red obstruct a fresh and young appeal of a publication 
+#' and should only be used in special cases. 
+#' 
+#' Whereas the background \code{white} is only implicitly perceived, 
+#' it is the most important corporate design element of the OVGU. 
+#' White areas are not wasted space, but rather necessary elements to structure content, 
+#' reveal connections, set accents, and improve readability.
+#' 
+#' Grey tones, photographs and visualizations are additional elements of aesthetics and design.
+#'  
+#' See \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{OVGU's examples} 
+#' for details and color combinations. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -263,13 +269,16 @@ ovgu_med_2g <- "#777877"  # Grau
 #' @family German university color palettes
 #'
 #' @seealso
+#' \code{\link{uni_magdeburg_1}} for primary colors of the OVGU Magdeburg;
+#' \code{\link{uni_magdeburg_2}} for faculty colors of the OVGU Magdeburg;
+#' \code{\link{uni_magdeburg_3}} for medical and hospital colors of the OVGU Magdeburg;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
 #' \code{\link{grepal}} for finding named colors.
 #'
-#' 
+#' @export
 
 uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3, 
                                          ovgu_gr_1, ovgu_gr_2, ovgu_gr_3),
@@ -284,7 +293,63 @@ uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3,
 
 # - uni_magdeburg_2: Faculty colors of Uni Magdeburg ------
 
-# +++ here now +++ 
+#' Faculty colors of the University of Magdeburg, Germany
+#' 
+#' \code{uni_magdeburg_2} provides the faculty colors 
+#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+#'
+#' The pre-defined set of faculty colors allows to target publications and presentations 
+#' to each faculty, allowing for visual differentiation between different units.
+#' 
+#' Using a set of faculty colors usually prevents the use of the primary university color (and vice versa). 
+#' 
+#' \code{uni_magdeburg_2} is based on RGB color definitions. 
+#' 
+#' @details 
+#' Just as the primary \code{OVGU rot}, each faculty color should be used 
+#' next to the logo for emphasis purposes.
+#' Large areas of a faculty color obstruct a fresh and young appeal of a publication 
+#' and should only be used in special cases. 
+#' 
+#' Whereas the background \code{white} is only implicitly perceived, 
+#' it is the most important corporate design element of the OVGU. 
+#' White areas are not wasted space, but rather necessary elements to structure content, 
+#' reveal connections, set accents, and improve readability.
+#' 
+#' See \code{\link{uni_magdeburg_3}} for the colors of the medical faculty and university hospital 
+#' of the \href{https://ovgu.de}{OVGU Magdeburg}.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-03.
+#'
+#' @source 
+#' Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+#' \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
+#'
+#' @examples
+#' uni_magdeburg_2
+#' unikn::seecol(uni_magdeburg_2, col_bg = "grey90", 
+#'               main = "Faculty colors of the Uni Magdeburg (OVGU)")  # view entire palette
+#'               
+#' # Using a partial palette: 
+#' unikn::demopal(uni_magdeburg_2[c(19:21, 25:27)], type = 4, seed = 123, 
+#'                main = "Colors of the Natural Sciences of the OVGU Magdeburg")
+#'               
+#' @family German university color palettes
+#'
+#' @seealso
+#' \code{\link{uni_magdeburg_1}} for primary colors of the OVGU Magdeburg;
+#' \code{\link{uni_magdeburg_3}} for medical and hospital colors of the OVGU Magdeburg;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
 
 uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
                                          ovgu_inf_1, ovgu_inf_2, ovgu_inf_3,
@@ -313,6 +378,59 @@ uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
 
 
 # - uni_magdeburg_3: Colors of the Medical Faculty and University Hospital Magdeburg ------
+
+#' Medical faculty and hospital colors of the University of Magdeburg, Germany
+#' 
+#' \code{uni_magdeburg_3} provides medical faculty and hospital colors 
+#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+#'
+#' The 3 primary colors \code{Dunkelblau}, \code{Schwarz}, and \code{Weiss} 
+#' are key elements of the visual design identity of the 
+#' medical faculty and university hospital Magdeburg. 
+#' 
+#' Together, the colors provide a serious and progressive impression, 
+#' corresponding to the corporate vision of the institution.
+#' The triad forms part of the logo and other design elements. 
+#' 
+#' \code{uni_magdeburg_3} is based on RGB color definition. 
+#' 
+#' @details 
+#' While the primary colors are obligatory in every publication, 
+#' they can be supported by 7 secondary colors. 
+#' These bright and friendly colors provide emphasis, structure, 
+#' and visual distinctions when balanced with the 
+#' darker and more rational primary colors.
+#' 
+#' While the majority of all areas should be kept in the primary colors, 
+#' the secondary colors can be used for accents and highlighting purposes.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-03.
+#'
+#' @source 
+#' Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+#' \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
+#'
+#' @examples
+#' uni_magdeburg_3
+#' unikn::seecol(uni_magdeburg_3, col_bg = "grey90", 
+#'               main = "Medical and hospital colors of the OVGU Magdeburg")  # view palette
+#' 
+#' @family German university color palettes
+#'
+#' @seealso
+#' \code{\link{uni_magdeburg_1}} for primary colors of the OVGU Magdeburg;
+#' \code{\link{uni_magdeburg_2}} for faculty colors of the OVGU Magdeburg;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
 
 uni_magdeburg_3 <- unikn::newpal(col = c(ovgu_med_1a, ovgu_med_1b, ovgu_med_1c,
                                          ovgu_med_2a, ovgu_med_2b, ovgu_med_2c,
