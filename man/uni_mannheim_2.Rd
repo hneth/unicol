@@ -100,6 +100,7 @@ Other German university color palettes:
 \code{\link{uni_koeln_2}},
 \code{\link{uni_konstanz_1}},
 \code{\link{uni_konstanz_2}},
+\code{\link{uni_magdeburg_1}},
 \code{\link{uni_mannheim_1}},
 \code{\link{uni_potsdam}},
 \code{\link{uni_regensburg_1}},
