@@ -4,7 +4,7 @@
 
 # Information: ------
 
-# cur_pals: "uni_magdeburg" (1)
+# cur_pals: "uni_magdeburg_1", "uni_magdeburg_2", "uni_magdeburg_3"  (3)
 
 # inst: "University of Magdeburg" 
 # inst_alt: "Otto-von-Guericke-Universit\u00E4t Magdeburg / OVGU"
