@@ -78,6 +78,7 @@ Other German university color palettes:
 \code{\link{uni_goettingen_1}},
 \code{\link{uni_goettingen_2}},
 \code{\link{uni_goettingen_3}},
+\code{\link{uni_halle}},
 \code{\link{uni_hamburg_1}},
 \code{\link{uni_hamburg_2}},
 \code{\link{uni_heidelberg}},
