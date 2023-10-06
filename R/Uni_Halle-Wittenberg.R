@@ -1,4 +1,4 @@
-## Uni_Halle-Wittenberg.R | 2023 10 05
+## Uni_Halle-Wittenberg.R | 2023 10 06
 ## Colors of the University of Halle-Wittenberg, Germany 
 ## -----------------------------------------------------
 
@@ -30,7 +30,11 @@
 
 # Color definitions: 
 
+# Main color:
+
 mlu_1 <- "#b1e053"  # Uni Halle // Grün
+
+# Faculty colors:
 
 mlu_2 <- "#2d7aab"  # Naturwiss. Fakultät I und II // Blau
 mlu_3 <- "#368429"  # Naturwiss. Fakultät III // Grün
@@ -43,7 +47,7 @@ mlu_8 <- "#424242"  # Theologische Fakultät // (Grau)
 
 # Color palette(s):
 
-# - example: Primary example pal ------
+# - uni_halle: Colors of the MLU Halle-Wittenberg ------
 
 #' Primary colors of the Martin Luther University Halle-Wittenberg, Germany
 #' 
@@ -83,7 +87,7 @@ mlu_8 <- "#424242"  # Theologische Fakultät // (Grau)
 
 uni_halle <- unikn::newpal(col = c(mlu_1, mlu_2, mlu_3, mlu_4,
                                    mlu_5, mlu_6, mlu_7, mlu_8),
-                           names = c("MLU gruen", "Naturwiss. I und II blau", "Naturwiss. III gruen", "Philosophische I bis III Lila", 
+                           names = c("MLU gruen", "Natwiss. I+II blau", "Natwiss. III gruen", "Philosophie I-III Lila", 
                                      "Medizin rotorange", "Jura Wiwi cranberry", "Theologie schwarz", "Theologie grau" ),
                            as_df = FALSE)
 
