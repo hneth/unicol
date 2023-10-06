@@ -42,6 +42,8 @@ Changes since last release:
     [`columbia`](https://hneth.github.io/unicol/dev/reference/columbia.html) palette    
 
 
+Color palettes are linked to their [online documentation of the current GitHub development version](https://hneth.github.io/unicol/dev/).
+
 <!-- Minor changes: --> 
 
 ## Minor changes 
