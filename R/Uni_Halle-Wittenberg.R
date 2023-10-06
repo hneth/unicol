@@ -85,10 +85,16 @@ mlu_8 <- "#424242"  # Theologische Fakultät // (Grau)
 #'
 #' @export
 
-uni_halle <- unikn::newpal(col = c(mlu_1, mlu_2, mlu_3, mlu_4,
-                                   mlu_5, mlu_6, mlu_7, mlu_8),
-                           names = c("MLU gruen", "Natwiss. I+II blau", "Natwiss. III gruen", "Philosophie I-III Lila", 
-                                     "Medizin rotorange", "Jura Wiwi cranberry", "Theologie schwarz", "Theologie grau" ),
+uni_halle <- unikn::newpal(col = c(mlu_1, 
+                                   mlu_2, mlu_3, 
+                                   mlu_4,
+                                   mlu_5, mlu_6, 
+                                   mlu_7, mlu_8),
+                           names = c("MLU gruen", 
+                                     "Natwiss. I+II blau", "Natwiss. III gruen", 
+                                     "Philosophie I-III lila", 
+                                     "Medizin rotorange", "Jura Wiwi cranberry", 
+                                     "Theologie schwarz", "Theologie grau" ),
                            as_df = FALSE)
 
 
