@@ -39,7 +39,7 @@ Changes since last release:
     ([`columbia_1`](https://hneth.github.io/unicol/dev/reference/columbia_1.html),
     [`columbia_2`](https://hneth.github.io/unicol/dev/reference/columbia_2.html),
     [`columbia_3`](https://hneth.github.io/unicol/dev/reference/columbia_3.html)) replace the former 
-    [`columbia`](https://hneth.github.io/unicol/dev/reference/columbia.html) palette    
+    [`columbia_v0`](https://hneth.github.io/unicol/dev/reference/columbia_v0.html) palette    
 
 
 Color palettes are linked to their [online documentation of the current GitHub development version](https://hneth.github.io/unicol/dev/).
