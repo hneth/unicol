@@ -23,9 +23,9 @@ of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 }
 \details{
 You may choose either color as the signature color in your design. 
-\code{"heritage_blue"} (defined as PMS 288C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72) 
+\code{"heritage blue"} (defined as PMS 288C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72) 
 lends itself to more formal or serious applications, while 
-\code{"spirit_blue"} (defined as PMS 284C, CMYK 56/18/0/0, RGB 114/172/229, HEX #68ACE5) 
+\code{"spirit blue"} (defined as PMS 284C, CMYK 56/18/0/0, RGB 114/172/229, HEX #68ACE5) 
 works well in more informal or casual applications.
 }
 \examples{

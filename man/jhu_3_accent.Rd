@@ -28,19 +28,19 @@ They should be used sparingly relative to the primary and secondary colors.
 It is not required to use a color from the accent palette.
 
 These accent colors are
-\code{"jhu_sand"} (defined as PMS 7407 C, CMYK 6/36/79/12, RGB 203/160/82, HEX #CBA052), 
-\code{"jhu_orange1"} (defined as PMS 1375 C, CMYK 0/45/94/0, RGB 255/158/27, HEX #FF9E1B), 
-\code{"jhu_orange2"} (defined as PMS 1505 C, CMYK 0/56/90/0, RGB 255/105/0, HEX #FF6900), 
-\code{"jhu_brown1"} (defined as PMS 7586 C, CMYK 0/69/89/41, RGB 158/83/48, HEX #9E5330), 
-\code{"jhu_brown2"} (defined as PMS 4625 C, CMYK 30/72/74/80, RGB 79/44/29, HEX #4F2C1D), 
-\code{"jhu_nude"} (defined as PMS 486 C, CMYK 0/55/50/0, RGB 232/146/124, HEX #E8927C), 
-\code{"jhu_burgundy2"} (defined as PMS 187 C, CMYK 7/100/82/26, RGB 166/25/46, HEX #A6192E), 
-\code{"jhu_purple2"} (defined as PMS 262 C, CMYK 58/92/12/54, RGB 81/40/79, HEX #51284F), 
-\code{"jhu_purple3"} (defined as PMS 666 C, CMYK 36/39/2/5, RGB 161/146/178, HEX #A192B2), 
-\code{"jhu_blueberry"} (defined as PMS 279 C, CMYK 68/34/0/0, RGB 65/143/222, HEX #418FDE), 
-\code{"jhu_green2"} (defined as PMS 564 C, CMYK 43/0/23/0, RGB 134/200/188, HEX #86C8BC), 
-\code{"jhu_green3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140), and 
-\code{"jhu_green4"} (defined as PMS 7490 C, CMYK 57/6/92/19, RGB 113/153/73, HEX #719949).
+\code{"JHU sand"} (defined as PMS 7407 C, CMYK 6/36/79/12, RGB 203/160/82, HEX #CBA052), 
+\code{"JHU orange 1"} (defined as PMS 1375 C, CMYK 0/45/94/0, RGB 255/158/27, HEX #FF9E1B), 
+\code{"JHU orange 2"} (defined as PMS 1505 C, CMYK 0/56/90/0, RGB 255/105/0, HEX #FF6900), 
+\code{"JHU brown 1"} (defined as PMS 7586 C, CMYK 0/69/89/41, RGB 158/83/48, HEX #9E5330), 
+\code{"JHU brown 2"} (defined as PMS 4625 C, CMYK 30/72/74/80, RGB 79/44/29, HEX #4F2C1D), 
+\code{"JHU nude"} (defined as PMS 486 C, CMYK 0/55/50/0, RGB 232/146/124, HEX #E8927C), 
+\code{"JHU burgundy 2"} (defined as PMS 187 C, CMYK 7/100/82/26, RGB 166/25/46, HEX #A6192E), 
+\code{"JHU purple 2"} (defined as PMS 262 C, CMYK 58/92/12/54, RGB 81/40/79, HEX #51284F), 
+\code{"JHU purple 3"} (defined as PMS 666 C, CMYK 36/39/2/5, RGB 161/146/178, HEX #A192B2), 
+\code{"JHU blueberry"} (defined as PMS 279 C, CMYK 68/34/0/0, RGB 65/143/222, HEX #418FDE), 
+\code{"JHU green 2"} (defined as PMS 564 C, CMYK 43/0/23/0, RGB 134/200/188, HEX #86C8BC), 
+\code{"JHU green 3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140), and 
+\code{"JHU green 4"} (defined as PMS 7490 C, CMYK 57/6/92/19, RGB 113/153/73, HEX #719949).
 }
 \examples{
 jhu_3_accent

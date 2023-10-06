@@ -26,12 +26,12 @@ The secondary color palette is designed to provide creative flexibility.
 These colors are complementary to the primary blues and were chosen to add warmth and energy to your design.
 
 These secondary colors are
-\code{"jhu_red"} (defined as PMS 173 C, CMYK 0/82/94/2, RGB 207/69/32, HEX #CF4520),
-\code{"jhu_burgundy1"} (defined as PMS 188 C, CMYK 16/100/65/58, RGB 118/35/47, HEX #76232F), 
-\code{"jhu_purple1"} (defined as PMS 7655 C, CMYK 33/72/0/0, RGB 161/90/149, HEX #A15A95), 
-\code{"jhu_green1"} (defined as PMS 3278 C, CMYK 99/0/69/0, RGB 0/155/119, HEX #009B77), 
-\code{"jhu_seablue"} (defined as PMS 285 C, CMYK 90/48/0/0, RGB 0/114/206, HEX #0072CE), and 
-\code{"jhu_yellow"} (defined as PMS 7406 C, CMYK 0/20/100/2, RGB 241/196/0, HEX #F1C400).
+\code{"JHU red"} (defined as PMS 173 C, CMYK 0/82/94/2, RGB 207/69/32, HEX #CF4520),
+\code{"JHU burgundy 1"} (defined as PMS 188 C, CMYK 16/100/65/58, RGB 118/35/47, HEX #76232F), 
+\code{"JHU purple 1"} (defined as PMS 7655 C, CMYK 33/72/0/0, RGB 161/90/149, HEX #A15A95), 
+\code{"JHU green 1"} (defined as PMS 3278 C, CMYK 99/0/69/0, RGB 0/155/119, HEX #009B77), 
+\code{"JHU seablue"} (defined as PMS 285 C, CMYK 90/48/0/0, RGB 0/114/206, HEX #0072CE), and 
+\code{"JHU yellow"} (defined as PMS 7406 C, CMYK 0/20/100/2, RGB 241/196/0, HEX #F1C400).
 }
 \examples{
 jhu_2

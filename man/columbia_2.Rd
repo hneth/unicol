@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{columbia_2} provides six secondary colors 
-(three blue and three grey colors) 
+(three blue and three gray colors) 
 of \href{https://www.columbia.edu}{Columbia University}, USA.
 }
 \details{

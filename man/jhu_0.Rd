@@ -23,7 +23,7 @@ of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 }
 \details{
 Only three colors exist for the university identity. They are 
-\code{"heritage_blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
+\code{"heritage blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
 \code{"sable"} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), and 
 \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff). 
 
