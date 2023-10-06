@@ -1,4 +1,4 @@
-## JHU.R | 2023 06 16
+## JHU.R | 2023 10 06
 ## Colors of JHU, Johns Hopkins University, USA
 ## --------------------------------------------
 
@@ -30,7 +30,7 @@
 #' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' Only three colors exist for the university identity. They are 
-#' \code{"heritage_blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
+#' \code{"heritage blue"} (defined as PMS 288 C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72), 
 #' \code{"sable"} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), and 
 #' \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff). 
 #' 
@@ -66,7 +66,7 @@
 #' @export
 
 jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
-                       names = c("heritage_blue", "white", "sable"),
+                       names = c("heritage blue", "white", "sable"),
                        as_df = FALSE)
 
 # # Check:
@@ -84,9 +84,9 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #' of the \href{https://www.jhu.edu}{JHU, Johns Hopkins University}, USA.
 #'
 #' You may choose either color as the signature color in your design. 
-#' \code{"heritage_blue"} (defined as PMS 288C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72) 
+#' \code{"heritage blue"} (defined as PMS 288C, CMYK 100/80/6/32, RGB 0/45/114, HEX #002D72) 
 #' lends itself to more formal or serious applications, while 
-#' \code{"spirit_blue"} (defined as PMS 284C, CMYK 56/18/0/0, RGB 114/172/229, HEX #68ACE5) 
+#' \code{"spirit blue"} (defined as PMS 284C, CMYK 56/18/0/0, RGB 114/172/229, HEX #68ACE5) 
 #' works well in more informal or casual applications.
 #'
 #' @return
@@ -119,7 +119,7 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #' @export
 
 jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
-                       names = c("heritage_blue", "spirit_blue"),
+                       names = c("heritage blue", "spirit blue"),
                        as_df = FALSE)
 
 # # Check:
@@ -138,12 +138,12 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #' These colors are complementary to the primary blues and were chosen to add warmth and energy to your design.
 #'
 #' These secondary colors are
-#' \code{"jhu_red"} (defined as PMS 173 C, CMYK 0/82/94/2, RGB 207/69/32, HEX #CF4520),
-#' \code{"jhu_burgundy1"} (defined as PMS 188 C, CMYK 16/100/65/58, RGB 118/35/47, HEX #76232F), 
-#' \code{"jhu_purple1"} (defined as PMS 7655 C, CMYK 33/72/0/0, RGB 161/90/149, HEX #A15A95), 
-#' \code{"jhu_green1"} (defined as PMS 3278 C, CMYK 99/0/69/0, RGB 0/155/119, HEX #009B77), 
-#' \code{"jhu_seablue"} (defined as PMS 285 C, CMYK 90/48/0/0, RGB 0/114/206, HEX #0072CE), and 
-#' \code{"jhu_yellow"} (defined as PMS 7406 C, CMYK 0/20/100/2, RGB 241/196/0, HEX #F1C400). 
+#' \code{"JHU red"} (defined as PMS 173 C, CMYK 0/82/94/2, RGB 207/69/32, HEX #CF4520),
+#' \code{"JHU burgundy 1"} (defined as PMS 188 C, CMYK 16/100/65/58, RGB 118/35/47, HEX #76232F), 
+#' \code{"JHU purple 1"} (defined as PMS 7655 C, CMYK 33/72/0/0, RGB 161/90/149, HEX #A15A95), 
+#' \code{"JHU green 1"} (defined as PMS 3278 C, CMYK 99/0/69/0, RGB 0/155/119, HEX #009B77), 
+#' \code{"JHU seablue"} (defined as PMS 285 C, CMYK 90/48/0/0, RGB 0/114/206, HEX #0072CE), and 
+#' \code{"JHU yellow"} (defined as PMS 7406 C, CMYK 0/20/100/2, RGB 241/196/0, HEX #F1C400). 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -175,7 +175,7 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #' @export
 
 jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#0072CE", "#F1C400"),
-                       names = c("jhu_red", "jhu_burgundy1", "jhu_purple1", "jhu_green1", "jhu_seablue", "jhu_yellow"),
+                       names = c("JHU red", "JHU burgundy 1", "JHU purple 1", "JHU green 1", "JHU seablue", "JHU yellow"),
                        as_df = FALSE)
 
 # # Check:
@@ -196,19 +196,19 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #' It is not required to use a color from the accent palette.
 #'
 #' These accent colors are
-#' \code{"jhu_sand"} (defined as PMS 7407 C, CMYK 6/36/79/12, RGB 203/160/82, HEX #CBA052), 
-#' \code{"jhu_orange1"} (defined as PMS 1375 C, CMYK 0/45/94/0, RGB 255/158/27, HEX #FF9E1B), 
-#' \code{"jhu_orange2"} (defined as PMS 1505 C, CMYK 0/56/90/0, RGB 255/105/0, HEX #FF6900), 
-#' \code{"jhu_brown1"} (defined as PMS 7586 C, CMYK 0/69/89/41, RGB 158/83/48, HEX #9E5330), 
-#' \code{"jhu_brown2"} (defined as PMS 4625 C, CMYK 30/72/74/80, RGB 79/44/29, HEX #4F2C1D), 
-#' \code{"jhu_nude"} (defined as PMS 486 C, CMYK 0/55/50/0, RGB 232/146/124, HEX #E8927C), 
-#' \code{"jhu_burgundy2"} (defined as PMS 187 C, CMYK 7/100/82/26, RGB 166/25/46, HEX #A6192E), 
-#' \code{"jhu_purple2"} (defined as PMS 262 C, CMYK 58/92/12/54, RGB 81/40/79, HEX #51284F), 
-#' \code{"jhu_purple3"} (defined as PMS 666 C, CMYK 36/39/2/5, RGB 161/146/178, HEX #A192B2), 
-#' \code{"jhu_blueberry"} (defined as PMS 279 C, CMYK 68/34/0/0, RGB 65/143/222, HEX #418FDE), 
-#' \code{"jhu_green2"} (defined as PMS 564 C, CMYK 43/0/23/0, RGB 134/200/188, HEX #86C8BC), 
-#' \code{"jhu_green3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140), and 
-#' \code{"jhu_green4"} (defined as PMS 7490 C, CMYK 57/6/92/19, RGB 113/153/73, HEX #719949).
+#' \code{"JHU sand"} (defined as PMS 7407 C, CMYK 6/36/79/12, RGB 203/160/82, HEX #CBA052), 
+#' \code{"JHU orange 1"} (defined as PMS 1375 C, CMYK 0/45/94/0, RGB 255/158/27, HEX #FF9E1B), 
+#' \code{"JHU orange 2"} (defined as PMS 1505 C, CMYK 0/56/90/0, RGB 255/105/0, HEX #FF6900), 
+#' \code{"JHU brown 1"} (defined as PMS 7586 C, CMYK 0/69/89/41, RGB 158/83/48, HEX #9E5330), 
+#' \code{"JHU brown 2"} (defined as PMS 4625 C, CMYK 30/72/74/80, RGB 79/44/29, HEX #4F2C1D), 
+#' \code{"JHU nude"} (defined as PMS 486 C, CMYK 0/55/50/0, RGB 232/146/124, HEX #E8927C), 
+#' \code{"JHU burgundy 2"} (defined as PMS 187 C, CMYK 7/100/82/26, RGB 166/25/46, HEX #A6192E), 
+#' \code{"JHU purple 2"} (defined as PMS 262 C, CMYK 58/92/12/54, RGB 81/40/79, HEX #51284F), 
+#' \code{"JHU purple 3"} (defined as PMS 666 C, CMYK 36/39/2/5, RGB 161/146/178, HEX #A192B2), 
+#' \code{"JHU blueberry"} (defined as PMS 279 C, CMYK 68/34/0/0, RGB 65/143/222, HEX #418FDE), 
+#' \code{"JHU green 2"} (defined as PMS 564 C, CMYK 43/0/23/0, RGB 134/200/188, HEX #86C8BC), 
+#' \code{"JHU green 3"} (defined as PMS 7734 C, CMYK 77/0/82/65, RGB 40/97/64, HEX #286140), and 
+#' \code{"JHU green 4"} (defined as PMS 7490 C, CMYK 57/6/92/19, RGB 113/153/73, HEX #719949).
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -242,9 +242,9 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330", "#4F2C1D", 
                                       "#E8927C", "#A6192E", "#51284F", "#A192B2", "#418FDE", 
                                       "#86C8BC", "#286140", "#719949"),
-                              names = c("jhu_sand", "jhu_orange1", "jhu_orange2", "jhu_brown1", "jhu_brown2", 
-                                        "jhu_nude", "jhu_burgundy2", "jhu_purple2", "jhu_purple3", "jhu_blueberry", 
-                                        "jhu_green2", "jhu_green3", "jhu_green4"),
+                              names = c("JHU sand", "JHU orange 1", "JHU orange 2", "JHU brown 1", "JHU brown 2", 
+                                        "JHU nude", "JHU burgundy 2", "JHU purple 2", "JHU purple 3", "JHU blueberry", 
+                                        "JHU green 2", "JHU green 3", "JHU green 4"),
                               as_df = FALSE)
 
 # # Check:
@@ -263,9 +263,9 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #' Double Black may be used in situations where increased contrast is required, such as text over a color field. 
 #'
 #' These grey scale colors are
-#' \code{""} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), 
-#' \code{""} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff), and  
-#' \code{""} (defined as CMYK 100/100/100/100, RGB 0/0/0, HEX #000000). 
+#' \code{"sable"} (defined as PMS Black 4 C, CMYK 41/57/72/90, RGB 49/38/29, HEX #31261D), 
+#' \code{"white"} (defined as CMYK 0/0/0/0, RGB 255/255/255, HEX #ffffff), and  
+#' \code{"black"} (defined as CMYK 100/100/100/100, RGB 0/0/0, HEX #000000). 
 #'
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -297,7 +297,7 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #' @export
 
 jhu_4_gray <- unikn::newpal(col = c("#31261D", "white", "#000000"),
-                            names = c("sable", "white", "double_black"),
+                            names = c("sable", "white", "black"),
                             as_df = FALSE)
 
 # # Check:

@@ -200,7 +200,7 @@ columbia_1 <- unikn::newpal(col = columbia_1_cols,
 #' The secondary colors of Columbia University, USA 
 #'
 #' \code{columbia_2} provides six secondary colors 
-#' (three blue and three grey colors) 
+#' (three blue and three gray colors) 
 #' of \href{https://www.columbia.edu}{Columbia University}, USA.
 #' 
 #' See \code{columbia_2} and \href{https://www.columbia.edu}{Columbia}'s 
@@ -352,7 +352,6 @@ columbia_3 <- unikn::newpal(col = columbia_high_cols,
 # \code{\link{newpal}} for defining new color palettes;
 # \code{\link{grepal}} for finding named colors.
 
-
 columbia_v0 <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255), 
                                      rgb(108, 172, 228, maxColorValue = 255), 
                                      rgb(  0, 114, 206, maxColorValue = 255), 
@@ -362,7 +361,7 @@ columbia_v0 <- unikn::newpal(col = c(rgb(185, 217, 235, maxColorValue = 255),
                              as_df = FALSE)
 
 # # Check:
-# unikn::seecol(columbia_v0, main = "Blue colors of Columbia University", col_bg = "lightgrey")
+# unikn::seecol(columbia_v0, main = "Blue colors of Columbia University", col_bg = "grey96")
 
 
 
