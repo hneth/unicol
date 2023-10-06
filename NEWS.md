@@ -21,14 +21,25 @@ Changes since last release:
 <!-- Additions: --> 
 
 - New color palettes: 
-    - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de): `uni_halle`
-    - [University of Stirling](https://www.stir.ac.uk): `stirling_1`, `stirling_2`, `stirling_3`
-    - [University of Magdeburg](https://www.ovgu.de): `uni_magdeburg_1`, `uni_magdeburg_2`, `uni_magdeburg_3`  
+    - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de):
+    [`uni_halle`](https://hneth.github.io/unicol/dev/reference/uni_halle.html)
+    - [University of Stirling](https://www.stir.ac.uk): 
+    [`stirling_1`](https://hneth.github.io/unicol/dev/reference/stirling_1.html),
+    [`stirling_2`](https://hneth.github.io/unicol/dev/reference/stirling_2.html),
+    [`stirling_3`](https://hneth.github.io/unicol/dev/reference/stirling_3.html)
+    - [University of Magdeburg](https://www.ovgu.de): 
+    [`uni_magdeburg_1`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_1.html),
+    [`uni_magdeburg_2`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_2.html),
+    [`uni_magdeburg_3`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_3.html)
 
 <!-- Corrections and updates: --> 
 
 - Corrected or updated color palettes: 
-    - [Columbia University](https://www.columbia.edu): 3 color palettes (`columbia_1`, `columbia_2`, `columbia_3`) replace the former `columbia` palette    
+    - [Columbia University](https://www.columbia.edu): 3 new color palettes 
+    ([`columbia_1`](https://hneth.github.io/unicol/dev/reference/columbia_1.html),
+    [`columbia_2`](https://hneth.github.io/unicol/dev/reference/columbia_2.html),
+    [`columbia_3`](https://hneth.github.io/unicol/dev/reference/columbia_3.html)) replace the former 
+    [`columbia`](https://hneth.github.io/unicol/dev/reference/columbia.html) palette    
 
 
 <!-- Minor changes: --> 
@@ -76,8 +87,8 @@ Changes since last release:
     - [Macquarie University](https://www.mq.edu.au): `mq_1`, `mq_2`
     - [Maynooth University](https://www.maynoothuniversity.ie): `maynooth`
     - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
-    - [University College Cork](https://www.ucc.ie): `ICC_1`, `ICC_2`
-    - [University College Dublin](https://www.ucd.ie): `UCD` 
+    - [University College Cork](https://www.ucc.ie): `ucc_1`, `ucc_2`
+    - [University College Dublin](https://www.ucd.ie): `ucd` 
     - [University of Auckland](https://www.auckland.ac.nz/en.html): `auckland_1`, `auckland_2` 
     - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
     - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
@@ -87,7 +98,8 @@ Changes since last release:
     - [Willamette University](https://willamette.edu): `willamette` 
 
 - Corrected or updated color palettes: 
-    - [Humboldt University Berlin](https://www.hu-berlin.de): `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
+    - [Humboldt University Berlin](https://www.hu-berlin.de):
+    `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
     - [Trinity College Dublin](https://www.tcd.ie): `trinity_2` has been corrected 
     - [UCLA](https://www.ucla.edu): added `ucla_4` for creating color gradients 
     
@@ -123,6 +135,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-10-05.]
+[File `NEWS.md` updated on 2023-10-06.]
 
 <!-- eof. -->
