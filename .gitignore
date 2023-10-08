@@ -1,4 +1,4 @@
-## .gitignore | unicol | 2023 09 23
+## .gitignore | unicol | 2023 10 08
 
 ## 1. generic stuff: -----
 
@@ -68,11 +68,11 @@ cran-comments.md
 # dirs:
 _gitless
 inst/doc
+/doc/
+/Meta/
 
 # files:
 .PowerFolder
 desktop.ini
 
 ## eof.
-/doc/
-/Meta/
