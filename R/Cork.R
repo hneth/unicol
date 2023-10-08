@@ -204,7 +204,7 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' @examples
 #' ucc_1
 #' unikn::seecol(ucc_1, col_bg = "grey90", 
-#'               main = "Primary colours of the University College Cork") # view color palette
+#'               main = "Primary colours of the University College Cork") # view palette
 #'               
 #' @family Irish university color palettes
 #'
@@ -254,7 +254,8 @@ ucc_1 <- unikn::newpal(col = color_UCC_1,
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
-#' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
+#' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} 
+#' (PDF of 2017, p. 26f.).
 #'
 #' @examples
 #' ucc_2

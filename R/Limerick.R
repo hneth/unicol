@@ -1,4 +1,4 @@
-## Limerick.R | 2023 09 28
+## Limerick.R | 2023 10 08
 ## Colours of the University of Limerick, Ireland
 # -----------------------------------------------
 
@@ -6,6 +6,7 @@
 
 # cur_pals: "limerick_1", "limerick_2" (2)
 # inst: "University of Limerick" 
+# inst_alt: "Ollscoil Luimnigh / UL"
 # country: Ireland
 # URL: "https://www.ul.ie"
 
