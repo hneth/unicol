@@ -9,7 +9,8 @@ An object of class \code{character} of length 8.
 }
 \source{
 Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
-\href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
+\href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} 
+(PDF of 2017, p. 26f.).
 }
 \usage{
 ucc_2

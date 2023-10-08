@@ -51,7 +51,7 @@ Please do not use tints of the colours except on the colours indicated.
 \examples{
 ucc_1
 unikn::seecol(ucc_1, col_bg = "grey90", 
-              main = "Primary colours of the University College Cork") # view color palette
+              main = "Primary colours of the University College Cork") # view palette
               
 }
 \seealso{
