@@ -1,4 +1,4 @@
-## Bangor.R | 2023 10 10
+## Bangor.R | 2023 10 09
 ## Colours of the University of Bangor, Wales, UK 
 ## ----------------------------------------------
 
@@ -33,7 +33,7 @@
 
 # Brand colours
 
-# 1: Primary Corporate Colours ----
+# 1: Primary corporate colours ----
 
 # These colours are primarily for use with our logo/brandmark. The
 # use of red and yellow outside of the logo, should be carefully
@@ -115,7 +115,7 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 
 # Color palette(s):
 
-# - example: Primary example pal ------
+# - bangor_1: Primary corporate colours of Bangor ------
 
 #' Primary corporate colours of the University of Bangor, Wales 
 #' 
