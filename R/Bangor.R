@@ -14,9 +14,9 @@
 
 # Color source:
 
-# color_URL: PDF at 
+# color_URL: BRAND GUIDELINES at 
 # <https://www.bangor.ac.uk/sites/default/files/2023-04/Bangor-University-Brand-Guidelines%20%281%29.pdf>
-# p. 10:
+# Version 01/2020, p. 10.
 # Last check: 2023-10-09
 
 # Author information:
@@ -131,11 +131,11 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-10-10.
+#' \strong{unicol}, 2023-10-09.
 #'
-#' @source 
+#' @source
 #' Colour definitions are based on \href{https://www.bangor.ac.uk}{Bangor}'s 
-#' \href{https://www.bangor.ac.uk/sites/default/files/2023-04/Bangor-University-Brand-Guidelines%20%281%29.pdf}{Brand guidelines} (PDF).
+#' Brand guidelines (PDF).
 #'
 #' @examples
 #' bangor_1
