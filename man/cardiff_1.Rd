@@ -59,6 +59,7 @@ unikn::seecol(cardiff_1, col_bg = "grey96",
 Other Welsh university color palettes: 
 \code{\link{aberystwyth_1}},
 \code{\link{aberystwyth_2}},
+\code{\link{bangor_1}},
 \code{\link{cardiff_2}}
 }
 \author{

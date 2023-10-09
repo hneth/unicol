@@ -52,6 +52,7 @@ unikn::seecol(aberystwyth_1, main = "Primary colours of Aberystwyth University")
 
 Other Welsh university color palettes: 
 \code{\link{aberystwyth_2}},
+\code{\link{bangor_1}},
 \code{\link{cardiff_1}},
 \code{\link{cardiff_2}}
 }
