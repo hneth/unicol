@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 08
+## 0_all_pals.R | 2022 10 10
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -115,7 +115,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               # NEW after v0.2.0:
               "stirling_1", "stirling_2", "stirling_3", 
               "uni_magdeburg_1", "uni_magdeburg_2", "uni_magdeburg_3",
-              "uni_halle"
+              "uni_halle",
+              "bangor_1", "bangor_2", "bangor_3", "bangor_4" 
 )
 
 
@@ -231,7 +232,8 @@ inst <- c(rep("ETH Zurich", 3),
           # NEW after v0.2.0: 
           rep("University of Stirling", 3),
           rep("University of Magdeburg", 3),
-          "Martin Luther University Halle-Wittenberg"
+          "Martin Luther University Halle-Wittenberg",
+          rep("University of Bangor", 4)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -342,7 +344,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               # NEW after v0.2.0: 
               rep("Stirling University / UStirling", 3),
               rep("Otto-von-Guericke-Universit\u00E4t Magdeburg / OVGU", 3),
-              "Martin-Luther-Universit\u00E4t Halle-Wittenberg / MLU Halle Wittenberg"
+              "Martin-Luther-Universit\u00E4t Halle-Wittenberg / MLU Halle Wittenberg",
+              rep("Prifysgol Bangor / Bangor University", 4)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -453,7 +456,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          # NEW after v0.2.0: 
          rep("https://www.stir.ac.uk", 3),
          rep("https://www.ovgu.de", 3),
-         "https://www.uni-halle.de"
+         "https://www.uni-halle.de",
+         rep("https://www.bangor.ac.uk", 4)
 ) # url. 
 
 
