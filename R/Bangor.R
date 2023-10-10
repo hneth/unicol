@@ -5,10 +5,10 @@
 
 # Information: ------
 
-# cur_pals: "bangor_1"  "bangor_2" (1)
+# cur_pals: "bangor_1" "bangor_2" "bangor_3" "bangor_4" (1)
 
 # inst: "University of Bangor" 
-# inst_alt: "Prifysgol Bangor"
+# inst_alt: "Prifysgol Bangor / Bangor University"
 # inst_URL: <https://www.bangor.ac.uk> 
 # location: Bangor, Wales, UK
 
@@ -88,38 +88,47 @@ bangor_2_cols <- c("#26303d", "#1a1449", "#003973", "#6bb9dc",
 bangor_2_names <- c("Slate grey", "Pantone 101-16 C", "Pantone 105-16 C", "Pantone 116-4 C", 
                     "Pantone 55-8 C", "Pantone 93-16 C", "Pantone 76-8 C", "Pantone 70-14 C",
                     "Pantone 150-14 C", "Pantone 154-7 C", "Sea green", "Pantone 124-6 C",
-                    "Web yellow", "Pantone 34-7 C", "Web orange", "Pantone 75-4 C")
+                    "Web yellow 1", "Pantone 34-7 C", "Web orange", "Pantone 75-4 C")
 
 
 # 3: Tertiary colour palette ----
 
 # Our history, heritage and landscape
 # 
-# Bangor University is steeped in
-# history and heritage. Our location
-# is surrounded by the Snowdonia 
-# National Park. To reflect these 
-# elements we have created a
-# subtle palette of colour,
-# which also incorporates our
-# environment: stone, slate, sand,
-# water, forest, meadow and sea.
+# Bangor University is steeped in history and heritage.
+# Our location is surrounded by the Snowdonia National Park.
+# To reflect these elements we have created a
+# subtle palette of colour, which also incorporates our
+# environment: stone, slate, sand, water, forest, meadow and sea.
 # 
-# We use this palette to support
-# our primary and secondary
-# colours.
+# We use this palette to support our primary and secondary colours.
 # 
-# We do not departmentalise the
-# use of our colourways. See how
-# to use colour, in our ‘Brand
-# Elements’ section.
+# We do not departmentalise the use of our colourways.
+# See how to use colour, in our ‘Brand Elements’ section.
 
-# +++ here now +++ 
+bangor_3_cols <- c("#790e17", "#0e0c35", "#77b1ce", "#434d57",
+                   "#9791be", "#593930", "#828c7f", "#588e3b") 
+
+bangor_3_names <- c("Pantone 56-16 C", "Dark blue", "Pantone 117-4 C", "Pantone 174-15 C",
+                    "Pantone 100-4 C", "Pantone 43-16 C", "Pantone 177-6 C", "Pantone 152-15 C") 
+
 
 
 # 4: Web colour palette ----
 
 # Accessible colour combinations
+
+# Bangor University has created a web-specific palette that reflects
+# the environment we are surrounded by - slate grey, sea green, yellow and orange.
+# 
+# As some colour combinations can be problematic for people with visual impairments
+# or colour blindness, this palette is for everyone to enjoy.
+
+bangor_4_cols <- c("#26303d", "#28debc", "#f79339", "#ebb415")
+
+bangor_4_names <- c("Slate grey", "Sea green", "Web orange", "Web yellow 2") 
+
+# +++ here now +++ 
 
 
 
@@ -155,6 +164,8 @@ bangor_2_names <- c("Slate grey", "Pantone 101-16 C", "Pantone 105-16 C", "Panto
 #'
 #' @seealso
 #' \code{\link{bangor_2}} for secondary colours of Bangor;
+#' \code{\link{bangor_3}} for tertiary colours of Bangor;
+#' \code{\link{bangor_4}} for accessible web colours of Bangor;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -215,6 +226,8 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 #'
 #' @seealso
 #' \code{\link{bangor_1}} for primary corporate colours of Bangor;
+#' \code{\link{bangor_3}} for tertiary colours of Bangor;
+#' \code{\link{bangor_4}} for accessible web colours of Bangor;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -228,10 +241,129 @@ bangor_2 <- unikn::newpal(col = bangor_2_cols,
                           as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(bangor_2, main = "Secondary colours of the University of Bangor", col_bg = "grey90")
+# unikn::seecol(bangor_2, main = "Secondary colours of the University of Bangor", col_bg = "grey96")
 
 
 
+# - bangor_3: Tertiary colours of Bangor ------
+
+#' Tertiary colours of the University of Bangor, Wales 
+#' 
+#' \code{bangor_3} provides eight tertiary colours 
+#' of the \href{https://www.bangor.ac.uk}{University of Bangor}, Wales, UK. 
+#' 
+#' \code{bangor_3} is based on HEX color definitions  
+#' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines, PDF, p. 10, for names and details). 
+#'
+#' @details 
+#' Motto: Our history, heritage and landscape.
+#' 
+#' \href{https://www.bangor.ac.uk}{Bangor University} 
+#' is steeped in history and heritage. 
+#' Our location is surrounded by the Snowdonia National Park. 
+#' To reflect these elements we have created a 
+#' subtle palette of colour, which also incorporates our 
+#' environment: stone, slate, sand, water, forest, meadow and sea.
+#' 
+#' We use this palette to support our primary and secondary colours. 
+#' We do not departmentalise the use of our colourways. 
+#' (See how to use colour, in the ‘Brand Elements’ section 
+#' of \href{https://www.bangor.ac.uk}{Bangor}'s brand guidelines, PDF.)
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-10.
+#'
+#' @source
+#' Colour definitions are based on \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines (PDF).
+#'
+#' @examples
+#' bangor_3
+#' unikn::seecol(bangor_3, 
+#'               main = "Tertiary colours of the University of Bangor, Wales")  # view palette
+#' 
+#' @family Welsh university color palettes
+#'
+#' @seealso
+#' \code{\link{bangor_1}} for primary corporate colours of Bangor;
+#' \code{\link{bangor_2}} for secondary colours of Bangor;
+#' \code{\link{bangor_4}} for accessible web colours of Bangor;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+bangor_3 <- unikn::newpal(col = bangor_3_cols,
+                          names = bangor_3_names,
+                          as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(bangor_3, main = "Tertiary colours of the University of Bangor", col_bg = "grey96")
+
+
+
+# - bangor_4: Accessible web colours of Bangor ------
+
+#' Accessible web colours of the University of Bangor, Wales 
+#' 
+#' \code{bangor_4} provides four accessible web colours 
+#' of the \href{https://www.bangor.ac.uk}{University of Bangor}, Wales, UK. 
+#' 
+#' \code{bangor_4} is based on HEX color definitions  
+#' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines, PDF, p. 10, for names and details). 
+#'
+#' @details 
+#' \href{https://www.bangor.ac.uk}{Bangor University} 
+#' has created a web-specific palette that reflects 
+#' the environment we are surrounded by: 
+#' Slate grey, Sea green, and tints of yellow and orange.
+#' 
+#' As some colour combinations can be problematic for people with visual impairments 
+#' or colour blindness, this palette is for everyone to enjoy.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-10.
+#'
+#' @source
+#' Colour definitions are based on \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines (PDF).
+#'
+#' @examples
+#' bangor_4
+#' unikn::seecol(bangor_4, 
+#'               main = "Accessible web colours of Bangor University, Wales")  # view palette
+#' 
+#' @family Welsh university color palettes
+#'
+#' @seealso
+#' \code{\link{bangor_1}} for primary corporate colours of Bangor;
+#' \code{\link{bangor_2}} for secondary colours of Bangor;
+#' \code{\link{bangor_3}} for tertiary colours of Bangor;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+bangor_4 <- unikn::newpal(col = bangor_4_cols,
+                          names = bangor_4_names,
+                          as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(bangor_2, main = "Secondary colours of the University of Bangor", col_bg = "grey96")
 
 
 
