@@ -1,11 +1,11 @@
-## Bangor.R | 2023 10 09
+## Bangor.R | 2023 10 10
 ## Colours of the University of Bangor, Wales, UK 
 ## ----------------------------------------------
 
 
 # Information: ------
 
-# cur_pals: "bangor_1" (1)
+# cur_pals: "bangor_1"  "bangor_2" (1)
 
 # inst: "University of Bangor" 
 # inst_alt: "Prifysgol Bangor"
@@ -17,7 +17,7 @@
 # color_URL: BRAND GUIDELINES at 
 # <https://www.bangor.ac.uk/sites/default/files/2023-04/Bangor-University-Brand-Guidelines%20%281%29.pdf>
 # Version 01/2020, p. 10.
-# Last check: 2023-10-09
+# Last check: 2023-10-10
 
 # Author information:
 # unicol, 2023-10-10
@@ -62,6 +62,7 @@
 
 
 bangor_1_cols  <- c("#b82233", "#ebb415", "#000000", "#FFFFFF")
+
 bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white") 
 
 
@@ -72,14 +73,22 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 # 
 # Supporting the primary colourways is a palette of sixteen colours
 # carefully bringing together distinctive tones with bolder colours to
-# allow flexibility and freedom -- but always used thoughtfully following 
+# allow flexibility and freedom -- but always used thoughtfully following
 # our key principles for using colour.
 # 
-# The colours reflect our brand and university. Bold, confident, 
+# The colours reflect our brand and university. Bold, confident,
 # modern, energised and ambitious. These tones represent our brand
 # ambitions and our brand beliefs. To be used in all marketing comms.
 
-# +++ here now +++ 
+bangor_2_cols <- c("#26303d", "#1a1449", "#003973", "#6bb9dc",
+                   "#e5133a", "#5d1f77", "#be0068", "#9b3651",
+                   "#43773d", "#8cc04b", "#28debc", "#00b3ba",
+                   "#FAB600", "#ee7633", "#f79339", "#f6b9d5") 
+
+bangor_2_names <- c("Slate grey", "Pantone 101-16 C", "Pantone 105-16 C", "Pantone 116-4 C", 
+                    "Pantone 55-8 C", "Pantone 93-16 C", "Pantone 76-8 C", "Pantone 70-14 C",
+                    "Pantone 150-14 C", "Pantone 154-7 C", "Sea green", "Pantone 124-6 C",
+                    "Web yellow", "Pantone 34-7 C", "Web orange", "Pantone 75-4 C")
 
 
 # 3: Tertiary colour palette ----
@@ -105,6 +114,7 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 # to use colour, in our ‘Brand
 # Elements’ section.
 
+# +++ here now +++ 
 
 
 # 4: Web colour palette ----
@@ -122,16 +132,15 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 #' \code{bangor_1} provides the four primary corporate colours 
 #' of the \href{https://www.bangor.ac.uk}{University of Bangor}, Wales, UK. 
 #' 
-#' The 4 primary colours of the University of Bangor are 
-#' etc. 
-#'
-#' \code{bangor_1} uses the HEX color definitions. 
+#' \code{bangor_1} is based on HEX color definitions  
+#' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines (PDF, p. 10) for names and details). 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
 #'
 #' @author 
-#' \strong{unicol}, 2023-10-09.
+#' \strong{unicol}, 2023-10-10.
 #'
 #' @source
 #' Colour definitions are based on \href{https://www.bangor.ac.uk}{Bangor}'s 
@@ -145,6 +154,7 @@ bangor_1_names <- c("Pantone 1805 C", "Pantone 124 C", "black", "white")
 #' @family Welsh university color palettes
 #'
 #' @seealso
+#' \code{\link{bangor_2}} for secondary colours of Bangor;
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -159,6 +169,66 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 
 # # Check: 
 # unikn::seecol(bangor_1, main = "Primary colours of the University of Bangor", col_bg = "grey90")
+
+# - bangor_2: Secondary colours of Bangor ------
+
+#' Secondary colours of the University of Bangor, Wales 
+#' 
+#' \code{bangor_2} provides sixteen secondary colours 
+#' of the \href{https://www.bangor.ac.uk}{University of Bangor}, Wales, UK. 
+#' 
+#' \code{bangor_2} is based on HEX color definitions  
+#' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines (PDF, p. 10) for names and details). 
+#'
+#' @details 
+#' We are modern, forward thinkers.
+#' 
+#' Supporting the primary colourways is a palette of sixteen colours 
+#' carefully bringing together distinctive tones with bolder colours to 
+#' allow flexibility and freedom -- but always used thoughtfully following 
+#' our key principles for using colour. 
+#' 
+#' The colours reflect our brand and university. Bold, confident, 
+#' modern, energised and ambitious. These tones represent our brand 
+#' ambitions and our brand beliefs. To be used in all marketing comms.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-10.
+#'
+#' @source
+#' Colour definitions are based on \href{https://www.bangor.ac.uk}{Bangor}'s 
+#' Brand guidelines (PDF).
+#'
+#' @examples
+#' bangor_2
+#' unikn::seecol(bangor_2, col_bg = "grey90",  
+#'               main = "Secondary colours of the University of Bangor, Wales")  # view palette
+#' 
+#' @family Welsh university color palettes
+#'
+#' @seealso
+#' \code{\link{bangor_1}} for primary corporate colours of Bangor;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+bangor_2 <- unikn::newpal(col = bangor_2_cols,
+                          names = bangor_2_names,
+                          as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(bangor_2, main = "Secondary colours of the University of Bangor", col_bg = "grey90")
+
+
+
 
 
 
