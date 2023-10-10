@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9006
+# unicol 0.2.0.9007
 
 <!-- Development version:  --> 
 
@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **249\ color palettes** from **106\ institutions**. 
+The **unicol** package currently provides **250\ color palettes** from **107\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -32,6 +32,8 @@ Changes since last release:
     [`uni_magdeburg_1`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_1.html),
     [`uni_magdeburg_2`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_2.html),
     [`uni_magdeburg_3`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_3.html)
+    - [University of Oslo](https://www.uio.no): 
+    [`oslo`](https://hneth.github.io/unicol/dev/reference/oslo.html),
     - [University of Stirling](https://www.stir.ac.uk): 
     [`stirling_1`](https://hneth.github.io/unicol/dev/reference/stirling_1.html),
     [`stirling_2`](https://hneth.github.io/unicol/dev/reference/stirling_2.html),
