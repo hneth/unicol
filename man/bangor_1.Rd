@@ -34,6 +34,8 @@ unikn::seecol(bangor_1, col_bg = "grey90",
 }
 \seealso{
 \code{\link{bangor_2}} for secondary colours of Bangor;
+\code{\link{bangor_3}} for tertiary colours of Bangor;
+\code{\link{bangor_4}} for accessible web colours of Bangor;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -44,6 +46,8 @@ Other Welsh university color palettes:
 \code{\link{aberystwyth_1}},
 \code{\link{aberystwyth_2}},
 \code{\link{bangor_2}},
+\code{\link{bangor_3}},
+\code{\link{bangor_4}},
 \code{\link{cardiff_1}},
 \code{\link{cardiff_2}}
 }

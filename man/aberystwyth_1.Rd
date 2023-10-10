@@ -54,6 +54,8 @@ Other Welsh university color palettes:
 \code{\link{aberystwyth_2}},
 \code{\link{bangor_1}},
 \code{\link{bangor_2}},
+\code{\link{bangor_3}},
+\code{\link{bangor_4}},
 \code{\link{cardiff_1}},
 \code{\link{cardiff_2}}
 }
