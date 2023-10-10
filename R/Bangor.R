@@ -134,7 +134,7 @@ bangor_2_names <- c("Slate grey", "Pantone 101-16 C", "Pantone 105-16 C", "Panto
 #' 
 #' \code{bangor_1} is based on HEX color definitions  
 #' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
-#' Brand guidelines (PDF, p. 10) for names and details). 
+#' Brand guidelines, PDF, p. 10, for names and details). 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -170,6 +170,8 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 # # Check: 
 # unikn::seecol(bangor_1, main = "Primary colours of the University of Bangor", col_bg = "grey90")
 
+
+
 # - bangor_2: Secondary colours of Bangor ------
 
 #' Secondary colours of the University of Bangor, Wales 
@@ -179,19 +181,20 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 #' 
 #' \code{bangor_2} is based on HEX color definitions  
 #' (see \href{https://www.bangor.ac.uk}{Bangor}'s 
-#' Brand guidelines (PDF, p. 10) for names and details). 
+#' Brand guidelines, PDF, p. 10, for names and details). 
 #'
 #' @details 
-#' We are modern, forward thinkers.
+#' Motto: We are modern, forward thinkers.
 #' 
 #' Supporting the primary colourways is a palette of sixteen colours 
 #' carefully bringing together distinctive tones with bolder colours to 
 #' allow flexibility and freedom -- but always used thoughtfully following 
-#' our key principles for using colour. 
+#' \href{https://www.bangor.ac.uk}{Bangor}'s key principles for using colour. 
 #' 
-#' The colours reflect our brand and university. Bold, confident, 
-#' modern, energised and ambitious. These tones represent our brand 
-#' ambitions and our brand beliefs. To be used in all marketing comms.
+#' The colours reflect \href{https://www.bangor.ac.uk}{Bangor}'s brand and university. 
+#' Bold, confident, modern, energised and ambitious. 
+#' These tones represent the \href{https://www.bangor.ac.uk}{Bangor} brand 
+#' ambitions and beliefs, and are to be used in all marketing communications.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -205,7 +208,7 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 #'
 #' @examples
 #' bangor_2
-#' unikn::seecol(bangor_2, col_bg = "grey90",  
+#' unikn::seecol(bangor_2, col_bg = "grey96",
 #'               main = "Secondary colours of the University of Bangor, Wales")  # view palette
 #' 
 #' @family Welsh university color palettes

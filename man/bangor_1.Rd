@@ -22,10 +22,9 @@ A named vector of colors (HEX/HTML codes of type character).
 of the \href{https://www.bangor.ac.uk}{University of Bangor}, Wales, UK.
 }
 \details{
-The 4 primary colours of the University of Bangor are 
-etc. 
-
-\code{bangor_1} uses the HEX color definitions.
+\code{bangor_1} is based on HEX color definitions  
+(see \href{https://www.bangor.ac.uk}{Bangor}'s 
+Brand guidelines, PDF, p. 10, for names and details).
 }
 \examples{
 bangor_1
@@ -34,6 +33,7 @@ unikn::seecol(bangor_1, col_bg = "grey90",
 
 }
 \seealso{
+\code{\link{bangor_2}} for secondary colours of Bangor;
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -43,11 +43,12 @@ unikn::seecol(bangor_1, col_bg = "grey90",
 Other Welsh university color palettes: 
 \code{\link{aberystwyth_1}},
 \code{\link{aberystwyth_2}},
+\code{\link{bangor_2}},
 \code{\link{cardiff_1}},
 \code{\link{cardiff_2}}
 }
 \author{
-\strong{unicol}, 2023-10-09.
+\strong{unicol}, 2023-10-10.
 }
 \concept{Welsh university color palettes}
 \keyword{datasets}
