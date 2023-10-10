@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9005
+# unicol 0.2.0.9006
 
 <!-- Development version:  --> 
 
@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **245\ color palettes** from **105\ institutions**. 
+The **unicol** package currently provides **249\ color palettes** from **106\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -23,14 +23,20 @@ Changes since last release:
 - New color palettes: 
     - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de):
     [`uni_halle`](https://hneth.github.io/unicol/dev/reference/uni_halle.html)
-    - [University of Stirling](https://www.stir.ac.uk): 
-    [`stirling_1`](https://hneth.github.io/unicol/dev/reference/stirling_1.html),
-    [`stirling_2`](https://hneth.github.io/unicol/dev/reference/stirling_2.html),
-    [`stirling_3`](https://hneth.github.io/unicol/dev/reference/stirling_3.html)
+    - [University of Bangor](https://www.bangor.ac.uk): 
+    [`bangor_1`](https://hneth.github.io/unicol/dev/reference/bangor_1.html),
+    [`bangor_2`](https://hneth.github.io/unicol/dev/reference/bangor_2.html),
+    [`bangor_3`](https://hneth.github.io/unicol/dev/reference/bangor_3.html),
+    [`bangor_4`](https://hneth.github.io/unicol/dev/reference/bangor_4.html)
     - [University of Magdeburg](https://www.ovgu.de): 
     [`uni_magdeburg_1`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_1.html),
     [`uni_magdeburg_2`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_2.html),
     [`uni_magdeburg_3`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_3.html)
+    - [University of Stirling](https://www.stir.ac.uk): 
+    [`stirling_1`](https://hneth.github.io/unicol/dev/reference/stirling_1.html),
+    [`stirling_2`](https://hneth.github.io/unicol/dev/reference/stirling_2.html),
+    [`stirling_3`](https://hneth.github.io/unicol/dev/reference/stirling_3.html)
+
 
 <!-- Corrections and updates: --> 
 
@@ -137,6 +143,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-10-06.]
+[File `NEWS.md` updated on 2023-10-10.]
 
 <!-- eof. -->
