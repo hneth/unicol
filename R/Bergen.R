@@ -80,13 +80,13 @@ bergen_cols_3 <- c("#eae2d5",  # 	 cmyk 4/6/10/9   rgb 255/240/164
 bergen_nams_3 <- c("Beige", "Yellow", "Orange", "Pink", "Purple")
 
 # Create palette:
-bergen_2 <- unikn::newpal(col = bergen_cols_2, 
-                          names = bergen_nams_2, 
-                          as_df = FALSE)
+bergen_2_pal <- unikn::newpal(col = bergen_cols_2, 
+                              names = bergen_nams_2, 
+                              as_df = FALSE)
 
-# Re-sort palette:
+# Re-sort palette by color group:
 ix <- c(seq(1, 30, by = 3), seq(2, 30, by = 3), seq(3, 30, by = 3))
-bergen_2_sorted <- bergen_2[ix]
+bergen_2_sorted <- bergen_2_pal[ix]
 
 # # Check:
 # unikn::seecol(bergen_2_sorted,
@@ -123,7 +123,7 @@ bergen_2_sorted <- bergen_2[ix]
 #' \strong{unicol}, 2023-10-11.
 #'
 #' @source 
-#' Colour definitions are based on \href{UiB}{https://www.uib.no}'s 
+#' Colour definitions are based on \href{https://www.uib.no}{UiB}'s 
 #' \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML).
 #'
 #' @examples
@@ -169,7 +169,7 @@ bergen_1 <- unikn::newpal(col = bergen_cols_1,
 #' \strong{unicol}, 2023-10-11.
 #'
 #' @source 
-#' Colour definitions are based on \href{UiB}{https://www.uib.no}'s 
+#' Colour definitions are based on \href{https://www.uib.no}{UiB}'s 
 #' \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML).
 #'
 #' @examples
@@ -224,8 +224,8 @@ bergen_2 <- bergen_2_sorted  # use sorted palette from above
 #' \strong{unicol}, 2023-10-11.
 #'
 #' @source 
-#' Colour definitions are based on \href{UiB}{https://www.uib.no}'s 
-#' \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML).
+#' Colour definitions are based on \href{https://www.uib.no}{UiB}'s 
+#' \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML). 
 #'
 #' @examples
 #' bergen_3
