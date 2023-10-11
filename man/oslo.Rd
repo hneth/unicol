@@ -40,6 +40,11 @@ unikn::seecol(oslo, main = "The colours of the University of Oslo, Norway") # vi
 \code{\link{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
 \code{\link{grepal}} for finding named colors.
+
+Other Norwegian university color palettes: 
+\code{\link{bergen_1}},
+\code{\link{bergen_2}},
+\code{\link{bergen_3}}
 }
 \author{
 \strong{unicol}, 2023-10-10.
