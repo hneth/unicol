@@ -29,14 +29,14 @@
 
 # 1: Main colours ----
 
-# In official communication from the organization, 
-# blue and red are used as the main colours. 
-# The colours can be used separately or in combination with the additional colors. 
-# Examples of use are on business cards, letterheads, diplomas and other key documents. 
+# In official communication from the organization,
+# blue and red are used as the main colours.
+# The colours can be used separately or in combination with the additional colors.
+# Examples of use are on business cards, letterheads, diplomas and other key documents.
 # These surfaces have a long life and should not vary too much in expression.
-
-# UiB has many fields and units, and the communication must cover various topics and target groups. 
-# In broader communication, you can also use green. 
+# 
+# UiB has many fields and units, and the communication must cover various topics and target groups.
+# In broader communication, you can also use green.
 # Examples can be power-point, websites, video, brochures, reports, conference material, social media and advertisements.
 
 bergen_cols_1 <- c("#00417d", "#009ffe", "#761a19", "#ec3d3c")
@@ -63,11 +63,11 @@ bergen_nams_2 <- paste(rep(c("Blue", "Red", "Green"), 10), rep(1:10, each = 3))
 
 # 3: Support colours ----
 
-# The support colours are used in combination with the main colours and additional colours, 
-# and should not be used as bearing colours. 
-# Examples of use may include details, illustrations, graphs and statistics. 
+# The support colours are used in combination with the main colours and additional colours,
+# and should not be used as bearing colours.
+# Examples of use may include details, illustrations, graphs and statistics.
 # 
-# The support colors can be used as bearing colors in connection with activities in the peripheral zone of UiB’s operations. 
+# The support colors can be used as bearing colors in connection with activities in the peripheral zone of UiB’s operations.
 # Contact the Communications Department for clarification.
 
 bergen_cols_3 <- c("#eae2d5",  # 	 cmyk 4/6/10/9   rgb 255/240/164
@@ -103,6 +103,18 @@ bergen_2_sorted <- bergen_2[ix]
 #' of the \href{https://www.uib.no}{University of Bergen}, Norway. 
 #'
 #' \code{bergen_1} is based on HEX color definitions. 
+#' 
+#' @details 
+#' In official communication from the organization, 
+#' blue and red are used as the main colours. 
+#' The colours can be used separately or in combination with the additional colors.
+#' Examples of use are on business cards, letterheads, diplomas and other key documents. 
+#' These surfaces have a long life and should not vary too much in expression.
+#' 
+#' UiB has many fields and units, and the communication must cover various topics and target groups. 
+#' In broader communication, you can also use green (see \code{\link{bergen_2}}). 
+#' Examples can be power-point, websites, video, brochures, reports, 
+#' conference material, social media and advertisements.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -122,7 +134,6 @@ bergen_2_sorted <- bergen_2[ix]
 #' @family Norwegian university color palettes
 #'
 #' @seealso
-#' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
@@ -139,6 +150,8 @@ bergen_1 <- unikn::newpal(col = bergen_cols_1,
 
 # # Check: 
 # unikn::seecol(bergen_1, main = "Main colours of the University of Bergen", col_bg = "grey90")
+
+
 
 # - bergen_2: Additional colours of Bergen ------
 
@@ -193,6 +206,16 @@ bergen_2 <- bergen_2_sorted  # use sorted palette from above
 #' of the \href{https://www.uib.no}{University of Bergen}, Norway. 
 #'
 #' \code{bergen_3} is based on HEX color definitions. 
+#' 
+#' @details 
+#' The support colours are used in combination with the main colours and additional colours 
+#' (see \code{\link{bergen_1}} and \code{\link{bergen_2}}), 
+#' and should not be used as bearing colours. 
+#' Examples of use may include details, illustrations, graphs and statistics.
+#' 
+#' The support colors can be used as bearing colors in connection with activities 
+#' in the peripheral zone of UiB’s operations. 
+#' Contact \href{https://www.uib.no}{UiB}'s Communications Department for clarification.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
