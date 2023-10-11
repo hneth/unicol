@@ -44,7 +44,8 @@ unikn::seecol(oslo, main = "The colours of the University of Oslo, Norway") # vi
 Other Norwegian university color palettes: 
 \code{\link{bergen_1}},
 \code{\link{bergen_2}},
-\code{\link{bergen_3}}
+\code{\link{bergen_3}},
+\code{\link{bergen_4}}
 }
 \author{
 \strong{unicol}, 2023-10-10.

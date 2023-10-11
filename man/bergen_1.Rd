@@ -45,6 +45,7 @@ unikn::seecol(bergen_1,
 \seealso{
 \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 \code{\link{bergen_3}} for support colours of the University of Bergen; 
+\code{\link{bergen_4}} for text colours of the University of Bergen; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;
 \code{\link{simcol}} for finding similar colors;
@@ -54,6 +55,7 @@ unikn::seecol(bergen_1,
 Other Norwegian university color palettes: 
 \code{\link{bergen_2}},
 \code{\link{bergen_3}},
+\code{\link{bergen_4}},
 \code{\link{oslo}}
 }
 \author{
