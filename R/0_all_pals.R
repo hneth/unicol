@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 10
+## 0_all_pals.R | 2022 10 11
 ## An inventory of all color palettes
 ## ----------------------------------
 
@@ -117,7 +117,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uni_magdeburg_1", "uni_magdeburg_2", "uni_magdeburg_3",
               "uni_halle",
               "bangor_1", "bangor_2", "bangor_3", "bangor_4",
-              "oslo"
+              "oslo", 
+              "bergen_1", "bergen_2", "bergen_3"
 )
 
 
@@ -235,7 +236,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Magdeburg", 3),
           "Martin Luther University Halle-Wittenberg",
           rep("University of Bangor", 4),
-          "University of Oslo"
+          "University of Oslo",
+          rep("University of Bergen", 3)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -348,7 +350,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Otto-von-Guericke-Universit\u00E4t Magdeburg / OVGU", 3),
               "Martin-Luther-Universit\u00E4t Halle-Wittenberg / MLU Halle Wittenberg",
               rep("Prifysgol Bangor / Bangor University", 4),
-              "Universitetet i Oslo / UiO"
+              "Universitetet i Oslo / UiO",
+              rep("Universitetet i Bergen / UiB", 3)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -461,7 +464,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.ovgu.de", 3),
          "https://www.uni-halle.de",
          rep("https://www.bangor.ac.uk", 4),
-         "https://www.uio.no"
+         "https://www.uio.no",
+         rep("https://www.uib.no", 3)
 ) # url. 
 
 
@@ -469,7 +473,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 250 4  2023-10-10
+# dim(all_data)  # 253 4  2023-10-11
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -516,9 +520,9 @@ row.names(all_data) <- 1:nrow(all_data)
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
 # # On 2023-10-10:
-# length(all_data$pal)           #  250 color palettes
-# length(unique(all_data$inst))  #  107 institutions
-# sum(n_cols)                    # 1707 colors
+# length(all_data$pal)           #  253 color palettes
+# length(unique(all_data$inst))  #  108 institutions
+# sum(n_cols)                    # 1746 colors
 
 # +++ here now +++
 
