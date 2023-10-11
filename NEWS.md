@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9007
+# unicol 0.2.0.9008
 
 <!-- Development version:  --> 
 
@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **250\ color palettes** from **107\ institutions**. 
+The **unicol** package currently provides **253\ color palettes** from **108\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -21,20 +21,24 @@ Changes since last release:
 <!-- Additions: --> 
 
 - New color palettes: 
-    - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de):
+    - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de) (Germany):
     [`uni_halle`](https://hneth.github.io/unicol/dev/reference/uni_halle.html)
-    - [University of Bangor](https://www.bangor.ac.uk): 
+    - [University of Bangor](https://www.bangor.ac.uk) (Wales, UK): 
     [`bangor_1`](https://hneth.github.io/unicol/dev/reference/bangor_1.html),
     [`bangor_2`](https://hneth.github.io/unicol/dev/reference/bangor_2.html),
     [`bangor_3`](https://hneth.github.io/unicol/dev/reference/bangor_3.html),
     [`bangor_4`](https://hneth.github.io/unicol/dev/reference/bangor_4.html)
-    - [University of Magdeburg](https://www.ovgu.de): 
+    - [University of Bergen](https://www.uib.no) (Norway): 
+    [`bergen_1`](https://hneth.github.io/unicol/dev/reference/bergen_1.html), 
+    [`bergen_2`](https://hneth.github.io/unicol/dev/reference/bergen_2.html), 
+    [`bergen_3`](https://hneth.github.io/unicol/dev/reference/bergen_3.html) 
+    - [University of Magdeburg](https://www.ovgu.de) (Germany): 
     [`uni_magdeburg_1`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_1.html),
     [`uni_magdeburg_2`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_2.html),
     [`uni_magdeburg_3`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_3.html)
-    - [University of Oslo](https://www.uio.no): 
-    [`oslo`](https://hneth.github.io/unicol/dev/reference/oslo.html),
-    - [University of Stirling](https://www.stir.ac.uk): 
+    - [University of Oslo](https://www.uio.no) (Norway): 
+    [`oslo`](https://hneth.github.io/unicol/dev/reference/oslo.html) 
+    - [University of Stirling](https://www.stir.ac.uk) (Scotland, UK): 
     [`stirling_1`](https://hneth.github.io/unicol/dev/reference/stirling_1.html),
     [`stirling_2`](https://hneth.github.io/unicol/dev/reference/stirling_2.html),
     [`stirling_3`](https://hneth.github.io/unicol/dev/reference/stirling_3.html)
@@ -43,7 +47,7 @@ Changes since last release:
 <!-- Corrections and updates: --> 
 
 - Corrected or updated color palettes: 
-    - [Columbia University](https://www.columbia.edu): 3 new color palettes 
+    - [Columbia University](https://www.columbia.edu) (USA): 3 new color palettes 
     ([`columbia_1`](https://hneth.github.io/unicol/dev/reference/columbia_1.html),
     [`columbia_2`](https://hneth.github.io/unicol/dev/reference/columbia_2.html),
     [`columbia_3`](https://hneth.github.io/unicol/dev/reference/columbia_3.html)) replace the former 
@@ -92,26 +96,28 @@ Changes since last release:
 ## Major changes 
 
 - New color palettes: 
-    - [Aberystwyth University](https://aber.ac.uk/en/): `aberystwyth_1`, `aberystwyth_2`  
-    - [Cardiff University](https://www.cardiff.ac.uk): `cardiff_1`, `cardiff_2`
-    - [Macquarie University](https://www.mq.edu.au): `mq_1`, `mq_2`
-    - [Maynooth University](https://www.maynoothuniversity.ie): `maynooth`
-    - [Ohio University](https://www.ohio.edu): `ohio_uni_1`, `ohio_uni_2` 
-    - [University College Cork](https://www.ucc.ie): `ucc_1`, `ucc_2`
-    - [University College Dublin](https://www.ucd.ie): `ucd` 
-    - [University of Auckland](https://www.auckland.ac.nz/en.html): `auckland_1`, `auckland_2` 
-    - [University of Groningen](https://www.rug.nl): `groningen_1`, `groningen_2` 
-    - [University of Lisbon](https://www.ulisboa.pt): `uni_lisbon` 
-    - [University of Otago](https://www.otago.ac.nz): `otago` 
-    - [University of Nottingham](https://www.nottingham.ac.uk): `nottingham_1`, `nottingham_2`, `nottingham_3`
-    - [University of Wollongong](https://www.uow.edu.au): `wollongong_1`, `wollongong_2` 
-    - [Willamette University](https://willamette.edu): `willamette` 
+    - [Aberystwyth University](https://aber.ac.uk/en/) (Wales, UK): `aberystwyth_1`, `aberystwyth_2`  
+    - [Cardiff University](https://www.cardiff.ac.uk) (Wales, UK): `cardiff_1`, `cardiff_2`
+    - [Macquarie University](https://www.mq.edu.au) (Australia): `mq_1`, `mq_2`
+    - [Maynooth University](https://www.maynoothuniversity.ie) (Ireland): `maynooth`
+    - [Ohio University](https://www.ohio.edu) (USA): `ohio_uni_1`, `ohio_uni_2` 
+    - [University College Cork](https://www.ucc.ie) (Ireland): `ucc_1`, `ucc_2`
+    - [University College Dublin](https://www.ucd.ie) (Ireland): `ucd` 
+    - [University of Auckland](https://www.auckland.ac.nz/en.html) (New Zealand): `auckland_1`, `auckland_2` 
+    - [University of Groningen](https://www.rug.nl) (Netherlands): `groningen_1`, `groningen_2` 
+    - [University of Lisbon](https://www.ulisboa.pt) (Portugal): `uni_lisbon` 
+    - [University of Otago](https://www.otago.ac.nz) (New Zealand): `otago` 
+    - [University of Nottingham](https://www.nottingham.ac.uk) (England, UK): `nottingham_1`, `nottingham_2`, `nottingham_3`
+    - [University of Wollongong](https://www.uow.edu.au) (Australia): `wollongong_1`, `wollongong_2` 
+    - [Willamette University](https://willamette.edu) (USA): `willamette` 
+
+<!-- Corrections and updates: --> 
 
 - Corrected or updated color palettes: 
-    - [Humboldt University Berlin](https://www.hu-berlin.de):
+    - [Humboldt University Berlin](https://www.hu-berlin.de) (Germany):
     `hu_1`, `hu_1_digital`, `hu_2`, `hu_3_accent` (previous palettes are now `hu_1_2022` and `hu_2_2022`) 
-    - [Trinity College Dublin](https://www.tcd.ie): `trinity_2` has been corrected 
-    - [UCLA](https://www.ucla.edu): added `ucla_4` for creating color gradients 
+    - [Trinity College Dublin](https://www.tcd.ie) (Ireland): `trinity_2` has been corrected 
+    - [UCLA](https://www.ucla.edu) (USA): added `ucla_4` for creating color gradients 
     
 
 <!-- Minor changes: --> 
@@ -145,6 +151,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-10-10.]
+[File `NEWS.md` updated on 2023-10-11.]
 
 <!-- eof. -->
