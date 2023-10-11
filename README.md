@@ -85,7 +85,7 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **253 color palettes** from
+The **unicol** package currently provides **254 color palettes** from
 **108 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
@@ -99,7 +99,7 @@ an overview of included color palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **253\ color palettes** from **108\ institutions**.  -->
+<!-- The **unicol** package currently contains **254\ color palettes** from **108\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->

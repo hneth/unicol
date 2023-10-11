@@ -520,7 +520,7 @@ row.names(all_data) <- 1:nrow(all_data)
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
 # # On 2023-10-11:
-# length(all_data$pal)           #  253 color palettes
+# length(all_data$pal)           #  254 color palettes
 # length(unique(all_data$inst))  #  108 institutions
 # sum(n_cols)                    # 1746 colors
 
