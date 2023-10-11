@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# cur_pals: "bergen_1", "bergen_2, "bergen_3" (3)
+# cur_pals: "bergen_1", "bergen_2, "bergen_3", "bergen_4" (4)
 
 # inst: "University of Bergen"
 # inst_alt: "Universitetet i Bergen / UiB"
@@ -93,6 +93,17 @@ bergen_2_sorted <- bergen_2_pal[ix]
 #               main = "Additional colours of the University of Bergen, Norway")  # re-sorted palette
 
 
+
+# 4: Text colours ----
+
+bergen_cols_4 <- c("#00102a", "#1d0606", "#051b0f", 
+                   "#eafafe", "#fef9f1", "#e7fdf0")
+
+bergen_nams_4 <- c("Text 1", "Text 2", "Text 3", 
+                   "Text 4", "Text 5", "Text 6")
+
+
+
 # Color palette(s):
 
 # - bergen_1: Main colours of Bergen ------
@@ -136,6 +147,7 @@ bergen_2_sorted <- bergen_2_pal[ix]
 #' @seealso
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
+#' \code{\link{bergen_4}} for text colours of the University of Bergen; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -183,6 +195,7 @@ bergen_1 <- unikn::newpal(col = bergen_cols_1,
 #' @seealso
 #' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
+#' \code{\link{bergen_4}} for text colours of the University of Bergen; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -237,6 +250,7 @@ bergen_2 <- bergen_2_sorted  # use sorted palette from above
 #' @seealso
 #' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
+#' \code{\link{bergen_4}} for text colours of the University of Bergen; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
 #' \code{\link{simcol}} for finding similar colors;
@@ -251,6 +265,60 @@ bergen_3 <- unikn::newpal(col = bergen_cols_3,
 
 # # Check: 
 # unikn::seecol(bergen_3, main = "Support colours of the University of Bergen", col_bg = "grey90")
+
+
+# - bergen_4: Text colours of Bergen ------
+
+#' Text colours of the University of Bergen, Norway
+#' 
+#' \code{bergen_4} provides six text colours 
+#' of the \href{https://www.uib.no}{University of Bergen}, Norway. 
+#'
+#' \code{bergen_4} is based on HEX color definitions. 
+#' 
+#' @details 
+#' Text is used in one of these colours. 
+#' Black and white can also be used where appropriate.
+#' 
+#' All web systems should comply with universal design requirements (WCAG 2.0). 
+#' This means that readability on a page must be ensured by remaining conscious 
+#' of contrast, text sizes and structure.
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-11.
+#'
+#' @source 
+#' Colour definitions are based on \href{https://www.uib.no}{UiB}'s 
+#' \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML). 
+#'
+#' @examples
+#' bergen_4
+#' unikn::seecol(bergen_4, col_bg = "grey90",  col_brd = "grey90", lwd_brd = 5,  
+#'               main = "Text colours of the University of Bergen, Norway")  # view palette
+#' 
+#' @family Norwegian university color palettes
+#'
+#' @seealso
+#' \code{\link{bergen_1}} for main colours of the University of Bergen;
+#' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
+#' \code{\link{bergen_3}} for support colours of the University of Bergen; 
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
+bergen_4 <- unikn::newpal(col = bergen_cols_4, 
+                          names = bergen_nams_4, 
+                          as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(bergen_4, main = "Text colours of the University of Bergen", col_bg = "grey90")
 
 
 ## ToDo: -------- 
