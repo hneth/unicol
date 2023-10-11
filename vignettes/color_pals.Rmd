@@ -1,11 +1,11 @@
 ---
-title: "Color palettes"
+title: "All color palettes"
 author: "Hansjoerg Neth"
 date: "`r Sys.Date()`"
 output: 
   rmarkdown::html_vignette
 vignette: > 
-  %\VignetteIndexEntry{Color palettes}
+  %\VignetteIndexEntry{All color palettes}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -279,7 +279,7 @@ The following vignettes provide an overview of and examples for using the **unic
 
 | Nr.  | Vignette | Content    |        
 | ---: |:---------|:-----------|
-| 1. | [Color palettes](color_pals.html) | The color palettes of the **unicol** R package |
+| 1. | [All color palettes](color_pals.html) | The color palettes of the **unicol** R package |
 | 2. | [Using color palettes](using_pals.html) | Recipes for using the **unicol** color palettes |
 
 

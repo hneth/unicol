@@ -47,11 +47,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -139,7 +141,7 @@ tab_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst,
 knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```
 
-(See the vignette on **[Color palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for an overview of included color palettes and institutions.) 
+(See the vignette **[All color palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for an overview of included color palettes and institutions.) 
 
 <!-- ## Examples  -->
 

@@ -63,7 +63,7 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 
 
 This vignettes shows **how to** use the color palettes included in the **unicol** R\ package. 
-(See the vignette on [Color palettes](color_pals.html) for an overview of the palettes included in the package.) 
+(See the [All color palettes](color_pals.html) vignette for an overview of the palettes included in the package.) 
 
 We install or load the **unicol** package to get started: 
 
@@ -257,7 +257,7 @@ The following vignettes provide an overview of and examples for using the **unic
 
 | Nr.  | Vignette | Content    |        
 | ---: |:---------|:-----------|
-| 1. | [Color palettes](color_pals.html) | The color palettes of the **unicol** R package |
+| 1. | [All color palettes](color_pals.html) | The color palettes of the **unicol** R package |
 | 2. | [Using color palettes](using_pals.html) | Recipes for using the **unicol** color palettes |
 
 

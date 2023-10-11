@@ -90,7 +90,7 @@ The **unicol** package currently provides **254 color palettes** from
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
-(See the vignette on **[Color
+(See the vignette **[All color
 palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for
 an overview of included color palettes and institutions.)
 
