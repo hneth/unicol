@@ -8,7 +8,7 @@
 An object of class \code{character} of length 4.
 }
 \source{
-Colour definitions are based on \href{UiB}{https://www.uib.no}'s 
+Colour definitions are based on \href{https://www.uib.no}{UiB}'s 
 \href{https://manual.uib.no/en/brand-guide/}{brand guide} (HTML).
 }
 \usage{
