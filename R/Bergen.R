@@ -5,7 +5,7 @@
 
 # Information: ------
 
-# cur_pals: "example" (1)
+# cur_pals: "bergen_1", "bergen_2, "bergen_3" (3)
 
 # inst: "University of Bergen"
 # inst_alt: "Universitetet i Bergen / UiB"
