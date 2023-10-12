@@ -1,4 +1,4 @@
-## _.R | 2023 09 03
+## .R | 2023 10 12
 ## Colors of Institution, Country
 ## ------------------------------
 
@@ -14,6 +14,7 @@
 
 # Color source: HTML: / PDF 
 # color_URL: <>
+# Last check: 2023-10-12
 
 
 # Colors: ------
