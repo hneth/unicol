@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **256\ color palettes** from **109\ institutions**. 
+The **unicol** package currently provides **257\ color palettes** from **110\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -46,6 +46,8 @@ Changes since last release:
     - [University of Stockholm](https://www.su.se) (Sweden): 
     [`stockholm_1`](https://hneth.github.io/unicol/dev/reference/stockholm_1.html),
     [`stockholm_2`](https://hneth.github.io/unicol/dev/reference/stockholm_2.html) 
+    - [Uppsala University](https://www.uu.se) (Sweden): 
+    [`uppsala`](https://hneth.github.io/unicol/dev/reference/uppsala.html) 
 
 
 <!-- Corrections and updates: --> 
