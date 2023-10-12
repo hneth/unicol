@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **258\ color palettes** from **111\ institutions**. 
+The **unicol** package currently provides **261\ color palettes** from **112\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -21,6 +21,10 @@ Changes since last release:
 <!-- Additions: --> 
 
 - New color palettes: 
+    - [Lund University](https://www.lu.se) (Sweden): 
+    [`lund_1`](https://hneth.github.io/unicol/dev/reference/lund_1.html), 
+    [`lund_2`](https://hneth.github.io/unicol/dev/reference/lund_2.html), 
+    [`lund_3`](https://hneth.github.io/unicol/dev/reference/lund_3.html)
     - [Martin Luther University Halle-Wittenberg](https://www.uni-halle.de) (Germany):
     [`uni_halle`](https://hneth.github.io/unicol/dev/reference/uni_halle.html)
     - [University of Bangor](https://www.bangor.ac.uk) (Wales, UK): 
