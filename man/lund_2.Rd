@@ -32,7 +32,7 @@ unikn::seecol(lund_2, main = "Pastel colours of Lund University, Sweden")
 
 }
 \seealso{
-\code{\link{lund_1}} for primary colours of Lund University; 
+\code{\link{lund_1}} for profile colours of Lund University; 
 \code{\link{lund_3}} for darker pastel colours of Lund University; 
 \code{\link{seecol}} for viewing and comparing color palettes;
 \code{\link{usecol}} for using color palettes;

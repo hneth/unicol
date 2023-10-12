@@ -3,7 +3,7 @@
 \docType{data}
 \name{lund_1}
 \alias{lund_1}
-\title{Primary colours of the University of Lund, Sweden}
+\title{Profile colours of the University of Lund, Sweden}
 \format{
 An object of class \code{character} of length 2.
 }
@@ -18,15 +18,18 @@ lund_1
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{lund_1} provides the two primary colors 
+\code{lund_1} provides the two profile colors 
 of the \href{https://www.lu.se}{Lund University}, Sweden.
 }
 \details{
+The \code{Dark blue} and \code{Bronze} profile colours 
+come from \href{https://www.lu.se}{LU}'s logotype. 
+
 \code{lund_1} is based on RGB color definitions.
 }
 \examples{
 lund_1
-unikn::seecol(lund_1, main = "Primary colours of Lund University, Sweden")
+unikn::seecol(lund_1, main = "Profile colours of Lund University, Sweden")
 
 }
 \seealso{
