@@ -42,6 +42,7 @@ unikn::seecol(stockholm_1,
 \code{\link{grepal}} for finding named colors.
 
 Other Swedish university color palettes: 
+\code{\link{gothenburg}},
 \code{\link{stockholm_2}},
 \code{\link{uppsala}}
 }

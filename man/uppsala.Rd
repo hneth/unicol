@@ -44,6 +44,7 @@ unikn::seecol(uppsala, main = "The colours of Uppsala University, Sweden")  # vi
 \code{\link{grepal}} for finding named colors.
 
 Other Swedish university color palettes: 
+\code{\link{gothenburg}},
 \code{\link{stockholm_1}},
 \code{\link{stockholm_2}}
 }
