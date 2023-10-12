@@ -69,7 +69,7 @@ included in the <strong>unicol</strong> package
 
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
-    <p>An object of class <code>data.frame</code> with 256 rows and 4 columns.</p>
+    <p>An object of class <code>data.frame</code> with 257 rows and 4 columns.</p>
     </div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
@@ -89,7 +89,7 @@ included in the <strong>unicol</strong> package
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/dim.html" class="external-link">dim</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 256   4</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 257   4</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>                             inst                       inst_alt</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1         Aberystwyth University          Prifysgol Aberystwyth</span>
@@ -108,9 +108,9 @@ included in the <strong>unicol</strong> package
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Descriptives: </span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">$</span><span class="va">pal</span><span class="op">)</span><span class="op">)</span>   <span class="co"># number of color palettes</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 256</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 257</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">unicol_data</span><span class="op">$</span><span class="va">inst</span><span class="op">)</span><span class="op">)</span>  <span class="co"># number of institutions</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 109</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 110</span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
