@@ -120,7 +120,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "oslo", 
               "bergen_1", "bergen_2", "bergen_3", "bergen_4",
               "stockholm_1", "stockholm_2",
-              "uppsala"
+              "uppsala",
+              "gothenburg"
 )
 
 
@@ -241,7 +242,8 @@ inst <- c(rep("ETH Zurich", 3),
           "University of Oslo",
           rep("University of Bergen", 4),
           rep("University of Stockholm", 2),
-          "Uppsala University"
+          "Uppsala University",
+          "University of Gothenburg"
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -357,7 +359,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Universitetet i Oslo / UiO",
               rep("Universitetet i Bergen / UiB", 4),
               rep("Stockholms universitet / SU", 2),
-              "Uppsala Universitet / UU"
+              "Uppsala Universitet / UU",
+              "G\u00F6teborgs Universitet / GU"
 ) # inst_alt. 
 
 # Valid URL: 
@@ -473,7 +476,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.uio.no",
          rep("https://www.uib.no", 4),
          rep("https://www.su.se", 2),
-         "https://www.uu.se"
+         "https://www.uu.se",
+         "https://www.gu.se"
 ) # url. 
 
 
@@ -481,7 +485,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 257 4  2023-10-12
+# dim(all_data)  # 258 4  2023-10-12
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
