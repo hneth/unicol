@@ -23,18 +23,18 @@ of the \href{https://www.gu.se}{University of Gothenburg}, Sweden.
 }
 \details{
 The \code{University blue} colour is specified as 
-PMS: 294 C, 2945 U, CMYK 100 75 15 0, RGB 0 75 137, NCS 4550 R90B, or HEX "#004b89". 
+PMS 294 C, 2945 U, CMYK 100 75 15 0, RGB 0 75 137, NCS 4550 R90B, or HEX "#004b89". 
 
 \code{gothenburg} uses the HEX color definition.
 
 The \code{University blue} signature colour 
-symbolises and communicates the core of the \href{https://www.gu.se}{University of Gothenburg}’s identity. 
+symbolises and communicates the core of the \href{https://www.gu.se}{University of Gothenburg}'s identity. 
 Blue signals confidence, calmness and stability. 
 It is a colour perceived to be safe, classical and sombre. 
 People commonly associate blue with the sea and closeness to the marine environment, 
 which characterises Gothenburg and the Swedish west coast. 
 
-Note
+Notes:
 
 \itemize{
 
