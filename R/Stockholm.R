@@ -187,7 +187,7 @@ stockholm_1 <- unikn::newpal(col = stock_col_1,
 #' of the \href{https://www.su.se}{University of Stockholm}, Sweden.
 #' 
 #' \code{stockholm_2} consists of 2 accent colours, 4 base colours, and 3 other colours. 
-#' Note that the 3 other colours -- named \code{Green}, \code{Red}, and \code{Red 10%} -- have limited use 
+#' Note that the 3 other colours -- named "Green", "Red", and "Red 10\%" -- have limited use 
 #' (see the Visual identity manual for details).
 #' 
 #' \code{stockholm_2} is based on the digital palette and uses HEX color definitions. 
