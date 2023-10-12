@@ -21,14 +21,16 @@
 # unicol, 2023-10-12
 
 
-# Colors: ------
+# Colours: ------
 
 # Color definitions: 
 
 # Colour codes:
 
-# 1: 2 main colours ----
-#   
+# 1: Profile colours ----
+# 
+# Two of Lund University’s profile colours, dark blue and bronze, come from our logotype. 
+# 
 # Dark blue
 # CMYK: C100, M85, Y5, K22
 # PMS: 280
@@ -45,7 +47,7 @@ lu_col_1 <- c(grDevices::rgb(  0,   0, 128, maxColorValue = 255),
 lu_nam_1 <- c("Dark blue", "Bronze")
 
 
-# 2: 5 pastel colours ---- 
+# 2: Pastel colours ---- 
 # 
 # Pink
 # CMYK: C0 M15 Y5 K0
@@ -101,12 +103,15 @@ lu_nam_3 <- c("Pink 2", "Light blue 2", "Green 2", "Beige 2", "Grey 2")
 
 # Color palette(s):
 
-# - lund_1: Primary colours of Lund ------
+# - lund_1: Profile colours of Lund ------
 
-#' Primary colours of the University of Lund, Sweden
+#' Profile colours of the University of Lund, Sweden
 #' 
-#' \code{lund_1} provides the two primary colors 
+#' \code{lund_1} provides the two profile colors 
 #' of the \href{https://www.lu.se}{Lund University}, Sweden.
+#'
+#' The \code{Dark blue} and \code{Bronze} profile colours 
+#' come from \href{https://www.lu.se}{LU}'s logotype. 
 #'
 #' \code{lund_1} is based on RGB color definitions. 
 #'
@@ -122,7 +127,7 @@ lu_nam_3 <- c("Pink 2", "Light blue 2", "Green 2", "Beige 2", "Grey 2")
 #'
 #' @examples
 #' lund_1
-#' unikn::seecol(lund_1, main = "Primary colours of Lund University, Sweden")
+#' unikn::seecol(lund_1, main = "Profile colours of Lund University, Sweden")
 #' 
 #' @family Swedish university color palettes
 #'
@@ -174,7 +179,7 @@ lund_1 <- unikn::newpal(col = lu_col_1,
 #' @family Swedish university color palettes
 #'
 #' @seealso
-#' \code{\link{lund_1}} for primary colours of Lund University; 
+#' \code{\link{lund_1}} for profile colours of Lund University; 
 #' \code{\link{lund_3}} for darker pastel colours of Lund University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
@@ -221,7 +226,7 @@ lund_2 <- unikn::newpal(col = lu_col_2,
 #' @family Swedish university color palettes
 #'
 #' @seealso
-#' \code{\link{lund_1}} for primary colours of Lund University; 
+#' \code{\link{lund_1}} for profile colours of Lund University; 
 #' \code{\link{lund_2}} for pastel colours of Lund University; 
 #' \code{\link{seecol}} for viewing and comparing color palettes;
 #' \code{\link{usecol}} for using color palettes;
