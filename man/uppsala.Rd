@@ -45,6 +45,9 @@ unikn::seecol(uppsala, main = "The colours of Uppsala University, Sweden")  # vi
 
 Other Swedish university color palettes: 
 \code{\link{gothenburg}},
+\code{\link{lund_1}},
+\code{\link{lund_2}},
+\code{\link{lund_3}},
 \code{\link{stockholm_1}},
 \code{\link{stockholm_2}}
 }
