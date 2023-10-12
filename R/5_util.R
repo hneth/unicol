@@ -1,4 +1,4 @@
-## util.R | 2023 10 10
+## util.R | 2023 10 12
 ## Utility functions
 ## -------------------
 
@@ -34,15 +34,18 @@ n_col <- function(pal_name){
 country_codes_df <- data.frame(code = c("au", "ca", "ch", "de", 
                                         "edu", "com", "org", "us", 
                                         "es", "fr", "ie", "nl", 
-                                        "no", "nz", "pt", "uk"),
+                                        "no", "nz", "pt", 
+                                        "se", "uk"),
                                country = c("Australia", "Canada", "Switzerland", "Germany", 
                                            "USA", "USA", "USA", "USA", 
                                            "Spain", "France", "Ireland", "Netherlands", 
-                                           "Norway", "New Zealand", "Portugal", "UK"),
+                                           "Norway", "New Zealand", "Portugal", 
+                                           "Sweden", "UK"),
                                color = c("goldenrod", "forestgreen", "red2", "black", 
                                          "blue3", "blue3", "blue3", "blue3", 
                                          "skyblue", "blue1", "green3", "orange", 
-                                         "slateblue4", "navy", "gold", "firebrick")
+                                         "slateblue4", "navy", "gold", 
+                                         "yellow2", "firebrick")
 )
 
 # # Check:
