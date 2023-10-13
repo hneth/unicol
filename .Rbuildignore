@@ -1,5 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
 ^_gitless$
 ^README\.Rmd$
 ^logo\.png$
@@ -8,6 +9,4 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
-^\.github$
-^doc$
 ^Meta$
