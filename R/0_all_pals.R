@@ -1,10 +1,9 @@
-## 0_all_pals.R | 2022 10 12
-## An inventory of all color palettes
-## ----------------------------------
+## 0_all_pals.R | 2022 10 13
+## Inventory of all color palettes
+## -------------------------------
 
-# Goal: Provide an inventory of color palettes.
-#       A record / registry of all color palettes
-#       (and institutions and corresponding labels).
+# Goal: Provide an inventory / record / registry of color palettes
+#       (and corresponding institutions, labels, and URLs).
 
 # A. Meta-information on all exported color palettes: ------ 
 
