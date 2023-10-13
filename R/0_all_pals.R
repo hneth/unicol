@@ -121,7 +121,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "stockholm_1", "stockholm_2",
               "uppsala",
               "gothenburg",
-              "lund_1", "lund_2", "lund_3"
+              "lund_1", "lund_2", "lund_3",
+              "ku_1", "ku_2"
 )
 
 
@@ -244,7 +245,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Stockholm", 2),
           "Uppsala University",
           "University of Gothenburg",
-          rep("Lund University", 3)
+          rep("Lund University", 3),
+          rep("University of Copenhagen", 2)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -362,7 +364,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Stockholms universitet / SU", 2),
               "Uppsala Universitet / UU",
               "G\u00F6teborgs Universitet / GU",
-              rep("Lunds Universitet / LU", 3)
+              rep("Lunds Universitet / LU", 3),
+              rep("Kobenhavns Universitet / KU", 2)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -480,7 +483,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.su.se", 2),
          "https://www.uu.se",
          "https://www.gu.se", 
-         rep("https://www.lu.se", 3)
+         rep("https://www.lu.se", 3),
+         rep("https://www.ku.dk", 2)
 ) # url. 
 
 
