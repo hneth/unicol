@@ -31,21 +31,24 @@ n_col <- function(pal_name){
 
 # Goal: Lookup table for correspondences of URL endings <> Countries <> Colors.
 
-country_codes_df <- data.frame(code = c("au", "ca", "ch", "de", 
+country_codes_df <- data.frame(code = c("au", "ca", "ch", 
+                                        "de", "dk", 
                                         "edu", "com", "org", "us", 
                                         "es", "fr", "ie", "nl", 
                                         "no", "nz", "pt", 
                                         "se", "uk"),
-                               country = c("Australia", "Canada", "Switzerland", "Germany", 
+                               country = c("Australia", "Canada", "Switzerland", 
+                                           "Germany", "Denmark",  
                                            "USA", "USA", "USA", "USA", 
                                            "Spain", "France", "Ireland", "Netherlands", 
                                            "Norway", "New Zealand", "Portugal", 
                                            "Sweden", "UK"),
-                               color = c("goldenrod", "forestgreen", "red2", "black", 
+                               color = c("goldenrod", "forestgreen", "red2", 
+                                         "black", "firebrick3", 
                                          "blue3", "blue3", "blue3", "blue3", 
                                          "skyblue", "blue1", "green3", "orange", 
                                          "slateblue4", "navy", "gold", 
-                                         "yellow2", "firebrick")
+                                         "yellow2", "firebrick1")
 )
 
 # # Check:
