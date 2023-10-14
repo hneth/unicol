@@ -49,6 +49,7 @@ unikn::seecol(ku_1,
 \code{\link{grepal}} for finding named colors.
 
 Other Danish university color palettes: 
+\code{\link{aarhus}},
 \code{\link{ku_2}}
 }
 \author{
