@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 13
+## 0_all_pals.R | 2022 10 14
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -122,7 +122,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "uppsala",
               "gothenburg",
               "lund_1", "lund_2", "lund_3",
-              "ku_1", "ku_2"
+              "ku_1", "ku_2",
+              "aarhus"
 )
 
 
@@ -246,7 +247,8 @@ inst <- c(rep("ETH Zurich", 3),
           "Uppsala University",
           "University of Gothenburg",
           rep("Lund University", 3),
-          rep("University of Copenhagen", 2)
+          rep("University of Copenhagen", 2),
+          "Aarhus University"
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -365,7 +367,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "Uppsala Universitet / UU",
               "G\u00F6teborgs Universitet / GU",
               rep("Lunds Universitet / LU", 3),
-              rep("Kobenhavns Universitet / KU", 2)
+              rep("Kobenhavns Universitet / KU", 2),
+              "Aarhus Universitet / AU"
 ) # inst_alt. 
 
 # Valid URL: 
@@ -484,15 +487,16 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.uu.se",
          "https://www.gu.se", 
          rep("https://www.lu.se", 3),
-         rep("https://www.ku.dk", 2)
-) # url. 
+         rep("https://www.ku.dk", 2),
+         "https://www.au.dk"
+) # url.
 
 
 # B. Collect all_data (as data frame): ------ 
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 261 4  2023-10-12
+# dim(all_data)  # 264 4  2023-10-14
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
