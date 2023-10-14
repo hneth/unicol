@@ -21,7 +21,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- ALL badges end. -->
 
-# unicol 0.2.0.9009 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
+# unicol 0.2.0.9010 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -85,8 +85,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **263 color palettes** from
-**113 institutions**.
+The **unicol** package currently provides **264 color palettes** from
+**114 institutions**.
 
 <!-- **Table\ 1** provides an overview of all color palettes:  -->
 
@@ -99,7 +99,7 @@ an overview of included color palettes and institutions.)
 
 ### Examples of color palettes
 
-<!-- The **unicol** package currently contains **263\ color palettes** from **113\ institutions**.  -->
+<!-- The **unicol** package currently contains **264\ color palettes** from **114\ institutions**.  -->
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
 <!-- Show as a table: -->
 <!-- Show as a figure: -->
@@ -325,6 +325,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2023-10-13.\]
+\[File `README.Rmd` updated on 2023-10-14.\]
 
 <!-- eof. -->
