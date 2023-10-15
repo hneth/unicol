@@ -4,10 +4,10 @@
 
 # Information: ------
 
-# cur_pals: "aalto_1" "aalto_2" (2)
+# cur_pals: "aalto_1", "aalto_2" (2)
 
 # inst: "Aalto University"
-# inst_alt: "Aalto Yliopisto"
+# inst_alt: "Aalto Yliopisto / AU"
 # country: Finland
 # inst_URL: <https://www.aalto.fi> OR <https://www.aalto.fi/en>
 
@@ -123,6 +123,41 @@ aa_nams_2 <- paste("School of",
 
 # - aalto_1: Primary brand colours of Aalto ------ 
 
+#' Primary brand colours of Aalto University, Finland 
+#' 
+#' \code{aalto_1} provides the primary brand colours 
+#' of \href{https://www.aalto.fi}{Aalto University}, Finland.
+#'
+#' \code{aalto_1} is based on HEX color definitions. 
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-15.
+#'
+#' @source 
+#' Color definitions are based on 
+#' \href{https://www.aalto.fi}{AU}'s 
+#' \href{https://brand.aalto.fi/visual-identity/about/colour-palette}{brand guide} (HTML).
+#'
+#' @examples
+#' aalto_1
+#' unikn::seecol(aalto_1, 
+#'               main = "Primary brand colours of Aalto University, Finland") # view palette
+#' 
+#' @family Finnish university color palettes
+#'
+#' @seealso
+#' \code{\link{aalto_2}} for departmental colours of Aalto University;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
 aalto_1 <- unikn::newpal(col = aa_cols_1,
                          names = aa_nams_1,
                          as_df = FALSE)
@@ -133,6 +168,42 @@ aalto_1 <- unikn::newpal(col = aa_cols_1,
 
 
 # - aalto_2: Departmental colours of Aalto ------ 
+
+#' Primary brand colours of Aalto University, Finland 
+#' 
+#' \code{aalto_2} provides the departmental colours 
+#' for the different schools 
+#' of \href{https://www.aalto.fi}{Aalto University}, Finland.
+#'
+#' \code{aalto_2} is based on HEX color definitions. 
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-15.
+#'
+#' @source 
+#' Color definitions are based on 
+#' \href{https://www.aalto.fi}{AU}'s 
+#' \href{https://brand.aalto.fi/visual-identity/about/colour-palette}{brand guide} (HTML).
+#'
+#' @examples
+#' aalto_2
+#' unikn::seecol(aalto_2, 
+#'               main = "Departmental colours of Aalto University, Finland") # view palette
+#' 
+#' @family Finnish university color palettes
+#'
+#' @seealso
+#' \code{\link{aalto_1}} for primary brand colours of Aalto University;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
 
 aalto_2 <- unikn::newpal(col = aa_cols_2,
                          names = aa_nams_2,
