@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9010
+# unicol 0.2.0.9011
 
 <!-- Development version:  --> 
 
@@ -7,7 +7,7 @@ This is the development version of **unicol**, available at <https://github.com/
 
 This version adds new color palettes and improves package maintenance.
 
-The **unicol** package currently provides **264\ color palettes** from **114\ institutions**. 
+The **unicol** package currently provides **269\ color palettes** from **116\ institutions**. 
 
 
 <!-- Log of changes: --> 
@@ -21,6 +21,9 @@ Changes since last release:
 <!-- Additions: --> 
 
 - New color palettes: 
+    - [Aalto University](https://www.aalto.fi) (Finland): 
+    [`aalto_1`](https://hneth.github.io/unicol/dev/reference/aalto_1.html), 
+    [`aalto_2`](https://hneth.github.io/unicol/dev/reference/aalto_2.html) 
     - [Aarhus University](https://www.au.dk) (Denmark): 
     [`aarhus`](https://hneth.github.io/unicol/dev/reference/aarhus.html) 
     - [Lund University](https://www.lu.se) (Sweden): 
@@ -44,6 +47,10 @@ Changes since last release:
     [`ku_2`](https://hneth.github.io/unicol/dev/reference/ku_2.html) 
     - [University of Gothenburg](https://www.gu.se) (Sweden): 
     [`gothenburg`](https://hneth.github.io/unicol/dev/reference/gothenburg.html) 
+    - [University of Helsinki](https://www.helsinki.fi) (Finland): 
+    [`helsinki_1`](https://hneth.github.io/unicol/dev/reference/helsinki_1.html), 
+    [`helsinki_2`](https://hneth.github.io/unicol/dev/reference/helsinki_2.html), 
+    [`helsinki_3`](https://hneth.github.io/unicol/dev/reference/helsinki_3.html) 
     - [University of Magdeburg](https://www.ovgu.de) (Germany): 
     [`uni_magdeburg_1`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_1.html),
     [`uni_magdeburg_2`](https://hneth.github.io/unicol/dev/reference/uni_magdeburg_2.html),
@@ -168,6 +175,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-10-14.]
+[File `NEWS.md` updated on 2023-10-15.]
 
 <!-- eof. -->
