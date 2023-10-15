@@ -1,4 +1,4 @@
-## util.R | 2023 10 13
+## util.R | 2023 10 15
 ## Utility functions
 ## -------------------
 
@@ -31,23 +31,29 @@ n_col <- function(pal_name){
 
 # Goal: Lookup table for correspondences of URL endings <> Countries <> Colors.
 
-country_codes_df <- data.frame(code = c("au", "ca", "ch", 
+country_codes_df <- data.frame(code = c("au", "ca", 
+                                        "ch", 
                                         "de", "dk", 
                                         "edu", "com", "org", "us", 
-                                        "es", "fr", "ie", "nl", 
+                                        "es", "fi", "fr", 
+                                        "ie", "nl", 
                                         "no", "nz", "pt", 
                                         "se", "uk"),
-                               country = c("Australia", "Canada", "Switzerland", 
-                                           "Germany", "Denmark",  
+                               country = c("Australia", "Canada", 
+                                           "Switzerland", 
+                                           "Germany", "Denmark", 
                                            "USA", "USA", "USA", "USA", 
-                                           "Spain", "France", "Ireland", "Netherlands", 
+                                           "Spain", "Finland", "France", 
+                                           "Ireland", "Netherlands", 
                                            "Norway", "New Zealand", "Portugal", 
                                            "Sweden", "UK"),
-                               color = c("goldenrod", "forestgreen", "red2", 
+                               color = c("goldenrod", "forestgreen", 
+                                         "red2", 
                                          "black", "firebrick3", 
                                          "blue3", "blue3", "blue3", "blue3", 
-                                         "skyblue", "blue1", "green3", "orange", 
-                                         "slateblue4", "navy", "gold", 
+                                         "gold1", "yellow1", "blue1", 
+                                         "green3", "orange", 
+                                         "slateblue4", "navy", "gold2", 
                                          "yellow2", "firebrick1")
 )
 
