@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 14
+## 0_all_pals.R | 2022 10 15
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -123,7 +123,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "gothenburg",
               "lund_1", "lund_2", "lund_3",
               "ku_1", "ku_2",
-              "aarhus"
+              "aarhus", 
+              "helsinki_1", "helsinki_2", "helsinki_3"
 )
 
 
@@ -248,7 +249,8 @@ inst <- c(rep("ETH Zurich", 3),
           "University of Gothenburg",
           rep("Lund University", 3),
           rep("University of Copenhagen", 2),
-          "Aarhus University"
+          "Aarhus University",
+          rep("University of Helsinki", 3)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -368,7 +370,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               "G\u00F6teborgs Universitet / GU",
               rep("Lunds Universitet / LU", 3),
               rep("Kobenhavns Universitet / KU", 2),
-              "Aarhus Universitet / AU"
+              "Aarhus Universitet / AU",
+              rep("Helsingin Yliopisto / UH", 3)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -488,7 +491,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://www.gu.se", 
          rep("https://www.lu.se", 3),
          rep("https://www.ku.dk", 2),
-         "https://www.au.dk"
+         "https://www.au.dk",
+         rep("https://www.helsinki.fi", 3)
 ) # url.
 
 
