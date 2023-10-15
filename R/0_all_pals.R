@@ -124,7 +124,8 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "lund_1", "lund_2", "lund_3",
               "ku_1", "ku_2",
               "aarhus", 
-              "helsinki_1", "helsinki_2", "helsinki_3"
+              "helsinki_1", "helsinki_2", "helsinki_3", 
+              "aalto_1", "aalto_2"
 )
 
 
@@ -250,7 +251,8 @@ inst <- c(rep("ETH Zurich", 3),
           rep("Lund University", 3),
           rep("University of Copenhagen", 2),
           "Aarhus University",
-          rep("University of Helsinki", 3)
+          rep("University of Helsinki", 3),
+          rep("Aalto University", 2)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -371,7 +373,8 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Lunds Universitet / LU", 3),
               rep("Kobenhavns Universitet / KU", 2),
               "Aarhus Universitet / AU",
-              rep("Helsingin Yliopisto / UH", 3)
+              rep("Helsingin Yliopisto / UH", 3),
+              rep("Aalto Yliopisto / AU", 2)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -492,7 +495,8 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.lu.se", 3),
          rep("https://www.ku.dk", 2),
          "https://www.au.dk",
-         rep("https://www.helsinki.fi", 3)
+         rep("https://www.helsinki.fi", 3),
+         rep("https://www.aalto.fi", 2)
 ) # url.
 
 
@@ -500,7 +504,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 264 4  2023-10-14
+# dim(all_data)  # 269 4  2023-10-14
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -547,9 +551,9 @@ row.names(all_data) <- 1:nrow(all_data)
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
 # # On 2023-10-14:
-# length(all_data$pal)           #  264 color palettes
-# length(unique(all_data$inst))  #  114 institutions
-# sum(n_cols)                    # 1824 colors
+# length(all_data$pal)           #  269 color palettes
+# length(unique(all_data$inst))  #  116 institutions
+# sum(n_cols)                    # 1850 colors
 
 # +++ here now +++
 
