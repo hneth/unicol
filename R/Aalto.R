@@ -1,8 +1,6 @@
-## Aalto.R | 2023 10 14
+## Aalto.R | 2023 10 15
 ## Colors of Aalto University, Finland
 ## -----------------------------------
-
-# This file provides a code frame for existing/old color palettes.
 
 # Information: ------
 
@@ -123,7 +121,27 @@ aa_nams_2 <- paste("School of",
 # Color palette(s):
 
 
-# - pal_1: Primary pal ------ 
+# - aalto_1: Primary brand colours of Aalto ------ 
+
+aalto_1 <- unikn::newpal(col = aa_cols_1,
+                         names = aa_nams_1,
+                         as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(aalto_1, main = "Primary brand colours of Aalto University, Finland", col_bg = "grey90")
+
+
+
+# - aalto_2: Departmental colours of Aalto ------ 
+
+aalto_2 <- unikn::newpal(col = aa_cols_2,
+                         names = aa_nams_2,
+                         as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(aalto_2, main = "Departmental colours of Aalto University, Finland", col_bg = "grey90")
+
+
 
 ## ToDo: -----
 
