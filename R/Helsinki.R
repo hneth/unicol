@@ -139,14 +139,14 @@ he_nams_3 <- paste("add",
 # Color palette(s):
 
 
-# - helsinki_1: Main colors of Helsinki ------ 
+# - helsinki_1: Main brand colors of Helsinki ------ 
 
 helsinki_1 <- unikn::newpal(col = he_cols_1,
                             names = he_nams_1,
                             as_df = FALSE)
 
 # # Check: 
-# unikn::seecol(helsinki_1, main = "Main colours of Helsinki University, Finland", col_bg = "grey90")
+# unikn::seecol(helsinki_1, main = "Main brand colours of Helsinki University, Finland", col_bg = "grey90")
 
 
 # - helsinki_2: Grayscale colors of Helsinki ------ 
