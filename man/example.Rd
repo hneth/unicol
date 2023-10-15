@@ -44,7 +44,7 @@ unikn::demopal(example, main = "Illustrating the colors of Example")  # demo col
 \code{\link{grepal}} for finding named colors.
 }
 \author{
-\strong{unicol}, 2023-10-14.
+\strong{unicol}, 2023-10-15.
 }
 \concept{university color palettes}
 \keyword{datasets}
