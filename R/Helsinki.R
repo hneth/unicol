@@ -2,11 +2,9 @@
 ## Colors of the University of Helsinki, Finland
 ## ---------------------------------------------
 
-# This file provides a code frame for existing/old color palettes.
-
 # Information: ------
 
-# cur_pals: "x", "y" (2)
+# cur_pals: "helsinki_1", "helsinki_2", "helsinki_3" (3)
 
 # inst: "University of Helsinki"
 # inst_alt: "Helsingin Yliopisto / UH"
@@ -27,11 +25,11 @@
 
 # Colors
 
-# The main colors of Helsinki University style are white, black and shades of blue 
-# defined in the brand guide. 
+# The main colors of Helsinki University style are white, black and shades of blue
+# defined in the brand guide.
 # 
-# Additional colors are used only as the accent color for different departments designs 
-# that the color is assigned to and should not be used in general components. 
+# Additional colors are used only as the accent color for different departments designs
+# that the color is assigned to and should not be used in general components.
 # 
 # Usage
 # 
@@ -141,6 +139,47 @@ he_nams_3 <- paste("add",
 
 # - helsinki_1: Main brand colors of Helsinki ------ 
 
+#' Main brand colors of the University of Helsinki, Finland 
+#' 
+#' \code{helsinki_1} provides the brand main colors 
+#' of the \href{https://www.helsinki.fi}{University of Helsinki}, Finland.
+#' 
+#' To be used in combination with the grayscale colors of \code{\link{helsinki_2}}.
+#' 
+#' The main colors of Helsinki University style are white, black, 
+#' and shades of blue defined in the brand guide.
+#'
+#' \code{helsinki_1} is based on HEX color definitions. 
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-15.
+#'
+#' @source 
+#' Color definitions are based on 
+#' the \href{https://www.helsinki.fi}{UH}'s 
+#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#'
+#' @examples
+#' helsinki_1
+#' unikn::seecol(helsinki_1, 
+#'               main = "Brand main colors of the University of Helsinki, Finland") # view palette
+#' 
+#' @family Finnish university color palettes
+#'
+#' @seealso
+#' \code{\link{helsinki_2}} for grayscale colors of the University of Helsinki;
+#' \code{\link{helsinki_3}} for departmental colors of the University of Helsinki;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
+
 helsinki_1 <- unikn::newpal(col = he_cols_1,
                             names = he_nams_1,
                             as_df = FALSE)
@@ -149,7 +188,46 @@ helsinki_1 <- unikn::newpal(col = he_cols_1,
 # unikn::seecol(helsinki_1, main = "Main brand colours of Helsinki University, Finland", col_bg = "grey90")
 
 
+
 # - helsinki_2: Grayscale colors of Helsinki ------ 
+
+#' Grayscale colors of the University of Helsinki, Finland 
+#' 
+#' \code{helsinki_2} provides the grayscale colors 
+#' of the \href{https://www.helsinki.fi}{University of Helsinki}, Finland.
+#'
+#' To be used in combination with the main brand colors of \code{\link{helsinki_1}}.
+#'
+#' \code{helsinki_2} is based on HEX color definitions. 
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-15.
+#'
+#' @source 
+#' Color definitions are based on 
+#' the \href{https://www.helsinki.fi}{UH}'s 
+#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#'
+#' @examples
+#' helsinki_2
+#' unikn::seecol(helsinki_2, col_bg = "grey90",  
+#'               main = "Grayscale colors of the University of Helsinki, Finland") # view palette
+#' 
+#' @family Finnish university color palettes
+#'
+#' @seealso
+#' \code{\link{helsinki_1}} for main brand colors of the University of Helsinki;
+#' \code{\link{helsinki_3}} for departmental colors of the University of Helsinki;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
 
 helsinki_2 <- unikn::newpal(col = he_cols_2,
                             names = he_nams_2,
@@ -159,7 +237,47 @@ helsinki_2 <- unikn::newpal(col = he_cols_2,
 # unikn::seecol(helsinki_2, main = "Grayscale colours of Helsinki University, Finland", col_bg = "grey90")
 
 
+
 # - helsinki_3: Departmental colors of Helsinki ------ 
+
+#' Departmental accent colors of the University of Helsinki, Finland 
+#' 
+#' \code{helsinki_3} provides the departmental accent colors 
+#' of the \href{https://www.helsinki.fi}{University of Helsinki}, Finland.
+#'
+#' Additional colors are used only as an accent color for different department's designs 
+#' and should not be used in general components.
+#'
+#' \code{helsinki_3} is based on HEX color definitions. 
+#'
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#'
+#' @author 
+#' \strong{unicol}, 2023-10-15.
+#'
+#' @source 
+#' Color definitions are based on 
+#' the \href{https://www.helsinki.fi}{UH}'s 
+#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#'
+#' @examples
+#' helsinki_3
+#' unikn::seecol(helsinki_3, 
+#'               main = "Departmental accent colors of the University of Helsinki, Finland")
+#' 
+#' @family Finnish university color palettes
+#'
+#' @seealso
+#' \code{\link{helsinki_1}} for main brand colors of the University of Helsinki;
+#' \code{\link{helsinki_2}} for grayscale colors of the University of Helsinki;
+#' \code{\link{seecol}} for viewing and comparing color palettes;
+#' \code{\link{usecol}} for using color palettes;
+#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link{grepal}} for finding named colors.
+#'
+#' @export
 
 helsinki_3 <- unikn::newpal(col = he_cols_3,
                             names = he_nams_3,
