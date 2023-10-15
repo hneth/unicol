@@ -65,11 +65,11 @@
 # "#003146" # .. dark
 # "#000222" # .. nearly-black
 
-he_cols_1 <- c("#0e688b", # brand main
-               "#107eab", # .. light
-               "#005379", # .. active
-               "#003146", # .. dark
-               "#000222"  # .. nearly-black)
+he_cols_1 <- c("#0e688b",  # brand main
+               "#107eab",  # .. light
+               "#005379",  # .. active
+               "#003146",  # .. dark
+               "#000222"   # .. nearly-black)
 )
 
 he_nams_1 <- paste("UH", 
@@ -121,7 +121,7 @@ he_cols_3 <- c("#E5053A", # --additional-red-light
                "#F9A21A", # --additional-yellow
                "#48C5F8", # --additional-skyblue
                "#96BA3C", # --additional-green-light
-               "#006400" # --additional-green-dark
+               "#006400"  # --additional-green-dark
 )
 
 he_nams_3 <- paste("add", 
@@ -139,8 +139,36 @@ he_nams_3 <- paste("add",
 # Color palette(s):
 
 
+# - helsinki_1: Main colors of Helsinki ------ 
 
-# - pal_1: Primary pal ------ 
+helsinki_1 <- unikn::newpal(col = he_cols_1,
+                            names = he_nams_1,
+                            as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(helsinki_1, main = "Main colours of Helsinki University, Finland", col_bg = "grey90")
+
+
+# - helsinki_2: Grayscale colors of Helsinki ------ 
+
+helsinki_2 <- unikn::newpal(col = he_cols_2,
+                            names = he_nams_2,
+                            as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(helsinki_2, main = "Grayscale colours of Helsinki University, Finland", col_bg = "grey90")
+
+
+# - helsinki_3: Departmental colors of Helsinki ------ 
+
+helsinki_3 <- unikn::newpal(col = he_cols_3,
+                            names = he_nams_3,
+                            as_df = FALSE)
+
+# # Check: 
+# unikn::seecol(helsinki_3, main = "Departmental colours of Helsinki University, Finland", col_bg = "grey90")
+
+
 
 ## ToDo: -----
 
