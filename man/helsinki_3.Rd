@@ -44,6 +44,8 @@ unikn::seecol(helsinki_3,
 \code{\link{grepal}} for finding named colors.
 
 Other Finnish university color palettes: 
+\code{\link{aalto_1}},
+\code{\link{aalto_2}},
 \code{\link{helsinki_1}},
 \code{\link{helsinki_2}}
 }
