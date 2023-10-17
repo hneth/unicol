@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9011
+# unicol 0.2.0.9012
 
 <!-- Development version:  --> 
 
@@ -175,6 +175,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2023-10-15.]
+[File `NEWS.md` updated on 2023-10-16.]
 
 <!-- eof. -->
