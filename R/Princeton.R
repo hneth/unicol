@@ -25,6 +25,7 @@ orange_basic <- "#E87722"  # Pantone 158 C
 orange_white <- "#E77500"  # orange on white background (see <https://en.wikipedia.org/wiki/Shades_of_orange#Princeton_orange>)
 orange_black <- "#F58025"  # orange on black background
 
+
 # - princeton_0: Basic colors of Princeton University ----
 
 #' Basic colors of Princeton University, USA 
@@ -67,6 +68,7 @@ orange_black <- "#F58025"  # orange on black background
 princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
                              names = c("Princeton orange", "black"),
                              as_df = FALSE)
+
 
 
 # - princeton_1: Princeton University colors (on white) ----
