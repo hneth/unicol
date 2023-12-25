@@ -151,12 +151,13 @@ cornell_2 <- unikn::newpal(col = c("#F7F7F7", "#A2998B", "#9FAD9F"),
 #' \code{"Cornell navy"} (defined as HEX #073949).
 #'
 #' @details
-#' Although our primary and secondary palettes 
+#' Although the primary and secondary color palettes 
 #' (see \code{\link{cornell_1}} and \code{\link{cornell_2}}) 
 #' should guide most layouts, in certain instances other colors may be needed.
 #' 
-#' For those circumstances, refer to the accent palette. 
-#' These colors should not be used as full-color bleeds and should be used periodically and in moderation.
+#' For those circumstances, refer to the accent palette (\code{cornell_3_accent}). 
+#' These colors should not be used as full-color bleeds and should be used 
+#' periodically and in moderation.
 #' 
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
