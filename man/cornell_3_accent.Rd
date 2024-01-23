@@ -34,12 +34,13 @@ The 9 secondary colors are
 \code{"Cornell navy"} (defined as HEX #073949).
 
 
-Although our primary and secondary palettes 
+Although the primary and secondary color palettes 
 (see \code{\link{cornell_1}} and \code{\link{cornell_2}}) 
 should guide most layouts, in certain instances other colors may be needed.
 
-For those circumstances, refer to the accent palette. 
-These colors should not be used as full-color bleeds and should be used periodically and in moderation.
+For those circumstances, refer to the accent palette (\code{cornell_3_accent}). 
+These colors should not be used as full-color bleeds and should be used 
+periodically and in moderation.
 }
 \examples{
 cornell_3_accent
