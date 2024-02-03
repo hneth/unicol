@@ -1,8 +1,9 @@
-## util.R | 2023 10 15
+## util.R | 2024 02 02
 ## Utility functions
-## -------------------
+## -----------------
 
 # Goal: Analyze and report on unicol_data. 
+
 
 
 
@@ -21,6 +22,7 @@ n_col <- function(pal_name){
 # # Check:
 # n_col("uni_konstanz_1")
 # sapply(unicol_data$pal, FUN = n_col)
+
 
 
 
@@ -150,6 +152,7 @@ lookup <- function(x, df, v_1 = 1, v_2 = 1){
 
 
 
+
 # C: String manipulation helpers: ------
 
 # - extract_matches: A wrapper around regmatches(s, gregexpr(p, s)) ---- 
@@ -184,6 +187,7 @@ str_rev <- function(x){
 
 # # Check:
 # str_rev(c("ABC", "x y z", "Hello there!"))
+
 
 
 
@@ -322,6 +326,7 @@ url_2_country <- function(url){
 # pie(tb, labels = names(tb), col = unikn::usecol(tb_country_color, alpha = .75))
 # 
 # # +++ here now +++ 
+
 
 
 
