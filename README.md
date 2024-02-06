@@ -325,6 +325,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2024-01-23.\]
+\[File `README.Rmd` updated on 2024-02-06.\]
 
 <!-- eof. -->
