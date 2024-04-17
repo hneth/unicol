@@ -2,20 +2,20 @@ Package: unicol
 Type: Package
 Title: The Colors of your University
 Version: 0.2.0.9014
-Date: 2024-02-06
+Date: 2024-04-14
 Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")), 
-             person("Constantin", "Basler", role = "aut"),
-             person("Paula", "Bauer", role = "aut"),
-             person("Kaethe", "Bodenstein", role = "aut"),
-             person("Franziska", "Drechsel", role = "aut"),
-             person("Gina-Loretta", "Franz", role = "aut"),
-             person("Karolin", "Heiss", role = "aut"),
-             person("Julia", "Koenig", role = "aut"),
-             person("Isabelle", "Krist", role = "aut"),
-             person("Larissa", "Schwab", role = "aut"),
-             person("Alina", "Sohst", role = "aut"),
-             person("Isabel", "Staatz", role = "aut"),
-             person("Lisa", "Trueb", role = "aut")
+             person("Constantin", "Basler", role = "ctb"),
+             person("Paula", "Bauer", role = "ctb"),
+             person("Kaethe", "Bodenstein", role = "ctb"),
+             person("Franziska", "Drechsel", role = "ctb"),
+             person("Gina-Loretta", "Franz", role = "ctb"),
+             person("Karolin", "Heiss", role = "ctb"),
+             person("Julia", "Koenig", role = "ctb"),
+             person("Isabelle", "Krist", role = "ctb"),
+             person("Larissa", "Schwab", role = "ctb"),
+             person("Alina", "Sohst", role = "ctb"),
+             person("Isabel", "Staatz", role = "ctb"),
+             person("Lisa", "Trueb", role = "ctb")
              )
 Maintainer: Hansjoerg Neth <h.neth@uni.kn>
 Description: Most universities use specific color combinations to express their unique brand identity. The 'unicol' package provides the colors and color palettes of various universities for easy plotting and printing in R. We collect and provide a diverse range of color palettes for creating scientific visualizations. 
