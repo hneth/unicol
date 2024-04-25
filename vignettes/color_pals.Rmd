@@ -87,7 +87,7 @@ The **unicol** package currently provides **`r n_pals`\ color palettes** from **
 
 <!-- ### Overview -->
 
-<!-- **Table\ 1** provides an overview of **all `r n_pals`\ color palettes** from from **`r n_inst`\ institutions**.  -->
+<!-- **Table\ 1** provides an overview of **all `r n_pals`\ color palettes** from **`r n_inst`\ institutions**.  -->
 
 **Table\ 1** provides an overview of all included institutions and color palettes. 
 Clicking on the name of a color palette opens the corresponding page of the [online reference](`r paste0(url_github_doc_dev, "/reference/")`). 
