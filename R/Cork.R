@@ -87,9 +87,9 @@
 
 # University College Cork (UCC) (Primary):
 
-color_UCC_1 <- c("#FFB500", "#CE1F2C", "#003C69", "#000000", 
+color_ucc_1 <- c("#FFB500", "#CE1F2C", "#003C69", "#000000", 
                  "#FFFFFF", "#EFEFF0")
-names_UCC_1 <- c("Crest yellow", "Crest red", "Crest blue", "Crest black", 
+names_ucc_1 <- c("Crest yellow", "Crest red", "Crest blue", "Crest black", 
                  "Crest white", "Crest black tint")
 
 
@@ -150,9 +150,9 @@ names_UCC_1 <- c("Crest yellow", "Crest red", "Crest blue", "Crest black",
 
 # University College Cork (UCC) (Secondary): 
 
-color_UCC_2 <- c("#BBBCBC", "#7566A0", "#C6893F", "#B46A55", 
+color_ucc_2 <- c("#BBBCBC", "#7566A0", "#C6893F", "#B46A55", 
                  "#74AA50", "#69B3E7", "#FFFFFF", "#EFEFF0")
-names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red", 
+names_ucc_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red", 
                  "Quad green", "Sky blue", "white", "Crest black tint")
 
 
@@ -218,8 +218,8 @@ names_UCC_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #'
 #' @export
 
-ucc_1 <- unikn::newpal(col = color_UCC_1, 
-                       names = names_UCC_1, 
+ucc_1 <- unikn::newpal(col = color_ucc_1, 
+                       names = names_ucc_1, 
                        as_df = FALSE)
 
 # # Check: 
@@ -274,8 +274,8 @@ ucc_1 <- unikn::newpal(col = color_UCC_1,
 #'
 #' @export
 
-ucc_2 <- unikn::newpal(col = color_UCC_2, 
-                       names = names_UCC_2,
+ucc_2 <- unikn::newpal(col = color_ucc_2, 
+                       names = names_ucc_2,
                        as_df = FALSE)
 
 # # Check:
