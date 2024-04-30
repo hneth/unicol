@@ -9,7 +9,7 @@ An object of class \code{character} of length 11.
 }
 \source{
 Color definitions are based on \href{https://www.ed.ac.uk}{Edinburgh}'s 
-\href{https://gel.ed.ac.uk/foundations/colour/}{Colour theming} page.
+\href{https://communications-marketing.ed.ac.uk/marketing/brand}{Colour theming} page.
 }
 \usage{
 edinburgh

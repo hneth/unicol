@@ -1,4 +1,4 @@
-## UChicago.R | 2023 09 13
+## UChicago.R | 2024 04 30
 ## Colors of the University of Chicago, USA
 ## ----------------------------------------
 
@@ -13,7 +13,7 @@
 
 
 # Color source:
-# URL: <https://uchicago.app.box.com/s/5th2zs7py5qizriam5z06sbpqlyqfied/>
+# URL: <https://creative.uchicago.edu/brand-resources/>
 # Page 28 of PDF manual
 # Last check: 2023-06-13
 
@@ -45,7 +45,7 @@
 #' Within the primary palette itself, \code{"maroon"} should always be the dominant color, with Greys used as accents.
 #' 
 #' For specific color ratios and layout examples, see the 
-#' \href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}. 
+#' \href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}. 
 #' 
 #' Always use these colors at 100 percent. Tints should never be used.
 #' 
@@ -57,7 +57,7 @@
 #'
 #' @source
 #' Color definitions are based on \href{https://www.uchicago.edu}{UChicago}'s 
-#' \href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
+#' \href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}.
 #'
 #' @examples
 #' uchicago_1
@@ -130,7 +130,7 @@ uchicago_1 <- unikn::newpal(col = c("#800000",
 #'
 #' @source
 #' Color definitions are based on \href{https://www.uchicago.edu}{UChicago}'s 
-#' \href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}. 
+#' \href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}. 
 #'
 #' @examples
 #' uchicago_2

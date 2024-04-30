@@ -11,8 +11,8 @@
 
 # Color source:
 
-# URL: <https://gel.ed.ac.uk/foundations/colour/>
-# Last check: 2023-06-20
+# URL: <https://communications-marketing.ed.ac.uk/marketing/brand>
+# Last check: 2024-04-30
 
 
 # Colors: ------
@@ -63,7 +63,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.ed.ac.uk}{Edinburgh}'s 
-#' \href{https://gel.ed.ac.uk/foundations/colour/}{Colour theming} page. 
+#' \href{https://communications-marketing.ed.ac.uk/marketing/brand}{Colour theming} page. 
 #'
 #' @examples
 #' edinburgh

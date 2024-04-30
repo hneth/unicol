@@ -9,7 +9,7 @@ An object of class \code{character} of length 23.
 }
 \source{
 Color definitions are based on \href{https://www.uchicago.edu}{UChicago}'s 
-\href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
+\href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}.
 }
 \usage{
 uchicago_2

@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on \href{https://www.uchicago.edu}{UChicago}'s 
-\href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}.
+\href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}.
 }
 \usage{
 uchicago_1
@@ -35,7 +35,7 @@ The primary color palette should be used in all digital and print communications
 Within the primary palette itself, \code{"maroon"} should always be the dominant color, with Greys used as accents.
 
 For specific color ratios and layout examples, see the 
-\href{https://creative.uchicago.edu/resources/}{Brand Identity Guidelines}. 
+\href{https://creative.uchicago.edu/brand-resources/}{Brand Identity Guidelines}. 
 
 Always use these colors at 100 percent. Tints should never be used.
 }
