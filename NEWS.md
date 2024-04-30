@@ -19,7 +19,7 @@ Changes since last release:
 <!-- Additions: --> 
 
 - New color palettes: 
-    - [Aalto University](https://www.aalto.fi/fi/fi) (Finland): 
+    - [Aalto University](https://www.aalto.fi/fi) (Finland): 
     [`aalto_1`](https://hneth.github.io/unicol/dev/reference/aalto_1.html), 
     [`aalto_2`](https://hneth.github.io/unicol/dev/reference/aalto_2.html) 
     - [Aarhus University](https://www.au.dk) (Denmark): 
