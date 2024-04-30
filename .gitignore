@@ -1,5 +1,6 @@
 ## .gitignore | unicol | 2024 04 30
 
+
 ## 1. generic stuff: -----
 
 # self:
@@ -11,6 +12,7 @@
 # Output files:
 *.html
 *.pdf
+
 
 ## 2. R stuff: -----
 
@@ -74,5 +76,6 @@ inst/doc
 # files:
 .PowerFolder
 desktop.ini
+
 
 ## eof.
