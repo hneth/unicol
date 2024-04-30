@@ -82,16 +82,16 @@ Color palettes are linked to their [online documentation of the current GitHub d
 
 ## Minor changes 
 
-- Rename colors and color palettes (for consistency and simplicity)
+- rename colors and color palettes (for consistency and simplicity)
 
-- Replace logo image 
+- replace logo image 
 
 
 <!-- Details:  --> 
 
 ## Details 
 
-- Improve documentation and examples
+- improve documentation and examples
 
 
 <!-- Development version:  --> 
