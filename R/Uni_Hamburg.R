@@ -1,4 +1,4 @@
-## Uni_Hamburg.R | 2023 08 25
+## Uni_Hamburg.R | 2024 04 30
 ## Colors of the University of Hamburg / Universität Hamburg, Germany 
 ## ------------------------------------------------------------------
 
@@ -13,8 +13,8 @@
 # inst_URL: <https://www.uni-hamburg.de>
 
 # Color source: PDF of Corporate Manual („Master Styleguide“) at   
-# color_URL: <https://www.kus.uni-hamburg.de/themen/oeffentlichkeitsarbeit/corporate-design/corporate-manual.html>
-# Last check: 2022-12-06
+# color_URL: <https://www.fiona.uni-hamburg.de/beantragung/regelungen.html>
+# Last check: 2024-04-30
 
 
 # Colors: ------
@@ -99,7 +99,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' 
 #' @source 
 #' Color definitions are based on the 
-#' \href{https://www.kus.uni-hamburg.de/themen/oeffentlichkeitsarbeit/corporate-design/corporate-manual.html}{CD manual}. 
+#' \href{https://www.fiona.uni-hamburg.de/beantragung/regelungen.html}{CD manual}. 
 #' 
 #' @examples
 #' uni_hamburg_1
@@ -156,7 +156,7 @@ uni_hamburg_1 <- unikn::newpal(col = c(hh_rot, hh_blau, "black", hh_steingrau),
 #' 
 #' @source 
 #' Color definitions are based on the 
-#' \href{https://www.kus.uni-hamburg.de/themen/oeffentlichkeitsarbeit/corporate-design/corporate-manual.html}{CD manual}. 
+#' \href{https://www.fiona.uni-hamburg.de/beantragung/regelungen.html}{CD manual}. 
 #' 
 #' @examples
 #' uni_hamburg_2

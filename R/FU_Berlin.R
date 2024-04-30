@@ -11,7 +11,7 @@
 # inst_URL: <https://www.fu-berlin.de>
 
 # Color source: HTML at 
-# color_URL: <https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html>
+# color_URL: <https://www.fu-berlin.de/sites/corporate-design/index.html>
 # Last check: 2022-12-03
 
 
@@ -81,7 +81,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_0
@@ -168,7 +168,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_2
@@ -237,7 +237,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/index.html}{Hausfarben} page. 
 #' 
 #' @examples
 #' fu_3
@@ -301,7 +301,7 @@ fu_3 <- fu_blues
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/grundlagen/farben/index.html}{Hausfarben} page.  
+#' \href{https://www.fu-berlin.de/sites/corporate-design/index.html}{Hausfarben} page.  
 #' 
 #' @examples
 #' fu_1

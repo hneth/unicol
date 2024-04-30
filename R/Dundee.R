@@ -9,11 +9,11 @@
 # inst: "University of Dundee"
 # inst_alt: "University of Dundee"
 # country: Scotland, UK
-# URL: "https://www.dundee.ac.uk/"
+# URL: "https://www.dundee.ac.uk"
 
 # Colour source:
 
-# URL: <https://www.dundee.ac.uk/brand/colour-palette>
+# URL: <https://www.app.dundee.ac.uk/pattern-library/>
 # Last check: 2023-06-22
 
 
@@ -33,13 +33,13 @@
 #' 
 #' @details
 #' The central blue core colour is at the heart of 
-#' \href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+#' \href{https://www.dundee.ac.uk}{Dundee}'s identity. 
 #' 
 #' The University shield and wordmark can be reproduced in the core colour 
 #' and it can also be applied to icons and typography.
 #' 
 #' See \code{\link{dundee_background}} for 
-#' \href{https://www.dundee.ac.uk/}{Dundee}'s background colour. 
+#' \href{https://www.dundee.ac.uk}{Dundee}'s background colour. 
 #' 
 #' @return 
 #' A named vector of colours (HEX/HTML codes of type character).
@@ -48,8 +48,8 @@
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+#' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_core
@@ -105,8 +105,8 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+#' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_highlight
@@ -167,8 +167,8 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}. 
+#' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_block
@@ -225,8 +225,8 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' \strong{unicol}, 2023-06-22.
 #'
 #' @source 
-#' Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-#' \href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}. 
+#' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_background
