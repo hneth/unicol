@@ -23,7 +23,7 @@
 
 
 # Source: University of Otago Brand guide at 
-# <https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide>
+# <https://www.otago.ac.nz/marketing-services/resources/university-of-otago-brand-guide>
 # 2023-09-08
 
 
@@ -98,7 +98,7 @@ names_otago <- c("Otago blue", "Otago bold", "Otago red", "Otago black")
 #'
 #' @source 
 #' Color definitions are based on the \href{https://www.otago.ac.nz}{UOtago}'s 
-#' \href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide}{Brand guide}.
+#' \href{https://www.otago.ac.nz/marketing-services/resources/university-of-otago-brand-guide}{Brand guide}.
 #'
 #' @examples
 #' otago

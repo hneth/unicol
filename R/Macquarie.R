@@ -14,7 +14,7 @@
 # Color source:
 
 # color_URL: MQ's staff portal:  
-# \href{https://staff.mq.edu.au/support/marketing-and-communications/brand-guidelines/colours-and-light-graphic}{Colours and light graphic}
+# \href{https://mqoutlook.sharepoint.com/sites/mq-marketing-and-communications/SitePages/Colours-and-light-graphic.aspx}{Colours and light graphic}
 # Last check: 2023-09-05
 
 # Author information:
@@ -29,7 +29,7 @@
 
 # Color source: 
 # MQ's staff portal:  
-# \href{https://staff.mq.edu.au/support/marketing-and-communications/brand-guidelines/colours-and-light-graphic}{Colours and light graphic}
+# \href{https://mqoutlook.sharepoint.com/sites/mq-marketing-and-communications/SitePages/Colours-and-light-graphic.aspx}{Colours and light graphic}
 
 
 # 1: Colour palette and specifications ---- 
@@ -116,7 +116,7 @@ names_mq_2 <- c("Arts", "Business and Economics", "Science and Engineering", "Me
 #'
 #' @source 
 #' MQ's staff portal page 
-#' \href{https://staff.mq.edu.au/support/marketing-and-communications/brand-guidelines/colours-and-light-graphic}{Colours and light graphic}
+#' \href{https://mqoutlook.sharepoint.com/sites/mq-marketing-and-communications/SitePages/Colours-and-light-graphic.aspx}{Colours and light graphic}
 #'
 #' @examples
 #' mq_1
@@ -167,7 +167,7 @@ mq_1 <- unikn::newpal(col = color_mq_1,
 #'
 #' @source 
 #' MQ's staff portal page 
-#' \href{https://staff.mq.edu.au/support/marketing-and-communications/brand-guidelines/colours-and-light-graphic}{Colours and light graphic}
+#' \href{https://mqoutlook.sharepoint.com/sites/mq-marketing-and-communications/SitePages/Colours-and-light-graphic.aspx}{Colours and light graphic}
 #'
 #' @examples
 #' mq_2

@@ -8,7 +8,7 @@
 # inst: "University of Birmingham"
 # inst_alt: "Birmingham University / UBirmingham"
 # country: UK
-# URL: "https://www.birmingham.ac.uk/index.aspx"
+# URL: "https://www.birmingham.ac.uk/"
 
 
 # Colour source:
@@ -31,7 +31,7 @@
 #'
 #' \code{birmingham} provides the three primary colours 
 #' and two secondary colours 
-#' of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, England, UK.
+#' of the \href{https://www.birmingham.ac.uk/}{University of Birmingham}, England, UK.
 #'
 #' The three primary colours are
 #' \code{"Undergraduate"} (defined as HEX #c1d82f),
@@ -52,7 +52,7 @@
 #' \strong{unicol}, 2023-06-20.
 #'
 #' @source 
-#' Colour definitions are based on \href{https://www.birmingham.ac.uk/index.aspx}{UBirmingham}'s 
+#' Colour definitions are based on \href{https://www.birmingham.ac.uk/}{UBirmingham}'s 
 #' \href{https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf}{brand guidelines} 
 #' (PDF, revised 2016-02).
 #'

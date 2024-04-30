@@ -9,7 +9,7 @@
 # inst: "Aalto University"
 # inst_alt: "Aalto Yliopisto / AU"
 # country: Finland
-# inst_URL: <https://www.aalto.fi> OR <https://www.aalto.fi/en>
+# inst_URL: <https://www.aalto.fi/fi> OR <https://www.aalto.fi/fi/en>
 
 # Color source: HTML of <https://brand.aalto.fi/>:
 # color_URL: <https://brand.aalto.fi/visual-identity/about/colour-palette>
@@ -126,7 +126,7 @@ aa_nams_2 <- paste("School of",
 #' Primary brand colours of Aalto University, Finland 
 #' 
 #' \code{aalto_1} provides the primary brand colours 
-#' of \href{https://www.aalto.fi}{Aalto University}, Finland.
+#' of \href{https://www.aalto.fi/fi}{Aalto University}, Finland.
 #'
 #' \code{aalto_1} is based on HEX color definitions. 
 #'
@@ -138,7 +138,7 @@ aa_nams_2 <- paste("School of",
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.aalto.fi}{AU}'s 
+#' \href{https://www.aalto.fi/fi}{AU}'s 
 #' \href{https://brand.aalto.fi/visual-identity/about/colour-palette}{brand guide} (HTML).
 #'
 #' @examples
@@ -173,7 +173,7 @@ aalto_1 <- unikn::newpal(col = aa_cols_1,
 #' 
 #' \code{aalto_2} provides the departmental colours 
 #' for the different schools 
-#' of \href{https://www.aalto.fi}{Aalto University}, Finland.
+#' of \href{https://www.aalto.fi/fi}{Aalto University}, Finland.
 #'
 #' \code{aalto_2} is based on HEX color definitions. 
 #'
@@ -185,7 +185,7 @@ aalto_1 <- unikn::newpal(col = aa_cols_1,
 #'
 #' @source 
 #' Color definitions are based on 
-#' \href{https://www.aalto.fi}{AU}'s 
+#' \href{https://www.aalto.fi/fi}{AU}'s 
 #' \href{https://brand.aalto.fi/visual-identity/about/colour-palette}{brand guide} (HTML).
 #'
 #' @examples

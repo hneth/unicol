@@ -229,9 +229,9 @@ ovgu_med_2g <- "#777877"  # Grau
 #' Primary colors of the University of Magdeburg, Germany
 #' 
 #' \code{uni_magdeburg_1} provides the primary colors 
-#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+#' of the \href{https://ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 #'
-#' The primary dark red of the \href{https://ovgu.de}{OVGU Magdeburg} is  
+#' The primary dark red of the \href{https://ovgu.de/}{OVGU Magdeburg} is  
 #' \code{OVGU rot}, defined as CMYK 0 100 0 60, Pantone 228 C, RAL 3004, RGB 122 0 63, or HEX #7a003f.
 #'
 #' \code{uni_magdeburg_1} is based on RGB color definitions. 
@@ -258,7 +258,7 @@ ovgu_med_2g <- "#777877"  # Grau
 #' \strong{unicol}, 2023-10-03.
 #'
 #' @source 
-#' Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+#' Color definitions are based on the \href{https://ovgu.de/}{OVGU}'s 
 #' \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 #'
 #' @examples
@@ -296,7 +296,7 @@ uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3,
 #' Faculty colors of the University of Magdeburg, Germany
 #' 
 #' \code{uni_magdeburg_2} provides the faculty colors 
-#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+#' of the \href{https://ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 #'
 #' The pre-defined set of faculty colors allows to target publications and presentations 
 #' to each faculty, allowing for visual differentiation between different units.
@@ -317,7 +317,7 @@ uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3,
 #' reveal connections, set accents, and improve readability.
 #' 
 #' See \code{\link{uni_magdeburg_3}} for the colors of the medical faculty and university hospital 
-#' of the \href{https://ovgu.de}{OVGU Magdeburg}.
+#' of the \href{https://ovgu.de/}{OVGU Magdeburg}.
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -326,7 +326,7 @@ uni_magdeburg_1 <- unikn::newpal(col = c(ovgu_rot, ovgu_rot_2, ovgu_rot_3,
 #' \strong{unicol}, 2023-10-03.
 #'
 #' @source 
-#' Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+#' Color definitions are based on the \href{https://ovgu.de/}{OVGU}'s 
 #' \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 #'
 #' @examples
@@ -382,7 +382,7 @@ uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
 #' Medical faculty and hospital colors of the University of Magdeburg, Germany
 #' 
 #' \code{uni_magdeburg_3} provides medical faculty and hospital colors 
-#' of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+#' of the \href{https://ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 #'
 #' The 3 primary colors \code{Dunkelblau}, \code{Schwarz}, and \code{Weiss} 
 #' are key elements of the visual design identity of the 
@@ -411,7 +411,7 @@ uni_magdeburg_2 <- unikn::newpal(col = c(ovgu_mb_1, ovgu_mb_2, ovgu_mb_3,
 #' \strong{unicol}, 2023-10-03.
 #'
 #' @source 
-#' Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+#' Color definitions are based on the \href{https://ovgu.de/}{OVGU}'s 
 #' \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 #'
 #' @examples

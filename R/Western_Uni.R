@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html>
+# URL: <http://brand.westernu.ca/colours/>
 # Last check: 2023-06-27
 
 
@@ -42,7 +42,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.uwo.ca}{Western}'s 
-#' \href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{colour toolkit} (HTML).
+#' \href{http://brand.westernu.ca/colours/}{colour toolkit} (HTML).
 #'
 #' @examples
 #' western_uni

@@ -14,7 +14,7 @@
 # Color source:
 
 # color_URL: Visual identity guidelines at 
-# <https://medarbetarportalen.gu.se/Kommunikation/visuell-identitet/grundprofil/farger>
+# <https://gunet.sharepoint.com/sites/medarbetarportalen>
 # Last check: 2023-10-12
 
 # Author information:
@@ -26,7 +26,7 @@
 # Color definitions: 
 
 # From HTML at 
-# <https://medarbetarportalen.gu.se/Kommunikation/visuell-identitet/grundprofil/farger>
+# <https://gunet.sharepoint.com/sites/medarbetarportalen>
 # 2023-10-12:
 
 
@@ -106,7 +106,7 @@ gu_nam <- "University blue"
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.gu.se}{GU}'s 
-#' \href{https://medarbetarportalen.gu.se/Kommunikation/visuell-identitet/grundprofil/farger}{Graphic identity guidelines} (HTML).
+#' \href{https://gunet.sharepoint.com/sites/medarbetarportalen}{Graphic identity guidelines} (HTML).
 #'
 #' @examples
 #' gothenburg

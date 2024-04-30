@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://identityguide.hms.harvard.edu/color/>
+# URL: <https://identityguide.hms.harvard.edu/brand-design/colors>
 # Last check: 2023-06-13
 
 
@@ -44,7 +44,7 @@
 #'
 #' @source
 #' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
-#' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
+#' \href{https://identityguide.hms.harvard.edu/brand-design/colors}{Color manual}.
 #'
 #' @examples
 #' harvard_1
@@ -95,7 +95,7 @@ harvard_1 <- unikn::newpal(col = c("#A51C30", "#1E1E1E"),
 #'
 #' @source
 #' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
-#' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
+#' \href{https://identityguide.hms.harvard.edu/brand-design/colors}{Color manual}.
 #'
 #' @examples
 #' harvard_2
@@ -157,7 +157,7 @@ harvard_2 <- unikn::newpal(col = c("#8C8179", "#F3F3F1", "#8996A0", "#BAC5C6"),
 #'
 #' @source
 #' Color definitions are based on \href{https://www.harvard.edu}{Harvard}'s 
-#' \href{https://identityguide.hms.harvard.edu/color/}{Color manual}.
+#' \href{https://identityguide.hms.harvard.edu/brand-design/colors}{Color manual}.
 #'
 #' @examples
 #' harvard_3

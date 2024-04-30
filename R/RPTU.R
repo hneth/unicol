@@ -11,14 +11,14 @@
 # inst_URL: <https://rptu.de>
 
 # Color source: Brand portal at 
-# color_URL: <https://www.startklar2023.de/brand-portal-rptu>
+# color_URL: <https://rptu.de/brand-portal-rptu>
 # Last check: 2023-01-01
 
 # Colors: ------
 
 # Color definitions: 
 
-# Source: <https://www.startklar2023.de/brand-portal-rptu>
+# Source: <https://rptu.de/brand-portal-rptu>
 # PDF Manual (v1): p. 34:
 
 # Die RPTU hat 10 Farben definiert, die neben Schwarz und Weiß treten können. 
@@ -181,7 +181,7 @@ rptu_weiss <- "white"
 #' 
 #' @source 
 #' Color definitions are based on RPTU's 
-#' \href{https://www.startklar2023.de/brand-portal-rptu}{Brand portal}. 
+#' \href{https://rptu.de/brand-portal-rptu}{Brand portal}. 
 #' 
 #' @examples
 #' rptu

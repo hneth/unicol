@@ -399,7 +399,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          "https://rptu.de",
          rep("https://www.asu.edu", 3),
          rep("https://www.berkeley.edu", 2),
-         rep("https://www.birmingham.ac.uk/index.aspx", 1),
+         rep("https://www.birmingham.ac.uk/", 1),
          rep("https://www.ubc.ca", 1),
          rep("https://www.brown.edu", 2),
          rep("https://www.bu.edu", 1),
@@ -496,7 +496,7 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.ku.dk", 2),
          "https://www.au.dk",
          rep("https://www.helsinki.fi", 3),
-         rep("https://www.aalto.fi", 2)
+         rep("https://www.aalto.fi/fi", 2)
 ) # url.
 
 
