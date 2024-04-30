@@ -186,7 +186,7 @@ For instructions on how this can be done, please see the documentation
 of the `newpal()` function (of the
 **[unikn](https://CRAN.R-project.org/package=unikn)** package). The
 vignette on [Institutional
-colors](https://hneth.github.io/unikn/articles/color_inst.html) provides
+colors](https://hneth.github.io/unikn/articles/inst_colors.html) provides
 a corresponding example.
 
 **Call for contributions: Collecting color palettes**
