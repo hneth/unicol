@@ -15,18 +15,18 @@ bibentry(bibtype = "Manual",
              person("Alina", "Sohst", role = "aut"),
              person("Isabel", "Staatz", role = "aut"),
              person("Lisa", "Trueb", role = "aut")),
-         year         = "2023",
+         year         = "2024",
          organization = "Social Psychology and Decision Sciences, University of Konstanz",
          address      = "Konstanz, Germany",
-         note         = "R package (version 0.2.0, September 15, 2023)",
+         note         = "R package (version 0.3.0, May 1, 2024)",
          url          = "https://CRAN.R-project.org/package=unicol",
          doi          = "10.5281/zenodo.8252106",
 
          textVersion  =
-           paste("Neth, H. et al. (2023).",
+           paste("Neth, H. et al. (2024).",
                  "unicol: The colors of your university.",
                  "Social Psychology and Decision Sciences, University of Konstanz, Germany.",
-                 "Computer software (R package version 0.2.0, September 15, 2023).",
+                 "Computer software (R package version 0.3.0, May 1, 2024).",
                  "Retrieved from <https://CRAN.R-project.org/package=unicol>.",
                  "doi <https://doi.org/10.5281/zenodo.8252106>")
          )
