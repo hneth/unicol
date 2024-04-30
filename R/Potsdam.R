@@ -20,7 +20,7 @@
 #' Colors of the University of Potsdam, Germany 
 #'
 #' \code{uni_potsdam} provides the nine primary colors
-#' of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
+#' of the \href{https://www.uni-potsdam.de/de}{University of Potsdam}, Germany.
 #'
 #' The 9 primary colors are 
 #' \code{"hks_41"} (defined as HEX #00305e), 

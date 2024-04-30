@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://www.ulaval.ca/identite-visuelle>
+# URL: <https://www.ulaval.ca/notre-universite/identite-visuelle>
 # Last check: 2023-07-04
 
 
@@ -47,7 +47,7 @@
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.ulaval.ca}{Laval}'s 
-#' \href{https://www.ulaval.ca/identite-visuelle}{visual identity} site. 
+#' \href{https://www.ulaval.ca/notre-universite/identite-visuelle}{visual identity} site. 
 #'
 #' @examples
 #' laval

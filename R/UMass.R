@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://www.umass.edu/brand/elements/color>
+# URL: <https://www.umass.edu/university-relations/brand/brand-elements#color>
 # Last check: 2023-06-27
 
 
@@ -45,7 +45,7 @@
 #'
 #' @source 
 #' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
-#' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
+#' \href{https://www.umass.edu/university-relations/brand/brand-elements#color}{Brand guide}.
 #'
 #' @examples
 #' umass_1
@@ -109,7 +109,7 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
-#' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
+#' \href{https://www.umass.edu/university-relations/brand/brand-elements#color}{Brand guide}.
 #' 
 #' @examples
 #' umass_2
@@ -161,7 +161,7 @@ umass_2 <- unikn::newpal(col = c("#ffc72c", "#ff9e1b", "#615e9b", "#44693d", "#5
 #'
 #' @source 
 #' Color definitions are based on the \href{https://www.umass.edu}{UMass} 
-#' \href{https://www.umass.edu/brand/elements/color}{Brand guide}.
+#' \href{https://www.umass.edu/university-relations/brand/brand-elements#color}{Brand guide}.
 #'
 #' @examples
 #' umass_neutrals

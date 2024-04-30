@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: <https://yaleidentity.yale.edu/colors>
+# URL: <https://yaleidentity.yale.edu/core-identity-elements/yale-colors>
 # Last check: 2023-06-13
 
 
@@ -42,7 +42,7 @@
 #'
 #' @source
 #' Color definitions are based on \href{https://www.yale.edu}{Yale}'s 
-#' \href{https://yaleidentity.yale.edu/colors}{identity} site. 
+#' \href{https://yaleidentity.yale.edu/core-identity-elements/yale-colors}{identity} site. 
 #'
 #' @examples
 #' yale
