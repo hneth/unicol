@@ -12,7 +12,7 @@
 
 
 # Color source:
-# color_URL: https://www.waikato.ac.nz/web-guides/brand-standards/colours/
+# color_URL: https://brandguides.brandfolder.com/the-university-of-waikato-brandguide-0
 # Last check: 2023-07-05 
 
 
@@ -49,7 +49,7 @@
 #'
 #' @source
 #' Color definitions are based on Waikato's 
-#' \href{https://www.waikato.ac.nz/web-guides/brand-standards/colours/}{brand standards}.
+#' \href{https://brandguides.brandfolder.com/the-university-of-waikato-brandguide-0}{brand standards}.
 #'
 #' @examples
 #' waikato

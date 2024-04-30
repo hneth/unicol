@@ -9,7 +9,7 @@ An object of class \code{character} of length 8.
 }
 \source{
 Color definitions are based on Waikato's 
-\href{https://www.waikato.ac.nz/web-guides/brand-standards/colours/}{brand standards}.
+\href{https://brandguides.brandfolder.com/the-university-of-waikato-brandguide-0}{brand standards}.
 }
 \usage{
 waikato
