@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf>
+# URL: <https://www.yorku.ca/brand/>
 # Last check: 2023-06-24
 
 
@@ -42,7 +42,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.yorku.ca}{York}'s 
-#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}{Brand standards} (PDF).
+#' \href{https://www.yorku.ca/brand/}{Brand standards} (PDF).
 #'
 #' @examples
 #' yorku_1
@@ -91,7 +91,7 @@ yorku_1 <- unikn::newpal(col = c("#E31837", "#FFFFFF", "#000000"),
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.yorku.ca}{York}'s 
-#' \href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}{Brand standards} (PDF). 
+#' \href{https://www.yorku.ca/brand/}{Brand standards} (PDF). 
 #'
 #' @examples
 #' yorku_2
