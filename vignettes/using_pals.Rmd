@@ -159,7 +159,7 @@ The resulting color palette can then be provided as the `values` of **ggplot2**'
 ```{r use-pal-ggplot2, eval = TRUE, fig.width = 6, fig.asp = .65, out.width = "550px"}
 # 0. Create some data to plot: ---- 
 
-# Example based on https://www.r-graph-gallery.com/137-spring-shapes-data-art/
+# Example based on https://r-graph-gallery.com/137-spring-shapes-data-art/
 n <- 50
 groups <- 1:n
 df <- data.frame()

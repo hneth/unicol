@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
+Color definitions are based on the \href{https://www.ovgu.de/}{OVGU}'s 
 \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 }
 \usage{
@@ -19,10 +19,10 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_magdeburg_1} provides the primary colors 
-of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+of the \href{https://www.ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 }
 \details{
-The primary dark red of the \href{https://ovgu.de}{OVGU Magdeburg} is  
+The primary dark red of the \href{https://www.ovgu.de/}{OVGU Magdeburg} is  
 \code{OVGU rot}, defined as CMYK 0 100 0 60, Pantone 228 C, RAL 3004, RGB 122 0 63, or HEX #7a003f.
 
 \code{uni_magdeburg_1} is based on RGB color definitions.

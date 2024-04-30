@@ -9,7 +9,7 @@ An object of class \code{character} of length 6.
 }
 \source{
 Colour definitions are based on \href{https://www.ulaval.ca}{Laval}'s 
-\href{https://www.ulaval.ca/identite-visuelle}{visual identity} site.
+\href{https://www.ulaval.ca/notre-universite/identite-visuelle}{visual identity} site.
 }
 \usage{
 laval

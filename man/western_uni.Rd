@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on \href{https://www.uwo.ca}{Western}'s 
-\href{https://www.communications.uwo.ca/western_brand/vis_toolkit/colours.html}{colour toolkit} (HTML).
+\href{http://brand.westernu.ca/colours/}{colour toolkit} (HTML).
 }
 \usage{
 western_uni

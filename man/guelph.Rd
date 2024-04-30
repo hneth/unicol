@@ -32,7 +32,7 @@ The 2 secondary colours are
 
 \code{guelph} uses the HEX color definitions. 
 
-See \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette}{Brand guide: Colour} 
+See \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{Brand guide: Colour} 
 for \emph{Do's and Don'ts} and \emph{Colour Usage and Proportions}.
 }
 \examples{
