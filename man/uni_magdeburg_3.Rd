@@ -8,7 +8,7 @@
 An object of class \code{character} of length 10.
 }
 \source{
-Color definitions are based on the \href{https://ovgu.de/}{OVGU}'s 
+Color definitions are based on the \href{https://www.ovgu.de/}{OVGU}'s 
 \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_magdeburg_3} provides medical faculty and hospital colors 
-of the \href{https://ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+of the \href{https://www.ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 }
 \details{
 The 3 primary colors \code{Dunkelblau}, \code{Schwarz}, and \code{Weiss} 
