@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the \href{https://www.otago.ac.nz}{UOtago}'s 
-\href{https://www.otago.ac.nz/marketing-services/resources/university-of-otago-brand-guide}{Brand guide}.
+\href{https://www.otago.ac.nz/administration/service_divisions/external-engagement/university-of-otago-brand-guide}{Brand guide}.
 }
 \usage{
 otago

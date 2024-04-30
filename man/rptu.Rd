@@ -9,7 +9,7 @@ An object of class \code{character} of length 12.
 }
 \source{
 Color definitions are based on RPTU's 
-\href{https://rptu.de/brand-portal-rptu}{Brand portal}.
+\href{https://www.startklar2023.de/brand-portal-rptu}{Brand portal}.
 }
 \usage{
 rptu

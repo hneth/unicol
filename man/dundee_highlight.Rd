@@ -8,8 +8,8 @@
 An object of class \code{character} of length 3.
 }
 \source{
-Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-\href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+\href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
 }
 \usage{
 dundee_highlight

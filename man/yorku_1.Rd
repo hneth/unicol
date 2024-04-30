@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on \href{https://www.yorku.ca}{York}'s 
-\href{https://www.yorku.ca/brand/wp-content/uploads/sites/18/2021/07/YORKU_Brand_Standards_July2021.pdf}{Brand standards} (PDF).
+\href{https://www.yorku.ca/brand/}{Brand standards} (PDF).
 }
 \usage{
 yorku_1

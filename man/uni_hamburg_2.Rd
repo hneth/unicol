@@ -9,7 +9,7 @@ An object of class \code{character} of length 6.
 }
 \source{
 Color definitions are based on the 
-\href{https://www.kus.uni-hamburg.de/themen/oeffentlichkeitsarbeit/corporate-design/corporate-manual.html}{CD manual}.
+\href{https://www.fiona.uni-hamburg.de/beantragung/regelungen.html}{CD manual}.
 }
 \usage{
 uni_hamburg_2

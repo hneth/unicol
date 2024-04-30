@@ -8,8 +8,8 @@
 An object of class \code{character} of length 1.
 }
 \source{
-Colour definitions are based on \href{https://www.dundee.ac.uk/}{Dundee}'s 
-\href{https://www.dundee.ac.uk/brand/colour-palette}{Brand colour palette}.
+Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
+\href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
 }
 \usage{
 dundee_core
@@ -29,13 +29,13 @@ Note that Pantone and CMYK colours differ from the RGB and HEX definition.
 
 
 The central blue core colour is at the heart of 
-\href{https://www.dundee.ac.uk/}{Dundee}'s identity. 
+\href{https://www.dundee.ac.uk}{Dundee}'s identity. 
 
 The University shield and wordmark can be reproduced in the core colour 
 and it can also be applied to icons and typography.
 
 See \code{\link{dundee_background}} for 
-\href{https://www.dundee.ac.uk/}{Dundee}'s background colour.
+\href{https://www.dundee.ac.uk}{Dundee}'s background colour.
 }
 \examples{
 dundee_core

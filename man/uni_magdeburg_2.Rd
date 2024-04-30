@@ -8,7 +8,7 @@
 An object of class \code{character} of length 27.
 }
 \source{
-Color definitions are based on the \href{https://www.ovgu.de/}{OVGU}'s 
+Color definitions are based on the \href{https://ovgu.de}{OVGU}'s 
 \href{https://www.cd.ovgu.de/Logo_+Farbe_+Schrift/Farbe.html}{Corporate design} guidelines (HTML).
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_magdeburg_2} provides the faculty colors 
-of the \href{https://www.ovgu.de/}{Otto von Guericke University Magdeburg} (OVGU), Germany.
+of the \href{https://ovgu.de}{Otto von Guericke University Magdeburg} (OVGU), Germany.
 }
 \details{
 The pre-defined set of faculty colors allows to target publications and presentations 
@@ -41,7 +41,7 @@ White areas are not wasted space, but rather necessary elements to structure con
 reveal connections, set accents, and improve readability.
 
 See \code{\link{uni_magdeburg_3}} for the colors of the medical faculty and university hospital 
-of the \href{https://www.ovgu.de/}{OVGU Magdeburg}.
+of the \href{https://ovgu.de}{OVGU Magdeburg}.
 }
 \examples{
 uni_magdeburg_2
