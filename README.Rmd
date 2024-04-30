@@ -46,11 +46,13 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Devel badges end. -->
 
+
 <!-- Release badges start: -->
 [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
 [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Release badges end. -->
+
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -353,7 +355,6 @@ unikn::seecol(yale, main = "The primary colors of Yale University")
 unikn::demopal(berkeley_1, type = 2, main = "The colors of Berkeley, University of California", seed = 3)
 unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University of Limerick", seed = 3)
 ```
-
 
 <!-- ## Adding color palettes -->
 

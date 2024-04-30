@@ -186,8 +186,8 @@ For instructions on how this can be done, please see the documentation
 of the `newpal()` function (of the
 **[unikn](https://CRAN.R-project.org/package=unikn)** package). The
 vignette on [Institutional
-colors](https://hneth.github.io/unikn/articles/inst_colors.html) provides
-a corresponding example.
+colors](https://hneth.github.io/unikn/articles/inst_colors.html)
+provides a corresponding example.
 
 **Call for contributions: Collecting color palettes**
 
@@ -326,6 +326,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2024-04-30.\]
+\[File `README.Rmd` updated on 2024-05-01.\]
 
 <!-- eof. -->
