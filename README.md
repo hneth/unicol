@@ -1,18 +1,19 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
 <!-- Devel badges start: -->
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
+<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
+<!-- Devel badges end. -->
+<!-- Release badges start: -->
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
-[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
+[![Total
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
-<!-- Devel badges end. -->
-
-<!-- Release badges start: -->
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
-<!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
+
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
@@ -21,7 +22,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- ALL badges end. -->
 
-# unicol 0.2.0.9015 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
+# unicol 0.3.0 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
@@ -291,10 +292,10 @@ derivations or publications:
 
 <!-- Citation / reference (in APA format): -->
 
-- Neth, H. et al. (2023). unicol: The colors of your university.  
+- Neth, H. et al. (2024). unicol: The colors of your university.  
   Social Psychology and Decision Sciences, University of Konstanz,
   Germany.  
-  Computer software (R package version 0.2.0, September 15, 2023).  
+  Computer software (R package version 0.3.0, May 1, 2024).  
   Retrieved from <https://CRAN.R-project.org/package=unicol>.  
   doi [10.5281/zenodo.8252106](https://doi.org/10.5281/zenodo.8252106)
 
@@ -305,10 +306,10 @@ A BibTeX entry for LaTeX users is:
     @Manual{,
       title = {unicol: The colors of your university},
       author = {Hansjoerg Neth and Constantin Basler and Paula Bauer and Kaethe Bodenstein and Franziska Drechsel and Gina-Loretta Franz and Karolin Heiss and Julia Koenig and Isabelle Krist and Larissa Schwab and Alina Sohst and Isabel Staatz and Lisa Trueb},
-      year = {2023},
+      year = {2024},
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
-      note = {R package (version 0.2.0, September 15, 2023)},
+      note = {R package (version 0.3.0, May 1, 2024)},
       url = {https://CRAN.R-project.org/package=unicol},
       doi = {10.5281/zenodo.8252106},
     }
