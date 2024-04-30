@@ -21,11 +21,11 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- ALL badges end. -->
 
-# unicol 0.2.0.9014 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" />
+# unicol 0.2.0.9015 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
-<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/> -->
+<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/> -->
 <!-- </a> -->
 <!-- Slogan: -->
 
@@ -202,7 +202,7 @@ following information:
 <!-- ToDo: -->
 
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
+<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
 </a>
 
 1.  your code (e.g., the `newpal()` command creating your color
@@ -283,7 +283,7 @@ functionality from it.
 <!-- unicol pkg logo and link: -->
 
 <a href = "https://CRAN.R-project.org/package=unicol">
-<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
+<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
 </a>
 
 To support our efforts, please cite the **unicol** package in your

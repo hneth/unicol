@@ -46,13 +46,11 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
-
 <!-- Release badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- Release badges end. -->
-
 
 <!-- ALL badges start: -->
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
@@ -63,11 +61,11 @@ url_unikn_github <- "https://github.com/hneth/unikn"
 <!-- ALL badges end. -->
 
 
-# unicol `r packageVersion('unicol')` <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "160px" alt="" /> 
+# unicol `r packageVersion('unicol')` <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" /> 
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "`r url_unicol_cran`"> -->
-<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/> -->
+<!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/> -->
 <!-- </a> -->
 
 
@@ -379,7 +377,7 @@ To enable us to verify and provide credit to your contributions, please send us 
 
 <!-- ToDo: -->
 <a href = "https://github.com/hneth/unicol/issues/30">
-<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
+<img src = "./man/figures/todo.png" alt = "unicol::todo" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
 </a>
 
 1. your code (e.g., the `newpal()` command creating your color palette),   
@@ -448,7 +446,7 @@ The **unicol** package is based on the R\ package **[unikn](`r url_unikn_cran`)*
 
 <!-- unicol pkg logo and link: -->
 <a href = "`r url_unicol_cran`">
-<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "160px" style = "width: 160px; float: right; border:0;"/>
+<img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/>
 </a> 
 
 To support our efforts, please cite the **unicol** package in your derivations or publications: 
