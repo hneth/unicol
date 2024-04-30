@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on \href{https://www.uoguelph.ca}{U of G}'s 
-\href{https://news.uoguelph.ca/guides/brand-guide/colour-palette//}{brand guide} (HTML).
+\href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{brand guide} (HTML).
 }
 \usage{
 guelph
