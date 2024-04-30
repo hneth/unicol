@@ -19,7 +19,7 @@ A names vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{uni_potsdam} provides the nine primary colors
-of the \href{https://www.uni-potsdam.de/de}{University of Potsdam}, Germany.
+of the \href{https://www.uni-potsdam.de/de/}{University of Potsdam}, Germany.
 }
 \details{
 The 9 primary colors are 

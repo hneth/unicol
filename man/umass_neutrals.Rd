@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on the \href{https://www.umass.edu}{UMass} 
-\href{https://www.umass.edu/university-relations/brand/brand-elements#color}{Brand guide}.
+\href{https://www.umass.edu/brand/elements/color}{Brand guide}.
 }
 \usage{
 umass_neutrals

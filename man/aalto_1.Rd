@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on 
-\href{https://www.aalto.fi/fi}{AU}'s 
+\href{https://www.aalto.fi}{AU}'s 
 \href{https://brand.aalto.fi/visual-identity/about/colour-palette}{brand guide} (HTML).
 }
 \usage{
@@ -20,7 +20,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{aalto_1} provides the primary brand colours 
-of \href{https://www.aalto.fi/fi}{Aalto University}, Finland.
+of \href{https://www.aalto.fi}{Aalto University}, Finland.
 }
 \details{
 \code{aalto_1} is based on HEX color definitions.

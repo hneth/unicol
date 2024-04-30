@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Colour definitions are based on \href{https://www.birmingham.ac.uk/}{UBirmingham}'s 
+Colour definitions are based on \href{https://www.birmingham.ac.uk/index.aspx}{UBirmingham}'s 
 \href{https://intranet.birmingham.ac.uk/social-sciences/schools/business/documents/public/brand-templates/11687-REVISED-BBS-BRAND-GUIDELINES-FINAL-FEB-2016.pdf}{brand guidelines} 
 (PDF, revised 2016-02).
 }
@@ -21,7 +21,7 @@ A named vector of colours (HEX/HTML codes of type character).
 \description{
 \code{birmingham} provides the three primary colours 
 and two secondary colours 
-of the \href{https://www.birmingham.ac.uk/}{University of Birmingham}, England, UK.
+of the \href{https://www.birmingham.ac.uk/index.aspx}{University of Birmingham}, England, UK.
 }
 \details{
 The three primary colours are

@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 MQ's staff portal page 
-\href{https://mqoutlook.sharepoint.com/sites/mq-marketing-and-communications/SitePages/Colours-and-light-graphic.aspx}{Colours and light graphic}
+\href{https://staff.mq.edu.au/support/marketing-and-communications/brand-guidelines/colours-and-light-graphic}{Colours and light graphic}
 }
 \usage{
 mq_2

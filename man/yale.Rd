@@ -9,7 +9,7 @@ An object of class \code{character} of length 10.
 }
 \source{
 Color definitions are based on \href{https://www.yale.edu}{Yale}'s 
-\href{https://yaleidentity.yale.edu/core-identity-elements/yale-colors}{identity} site.
+\href{https://yaleidentity.yale.edu/colors}{identity} site.
 }
 \usage{
 yale
