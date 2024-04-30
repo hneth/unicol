@@ -1,4 +1,4 @@
-## Guelph.R | 2023 09 30
+## Guelph.R | 2024 04 30
 ## Colors of the University of Guelph, Canada 
 ## ------------------------------------------
 
@@ -49,7 +49,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.uoguelph.ca}{U of G}'s 
-#' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{brand guide} (HTML). 
+#' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette}{brand guide} (HTML). 
 #'
 #' @examples
 #' guelph
