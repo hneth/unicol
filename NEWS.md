@@ -1,5 +1,5 @@
 
-# unicol 0.2.0.9014
+# unicol 0.2.0.9015
 
 <!-- Development version:  --> 
 
@@ -85,6 +85,8 @@ Color palettes are linked to their [online documentation of the current GitHub d
 ## Minor changes 
 
 - Rename colors and color palettes (for consistency and simplicity)
+
+- Replace logo image 
 
 
 <!-- Details:  --> 
@@ -175,6 +177,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2024-04-24.]
+[File `NEWS.md` updated on 2024-04-30.]
 
 <!-- eof. -->
