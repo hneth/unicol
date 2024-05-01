@@ -22,13 +22,31 @@
     <loc>https://hneth.github.io/unicol/news/index.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/reference/UCC_1.html</loc>
+    <loc>https://hneth.github.io/unicol/reference/CMU_1_core.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/reference/UCC_2.html</loc>
+    <loc>https://hneth.github.io/unicol/reference/CMU_2_tartan.html</loc>
   </url>
   <url>
-    <loc>https://hneth.github.io/unicol/reference/UCD.html</loc>
+    <loc>https://hneth.github.io/unicol/reference/CMU_3_campus.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCLA_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCLA_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCLA_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCSD_1_core.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCSD_2_accent.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/UCSD_3_neutral.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/aalto_1.html</loc>
@@ -100,6 +118,9 @@
     <loc>https://hneth.github.io/unicol/reference/birmingham.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/birmingham_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/brown_1.html</loc>
   </url>
   <url>
@@ -107,6 +128,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/bu.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/bu_1.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/caltech_1.html</loc>
@@ -127,6 +151,15 @@
     <loc>https://hneth.github.io/unicol/reference/carleton.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/carleton_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/chicago_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/chicago_2.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/cmu_1.html</loc>
   </url>
   <url>
@@ -136,6 +169,9 @@
     <loc>https://hneth.github.io/unicol/reference/cmu_3.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/columbia.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/columbia_1.html</loc>
   </url>
   <url>
@@ -143,6 +179,18 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/columbia_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/conc_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/conc_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/conc_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/conc_4.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/concordia_1.html</loc>
@@ -196,6 +244,9 @@
     <loc>https://hneth.github.io/unicol/reference/edinburgh.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/edinburgh_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/eth_1.html</loc>
   </url>
   <url>
@@ -218,6 +269,18 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/fu_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/fu_pal_0.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/fu_pal_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/fu_pal_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/fu_pal_3.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/galway_1.html</loc>
@@ -280,6 +343,12 @@
     <loc>https://hneth.github.io/unicol/reference/hu_3_accent.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/hu_pal_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/hu_pal_2.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/index.html</loc>
   </url>
   <url>
@@ -328,6 +397,15 @@
     <loc>https://hneth.github.io/unicol/reference/lmu_3.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/lmu_pal_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/lmu_pal_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/lmu_pal_3.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/lund_1.html</loc>
   </url>
   <url>
@@ -341,6 +419,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/manchester_uni_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/manchester_uni_accent.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/manitoba_1.html</loc>
@@ -391,6 +472,9 @@
     <loc>https://hneth.github.io/unicol/reference/mit.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/mit_pal.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/monash_1.html</loc>
   </url>
   <url>
@@ -400,6 +484,9 @@
     <loc>https://hneth.github.io/unicol/reference/mpg.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/mpg_pal.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/mq_1.html</loc>
   </url>
   <url>
@@ -407,6 +494,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/msu.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/msu_pal.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/mun_1.html</loc>
@@ -460,6 +550,9 @@
     <loc>https://hneth.github.io/unicol/reference/otago.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/ottawa_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/oxford_blog.html</loc>
   </url>
   <url>
@@ -499,6 +592,12 @@
     <loc>https://hneth.github.io/unicol/reference/princeton_2.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/queens_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/queens_2.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/queensu_1.html</loc>
   </url>
   <url>
@@ -514,7 +613,19 @@
     <loc>https://hneth.github.io/unicol/reference/rpi_3.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/rpi_pal_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/rpi_pal_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/rpi_pal_3.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/rptu.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/rptu_pal.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/sfu_brand.html</loc>
@@ -532,7 +643,13 @@
     <loc>https://hneth.github.io/unicol/reference/stanford_2.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/stanford_2_accent.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/stanford_3.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/stanford_3_web.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/stirling_1.html</loc>
@@ -550,6 +667,9 @@
     <loc>https://hneth.github.io/unicol/reference/stockholm_2.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/toronto_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/trinity_1.html</loc>
   </url>
   <url>
@@ -557,6 +677,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/ubc.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/ubc_1.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/ucalgary_1.html</loc>
@@ -568,7 +691,22 @@
     <loc>https://hneth.github.io/unicol/reference/ucalgary_accent.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/ucalgary_primary.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/ucalgary_secondary.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/ucalgary_warmgreys.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/ucc_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/ucc_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/ucd.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/uchicago_1.html</loc>
@@ -587,15 +725,6 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/uci_4.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/reference/ucla_1.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/reference/ucla_2.html</loc>
-  </url>
-  <url>
-    <loc>https://hneth.github.io/unicol/reference/ucla_3.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/ucla_4.html</loc>
@@ -623,6 +752,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/umass_2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/umass_brand.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/umass_neutrals.html</loc>
@@ -676,6 +808,9 @@
     <loc>https://hneth.github.io/unicol/reference/uni_heidelberg.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/uni_heidelberg_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/uni_jena_1.html</loc>
   </url>
   <url>
@@ -718,6 +853,9 @@
     <loc>https://hneth.github.io/unicol/reference/uni_manchester.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/uni_manchester_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/uni_mannheim_1.html</loc>
   </url>
   <url>
@@ -737,6 +875,9 @@
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/uni_stuttgart_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/uni_stuttgart_2_print.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/uni_stuttgart_print.html</loc>
@@ -775,6 +916,12 @@
     <loc>https://hneth.github.io/unicol/reference/uvic_2.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/uvic_complementary.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/uvic_core.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/uwaterloo_arts.html</loc>
   </url>
   <url>
@@ -811,6 +958,9 @@
     <loc>https://hneth.github.io/unicol/reference/western_uni.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/western_uni_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/willamette.html</loc>
   </url>
   <url>
@@ -832,7 +982,22 @@
     <loc>https://hneth.github.io/unicol/reference/yale.html</loc>
   </url>
   <url>
+    <loc>https://hneth.github.io/unicol/reference/yale_1.html</loc>
+  </url>
+  <url>
     <loc>https://hneth.github.io/unicol/reference/yeshiva.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/york1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/york2.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/york_1.html</loc>
+  </url>
+  <url>
+    <loc>https://hneth.github.io/unicol/reference/york_2.html</loc>
   </url>
   <url>
     <loc>https://hneth.github.io/unicol/reference/yorku_1.html</loc>
