@@ -1,4 +1,49 @@
 
+# unicol 0.3.0.9000
+
+<!-- Development version:  --> 
+
+This is the development version of **unicol**, available at <https://github.com/hneth/unicol/>. 
+
+This version is identical to the last release of **unicol** (v0.3.0) 
+which was published [on CRAN](https://CRAN.R-project.org/package=unicol) on 2024-05-01 .
+
+The **unicol** package currently provides **269\ color palettes** from **116\ institutions**. 
+
+<!-- Log of changes: --> 
+
+Changes since last release: 
+
+
+<!-- Major changes: --> 
+
+## Major changes
+
+- none yet
+
+<!-- Minor changes: --> 
+
+## Minor changes 
+
+- none yet
+
+<!-- Details:  --> 
+
+## Details 
+
+- none yet
+
+
+<!-- Development version:  --> 
+
+The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
+
+
+<!-- Published versions (on CRAN): --> 
+
+------ 
+
+
 # unicol 0.3.0
 
 **unicol** (v0.3.0) was published [on CRAN](https://CRAN.R-project.org/package=unicol). [2024-05-01] 
@@ -99,7 +144,7 @@ Color palettes are linked to their [online documentation of the current GitHub d
 The development version of **unicol** is available at <https://github.com/hneth/unicol/>. 
 
 
-<!-- Published versions: --> 
+<!-- Older versions: --> 
 
 ------ 
 
