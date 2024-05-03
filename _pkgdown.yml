@@ -1,4 +1,4 @@
-## _pkgdown.yml unicol | 2024 05 02
+## _pkgdown.yml unicol | 2024 05 03
 ## --------------------------------
 
 url: https://hneth.github.io/unicol/
@@ -8,7 +8,7 @@ development:
 
 template:
   bootstrap: 5
-  bootswatch: simplex # flatly litera sandstone spacelab 
+  bootswatch: lux # flatly litera lumen lux sandstone spacelab 
 
 toc:
   depth: 3
