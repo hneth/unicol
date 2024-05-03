@@ -8,7 +8,8 @@ development:
 
 template:
   bootstrap: 5
-  bootswatch: litera # spacelab
+  # bootswatch: litera # release
+  bootswatch: spacelab # devel
 
 toc:
   depth: 3
