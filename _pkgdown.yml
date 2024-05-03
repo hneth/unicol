@@ -8,7 +8,7 @@ development:
 
 template:
   bootstrap: 5
-  bootswatch: sandstone # flatly litera lumen sandstone spacelab
+  bootswatch: lumen # litera lumen spacelab
 
 toc:
   depth: 3
