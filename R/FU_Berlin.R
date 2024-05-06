@@ -1,4 +1,4 @@
-## FU_Berlin.R | 2023 09 26
+## FU_Berlin.R | 2024 05 06
 ## Colors of FU Berlin / Free University Berlin, Germany
 ## -----------------------------------------------------
 
@@ -11,16 +11,45 @@
 # inst_URL: <https://www.fu-berlin.de>
 
 # Color source: HTML at 
-# color_URL: <https://www.fu-berlin.de/sites/corporate-design/index.html>
-# Last check: 2022-12-03
+# color_URL: <https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html>
+# Last check: 2024-05-06
 
 
 # Colors: ------
 
-# Color definitions (see below).
+# Color definitions:
+
+# 1. CI-Farben der Freien Universität: Schwarz, Grün ---- 
+
+# color_URL: <https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html>
+
+FU_schwarz <- "#000000"  # "Schwarz" 
+FU_gruen   <- "#CCFF00"  # "FU Gruen" 
+
+
+# 2. Basisfarbe: Schwarz: ---- 
+
+FU_blacks <- c("#000000", 
+               "#1A1A1A", "#333333", "#4D4D4D", "#666666", "#808080", "#999999", "#B3B3B3", "#CCCCCC", "#E6E6E6")
+FU_blacks_name <- c("Schwarz", 
+                    paste0("Schwarz ",  seq(90, 10, by = -10), "%"))
+
+# 3. Basisfarbe: Weiß: 
+
+FU_weiss <- "#FFFFFF" # "Weiss"
+
+
+# 4. Basisfarbe: Blau
+
+# +++ here now +++ 
+
+# 5. Zusatzfarben: Olive (dunkel), Olive (hell), Orange, Traubenrot
+
 
 # Color palette(s):
 
+
+# pre 2024: ------
 
 # Hausfarben
 #
