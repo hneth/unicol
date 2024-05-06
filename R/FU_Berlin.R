@@ -30,9 +30,10 @@ FU_gruen   <- "#CCFF00"  # "FU Gruen"
 # 2. Basisfarbe: Schwarz: ---- 
 
 FU_blacks <- c("#000000", 
-               "#1A1A1A", "#333333", "#4D4D4D", "#666666", "#808080", "#999999", "#B3B3B3", "#CCCCCC", "#E6E6E6")
+               "#1A1A1A", "#333333", "#4D4D4D", "#666666", 
+               "#808080", "#999999", "#B3B3B3", "#CCCCCC", "#E6E6E6")
 FU_blacks_name <- c("Schwarz", 
-                    paste0("Schwarz ",  seq(90, 10, by = -10), "%"))
+                    paste0("Schwarz ", seq(90, 10, by = -10), "%"))
 
 # 3. Basisfarbe: Weiß: 
 
@@ -41,12 +42,86 @@ FU_weiss <- "#FFFFFF" # "Weiss"
 
 # 4. Basisfarbe: Blau
 
-# +++ here now +++ 
+FU_blaus <- c("#004659", 
+              "#195869", "#336B7A", "#4C7D8A", "#66909B", 
+              "#7FA2AC", "#99B5BC", "#B2C7CD", "#CCDADE", "#E5ECEE")
+FU_blaus_name <- c("Blau", 
+                   paste0("Blau ", seq(90, 10, by = -10), "%"))
 
 # 5. Zusatzfarben: Olive (dunkel), Olive (hell), Orange, Traubenrot
 
+FU_plus <- c("#58756A", "#86B0A0", "#E57050", "#813353")
+FU_plus_name <- c("Olive dunkel", "Olive hell", "Orange", "Traubenrot")
+
 
 # Color palette(s):
+
+# - FU_1: Two primary colors of the FU Berlin ----
+
+#' Primary colors of the Free University (FU) Berlin, Germany (2024)
+#'
+#' \code{FU_1} provides the two primary colors 
+#' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unicol}, 2024-05-06.
+#' 
+#' @source 
+#' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page. 
+#' 
+#' @examples
+#' FU_1
+#' unikn::seecol(FU_1, main = "Primary colors of the FU Berlin")  # view color palette
+#' unikn::demopal(FU_1, type = 1, main = "Primary colors of the FU Berlin")
+#'
+#' @family German university color palettes
+#'
+#' @seealso 
+#' \code{\link{fu_0}} for older colors of the FU Berlin (pre 2024);
+#' \code{\link{fu_1}} for an older color gradient of the FU Berlin (pre 2024);
+#' \code{\link{fu_2}} for secondary colors of the FU Berlin (pre 2024); 
+#' \code{\link{fu_3}} for a blue color gradient of the FU Berlin (pre 2024);  
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+FU_1 <- unikn::newpal(col = c(FU_schwarz, FU_gruen),
+                      names = c("Schwarz", "FU Gruen"), 
+                      as_df = FALSE)
+
+# unikn::seecol(FU_1, main = "Primary colors of the FU Berlin (2024)")
+
+# +++ here now +++ 
+
+
+FU_2 <- unikn::newpal(col = c(FU_blacks, FU_weiss),
+                      names = c(FU_blacks_name, "Weiss"), 
+                      as_df = FALSE)
+
+# unikn::seecol(FU_2, main = "Black gradient colors of the FU Berlin (2024)")
+
+
+FU_3 <- unikn::newpal(col = c(FU_blaus, FU_weiss),
+                      names = c(FU_blaus_name, "Weiss"), 
+                      as_df = FALSE)
+
+# unikn::seecol(FU_3, main = "Blau gradient colors of the FU Berlin (2024)")
+
+
+FU_4 <- unikn::newpal(col = c(FU_plus),
+                      names = FU_plus_name, 
+                      as_df = FALSE)
+
+# unikn::seecol(FU_4, main = "Zusatzfarben of the FU Berlin (2024)")
+
 
 
 # pre 2024: ------
@@ -87,7 +162,7 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 
 # - fu_0: Two primary colors of the FU Berlin ----
 
-#' Primary colors of the Free University (FU) Berlin, Germany 
+#' Primary colors of the Free University (FU) Berlin, Germany (pre 2024)
 #'
 #' \code{fu_0} provides the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -181,7 +256,7 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 
 # - fu_2: Secondary and grey colors of the FU Berlin ----
 
-#' Secondary and grey colors of the Free University (FU) Berlin, Germany 
+#' Secondary and grey colors of the Free University (FU) Berlin, Germany (pre 2024) 
 #'
 #' \code{fu_2} provides the three accent colors and seven grey colors  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -249,7 +324,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 
 # - fu_3: Blue color gradient of the FU Berlin ----
 
-#' Blue color gradient of the Free University (FU) Berlin, Germany 
+#' Blue color gradient of the Free University (FU) Berlin, Germany (pre 2024)
 #'
 #' \code{fu_3} provides a gradient of the blue primary color  
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -313,7 +388,7 @@ fu_3 <- fu_blues
 
 # - fu_1: Primary color gradient of the FU Berlin ----
 
-#' Primary color gradient of the Free University (FU) Berlin, Germany 
+#' Primary color gradient of the Free University (FU) Berlin, Germany (pre 2024)
 #'
 #' \code{fu_1} provides a gradient of the two primary colors 
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
@@ -365,6 +440,6 @@ fu_1 <- unikn::newpal(col = c("#003366",  # = fu_blue
 
 ## ToDo: -----
 
-# - See <https://www.fu-berlin.de/sites/corporate-design/cd-neu/index.html> for new design (in 2023).
+# - See <https://www.fu-berlin.de/sites/corporate-design/cd-neu/index.html> for new design (in 2024).
 
 ## eof. ----
