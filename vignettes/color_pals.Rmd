@@ -106,7 +106,10 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```{r source-util-funs, echo = FALSE}
 # 1. Utility functions: ------
 
-source("../R/5_util.R")
+wd <- getwd()
+
+# source("./R/5_util.R")  # from pkg wd
+source("../R/5_util.R")   # from pkg/vignettes dir
 ```
 
 ```{r unicol-data-table, echo = FALSE}
@@ -155,7 +158,7 @@ knitr::kable(my_df, caption = df_caption, col.names = col_names, row.names = TRU
 N <- length(unicol_data$pal)
 n <- 50 # N
 
-set.seed(24) # reproducible randomness
+set.seed(26) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -223,6 +226,8 @@ unikn::seecol(pal = pal_list,
               pal_names = pal_names,         
               main = my_main)
 ```
+
+<!-- Use and show figure generated from README file: -->
 
 ![**Figure 1:** Examples of **unicol** color palettes.](../man/figures/README-unicol-pals-example-1-figure-1.png)
 

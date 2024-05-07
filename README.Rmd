@@ -176,7 +176,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(147) # reproducible randomness
+set.seed(155) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -241,8 +241,8 @@ fig_main    <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, 
 
 ```{r unicol-pals-example-1-stats, echo = FALSE, eval = FALSE}
 # Stats (for n <- N):
-n_pals  # number of color palettes: 235 on 2023-09-14. 
-n_inst  # number of institutions:   102 on 2023-09-14.
+n_pals  # number of color palettes: 273 on 2024-05-07. 
+n_inst  # number of institutions:   102 on 2024-05-07.
 # Colors (in current set):
 col_count
 length(unlist(pal_list))          # number of colors: 226 on 2023-09-14. 
@@ -273,9 +273,9 @@ unikn::seecol(pal = pal_list,
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
 
 
-<!-- Example 2:  Insights into clusters / relations / similar sets -->
+<!-- Example 2:  Explorations: Insights into clusters / relations / similar sets -->
 
-```{r example-insights, echo = FALSE, eval = FALSE}
+```{r example-explore-insights, echo = FALSE, eval = FALSE}
 bg_col <- "grey95"
 
 # Red and grey:
@@ -303,7 +303,7 @@ seecol(list(duke_1, jhu_1, columbia_1,
 
 
 # Greens:
-seecol(list(dartmouth_1, ohio_uni_1, limerick_1, stirling_1, lmu_1, fu_1), 
+seecol(list(dartmouth_1, ohio_uni_1, limerick_1, stirling_1, lmu_1,  fu_1), 
        main = "Mostly green university colors", col_bg = bg_col)
 
 
@@ -321,7 +321,6 @@ seecol(list(northwestern_1, western_uni),
 seecol(list(groningen_1, yorku_1, cornell_1, harvard_1), main = "Spot the differences ", col_bg = bg_col)
 seecol(list(notredame_1, uni_jena_1), main = "Color twins?", col_bg = bg_col)
 ```
-
 
 
 ### Using color palettes
