@@ -92,7 +92,7 @@ FU_plus_name <- c("Olive dunkel", "Olive hell", "Orange", "Traubenrot")
 #' \code{\link{fu_3}} for the blue color gradient of the FU Berlin;
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
-#' \code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
+#' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -140,7 +140,7 @@ fu_1 <- unikn::newpal(col = c(FU_schwarz, FU_gruen),
 #' \code{\link{fu_3}} for the blue color gradient of the FU Berlin; 
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
-#' \code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
+#' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -186,7 +186,7 @@ fu_2 <- unikn::newpal(col = c(FU_blacks, FU_weiss),
 #' \code{\link{fu_2}} for the black color gradient of the FU Berlin;
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin;
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
-#' \code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
+#' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -230,7 +230,7 @@ fu_3 <- unikn::newpal(col = c(FU_blaus, FU_weiss),
 #' \code{\link{fu_2}} for the black color gradient of the FU Berlin;
 #' \code{\link{fu_3}} for the blue color gradient of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
-#' \code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
+#' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -315,15 +315,12 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #' 
 #' @examples
 #' fu_0_2023
-#' unikn::seecol(fu_0_2023, main = "Primary colors of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_0_2023, type = 1, main = "Primary colors of the FU Berlin")
+#' unikn::seecol(fu_0_2023, main = "Primary colors of the FU Berlin")  # view palette
 #'
 #' @family German university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_1_2023}} for a corresponding color gradient of the FU Berlin;
-#' \code{\link{fu_2_2023}} for secondary colors of the FU Berlin; 
-#' \code{\link{fu_3_2023}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);   
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -402,15 +399,12 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #' 
 #' @examples
 #' fu_2_2023
-#' unikn::seecol(fu_2_2023, main = "Secondary colors of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_2_2023, type = 5, main = "Accent and grey colors of the FU Berlin")
+#' unikn::seecol(fu_2_2023, main = "Secondary colors of the FU Berlin")  # view palette
 #'
 #' @family German university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_0_2023}} for primary colors of the FU Berlin; 
-#' \code{\link{fu_1_2023}} for a corresponding color gradient of the FU Berlin;
-#' \code{\link{fu_3_2023}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);   
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -471,15 +465,12 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' 
 #' @examples
 #' fu_3_2023
-#' unikn::seecol(fu_3_2023, main = "Blue color gradient of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_3_2023, type = 3, main = "Blue color gradient of the FU Berlin")
+#' unikn::seecol(fu_3_2023, main = "Blue color gradient of the FU Berlin")  # view palette
 #'
 #' @family German university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_0_2023}} for primary colors of the FU Berlin;
-#' \code{\link{fu_1_2023}} for primary color gradient of the FU Berlin; 
-#' \code{\link{fu_2_2023}} for secondary colors of the FU Berlin; 
+#' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -535,15 +526,12 @@ fu_3_2023 <- fu_blues
 #' 
 #' @examples
 #' fu_1_2023
-#' unikn::seecol(fu_1_2023, main = "Primary color gradient of the FU Berlin")  # view color palette
-#' unikn::demopal(fu_1_2023, type = 4, seed = 2, main = "Primary color gradient of the FU Berlin")
+#' unikn::seecol(fu_1_2023, main = "Primary color gradient of the FU Berlin")  # view palette
 #'
 #' @family German university color palettes
 #'
 #' @seealso 
-#' \code{\link{fu_0_2023}} for primary colors of the FU Berlin;
-#' \code{\link{fu_2_2023}} for secondary colors of the FU Berlin; 
-#' \code{\link{fu_3_2023}} for a blue color gradient of the FU Berlin;  
+#' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -553,12 +541,12 @@ fu_3_2023 <- fu_blues
 #' @export
 
 fu_1_2023 <- unikn::newpal(col = c("#003366",  # = fu_blue
-                              "#0F425B", "#1E5151", "#2D6047", 
-                              "#3D703D", "#4C7F33", "#5B8E28", 
-                              "#6B9E1E", "#7AAD14", "#89BC0A", 
-                              "#99CC00"), # = fu_green
-                      names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
-                      as_df = FALSE)
+                                   "#0F425B", "#1E5151", "#2D6047", 
+                                   "#3D703D", "#4C7F33", "#5B8E28", 
+                                   "#6B9E1E", "#7AAD14", "#89BC0A", 
+                                   "#99CC00"), # = fu_green
+                           names = c("FU blue", paste0("FU bg ", 1:9), "FU green"),
+                           as_df = FALSE)
 
 # unikn::seecol(fu_1_2023, main = "Blue/green color gradient of the FU Berlin")
 
