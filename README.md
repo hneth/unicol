@@ -23,7 +23,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 <!-- ALL badges end. -->
 
-# unicol 0.3.0.9001 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
+# unicol 0.3.0.9002 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
 
 <!-- unicol pkg logo and link: -->
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
