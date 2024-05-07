@@ -5,10 +5,7 @@
 
 This is the development version of **unicol**, available at <https://github.com/hneth/unicol/>. 
 
-This version is identical to the last release of **unicol** (v0.3.0) 
-which was published [on CRAN](https://CRAN.R-project.org/package=unicol) on 2024-05-01 .
-
-The **unicol** package currently provides **269\ color palettes** from **116\ institutions**. 
+The **unicol** package currently provides **273\ color palettes** from **116\ institutions**. 
 
 <!-- Log of changes: --> 
 
@@ -19,13 +16,29 @@ Changes since last release:
 
 ## Major changes
 
-- none yet
+- New color palettes: 
+    - none yet
+
+
+<!-- Corrections and updates: --> 
+
+- Corrected or updated color palettes: 
+    - [Free University Berlin](https://www.fu-berlin.de/en/index.html) (Germany):
+    `fu_1`, 
+    `fu_2`, 
+    `fu_3`, 
+    `fu_4` (previous palettes are now `fu_0_2023` to `fu_3_2023`) 
+
+
+Color palettes are linked to their [online documentation of the current GitHub development version](https://hneth.github.io/unicol/dev/).
+
 
 <!-- Minor changes: --> 
 
 ## Minor changes 
 
 - none yet
+
 
 <!-- Details:  --> 
 
@@ -121,7 +134,6 @@ Changes since last release:
     [`columbia_v0`](https://hneth.github.io/unicol/dev/reference/columbia_v0.html) palette    
 
 
-Color palettes are linked to their [online documentation of the current GitHub development version](https://hneth.github.io/unicol/dev/).
 
 <!-- Minor changes: --> 
 
@@ -220,6 +232,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2024-05-02.]
+[File `NEWS.md` updated on 2024-05-06.]
 
 <!-- eof. -->

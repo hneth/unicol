@@ -8,8 +8,8 @@
 # A. Meta-information on all exported color palettes: ------ 
 
 uni_pals <- c("eth_1", "eth_2", "eth_3",
-              "FU_1", "FU_2", "FU_3", "FU_4",  # update 2024
-              "fu_0", "fu_1", "fu_2", "fu_3",
+              "fu_1", "fu_2", "fu_3", "fu_4",  # update 2024
+              "fu_0_2023", "fu_1_2023", "fu_2_2023", "fu_3_2023",
               "hu_1", "hu_1_digital", "hu_2", "hu_3_accent", "hu_1_2022", "hu_2_2022", 
               "lmu_1", "lmu_2", "lmu_3",
               "mpg",
