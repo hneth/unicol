@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2022 10 15
+## 0_all_pals.R | 2024 05 07
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -8,6 +8,7 @@
 # A. Meta-information on all exported color palettes: ------ 
 
 uni_pals <- c("eth_1", "eth_2", "eth_3",
+              "FU_1", "FU_2", "FU_3", "FU_4",  # update 2024
               "fu_0", "fu_1", "fu_2", "fu_3",
               "hu_1", "hu_1_digital", "hu_2", "hu_3_accent", "hu_1_2022", "hu_2_2022", 
               "lmu_1", "lmu_2", "lmu_3",
@@ -136,7 +137,7 @@ uni_pals <- gsub(pattern = " <-", replacement = "", x = uni_pals)
 
 
 inst <- c(rep("ETH Zurich", 3),
-          rep("Free University Berlin", 4),
+          rep("Free University Berlin", 8), # update 2024
           rep("Humboldt University Berlin", 6),
           rep("LMU Munich", 3),
           "Max Planck Society",
@@ -258,7 +259,7 @@ inst <- c(rep("ETH Zurich", 3),
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
 
 inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
-              rep("Freie Universit\u00E4t Berlin", 4),
+              rep("Freie Universit\u00E4t Berlin", 8),  # update 2024
               rep("Humboldt Universit\u00E4t zu Berlin", 6),
               rep("Ludwig-Maximilians-Universit\u00E4t M\u00FCnchen", 3),
               "Max-Planck-Gesellschaft",
@@ -380,7 +381,7 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
 # Valid URL: 
 
 url <- c(rep("https://ethz.ch/de.html", 3),
-         rep("https://www.fu-berlin.de/en/index.html", 4),
+         rep("https://www.fu-berlin.de/en/index.html", 8), # update 2024
          rep("https://www.hu-berlin.de/en", 6),
          rep("https://www.lmu.de/en/index.html", 3),
          "https://www.mpg.de/en",
@@ -500,11 +501,13 @@ url <- c(rep("https://ethz.ch/de.html", 3),
 ) # url.
 
 
+
 # B. Collect all_data (as data frame): ------ 
 
 all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pals)
 # dim(all_data)  # 202 4  2023-08-16
-# dim(all_data)  # 269 4  2023-10-14
+# dim(all_data)  # 269 4  2024-01-01
+# dim(all_data)  # 273 4  2024-05-07
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -550,10 +553,11 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2023-10-14:
-# length(all_data$pal)           #  269 color palettes
+# # On 2024-05-07:
+# length(all_data$pal)           #  273 color palettes
 # length(unique(all_data$inst))  #  116 institutions
-# sum(n_cols)                    # 1850 colors
+# sum(n_cols)                    # 1878 colors
+
 
 # +++ here now +++
 
