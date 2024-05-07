@@ -103,6 +103,7 @@ In case we want to modify a color palette (e.g., change its number of colors or 
 we can do so by using the `usecol()` function of the **[unikn](`r url_unikn_cran`)** package before providing the modified palette as the `col`\ argument of an R graphics function. 
 The following examples illustrate both of these alternatives. 
 
+
 ```{r plot-base-r-caltech-1}
 # View color palette:
 unikn::seecol(caltech_1, main = "The colors of Caltech, USA")

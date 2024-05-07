@@ -106,10 +106,18 @@ knitr::kable(all_pals_df, caption = tab_caption, row.names = TRUE)
 ```{r source-util-funs, echo = FALSE}
 # 1. Utility functions: ------
 
-wd <- getwd()
+# Current path propoerties:
+wd    <- getwd()
+nc_wd <- nchar(wd)
+# nchar("vignettes") # = 9 
+fin_chars <- substr(wd, nc_wd - 8, nc_wd)  # final 9 characters
 
-# source("./R/5_util.R")  # from pkg wd
-source("../R/5_util.R")   # from pkg/vignettes dir
+if (fin_chars == "vignettes"){
+  source("../R/5_util.R")  # from pkg/vignettes dir  
+} else {
+  source("./R/5_util.R")   # from pkg wd
+}
+
 ```
 
 ```{r unicol-data-table, echo = FALSE}
@@ -203,11 +211,11 @@ my_main     <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, 
 
 ```{r unicol-pals-example-stats, echo = FALSE, eval = FALSE}
 # Stats (for n <- N):
-n_pals  # number of color palettes: 236 on 2023-09-14. 
-n_inst  # number of institutions:   102 on 2023-09-14.
+n_pals  # number of color palettes: 273 on 2024-05-07 
+n_inst  # number of institutions:   116 on 2024-05-07
 # Colors (in current set):
-length(unlist(pal_list))          # number of colors: 253 on 2023-09-14. 
-length(unique(unlist(pal_list)))  # number of unique colors: 222 on 2023-09-14. 
+length(unlist(pal_list))          # number of colors: 243
+length(unique(unlist(pal_list)))  # number of unique colors: 220
 ```
 
 <!-- Show as table: -->
