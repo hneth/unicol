@@ -34,14 +34,11 @@ See \code{\link{fu_1_2023}} for a corresponding color gradient.
 }
 \examples{
 fu_0_2023
-unikn::seecol(fu_0_2023, main = "Primary colors of the FU Berlin")  # view color palette
-unikn::demopal(fu_0_2023, type = 1, main = "Primary colors of the FU Berlin")
+unikn::seecol(fu_0_2023, main = "Primary colors of the FU Berlin")  # view palette
 
 }
 \seealso{
-\code{\link{fu_1_2023}} for a corresponding color gradient of the FU Berlin;
-\code{\link{fu_2_2023}} for secondary colors of the FU Berlin; 
-\code{\link{fu_3_2023}} for a blue color gradient of the FU Berlin;  
+\code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);   
 \code{\link{seecol}} for viewing and comparing color palettes; 
 \code{\link{usecol}} for using color palettes; 
 \code{\link{simcol}} for finding similar colors; 

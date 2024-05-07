@@ -34,7 +34,7 @@ unikn::seecol(fu_3, main = "Blue color gradient of the FU Berlin")  # view palet
 \code{\link{fu_2}} for the black color gradient of the FU Berlin;
 \code{\link{fu_4}} for the additional colors of the FU Berlin;
 \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
-\code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
+\code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
 \code{\link{seecol}} for viewing and comparing color palettes; 
 \code{\link{usecol}} for using color palettes; 
 \code{\link{simcol}} for finding similar colors; 
