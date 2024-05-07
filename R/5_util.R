@@ -1,9 +1,8 @@
-## util.R | 2024 02 02
+## util.R | 2024 05 06
 ## Utility functions
 ## -----------------
 
 # Goal: Analyze and report on unicol_data. 
-
 
 
 
