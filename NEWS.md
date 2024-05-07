@@ -1,5 +1,5 @@
 
-# unicol 0.3.0.9001
+# unicol 0.3.0.9002
 
 <!-- Development version:  --> 
 
@@ -24,11 +24,16 @@ Changes since last release:
 
 - Corrected or updated color palettes: 
     - [Free University Berlin](https://www.fu-berlin.de/en/index.html) (Germany):
-    `fu_1`, 
-    `fu_2`, 
-    `fu_3`, 
-    `fu_4` (previous palettes are now `fu_0_2023` to `fu_3_2023`) 
+    [`fu_1`](https://hneth.github.io/unicol/dev/reference/fu_1.html), 
+    [`fu_2`](https://hneth.github.io/unicol/dev/reference/fu_2.html), 
+    [`fu_3`](https://hneth.github.io/unicol/dev/reference/fu_3.html), 
+    [`fu_4`](https://hneth.github.io/unicol/dev/reference/fu_4.html) 
+    (previous palettes are retained as 
+    [`fu_0_2023`](https://hneth.github.io/unicol/dev/reference/fu_0_2023.html) 
+    to [`fu_3_2023`](https://hneth.github.io/unicol/dev/reference/fu_3_2023.html))  
 
+
+<!-- Note: --> 
 
 Color palettes are linked to their [online documentation of the current GitHub development version](https://hneth.github.io/unicol/dev/).
 
@@ -232,6 +237,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2024-05-06.]
+[File `NEWS.md` updated on 2024-05-07.]
 
 <!-- eof. -->
