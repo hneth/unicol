@@ -43,10 +43,14 @@ unikn::demopal(uni_freiburg_blue, type = 3, main = "Blue colors of Freiburg Univ
 \code{\link{grepal}} for finding named colors.
 
 Other German university color palettes: 
-\code{\link{fu_0}},
+\code{\link{fu_0_2023}},
 \code{\link{fu_1}},
+\code{\link{fu_1_2023}},
 \code{\link{fu_2}},
+\code{\link{fu_2_2023}},
 \code{\link{fu_3}},
+\code{\link{fu_3_2023}},
+\code{\link{fu_4}},
 \code{\link{hu_1}},
 \code{\link{hu_1_2022}},
 \code{\link{hu_1_digital}},

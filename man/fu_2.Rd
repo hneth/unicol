@@ -3,13 +3,13 @@
 \docType{data}
 \name{fu_2}
 \alias{fu_2}
-\title{Secondary and grey colors of the Free University (FU) Berlin, Germany}
+\title{Black color gradient of the Free University (FU) Berlin, Germany}
 \format{
-An object of class \code{character} of length 10.
+An object of class \code{character} of length 11.
 }
 \source{
 Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-\href{https://www.fu-berlin.de/sites/corporate-design/index.html}{Hausfarben} page.
+\href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page.
 }
 \usage{
 fu_2
@@ -18,23 +18,23 @@ fu_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{fu_2} provides the three accent colors and seven grey colors  
+\code{fu_2} provides the black color gradient  
 of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany.
 }
 \details{
-The three accent colors support the two primary colors of \code{\link{fu_0}} 
-but should not dominate the overall impression.
+The color values were updated in 2024.
 }
 \examples{
 fu_2
-unikn::seecol(fu_2, main = "Secondary colors of the FU Berlin")  # view color palette
-unikn::demopal(fu_2, type = 5, main = "Accent and grey colors of the FU Berlin")
+unikn::seecol(fu_2, main = "Black color gradient of the FU Berlin")  # view palette
 
 }
 \seealso{
-\code{\link{fu_0}} for primary colors of the FU Berlin; 
-\code{\link{fu_1}} for a corresponding color gradient of the FU Berlin;
-\code{\link{fu_3}} for a blue color gradient of the FU Berlin;  
+\code{\link{fu_1}} for the two primary colors of the FU Berlin;
+\code{\link{fu_3}} for the blue color gradient of the FU Berlin; 
+\code{\link{fu_4}} for the additional colors of the FU Berlin; 
+\code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
+\code{\link{fu_1_2023}} for an older color gradient of the FU Berlin (pre 2024);
 \code{\link{seecol}} for viewing and comparing color palettes; 
 \code{\link{usecol}} for using color palettes; 
 \code{\link{simcol}} for finding similar colors; 
@@ -42,9 +42,13 @@ unikn::demopal(fu_2, type = 5, main = "Accent and grey colors of the FU Berlin")
 \code{\link{grepal}} for finding named colors.
 
 Other German university color palettes: 
-\code{\link{fu_0}},
+\code{\link{fu_0_2023}},
 \code{\link{fu_1}},
+\code{\link{fu_1_2023}},
+\code{\link{fu_2_2023}},
 \code{\link{fu_3}},
+\code{\link{fu_3_2023}},
+\code{\link{fu_4}},
 \code{\link{hu_1}},
 \code{\link{hu_1_2022}},
 \code{\link{hu_1_digital}},
@@ -95,7 +99,7 @@ Other German university color palettes:
 \code{\link{uni_ulm_2}}
 }
 \author{
-\strong{unicol}, 2022-12-03.
+\strong{unicol}, 2024-05-06.
 }
 \concept{German university color palettes}
 \keyword{datasets}
