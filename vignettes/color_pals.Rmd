@@ -117,44 +117,44 @@ if (fin_chars == "vignettes"){
 } else {
   source("./R/5_util.R")   # from pkg wd
 }
-
 ```
 
 ```{r unicol-data-table, echo = FALSE}
-
 # 2. Process unicol_data: ------
 
-my_pals <- unicol_data$pal
+all_pals <- unicol_data$pal
 
-# Look up URLs and create links for my_pals:
-pal_urls <- lookup(my_pals, unicol_data, v_1 = "pal", v_2 = "url")
-pal_inst_links <- link_inst(my_pals)
-pal_doc_links  <- link_github_doc(my_pals)
+# Look up URLs and create links for all_pals:
+pal_urls <- lookup(all_pals, unicol_data, v_1 = "pal", v_2 = "url")
+pal_inst_links <- link_inst(all_pals)
+pal_doc_links  <- link_github_doc(all_pals)
 pal_lengths    <- sapply(X = unicol_data$pal, FUN = n_col)
+
+# mean(pal_lengths)  # mean number of colors 
+
 
 # Determine countries from URLs:
 pal_countries <- url_2_country(pal_urls)
 
 # Create summary df:
-my_df <- data.frame(inst = pal_inst_links, 
-                    # url = pal_urls, 
-                    country = pal_countries, 
-                    pal = pal_doc_links,
-                    n_col = pal_lengths)
+pal_df <- data.frame(inst = pal_inst_links, 
+                     # url = pal_urls, 
+                     country = pal_countries, 
+                     pal = pal_doc_links,
+                     n_col = pal_lengths)
 
-row.names(my_df) <- 1:nrow(my_df)
+row.names(pal_df) <- 1:nrow(pal_df)
 col_names <- c("University / Institution", 
                # "URL", 
                "Country", 
                "Color palette", 
                "N of colors")
 
-
 # 3. Print df as table: ------
 
 df_caption <- paste0("Overview of ", n_pals, " unicol palettes (from ", n_inst, " institutions).")
 
-knitr::kable(my_df, caption = df_caption, col.names = col_names, row.names = TRUE)
+knitr::kable(pal_df, caption = df_caption, col.names = col_names, row.names = TRUE)
 ```
 
 
