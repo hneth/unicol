@@ -27,7 +27,7 @@ which is co-located in Kaiserslautern and Landau, Germany (since 2023).
 
 The two colors of a pair may be combined with each other. 
 When using only one color pair, shades of 10% may be used in color gradients. 
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 rptu
@@ -43,11 +43,11 @@ rptu_21 <- unikn::usecol(c(rptu[1], "white", rptu[2]), n = 21)
 
 }
 \seealso{
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

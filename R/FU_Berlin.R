@@ -93,11 +93,11 @@ FU_plus_name <- c("Olive dunkel", "Olive hell", "Orange", "Traubenrot")
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
 #' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -141,11 +141,11 @@ fu_1 <- unikn::newpal(col = c(FU_schwarz, FU_gruen),
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
 #' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -187,11 +187,11 @@ fu_2 <- unikn::newpal(col = c(FU_blacks, FU_weiss),
 #' \code{\link{fu_4}} for the additional colors of the FU Berlin;
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
 #' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -231,11 +231,11 @@ fu_3 <- unikn::newpal(col = c(FU_blaus, FU_weiss),
 #' \code{\link{fu_3}} for the blue color gradient of the FU Berlin; 
 #' \code{\link{fu_0_2023}} for older colors of the FU Berlin (pre 2024);
 #' \code{\link{fu_1_2023}} for older color gradient of the FU Berlin (pre 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -321,11 +321,11 @@ fu_col_1 <- unikn::newpal(col = c(fu_blue, fu_green),
 #'
 #' @seealso 
 #' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);   
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -405,11 +405,11 @@ fu_greys <- unikn::newpal(col = c("#333333", "#666666", "#999999", "#CCCCCC",
 #'
 #' @seealso 
 #' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);   
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -450,7 +450,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
 #' See \code{\link{fu_0_2023}} for the two primary colors and 
-#' the \code{\link{ac}} and \code{\link{usecol}} functions for creating 
+#' the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
 #' @return 
@@ -471,11 +471,11 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #'
 #' @seealso 
 #' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -511,7 +511,7 @@ fu_3_2023 <- fu_blues
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
 #' See \code{\link{fu_0_2023}} for the two primary colors and 
-#' the \code{\link{ac}} or \code{\link{usecol}} functions for creating 
+#' the \code{\link{ac}} or \code{\link[unikn]{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
 #' @return 
@@ -532,11 +532,11 @@ fu_3_2023 <- fu_blues
 #'
 #' @seealso 
 #' \code{\link{fu_1}} to \code{\link{fu_4}} for new colors of the FU Berlin (updated in 2024);
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

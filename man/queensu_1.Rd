@@ -43,11 +43,11 @@ unikn::seecol(queensu_1, main = "Primary colours of Queen's University") # view 
 }
 \seealso{
 \code{\link{queensu_2}} for the secondary colours of Queen's University;
-\code{\link{seecol}} for viewing and comparing colour palettes;
-\code{\link{usecol}} for using colour palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+\code{\link[unikn]{usecol}} for using colour palettes;
+\code{\link[unikn]{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new colour palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link[unikn]{grepal}} for finding named colours.
 
 Other Canadian university color palettes: 
 \code{\link{carleton}},

@@ -43,11 +43,11 @@ unikn::seecol(oxford_blog, main = "Uni Oxford custom blog colours") # view colou
 \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 \code{\link{oxford_error}} for the error colours of University of Oxford;
 \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-\code{\link{seecol}} for viewing and comparing colour palettes;
-\code{\link{usecol}} for using colour palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+\code{\link[unikn]{usecol}} for using colour palettes;
+\code{\link[unikn]{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new colour palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link[unikn]{grepal}} for finding named colours.
 
 Other English university color palettes: 
 \code{\link{birmingham}},

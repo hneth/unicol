@@ -31,7 +31,7 @@ The named colors of \code{uni_ulm_2} correspond to the following departments:
 \item \code{orange}: Naturwissenschaften 
 }
 
-See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_ulm_2
@@ -45,11 +45,11 @@ uni_ulm_5 <- unikn::usecol(c(uni_ulm_2["rot"], "white"), n = 6)[1:5]
 }
 \seealso{
 \code{\link{uni_ulm_1}} for the main colors of the University of Ulm;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

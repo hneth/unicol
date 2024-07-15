@@ -47,11 +47,11 @@
 #' @seealso
 #' \code{\link{dartmouth_2}} for secondary colors of Dartmouth College; 
 #' \code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -100,11 +100,11 @@ dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' @seealso 
 #' \code{\link{dartmouth_1}} for primary color of Dartmouth College;
 #' \code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -156,11 +156,11 @@ dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000",
 #' @seealso 
 #' \code{\link{dartmouth_1}} for primary color of Dartmouth College; 
 #' \code{\link{dartmouth_3}} for tertiary colors of Dartmouth College; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 

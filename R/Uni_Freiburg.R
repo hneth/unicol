@@ -136,7 +136,7 @@ names(frbg_rosa) <- "rosa"
 #' \code{Pantone 7687C}, \code{RGB 52/74/154}, \code{HEX #344a9a}, or \code{CMYK 90/75/0/0}.
 #' 
 #' See \code{\link{uni_freiburg_1}} for a primary palette with a \code{Blau} color gradient
-#' and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
+#' and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -160,11 +160,11 @@ names(frbg_rosa) <- "rosa"
 #' @seealso 
 #' \code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg;
 #' \code{\link{uni_freiburg_2}} for the secondary colors of the University of Freiburg;
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -211,7 +211,7 @@ frbg_sand_name <- c("sand")
 #' The gradient of \code{blau} colors is defined on \url{https://cd.uni-freiburg.de/farben/}. 
 #' 
 #' See \code{\link{uni_freiburg_0}} for the basic colors (without the \code{Blau} color gradient) 
-#' and the \code{\link{ac}} and \code{\link{usecol}} functions for creating alternative color gradients. 
+#' and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating alternative color gradients. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -238,11 +238,11 @@ frbg_sand_name <- c("sand")
 #' @seealso 
 #' \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
 #' \code{\link{uni_freiburg_2}} for the secondary colors of the University of Freiburg;
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -268,7 +268,7 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' as in \code{usecol(c(uni_freiburg_0[2], "white"), n = 6)[1:5]}. 
 #' 
 #' See \code{\link{uni_freiburg_0}} for the basic colors without the \code{Blau} color gradient
-#' and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
+#' and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -295,11 +295,11 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' @seealso 
 #' \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
 #' \code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg; 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -347,11 +347,11 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -392,11 +392,11 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
 #' \code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -437,11 +437,11 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
 #' \code{\link{uni_freiburg_info}} for the info colors of the University of Freiburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -483,11 +483,11 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 #'
 #' @seealso 
 #' \code{\link{uni_freiburg_br}} for the default colors of the University of Freiburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

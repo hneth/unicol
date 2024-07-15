@@ -71,11 +71,11 @@
 #'
 #' @seealso
 #' \code{\link{berkeley_2}} for secondary colors of Berkeley, University of California; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -148,11 +148,11 @@ berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
 #'
 #' @seealso
 #' \code{\link{berkeley_1}} for primary colors of Berkeley, University of California; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

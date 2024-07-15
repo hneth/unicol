@@ -31,7 +31,7 @@ The color \code{sand} is alternatively defined as \code{HEX #f6f1e3}, \code{RGB 
 The gradient of \code{blau} colors is defined on \url{https://cd.uni-freiburg.de/farben/}. 
 
 See \code{\link{uni_freiburg_0}} for the basic colors (without the \code{Blau} color gradient) 
-and the \code{\link{ac}} and \code{\link{usecol}} functions for creating alternative color gradients.
+and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating alternative color gradients.
 }
 \examples{
 uni_freiburg_1
@@ -46,11 +46,11 @@ sand_gradient <- unikn::usecol(c(uni_freiburg_1["sand"], "white"), n = 3)[1:3]
 \seealso{
 \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
 \code{\link{uni_freiburg_2}} for the secondary colors of the University of Freiburg;
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

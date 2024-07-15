@@ -86,11 +86,11 @@ nam_ETH <- c("ETH blue", "ETH petrol", "ETH green", "ETH bronze", "ETH red", "ET
 #'
 #' @seealso 
 #' \code{\link{eth_2}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -165,11 +165,11 @@ nam_ETH_light <- paste0("ETH ", c("blue 10%", "petrol 10%", "green 10%", "bronze
 #'
 #' @seealso 
 #' \code{\link{eth_1}} and \code{\link{eth_3}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -269,11 +269,11 @@ nam_eth_grey <- c("black", paste0("ETH ", c("black light",
 #'
 #' @seealso 
 #' \code{\link{eth_1}} and \code{\link{eth_2}} for alternative colors of the ETH Zurich;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

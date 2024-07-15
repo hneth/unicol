@@ -59,11 +59,11 @@
 #' \code{\link{concordia_2}} for secondary colours of Concordia University;
 #' \code{\link{concordia_3}} for background tints of Concordia University;
 #' \code{\link{concordia_4}} for neutral colours of Concordia University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -111,11 +111,11 @@ concordia_1 <- unikn::newpal(col = c("#912338", "#db0272", "#da3a16", "#573996",
 #' \code{\link{concordia_1}} for primary colours of Concordia University;
 #' \code{\link{concordia_3}} for background tints of Concordia University;
 #' \code{\link{concordia_4}} for neutral colours of Concordia University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -170,11 +170,11 @@ concordia_2 <- unikn::newpal(col = c("#e5a712", "#cbb576", "#00adef", "#8cc63e")
 #' \code{\link{concordia_1}} for primary colours of Concordia University;
 #' \code{\link{concordia_2}} for secondary colours of Concordia University;
 #' \code{\link{concordia_4}} for neutral colours of Concordia University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -224,11 +224,11 @@ concordia_3 <- unikn::newpal(col = c("#E9D3D7", "#FACDE3", "#f9cdc3", "#dcd6e8",
 #' \code{\link{concordia_1}} for primary colours of Concordia University;
 #' \code{\link{concordia_2}} for secondary colours of Concordia University;
 #' \code{\link{concordia_3}} for background tints of Concordia University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

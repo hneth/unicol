@@ -63,11 +63,11 @@
 #' \code{\link{mcgill_muted}} for the muted colours of McGill;
 #' \code{\link{mcgill_darks}} for the dark colours of McGill;
 #' \code{\link{mcgill_grey}} for the grey of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -126,11 +126,11 @@ mcgill_red <- unikn::newpal(col = c("#ed1b2f"),
 #' \code{\link{mcgill_muted}} for the muted colours of McGill;
 #' \code{\link{mcgill_darks}} for the dark colours of McGill;
 #' \code{\link{mcgill_grey}} for the grey of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -190,11 +190,11 @@ mcgill_pastels <- unikn::newpal(col = c("#FFD794", "#FFF193", "#B5E1E1", "#C8EAF
 #' \code{\link{mcgill_muted}} for the muted colours of McGill;
 #' \code{\link{mcgill_darks}} for the dark colours of McGill;
 #' \code{\link{mcgill_grey}} for the grey of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -253,11 +253,11 @@ mcgill_brights <- unikn::newpal(col = c("#F7941D", "#FFD400", "#27BDBE", "#44C8F
 #' \code{\link{mcgill_brights}} for the bright colours of McGill;
 #' \code{\link{mcgill_darks}} for the dark colours of McGill;
 #' \code{\link{mcgill_grey}} for the grey of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -317,11 +317,11 @@ mcgill_muted <- unikn::newpal(col = c("#D3674A", "#E8B92E", "#087F8C", "#0096C9"
 #' \code{\link{mcgill_brights}} for the bright colours of McGill;
 #' \code{\link{mcgill_muted}} for the muted colours of McGill;
 #' \code{\link{mcgill_grey}} for the grey of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -375,11 +375,11 @@ mcgill_darks <- unikn::newpal(col = c("#AA4B31", "#B28C35", "#0A6266", "#024F6D"
 #' \code{\link{mcgill_brights}} for the bright colours of McGill;
 #' \code{\link{mcgill_muted}} for the muted colours of McGill;
 #' \code{\link{mcgill_darks}} for the dark colours of McGill;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 

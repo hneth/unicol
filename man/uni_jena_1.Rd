@@ -29,7 +29,7 @@ The main color \code{dunkelblau} is alternatively defined as
 The auxiliary color \code{gold} is alternatively defined as 
 \code{RGB 174/154/99}, \code{CMYK 20/25/60/25}, or \code{HKS 98 K}. 
 
-See the \code{\link{ac}} and \code{\link{usecol}} functions 
+See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients. 
 
 The full name of the \href{https://www.uni-jena.de}{University of Jena} 
@@ -47,11 +47,11 @@ unikn::seecol(jena_mix, main = "A gradient of the University of Jena")
 }
 \seealso{
 \code{\link{uni_jena_2}} for departmental colors of the University of Jena;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

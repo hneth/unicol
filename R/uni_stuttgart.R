@@ -131,11 +131,11 @@ col_hellBlau <- "#00BEFF"
 #'
 #' @seealso
 #' \code{\link{uni_stuttgart_print}} for Stuttgart's primary colors with alternative printing colors for more contrast;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -191,11 +191,11 @@ uni_stuttgart_1 <- unikn::newpal(col = c(col_weiss, col_anthrazit, col_mittelBla
 #'
 #' @seealso
 #' \code{\link{uni_stuttgart_1}} for Stuttgart's primary colors without printing colors;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

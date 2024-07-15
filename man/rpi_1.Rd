@@ -35,11 +35,11 @@ unikn::demopal(rpi_1, type = 3, main = "Primary colors of RPI")
 \seealso{
 \code{\link{rpi_2}} for secondary colors of RPI; 
 \code{\link{rpi_3}} for tint colors of RPI; 
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

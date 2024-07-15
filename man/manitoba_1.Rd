@@ -38,11 +38,11 @@ unikn::seecol(manitoba_1,
 }
 \seealso{
 \code{\link{manitoba_2}} for the extended colors of the University of Manitoba; 
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Canadian university color palettes: 
 \code{\link{carleton}},

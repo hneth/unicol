@@ -41,11 +41,11 @@ unikn::seecol(groningen_2, main = "Secondary colors of the University of Groning
 }
 \seealso{
 \code{\link{groningen_1}} for RUG's primary color palette;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Dutch university color palettes: 
 \code{\link{groningen_1}}

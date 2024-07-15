@@ -89,7 +89,7 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 #' and \code{RAL 7030}. 
 #' 
 #' Colors shades of 75%, 50%, and 25% may be used in diagrams or visualizations. 
-#' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients.
 #' 
 #' @return 
@@ -115,11 +115,11 @@ ub_grau_4 <- unikn::usecol(c(ub_grau, "white"), n = 5)[1:4]
 #'
 #' @seealso 
 #' \code{\link{uni_bonn_2}} for gradient colors of the University of Bonn;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -139,7 +139,7 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #' of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany. 
 #' 
 #' See \code{\link{uni_bonn_1}} for the definitions of the three primary colors 
-#' and the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients.
 #' 
 #' @return 
@@ -161,11 +161,11 @@ uni_bonn_1 <- unikn::newpal(col = c(ub_blau, ub_gelb, ub_grau),
 #'
 #' @seealso 
 #' \code{\link{uni_bonn_1}} for primary colors of the University of Bonn;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

@@ -147,11 +147,11 @@ names_aberystwyth_2 <- c("Teal", "Grey", "Light blue",
 #'
 #' @seealso
 #' \code{\link{aberystwyth_2}} for secondary colours of Aberystwyth University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -201,11 +201,11 @@ aberystwyth_1 <- unikn::newpal(col = color_aberystwyth_1,
 #'
 #' @seealso
 #' \code{\link{aberystwyth_1}} for primary colours of Aberystwyth University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

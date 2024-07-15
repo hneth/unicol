@@ -120,11 +120,11 @@ names_trinity_2 <- c("PMS 312 100", "PMS 312 75", "PMS 312 50", "PMS 312 25", "P
 #'
 #' @seealso
 #' \code{\link{trinity_2}} for secondary colors of Trinity College Dublin; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -179,11 +179,11 @@ trinity_1 <- unikn::newpal(col = color_trinity_1,
 #'
 #' @seealso 
 #' \code{\link{trinity_1}} for primary colors of Trinity College Dublin; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 

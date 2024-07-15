@@ -26,7 +26,7 @@ up to 2022.
 The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
 Other approximations include CMYK 100/60/0/20, RGB 0/51/102 (reduced web scale), and RAL 270 3040.
 
-See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 hu_2_2022
@@ -36,11 +36,11 @@ unikn::demopal(hu_2_2022, type = 3, main = "Colors of Humboldt University Berlin
 }
 \seealso{
 \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022);  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

@@ -35,11 +35,11 @@ unikn::demopal(princeton_0, type = 1, main = "Colors of Princeton University")
 \seealso{
 \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
 \code{\link{princeton_2}} for Princeton University colors (on black backgrounds); 
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

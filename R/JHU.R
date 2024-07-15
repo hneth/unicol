@@ -57,11 +57,11 @@
 #' \code{\link{jhu_2}} for secondary, accent colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_3_accent}} for accent, accent colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_4_gray}} for grey scale, accent colors of JHU, Johns Hopkins University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -110,11 +110,11 @@ jhu_0 <- unikn::newpal(col = c("#002D72", "#ffffff", "#31261D"),
 #' \code{\link{jhu_2}} for secondary, accent colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_3_accent}} for accent, accent colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_4_gray}} for grey scale, accent colors of JHU, Johns Hopkins University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -166,11 +166,11 @@ jhu_1 <- unikn::newpal(col = c("#002D72", "#68ACE5"),
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_3_accent}} for accent colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_4_gray}} for grey scale colors of JHU, Johns Hopkins University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -231,11 +231,11 @@ jhu_2 <- unikn::newpal(col = c("#CF4520", "#76232F", "#A15A95", "#009B77", "#007
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_2}} for secondary colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_4_gray}} for gray scale colors of JHU, Johns Hopkins University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -288,11 +288,11 @@ jhu_3_accent <- unikn::newpal(col = c("#CBA052", "#FF9E1B", "#FF6900", "#9E5330"
 #' \code{\link{jhu_1}} for primary colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_2}} for secondary colors of JHU, Johns Hopkins University;
 #' \code{\link{jhu_3_accent}} for accent colors of JHU, Johns Hopkins University;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

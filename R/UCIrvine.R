@@ -59,11 +59,11 @@
 #' \code{\link{uci_2}} for secondary colors of UC Irvine;
 #' \code{\link{uci_3}} for tertiary colors of UC Irvine;
 #' \code{\link{uci_4}} for neutral colors of the UC Irvine;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -119,11 +119,11 @@ uci_1 <- unikn::newpal(col = c("#0064a4", "#ffd200"),
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
 #' \code{\link{uci_3}} for tertiary colors of UC Irvine;
 #' \code{\link{uci_4}} for neutral colors of the UC Irvine; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -177,11 +177,11 @@ uci_2 <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f78d2d",
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
 #' \code{\link{uci_2}} for secondary colors of UC Irvine;
 #' \code{\link{uci_4}} for neutral colors of the UC Irvine;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 
@@ -231,11 +231,11 @@ uci_3 <- unikn::newpal(col = c("#b71234","#7c109a","#00b0ca","#7ab800","#fecb00"
 #' \code{\link{uci_1}} for primary colors of UC Irvine;
 #' \code{\link{uci_2}} for secondary colors of UC Irvine;
 #' \code{\link{uci_3}} for tertiary colors of UC Irvine;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #' 
 #' @export
 

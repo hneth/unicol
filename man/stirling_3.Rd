@@ -43,11 +43,11 @@ unikn::seecol(stirling_3, main = "Tertiary colours of the University of Stirling
 \seealso{
 \code{\link{stirling_1}} for primary colours of the University of Stirling; 
 \code{\link{stirling_2}} for secondary colours of the University of Stirling; 
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Scottish university color palettes: 
 \code{\link{dundee_background}},

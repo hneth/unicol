@@ -35,11 +35,11 @@ unikn::seecol(stockholm_1,
 }
 \seealso{
 \code{\link{stockholm_2}} for additional colours of the University of Stockholm;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Swedish university color palettes: 
 \code{\link{gothenburg}},

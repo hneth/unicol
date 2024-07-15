@@ -34,11 +34,11 @@ unikn::seecol(pitt_2, main = "Pitt's legacy colors") # view color palette
 }
 \seealso{
 \code{\link{pitt_1}} for the University of Pittsburgh's contemporary colors;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

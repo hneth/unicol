@@ -330,11 +330,11 @@ name_socialmedia_11 <- "instagram"
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -395,11 +395,11 @@ oxford_brand <- unikn::newpal(col = c(col_brand_1, col_brand_2, col_brand_3, col
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -458,11 +458,11 @@ oxford_general <- unikn::newpal(col = c(col_general_1, col_general_2, col_genera
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -516,11 +516,11 @@ oxford_link <- unikn::newpal(col = c(col_link_1, col_link_2, col_link_3, col_lin
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -575,11 +575,11 @@ oxford_shades <- unikn::newpal(col = c(col_shades_1, col_shades_2, col_shades_3,
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -640,11 +640,11 @@ oxford_blog <- unikn::newpal(col = c(col_blog_1, col_blog_2, col_blog_3, col_blo
 #' \code{\link{oxford_blog}} for the blog colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -699,11 +699,11 @@ oxford_graduate <- unikn::newpal(col = c(col_graduate_1, col_graduate_2, col_gra
 #' \code{\link{oxford_blog}} for the blog colours of University of Oxford;
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_socialmedia}} for the social media colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -760,11 +760,11 @@ oxford_error <- unikn::newpal(col = c(col_error_1, col_error_2, col_error_3, col
 #' \code{\link{oxford_blog}} for the blog colours of University of Oxford;
 #' \code{\link{oxford_graduate}} for the graduate colours of University of Oxford;
 #' \code{\link{oxford_error}} for the error colours of University of Oxford;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 

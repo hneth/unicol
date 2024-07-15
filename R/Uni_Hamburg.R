@@ -88,7 +88,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' are used for text.
 #' 
 #' Colors shades may be used in diagrams or visualizations. 
-#' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients.
 #' 
 #' @return 
@@ -116,11 +116,11 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #'
 #' @seealso 
 #' \code{\link{uni_hamburg_2}} for visualization colors of the University of Hamburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -167,11 +167,11 @@ uni_hamburg_1 <- unikn::newpal(col = c(hh_rot, hh_blau, "black", hh_steingrau),
 #'
 #' @seealso 
 #' \code{\link{uni_hamburg_1}} for primary colors of the University of Hamburg;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

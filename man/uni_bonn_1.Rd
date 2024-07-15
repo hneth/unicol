@@ -36,7 +36,7 @@ and approximated by \code{Pantone 415}, \code{RGB 144/144/133}, \code{HEX #90908
 and \code{RAL 7030}. 
 
 Colors shades of 75%, 50%, and 25% may be used in diagrams or visualizations. 
-See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{
@@ -51,11 +51,11 @@ unikn::demopal(uni_bonn_blau_gelb, type = "polygon", seed = 9, main = "Color gra
 }
 \seealso{
 \code{\link{uni_bonn_2}} for gradient colors of the University of Bonn;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

@@ -43,11 +43,11 @@ unikn::seecol(cmu_1, col_bg = "grey95",
 \seealso{
 \code{\link{cmu_2}} for secondary colors of Carnegie Mellon University; 
 \code{\link{cmu_3}} for campus colors of Carnegie Mellon University; 
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

@@ -61,11 +61,11 @@
 #' @seealso
 #' \code{\link{ucsd_2}} for accent colors of UC San Diego;
 #' \code{\link{ucsd_3}} for neutral colors of UC San Diego;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -121,11 +121,11 @@ ucsd_1 <- unikn::newpal(col = c("#182B49", "#00629B", "#FFCD00", "#C69214"),
 #' @seealso
 #' \code{\link{ucsd_1}} for core colors of UC San Diego;
 #' \code{\link{ucsd_3}} for neutral colors of UC San Diego;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -178,11 +178,11 @@ ucsd_2 <- unikn::newpal(col = c("#00C6D7", "#D462AD", "#F5F0E6", "#F3E500", "#FC
 #' @seealso
 #' \code{\link{ucsd_1}} for core colors of UC San Diego;
 #' \code{\link{ucsd_2}} for accent colors of UC San Diego;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

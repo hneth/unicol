@@ -53,7 +53,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' }
 #' 
 #' At \code{mpg[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
-#' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients. 
 #' 
 #' @return 
@@ -78,11 +78,11 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' @family Research society color palettes
 #'
 #' @seealso 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

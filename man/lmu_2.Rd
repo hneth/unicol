@@ -40,11 +40,11 @@ unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors
 \seealso{
 \code{\link{lmu_1}} for primary colors of the LMU Munich; 
 \code{\link{lmu_3}} for accent colors of the LMU Munich;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

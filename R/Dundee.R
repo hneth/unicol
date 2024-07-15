@@ -62,11 +62,11 @@
 #' \code{\link{dundee_highlight}} for the highlight colours of University of Dundee;
 #' \code{\link{dundee_block}} for the block colours of University of Dundee;
 #' \code{\link{dundee_background}} for the background colour of University of Dundee;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -118,11 +118,11 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #' \code{\link{dundee_core}} for the core colour of University of Dundee;
 #' \code{\link{dundee_block}} for the block colours of University of Dundee;
 #' \code{\link{dundee_background}} for the background colour of University of Dundee;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -180,11 +180,11 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #' \code{\link{dundee_core}} for the core colour of University of Dundee;
 #' \code{\link{dundee_highlight}} for the highlight colours of University of Dundee;
 #' \code{\link{dundee_background}} for the background colour of University of Dundee;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -239,11 +239,11 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #' \code{\link{dundee_core}} for the core colours of the University of Dundee;
 #' \code{\link{dundee_highlight}} for the highlight colours of the University of Dundee;
 #' \code{\link{dundee_block}} for the block colours of the University of Dundee; 
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 

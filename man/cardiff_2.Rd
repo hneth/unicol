@@ -31,7 +31,7 @@ The rule is open on colour choice but the chosen palette needs to
 contain 3 tints of the same colour, to allow for backgrounds, 
 button overstates etc.
 
-See the \code{\link{shades_of}} or \code{\link{usecol}} functions 
+See the \code{\link[unikn]{shades_of}} or \code{\link[unikn]{usecol}} functions 
 of \strong{unikn} for creating colour gradients.
 }
 \examples{
@@ -41,11 +41,11 @@ unikn::seecol(cardiff_2, main = "Secondary colours of Cardiff University (3 tint
 }
 \seealso{
 \code{\link{cardiff_1}} for primary colours of Cardiff University;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Welsh university color palettes: 
 \code{\link{aberystwyth_1}},

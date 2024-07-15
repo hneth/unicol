@@ -72,11 +72,11 @@
 #' @family Scottish university color palettes
 #'
 #' @seealso
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 

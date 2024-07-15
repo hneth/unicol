@@ -172,11 +172,11 @@ he_nams_3 <- paste("add",
 #' @seealso
 #' \code{\link{helsinki_2}} for grayscale colors of the University of Helsinki;
 #' \code{\link{helsinki_3}} for departmental colors of the University of Helsinki;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -221,11 +221,11 @@ helsinki_1 <- unikn::newpal(col = he_cols_1,
 #' @seealso
 #' \code{\link{helsinki_1}} for main brand colors of the University of Helsinki;
 #' \code{\link{helsinki_3}} for departmental colors of the University of Helsinki;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -271,11 +271,11 @@ helsinki_2 <- unikn::newpal(col = he_cols_2,
 #' @seealso
 #' \code{\link{helsinki_1}} for main brand colors of the University of Helsinki;
 #' \code{\link{helsinki_2}} for grayscale colors of the University of Helsinki;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

@@ -50,11 +50,11 @@ unikn::seecol(manchester_uni_2, main = "Accent colors of Manchester University, 
 \seealso{
 \code{\link{manchester_uni_1}} for primary colors of Manchester University, IN, USA;
 \code{\link{uni_manchester}} for colours of the University of Manchester, England/UK;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

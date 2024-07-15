@@ -31,7 +31,7 @@ the primary color \code{uni_freiburg_0[2]} with \code{"white"},
 as in \code{usecol(c(uni_freiburg_0[2], "white"), n = 6)[1:5]}. 
 
 See \code{\link{uni_freiburg_0}} for the basic colors without the \code{Blau} color gradient
-and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_freiburg_2
@@ -46,11 +46,11 @@ col_transparent <- unikn::ac(col = uni_freiburg_2[1], alpha = c(1, .80, .60, .40
 \seealso{
 \code{\link{uni_freiburg_0}} for the basic colors of the University of Freiburg;
 \code{\link{uni_freiburg_1}} for a primary palette of the University of Freiburg; 
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

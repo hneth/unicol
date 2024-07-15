@@ -57,11 +57,11 @@ orange_black <- "#F58025"  # orange on black background
 #' @seealso 
 #' \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
 #' \code{\link{princeton_2}} for Princeton University colors (on black backgrounds); 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -106,11 +106,11 @@ princeton_0 <- unikn::newpal(col = c(orange_basic, "black"),
 #' @seealso 
 #' \code{\link{princeton_0}} for basic Princeton University colors; 
 #' \code{\link{princeton_2}} for Princeton University colors (on black backgrounds); 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -157,11 +157,11 @@ princeton_1 <- unikn::newpal(col = c(orange_white, "white", "black"),
 #' @seealso 
 #' \code{\link{princeton_0}} for basic Princeton University colors; 
 #' \code{\link{princeton_1}} for Princeton University colors (on white backgrounds); 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

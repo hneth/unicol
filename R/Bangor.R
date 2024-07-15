@@ -166,11 +166,11 @@ bangor_4_names <- c("Slate grey", "Sea green", "Web orange", "Web yellow 2")
 #' \code{\link{bangor_2}} for secondary colours of Bangor;
 #' \code{\link{bangor_3}} for tertiary colours of Bangor;
 #' \code{\link{bangor_4}} for accessible web colours of Bangor;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -228,11 +228,11 @@ bangor_1 <- unikn::newpal(col = bangor_1_cols,
 #' \code{\link{bangor_1}} for primary corporate colours of Bangor;
 #' \code{\link{bangor_3}} for tertiary colours of Bangor;
 #' \code{\link{bangor_4}} for accessible web colours of Bangor;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -292,11 +292,11 @@ bangor_2 <- unikn::newpal(col = bangor_2_cols,
 #' \code{\link{bangor_1}} for primary corporate colours of Bangor;
 #' \code{\link{bangor_2}} for secondary colours of Bangor;
 #' \code{\link{bangor_4}} for accessible web colours of Bangor;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -350,11 +350,11 @@ bangor_3 <- unikn::newpal(col = bangor_3_cols,
 #' \code{\link{bangor_1}} for primary corporate colours of Bangor;
 #' \code{\link{bangor_2}} for secondary colours of Bangor;
 #' \code{\link{bangor_3}} for tertiary colours of Bangor;
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

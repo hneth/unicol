@@ -69,7 +69,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' It is alternatively defined as 
 #' \code{RGB 169/162/141}, \code{HEX #A9A28D}, \code{Pantone 7536 C}, or \code{CMYK 0/0/28/38}. 
 #'
-#' See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
+#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #'  
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -94,11 +94,11 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #'
 #' @seealso 
 #' \code{\link{uni_ulm_2}} for the departmental accent colors of the University of Ulm;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -125,7 +125,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #' \item \code{orange}: Naturwissenschaften 
 #' }
 #' 
-#' See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
+#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #'  
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -150,11 +150,11 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #'
 #' @seealso 
 #' \code{\link{uni_ulm_1}} for the main colors of the University of Ulm;  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

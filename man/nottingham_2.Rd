@@ -57,11 +57,11 @@ unikn::seecol(nottingham_2[main_cols], main = "Main supporting colors of UoN")
 \seealso{
 \code{\link{nottingham_1}} for primary colours of the University of Nottingham;
 \code{\link{nottingham_3}} for neutral colours of the University of Nottingham;
-\code{\link{seecol}} for viewing and comparing colour palettes;
-\code{\link{usecol}} for using colour palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+\code{\link[unikn]{usecol}} for using colour palettes;
+\code{\link[unikn]{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new colour palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link[unikn]{grepal}} for finding named colours.
 
 Other UK university color palettes: 
 \code{\link{nottingham_1}},

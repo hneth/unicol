@@ -38,11 +38,11 @@ unikn::seecol(vanderbilt_3, main = "Vanderbilt University 3 (saturated)") # view
 \seealso{
 \code{\link{vanderbilt_1}} for core colors of Vanderbilt University;
 \code{\link{vanderbilt_2}} for neutral colors of Vanderbilt University;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
 \code{\link{asu_1}},

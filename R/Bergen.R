@@ -148,11 +148,11 @@ bergen_nams_4 <- c("Text 1", "Text 2", "Text 3",
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
 #' \code{\link{bergen_4}} for text colours of the University of Bergen; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -196,11 +196,11 @@ bergen_1 <- unikn::newpal(col = bergen_cols_1,
 #' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
 #' \code{\link{bergen_4}} for text colours of the University of Bergen; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -251,11 +251,11 @@ bergen_2 <- bergen_2_sorted  # use sorted palette from above
 #' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 #' \code{\link{bergen_4}} for text colours of the University of Bergen; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 
@@ -305,11 +305,11 @@ bergen_3 <- unikn::newpal(col = bergen_cols_3,
 #' \code{\link{bergen_1}} for main colours of the University of Bergen;
 #' \code{\link{bergen_2}} for additional colours of the University of Bergen; 
 #' \code{\link{bergen_3}} for support colours of the University of Bergen; 
-#' \code{\link{seecol}} for viewing and comparing color palettes;
-#' \code{\link{usecol}} for using color palettes;
-#' \code{\link{simcol}} for finding similar colors;
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+#' \code{\link[unikn]{usecol}} for using color palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colors;
 #' \code{\link{newpal}} for defining new color palettes;
-#' \code{\link{grepal}} for finding named colors.
+#' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
 

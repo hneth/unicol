@@ -37,11 +37,11 @@ unikn::seecol(ucalgary_2, main = "Secondary colours UCalgary") # view colour pal
 \code{\link{ucalgary_1}} for the primary colours of the University of Calgary;
 \code{\link{ucalgary_warmgreys}} for the warm grey colours of the University of Calgary;
 \code{\link{ucalgary_accent}} for the accent colours of the University of Calgary;
-\code{\link{seecol}} for viewing and comparing colour palettes;
-\code{\link{usecol}} for using colour palettes;
-\code{\link{simcol}} for finding similar colours;
+\code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+\code{\link[unikn]{usecol}} for using colour palettes;
+\code{\link[unikn]{simcol}} for finding similar colours;
 \code{\link{newpal}} for defining new colour palettes;
-\code{\link{grepal}} for finding named colours.
+\code{\link[unikn]{grepal}} for finding named colours.
 
 Other Canadian university color palettes: 
 \code{\link{carleton}},

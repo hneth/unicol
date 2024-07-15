@@ -47,11 +47,11 @@ unikn::demopal(hu_1_digital, type = 1,
 \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

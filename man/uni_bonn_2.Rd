@@ -24,7 +24,7 @@ of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany.
 }
 \details{
 See \code{\link{uni_bonn_1}} for the definitions of the three primary colors 
-and the \code{\link{ac}} and \code{\link{usecol}} functions 
+and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{
@@ -35,11 +35,11 @@ unikn::demopal(uni_bonn_2, type = 3, main = "Color shades of the University of B
 }
 \seealso{
 \code{\link{uni_bonn_1}} for primary colors of the University of Bonn;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

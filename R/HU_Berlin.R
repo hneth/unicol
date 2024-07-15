@@ -263,11 +263,11 @@ HU_5 <- rgb(189, 202, 211, names = "blaugrau", maxColorValue = 255)
 #' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -320,11 +320,11 @@ hu_1 <- unikn::newpal(col = c("#00376c", "#0a0a19"),
 #' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin;
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -372,11 +372,11 @@ hu_1_digital <- unikn::newpal(col = c("#0000ff", "#000000"),
 #' \code{\link{hu_3_accent}} for possible accent colors of the HU Berlin; 
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -430,11 +430,11 @@ hu_2 <- unikn::newpal(col = c("#004c90", "#5b89b0", "#d7dde1",
 #' \code{\link{hu_2}} for secondary colors of the HU Berlin; 
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022); 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -458,7 +458,7 @@ hu_3_accent <- unikn::newpal(col = c("#e5007c", "#e30031", "#e74306",
 #' The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
 #' Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
 #' 
-#' See the \code{\link{ac}} and \code{\link{usecol}} functions 
+#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
 #' of the \strong{unikn} package for creating color gradients.
 #' 
 #' @return 
@@ -480,11 +480,11 @@ hu_3_accent <- unikn::newpal(col = c("#e5007c", "#e30031", "#e74306",
 #'
 #' @seealso 
 #' \code{\link{hu_2_2022}} for secondary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 
@@ -507,7 +507,7 @@ hu_1_2022 <- unikn::newpal(col = c(HU_0, "white", "black"),
 #' The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
 #' Other approximations include CMYK 100/60/0/20, RGB 0/51/102 (reduced web scale), and RAL 270 3040.
 #' 
-#' See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -528,11 +528,11 @@ hu_1_2022 <- unikn::newpal(col = c(HU_0, "white", "black"),
 #'
 #' @seealso 
 #' \code{\link{hu_1_2022}} for primary colors of the HU Berlin (2022);  
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+#' \code{\link[unikn]{usecol}} for using color palettes; 
+#' \code{\link[unikn]{simcol}} for finding similar colors; 
 #' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
+#' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
 

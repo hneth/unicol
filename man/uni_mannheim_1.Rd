@@ -27,7 +27,7 @@ The primary color \code{UM blau} is alternatively defined as
 \code{RGB 0/48/86}, \code{HEX #003056}, \code{Pantone 654}, \code{CMYK 100/60/10/60}, or \code{RAL 5011}. 
 
 The six lighter shades were created by mixing the primary \code{UM blau} with \code{"white"}.  
-See the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients.
+See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_mannheim_1
@@ -38,11 +38,11 @@ unikn::demopal(uni_mannheim_1, type = 1,
 }
 \seealso{
 \code{\link{uni_mannheim_2}} provides the primary and accent colors of the University of Mannheim;  
-\code{\link{seecol}} for viewing and comparing color palettes; 
-\code{\link{usecol}} for using color palettes; 
-\code{\link{simcol}} for finding similar colors; 
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
+\code{\link[unikn]{usecol}} for using color palettes; 
+\code{\link[unikn]{simcol}} for finding similar colors; 
 \code{\link{newpal}} for defining new color palettes; 
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 
 \code{\link{fu_0_2023}},

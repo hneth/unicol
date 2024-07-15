@@ -52,11 +52,11 @@
 #'
 #' @seealso
 #' \code{\link{lancaster_2}} for secondary colours of Lancaster University;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 
@@ -127,11 +127,11 @@ lancaster_1 <- unikn::newpal(col = c("#b5121b", "#bec0c2", "#555656"),
 #'
 #' @seealso
 #' \code{\link{lancaster_1}} for primary colours of Lancaster University;
-#' \code{\link{seecol}} for viewing and comparing colour palettes;
-#' \code{\link{usecol}} for using colour palettes;
-#' \code{\link{simcol}} for finding similar colours;
+#' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
+#' \code{\link[unikn]{usecol}} for using colour palettes;
+#' \code{\link[unikn]{simcol}} for finding similar colours;
 #' \code{\link{newpal}} for defining new colour palettes;
-#' \code{\link{grepal}} for finding named colours.
+#' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
 

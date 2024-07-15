@@ -40,11 +40,11 @@ unikn::seecol(anu_1, col_bg = "grey95",
 }
 \seealso{
 \code{\link{anu_2}} for font colours of Australian National University;
-\code{\link{seecol}} for viewing and comparing color palettes;
-\code{\link{usecol}} for using color palettes;
-\code{\link{simcol}} for finding similar colors;
+\code{\link[unikn]{seecol}} for viewing and comparing color palettes;
+\code{\link[unikn]{usecol}} for using color palettes;
+\code{\link[unikn]{simcol}} for finding similar colors;
 \code{\link{newpal}} for defining new color palettes;
-\code{\link{grepal}} for finding named colors.
+\code{\link[unikn]{grepal}} for finding named colors.
 
 Other Australian university color palettes: 
 \code{\link{anu_2}},
