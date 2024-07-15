@@ -31,7 +31,7 @@ the primary color \code{uni_freiburg_0[2]} with \code{"white"},
 as in \code{usecol(c(uni_freiburg_0[2], "white"), n = 6)[1:5]}. 
 
 See \code{\link{uni_freiburg_0}} for the basic colors without the \code{Blau} color gradient
-and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_freiburg_2

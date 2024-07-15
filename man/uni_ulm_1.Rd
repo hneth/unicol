@@ -32,7 +32,7 @@ The auxiliary color \code{akzent} is used for decorative elements.
 It is alternatively defined as 
 \code{RGB 169/162/141}, \code{HEX #A9A28D}, \code{Pantone 7536 C}, or \code{CMYK 0/0/28/38}. 
 
-See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_ulm_1

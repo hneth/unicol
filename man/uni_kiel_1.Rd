@@ -30,7 +30,7 @@ It is alternatively defined as \code{RGB 155/10/125}, \code{Hex #9b0a7d},
 The palette \code{uni_kiel_1} enframes this color as its central element 
 in \code{"black"} and \code{"white"} to easily enable mixing it with 
 shades of \code{"grey"}. 
-See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients. 
 
 The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 

@@ -29,7 +29,7 @@ The two primary colors are at the extreme positions of \code{mpg}:
 }
 
 At \code{mpg[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
-See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{

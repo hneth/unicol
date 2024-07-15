@@ -88,7 +88,7 @@ steingrau_40pc <- rgb(178, 186, 189, maxColorValue = 255)
 #' are used for text.
 #' 
 #' Colors shades may be used in diagrams or visualizations. 
-#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+#' See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients.
 #' 
 #' @return 

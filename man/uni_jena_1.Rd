@@ -29,7 +29,7 @@ The main color \code{dunkelblau} is alternatively defined as
 The auxiliary color \code{gold} is alternatively defined as 
 \code{RGB 174/154/99}, \code{CMYK 20/25/60/25}, or \code{HKS 98 K}. 
 
-See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients. 
 
 The full name of the \href{https://www.uni-jena.de}{University of Jena} 

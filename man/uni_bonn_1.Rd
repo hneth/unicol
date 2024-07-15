@@ -36,7 +36,7 @@ and approximated by \code{Pantone 415}, \code{RGB 144/144/133}, \code{HEX #90908
 and \code{RAL 7030}. 
 
 Colors shades of 75%, 50%, and 25% may be used in diagrams or visualizations. 
-See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{

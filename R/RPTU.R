@@ -172,7 +172,7 @@ rptu_weiss <- "white"
 #' 
 #' The two colors of a pair may be combined with each other. 
 #' When using only one color pair, shades of 10% may be used in color gradients. 
-#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
+#' See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #'  
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

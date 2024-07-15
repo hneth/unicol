@@ -26,7 +26,7 @@ up to 2022.
 The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
 Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
 
-See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 of the \strong{unikn} package for creating color gradients.
 }
 \examples{

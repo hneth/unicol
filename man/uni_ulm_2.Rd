@@ -31,7 +31,7 @@ The named colors of \code{uni_ulm_2} correspond to the following departments:
 \item \code{orange}: Naturwissenschaften 
 }
 
-See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_ulm_2

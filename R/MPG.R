@@ -53,7 +53,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' }
 #' 
 #' At \code{mpg[3]}, the color \code{"white"} was added to enable symmetrical color gradients. 
-#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+#' See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients. 
 #' 
 #' @return 

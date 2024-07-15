@@ -23,7 +23,7 @@ of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany.
 }
 \details{
 These colors may be mixed with darker shades of \code{"grey"} (or \code{"black"}). 
-See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients. 
 
 The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 

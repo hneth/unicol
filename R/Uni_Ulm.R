@@ -69,7 +69,7 @@ UU_orange <- rgb(223, 109, 7, maxColorValue = 255)
 #' It is alternatively defined as 
 #' \code{RGB 169/162/141}, \code{HEX #A9A28D}, \code{Pantone 7536 C}, or \code{CMYK 0/0/28/38}. 
 #'
-#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
+#' See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #'  
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -125,7 +125,7 @@ uni_ulm_1 <- unikn::newpal(col = c("black", UU_dunkelgrau, UU_hellblau, "white",
 #' \item \code{orange}: Naturwissenschaften 
 #' }
 #' 
-#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
+#' See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients. 
 #'  
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

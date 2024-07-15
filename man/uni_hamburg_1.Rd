@@ -32,7 +32,7 @@ The auxiliary colors \code{"black"} and
 are used for text.
 
 Colors shades may be used in diagrams or visualizations. 
-See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{

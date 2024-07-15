@@ -69,7 +69,7 @@ kiel_main <- "#9b0a7d"  # = rgb(155, 10, 125, maxColorValue = 255)
 #' The palette \code{uni_kiel_1} enframes this color as its central element 
 #' in \code{"black"} and \code{"white"} to easily enable mixing it with 
 #' shades of \code{"grey"}. 
-#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+#' See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients. 
 #' 
 #' The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 
@@ -176,7 +176,7 @@ kiel_faculty_names <- c("Theologie", "Rechtswissenschaft", "Medizin", "Philosoph
 #' of \href{https://www.uni-kiel.de/en/}{Kiel University}, Germany. 
 #' 
 #' These colors may be mixed with darker shades of \code{"grey"} (or \code{"black"}). 
-#' See examples and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+#' See examples and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 #' for creating color gradients. 
 #' 
 #' The full name of \href{https://www.uni-kiel.de/en/}{Kiel University} 

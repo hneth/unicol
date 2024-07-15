@@ -26,7 +26,7 @@ up to 2022.
 The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
 Other approximations include CMYK 100/60/0/20, RGB 0/51/102 (reduced web scale), and RAL 270 3040.
 
-See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 hu_2_2022

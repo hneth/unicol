@@ -23,7 +23,7 @@ of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Ge
 }
 \details{
 See \code{\link{fu_0_2023}} for the two primary colors and 
-the \code{\link{ac}} or \code{\link[unikn]{usecol}} functions for creating 
+the \code{\link[unikn]{ac}} or \code{\link[unikn]{usecol}} functions for creating 
 alternative color gradients.
 }
 \examples{

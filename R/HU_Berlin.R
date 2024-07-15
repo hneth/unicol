@@ -458,7 +458,7 @@ hu_3_accent <- unikn::newpal(col = c("#e5007c", "#e30031", "#e74306",
 #' The color \code{"HU blau"} is defined as \code{Pantone 294} and approximated by \code{RGB 0/55/108}.
 #' Other approximations include \code{CMYK 100/60/0/20}, \code{RGB 0/51/102} (reduced web scale), and \code{RAL 270 3040}.
 #' 
-#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+#' See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 #' of the \strong{unikn} package for creating color gradients.
 #' 
 #' @return 
@@ -507,7 +507,7 @@ hu_1_2022 <- unikn::newpal(col = c(HU_0, "white", "black"),
 #' The primary color \code{"HU blue"} is defined as Pantone 294 and only approximated by RGB 0/55/108.
 #' Other approximations include CMYK 100/60/0/20, RGB 0/51/102 (reduced web scale), and RAL 270 3040.
 #' 
-#' See the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+#' See the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 #' 
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).

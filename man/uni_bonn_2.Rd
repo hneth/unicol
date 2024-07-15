@@ -24,7 +24,7 @@ of the \href{https://www.uni-bonn.de/en}{University of Bonn}, Germany.
 }
 \details{
 See \code{\link{uni_bonn_1}} for the definitions of the three primary colors 
-and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions 
+and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions 
 for creating color gradients.
 }
 \examples{

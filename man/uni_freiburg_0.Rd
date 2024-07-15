@@ -27,7 +27,7 @@ The primary color \code{Blau} (here: \code{uni_freiburg_0[2]}) is alternatively 
 \code{Pantone 7687C}, \code{RGB 52/74/154}, \code{HEX #344a9a}, or \code{CMYK 90/75/0/0}.
 
 See \code{\link{uni_freiburg_1}} for a primary palette with a \code{Blau} color gradient
-and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
+and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating color gradients.
 }
 \examples{
 uni_freiburg_0

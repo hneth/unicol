@@ -31,7 +31,7 @@ The color \code{sand} is alternatively defined as \code{HEX #f6f1e3}, \code{RGB 
 The gradient of \code{blau} colors is defined on \url{https://cd.uni-freiburg.de/farben/}. 
 
 See \code{\link{uni_freiburg_0}} for the basic colors (without the \code{Blau} color gradient) 
-and the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating alternative color gradients.
+and the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating alternative color gradients.
 }
 \examples{
 uni_freiburg_1

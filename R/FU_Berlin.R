@@ -450,7 +450,7 @@ fu_blues <- unikn::newpal(col = c(fu_blue, "#164574", "#2C5682", "#426890", "#58
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
 #' See \code{\link{fu_0_2023}} for the two primary colors and 
-#' the \code{\link{ac}} and \code{\link[unikn]{usecol}} functions for creating 
+#' the \code{\link[unikn]{ac}} and \code{\link[unikn]{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
 #' @return 
@@ -511,7 +511,7 @@ fu_3_2023 <- fu_blues
 #' of the \href{https://www.fu-berlin.de/en/index.html}{Free University Berlin}, Germany. 
 #' 
 #' See \code{\link{fu_0_2023}} for the two primary colors and 
-#' the \code{\link{ac}} or \code{\link[unikn]{usecol}} functions for creating 
+#' the \code{\link[unikn]{ac}} or \code{\link[unikn]{usecol}} functions for creating 
 #' alternative color gradients.
 #' 
 #' @return 
