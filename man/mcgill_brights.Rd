@@ -53,7 +53,7 @@ unikn::seecol(mcgill_brights, main = "Bright colours of McGill") # view colour p
 \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 \code{\link[unikn]{usecol}} for using colour palettes;
 \code{\link[unikn]{simcol}} for finding similar colours;
-\code{\link{newpal}} for defining new colour palettes;
+\code{\link[unikn]{newpal}} for defining new colour palettes;
 \code{\link[unikn]{grepal}} for finding named colours.
 
 Other Canadian university color palettes: 

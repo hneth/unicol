@@ -52,7 +52,7 @@ unikn::seecol(dundee_block, main = "Dundee block colours") # view colour palette
 \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 \code{\link[unikn]{usecol}} for using colour palettes;
 \code{\link[unikn]{simcol}} for finding similar colours;
-\code{\link{newpal}} for defining new colour palettes;
+\code{\link[unikn]{newpal}} for defining new colour palettes;
 \code{\link[unikn]{grepal}} for finding named colours.
 
 Other Scottish university color palettes: 
