@@ -60,7 +60,7 @@
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -123,7 +123,7 @@ umass_1 <- unikn::newpal(col = c("#881c1c", "#212721", "#FFFFFF"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -175,7 +175,7 @@ umass_2 <- unikn::newpal(col = c("#ffc72c", "#ff9e1b", "#615e9b", "#44693d", "#5
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export

@@ -146,7 +146,7 @@ ku_nams_2[c(1, 14)] <- ku_nams_1  # replace
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -193,7 +193,7 @@ ku_1 <- unikn::newpal(col = ku_cols_1,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export

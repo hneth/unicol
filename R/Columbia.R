@@ -184,7 +184,7 @@ columbia_high_names <- c("PMS 675C", "PMS 2013C", "PMS 1525C", "PMS 1945C", "PMS
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -239,7 +239,7 @@ columbia_1 <- unikn::newpal(col = columbia_1_cols,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -293,7 +293,7 @@ columbia_2 <- unikn::newpal(col = columbia_2_cols,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export

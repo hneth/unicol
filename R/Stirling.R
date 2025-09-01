@@ -287,7 +287,7 @@ names_stirling_3 <- c("Light grey", "Mid grey", "Dark grey")
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -356,7 +356,7 @@ stirling_1 <- unikn::newpal(col = color_stirling_1,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -413,7 +413,7 @@ stirling_2 <- unikn::newpal(col = color_stirling_2,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export

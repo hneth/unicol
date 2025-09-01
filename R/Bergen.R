@@ -151,7 +151,7 @@ bergen_nams_4 <- c("Text 1", "Text 2", "Text 3",
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -199,7 +199,7 @@ bergen_1 <- unikn::newpal(col = bergen_cols_1,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -254,7 +254,7 @@ bergen_2 <- bergen_2_sorted  # use sorted palette from above
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export
@@ -308,7 +308,7 @@ bergen_3 <- unikn::newpal(col = bergen_cols_3,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 #' \code{\link[unikn]{usecol}} for using color palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colors;
-#' \code{\link{newpal}} for defining new color palettes;
+#' \code{\link[unikn]{newpal}} for defining new color palettes;
 #' \code{\link[unikn]{grepal}} for finding named colors.
 #'
 #' @export

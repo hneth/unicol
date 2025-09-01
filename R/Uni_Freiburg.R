@@ -163,7 +163,7 @@ names(frbg_rosa) <- "rosa"
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -241,7 +241,7 @@ frbg_sand_name <- c("sand")
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -298,7 +298,7 @@ uni_freiburg_1 <- unikn::newpal(col = c(frbg_blues, frbg_sand_1),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -350,7 +350,7 @@ uni_freiburg_2 <- unikn::newpal(col = c(frbg_gruen, frbg_braun, frbg_gelb, frbg_
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -395,7 +395,7 @@ uni_freiburg_br <- unikn::newpal(col = c("#004a99", "#c1002a"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -440,7 +440,7 @@ uni_freiburg_blue <- unikn::newpal(col = c("#004a99", "#2a6ebb", "#6f9ad3"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -486,7 +486,7 @@ uni_freiburg_grey <- unikn::newpal(col = c("#f2f3f1", "#e0e1dd", "#d5d6d2", "#c9
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export

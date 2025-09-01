@@ -166,7 +166,7 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -226,7 +226,7 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @importFrom unikn newpal
@@ -299,7 +299,7 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export

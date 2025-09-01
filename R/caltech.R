@@ -136,7 +136,7 @@ col_caltech_n7 <- "#F1D384"  # Note: RGB values differ!
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -224,7 +224,7 @@ col_caltech_d4 <- "#7A303F"  # Note: RGB values differ!
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -336,7 +336,7 @@ col_caltech_b7 <- "#F54D80"  # Note: RGB values differ!
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export

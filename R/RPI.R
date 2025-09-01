@@ -94,7 +94,7 @@ rpi_2 <- "#54585a"
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -151,7 +151,7 @@ rpi_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
@@ -215,7 +215,7 @@ rpi_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 #' \code{\link[unikn]{usecol}} for using color palettes; 
 #' \code{\link[unikn]{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link[unikn]{newpal}} for defining new color palettes; 
 #' \code{\link[unikn]{grepal}} for finding named colors. 
 #' 
 #' @export
