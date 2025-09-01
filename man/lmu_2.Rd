@@ -43,7 +43,7 @@ unikn::demopal(lmu_pal_linear, type = "polygon", seed = 2, main = "Linear colors
 \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 \code{\link[unikn]{usecol}} for using color palettes; 
 \code{\link[unikn]{simcol}} for finding similar colors; 
-\code{\link{newpal}} for defining new color palettes; 
+\code{\link[unikn]{newpal}} for defining new color palettes; 
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 

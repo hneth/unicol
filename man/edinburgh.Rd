@@ -59,7 +59,7 @@ unikn::seecol(edinburgh, main = "Colours of the University of Edinburgh")  # vie
 \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 \code{\link[unikn]{usecol}} for using color palettes;
 \code{\link[unikn]{simcol}} for finding similar colours;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link[unikn]{newpal}} for defining new color palettes;
 \code{\link[unikn]{grepal}} for finding named colours.
 
 Other Scottish university color palettes: 

@@ -49,7 +49,7 @@ uni_ulm_5 <- unikn::usecol(c(uni_ulm_1["hellblau"], "white"), n = 6)[1:5]
 \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 \code{\link[unikn]{usecol}} for using color palettes; 
 \code{\link[unikn]{simcol}} for finding similar colors; 
-\code{\link{newpal}} for defining new color palettes; 
+\code{\link[unikn]{newpal}} for defining new color palettes; 
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 

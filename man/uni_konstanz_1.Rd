@@ -42,7 +42,7 @@ unikn::demopal(uni_konstanz_1, type = 4, main = "Using Uni Konstanz colors", see
 \code{\link[unikn]{seecol}} for viewing and comparing color palettes; 
 \code{\link[unikn]{usecol}} for using color palettes; 
 \code{\link[unikn]{simcol}} for finding similar colors; 
-\code{\link{newpal}} for defining new color palettes; 
+\code{\link[unikn]{newpal}} for defining new color palettes; 
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other German university color palettes: 

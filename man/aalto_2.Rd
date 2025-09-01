@@ -33,11 +33,11 @@ unikn::seecol(aalto_2,
 
 }
 \seealso{
-\code{\link{aalto_1}} for primary brand colours of Aalto University;
+\code{\link{aalto_2}} for departmental colours of Aalto University;
 \code{\link[unikn]{seecol}} for viewing and comparing color palettes;
 \code{\link[unikn]{usecol}} for using color palettes;
 \code{\link[unikn]{simcol}} for finding similar colors;
-\code{\link{newpal}} for defining new color palettes;
+\code{\link[unikn]{newpal}} for defining new color palettes;
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other Finnish university color palettes: 
