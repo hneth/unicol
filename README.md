@@ -1,5 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please always edit the .Rmd file (and generate the .md file from it) -->
+
 <!-- Devel badges start: -->
 
 [![CRAN
@@ -11,24 +12,39 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-
 <!-- Devel badges end. -->
 
 <!-- Release badges start: -->
+
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
+
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
+
 <!-- Release badges end. -->
+
 <!-- ALL badges start: -->
+
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
+
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
+
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+
 <!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
+
 <!-- ALL badges end. -->
 
-# unicol 0.3.0.9002 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
+# unicol 0.4.0 <img src = "man/figures/logo.png" align = "right" alt = "unicol::" width = "150px" alt="" />
 
 <!-- unicol pkg logo and link: -->
+
 <!-- <a href = "https://CRAN.R-project.org/package=unicol"> -->
+
 <!-- <img src = "./man/figures/logo.png" alt = "unicol::" align = "right" width = "150px" style = "width: 150px; float: right; border:0;"/> -->
+
 <!-- </a> -->
+
 <!-- Slogan: -->
 
 ### The colors of your university
@@ -97,13 +113,17 @@ palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for
 an overview of included color palettes and institutions.)
 
 <!-- ## Examples  -->
+
 <!-- Goal: Show some color palettes and how they can be used: -->
 
 ### Examples of color palettes
 
 <!-- The **unicol** package currently contains **273\ color palettes** from **116\ institutions**.  -->
+
 <!-- Example 1: Random pals (from vignette color_pals.Rmd): -->
+
 <!-- Show as a table: -->
+
 <!-- Show as a figure: -->
 
 **Figure 1** illustrates 50 random color palettes (with 215 colors):
@@ -112,12 +132,14 @@ an overview of included color palettes and institutions.)
 
 <img src="man/figures/README-unicol-pals-example-1-figure-1.png" alt="Figure 1: A sample of 50 unicol palettes (containing 215 colors)." width="680px" />
 <p class="caption">
+
 Figure 1: A sample of 50 unicol palettes (containing 215 colors).
 </p>
 
 </div>
 
 <!-- ![Examples of 50 color palettes included in **unicol**.](./man/figures/README-unicol-pals-example-1-figure-1.png) -->
+
 <!-- Example 2:  Explorations: Insights into clusters / relations / similar sets -->
 
 ### Using color palettes
@@ -174,6 +196,7 @@ unikn::demopal(limerick_1, type = 3, main = "Using the colors of the University 
 <img src="man/figures/README-examples-unicol-3.png" width="600px" style="display: block; margin: auto;" />
 
 <!-- ## Adding color palettes -->
+
 <!-- Collecting contributed color palettes (in unicol): -->
 
 ## Your color palettes
@@ -224,17 +247,19 @@ GitHub issue](https://github.com/hneth/unicol/issues/30))!
 The following versions of **unicol** and corresponding resources are
 available:
 
-| Type:                      | Version:                                                     | URL:                                        |
-|:---------------------------|:-------------------------------------------------------------|:--------------------------------------------|
+| Type: | Version: | URL: |
+|:---|:---|:---|
 | A. **unicol** (R package): | [Release version](https://CRAN.R-project.org/package=unicol) | <https://CRAN.R-project.org/package=unicol> |
-|                            | [Development version](https://github.com/hneth/unicol/)      | <https://github.com/hneth/unicol/>          |
-| B. Online documentation:   | [Release version](https://hneth.github.io/unicol/)           | <https://hneth.github.io/unicol/>           |
-|                            | [Development version](https://hneth.github.io/unicol/dev/)   | <https://hneth.github.io/unicol/dev/>       |
+|   | [Development version](https://github.com/hneth/unicol/) | <https://github.com/hneth/unicol/> |
+| B. Online documentation: | [Release version](https://hneth.github.io/unicol/) | <https://hneth.github.io/unicol/> |
+|   | [Development version](https://hneth.github.io/unicol/dev/) | <https://hneth.github.io/unicol/dev/> |
 
 ## References
 
 <!-- Origin / Background / Credit / Course coordinates: -->
+
 <!-- Origin:  -->
+
 <!-- Uni Konstanz / uni.kn logo and link: -->
 
 <a href = "https://www.uni-konstanz.de">
@@ -255,6 +280,7 @@ following course:
 ### License
 
 <!-- License: CC BY-SA 4.0 (also in Description) -->
+
 <!-- Image with link: -->
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt = "Creative Commons License" align = "right" style = "border-width:0; float: right;" src = "https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -271,9 +297,13 @@ a work at
 <a xmlns:dct="https://purl.org/dc/terms/" href="https://github.com/hneth/unicol" rel="dct:source">https://github.com/hneth/unicol</a>).
 
 <!-- Relation to unikn:: -->
+
 <!-- unikn pkg logo and link: -->
+
 <!-- <a href = "https://CRAN.R-project.org/package=unikn"> -->
+
 <!-- <img src = "./man/figures/logo_unikn_pkg.png" alt = "unikn::" align = "right" width = "140px" style = "width: 140px; float: right; border:0;"/> -->
+
 <!-- </a> -->
 
 The **unicol** package is based on the R package
@@ -293,10 +323,10 @@ derivations or publications:
 
 <!-- Citation / reference (in APA format): -->
 
-- Neth, H. et al. (2024). unicol: The colors of your university.  
+- Neth, H. et al. (2025). unicol: The colors of your university.  
   Social Psychology and Decision Sciences, University of Konstanz,
   Germany.  
-  Computer software (R package version 0.3.0, May 1, 2024).  
+  Computer software (R package version 0.4.0, Sep 2, 2025).  
   Retrieved from <https://CRAN.R-project.org/package=unicol>.  
   doi [10.5281/zenodo.8252106](https://doi.org/10.5281/zenodo.8252106)
 
@@ -307,10 +337,10 @@ A BibTeX entry for LaTeX users is:
     @Manual{,
       title = {unicol: The colors of your university},
       author = {Hansjoerg Neth and Constantin Basler and Paula Bauer and Kaethe Bodenstein and Franziska Drechsel and Gina-Loretta Franz and Karolin Heiss and Julia Koenig and Isabelle Krist and Larissa Schwab and Alina Sohst and Isabel Staatz and Lisa Trueb},
-      year = {2024},
+      year = {2025},
       organization = {Social Psychology and Decision Sciences, University of Konstanz},
       address = {Konstanz, Germany},
-      note = {R package (version 0.3.0, May 1, 2024)},
+      note = {R package (version 0.4.0, Sep 2, 2025)},
       url = {https://CRAN.R-project.org/package=unicol},
       doi = {10.5281/zenodo.8252106},
     }
@@ -321,12 +351,13 @@ The copyrights to all **unicol** designs remain with their original
 creators.
 
 <!-- ## Contact -->
+
 <!-- ToDo: Add contact details here. -->
 
 ------------------------------------------------------------------------
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2024-05-07.\]
+\[File `README.Rmd` updated on 2025-09-01.\]
 
 <!-- eof. -->
