@@ -277,7 +277,7 @@ names_nottingham_3 <- c("Portland stone", "Portland stone 40", "white")
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -347,7 +347,7 @@ nottingham_1 <- unikn::newpal(col = color_nottingham_1,
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -417,7 +417,7 @@ nottingham_2 <- unikn::newpal(col = color_nottingham_2,
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export

@@ -53,7 +53,7 @@
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -104,7 +104,7 @@ ucalgary_1 <- unikn::newpal(col = c("#cf0722", "#ffcd00"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -154,7 +154,7 @@ ucalgary_2 <- unikn::newpal(col = c("#ffa300", "#ff671f", "#a6192e", "#6b3529"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -206,7 +206,7 @@ ucalgary_warmgreys <- unikn::newpal(col = c("#c4bfb6", "#8d827a"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export

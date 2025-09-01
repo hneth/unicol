@@ -61,7 +61,7 @@
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -124,7 +124,7 @@ queensu_1 <- unikn::newpal(col = c("#002452", "#fabd0f", "#b90e31"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export

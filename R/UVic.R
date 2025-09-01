@@ -72,7 +72,7 @@
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
@@ -136,7 +136,7 @@ uvic_1 <- unikn::newpal(col = c("#005493", "#F5AA1C", "#C63527", "#002754"),
 #' \code{\link[unikn]{seecol}} for viewing and comparing colour palettes;
 #' \code{\link[unikn]{usecol}} for using colour palettes;
 #' \code{\link[unikn]{simcol}} for finding similar colours;
-#' \code{\link{newpal}} for defining new colour palettes;
+#' \code{\link[unikn]{newpal}} for defining new colour palettes;
 #' \code{\link[unikn]{grepal}} for finding named colours.
 #'
 #' @export
