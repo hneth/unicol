@@ -1,5 +1,5 @@
 
-# unicol 0.3.0.9002
+# unicol 0.3.0.9005
 
 <!-- Development version:  --> 
 
@@ -42,14 +42,14 @@ Color palettes are linked to their [online documentation of the current GitHub d
 
 ## Minor changes 
 
-- none yet
+- none yet 
 
 
 <!-- Details:  --> 
 
 ## Details 
 
-- none yet
+- Provided package anchors for all Rd `\link{}` targets (to comply with [CRAN](https://CRAN.R-project.org/) requirements). 
 
 
 <!-- Development version:  --> 
@@ -237,6 +237,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2024-05-07.]
+[File `NEWS.md` updated on 2025-09-01.]
 
 <!-- eof. -->
