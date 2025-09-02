@@ -8,9 +8,9 @@
 An object of class \code{character} of length 5.
 }
 \source{
-Color definitions are based on 
+New colour definitions should be based on 
 the \href{https://www.helsinki.fi}{UH}'s 
-\href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+\href{https://www.helsinki.fi/en/brand-book/colours}{brand book} (HTML).
 }
 \usage{
 helsinki_2

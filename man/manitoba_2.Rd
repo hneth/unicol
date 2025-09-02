@@ -9,7 +9,7 @@ An object of class \code{character} of length 13.
 }
 \source{
 Color definitions are based on the
-\href{https://umanitoba.ca/sites/default/files/2019-12/UM_Brand-Guidelines.pdf}{Brand Guidelines (PDF)}.
+\href{https://umanitoba.ca/about-um/brand}{UM-Brand Guidelines (HTML)}.
 }
 \usage{
 manitoba_2
