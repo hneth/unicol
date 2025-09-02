@@ -13,7 +13,7 @@ retrieved from \url{https://CRAN.R-project.org/package=unikn},
 doi \doi{10.5281/zenodo.7096191}. 
 
 Original color definitions are based on \href{https://www.uni-konstanz.de}{uni.kn}'s 
-\href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}{Corporate design} and   
+\href{https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/online-und-print-medien-gestalten/corporate-design/}{Corporate design} and   
 \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}{Colours for complex graphics} pages.
 }
 \usage{

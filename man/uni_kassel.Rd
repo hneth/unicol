@@ -9,7 +9,7 @@ An object of class \code{character} of length 11.
 }
 \source{
 Color definitions are based on the \href{https://www.uni-kassel.de/uni/}{Uni Kassel}'s 
-\href{https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox-oeffentlichkeitsarbeit/corporate-design-und-medienservice}{CD und Medienservice} page.
+\href{https://www.uni-kassel.de/hochschulverwaltung/themen/toolbox-fuer-oeffentlichkeitsarbeit/}{CD und Medienservice} page.
 }
 \usage{
 uni_kassel

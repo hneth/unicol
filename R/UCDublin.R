@@ -81,7 +81,7 @@ UCD_richGreen   <- "#009c48"
 
 
 # HEX values in CSS definition at 
-# <https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1>:
+# <https://www.ucd.ie/websmart/designlibrary-guide/>:
 
 UCD_blue        <- "#007db8"
 UCD_navy        <- "#004377"
@@ -111,11 +111,11 @@ UCD_brightGreen <- "#6bbe51"
 #' Two additional colours 
 #' \code{UCD navy dark} and \code{UCD gold light} 
 #' are defined in \href{https://www.ucd.ie}{UCD}'s  
-#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} 
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} 
 #' specifications (v0.0.1)
 #'
 #' \code{ucd} is based on the HEX colour values of the  
-#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specs. 
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} specs. 
 #'
 #' @return 
 #' A named vector of colors (HEX/HTML codes of type character).
@@ -127,7 +127,7 @@ UCD_brightGreen <- "#6bbe51"
 #' Colour definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
 #' \href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
 #' (PDF, Version 3, 2006) and 
-#' \href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specifications.
+#' \href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} specifications.
 #'
 #' @examples
 #' ucd

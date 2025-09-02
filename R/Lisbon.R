@@ -16,7 +16,7 @@
 # Color source:
 
 # color_URL: PDF manual at
-# <https://www.ulisboa.pt/sites/ulisboa.pt/files/basicpage/docs/ulisboa_manual_normas_graficas_versao1.pdf>
+# <https://www.ulisboa.pt/info/identidade>
 # Last check: 2023-08-18
 
 
@@ -59,7 +59,7 @@
 #'
 #' @source 
 #' Color definitions are based on ULisboa's  
-#' \href{https://www.ulisboa.pt/sites/ulisboa.pt/files/basicpage/docs/ulisboa_manual_normas_graficas_versao1.pdf}{Manual normas graficas (PDF)}.
+#' \href{https://www.ulisboa.pt/info/identidade}{Manual normas graficas (PDF)}.
 #'
 #' @examples
 #' uni_lisbon

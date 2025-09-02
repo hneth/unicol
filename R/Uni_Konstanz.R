@@ -12,7 +12,7 @@
 # inst_URL: <https://www.uni-konstanz.de>
 
 # Color source: HTML at 
-# color_URL: <https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/>
+# color_URL: <https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/online-und-print-medien-gestalten/corporate-design/>
 # <https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/> 
 # Last check: 2022-10-20
 
@@ -47,7 +47,7 @@
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
 #' Original color definitions are based on \href{https://www.uni-konstanz.de}{uni.kn}'s 
-#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}{Corporate design} and   
+#' \href{https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/online-und-print-medien-gestalten/corporate-design/}{Corporate design} and   
 #' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}{Colours for complex graphics} pages. 
 #'
 #' @examples
@@ -97,7 +97,7 @@ uni_konstanz_1 <- unikn::newpal(col = unikn::pal_unikn,
 #' doi \doi{10.5281/zenodo.7096191}. 
 #' 
 #' Original color definitions are based on \href{https://www.uni-konstanz.de}{uni.kn}'s 
-#' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/the-university-of-konstanzs-corporate-design/}{Corporate design} and   
+#' \href{https://www.uni-konstanz.de/universitaet/aktuelles-und-medien/online-und-print-medien-gestalten/corporate-design/}{Corporate design} and   
 #' \href{https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/colours-for-complex-graphics/}{Colours for complex graphics} pages. 
 #'
 #' @examples

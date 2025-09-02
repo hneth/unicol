@@ -11,7 +11,7 @@ An object of class \code{character} of length 7.
 Colour definitions are based on the \href{https://www.ucd.ie}{UCD}'s 
 \href{https://silo.tips/download/brand-identity-guidelines}{Brand identity guidelines} 
 (PDF, Version 3, 2006) and 
-\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specifications.
+\href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} specifications.
 }
 \usage{
 ucd
@@ -33,11 +33,11 @@ are defined in \href{https://www.ucd.ie}{UCD}'s
 Two additional colours 
 \code{UCD navy dark} and \code{UCD gold light} 
 are defined in \href{https://www.ucd.ie}{UCD}'s  
-\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} 
+\href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} 
 specifications (v0.0.1)
 
 \code{ucd} is based on the HEX colour values of the  
-\href{https://www.ucd.ie/websmart/designlibrary-guide/t4media/main.min-1.css?v=0.0.1}{CSS} specs.
+\href{https://www.ucd.ie/websmart/designlibrary-guide/}{CSS} specs.
 }
 \examples{
 ucd

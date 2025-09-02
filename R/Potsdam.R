@@ -10,7 +10,7 @@
 # URL: "https://www.uni-potsdam.de/"
 
 # Color source:
-# URL: https://www.uni-potsdam.de/fileadmin/projects/zim/files/Printmedien_Leitfaden_2020-21.pdf
+# URL: https://www.uni-https://www.uni-potsdam.de/de/presse/infos-fuer-beschaeftigte/corporate-design-und-medien/online-und-print-medien-gestalten/corporate-design/
 
 
 # Color palettes:
@@ -43,7 +43,7 @@
 #'
 #' @source
 #' Color definitions are based on the 
-#' \href{https://www.uni-potsdam.de/fileadmin/projects/zim/files/Printmedien_Leitfaden_2020-21.pdf}{University of Potsdam's Leitfaden (pdf)}.
+#' \href{https://www.uni-https://www.uni-potsdam.de/de/presse/infos-fuer-beschaeftigte/corporate-design-und-medien/online-und-print-medien-gestalten/corporate-design/}{University of Potsdam's Leitfaden (pdf)}.
 #'
 #' @examples 
 #' uni_potsdam

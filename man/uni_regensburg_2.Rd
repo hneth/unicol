@@ -9,7 +9,7 @@ An object of class \code{character} of length 12.
 }
 \source{
 Color definitions are based on 
-\url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}.
+\url{https://www.uni-regensburg.de/interne-kommunikation/corporate-design/}.
 }
 \usage{
 uni_regensburg_2

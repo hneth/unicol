@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on ULisboa's  
-\href{https://www.ulisboa.pt/sites/ulisboa.pt/files/basicpage/docs/ulisboa_manual_normas_graficas_versao1.pdf}{Manual normas graficas (PDF)}.
+\href{https://www.ulisboa.pt/info/identidade}{Manual normas graficas (PDF)}.
 }
 \usage{
 uni_lisbon

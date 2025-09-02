@@ -12,7 +12,7 @@
 # inst_URL: <https://www.uni-regensburg.de>
 
 # Color source: HTML at 
-# color_URL: <https://www.uni-regensburg.de/verwaltung/corporate-design/index.html>
+# color_URL: <https://www.uni-regensburg.de/interne-kommunikation/corporate-design/>
 # Last check: 2022-11-25
 
 # Colors: ------
@@ -151,7 +151,7 @@ UR_glutrot_f <-            "#DA3C43" # Informatik und Data Science (TODO: Same a
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}. 
+#' \url{https://www.uni-regensburg.de/interne-kommunikation/corporate-design/}. 
 #' 
 #' @examples
 #' uni_regensburg_1
@@ -212,7 +212,7 @@ uni_regensburg_1 <- unikn::newpal(col = c(UR_neutralgrau,
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}. 
+#' \url{https://www.uni-regensburg.de/interne-kommunikation/corporate-design/}. 
 #' 
 #' @examples
 #' uni_regensburg_2
@@ -284,7 +284,7 @@ all.equal(uni_regensburg_2, uni_regensburg_2_a)  # RGB values correspond to web 
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://www.uni-regensburg.de/verwaltung/corporate-design/index.html}. 
+#' \url{https://www.uni-regensburg.de/interne-kommunikation/corporate-design/}. 
 #' 
 #' @examples
 #' uni_regensburg_3

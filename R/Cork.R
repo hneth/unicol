@@ -14,7 +14,7 @@
 # Color source:
 
 # color_URL: UCC's Visual identity guidelines, 2017, p. 26f. 
-# <https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf>
+# <https://www.ucc.ie/en/marketing-brand/>
 # Last check: 2023-09-09
 
 # Author information:
@@ -199,7 +199,7 @@ names_ucc_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
-#' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
+#' \href{https://www.ucc.ie/en/marketing-brand/}{Visual identity guidelines} (PDF of 2017, p. 26f.).
 #'
 #' @examples
 #' ucc_1
@@ -254,7 +254,7 @@ ucc_1 <- unikn::newpal(col = color_ucc_1,
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
-#' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} 
+#' \href{https://www.ucc.ie/en/marketing-brand/}{Visual identity guidelines} 
 #' (PDF of 2017, p. 26f.).
 #'
 #' @examples
