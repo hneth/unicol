@@ -9,7 +9,7 @@ An object of class \code{character} of length 12.
 }
 \source{
 Color definitions are based on RPTU's 
-\href{https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/brand-portal}{Brand portal}.
+\href{https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/rptu-corporate-design}{Brand portal}.
 }
 \usage{
 rptu

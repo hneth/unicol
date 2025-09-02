@@ -12,7 +12,7 @@
 # inst_URL: <https://www.helsinki.fi> or <https://www.helsinki.fi/en>
 
 # Color source: HTML: / PDF 
-# color_URL: <https://static.helsinki.fi/ds/tokens/color.html>
+# color_URL: <https://www.helsinki.fi/en/brand-book/colours>
 # Last check: 2023-10-14
 
 
@@ -20,7 +20,7 @@
 
 # Color definitions: 
 
-# From <https://static.helsinki.fi/ds/tokens/color.html>
+# From <https://www.helsinki.fi/en/brand-book/colours>
 # Last check: 2023-10-14. 
 
 # Colors

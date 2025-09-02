@@ -11,7 +11,7 @@
 # inst_URL: <https://rptu.de>
 
 # Color source: Brand portal at 
-# color_URL: <https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/brand-portal>
+# color_URL: <https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/rptu-corporate-design>
 # Last check: 2024-05-01
 
 
@@ -19,7 +19,7 @@
 
 # Color definitions: 
 
-# Source: <https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/brand-portal>
+# Source: <https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/rptu-corporate-design>
 # PDF Manual (v1): p. 34:
 
 # Die RPTU hat 10 Farben definiert, die neben Schwarz und Weiß treten können. 
@@ -182,7 +182,7 @@ rptu_weiss <- "white"
 #' 
 #' @source 
 #' Color definitions are based on RPTU's 
-#' \href{https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/brand-portal}{Brand portal}. 
+#' \href{https://rptu.de/ueber-die-rptu/organisation/stabsstellen/universitaetskommunikation/rptu-corporate-design}{Brand portal}. 
 #' 
 #' @examples
 #' rptu
