@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-\href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page.
+\href{https://www.fu-berlin.de/sites/corporate-design/}{CI} page.
 }
 \usage{
 fu_4

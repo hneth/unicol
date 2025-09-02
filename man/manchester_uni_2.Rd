@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on Manchester University's 
-\href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}.
+\href{https://www.manchester.edu/about/news-media/brand-toolkit/}{marketing brand toolkit}.
 }
 \usage{
 manchester_uni_2

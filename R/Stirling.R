@@ -15,7 +15,7 @@
 # Color source:
 
 # color_URL: Brand guide at 
-# <https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/>
+# <https://www.stir.ac.uk/brand-bank/brand-assets/>
 # Last check: 2023-09-10
 
 # Author information:
@@ -191,7 +191,7 @@ names_stirling_1 <- c("Heritage green", "Energy green")
 # 
 # For instance, white text on a Heritage Green background works well, 
 # whereas Heritage Berry text on a Heritage Green background is very difficult to read 
-# (see example at <https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/>).
+# (see example at <https://www.stir.ac.uk/brand-bank/brand-assets/>).
 
 
 # University of Stirling (secondary): 
@@ -273,7 +273,7 @@ names_stirling_3 <- c("Light grey", "Mid grey", "Dark grey")
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+#' \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 #'
 #' @examples
 #' stirling_1
@@ -308,7 +308,7 @@ stirling_1 <- unikn::newpal(col = color_stirling_1,
 #' of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
 #' 
 #' See \href{https://www.stir.ac.uk}{Stirling}'s 
-#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+#' \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide} 
 #' for definitions and details.
 #' 
 #' \code{stirling_2} uses the HEX color definitions. 
@@ -330,7 +330,7 @@ stirling_1 <- unikn::newpal(col = color_stirling_1,
 #' you must ensure that text is clearly legible and accessible so please select colours carefully. 
 #' For instance, white text on a \code{Heritage green} background works well, 
 #' whereas \code{Heritage berry} text on a \code{Heritage green} background is very difficult to read 
-#' (see \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide example}). 
+#' (see \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide example}). 
 #' 
 #' To add flexibility, users can use tints (70%, 50%, 30%) of a chosen colour.
 #'
@@ -342,7 +342,7 @@ stirling_1 <- unikn::newpal(col = color_stirling_1,
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+#' \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 #'
 #' @examples
 #' stirling_2
@@ -380,7 +380,7 @@ stirling_2 <- unikn::newpal(col = color_stirling_2,
 #' 
 #' The tertiary colours are 3 shades of \code{grey} 
 #' (see \href{https://www.stir.ac.uk}{Stirling}'s 
-#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+#' \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide} 
 #' for definitions and details).
 #' 
 #' \code{stirling_3} uses the HEX color definitions. 
@@ -399,7 +399,7 @@ stirling_2 <- unikn::newpal(col = color_stirling_2,
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-#' \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+#' \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 #'
 #' @examples
 #' stirling_3

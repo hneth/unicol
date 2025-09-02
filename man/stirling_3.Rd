@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-\href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+\href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 }
 \usage{
 stirling_3
@@ -24,7 +24,7 @@ of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
 \details{
 The tertiary colours are 3 shades of \code{grey} 
 (see \href{https://www.stir.ac.uk}{Stirling}'s 
-\href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+\href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide} 
 for definitions and details).
 
 \code{stirling_3} uses the HEX color definitions.

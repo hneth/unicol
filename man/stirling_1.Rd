@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-\href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+\href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 }
 \usage{
 stirling_1

@@ -107,7 +107,7 @@ uu_nams <- c("Uppsala red",
 #' @source 
 #' Color definitions are based on 
 #' \href{https://www.uu.se}{Uppsala}'s 
-#' \href{https://mp.uu.se/en/web/info/stod/kommunikation-riktlinjer/visuellariktl/profilfarger}{visual identity guidelines} (HTML).
+#' \href{https://www.uu.se/en/staff/service-and-tools/communications-and-marketing/visual-guidelines/the-visual-identity-in-use}{visual identity guidelines} (HTML).
 #'
 #' @examples
 #' uppsala

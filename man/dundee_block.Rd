@@ -9,7 +9,7 @@ An object of class \code{character} of length 5.
 }
 \source{
 Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
-\href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
+\href{https://www.dundee.ac.uk/brand/toolkit/pattern-library}{Brand colour palette}.
 }
 \usage{
 dundee_block

@@ -10,7 +10,7 @@
 # URL: "https://www.manchester.edu"
 
 # Color source:
-# color_URL: <https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette#:~:text=Manchester%20gold%2C%20black%2C%20and%20gray%20are%20our%20primary%20brand%20colors>
+# color_URL: <https://www.manchester.edu/about/news-media/brand-toolkit/#:~:text=Manchester%20gold%2C%20black%2C%20and%20gray%20are%20our%20primary%20brand%20colors>
 # Last check: 2023-06-27
 
 
@@ -67,7 +67,7 @@
 #'
 #' @source 
 #' Color definitions are based on Manchester University's 
-#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}.
+#' \href{https://www.manchester.edu/about/news-media/brand-toolkit/}{marketing brand toolkit}.
 #'
 #' @examples
 #' manchester_uni_1
@@ -131,7 +131,7 @@ manchester_uni_1 <- unikn::newpal(col = c("#EEB111", "#0A0203", "#969893"),
 #' 
 #' @source 
 #' Color definitions are based on Manchester University's 
-#' \href{https://www.manchester.edu/about-manchester/office-directory/marketing/brand-toolkit/color-palette}{marketing brand toolkit}. 
+#' \href{https://www.manchester.edu/about/news-media/brand-toolkit/}{marketing brand toolkit}. 
 #'
 #' @examples
 #' manchester_uni_2

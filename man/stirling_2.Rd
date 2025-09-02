@@ -9,7 +9,7 @@ An object of class \code{character} of length 15.
 }
 \source{
 Color definitions are based on \href{https://www.stir.ac.uk}{Stirling}'s 
-\href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide}.
+\href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide}.
 }
 \usage{
 stirling_2
@@ -23,7 +23,7 @@ of the \href{https://www.stir.ac.uk}{University of Stirling}, Scotland, UK.
 }
 \details{
 See \href{https://www.stir.ac.uk}{Stirling}'s 
-\href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide} 
+\href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide} 
 for definitions and details.
 
 \code{stirling_2} uses the HEX color definitions.
@@ -45,7 +45,7 @@ Although an extensive colour palette provides with you many potential colour com
 you must ensure that text is clearly legible and accessible so please select colours carefully. 
 For instance, white text on a \code{Heritage green} background works well, 
 whereas \code{Heritage berry} text on a \code{Heritage green} background is very difficult to read 
-(see \href{https://www.stir.ac.uk/brand-bank/visual-assets/colour-palette/}{Brand guide example}). 
+(see \href{https://www.stir.ac.uk/brand-bank/brand-assets/}{Brand guide example}). 
 
 To add flexibility, users can use tints (70%, 50%, 30%) of a chosen colour.
 }

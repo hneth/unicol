@@ -13,7 +13,7 @@
 
 # Colour source:
 
-# URL: <https://www.app.dundee.ac.uk/pattern-library/>
+# URL: <https://www.dundee.ac.uk/brand/toolkit/pattern-library>
 # Last check: 2023-06-22
 
 
@@ -49,7 +49,7 @@
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
-#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
+#' \href{https://www.dundee.ac.uk/brand/toolkit/pattern-library}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_core
@@ -106,7 +106,7 @@ dundee_core <- unikn::newpal(col = "#4365e2",
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
-#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}.
+#' \href{https://www.dundee.ac.uk/brand/toolkit/pattern-library}{Brand colour palette}.
 #'
 #' @examples
 #' dundee_highlight
@@ -168,7 +168,7 @@ dundee_highlight <- unikn::newpal(col = c("#ff6264", "#01d17c", "#464646"),
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
-#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}. 
+#' \href{https://www.dundee.ac.uk/brand/toolkit/pattern-library}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_block
@@ -226,7 +226,7 @@ dundee_block <- unikn::newpal(col = c("#ddd9d6", "#f4cec3", "#ffecd2", "#d1e2f2"
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.dundee.ac.uk}{Dundee}'s 
-#' \href{https://www.app.dundee.ac.uk/pattern-library/}{Brand colour palette}. 
+#' \href{https://www.dundee.ac.uk/brand/toolkit/pattern-library}{Brand colour palette}. 
 #'
 #' @examples
 #' dundee_background

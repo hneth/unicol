@@ -158,9 +158,9 @@ he_nams_3 <- paste("add",
 #' \strong{unicol}, 2023-10-15.
 #'
 #' @source 
-#' Color definitions are based on 
+#' New colour definitions should be based on 
 #' the \href{https://www.helsinki.fi}{UH}'s 
-#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#' \href{https://www.helsinki.fi/en/brand-book/colours}{brand book} (HTML).
 #'
 #' @examples
 #' helsinki_1
@@ -207,9 +207,9 @@ helsinki_1 <- unikn::newpal(col = he_cols_1,
 #' \strong{unicol}, 2023-10-15.
 #'
 #' @source 
-#' Color definitions are based on 
+#' New colour definitions should be based on 
 #' the \href{https://www.helsinki.fi}{UH}'s 
-#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#' \href{https://www.helsinki.fi/en/brand-book/colours}{brand book} (HTML).
 #'
 #' @examples
 #' helsinki_2
@@ -257,9 +257,9 @@ helsinki_2 <- unikn::newpal(col = he_cols_2,
 #' \strong{unicol}, 2023-10-15.
 #'
 #' @source 
-#' Color definitions are based on 
+#' New colour definitions should be based on 
 #' the \href{https://www.helsinki.fi}{UH}'s 
-#' \href{https://static.helsinki.fi/ds/tokens/color.html}{brand guide} (HTML).
+#' \href{https://www.helsinki.fi/en/brand-book/colours}{brand book} (HTML).
 #'
 #' @examples
 #' helsinki_3

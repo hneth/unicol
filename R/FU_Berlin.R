@@ -12,7 +12,7 @@
 # inst_URL: <https://www.fu-berlin.de>
 
 # Color source: HTML at 
-# color_URL: <https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html>
+# color_URL: <https://www.fu-berlin.de/sites/corporate-design/>
 # Last check: 2024-05-06
 
 
@@ -24,7 +24,7 @@
 
 # 1. CI-Farben der Freien Universität: Schwarz, Grün ---- 
 
-# color_URL: <https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html>
+# color_URL: <https://www.fu-berlin.de/sites/corporate-design/>
 
 FU_schwarz <- "#000000"  # "Schwarz" 
 FU_gruen   <- "#CCFF00"  # "FU Gruen" 
@@ -79,7 +79,7 @@ FU_plus_name <- c("Olive dunkel", "Olive hell", "Orange", "Traubenrot")
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/}{CI} page. 
 #' 
 #' @examples
 #' fu_1
@@ -127,7 +127,7 @@ fu_1 <- unikn::newpal(col = c(FU_schwarz, FU_gruen),
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/}{CI} page. 
 #' 
 #' @examples
 #' fu_2
@@ -173,7 +173,7 @@ fu_2 <- unikn::newpal(col = c(FU_blacks, FU_weiss),
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/}{CI} page. 
 #' 
 #' @examples
 #' fu_3
@@ -217,7 +217,7 @@ fu_3 <- unikn::newpal(col = c(FU_blaus, FU_weiss),
 #' 
 #' @source 
 #' Color definitions are based on the \href{https://www.fu-berlin.de/en/index.html}{FU}'s 
-#' \href{https://www.fu-berlin.de/sites/corporate-design/anwendung-vorlagen/index.html}{CI} page. 
+#' \href{https://www.fu-berlin.de/sites/corporate-design/}{CI} page. 
 #' 
 #' @examples
 #' fu_4

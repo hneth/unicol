@@ -12,8 +12,8 @@
 
 # Color source:
 
-# URL: <https://umanitoba.ca/sites/default/files/2019-12/UM_Brand-Guidelines.pdf>
-# Last check: 2023-07-12
+# URL: <https://umanitoba.ca/about-um/brand>
+# Last check: 2025-09-02
 
 
 
@@ -42,7 +42,7 @@
 #'
 #' @source 
 #' Color definitions are based on the
-#' \href{https://umanitoba.ca/sites/default/files/2019-12/UM_Brand-Guidelines.pdf}{UM-Guidelines (PDF)}.
+#' \href{https://umanitoba.ca/about-um/brand}{UM-Brand Guidelines (HTML)}.
 #'
 #' @examples
 #' manitoba_1
@@ -100,7 +100,7 @@ manitoba_1 <- unikn::newpal(col = c("#4F2C1D", "#F2A900", "#385E9D", "#00A3E0"),
 #'
 #' @source 
 #' Color definitions are based on the
-#' \href{https://umanitoba.ca/sites/default/files/2019-12/UM_Brand-Guidelines.pdf}{Brand Guidelines (PDF)}.
+#' \href{https://umanitoba.ca/about-um/brand}{UM-Brand Guidelines (HTML)}.
 #'
 #' @examples
 #' manitoba_2
