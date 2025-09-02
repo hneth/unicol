@@ -12,7 +12,7 @@
 # URL: "https://www.pitt.edu/"
 
 # Color source
-# color_URL: https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette
+# color_URL: https://www.brand.pitt.edu/brand-elements/color-palettes
 # Last check: 2023-07-01 
 
 # Colors: ------
@@ -39,7 +39,7 @@
 #'
 #' @source
 #' Color definitions are based on 
-#' \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}{Pitt's visual identity guide}.
+#' \href{https://www.brand.pitt.edu/brand-elements/color-palettes}{Pitt's visual identity guide}.
 #'
 #' @examples 
 #' pitt_1
@@ -88,7 +88,7 @@ pitt_1 <- unikn::newpal(col = c("#003594","#FFB81C"),
 #'
 #' @source
 #' Color definitions are based on 
-#' \href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}{Pitt's visual identity guide}.
+#' \href{https://www.brand.pitt.edu/brand-elements/color-palettes}{Pitt's visual identity guide}.
 #'
 #' @examples
 #' pitt_2

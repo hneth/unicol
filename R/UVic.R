@@ -17,7 +17,7 @@
 
 # Colour source:
 
-# URL: <https://www.uvic.ca/brand/look-feel/colour/palette/> (core colours)
+# URL: <https://www.uvic.ca/brand/brand-guidelines/colours-fonts/index.php> (core colours)
 # URL: <https://www.uvic.ca/brand/look-feel/colour/faculty/index.php> (complementary colours)
 # Last check: 2023-06-29
 
@@ -59,7 +59,7 @@
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.uvic.ca}{UVic}'s 
-#' \href{https://www.uvic.ca/brand/look-feel/colour/palette/}{brand information}. 
+#' \href{https://www.uvic.ca/brand/brand-guidelines/colours-fonts/index.php}{brand information}. 
 #'
 #' @examples
 #' uvic_1
@@ -123,7 +123,7 @@ uvic_1 <- unikn::newpal(col = c("#005493", "#F5AA1C", "#C63527", "#002754"),
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.uvic.ca}{UVic}'s 
-#' \href{https://www.uvic.ca/brand/look-feel/colour/faculty/}{brand information}. 
+#' \href{https://www.uvic.ca/brand/brand-guidelines/colours-fonts/index.php}{brand information}. 
 #'
 #' @examples
 #' uvic_2

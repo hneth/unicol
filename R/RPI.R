@@ -11,7 +11,7 @@
 
 # Color source:
 
-# color_URL: <https://scer.rpi.edu/brand-in-action/colors> 
+# color_URL: <https://www.rpi.edu/ocec> 
 # 2022-12-01
 
 
@@ -79,7 +79,7 @@ rpi_2 <- "#54585a"
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://scer.rpi.edu/brand-in-action/colors}. 
+#' \url{https://www.rpi.edu/ocec}. 
 #' 
 #' @examples
 #' rpi_1
@@ -136,7 +136,7 @@ rpi_1 <- unikn::newpal(col = c(rpi_0, rpi_1, rpi_2, "black", "white"),
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://scer.rpi.edu/brand-in-action/colors}. 
+#' \url{https://www.rpi.edu/ocec}. 
 #' 
 #' @examples
 #' rpi_2
@@ -200,7 +200,7 @@ rpi_2 <- unikn::newpal(col = c("#ab2328", "#00205b", "#7fa9ae"),
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://scer.rpi.edu/brand-in-action/colors}. 
+#' \url{https://www.rpi.edu/ocec}. 
 #' 
 #' @examples
 #' rpi_3

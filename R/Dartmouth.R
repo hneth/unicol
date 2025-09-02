@@ -11,7 +11,7 @@
 # URL: "https://home.dartmouth.edu"
 
 # Color source:
-# URL: https://communications.dartmouth.edu/visual-identity/design-elements/color-palette
+# URL: https://communications.dartmouth.edu/guides-and-tools/design-guidelines/dartmouth-colors
 
 
 # Color palettes:
@@ -36,7 +36,7 @@
 #'
 #' @source
 #' Color definitions are based on \href{https://home.dartmouth.edu}{Dartmouth}'s 
-#' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{visual identity guide}.
+#' \href{https://communications.dartmouth.edu/guides-and-tools/design-guidelines/dartmouth-colors}{visual identity guide}.
 #'
 #' @examples
 #' dartmouth_1
@@ -89,7 +89,7 @@ dartmouth_1 <- unikn::newpal(col = c("#00693E"),
 #' 
 #' @source 
 #' Color definitions are based on \href{https://home.dartmouth.edu}{Dartmouth}'s 
-#' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{visual identity guide}. 
+#' \href{https://communications.dartmouth.edu/guides-and-tools/design-guidelines/dartmouth-colors}{visual identity guide}. 
 #'
 #' @examples 
 #' dartmouth_2
@@ -145,7 +145,7 @@ dartmouth_2 <- unikn::newpal(col = c("#12312b", "#0D1E1C", "#ffffff", "#000000",
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}. 
+#' \href{https://communications.dartmouth.edu/guides-and-tools/design-guidelines/dartmouth-colors}{Dartmouth's visual identity guide}. 
 #'
 #' @examples 
 #' dartmouth_3

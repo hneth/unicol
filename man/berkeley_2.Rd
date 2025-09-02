@@ -9,7 +9,7 @@ An object of class \code{character} of length 12.
 }
 \source{
 Color definitions are based on \href{https://www.berkeley.edu}{Berkeley}'s 
-\href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
+\href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}.
 }
 \usage{
 berkeley_2
@@ -44,11 +44,11 @@ The 12 secondary colors are divided into 4 sub-groups:
 \href{https://www.berkeley.edu}{Berkeley}'s secondary palette is broken into four groups: 
 \emph{Neutrals}, \emph{Vibrants}, \emph{Brights}, and \emph{Darks}.
 
-In a grid of the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}, 
+In a grid of the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}, 
 each group is represented by a column, with colors getting progressively darker 
 in value by group (from left to right). 
 
-See the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual} 
+See the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual} 
 for accessible and suitable combinations.
 }
 \examples{

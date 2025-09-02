@@ -10,7 +10,7 @@
 
 # Color source:
 
-# URL: https://university-relations.umn.edu/resources/colors-and-type
+# URL: https://umarcomm.umn.edu/resources/colors-and-type
 # last check: 20230-07-05
 
 
@@ -37,7 +37,7 @@
 #'
 #' @source
 #' Color definitions are based on the 
-#' \href{https://university-relations.umn.edu/resources/colors-and-type}{UMN website}.
+#' \href{https://umarcomm.umn.edu/resources/colors-and-type}{UMN website}.
 #'
 #' @examples
 #' minnesotatwin_1
@@ -90,7 +90,7 @@ minnesotatwin_1 <- unikn::newpal(col = c("#7A0019","#FFCC33"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://university-relations.umn.edu/resources/colors-and-type}{UMN website}. 
+#' \href{https://umarcomm.umn.edu/resources/colors-and-type}{UMN website}. 
 #'
 #' @examples
 #' minnesotatwin_2

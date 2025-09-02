@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on \href{https://www.berkeley.edu}{Berkeley}'s 
-\href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
+\href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}.
 }
 \usage{
 berkeley_1
@@ -42,7 +42,7 @@ as main representations of \href{https://www.berkeley.edu}{Berkeley}.
 For example, \code{Medalist} may replace \code{California gold} in situations 
 where a darker gold is needed.
 
-See the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual} 
+See the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual} 
 for accessible and suitable combinations.
 }
 \examples{

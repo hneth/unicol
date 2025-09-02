@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on 
-\href{https://www.brand.pitt.edu/visual-identity/color-palettes/primary-palette}{Pitt's visual identity guide}.
+\href{https://www.brand.pitt.edu/brand-elements/color-palettes}{Pitt's visual identity guide}.
 }
 \usage{
 pitt_1

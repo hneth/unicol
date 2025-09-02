@@ -9,7 +9,7 @@ An object of class \code{character} of length 8.
 }
 \source{
 Color definitions are based on the
-\href{https://university-relations.umn.edu/resources/colors-and-type}{UMN website}.
+\href{https://umarcomm.umn.edu/resources/colors-and-type}{UMN website}.
 }
 \usage{
 minnesotatwin_2

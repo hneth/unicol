@@ -9,7 +9,7 @@ An object of class \code{character} of length 10.
 }
 \source{
 Color definitions are based on 
-\href{https://communications.dartmouth.edu/visual-identity/design-elements/color-palette}{Dartmouth's visual identity guide}.
+\href{https://communications.dartmouth.edu/guides-and-tools/design-guidelines/dartmouth-colors}{Dartmouth's visual identity guide}.
 }
 \usage{
 dartmouth_3

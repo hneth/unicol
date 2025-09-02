@@ -12,7 +12,7 @@
 
 # Color source:
 
-# color_URL: <https://news.uoguelph.ca/guides/brand-guide/colour-palette//>
+# color_URL: <https://www.uoguelph.ca/brand-guide//>
 # Last check: 2023-07-12
 
 
@@ -38,7 +38,7 @@
 #'
 #' \code{guelph} uses the HEX color definitions. 
 #'
-#' See \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{Brand guide: Colour} 
+#' See \href{https://www.uoguelph.ca/brand-guide/}{Brand guide: Colour} 
 #' for \emph{Do's and Don'ts} and \emph{Colour Usage and Proportions}. 
 #' 
 #' @return 
@@ -49,7 +49,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.uoguelph.ca}{U of G}'s 
-#' \href{https://news.uoguelph.ca/guides/brand-guide/colour-palette/}{brand guide} (HTML). 
+#' \href{https://www.uoguelph.ca/brand-guide/}{brand guide} (HTML). 
 #'
 #' @examples
 #' guelph

@@ -9,7 +9,7 @@ An object of class \code{character} of length 7.
 }
 \source{
 Colour definitions are based on \href{https://www.mcmaster.ca}{McMaster}'s 
-\href{https://brand.mcmaster.ca/app/uploads/2019/04/digital-guidelines.pdf}{Digital brand manual} (PDF).
+\href{https://brand.mcmaster.ca/guidelines_introduction/web-guidelines/}{Digital brand manual} (PDF).
 }
 \usage{
 mcmaster_brighterworld

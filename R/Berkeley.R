@@ -12,7 +12,7 @@
 
 # Color source:
 
-# URL: <https://brand.berkeley.edu/identity-and-visual-design/color>
+# URL: <https://brand.berkeley.edu/visual-identity/colors/>
 # Last check: 2023-09-25
 
 
@@ -50,7 +50,7 @@
 #' For example, \code{Medalist} may replace \code{California gold} in situations 
 #' where a darker gold is needed.
 #' 
-#' See the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual} 
+#' See the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual} 
 #' for accessible and suitable combinations. 
 #' 
 #' @return
@@ -61,7 +61,7 @@
 #'
 #' @source
 #' Color definitions are based on \href{https://www.berkeley.edu}{Berkeley}'s 
-#' \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
+#' \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}.
 #'
 #' @examples
 #' berkeley_1
@@ -117,11 +117,11 @@ berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
 #' \href{https://www.berkeley.edu}{Berkeley}'s secondary palette is broken into four groups: 
 #' \emph{Neutrals}, \emph{Vibrants}, \emph{Brights}, and \emph{Darks}.
 #' 
-#' In a grid of the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}, 
+#' In a grid of the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}, 
 #' each group is represented by a column, with colors getting progressively darker 
 #' in value by group (from left to right). 
 #' 
-#' See the \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual} 
+#' See the \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual} 
 #' for accessible and suitable combinations. 
 #' 
 #' @return
@@ -132,7 +132,7 @@ berkeley_1 <- unikn::newpal(col = c("#003262", "#FDB515", "#3B7EA1", "#C4820E"),
 #'
 #' @source
 #' Color definitions are based on \href{https://www.berkeley.edu}{Berkeley}'s 
-#' \href{https://brand.berkeley.edu/identity-and-visual-design/color}{Color manual}.
+#' \href{https://brand.berkeley.edu/visual-identity/colors/}{Color manual}.
 #'
 #' @examples
 #' berkeley_2

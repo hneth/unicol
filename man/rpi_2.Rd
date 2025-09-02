@@ -9,7 +9,7 @@ An object of class \code{character} of length 3.
 }
 \source{
 Color definitions are based on 
-\url{https://scer.rpi.edu/brand-in-action/colors}.
+\url{https://www.rpi.edu/ocec}.
 }
 \usage{
 rpi_2

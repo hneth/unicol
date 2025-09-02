@@ -9,7 +9,7 @@ An object of class \code{character} of length 8.
 }
 \source{
 Colour definitions are based on \href{https://www.uvic.ca}{UVic}'s 
-\href{https://www.uvic.ca/brand/look-feel/colour/faculty/}{brand information}.
+\href{https://www.uvic.ca/brand/brand-guidelines/colours-fonts/index.php}{brand information}.
 }
 \usage{
 uvic_2

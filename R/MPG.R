@@ -11,7 +11,7 @@
 # inst_URL: <https://www.mpg.de/en>
 
 # Color source: HTML / PDF 
-# color_URL: <https://docplayer.org/2328711-Max-planck-institut-das-erscheinungsbild-der-max-planck-gesellschaft-4-ueberarbeitete-auflage.html>
+# color_URL: <https://pp.one/>
 # Last check: 2022-12-11
 
 
@@ -64,7 +64,7 @@ mpg_grey_2 <- unikn::usecol(c(mpg_grey,  "white"), n = 3)[1:2]
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://docplayer.org/2328711-Max-planck-institut-das-erscheinungsbild-der-max-planck-gesellschaft-4-ueberarbeitete-auflage.html}. 
+#' \url{https://pp.one/}. 
 #' 
 #' @examples
 #' mpg

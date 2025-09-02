@@ -9,7 +9,7 @@ An object of class \code{character} of length 5.
 }
 \source{
 Color definitions are based on 
-\url{https://docplayer.org/2328711-Max-planck-institut-das-erscheinungsbild-der-max-planck-gesellschaft-4-ueberarbeitete-auflage.html}.
+\url{https://pp.one/}.
 }
 \usage{
 mpg
