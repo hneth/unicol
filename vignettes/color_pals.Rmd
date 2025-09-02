@@ -113,16 +113,11 @@ nc_wd <- nchar(wd)
 fin_chars <- substr(wd, nc_wd - 8, nc_wd)  # final 9 characters
 
 # Source utility file:
-
-# # (a) flexibly:
-# if (fin_chars == "vignettes"){
-#   source("../R/5_util.R")  # from pkg/vignettes dir  
-# } else {
-#   source("./R/5_util.R")   # from pkg wd
-# }
-
-# (b) during pkg install:
-source("./R/5_util.R")   # from pkg wd
+if (fin_chars == "vignettes"){
+  source("../R/5_util.R")  # from pkg/vignettes dir
+} else {
+  source("./R/5_util.R")   # from pkg wd
+}
 ```
 
 ```{r unicol-data-table, echo = FALSE}
