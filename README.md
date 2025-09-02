@@ -3,22 +3,23 @@
 
 <!-- Devel badges start: -->
 
-[![CRAN
-status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
-[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
-[![Total
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
-<!-- Devel badges end. -->
-
-<!-- Release badges start: -->
-
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
+
+<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 
+<!-- Devel badges end. -->
+
+<!-- Release badges start: -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
+[![Total
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Release badges end. -->
 
 <!-- ALL badges start: -->
@@ -274,7 +275,7 @@ following course:
   Konstanz](https://www.uni-konstanz.de/en/)**  
 - Spring/Summer 2023: **Tuesdays**, **13:30—15:00**; in **C426**
 - By **[Hansjörg Neth](https://neth.de/)** (<h.neth@uni.kn>,
-  [SPDS](https://www.spds.uni-konstanz.de/), [University of
+  [SPDS](https://spds.uni-konstanz.de/), [University of
   Konstanz](https://www.uni-konstanz.de/en/))
 
 ### License
@@ -358,6 +359,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2025-09-01.\]
+\[File `README.Rmd` updated on 2025-09-02.\]
 
 <!-- eof. -->
