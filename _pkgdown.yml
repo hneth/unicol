@@ -1,15 +1,15 @@
-## _pkgdown.yml unicol | 2025 09 02
+## _pkgdown.yml unicol | 2025 09 03
 ## --------------------------------
 
 url: https://hneth.github.io/unicol/
 
 development:
-  mode: release # devel OR release
+  mode: devel # devel OR release
 
 template:
   bootstrap: 5
-  bootswatch: litera # release
-  # bootswatch: spacelab # devel
+  # bootswatch: litera # release
+  bootswatch: spacelab # devel
 
 toc:
   depth: 3
