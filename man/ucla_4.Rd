@@ -37,7 +37,7 @@ you can use the complete color range.
 
 If you are overprinting the gradient with type, you need to make sure the resulting 
 contrast ratio meets accessibility standards. 
-See the color combination chart at \url{https://brand.ucla.edu/identity/colors#accessibility}.
+See the color combination chart at \url{https://brand.ucla.edu/identity/colors}.
 }
 \examples{
 ucla_4

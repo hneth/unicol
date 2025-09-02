@@ -227,7 +227,7 @@ ucla_3 <- unikn::newpal(col = c("#FFFF00", "#00FF87", "#FF00A5", "#00FFFF", "#82
 #' 
 #' If you are overprinting the gradient with type, you need to make sure the resulting 
 #' contrast ratio meets accessibility standards. 
-#' See the color combination chart at \url{https://brand.ucla.edu/identity/colors#accessibility}. 
+#' See the color combination chart at \url{https://brand.ucla.edu/identity/colors}. 
 #' 
 #' @return
 #' A named vector of colors (HEX/HTML codes of type character).
