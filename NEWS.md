@@ -182,7 +182,7 @@ Changes since last release:
     - [Macquarie University](https://www.mq.edu.au) (Australia): `mq_1`, `mq_2`
     - [Maynooth University](https://www.maynoothuniversity.ie) (Ireland): `maynooth`
     - [Ohio University](https://www.ohio.edu) (USA): `ohio_uni_1`, `ohio_uni_2` 
-    - [University College Cork](https://www.ucc.ie) (Ireland): `ucc_1`, `ucc_2`
+    - [University College Cork](https://www.ucc.ie/en/) (Ireland): `ucc_1`, `ucc_2`
     - [University College Dublin](https://www.ucd.ie) (Ireland): `ucd` 
     - [University of Auckland](https://www.auckland.ac.nz/en.html) (New Zealand): `auckland_1`, `auckland_2` 
     - [University of Groningen](https://www.rug.nl) (Netherlands): `groningen_1`, `groningen_2` 
