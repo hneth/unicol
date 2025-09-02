@@ -9,7 +9,7 @@ An object of class \code{character} of length 1.
 }
 \source{
 Color definitions are based on \href{https://www.gu.se}{GU}'s 
-\href{https://gunet.sharepoint.com/sites/medarbetarportalen}{Graphic identity guidelines} (HTML).
+\href{https://www.gu.se}{Graphic identity guidelines} (HTML).
 }
 \usage{
 gothenburg
