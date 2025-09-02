@@ -8,7 +8,7 @@
 An object of class \code{character} of length 6.
 }
 \source{
-Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
+Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
 \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
 }
 \usage{
@@ -19,7 +19,7 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{ucc_1} provides the six primary colours 
-of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
+of the \href{https://www.ucc.ie/en/}{University College Cork}, Ireland.
 }
 \details{
 The 6 primary colours are 
@@ -36,13 +36,13 @@ The 6 primary colours are
 These colours are to be used at a university level 
 (on both coated and uncoated paper).
 
-Colour plays an important part in \href{https://www.ucc.ie}{UCC}'s identity and 
+Colour plays an important part in \href{https://www.ucc.ie/en/}{UCC}'s identity and 
 renders all communications consistent and cohesive.
 
 The primary colour palette uses the four colours from the crest.
 
 In all communications the bold use of white space is a key element 
-of \href{https://www.ucc.ie}{UCC}'s use of colour. 
+of \href{https://www.ucc.ie/en/}{UCC}'s use of colour. 
 When choosing a colour to complement photography, care should be taken 
 to ensure it is compatible.
 

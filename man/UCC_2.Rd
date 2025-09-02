@@ -8,7 +8,7 @@
 An object of class \code{character} of length 8.
 }
 \source{
-Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
+Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
 \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} 
 (PDF of 2017, p. 26f.).
 }
@@ -20,14 +20,14 @@ A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
 \code{ucc_2} provides the eight secondary colours 
-of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
+of the \href{https://www.ucc.ie/en/}{University College Cork}, Ireland.
 }
 \details{
 See \code{ucc_2} for names and values, based on HEX color definitions.
 
 
 The secondary colour palette is made up of natural colours 
-from around Cork and the \href{https://www.ucc.ie}{UCC} campus.
+from around Cork and the \href{https://www.ucc.ie/en/}{UCC} campus.
 
 To be used at a college level and on uncoated paper.
 

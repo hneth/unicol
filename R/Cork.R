@@ -163,7 +163,7 @@ names_ucc_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' Primary colours of the University College Cork, Ireland 
 #' 
 #' \code{ucc_1} provides the six primary colours 
-#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
+#' of the \href{https://www.ucc.ie/en/}{University College Cork}, Ireland.
 #'
 #' The 6 primary colours are 
 #' \code{Crest yellow}, defined as Pantone 7549C, C0 M20 Y100 K0, R255 G181 B0, or HEX "#FFB500", 
@@ -179,13 +179,13 @@ names_ucc_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' These colours are to be used at a university level 
 #' (on both coated and uncoated paper).
 #' 
-#' Colour plays an important part in \href{https://www.ucc.ie}{UCC}'s identity and 
+#' Colour plays an important part in \href{https://www.ucc.ie/en/}{UCC}'s identity and 
 #' renders all communications consistent and cohesive.
 #' 
 #' The primary colour palette uses the four colours from the crest.
 #' 
 #' In all communications the bold use of white space is a key element 
-#' of \href{https://www.ucc.ie}{UCC}'s use of colour. 
+#' of \href{https://www.ucc.ie/en/}{UCC}'s use of colour. 
 #' When choosing a colour to complement photography, care should be taken 
 #' to ensure it is compatible.
 #' 
@@ -198,7 +198,7 @@ names_ucc_2 <- c("Limestone", "Dawn mauve", "Ogam stone", "Earth red",
 #' \strong{unicol}, 2023-09-09.
 #'
 #' @source 
-#' Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
+#' Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
 #' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} (PDF of 2017, p. 26f.).
 #'
 #' @examples
@@ -231,13 +231,13 @@ ucc_1 <- unikn::newpal(col = color_ucc_1,
 #' Secondary colours of the University College Cork, Ireland 
 #' 
 #' \code{ucc_2} provides the eight secondary colours 
-#' of the \href{https://www.ucc.ie}{University College Cork}, Ireland.
+#' of the \href{https://www.ucc.ie/en/}{University College Cork}, Ireland.
 #' 
 #' See \code{ucc_2} for names and values, based on HEX color definitions. 
 #' 
 #' @details
 #' The secondary colour palette is made up of natural colours 
-#' from around Cork and the \href{https://www.ucc.ie}{UCC} campus.
+#' from around Cork and the \href{https://www.ucc.ie/en/}{UCC} campus.
 #' 
 #' To be used at a college level and on uncoated paper.
 #' 
@@ -253,7 +253,7 @@ ucc_1 <- unikn::newpal(col = color_ucc_1,
 #' \strong{unicol}, 2023-09-09.
 #'
 #' @source 
-#' Color definitions are based on \href{https://www.ucc.ie}{UCC}'s 
+#' Color definitions are based on \href{https://www.ucc.ie/en/}{UCC}'s 
 #' \href{https://www.ucc.ie/en/media/mandc/visualidentityguidelines/UCCVisualIdentityGuidelines2017.pdf}{Visual identity guidelines} 
 #' (PDF of 2017, p. 26f.).
 #'

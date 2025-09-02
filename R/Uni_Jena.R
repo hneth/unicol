@@ -12,7 +12,7 @@
 # inst_URL: <https://www.uni-jena.de>
 
 # Color source: HTML at
-# color_URL: <https://www.uni-jena.de/corporate-design>
+# color_URL: <https://www.uni-jena.de/163691/corporate-design>
 # Last check: 2022-12-31
 
 # Motto: "Light, life, liberty – connecting visions"
@@ -79,7 +79,7 @@ jena_gold <- rgb(174, 154, 99, maxColorValue = 255)
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://www.uni-jena.de/corporate-design}. 
+#' \url{https://www.uni-jena.de/163691/corporate-design}. 
 #' 
 #' @examples
 #' uni_jena_1
@@ -197,7 +197,7 @@ jena_faculty_names <- c("Theologie", "Rechtswissenschaft", "Wirtschaftswissensch
 #' 
 #' @source 
 #' Color definitions are based on 
-#' \url{https://www.uni-jena.de/corporate-design}. 
+#' \url{https://www.uni-jena.de/163691/corporate-design}. 
 #' 
 #' @examples
 #' uni_jena_2

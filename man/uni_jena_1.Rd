@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on 
-\url{https://www.uni-jena.de/corporate-design}.
+\url{https://www.uni-jena.de/163691/corporate-design}.
 }
 \usage{
 uni_jena_1
