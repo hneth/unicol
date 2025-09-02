@@ -9,7 +9,7 @@ An object of class \code{character} of length 2.
 }
 \source{
 Color definitions are based on the
-\href{https://brand.umich.edu/design-resources/colors/}{Color manual}.
+\href{https://brand.umich.edu/}{Color manual}.
 }
 \usage{
 michigan_1

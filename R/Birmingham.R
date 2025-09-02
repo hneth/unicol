@@ -14,7 +14,7 @@
 # Colour source:
 
 # PDF manual at
-# color_URL: <https://bham.sharepoint.com/sites/coss>
+# color_URL: <https://intranet.birmingham.ac.uk/staff/resources/digital/web-resources/editor-resources/guidelines/>
 # Last check: 2023-06-20
 
 
@@ -53,7 +53,7 @@
 #'
 #' @source 
 #' Colour definitions are based on \href{https://www.birmingham.ac.uk/}{UBirmingham}'s 
-#' \href{https://bham.sharepoint.com/sites/coss}{brand guidelines} 
+#' \href{https://intranet.birmingham.ac.uk/staff/resources/digital/web-resources/editor-resources/guidelines/}{brand guidelines} 
 #' (PDF, revised 2016-02).
 #'
 #' @examples

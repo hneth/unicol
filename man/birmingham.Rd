@@ -9,7 +9,7 @@ An object of class \code{character} of length 6.
 }
 \source{
 Colour definitions are based on \href{https://www.birmingham.ac.uk/}{UBirmingham}'s 
-\href{https://bham.sharepoint.com/sites/coss}{brand guidelines} 
+\href{https://intranet.birmingham.ac.uk/staff/resources/digital/web-resources/editor-resources/guidelines/}{brand guidelines} 
 (PDF, revised 2016-02).
 }
 \usage{

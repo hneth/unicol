@@ -15,7 +15,7 @@
 # Color source:
 
 # color_URL: Visual identity guidelines at 
-# <https://mp.uu.se/en/web/info/stod/kommunikation-riktlinjer/visuellariktl/profilfarger>
+# <https://www.uu.se/en/staff/service-and-tools/communications-and-marketing/visual-guidelines>
 # Last check: 2023-10-12
 
 # Author information:
@@ -27,7 +27,7 @@
 # Color definitions: 
 
 # from HTML at 
-# <https://mp.uu.se/en/web/info/stod/kommunikation-riktlinjer/visuellariktl/profilfarger>:
+# <https://www.uu.se/en/staff/service-and-tools/communications-and-marketing/visual-guidelines>:
 
 # The University’s visual identity colours
 # 

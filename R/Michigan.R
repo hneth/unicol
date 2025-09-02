@@ -11,7 +11,7 @@
 
 # Color source:
 
-# URL: <https://brand.umich.edu/design-resources/colors/>
+# URL: <https://brand.umich.edu/>
 # Last check: 2023-06-14
 
 
@@ -47,7 +47,7 @@
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.umich.edu/design-resources/colors/}{Color manual}.
+#' \href{https://brand.umich.edu/}{Color manual}.
 #'
 #' @examples
 #' michigan_1
@@ -114,7 +114,7 @@ michigan_1 <- unikn::newpal(col = c("#FFCB05", "#00274C"),
 #'
 #' @source
 #' Color definitions are based on the
-#' \href{https://brand.umich.edu/design-resources/colors/}{Color manual}.
+#' \href{https://brand.umich.edu/}{Color manual}.
 #'
 #' @examples
 #' michigan_2

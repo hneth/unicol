@@ -106,7 +106,7 @@ gu_nam <- "University blue"
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.gu.se}{GU}'s 
-#' \href{https://gunet.sharepoint.com/sites/medarbetarportalen}{Graphic identity guidelines} (HTML).
+#' \href{https://www.gu.se}{Graphic identity guidelines} (HTML).
 #'
 #' @examples
 #' gothenburg

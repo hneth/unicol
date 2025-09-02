@@ -9,7 +9,7 @@ An object of class \code{character} of length 5.
 }
 \source{
 Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
-\href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
+\href{https://brand.uci.edu/}{brand guide}.
 }
 \usage{
 uci_3

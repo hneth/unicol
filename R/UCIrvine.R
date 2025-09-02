@@ -11,7 +11,7 @@
 # URL: "https://www.uci.edu"
 
 # Color source:
-# URL: <https://brand.uci.edu/master-branding/color-palette/>
+# URL: <https://brand.uci.edu/>
 
 
 # Color palettes:
@@ -47,7 +47,7 @@
 #'
 #' @source 
 #' Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
-#' \href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
+#' \href{https://brand.uci.edu/}{brand guide}.
 #'
 #' @examples
 #' uci_1
@@ -107,7 +107,7 @@ uci_1 <- unikn::newpal(col = c("#0064a4", "#ffd200"),
 #' 
 #' @source 
 #' Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
-#' \href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
+#' \href{https://brand.uci.edu/}{brand guide}.
 #'
 #' @examples 
 #' uci_2
@@ -165,7 +165,7 @@ uci_2 <- unikn::newpal(col = c("#6aa2b8", "#c6beb5", "#1b3d6d", "#f78d2d",
 #' 
 #' @source 
 #' Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
-#' \href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
+#' \href{https://brand.uci.edu/}{brand guide}.
 #' 
 #' @examples 
 #' uci_3
@@ -219,7 +219,7 @@ uci_3 <- unikn::newpal(col = c("#b71234","#7c109a","#00b0ca","#7ab800","#fecb00"
 #' 
 #' @source 
 #' Color definitions are based on \href{https://www.uci.edu}{UCIrvine}'s 
-#' \href{https://brand.uci.edu/master-branding/color-palette/}{brand guide}.
+#' \href{https://brand.uci.edu/}{brand guide}.
 #' 
 #' @examples 
 #' uci_4
