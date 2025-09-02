@@ -9,7 +9,7 @@ An object of class \code{character} of length 9.
 }
 \source{
 Color definitions are based on the 
-\href{https://www.uni-https://www.uni-potsdam.de/de/presse/infos-fuer-beschaeftigte/corporate-design-und-medien/online-und-print-medien-gestalten/corporate-design/}{University of Potsdam's Leitfaden (pdf)}.
+\href{https://www.uni-potsdam.de/de/presse/infos-fuer-beschaeftigte/corporate-design}{University of Potsdam's Leitfaden (pdf)}.
 }
 \usage{
 uni_potsdam

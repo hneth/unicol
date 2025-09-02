@@ -47,7 +47,7 @@
 #'
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_main
@@ -104,7 +104,7 @@ uwaterloo_main <- unikn::newpal(col = c("#FFFFAA", "#FFEA3D", "#FDD54F", "#E4B42
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_arts
@@ -160,7 +160,7 @@ uwaterloo_arts <- unikn::newpal(col = c("#FFD5A5", "#FBAF00", "#E78100", "#D93F0
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_engineering
@@ -217,7 +217,7 @@ uwaterloo_engineering <- unikn::newpal(col = c("#D0B4E7", "#BE33DA", "#8100B4", 
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_environment
@@ -271,7 +271,7 @@ uwaterloo_environment <- unikn::newpal(col = c("#DAF582", "#BED500", "#B4BE00", 
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_health
@@ -326,7 +326,7 @@ uwaterloo_health <- unikn::newpal(col = c("#97DFEF", "#00BED0", "#0098A5", "#005
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_math
@@ -382,7 +382,7 @@ uwaterloo_math <- unikn::newpal(col = c("#FFBEEF", "#FF63AA", "#DF2498", "#C6007
 #' 
 #' @source 
 #' Color definitions are based on the University of Waterloo's 
-#' \href{https://uwaterloo.ca/brand/}{Brand home}. 
+#' \href{https://uwaterloo.ca/}{Brand home}. 
 #'
 #' @examples
 #' uwaterloo_science

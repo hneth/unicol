@@ -9,7 +9,7 @@ An object of class \code{character} of length 4.
 }
 \source{
 Color definitions are based on the University of Waterloo's 
-\href{https://uwaterloo.ca/brand/}{Brand home}.
+\href{https://uwaterloo.ca/}{Brand home}.
 }
 \usage{
 uwaterloo_health
