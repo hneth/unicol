@@ -1,4 +1,40 @@
 
+# unicol 0.4.0.9001
+
+<!-- Development version:  --> 
+
+This is the development version of **unicol** available at <https://github.com/hneth/unicol/>. 
+
+<!-- Log of changes: --> 
+
+Changes since last release: 
+
+
+<!-- Major changes: --> 
+
+## Major changes
+
+- none yet
+
+
+<!-- Minor changes: --> 
+
+## Minor changes
+
+- none yet
+
+
+<!-- Details:  --> 
+
+## Details 
+
+- minor updates after CRAN release of **unicol** version 0.4.0 [2025-09-02]
+
+
+<!-- Published versions (on CRAN): --> 
+
+------ 
+
 # unicol 0.4.0
 
 <!-- Release version: -->
@@ -232,6 +268,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2025-09-02.]
+[File `NEWS.md` updated on 2025-09-03.]
 
 <!-- eof. -->
