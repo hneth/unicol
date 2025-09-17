@@ -5,8 +5,9 @@
 ^README\.Rmd$
 ^logo\.png$
 ^cran-comments\.md$
-^CRAN-SUBMISSION$
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
 ^Meta$
+^CRAN-SUBMISSION$
+^CITATION.cff$
