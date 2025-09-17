@@ -8,6 +8,7 @@ status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org
 [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol?color=%2200a9e0%22)](https://www.r-pkg.org/pkg/unicol)
 [![Total
 downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
+[![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/R-CMD-check.yaml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
 <!-- Devel badges end. -->
 
@@ -25,11 +26,11 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-
 
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol) -->
 
-<!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
-
 <!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol?color="00a9e0")](https://www.r-pkg.org/pkg/unicol) -->
 
 <!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+
+<!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/R-CMD-check.yaml) -->
 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 
