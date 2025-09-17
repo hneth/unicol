@@ -5,7 +5,7 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/unicol)](https://CRAN.R-project.org/package=unicol)
-[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol)
+[![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol?color=%2200a9e0%22)](https://www.r-pkg.org/pkg/unicol)
 [![Total
 downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106)
@@ -27,9 +27,9 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-
 
 <!-- [![R-CMD-check](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/hneth/unicol/actions/workflows/check-standard.yaml) -->
 
-<!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol?color="00a9e0")](https://www.r-pkg.org/pkg/unicol) -->
 
-<!-- [![Downloads/month](https://cranlogs.r-pkg.org/badges/unicol)](https://www.r-pkg.org/pkg/unicol) -->
+<!-- [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/unicol)](https://www.r-pkg.org/pkg/unicol) -->
 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8252106.svg)](https://doi.org/10.5281/zenodo.8252106) -->
 
@@ -358,6 +358,6 @@ creators.
 
 <!-- Footer: -->
 
-\[File `README.Rmd` updated on 2025-09-03.\]
+\[File `README.Rmd` updated on 2025-09-17.\]
 
 <!-- eof. -->
