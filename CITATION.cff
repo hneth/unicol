@@ -1,9 +1,11 @@
-cff-version: 1.1.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: Neth
-  given-names: Hansjörg
-orcid: https://orcid.org/0000-0001-5427-3141
-title: unicol: The colors of your university
-version: c0.4.0
+- family-names: "Neth"
+  given-names: "Hansjörg"
+  orcid: "https://orcid.org/0000-0001-5427-3141"
+title: "unicol: The colors of your university"
+version: 0.4.0
+doi: "10.5281/zenodo.8252106"
 date-released: 2025-09-02
+url: "https://CRAN.R-project.org/package=unicol"
