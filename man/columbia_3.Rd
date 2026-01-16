@@ -51,6 +51,9 @@ unikn::seecol(columbia_3, main = "The highlight colors of Columbia University") 
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
+\code{\link{IU_1}},
+\code{\link{IU_2}},
+\code{\link{IU_2_dp}},
 \code{\link{asu_1}},
 \code{\link{asu_2}},
 \code{\link{asu_3}},

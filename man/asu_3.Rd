@@ -51,6 +51,9 @@ unikn::seecol(asu_3, col_bg = "gray95",
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
+\code{\link{IU_1}},
+\code{\link{IU_2}},
+\code{\link{IU_2_dp}},
 \code{\link{asu_1}},
 \code{\link{asu_2}},
 \code{\link{berkeley_1}},

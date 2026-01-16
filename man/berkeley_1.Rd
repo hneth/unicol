@@ -59,6 +59,9 @@ unikn::seecol(berkeley_1, main = "Primary colors of Berkeley") # view color pale
 \code{\link[unikn]{grepal}} for finding named colors.
 
 Other U.S. university color palettes: 
+\code{\link{IU_1}},
+\code{\link{IU_2}},
+\code{\link{IU_2_dp}},
 \code{\link{asu_1}},
 \code{\link{asu_2}},
 \code{\link{asu_3}},
