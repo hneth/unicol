@@ -1,14 +1,14 @@
 ## IndianaUniversity | 2026 01 16
-## Colors of Indiana University / IU, USA
+## Colors of Indiana University Bloomington / IU, USA
 ## -----------------------------------------------------
 
 
 # Information: ------
 
-# cur_pals: "upenn_1", "upenn_2" (2)
-# inst: "University of Pennsylvania" / "UPenn"
+# cur_pals: "IU_1", "IU_2", "IU_2_dp (3)
+# inst: "Indiana University Bloomington" / "IU"
 # country: USA
-# URL: "https://www.upenn.edu"
+# URL: "https://bloomington.iu.edu/index.html"
 
 
 # Color source:
@@ -56,7 +56,10 @@ IU_2_dig_print <- unikn::usecol(pal = c("gray40", "gray60", "gray70", "gray80", 
 #' Cream and crimson are the key components of the IU brand and the IU Athletics look. 
 #' Crimson is the visual anchor and should be dominant in all marketing materials. 
 #' For marketing purposes, “cream” is treated as white.
-#'
+#' 
+#' Note that the members of the IU community are collectively known as Hoosiers  
+#' and the logo of Indiana University is the IU trident. 
+#' 
 #' \code{IU_1} uses the HEX color definitions. 
 #'
 #' @return

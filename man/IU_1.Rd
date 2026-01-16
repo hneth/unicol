@@ -30,6 +30,9 @@ Cream and crimson are the key components of the IU brand and the IU Athletics lo
 Crimson is the visual anchor and should be dominant in all marketing materials. 
 For marketing purposes, “cream” is treated as white.
 
+Note that the members of the IU community are collectively known as Hoosiers  
+and the logo of Indiana University is the IU trident. 
+
 \code{IU_1} uses the HEX color definitions.
 }
 \examples{
