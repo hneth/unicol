@@ -178,7 +178,7 @@ n <- 50 # N
 ```
 
 ```{r unicol-pals-example-1-lists, echo = FALSE, eval = TRUE}
-set.seed(155) # reproducible randomness
+set.seed(1) # reproducible randomness
 
 # A: Get sample_n of my_pals from all unicol_data$pal:
 sample_n <- sort(sample(x = 1:N, size = n, replace = FALSE))
@@ -234,7 +234,6 @@ for (i in 1:n){
 
 # ToDo: Sort by pal_len. +++ here now +++ 
 
-
 # Captions:
 tab_caption <- paste0("A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
 fig_caption <- paste0("Figure 1: A sample of ", n, " unicol palettes (containing ", col_count, " colors).")
@@ -243,12 +242,12 @@ fig_main    <- paste0("Illustrating ", n, " unicol palettes (with ", col_count, 
 
 ```{r unicol-pals-example-1-stats, echo = FALSE, eval = FALSE}
 # Stats (for n <- N):
-n_pals  # number of color palettes: 273 on 2024-05-07. 
-n_inst  # number of institutions:   102 on 2024-05-07.
+n_pals  # number of color palettes: 277 on 2026-01-16. 
+n_inst  # number of institutions:   117 on 2026-01-16.
 # Colors (in current set):
 col_count
-length(unlist(pal_list))          # number of colors: 226 on 2023-09-14. 
-length(unique(unlist(pal_list)))  # number of unique colors: 198 on 2023-09-14. 
+length(unlist(pal_list))          # number of colors: 101 on 2026-01-15. 
+length(unique(unlist(pal_list)))  # number of unique colors: 90 on 2026-01-15 
 ```
 
 
