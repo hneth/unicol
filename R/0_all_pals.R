@@ -126,7 +126,9 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "ku_1", "ku_2",
               "aarhus", 
               "helsinki_1", "helsinki_2", "helsinki_3", 
-              "aalto_1", "aalto_2"
+              "aalto_1", "aalto_2",
+              # NEW after v0.4.0:
+              "IU_1", "IU_2", "IU_2_dp"
 )
 
 
@@ -253,7 +255,9 @@ inst <- c(rep("ETH Zurich", 3),
           rep("University of Copenhagen", 2),
           "Aarhus University",
           rep("University of Helsinki", 3),
-          rep("Aalto University", 2)
+          rep("Aalto University", 2),
+          # NEW after v0.4.0: 
+          rep("Indiana University Bloomington", 3)
 ) # inst.
 
 # Alternative name (e.g. in source language), abbreviation (e.g., in URL): 
@@ -375,7 +379,9 @@ inst_alt <- c(rep("Eidgen\u00F6ssische Technische Hochschule, Z\u00FCrich", 3),
               rep("Kobenhavns Universitet / KU", 2),
               "Aarhus Universitet / AU",
               rep("Helsingin Yliopisto / UH", 3),
-              rep("Aalto Yliopisto / AU", 2)
+              rep("Aalto Yliopisto / AU", 2),
+              # NEW after v0.4.0: 
+              rep("IU Bloomington", 3)
 ) # inst_alt. 
 
 # Valid URL: 
@@ -497,7 +503,10 @@ url <- c(rep("https://ethz.ch/de.html", 3),
          rep("https://www.ku.dk", 2),
          "https://www.au.dk",
          rep("https://www.helsinki.fi", 3),
-         rep("https://www.aalto.fi/fi", 2)
+         rep("https://www.aalto.fi/fi", 2),
+         # NEW after v0.4.0: 
+         rep("https://bloomington.iu.edu/index.html", 3)
+         
 ) # url.
 
 
@@ -508,6 +517,7 @@ all_data <- data.frame(inst = inst, inst_alt = inst_alt, url = url, pal = uni_pa
 # dim(all_data)  # 202 4  2023-08-16
 # dim(all_data)  # 269 4  2024-01-01
 # dim(all_data)  # 273 4  2024-05-07
+# dim(all_data)  # 276 4  2026-01-16
 
 # Sort df by inst & pal: 
 all_data <- all_data[order(all_data$inst, all_data$pal), ]
@@ -553,11 +563,10 @@ row.names(all_data) <- 1:nrow(all_data)
 # 
 # all_data$pal[duplicated(all_data$pal)]  # duplicates?
 # 
-# # On 2024-05-07:
-# length(all_data$pal)           #  273 color palettes
-# length(unique(all_data$inst))  #  116 institutions
-# sum(n_cols)                    # 1878 colors
-
+# # On 2026-01-16:
+# length(all_data$pal)           #  276 color palettes
+# length(unique(all_data$inst))  #  117 institutions
+# sum(n_cols)                    # 1890 colors
 
 # +++ here now +++
 

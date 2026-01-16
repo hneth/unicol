@@ -1,11 +1,13 @@
 
-# unicol 0.4.0.9001
+# unicol 0.4.0.9002
 
 <!-- Development version:  --> 
 
 This is the development version of **unicol** available at <https://github.com/hneth/unicol/>. 
 
 <!-- Log of changes: --> 
+
+- The **unicol** package currently provides **276\ color palettes** from **117\ institutions**. 
 
 Changes since last release: 
 
@@ -14,9 +16,10 @@ Changes since last release:
 
 ## Major changes
 
-- none yet
-
-
+- New color palettes: 
+    - [Indiana University Bloomington](https://bloomington.iu.edu/index.html) (USA):  
+    
+    
 <!-- Minor changes: --> 
 
 ## Minor changes
@@ -268,6 +271,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2025-09-03.]
+[File `NEWS.md` updated on 2026-01-16.]
 
 <!-- eof. -->
