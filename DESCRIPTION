@@ -1,8 +1,8 @@
 Package: unicol
 Type: Package
 Title: The Colors of your University
-Version: 0.4.0.9001
-Date: 2025-09-16
+Version: 0.4.0.9002
+Date: 2026-01-16
 Authors@R: c(person("Hansjoerg", "Neth", role = c("aut", "cre"), email = "h.neth@uni.kn", comment = c(ORCID = "0000-0001-5427-3141")), 
              person("Constantin", "Basler", role = "ctb"),
              person("Paula", "Bauer", role = "ctb"),
@@ -35,5 +35,5 @@ DOI: 10.5281/zenodo.8252106
 URL: https://github.com/hneth/unicol/, https://hneth.github.io/unicol/
 BugReports: https://github.com/hneth/unicol/issues
 VignetteBuilder: knitr
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Language: en-US
