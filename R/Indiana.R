@@ -1,4 +1,4 @@
-## IndianaUniversity | 2026 01 16
+## Indiana.R | 2026 01 16
 ## Colors of Indiana University Bloomington / IU, USA
 ## -----------------------------------------------------
 
