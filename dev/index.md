@@ -1,4 +1,4 @@
-# unicol 0.4.0.9001
+# unicol 0.4.0.9002
 
 ### The colors of your university
 
@@ -50,8 +50,8 @@ library(unikn)   # for color functions
 
 ## Contents
 
-The **unicol** package currently provides **273 color palettes** from
-**116 institutions**.
+The **unicol** package currently provides **276 color palettes** from
+**117 institutions**.
 
 (See the vignette **[All color
 palettes](https://hneth.github.io/unicol/articles/color_pals.html)** for
@@ -59,12 +59,12 @@ an overview of included color palettes and institutions.)
 
 ### Examples of color palettes
 
-**Figure 1** illustrates 50 random color palettes (with 215 colors):
+**Figure 1** illustrates 50 random color palettes (with 96 colors):
 
-![Figure 1: A sample of 50 unicol palettes (containing 215
+![Figure 1: A sample of 50 unicol palettes (containing 96
 colors).](reference/figures/README-unicol-pals-example-1-figure-1.png)
 
-Figure 1: A sample of 50 unicol palettes (containing 215 colors).
+Figure 1: A sample of 50 unicol palettes (containing 96 colors).
 
 ### Using color palettes
 
@@ -234,4 +234,4 @@ creators.
 
 ------------------------------------------------------------------------
 
-\[File `README.Rmd` updated on 2025-12-12.\]
+\[File `README.Rmd` updated on 2026-01-16.\]

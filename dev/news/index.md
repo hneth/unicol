@@ -15,6 +15,9 @@ Changes since last release:
 - New color palettes:
   - [Indiana University
     Bloomington](https://bloomington.iu.edu/index.html) (USA):
+    [`IU_1`](https://hneth.github.io/unicol/dev/reference/IU_1.html),
+    [`IU_2`](https://hneth.github.io/unicol/dev/reference/IU_2.html),
+    [`IU_2_dp`](https://hneth.github.io/unicol/dev/reference/IU_2_dp.html)
 
 ### Minor changes
 
@@ -22,8 +25,7 @@ Changes since last release:
 
 ### Details
 
-- minor updates after CRAN release of **unicol** version 0.4.0
-  \[2025-09-02\]
+- revised online documentation of package and color palettes
 
 ------------------------------------------------------------------------
 
