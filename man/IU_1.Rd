@@ -34,7 +34,7 @@ For marketing purposes, “cream” is treated as white.
 }
 \examples{
 IU_1
-unikn::seecol(IU_1, main = "Primary colors of Indiana University Bloomington (IU)") # view color palette
+unikn::seecol(IU_1, main = "Primary colors of IU Bloomington (IU)") # view color palette
 
 }
 \seealso{

@@ -38,7 +38,7 @@ should remain the most prominent color.
 }
 \examples{
 IU_2
-unikn::seecol(IU_2, main = "Secondary colors of Indiana University Bloomington (IU)") # view color palette
+unikn::seecol(IU_2, main = "Secondary colors of IU Bloomington") # view color palette
 
 }
 \seealso{

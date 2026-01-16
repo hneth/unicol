@@ -71,7 +71,7 @@ IU_2_dig_print <- unikn::usecol(pal = c("gray40", "gray60", "gray70", "gray80", 
 #'
 #' @examples
 #' IU_1
-#' unikn::seecol(IU_1, main = "Primary colors of Indiana University Bloomington (IU)") # view color palette
+#' unikn::seecol(IU_1, main = "Primary colors of IU Bloomington (IU)") # view color palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -131,7 +131,7 @@ IU_1 <- unikn::newpal(col = c(IU_cream, IU_crimson),
 #'
 #' @examples
 #' IU_2
-#' unikn::seecol(IU_2, main = "Secondary colors of Indiana University Bloomington (IU)") # view color palette
+#' unikn::seecol(IU_2, main = "Secondary colors of IU Bloomington") # view color palette
 #'
 #' @family U.S. university color palettes
 #'
@@ -181,7 +181,7 @@ IU_2 <- unikn::newpal(col = c(IU_dark_limestone, IU_limestone,
 #'
 #' @examples
 #' IU_2_dp
-#' unikn::seecol(IU_2_dp, main = "Digital print version of the secondary colors of IU") # view color palette
+#' unikn::seecol(IU_2_dp, main = "Digital print version of IU's secondary colors") # view pal
 #'
 #' @family U.S. university color palettes
 #'

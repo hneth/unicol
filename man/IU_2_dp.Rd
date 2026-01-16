@@ -29,7 +29,7 @@ To avoid color shifts when printing digitally, the secondary palette should be c
 }
 \examples{
 IU_2_dp
-unikn::seecol(IU_2_dp, main = "Digital print version of the secondary colors of IU") # view color palette
+unikn::seecol(IU_2_dp, main = "Digital print version of IU's secondary colors") # view pal
 
 }
 \seealso{
