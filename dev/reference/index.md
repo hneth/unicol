@@ -279,6 +279,16 @@
   : Possible accent colors of the Humboldt University (HU) Berlin,
   Germany
 
+- [`iu_1`](https://hneth.github.io/unicol/dev/reference/iu_1.md) :
+  Primary colors of Indiana University Bloomington (IU), USA
+
+- [`iu_2`](https://hneth.github.io/unicol/dev/reference/iu_2.md) :
+  Secondary colors of Indiana University Bloomington (IU), USA
+
+- [`iu_2_dp`](https://hneth.github.io/unicol/dev/reference/iu_2_dp.md) :
+  Secondary colors of Indiana University Bloomington (IU), USA, for
+  digital printing
+
 - [`jhu_0`](https://hneth.github.io/unicol/dev/reference/jhu_0.md) :
   Identity colors of of Johns Hopkins University (JHU), USA
 
