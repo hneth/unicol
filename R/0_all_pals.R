@@ -1,4 +1,4 @@
-## 0_all_pals.R | 2024 05 07
+## 0_all_pals.R | 2026 01 20
 ## Inventory of all color palettes
 ## -------------------------------
 
@@ -128,7 +128,7 @@ uni_pals <- c("eth_1", "eth_2", "eth_3",
               "helsinki_1", "helsinki_2", "helsinki_3", 
               "aalto_1", "aalto_2",
               # NEW after v0.4.0:
-              "IU_1", "IU_2", "IU_2_dp"
+              "iu_1", "iu_2", "iu_2_dp"
 )
 
 

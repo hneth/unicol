@@ -18,9 +18,9 @@ Changes since last release:
 
 - New color palettes: 
     - [Indiana University Bloomington](https://bloomington.iu.edu/index.html) (USA): 
-    [`IU_1`](https://hneth.github.io/unicol/dev/reference/IU_1.html), 
-    [`IU_2`](https://hneth.github.io/unicol/dev/reference/IU_2.html), 
-    [`IU_2_dp`](https://hneth.github.io/unicol/dev/reference/IU_2_dp.html) 
+    [`iu_1`](https://hneth.github.io/unicol/dev/reference/iu_1.html), 
+    [`iu_2`](https://hneth.github.io/unicol/dev/reference/iu_2.html), 
+    [`iu_2_dp`](https://hneth.github.io/unicol/dev/reference/iu_2_dp.html) 
     
 
 <!-- Minor changes: --> 
@@ -274,6 +274,6 @@ The **unicol** package initially provides **202 color palettes** from **86 insti
 
 ---------- 
 
-[File `NEWS.md` updated on 2026-01-16.]
+[File `NEWS.md` updated on 2026-01-20.]
 
 <!-- eof. -->
