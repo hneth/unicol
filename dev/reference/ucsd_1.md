@@ -52,9 +52,6 @@ color palettes; [`grepal`](https://rdrr.io/pkg/unikn/man/grepal.html)
 for finding named colors.
 
 Other U.S. university color palettes:
-[`IU_1`](https://hneth.github.io/unicol/dev/reference/IU_1.md),
-[`IU_2`](https://hneth.github.io/unicol/dev/reference/IU_2.md),
-[`IU_2_dp`](https://hneth.github.io/unicol/dev/reference/IU_2_dp.md),
 [`asu_1`](https://hneth.github.io/unicol/dev/reference/asu_1.md),
 [`asu_2`](https://hneth.github.io/unicol/dev/reference/asu_2.md),
 [`asu_3`](https://hneth.github.io/unicol/dev/reference/asu_3.md),
@@ -83,6 +80,7 @@ Other U.S. university color palettes:
 [`harvard_1`](https://hneth.github.io/unicol/dev/reference/harvard_1.md),
 [`harvard_2`](https://hneth.github.io/unicol/dev/reference/harvard_2.md),
 [`harvard_3`](https://hneth.github.io/unicol/dev/reference/harvard_3.md),
+`iu_1`, `iu_2`, `iu_2_dp`,
 [`jhu_0`](https://hneth.github.io/unicol/dev/reference/jhu_0.md),
 [`jhu_1`](https://hneth.github.io/unicol/dev/reference/jhu_1.md),
 [`jhu_2`](https://hneth.github.io/unicol/dev/reference/jhu_2.md),

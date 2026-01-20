@@ -2,16 +2,6 @@
 
 ## All functions
 
-- [`IU_1`](https://hneth.github.io/unicol/dev/reference/IU_1.md) :
-  Primary colors of Indiana University Bloomington (IU), USA
-
-- [`IU_2`](https://hneth.github.io/unicol/dev/reference/IU_2.md) :
-  Secondary colors of Indiana University Bloomington (IU), USA
-
-- [`IU_2_dp`](https://hneth.github.io/unicol/dev/reference/IU_2_dp.md) :
-  Secondary colors of Indiana University Bloomington (IU), USA, for
-  digital printing
-
 - [`ucc_1`](https://hneth.github.io/unicol/dev/reference/UCC_1.md) :
   Primary colours of the University College Cork, Ireland
 
